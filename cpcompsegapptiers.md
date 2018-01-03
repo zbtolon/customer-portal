@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 1994, 2017
+  years: 1994, 2018
 
 lastupdated: "2017-12-06"
 
@@ -17,7 +17,7 @@ lastupdated: "2017-12-06"
 # Securing and scaling your environment
 {: #cp_compsegapptierssecscal}
 
-When hosting an application, two of the most critical aspects to consider for any system administrator are the security and scalability of the application. 
+When hosting an application, two of the most critical aspects to consider for any system administrator are the security and scalability of the application.
 {:shortdesc}
 
 ## Securing your systems with firewalls

@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 1994, 2017
+  years: 1994, 2018
 
 lastupdated: "2017-12-06"
 
@@ -80,8 +80,3 @@ After billing items for an account have been associated to a device, you can rem
 4. Click **Yes**.
 
 When you complete the request, the billing item association removal occurs immediately within backend systems. After you remove a billing item's association, it is shown within the Unassociated Billing Items list and the device name is no longer shown in the Associated With column for each billing item. You can [associate billing items to another device](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device) at any time by using either the single or bulk association method.
-
-
-
-
-

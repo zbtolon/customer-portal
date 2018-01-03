@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 1994, 2017
+  years: 1994, 2018
 
 lastupdated: "2017-12-06"
 
@@ -18,56 +18,56 @@ lastupdated: "2017-12-06"
 # Creating system reports
 {: #cp_compuschrootkit}
 
-You can use the Chrootkit tool to scan, create, and email system reports. 
+You can use the Chrootkit tool to scan, create, and email system reports.
 {:shortdesc}
 
 To use the Chrootkit tool, first SSH as the admin to your server. Do not use telnet, which should already be disabled. Then, use the following steps:
 
 1. Change to the root directory:  
-  
+
   ```
   su -
   ```
   {: pre}
-  
+
 2. Run the following command:
-  
+
   ```
   wget ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.tar.gz
   ```
   {: pre}
-  
+
 3. Check the MD5 SUM of the download for security:<br/
-  
+
   ```
   ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.md5
   md5sum chkrootkit.tar.gz
   ```
   {: pre}
-  
+
 4. Unpack the tarball using the following command:<br/>
-  
+
   ```
   tar xvzf chkrootkit.tar.gz
   ```
   {: pre}
-  
+
 5. Change to the directory it created:
-  
+
   ```
   cd chkrootkit*
   ```
   {: pre}
-  
+
 6. Compile the results by running the following command:
-  
+
   ```
   make sense
   ```
   {: pre}
-  
+
 7. To use chkrootkit, enter the following command:
-  
+
   ```
   ./chkrootkit
   ```
@@ -79,7 +79,7 @@ If you see *Checking `bindshell`... INFECTED (PORTS: 465)* and you are running P
 {: tip}
 
 8. Change the directory (`cd ..`) and remove the .gz file:  
-  
+
   ```
   rm chkrootkit.tar.gz
   ```
@@ -91,14 +91,14 @@ If you see *Checking `bindshell`... INFECTED (PORTS: 465)* and you are running P
 To set up a daily automated system scan that emails you a report, use the following steps:
 
 1. While in SSH run the following command:
-  
+
   ```
   pico /etc/cron.daily/chkrootkit.sh
   ```
   {: pre}
-  
+
 2. Add the following line to the new file:
-  
+
   ```
   #!/bin/bash<br/>
   cd /yourinstallpath/chkrootkit-0.42b/<br/>
@@ -110,21 +110,21 @@ To set up a daily automated system scan that emails you a report, use the follow
 4. Change `Servername` to the server you're running so you know where it's coming from.
 5. Change `admin@youremail.com` to your actual email address where you want the script to email you.
 6. Use the following command to save the file in SSH:
-  
+
   ```
   Ctrl+X then type Y
   ```
   {: pre}
-  
+
 7. Change the file permissions to run it:
-  
+
   ```
   chmod 755 /etc/cron.daily/chkrootkit.sh
   ```
   {: pre}
-  
+
 8.  Optionally, you can run a test report manually in SSH to see how it looks:
-  
+
   ```
   cd /etc/cron.daily/
   ./chkrootkit.sh

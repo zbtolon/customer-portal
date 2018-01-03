@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 1994, 2017
+  years: 1994, 2018
 
 lastupdated: "2017-12-12"
 
@@ -205,5 +205,3 @@ You can indicate that you want support exclusively from a support team that is p
 If the **EU Supported** option is not available, you might have users in your account with PPTP VPN access enabled. Disable the PPTP VPN access for all of the users in your account first to enable the **EU Supported** option. See [Activating or deactivating PPTP VPN access](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn) for more information.
 
 For more information about implementing the **EU Supported** option when you open a support ticket, see [Requesting support for resources in the European Union](/docs/support/index.html#eusupported).
-
-

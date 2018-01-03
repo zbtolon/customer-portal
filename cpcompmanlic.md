@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 1994, 2017
+  years: 1994, 2018
 
 lastupdated: "2017-12-06"
 
@@ -45,7 +45,7 @@ Control panel licenses are invoiced on a monthly basis, based on the agreed-upon
 5. Enter any notes regarding the cancellation in the **Notes** text box.
 6. Click **Continue** to advanced to the confirmation screen.
 7. Select the **Data Loss Acknowledgement** check box.
-  
+
   If you didn't back up any important data, return to the first step and back up all data prior to canceling the license.
   {: tip}
 

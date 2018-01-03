@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 1994, 2017
+  years: 1994, 2018
 
 lastupdated: "2017-12-07"
 
@@ -38,7 +38,7 @@ Tracking passwords within the customer portal is optional and any user with appr
 
   The software listed is provided by {{site.data.keyword.BluSoftlayer_notm}} infrastructure through paid or complimentary subscriptions. No third party software that has been manually installed on the device is available for tracking through the customer portal.
   {: tip}
-  
+
 6. Enter the user name and password for the software in the corresponding fields.
 8. Optionally, you can enter any applicable comments in the **Notes** field.
 9. Click **Add Credentials**.
