@@ -171,8 +171,8 @@ When a [new user is added](/docs/customer-portal/cpmanacctadduser.html#customerp
 
 1. Access the customer portal using your unique credentials.
 2. Select **Account** > **VPN Access** from the navigation bar.
-3. Click the **current VPN access type** link in the **VPN Access** column to display the VPN Access window.
-4. Select a **VPN method** from the **VPN Type** list.
+3. Click the current VPN access type link for the user in the **VPN Access** column to display the VPN Access window.
+4. From the **VPN Type** list, select a VPN method (SSL, PPTP, SSL & PPTP, or none) to assign the user.
 5. Indicate how the **Subnet Access** should be managed:
   * Select **Auto** to automatically manage subnet access
   * Select **Manual** to manually manage subnet access and then select the **Grant Access** check box for each subnet to which the user should have access. Be sure to clear any check boxes that the user should not have access to.
@@ -186,12 +186,12 @@ After updating a user's VPN access, their permissions are updated accordingly an
 You can activate PPTP VPN to form a secure tunnel to the {{site.data.keyword.BluSoftlayer_full}} infrastructure private network using specialized client software running on the your desktop or dedicated device. You can use PPTP if you need to connect your entire office or if you cannot use the SSL VPN solution.
 {:shortdesc}
 
-You are allotted one PPTP connection with additional connections available.  You can request support to enable unlimited PPTP access, which is available at no additional charge. Use the following steps to activate or deactivate PPTP VPN access:
+You are allotted one PPTP connection with additional connections available. You can request support to enable unlimited PPTP access, which is available at no additional charge. Use the following steps to activate or deactivate PPTP VPN access:
 
 1. Access the customer portal using your unique credentials.
 2. Select **Account** > **VPN Access** from the menu bar.
-3. Click the **current VPN access type** link in the **VPN Access** column to display the VPN Access window.
-4. Select the type of VPN access (SSL, PPTP, SSL & PPTP, or none) to assign the user.
+3. Click the current VPN access type link for the user in the **VPN Access** column to display the VPN Access window.
+4. From the **VPN Type** list, select a VPN method (SSL, PPTP, SSL & PPTP, or none) to assign the user.
 
 ## Setting the EU Supported option
 {: #cp_seteusupported}
