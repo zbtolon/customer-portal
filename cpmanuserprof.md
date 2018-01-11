@@ -35,7 +35,7 @@ After a user profile has been created in the customer portal, you can edit it at
 5. If you want to reset your password after you log in, click **Reset Password** to generate an email allowing you to change your password.
 6. Click **Edit User** to submit the changes.
 
-Field|Definition|
+| Field | Definition |
 |-----|----------|
 | First name, Last name | First and last name of the user associated with the user profile.|
 | Email Address | Preferred email address to receive notifications from {{site.data.keyword.BluSoftlayer_notm}} infrastructure regarding the account. Changing the email address changes the record in {{site.data.keyword.BluSoftlayer_notm}} infrastructure. This change does not affect the linkage to the IBMid authentication credentials. You must change the email address for the IBMid from the IBMid profile.|
