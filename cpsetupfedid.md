@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-01-11"
 
 ---
 
@@ -78,6 +78,8 @@ Use the following steps to set up a role for a user:
 3. Ensure that roles defined in {{site.data.keyword.BluSoftlayer}} infrastructure and the identity provider have the same name.
 
 ### Setting up a user
+{: #setupuser}
+
 Use the following steps to set up a user:
 
 1. Set up users in the identity provider.
