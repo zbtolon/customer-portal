@@ -21,7 +21,7 @@ lastupdated: "2018-01-11"
 In the customer portal, a user profile contains a variety of data about the user, including contact information and the API key. It is also the location in which passwords are stored. Additionally, if you have administrative access, you can change permissions and device access from the profile.
 {:shortdesc}
 
-Within the user profile, you can manage contact information and passwords, view API keys, and update additional permissions and device access (based on your permissions).
+Within the user profile, you can manage contact information and passwords, view API keys, and update additional permissions and device access based on your permissions.
 
 ## Editing a user profile
 {: #cp_edituserprofile}
@@ -32,11 +32,34 @@ After a user profile has been created in the customer portal, you can edit it at
 2. Select **Account > Users** from the navigation bar.
 3. Click the user name to access the associated user profile for that user.
 4. Edit the **User Profile** details as necessary. For users in accounts that use IBMid for authentication, update your email and password in your IBMid profile. See Table 1 for more information.
-5. If you want to reset your password after you log in, click **Reset Password** to generate a new email allowing you to change your password.
+5. If you want to reset your password after you log in, click **Reset Password** to generate an email allowing you to change your password.
 6. Click **Edit User** to submit the changes.
 
-<table border="1"><caption align="bottom">Table 1. Configuration settings for editing a user profile</caption><tr><th>Section</th><th>Field</th><th>Definition</th></tr><tr><td rowspan="5">Personal Information</td><td>First Name, Last Name</td><td>First and last name of the user associated with the user profile.</td></tr><tr><td>Email Address</td><td>Preferred email address to receive notifications from {{site.data.keyword.BluSoftlayer_notm}} infrastructure regarding the account. Changing the email address changes only the record in {{site.data.keyword.BluSoftlayer_notm}} infrastructure. This change does not affect the linkage to the IBMid authentication credentials. You must change the email address for the IBMid from the IBMid profile.</td></tr><tr><td>Time Zone</td><td>Preferred time zone to use when displaying time-stamped data.</td></tr><tr><td>Phone, Alt Phone</td><td>Preferred contact phone numbers to be used by {{site.data.keyword.BluSoftlayer_notm}} infrastructure.</td></tr><tr><td>Street Address, City, Country, State/Province, ZIP/Postal Code</td><td>Full address for contact to be used by {{site.data.keyword.BluSoftlayer_notm}} infrastructure.</td></tr><tr><td rowspan="5">Log In Settings</td><td>Restrict Access to IP</td><td>IP address to restrict access to when attempting to use the customer portal under the associated user profile.</td></tr><tr><td>Expire Password In (only for users in accounts that do NOT use IBMid for authentication)</td><td>Amount of time in which a password should be associated with the user profile before a new password must be selected.</td></tr><tr><td>Parent User</td><td>User account that is considered the parent user of the user profile. The parent user default is the primary account ID.</td></tr><tr><td>Require Security Questions?</td><td>Select this check box when security questions should be required during login. If this box is selected, security questions are required for the user profile.</td></tr><tr><td>VPN Password</td><td>Password to be used for VPN access. Click the **Use Portal Password for VPN** check box to use the customer portal password to access {{site.data.keyword.BluSoftlayer_notm}} infrastructure network through VPN.</td></tr><tr><td>API Access Information</td><td>Allowed IPs</td><td>IP addresses permitted to authenticate to the API using the unique API key associated with the user profile</td></tr><tr><td>User Notification Subscriptions</td><td>Billing</td><td>Select the **Billing** check box to receive an email invoice after it has been created.</td></tr><tr><td rowspan="2">Security Questions</td><td>Security Question</td><td>When editing your profile, this is the question that you must answer to login when security questions have been activated for your profile.</td></tr><tr><td>Answer</td><td>Case sensitive answer to the applicable security question.</td></tr></table>
+Field|Definition|
+|-----|----------|
+| First name, Last name | First and last name of the user associated with the user profile.|
+| Email Address | Preferred email address to receive notifications from {{site.data.keyword.BluSoftlayer_notm}} infrastructure regarding the account. Changing the email address changes the record in {{site.data.keyword.BluSoftlayer_notm}} infrastructure. This change does not affect the linkage to the IBMid authentication credentials. You must change the email address for the IBMid from the IBMid profile.|
+| Time zone | Preferred time zone to use when displaying time-stamped data.|
+| Phone, Alt phone| Preferred contact phone numbers to be used by {{site.data.keyword.BluSoftlayer_notm}} infrastructure.|
+| Street address, City, Country, State/Province, ZIP/Postal code | Full address for contact to be used by {{site.data.keyword.BluSoftlayer_notm}} infrastructure.|
+{: caption="Table 1. Personal information configuration settings for editing a user profile" caption-side="top"}
 
+|Field|Definition|
+|-----|----------|
+| Restrict Access to IP | IP address to restrict access to when attempting to use the customer portal under the associated user profile. |
+| Expire password in (only for users in accounts that do NOT use IBMid for authentication) | Amount of time in which a password should be associated with the user profile before a new password must be selected. |
+| Parent user | User account that is considered the parent user of the user profile. The parent user default is the primary account ID. |
+| Require security questions? | Select this check box when security questions should be required during login. If this box is selected, security questions are required for the user profile. |
+| VPN Password | Password to be used for VPN access. Click the **Use Portal Password for VPN** check box to use the customer portal password to access {{site.data.keyword.BluSoftlayer_notm}} infrastructure network through VPN. |
+{: caption="Table 2. Log in settings configuration settings for editing a user profile" caption-side="top"}
+
+|Section|Field|Definition|
+|-------|-----|----------|
+| API Access Information | Allowed IPs | IP addresses permitted to authenticate to the API using the unique API key associated with the user profile |
+| User Notification Subscriptions | Billing | Select the **Billing** check box to receive an email invoice after it has been created. |
+| Security questions | Security question | When editing your profile, this is the question that you must answer to log in when security questions have been activated for your profile.
+| Security answers | Answer | Case sensitive answer to the applicable security question. |
+{: caption="Table 3. Other configuration settings for editing a user profile" caption-side="top"}
 After submitting edits to a user profile, the changes are applied immediately. You can change the user profile again at any time by repeating the previous steps.  
 
 See [Switching to IBMid](/docs/admin/softlayerlink.html#switching-to-ibmid) for more information about setting up an IBMid account.
@@ -171,7 +194,7 @@ When a [new user is added](/docs/customer-portal/cpmanacctadduser.html#customerp
 
 1. Access the customer portal using your unique credentials.
 2. Select **Account** > **VPN Access** from the navigation bar.
-3. Click the current VPN access type link for the user in the **VPN Access** column to display the VPN Access window.
+3. From the **VPN Access** column for the user, click the current VPN access type link to display the VPN Access window.
 4. From the **VPN Type** list, select a VPN method (SSL, PPTP, SSL & PPTP, or none) to assign the user.
 5. Indicate how the **Subnet Access** should be managed:
   * Select **Auto** to automatically manage subnet access
@@ -184,13 +207,12 @@ After updating a user's VPN access, their permissions are updated accordingly an
 {: #cp_pptpvpn}
 
 You can activate PPTP VPN to form a secure tunnel to the {{site.data.keyword.BluSoftlayer_full}} infrastructure private network using specialized client software running on the your desktop or dedicated device. You can use PPTP if you need to connect your entire office or if you cannot use the SSL VPN solution.
-{:shortdesc}
 
-You are allotted one PPTP connection with additional connections available. You can request support to enable unlimited PPTP access, which is available at no additional charge. Use the following steps to activate or deactivate PPTP VPN access:
+You are allotted one PPTP connection with additional connections available.  You can request support to enable unlimited PPTP access, which is available at no additional charge. Use the following steps to activate or deactivate PPTP VPN access:
 
 1. Access the customer portal using your unique credentials.
 2. Select **Account** > **VPN Access** from the menu bar.
-3. Click the current VPN access type link for the user in the **VPN Access** column to display the VPN Access window.
+3. From the **VPN Access** column for the user, click the current VPN access type link to display the VPN Access window.
 4. From the **VPN Type** list, select a VPN method (SSL, PPTP, SSL & PPTP, or none) to assign the user.
 
 ## Setting the EU Supported option
