@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-01-11"
 
 ---
 
@@ -170,7 +170,7 @@ After you update a user's status, changes to customer portal accessibility align
 When a [new user is added](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct) to a customer portal account, VPN access is selected from a variety of connection methods, including SSL, PPTP, or a combination of the two. With VPN access, the private network can be accessed in its entirety or network access can be limited to one or more specific subnets. You can manage and update VPN access at any time from the Users window. Use the following steps to edit a user's VPN access.
 
 1. Access the customer portal using your unique credentials.
-2. Select **Account > Users** from the navigation bar.
+2. Select **Account** > **VPN Access** from the navigation bar.
 3. Click the **current VPN access type** link in the **VPN Access** column to display the VPN Access window.
 4. Select a **VPN method** from the **VPN Type** list.
 5. Indicate how the **Subnet Access** should be managed:
@@ -180,7 +180,7 @@ When a [new user is added](/docs/customer-portal/cpmanacctadduser.html#customerp
 
 After updating a user's VPN access, their permissions are updated accordingly and the VPN Access column displays the updated VPN access method, if applicable.
 
-### Activating or deactivating PPTP VPN access
+### Activating or deactivating VPN access
 {: #cp_pptpvpn}
 
 You can activate PPTP VPN to form a secure tunnel to the {{site.data.keyword.BluSoftlayer_full}} infrastructure private network using specialized client software running on the your desktop or dedicated device. You can use PPTP if you need to connect your entire office or if you cannot use the SSL VPN solution.
@@ -189,9 +189,9 @@ You can activate PPTP VPN to form a secure tunnel to the {{site.data.keyword.Blu
 You are allotted one PPTP connection with additional connections available.  You can request support to enable unlimited PPTP access, which is available at no additional charge. Use the following steps to activate or deactivate PPTP VPN access:
 
 1. Access the customer portal using your unique credentials.
-2. Select **Account > Users** from the menu bar.
+2. Select **Account** > **VPN Access** from the menu bar.
 3. Click the **current VPN access type** link in the **VPN Access** column to display the VPN Access window.
-4. Select the **PPTP Access** check box to activate or deactivate PPTP VPN access for that user.
+4. Select the type of VPN access (SSL, PPTP, SSL & PPTP, or none) to assign the user.
 
 ## Setting the EU Supported option
 {: #cp_seteusupported}
