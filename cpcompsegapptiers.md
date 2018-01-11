@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-01-11"
 
 ---
 
@@ -41,7 +41,7 @@ For example, with a two tiered application that relies on a web front and databa
 By setting up your environment in this way, you increase security by keeping people from accessing SSH or RDP from the internet and disabling all internet traffic to your database.  Creating ACL’s between your web layer and database layer makes it more difficult to compromise your database in the event that your web server gets compromised.
 
 ## Scaling your environment by segmenting your application tiers
-{: #cp_copmsecenv}
+{: #cp_copmscaleenv}
 
 A multi-tiered environment also provides ease of scalability when compared to vertical or single host architectures. You can set up a multi-tiered environment to make scaling out your application easier by allowing scaling for the services that need additional resources. For example, in the previous scenario, if your web server is being over taxed, you can simply deploy another web server, replicate site or application data, and set up load balancing or round robin DNS to enable your two web servers to split your web load. Round robin DNS or load balancing provides high availability to your environment by enabling  multiple web servers to respond to incoming requests.  If a single server goes down, another node is available to handle end user requests.
 
