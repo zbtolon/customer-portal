@@ -20,6 +20,7 @@ Managing infrastructure resources
         cpmanacctconfsso.md
         ccpmanacccancreq.md
         cpsetupfedid.md
+        accessing_infrastructure.md
 
     {: .topicgroup}
     Managing billing and payments
