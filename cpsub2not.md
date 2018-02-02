@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-02"
 
 ---
 
@@ -63,7 +63,7 @@ One of the more frequent targets for security breaches is virtual infrastructure
 ## Adding subscribers to event notifications
 {: #cp_bpaddsub2eventnotcp}
 
-Increasingly, IBM customers rely on {{site.data.keyword.BluSoftlayer_notm}} infrastructure services (IaaS), either by contracting with IBM for managed infrastructure services, by contracting for cloud services that run on {{site.data.keyword.BluSoftlayer_notm}} infrastructure, or contracting directly with {{site.data.keyword.BluSoftlayer_notm}} infrastructure services. When cloud services involve infrastructure, only SoftLayer account users are authorized to receive notifications, as described in the preceding section. In some cases, you might not the IBM Account or Managed Service teams involved in the operations or support of infrastructure services to access your SoftLayer accounts. A new feature has been added to the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal that allows you to designate a list of subscribers, for example IBM personnel, to receive notifications without having any privileges on your accounts.
+Increasingly, IBM customers rely on {{site.data.keyword.BluSoftlayer_notm}} infrastructure services (IaaS), either by contracting with IBM for managed infrastructure services, by contracting for cloud services that run on {{site.data.keyword.BluSoftlayer_notm}} infrastructure, or by contracting directly with {{site.data.keyword.BluSoftlayer_notm}} infrastructure services. When cloud services involve infrastructure, only SoftLayer account users are authorized to receive notifications, as described in the preceding section. In some cases, you might not want the IBM Account or Managed Service teams involved in the operations or support of infrastructure services to access your SoftLayer accounts. A new feature has been added to the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal that allows you to designate a list of subscribers, for example IBM personnel, to receive notifications without having any privileges on your accounts.
 
 To designate a list of subscribers, master users can log in to their customer portal account and use the following steps:
 1. Click **Account** > **Manage** > **Subscriptions** from the menu.
