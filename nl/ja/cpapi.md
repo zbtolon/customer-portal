@@ -1,0 +1,32 @@
+---
+
+copyright:
+
+  years: 1994, 2018
+
+lastupdated: "2017-12-05"
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:screen: .screen}
+{:new_window: target="_blank"}
+
+
+# SoftLayer API
+{: #customerportal_api}
+
+この API を使用すると、カスタマー・ポータルを使用する代わりに開発環境で直接 API 呼び出しを使用することによって、アカウント、製品、およびサービスと対話することができます。
+{:shortdesc}
+
+この API の目標は、カスタマー・ポータルのすべての作業を API で実行できる環境を提供することです。さまざまな言語でプログラムを作成する機能や、SOAP ベース、XML-RPC ベース、および REST ベースの API を使用するオプションを含めて、最良のオプションが確実に使用可能になるよう、API 環境は頻繁な追加と更新によって保守されます。カスタマー・ポータルでの作業と同様に、API で主にアカウント対話を行う場合にもサポートのための存続可能なソースが必要です。
+
+## この API についてもっと詳しく知る方法
+{: #cp_apimoreinfo}
+
+[SoftLayer Development Network (SLDN) ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://sldn.softlayer.com/){:new_window} は、API を使用してアカウント、製品、およびサービスと対話するユーザーのサポートを専門としています。[SLDN ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://sldn.softlayer.com/){:new_window} には、SoftLayer API、サポートされるプログラミング言語、使用可能な API 呼び出しなどに関する資料が含まれています。SLDN は、さまざまな API 機能に関する情報、API 呼び出しの完全なリスト、および、API の最良の使用方法についてのヒントを得られるさまざまなブログ投稿を参照するために使用できるリソースです。
+
+
+API についての質問がある場合、カスタマー・フォーラムに投稿するか、記事への直接のフィードバックとして投稿できます。
