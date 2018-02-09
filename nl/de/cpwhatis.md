@@ -1,0 +1,39 @@
+---
+
+copyright:
+
+  years: 1994, 2018
+
+lastupdated: "2017-12-05"
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:screen: .screen}
+{:new_window: target="_blank"}
+
+
+# Was ist das Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur?
+{: #customerportal_whatisCP}
+
+Mit der {{site.data.keyword.Bluemix}}-Konsole können Sie einen Großteil Ihrer Infrastruktur verwalten. Das Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur bietet jedoch einige zusätzliche Funktionen für die Verwaltung von Infrastrukturprodukten und -services sowie SoftLayer-Konten.
+{:shortdesc}
+
+Die Verwendung des Kundenportals der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anstelle der {{site.data.keyword.Bluemix_notm}}-Konsole könnte in den folgenden Situationen praktisch sein:
+  * Sie verwenden lediglich die {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices (und nicht die Plattform) und besitzen kein [verknüpftes Konto](/docs/cloud-platform/accounts/softlayerlink.html#link_user_accounts).
+  * Sie verfügen nicht über eine [IBMid](/docs/admin/softlayerlink.html#switching-to-ibmid).
+  * Sie müssen auf eine Bundesumgebung zugreifen können. Beispielsweise macht eine Regierungsbehörde in den USA möglicherweise ein Rechenzentrum mit einem stärkeren Schutz erforderlich, auf das nur eingeschränkt externer Zugriff besteht. In einer solchen Umgebung sind nur {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices verfügbar; der Zugriff auf die {{site.data.keyword.Bluemix_notm}}-Plattform ist ein einem Bundesrechenzentrum nicht möglich.
+
+In diesen Fällen können Sie im Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur die folgenden Tasks ausführen:
+  * Produkte und Services der Infrastruktur bestellen und mit ihnen interagieren (z. B. Geräte und [virtuelle Server](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers) hinzufügen und verwalten)
+  * Verknüpfte oder nicht verknüpfte SoftLayer-Konten verwalten und pflegen
+  * Monatliche Rechnungen für Infrastrukturressourcen anzeigen und bezahlen
+  * Tickets für ein Produkt oder einen Service der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur öffnen, anzeigen und aktualisieren
+
+Für alle anderen Task verwenden Sie die [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}.
+
+Der Zugriff auf das Kundenportal ist auf den folgenden Wegen möglich:
+* Ausgehend vom Menü der [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} durch Auswahl von **Infrastruktur** über das Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg) in der Menüleiste. Weitere Informationen finden Sie unter [Funktionsweise der {{site.data.keyword.cloud_notm}}-Konsole](/docs/overview/ui.html#ui).
+* Direkt aus dem SoftLayer-[Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.
