@@ -22,9 +22,9 @@ You can use the {{site.data.keyword.Bluemix}} console to manage much of your inf
 {:shortdesc}
 
 You would use the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal, instead of the {{site.data.keyword.Bluemix_notm}} console, for the following reasons:
-  * If you are using only {{site.data.keyword.Bluemix_notm}} infrastructure services (and not the platform services) and you do not have a [linked account](/docs/cloud-platform/accounts/softlayerlink.html#link_user_accounts).
-  * If you do not have an [IBMid](/docs/admin/softlayerlink.html#switching-to-ibmid).
-  * * If you need access to a federal environment, for example, a United States government agency might require a more securely locked down data center with limited external access. Only {{site.data.keyword.Bluemix_notm}} infrastructure services are available in this environment; {{site.data.keyword.Bluemix_notm}} platform access is not available in a federal data center.
+  * If you are using only {{site.data.keyword.Bluemix_notm}} infrastructure services (and not the platform services) and you do not have a [linked account](/docs/account/softlayerlink.html#link_user_accounts).
+  * If you do not have an [IBMid](/docs/account/softlayerlink.html#switchtoIBMid).
+  * If you need access to a federal environment, for example, a United States government agency might require a more securely locked down data center with limited external access. Only {{site.data.keyword.Bluemix_notm}} infrastructure services are available in this environment; {{site.data.keyword.Bluemix_notm}} platform access is not available in a federal data center.
 
 You would then use the {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for the following tasks:
   * Ordering and interacting with infrastructure products and services, for example adding and managing devices and [virtual servers](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
