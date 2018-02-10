@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -24,9 +24,9 @@ In this tutorial, we'll walk through the process of getting you up and running w
 ## Before you begin
 {: #prereqs}
 
-You'll need an [{{site.data.keyword.Bluemix}} account ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){:new_window}. Log in to the customer portal with your IBMid credentials. Most new users use IBMid for authentication.
+You'll need an [{{site.data.keyword.Bluemix}} account ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){:new_window}. Log in to the customer portal with your IBMid credentials. Most new users use [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) for authentication.
 
-For users with accounts that do not use IBMid for authentication, log in to the customer portal with the credentials you received in the email that was sent when your account was initially created.
+If you do not use IBMid for authentication to log in to your account, log in to the customer portal with your unique {{site.data.keyword.BluSoftlayer_notm}} infrastructure credentials.
 {: tip}
 
 ## Step 1: Set up your account
@@ -50,7 +50,7 @@ When you set infrastructure permissions in the initial invitation, you choose fr
 ## Step 3: Enable access to the {{site.data.keyword.Bluemix_notm}} infrastructure private network
 {: #enable-private-network}
 
-The {{site.data.keyword.Bluemix_notm}} infrastructure private network is offered to users and devices free of charge. All bandwidth that's used on the private network is unmetered and complimentary. The private network offers many benefits including replicating device environments to other data centers for failover, front-end system accessiblity to database servers, and secure access and management to your systems.
+The {{site.data.keyword.Bluemix_notm}} infrastructure private network is offered to users and devices free of charge. All bandwidth that's used on the private network is unmetered and complimentary. The private network offers many benefits including replicating device environments to other data centers for failover, front-end system accessibility to database servers, and secure access and management to your systems.
 
 To enable user access to the private network, edit the VPN access in the customer portal:
   1. Select **Account** > **VPN Access** from the menu bar.  

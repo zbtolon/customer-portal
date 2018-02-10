@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-01-30"
+lastupdated: "2017-02-09"
 
 ---
 
@@ -27,6 +27,7 @@ You would use the {{site.data.keyword.BluSoftlayer_notm}} infrastructure custome
   * If you need access to a federal environment, for example, a United States government agency might require a more securely locked down data center with limited external access. Only {{site.data.keyword.Bluemix_notm}} infrastructure services are available in this environment; {{site.data.keyword.Bluemix_notm}} platform access is not available in a federal data center.
 
 You would then use the {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for the following tasks:
+  * Managing access of your resources, monitoring resources, and viewing access logs
   * Ordering and interacting with infrastructure products and services, for example adding and managing devices and [virtual servers](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
   * Managing and maintaining your linked or unlinked SoftLayer accounts
   * Viewing and paying monthly infrastructure resource invoices

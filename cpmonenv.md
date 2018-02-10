@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -18,18 +18,18 @@ lastupdated: "2017-12-04"
 # Monitoring your environment and system events
 {: #customerportal_cpmonenvsysevent}
 
-Monitoring your environment means you have the ability to check on devices at any time and you are automatically notified if one of your devices goes down. You can also monitor system events to keep your systems running smoothly.  
+Monitoring your environment means that you have the ability to check on devices at any time and you are automatically notified if one of your devices goes down. You can also monitor system events to keep your systems running smoothly.  
 {: shortdesc}
 
 ## Monitoring your environment
 {: #cpmonenv}
 
-At a minimum, use basic ping monitoring but you can customize your monitoring options in a way that best suits your business needs.
+At a minimum, use basic ping monitoring but you can customize your monitoring options in a way that best suits your business needs. See [Setting Up a Bare Metal Server](/docs/customer-portal/cpsetupbaremetal.html) for monitoring options.
 
 ### Staying informed of network maintenance and unplanned events
 {: #cp_stayinfomaintevent}
 
-From time to time, scheduled and emergency network maintenance is unavoidable. {{site.data.keyword.BluSoftlayer_full}} infrastructure maintains many channels, such as [Twitter account ![External link icon](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, to keep you informed of all scheduled and emergency maintenance events. Additionally, you can [subscribe to email notifications](/docs/customer-portal/cpsub2not.html){:new_window} from the Event Management System. This complimentary service automatically emails subscribed users regarding unplanned events which might impact services.
+From time to time, scheduled and emergency network maintenance is unavoidable. {{site.data.keyword.BluSoftlayer_full}} infrastructure maintains many channels, such as [Twitter account ![External link icon](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, to keep you informed of all scheduled and emergency maintenance events. Additionally, you can [subscribe to email notifications](/docs/customer-portal/cpsub2not.html) from the Event Management System. This complimentary service automatically emails subscribed users regarding unplanned events which might impact services.
 
 ### Using {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile
 {: #cp_bmxinframobile}

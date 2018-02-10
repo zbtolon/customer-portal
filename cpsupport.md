@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -18,13 +18,15 @@ lastupdated: "2017-12-12"
 # Getting support for {{site.data.keyword.BluSoftlayer_notm}} infrastructure
 {: #customerportal_support}
 
-If your SoftLayer account was created with the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal, and it is a linked account, you have multiple options for getting support. See [Getting customer support](/docs/support/index.html#getting-customer-support){:new_window} for more information.
+If your SoftLayer account was created with the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal, and it is a linked account, you have multiple options for getting support. Whether or not you have a linked account, you can open {{site.data.keyword.BluSoftlayer_full}} infrastructure customer support tickets in the customer portal.
 {:shortdesc}
+
+If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can open a support ticket in {{site.data.keyword.BluSoftlayer_full}} infrastructure, or see [Getting customer support](/docs/support/index.html#getting-customer-support){:new_window} for more information about getting support through the {{site.data.keyword.Bluemix}} console.
 
 ## Creating a support ticket with customer portal
 {: #cp_creatsuptickwsp}
 
-Whether or not you have a linked account, you can open customer support tickets in the customer portal to assist with issues related to your account or {{site.data.keyword.BluSoftlayer_full}} in general.
+You can open {{site.data.keyword.BluSoftlayer_full}} infrastructure customer support tickets in the customer portal to assist with issues related to your account or {{site.data.keyword.BluSoftlayer_full}} infrastructure in general.
 
 1. Log in to the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Add Ticket** from the menu.
@@ -73,7 +75,6 @@ After you add a ticket, you can view it at any time from the **Tickets** window.
 2. Select **Support** > **Tickets** from the menu.
 3. Select the status of the ticket from the drop down menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
-
 
 ## Updating a ticket
 {: #cp_updatsuptickwsp}
