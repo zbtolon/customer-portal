@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-02-12"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-12-06"
 # Managing your billing items
 {: #manage-billing}
 
-If you are managing {{site.data.keyword.Bluemix}} infrastructure billing for a SoftLayer account, you can manage your billing and payments in the customer portal. To manage {{site.data.keyword.Bluemix_notm}} platform billing and payments, see [Managing billing and usage](/docs/pricing/index.html#accounts).
+If you are managing {{site.data.keyword.Bluemix}} infrastructure billing for a SoftLayer account, you can manage your billing and payments in the customer portal. To manage {{site.data.keyword.Bluemix_notm}} platform billing and payments, see [Managing billing and usage](/docs/account/index.html).  
 {:shortdesc}
 
 ## Accessing your billing items

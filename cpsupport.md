@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-09"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-09"
 If your SoftLayer account was created with the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal, and it is a linked account, you have multiple options for getting support. Whether or not you have a linked account, you can open {{site.data.keyword.BluSoftlayer_full}} infrastructure customer support tickets in the customer portal.
 {:shortdesc}
 
-If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can open a support ticket in {{site.data.keyword.BluSoftlayer_full}} infrastructure, or see [Getting customer support](/docs/support/index.html#getting-customer-support){:new_window} for more information about getting support through the {{site.data.keyword.Bluemix}} console.
+If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can open a support ticket in {{site.data.keyword.BluSoftlayer_full}} infrastructure, or see [Getting customer support](/docs/get-support/howtogetsupport.html) for more information about getting support through the {{site.data.keyword.Bluemix}} console.
 
 ## Creating a support ticket with customer portal
 {: #cp_creatsuptickwsp}

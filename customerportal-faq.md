@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,8 +31,7 @@ If you do NOT use IBMid for authentication, when you place your first order or y
 
 If you forget your password after you log in, use the **Forgot Password** feature that is available on the login screen of the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. You will be prompted to enter specific information, including a set of security questions you specified while [editing your user profile](edit-user-profile.html).
 
-If you forget your user name, contact your account administrator or master user, who has the ability to retrieve your user name. If you are the administrator or master user on the account, [contact Support](support.html) for additional assistance.
-
+If you forget your user name, contact your account administrator or master user, who has the ability to retrieve your user name. If you are the administrator or master user on the account, contact Support for additional assistance.
 
 ## What is the IBMid, and how does it relate to {{site.data.keyword.BluSoftlayer_notm}} Infrastructure users?
 {: #bicp_whatisibmid}
@@ -42,7 +41,7 @@ New accounts require IBMid for authentication. Existing accounts continue to use
 ## How do I link an existing SoftLayer account?
 {: #bicp_linkbmxacct}
 
-If you are the master user on your SoftLayer account, login to the customer portal and click **Link an account** in the header.  See [Linking IBMid user accounts](/docs/admin/softlayerlink.html#link_user_accounts) for more information.
+If you are the master user on your SoftLayer account, login to the customer portal and click **Link an account** in the header.  See [Linking IBMid user accounts](/docs/account/softlayerlink.html) for more information.
 
 ## Do I have to be an existing {{site.data.keyword.Bluemix_notm}} user to link accounts?
 {: #bicp_bmxusertolink}
@@ -55,7 +54,7 @@ No. You can create a new {{site.data.keyword.Bluemix_notm}} account or link an e
 
 There is no impact to two-factor authentication configuration at the account level. Two-factor authentication is not per IBMid; it is still per account. When an IBMid is associated with many accounts, and you switch between accounts, you must confirm your identity every time you switch into a different account that requires two-factor authentication. This is true even if the prior account and the new account were both configured with the same 2FA mechanism.
 
-For more information about IBMid with two-factor authentication, see [Two-factor authentication usage in linked accounts](/docs/admin/softlayerlink.html#2fa).
+For more information about IBMid with two-factor authentication, see [Two-factor authentication usage in linked accounts](/docs/account/softlayerlink.html).
 
 
 ## Who can link accounts?
