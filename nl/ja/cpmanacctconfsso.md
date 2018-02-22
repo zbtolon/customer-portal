@@ -18,13 +18,13 @@ lastupdated: "2017-12-01"
 # シングル・サインオンの構成
 {: #customerportal_confssoserv}
 
-アカウントのマスター・ユーザーであるか、アカウントへの管理アクセス権限を持っている場合、シングル・サインオンを構成できます。{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーのシングル・サインオンの構成は、2 つのステップからなるプロセスです。最初に、ID プロバイダーを選択してセットアップします。次に、ID プロバイダーから認証要求を受け取るように {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーをセットアップします。
+アカウントのマスター・ユーザーであるか、アカウントへの管理アクセス権限を持っている場合、シングル・サインオンを構成できます。 {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーのシングル・サインオンの構成は、2 つのステップからなるプロセスです。  最初に、ID プロバイダーを選択してセットアップします。 次に、ID プロバイダーから認証要求を受け取るように {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーをセットアップします。
 {:shortdesc}
 
 ## ID プロバイダーの選択とセットアップ
 {: #cp_setupidprov}
 
-まだ ID プロバイダーを持っていない場合、まず ID プロバイダーを選択してセットアップします。{{site.data.keyword.BluSoftlayer_notm}} と共に使用できる ID プロバイダーは次のとおりです。
+まだ ID プロバイダーを持っていない場合、まず ID プロバイダーを選択してセットアップします。 {{site.data.keyword.BluSoftlayer_notm}} と共に使用できる ID プロバイダーは次のとおりです。
 * Ping Identity&reg;
 * OneLogin&trade;
 * IBM&reg; Cloud Security Enforcer
@@ -51,11 +51,11 @@ lastupdated: "2017-12-01"
 以下のフィールドはオプションです。
 <dl>
 <dt>証明書指紋</dt>
-<dd>証明書の指紋。証明書全体の代わりにこのフィールドを使用できます。</dd>
+<dd>証明書の指紋。 証明書全体の代わりにこのフィールドを使用できます。</dd>
 </dl>
 
 以下の手順を使用して、ID プロバイダーから認証要求を受け取るように {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーをセットアップします。
-1. まだログインしていない場合は ID プロバイダーにログインし、**「SAML 構成 (SAML configuration)」**ページを見つけます。以下の情報をメモします。
+1. まだログインしていない場合は ID プロバイダーにログインし、**「SAML 構成 (SAML configuration)」**ページを見つけます。 以下の情報をメモします。
   * エンティティー ID
   * シングル・サインオン URL
   * 証明書 (これは、ご使用の ID プロバイダーによって異なります)
