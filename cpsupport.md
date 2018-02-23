@@ -18,7 +18,7 @@ lastupdated: "2018-02-23"
 # Getting support for {{site.data.keyword.BluSoftlayer_notm}} infrastructure
 {: #customerportal_support}
 
-If you experience problems with {site.data.keyword.BluSoftlayer_full}} infrastructure and you do not have a linked account, you can get help with determining the cause of the problem and finding a solution using the customer portal.
+If you experience problems with {{site.data.keyword.BluSoftlayer_full}} infrastructure and you do not have a linked account, you can get help with determining the cause of the problem and finding a solution using the customer portal.
 {:shortdesc}
 
 If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can get support through the {{site.data.keyword.Bluemix}} console. See [Getting customer support](/docs/get-support/howtogetsupport.html) for more information.
