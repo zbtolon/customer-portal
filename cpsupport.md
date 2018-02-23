@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-02-23"
 
 ---
 
@@ -18,15 +18,17 @@ lastupdated: "2018-02-12"
 # Getting support for {{site.data.keyword.BluSoftlayer_notm}} infrastructure
 {: #customerportal_support}
 
-If your SoftLayer account was created with the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal, and it is a linked account, you have multiple options for getting support. Whether or not you have a linked account, you can open {{site.data.keyword.BluSoftlayer_full}} infrastructure customer support tickets in the customer portal.
+If you experience problems with {site.data.keyword.BluSoftlayer_full}} infrastructure and you do not have a linked account, you can get help with determining the cause of the problem and finding a solution using the customer portal.
 {:shortdesc}
 
-If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can open a support ticket in {{site.data.keyword.BluSoftlayer_full}} infrastructure, or see [Getting customer support](/docs/get-support/howtogetsupport.html) for more information about getting support through the {{site.data.keyword.Bluemix}} console.
+If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can get support through the {{site.data.keyword.Bluemix}} console. See [Getting customer support](/docs/get-support/howtogetsupport.html) for more information.
 
-## Creating a support ticket with customer portal
+If you do not have a linked account, you can open support tickets in {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for general technical issues or to assist with issues related to your account.
+
+## Creating a general technical support ticket
 {: #cp_creatsuptickwsp}
 
-You can open {{site.data.keyword.BluSoftlayer_full}} infrastructure customer support tickets in the customer portal to assist with issues related to your account or {{site.data.keyword.BluSoftlayer_full}} infrastructure in general.
+You can open {{site.data.keyword.BluSoftlayer_full}} infrastructure tickets for general technical issues in the customer portal using the following steps:
 
 1. Log in to the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Add Ticket** from the menu.
@@ -65,6 +67,15 @@ You can open {{site.data.keyword.BluSoftlayer_full}} infrastructure customer sup
 11. Click **Add Ticket**.
 
 After you add a ticket, it is routed to the appropriate member of the Support team for resolution. Tickets are handled based on the degree of severity, meaning that the most severe issues, such as outages, are handled first, followed by service degrading issues, and then questions. A member of the Support team will be in contact with the assignees regarding additional information to resolve the ticket.
+
+## Creating a ticket for account issues
+{: #cp_creatacctsuptickwsp}
+
+You can open {{site.data.keyword.BluSoftlayer_full}} infrastructure tickets to assist with issues related to your account in the customer portal similarly to the way you open a ticket for general technical support issues, but with one important difference.  
+
+After you log in to the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} and select **Support** > **Add Ticket**, you must ensure that the ticket is routed to the correct support team and can be resolved quickly. To route the ticket correctly to handle account issues, from the **Subject** list, select **Accounting Request**.
+
+Complete the rest of the ticket as you would to create a ticket for general technical support and submit the ticket. With the **Subject** set to **Accounting Request**, the correct support team is assigned the ticket and can help resolve the issue quickly.
 
 ## Viewing an existing ticket
 {: #cp_viewsuptickwsp}
