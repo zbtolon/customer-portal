@@ -15,7 +15,7 @@ lastupdated: "2018-02-12"
 {:new_window: target="_blank"}
 
 
-# Setting Up a Bare Metal Server
+# Setting up a Bare Metal Server
 {: #customerportal_setupbaremetal}
 
 You can set up a Bare Metal Server as a dedicated server.
