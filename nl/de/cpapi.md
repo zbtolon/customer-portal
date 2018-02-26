@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -22,6 +22,17 @@ lastupdated: "2017-12-05"
 {:shortdesc}
 
 Zweck der API ist die Bereitstellung einer Umgebung, in der Sie jede beliebige Kundenportaltask über die API ausführen können. Die API-Umgebung wird durch häufige Ergänzungen und Updates gewartet, damit sichergestellt ist, dass Ihnen die besten Optionen zur Verfügung stehen, wozu auch die Möglichkeit der Programmierung in einer Vielzahl von Sprachen sowie Optionen zur Verwendung von SOAP, XML-RPC und REST-basierten APIs gehören. Ähnlich wie bei der Arbeit im Kundenportal benötigen Sie ebenfalls eine funktionsfähige Supportquelle, wenn Sie für Kontointeraktionen vorrangig die API verwenden.
+
+## Wie greife ich auf die API zu?
+{: #cp_getapikey}
+
+Sie können mithilfe eines benutzerspezifischen API-Schlüssels auf die API zugreifen. API-Schlüssel sind eindeutige, alphanumerische Kennungen, die einen sicheren Zugriff auf die API ermöglichen. Ihr API-Schlüssel ist Ihrer Benutzer-ID spezifisch zugeordnet und stellt dieselben Berechtigungen in der API bereit, über die Sie auch im Kundenportal verfügen. Sie erstellen den API-Schlüssel nur einmal und können ihn anschließend abrufen und weiterhin verwenden. Führen Sie die folgenden Schritte aus, um den API-Schlüssel zu erstellen:
+
+1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
+2. Wählen Sie in der Navigationsleiste die Optionen **Konto** > **Benutzer** aus.
+3. Klicken Sie in der Spalte für den **API-Schlüssel** der Zeile mit den Benutzerberechtigungen auf den Link zum **Generieren**.
+
+Nachdem der API-Schlüssel generiert wurde, wechselt der Link zum **Generieren** in einen Link zum **Anzeigen**, über den Sie jederzeit auf Ihren API-Schlüssel zugreifen können.
 
 ## Weitere Informationsquellen zur API
 {: #cp_apimoreinfo}

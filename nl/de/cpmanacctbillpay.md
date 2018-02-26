@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-02-12"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-12-06"
 # Rechnungspositionen verwalten
 {: #manage-billing}
 
-Falls Sie die Abrechnung der {{site.data.keyword.Bluemix}}-Infrastruktur für ein SoftLayer-Konto verwalten, können Sie Ihre eigene Abrechnung und Ihre eigenen Zahlungen im Kundenportal verwalten. Informationen zum Verwalten von Abrechnung und Zahlungen für die {{site.data.keyword.Bluemix_notm}}-Plattform finden Sie unter [Abrechnung und Nutzung verwalten](/docs/pricing/index.html#accounts).
+Falls Sie die Abrechnung der {{site.data.keyword.Bluemix}}-Infrastruktur für ein SoftLayer-Konto verwalten, können Sie Ihre eigene Abrechnung und Ihre eigenen Zahlungen im Kundenportal verwalten. Informationen zum Verwalten von Abrechnung und Zahlungen für die {{site.data.keyword.Bluemix_notm}}-Plattform finden Sie unter [Abrechnung und Nutzung verwalten](/docs/account/index.html).  
 {:shortdesc}
 
 ## Auf eigene Rechnungspositionen zugreifen

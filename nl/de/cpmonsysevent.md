@@ -19,7 +19,7 @@ lastupdated: "2017-12-01"
 # Systemereignisse in der {{site.data.keyword.Bluemix_notm}}-Infrastruktur überwachen
 {: #customerportal_monevent}
 
-Durch die Überwachung von Systemereignissen können Sie für einen reibungslosen Betrieb Ihrer Systeme sorgen. Informationen zum Konfigurieren und Verwalten von virtuellen Servern in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur finden Sie unter [Einführung in virtuelle Server](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
+Durch die Überwachung von Systemereignissen können Sie für einen reibungslosen Betrieb Ihrer Systeme sorgen.  Informationen zum Konfigurieren und Verwalten von virtuellen Servern in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur finden Sie unter [Einführung in virtuelle Server](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
 {:shortdesc}
 
 ## Prüfprotokoll für ein Konto anzeigen

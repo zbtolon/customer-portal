@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -18,23 +18,32 @@ lastupdated: "2017-12-04"
 # Umgebung und Systemereignisse überwachen
 {: #customerportal_cpmonenvsysevent}
 
-Durch die Überwachung Ihrer Umgebung haben Sie die Möglichkeit, Geräte jederzeit zu überprüfen, und werden automatisch benachrichtigt, wenn eines Ihrer Geräte ausfällt. Sie können außerdem Systemereignisse überwachen und so für einen reibungslosen Betrieb Ihrer Systeme sorgen.  
+Durch die Überwachung Ihrer Umgebung haben Sie die Möglichkeit, Geräte jederzeit zu überprüfen, und Sie werden automatisch benachrichtigt, wenn eines der Geräte ausfällt. Sie können außerdem Systemereignisse überwachen und so für einen reibungslosen Betrieb Ihrer Systeme sorgen.  
 {: shortdesc}
 
 ## Umgebung überwachen
 {: #cpmonenv}
 
-Verwenden Sie mindestens die Basisüberwachung mit Pingsignalen. Sie können jedoch Ihre Überwachungsoptionen so anpassen, dass Ihre Geschäftsanforderungen optimal erfüllt werden.
+Verwenden Sie mindestens die Basisüberwachung mit Pingsignalen. Sie können jedoch Ihre Überwachungsoptionen so anpassen, dass Ihre Geschäftsanforderungen optimal erfüllt werden. Informationen zu Überwachungsoptionen enthält der Abschnitt [Bare-Metal-Server einrichten](/docs/customer-portal/cpsetupbaremetal.html).
 
 ### Über Netzwartung und ungeplante Ereignisse informiert bleiben
 {: #cp_stayinfomaintevent}
 
-Geplante und Notfallnetzwartungen sind von Zeit zu Zeit unvermeidbar. In der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur werden viele Kanäle (z. B. [Twitter-Konten ![Symbol für externen Link](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}) unterhalten, damit Sie stets über alle geplanten und Notfallwartungsereignisse informiert sind. Darüber hinaus können Sie [E-Mail-Benachrichtigungen abonnieren](/docs/customer-portal/cpsub2not.html){:new_window}, die vom Ereignismanagementsystem ausgegeben werden. Dieser ergänzende Service sendet an Benutzer mit einem entsprechenden Abonnement automatisch E-Mails über ungeplante Ereignisse, die sich auf Services auswirken könnten.
+Geplante und Notfallnetzwartungen sind von Zeit zu Zeit unvermeidbar. In der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur werden viele Kanäle (z. B. [Twitter-Konten ![Symbol für externen Link](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}) unterhalten, damit Sie stets über alle geplanten und Notfallwartungsereignisse informiert sind. Darüber hinaus können Sie [E-Mail-Benachrichtigungen abonnieren](/docs/customer-portal/cpsub2not.html), die vom Ereignismanagementsystem ausgegeben werden. Dieser ergänzende Service sendet an Benutzer mit einem entsprechenden Abonnement automatisch E-Mails über ungeplante Ereignisse, die sich auf Services auswirken könnten.
 
 ### {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte nutzen
 {: #cp_bmxinframobile}
 
-Verwenden Sie die [{{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte ![Symbol für externen Link](../icons/launch-glyph.svg)](https://knowledgelayer.softlayer.com/topic/mobile-devices){:new_window}, um Ihre Geräte für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur unterwegs über Ihr mobiles iOS- oder Android-Gerät zu verwalten. Die Funktionalität in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte beinhaltet Ticketingunterstützung, Basisgerätesteuerung und Bandbreitenüberwachung.
+Verwenden Sie die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte, um Ihre Geräte für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur unterwegs über Ihr mobiles iOS- oder Android-Gerät zu verwalten. Die Funktionalität in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte beinhaltet Ticketingunterstützung, Basisgerätesteuerung und Bandbreitenüberwachung.
+
+Die mobile Anwendung für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur ergänzt die Funktionalität des Kundenportals, da Sie kritische Informationen über Ihre Infrastruktur standortunabhängig über Ihr mit dem Netz verbundenes mobiles Gerät überwachen können. Die Anwendung entwickelt sich rasch weiter und es werden regelmäßig neue Funktionen hinzugefügt, Sie können die mobile Anwendung jedoch zum Ausführen der folgenden Tasks verwenden:
+  * Support-Tickets anzeigen, erstellen und aktualisieren
+  * Gerätestatus, einschließlich Bandbreite und Alarme, überwachen
+  * Bare-Metal-Server und virtuelle Server herunterfahren und erneut starten
+  * Kontorechnungen anzeigen und einmalige Zahlungen durchführen
+  * Auf im Objektspeicher gespeicherten Inhalt zugreifen und diesen prüfen
+
+Die mobile Anwendung für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur ist auf verschiedenen gängigen Plattformen für Mobilgeräte verfügbar und ist über die zugehörigen Onlinegeschäfte für Anwendungen der jeweiligen Plattformen verfügbar.
 
 ## Systemereignisse überwachen
 {: #customerportal_monevent}

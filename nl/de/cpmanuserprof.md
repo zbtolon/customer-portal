@@ -40,25 +40,25 @@ Nachdem ein Benutzerprofil im Kundenportal erstellt wurde, können Sie es jederz
 | Vorname, Nachname | Der Vor- und Nachname des Benutzers, der dem Benutzerprofil zugeordnet ist.|
 | E-Mail-Adresse | Die bevorzugte E-Mail-Adresse für den Empfang von Benachrichtigungen bezüglich des Kontos aus der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. Eine Änderung der E-Mail-Adresse ändert den Datensatz in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. Auf die Verknüpfung mit den IBMid-Authentifizierungsnachweisen hat diese Änderung keinen Einfluss. Die E-Mail-Adresse für die IBMid müssen Sie im IBMid-Profil ändern.|
 | Zeitzone | Die bevorzugte Zeitzone für das Anzeigen von Daten mit Zeitmarken.|
-| Telefon, Telefon (alternativ) | Die bevorzugten Telefonnummern für Ansprechpartner, die von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwendet werden sollen.|
+| Telefon, Telefon (alternativ)| Die bevorzugten Telefonnummern für Ansprechpartner, die von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwendet werden sollen.|
 | Straße, Stadt, Land, Bundesland/Kanton, Postleitzahl | Die vollständige Adresse für Ansprechpartner, die von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwendet werden soll.|
 {: caption="Tabelle 1. Konfigurationseinstellungen für persönliche Informationen zur Bearbeitung eines Benutzerprofils" caption-side="top"}
 
 |Feld|Definition|
 |-----|----------|
-| Zugriff auf IP beschränken | Die IP-Adresse, auf die der Zugriff beschränkt werden soll, wenn versucht wird, das Kundenportal unter dem zugeordneten Benutzerprofil zu verwenden.|
-| Kennwortablauf in (nur für Benutzer in Konten, die zur Authentifizierung NICHT die IBMid verwenden) | Der Zeitraum, für den ein Kennwort dem Benutzerprofil zugeordnet sein soll, bevor ein neues Kennwort ausgewählt werden muss.|
-| Übergeordneter Benutzer | Das Benutzerkonto, das als übergeordneter Benutzer des Benutzerprofils gilt. Der Standardwert für den übergeordneten Benutzer ist die primäre Konto-ID.|
-| Sicherheitsfragen erforderlich? | Wählen Sie dieses Kontrollkästchen aus, wenn bei der Anmeldung Sicherheitsfragen erforderlich sein sollen. Falls dieses Kästchen ausgewählt ist, sind Sicherheitsfragen für das Benutzerprofil erforderlich.|
-| VPN-Kennwort | Das Kennwort, das für den VPN-Zugriff verwendet werden soll. Klicken Sie auf das Kontrollkästchen **Portalkennwort für VPN verwenden**, um das Kundenportalkennwort für den Zugriff auf das {{site.data.keyword.BluSoftlayer_notm}}-Infrastrukturnetz über VPN zu verwenden.|
+| Zugriff auf IP beschränken | Die IP-Adresse, auf die der Zugriff beschränkt werden soll, wenn versucht wird, das Kundenportal unter dem zugeordneten Benutzerprofil zu verwenden. |
+| Kennwortablauf in (nur für Benutzer in Konten, die zur Authentifizierung NICHT die IBMid verwenden) | Der Zeitraum, für den ein Kennwort dem Benutzerprofil zugeordnet sein soll, bevor ein neues Kennwort ausgewählt werden muss. |
+| Übergeordneter Benutzer | Das Benutzerkonto, das als übergeordneter Benutzer des Benutzerprofils gilt. Der Standardwert für den übergeordneten Benutzer ist die primäre Konto-ID. |
+| Sicherheitsfragen erforderlich? | Wählen Sie dieses Kontrollkästchen aus, wenn bei der Anmeldung Sicherheitsfragen erforderlich sein sollen. Falls dieses Kästchen ausgewählt ist, sind Sicherheitsfragen für das Benutzerprofil erforderlich. |
+| VPN-Kennwort | Das Kennwort, das für den VPN-Zugriff verwendet werden soll. Klicken Sie auf das Kontrollkästchen **Portalkennwort für VPN verwenden**, um das Kundenportalkennwort für den Zugriff auf das {{site.data.keyword.BluSoftlayer_notm}}-Infrastrukturnetz über VPN zu verwenden. |
 {: caption="Tabelle 2. Konfigurationseinstellungen für Anmeldeeinstellungen zur Bearbeitung eines Benutzerprofils" caption-side="top"}
 
 |Abschnitt|Feld|Definition|
 |-------|-----|----------|
-| API-Zugriffsinformationen | Zulässige IPs | Die IP-Adressen, die für die Authentifizierung bei der API unter Verwendung des eindeutigen API-Schlüssels, der dem Benutzerprofil zugeordnet ist, zulässig sind.|
-| Abonnements von Benutzerbenachrichtigungen | Abrechnung | Wählen Sie das Kontrollkästchen **Abrechnung** aus, um eine Rechnung per E-Mail zu erhalten, nachdem sie erstellt wurde.|
+| API-Zugriffsinformationen | Zulässige IPs | Die IP-Adressen, die für die Authentifizierung bei der API unter Verwendung des eindeutigen API-Schlüssels, der dem Benutzerprofil zugeordnet ist, zulässig sind. |
+| Abonnements von Benutzerbenachrichtigungen | Abrechnung | Wählen Sie das Kontrollkästchen **Abrechnung** aus, um eine Rechnung per E-Mail zu erhalten, nachdem sie erstellt wurde. |
 | Sicherheitsfragen | Sicherheitsfrage | Bei der Bearbeitung des Profils müssen Sie diese Frage beantworten, um sich anzumelden, wenn Sicherheitsfragen für Ihr Profil aktiviert wurden.
-| Sicherheitsantworten | Antwort | Die Antwort auf die maßgebliche Sicherheitsfrage. Die Groß-/Kleinschreibung muss beachtet werden.|
+| Sicherheitsantworten | Antwort | Die Antwort auf die maßgebliche Sicherheitsfrage. Die Groß-/Kleinschreibung muss beachtet werden. |
 {: caption="Tabelle 3. Weitere Konfigurationseinstellungen zur Bearbeitung eines Benutzerprofils" caption-side="top"}
 Nachdem Sie Bearbeitungen eines Benutzerprofils übergeben haben, werden die Änderungen sofort angewendet. Sie können das Benutzerprofil jederzeit erneut ändern, indem Sie die obigen Schritte wiederholen.  
 
@@ -79,7 +79,7 @@ Führen Sie zum Bearbeiten der Berechtigungen eines Benutzers für das Kundenpor
   Möglicherweise wird die Nachricht ausgegeben, dass Änderungen nicht im Benutzerprofil gespeichert wurden. Falls keine Änderungen am Profil vorgenommen wurden, können Sie mittels Clickthrough die Änderungen verwerfen und auf das Fenster 'Berechtigungen' zugreifen.
   {: tip}
 
-5. Wählen Sie die Berechtigungen aus: 
+5. Wählen Sie die Berechtigungen aus:
   * Um Schnellberechtigungen festzulegen, wählen Sie das Berechtigungsset in der Liste **Schnellberechtigungen** aus. Nachdem Sie ein Berechtigungsset ausgewählt haben, werden alle Berechtigungen die dem Set zugeordnet sind, in orangefarbigem Text mit einem orangefarbigen Pfeil angezeigt, der auf das Kontrollkästchen zeigt. Klicken Sie dann für jede Registerkarte auf **Berechtigungen festlegen**.
   * Um einzelne Berechtigungen festzulegen, wählen Sie jedes Kontrollkästchen auf den Registerkarten aus bzw. ab, damit die Berechtigungen des Benutzers aktualisiert werden. Klicken Sie auf einer Registerkarte auf **Alle Berechtigungen auswählen** oder **Alle Berechtigungen abwählen**, um alle Berechtigungen auf einmal aus- oder abzuwählen.
 6. Klicken Sie auf **Portalberechtigungen bearbeiten**, um Änderungen zu übergeben und die Berechtigungen des Benutzers zu aktualisieren.
@@ -139,7 +139,7 @@ Nachdem Sie PhoneFactor hinzugefügt haben, müssen Sie die externe Authentifizi
 9. Falls Sie **Einmalig** > **PIN-Wert** auswählen, geben Sie die PIN im Feld **PIN-Wert** ein.
 10. Klicken Sie auf **Aktualisieren**, um die Änderungen zu aktualisieren und die PhoneFactor-Authentifizierung zu aktivieren.
 
-Nach der Aktivierung von PhoneFactor ist für das Kundenportal oder das VPN eine Authentifizierung über PhoneFactor erforderlich. Nachdem Sie sich mit den Benutzerberechtigungsnachweisen authentifiziert haben, wird Ihnen in einer Nachricht mitgeteilt, dass ein Versuch für die PhoneFactor-Authentifizierung erfolgt. Sie selbst oder der Benutzer, den Sie hinzufügen, muss sich in der Nähe des für PhoneFactor angegebenen Telefons befinden, um die Authentifizierung abschließen zu können. PhoneFactor unternimmt fünf Authentifizierungsversuche. Nach fünf erfolglosen Authentifizierungsversuchen werden Sie für ca. eine Stunde gesperrt. Sie können die Einstellungen für die PhoneFactor-Authentifizierung jederzeit ändern; dies kann auch durch einen Benutzer mit Verwaltungszugriff auf das Konto vorgenommen werden. Eine Inaktivierung von PhoneFactor kann jederzeit durch Sie selbst oder einen Administrator des Kontos erfolgen.
+Nach der Aktivierung von PhoneFactor ist für das Kundenportal oder das VPN eine Authentifizierung über PhoneFactor erforderlich. Nachdem Sie sich mit den Benutzerberechtigungsnachweisen authentifiziert haben, wird Ihnen in einer Nachricht mitgeteilt, dass ein Versuch für die PhoneFactor-Authentifizierung erfolgt. Sie selbst oder der Benutzer, den Sie hinzufügen, muss sich in der Nähe des für PhoneFactor angegebenen Telefons befinden, um die Authentifizierung abschließen zu können. PhoneFactor unternimmt fünf Authentifizierungsversuche. Nach fünf erfolglosen Authentifizierungsversuchen werden Sie für ca. eine Stunde gesperrt. Sie können die Einstellungen für die PhoneFactor-Authentifizierung jederzeit ändern; dies kann auch durch einen Benutzer mit Verwaltungszugriff auf das Konto vorgenommen werden.  Eine Inaktivierung von PhoneFactor kann jederzeit durch Sie selbst oder einen Administrator des Kontos erfolgen.
 
 #### Methoden für die PhoneFactor-Authentifizierung
 {: #cp_phonefacauthmeths}
@@ -208,7 +208,7 @@ Nachdem Sie den VPN-Zugriff eines Benutzers aktualisiert haben, werden seine Ber
 
 Sie können das PPTP-VPN aktivieren, um einen sicheren Tunnel zum privaten Netz der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur zu bilden, wobei auf Ihrem Desktop oder dem dedizierten Gerät eine spezialisierte Client-Software ausgeführt wird. Sie können PPTP verwenden, wenn Sie Ihre gesamte Niederlassung verbinden müssen oder die VPN-Lösung mit SSL nicht verwenden können.
 
-Ihnen wird eine PPTP-Verbindung mit zusätzlichen verfügbaren Verbindungen zugeteilt. Sie können Unterstützung anfordern, um einen uneingeschränkten PPTP-Zugriff zu aktivieren, der ohne Aufpreis verfügbar ist. Führen Sie zum Aktivieren oder Inaktivieren des PPTP-VPN-Zugriffs die folgenden Schritte aus:
+Ihnen wird eine PPTP-Verbindung mit zusätzlichen verfügbaren Verbindungen zugeteilt.  Sie können Unterstützung anfordern, um einen uneingeschränkten PPTP-Zugriff zu aktivieren, der ohne Aufpreis verfügbar ist. Führen Sie zum Aktivieren oder Inaktivieren des PPTP-VPN-Zugriffs die folgenden Schritte aus:
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie in der Menüleiste die Optionen **Konto** > **VPN-Zugriff** aus.

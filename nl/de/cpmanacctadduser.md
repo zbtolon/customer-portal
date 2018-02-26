@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -29,9 +29,9 @@ Abhängig von Ihrem Zugriff können Sie entweder Ihr eigenes SoftLayer-Konto ode
   Falls Sie die Masteranmeldeberechtigungsnachweise für Ihr Konto gemeinsam nutzen müssen, gehen Sie hierbei umsichtig vor. Ihre Masteranmeldung steuert alle Aspekte Ihres Kontos und sollte geschützt sein. Um anderen Benutzern die Verwendung des Kundenportals zu ermöglichen, konfigurieren Sie einzelne oder berechtigungsbasierte Benutzer. Auf diese Weise haben Sie die größte Kontrolle darüber, wer mit bestimmten Aspekten Ihres Kontos interagieren kann.
   {:tip}
   * Falls Sie Verwaltungszugriff besitzen, können Sie alle Benutzer anzeigen, die Sie erstellt haben, sowie alle von diesen Benutzern erstellten Benutzer, sofern Sie diese Benutzer zum Verwalten anderer Benutzer berechtigt haben. Außerdem können Sie Aktionen für jeden Benutzer ausführen, der dem Konto zugeordnet ist, was das Bearbeiten des Zugriffs auf das Kundenportal, das Ändern des Benutzerstatus und das Entfernen von Benutzern einschließt.
-  * Falls Sie nicht der Masterbenutzer des Kontos sind und keinen Verwaltungszugriff besitzen, wird lediglich Ihr Profil angezeigt. Sie können mit Ihrem eigenen Konto interagieren, beispielsweise den API-Schlüssel anzeigen, den VPN-Zugriff bearbeiten und eine externe Authentifizierung hinzufügen.
+  * Falls Sie nicht der Masterbenutzer des Kontos sind und keinen Verwaltungszugriff besitzen, wird lediglich Ihr Profil angezeigt.  Sie können mit Ihrem eigenen Konto interagieren, beispielsweise den API-Schlüssel anzeigen, den VPN-Zugriff bearbeiten und eine externe Authentifizierung hinzufügen.
 
-Informationen zur Verwaltung von Benutzern über die {{site.data.keyword.Bluemix_notm}}-Konsole enthalten die Abschnitte [Eigenes Konto verwalten](/docs/admin/adminpublic.html#signing-up-for-ibm-cloud) und [Identität und Zugriff verwalten](/docs/iam/quickstart.html#getstarted). Zusätzliche Angaben über die {{site.data.keyword.Bluemix_notm}}-Konsole finden Sie unter [Funktionsweise der {{site.data.keyword.Bluemix_notm}}-Konsole](/docs/overview/ui.html#ui).
+Informationen zur Verwaltung von Benutzern über die {{site.data.keyword.Bluemix_notm}}-Konsole enthalten die Abschnitte [Kontoeinrichtung](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) und [Identität und Zugriff verwalten](/docs/iam/quickstart.html#getstarted). Zusätzliche Angaben über die {{site.data.keyword.Bluemix_notm}}-Konsole finden Sie unter [Funktionsweise der {{site.data.keyword.Bluemix_notm}}-Konsole](/docs/overview/ui.html#ui).
 
 Unterschiedliche Personen in einer Organisation besitzen verschiedene Rollen und Zuständigkeiten; Benutzerberechtigungen können somit nicht universell für jeden Benutzer passend festgelegt werden. Daher können Sie Benutzer zum Kundenportal mit Rollen hinzufügen, damit sichergestellt ist, dass jede Person bzw. Gruppe ausschließlich Zugriff auf die für sie zulässigen Elemente besitzt. Falls irrtümlicherweise Änderungen vorgenommen oder Berechtigungen widerrufen wurden, können Sie dies bis zum Benutzer oder zur Gruppe zurückverfolgen und auf diese Weise sicherstellen, dass Sie eine passende Schulung anbieten oder Benutzerberechtigungen aktualisieren können. Dies verringert viele Risiken und erlaubt es den Benutzern, sich auf ihre angegebene Rolle im Kundenportal zu konzentrieren.
 

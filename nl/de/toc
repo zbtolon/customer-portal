@@ -31,6 +31,7 @@ Infrastrukturressourcen verwalten
     Umgebung verwalten
         cpmonenv.md
         cpprotectsys.md
+        cpsetupbaremetal.md
         cpcompsegapptiers.md
         cpcompmanlic.md
         cprebootserver.md

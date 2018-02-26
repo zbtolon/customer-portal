@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -18,13 +18,15 @@ lastupdated: "2017-12-12"
 # Support für {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erhalten
 {: #customerportal_support}
 
-Falls Ihr SoftLayer-Konto im Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erstellt wurde und ein verknüpftes Konto ist, haben Sie mehrere Möglichkeiten, Unterstützung zu erhalten. Weitere Informationen enthält der Abschnitt [Kundenunterstützung abrufen](/docs/support/index.html#getting-customer-support){:new_window}.
+Falls Ihr SoftLayer-Konto im Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erstellt wurde und ein verknüpftes Konto ist, haben Sie mehrere Möglichkeiten, Unterstützung zu erhalten. Unabhängig davon, ob Ihr Konto verknüpft ist, können Sie im Kundenportal Tickets zur Kundenunterstützung für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen.
 {:shortdesc}
+
+Falls Sie ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts) besitzen, können Sie ein Support-Ticket in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen. Alternativ finden Sie im Abschnitt [Kundenunterstützung anfordern](/docs/get-support/howtogetsupport.html) weitere Informationen über das Abrufen von Unterstützung über die {{site.data.keyword.Bluemix}}-Konsole.
 
 ## Support-Ticket im Kundenportal erstellen
 {: #cp_creatsuptickwsp}
 
-Unabhängig davon, ob Ihr Konto verknüpft ist oder nicht, können Sie im Kundenportal Tickets für die Kundenunterstützung öffnen, um Hilfe bei Problemen mit Ihrem Konto oder {{site.data.keyword.BluSoftlayer_full}} im Allgemeinen zu erhalten.
+Sie können im Kundenportal Support-Tickets für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen, um Hilfe bei Problemen mit Ihrem Konto oder der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur im Allgemeinen zu erhalten.
 
 1. Melden Sie sich beim [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
 2. Wählen Sie im Menü die Optionen **Support** > **Ticket hinzufügen** aus.
@@ -74,7 +76,6 @@ Nachdem Sie ein Ticket hinzugefügt haben, können Sie es jederzeit im Fenster *
 3. Wählen Sie den Status des Tickets im Dropdown-Menü aus, um die Ansicht zu filtern.
 4. Klicken Sie auf die Ticketnummer, um die Details des Tickets anzuzeigen.
 
-
 ## Ticket aktualisieren
 {: #cp_updatsuptickwsp}
 
@@ -91,21 +92,21 @@ Sie können ein bestehendes Support-Ticket jederzeit aktualisieren, um zusätzli
 6. Klicken Sie auf **Aktualisieren**.
 
   Während des Aktualisierungsprozesses können Sie jederzeit eine Chatsitzung mit einem Mitglied des Support-Teams öffnen, wenn Sie Unterstützung benötigen. Klicken Sie zum Öffnen der Chatsitzung auf **Chat starten**.
-{:tip}
+  {:tip}
 
 Falls Sie das Ticket neu zuordnen, wird der neue Verantwortliche zum Hauptansprechpartner für die Problemlösung. Falls Sie einen Kommentar oder einen Anhang hinzufügen, prüft das Mitglied des Support-Teams, von dem das Ticket bearbeitet wird, die neuen Informationen zur Unterstützung bei der Problemlösung.
 
 ## Support-Problem eskalieren
 {: #cp_bpsupescalflow}
 
-Wenn Sie bei der Lösung eines Problems Hilfe benötigen, können Sie ein Support-Ticket öffnen. Falls es sich um ein kritisches oder dringendes Problem handelt und Sie das Problem eskalieren müssen, führen Sie die folgenden Schritte aus.
+Wenn Sie bei der Lösung eines Problems Hilfe benötigen, können Sie ein Support-Ticket öffnen.  Falls es sich um ein kritisches oder dringendes Problem handelt und Sie das Problem eskalieren müssen, führen Sie die folgenden Schritte aus.
 
 1. Öffnen Sie ein Support-Ticket im Kundenportal, in einem Chat oder durch einen Anruf (866-403-7638).
 
   Wenn Sie ein Ticket erstellen oder aktualisieren, beziehen Sie alle Fehler, Protokolle oder stattgefundenen Fehlerbehebungsmaßnahmen ein, da dies zu einer schnelleren Lösung des Problems beiträgt.
   {: tip}
 
-2. Arbeiten Sie im Ticket mit dem Support-Team für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur zusammen. Antworten Sie beispielsweise so schnell wie möglich, falls das Support-Team zusätzliche Informationen anfordert.
+2. Arbeiten Sie im Ticket mit dem Support-Team für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur zusammen.  Antworten Sie beispielsweise so schnell wie möglich, falls das Support-Team zusätzliche Informationen anfordert.
 3. Wenn der Verarbeitungsfortschritt für das Ticket stagniert, können Sie das Ticket eskalieren, indem Sie einen Kommentar wie beispielsweise *Please escalate this ticket due to customer impact* (Bitte eskalieren Sie dieses Ticket aufgrund der Auswirkung auf den Kunden) über das Portal, im Chat oder bei einem Anruf angeben.
 4. Falls die Bearbeitung des Tickets nach der ersten Anforderung nicht fortschreitet, können Sie es an den Support-Supervisor eskalieren, indem Sie diese Eskalation im Ticket anfordern.
 5. Falls sich nach dem Anfordern der Unterstützung durch den Support-Supervisor weiterhin nicht der benötigte Verarbeitungsfortschritt einstellt, können Sie unter der Adresse 'Notify-Support-WW@wwpdl.vnet.ibm.com' eine E-Mail an das Support-Managementteam senden.

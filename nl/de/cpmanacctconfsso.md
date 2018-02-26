@@ -18,7 +18,7 @@ lastupdated: "2017-12-01"
 # Single Sign-on konfigurieren
 {: #customerportal_confssoserv}
 
-Wenn Sie Masterbenutzer eines Kontos sind oder einen Verwaltungszugriff auf das Konto besitzen, können Sie das Single Sign-on konfigurieren. Die Konfiguration des Single Sign-on für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur ist ein aus zwei Schritten bestehender Prozess. Zuerst wählen Sie Ihren Identitätsprovider aus und konfigurieren ihn. Anschließend konfigurieren Sie die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für den Empfang der Authentifizierungsanforderung von Ihrem Identitätsprovider.
+Wenn Sie Masterbenutzer eines Kontos sind oder einen Verwaltungszugriff auf das Konto besitzen, können Sie das Single Sign-on konfigurieren. Die Konfiguration des Single Sign-on für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur ist ein aus zwei Schritten bestehender Prozess.  Zuerst wählen Sie Ihren Identitätsprovider aus und konfigurieren ihn. Anschließend konfigurieren Sie die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für den Empfang der Authentifizierungsanforderung von Ihrem Identitätsprovider.
 {:shortdesc}
 
 ## Identitätsprovider auswählen und konfigurieren

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,8 +31,7 @@ Wenn Sie Ihre erste Bestellung aufgeben oder als Benutzer zu einem Konto des [Ku
 
 Falls Sie Ihr Kennwort nach der Anmeldung vergessen haben, verwenden Sie die Funktion **Kennwort vergessen**, die in der Anmeldeanzeige für das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} verfügbar ist. Sie werden zur Eingabe bestimmter Informationen aufgefordert, zu denen auch Antworten auf eine Reihe von Sicherheitsfragen gehören, die Sie beim [Bearbeiten Ihres Benutzerprofils](edit-user-profile.html) eingegeben haben.
 
-Falls Sie Ihren Benutzernamen vergessen haben, wenden Sie sich an Ihren Kontoadministrator oder Masterbenutzer, der Ihren Benutzernamen abrufen kann. Als Administrator oder Masterbenutzer für das Konto [wenden Sie sich an den Support](support.html), wenn Sie zusätzliche Unterstützung benötigen.
-
+Falls Sie Ihren Benutzernamen vergessen haben, wenden Sie sich an Ihren Kontoadministrator oder Masterbenutzer, der Ihren Benutzernamen abrufen kann. Als Administrator oder Masterbenutzer des Kontos wenden Sie sich an den Support, wenn Sie zusätzliche Unterstützung benötigen.
 
 ## Was ist die IBMid und welche Bedeutung hat sie für Benutzer der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur?
 {: #bicp_whatisibmid}
@@ -42,7 +41,7 @@ Neue Konten müssen zur Authentifizierung die IBMid verwenden. Bestehende Konten
 ## Wie verknüpfe ich ein bestehendes SoftLayer-Konto?
 {: #bicp_linkbmxacct}
 
-Als Masterbenutzer des SoftLayer-Kontos melden Sie sich beim Kundenportal an und klicken Sie im Header auf **Konto verknüpfen**. Weitere Informationen finden Sie unter [IBMid-Benutzerkonten verknüpfen](/docs/admin/softlayerlink.html#link_user_accounts).
+Als Masterbenutzer des SoftLayer-Kontos melden Sie sich beim Kundenportal an und klicken Sie im Header auf **Konto verknüpfen**.  Weitere Informationen finden Sie unter [IBMid-Benutzerkonten verknüpfen](/docs/account/softlayerlink.html).
 
 ## Muss ich bestehender {{site.data.keyword.Bluemix_notm}}-Benutzer sein, damit ich Konten verknüpfen kann?
 {: #bicp_bmxusertolink}
@@ -55,7 +54,7 @@ Nein. Sie können ein neues {{site.data.keyword.Bluemix_notm}}-Konto erstellen o
 
 Auf der Kontoebene gibt es keine Auswirkung auf die Konfiguration der Zwei-Faktor-Authentifizierung. Die Zwei-Faktor-Authentifizierung erfolgt nicht für die IBMid, sondern weiterhin kontogebunden. Wenn eine IBMid vielen Konten zugeordnet ist und Sie zwischen Konten wechseln, müssen Sie Ihre Identität bei jedem Wechsel zu einem anderen Konto bestätigen, das eine Zwei-Faktor-Authentifizierung erforderlich macht. Dies gilt sogar dann, wenn das vorherige Konto und das neue Konto beide mit demselben 2FA-Verfahren konfiguriert sind.
 
-Weitere Informationen zur IBMid im Zusammenhang mit der Zwei-Faktor-Authentifizierung finden Sie unter [Zwei-Faktor-Authentifizierung bei verknüpften Konten](/docs/admin/softlayerlink.html#2fa).
+Weitere Informationen zur IBMid im Zusammenhang mit der Zwei-Faktor-Authentifizierung finden Sie unter [Zwei-Faktor-Authentifizierung bei verknüpften Konten](/docs/account/softlayerlink.html).
 
 
 ## Wer kann Konten verknüpfen?
@@ -77,7 +76,8 @@ Ihre Kontoabrechnung ist verknüpft; Sie können einfach zwischen Ihren SoftLaye
 ## Warum empfange ich einen Fehler, wenn ich versuche, mich mit meinem SoftLayer-Benutzernamen anzumelden?
 {: #bicp_SLloginerror}
 
-Wenn Sie zu einer IBMid gewechselt haben und sich beim Kundenportal mit Ihrem Benutzernamen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anzumelden versuchen, wird der der Fehler *'Es wurden falsche Anmeldeberechtigungsnachweise angegeben'* angezeigt. Dies liegt daran, dass Sie sich nach dem Wechsel zu einer IBMid nicht mehr mit Ihrem Benutzernamen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur beim Kundenportal anmelden können. Sie müssen im Dialogfeld 'Kontoanmeldung' auf **Mit IBMid anmelden** klicken.
+Wenn Sie zu einer IBMid gewechselt haben und sich beim Kundenportal mit Ihrem Benutzernamen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anzumelden versuchen, wird der der Fehler *'Es wurden falsche Anmeldeberechtigungsnachweise angegeben'* angezeigt.
+Dies liegt daran, dass Sie sich nach dem Wechsel zu einer IBMid nicht mehr mit Ihrem Benutzernamen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur beim Kundenportal anmelden können. Sie müssen im Dialogfeld 'Kontoanmeldung' auf **Mit IBMid anmelden** klicken.
 
 ## Warum empfange ich einen Fehler, wenn ich versuche, mich mit meiner IBMid anzumelden?
 {: #bicp_IBMidloginerror}

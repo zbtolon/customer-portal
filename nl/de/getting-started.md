@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -24,9 +24,9 @@ In diesem Lernprogramm werden Sie durch den Prozess geführt, mit dem Sie Ihr So
 ## Vorbereitende Schritte
 {: #prereqs}
 
-Sie benötigen ein [{{site.data.keyword.Bluemix}}-Konto ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.bluemix.net/){:new_window}. Melden Sie sich mit den Berechtigungsnachweisen Ihrer IBMid beim Kundenportal an. Die meisten neuen Benutzer verwenden die IBMid für die Authentifizierung.
+Sie benötigen ein [{{site.data.keyword.Bluemix}}-Konto ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.bluemix.net/){:new_window}. Melden Sie sich mit den Berechtigungsnachweisen Ihrer IBMid beim Kundenportal an. Die meisten Benutzer verwenden die [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) für die Authentifizierung.
 
-Benutzer mit Konten, die keine IBMid zur Authentifizierung verwenden, melden sich beim Kundenportal mit den Berechtigungsnachweisen an, die sie nach der erstmaligen Erstellung des Kontos in einer E-Mail erhalten haben.
+Wenn Sie zum Anmelden an Ihrem Konto nicht die IBMid zur Authentifizierung verwenden, melden Sie sich beim Kundenportal mit Ihren eindeutigen Berechtigungsnachweisen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur an.
 {: tip}
 
 ## Schritt 1: Konto einrichten
