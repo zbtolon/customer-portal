@@ -16,10 +16,10 @@ lastupdated: "2017-12-01"
 
 
 
-# Surveillance des événements système de l'infrastructure {{site.data.keyword.Bluemix_notm}} 
+# Surveillance des événements système de l'infrastructure {{site.data.keyword.Bluemix_notm}}
 {: #customerportal_monevent}
 
-Vous pouvez surveiller les événements système pour que vos systèmes continuent à fonctionner de façon harmonieuse. Pour des informations sur la configuration et la gestion de serveurs virtuels dans l'infrastructure {{site.data.keyword.BluSoftlayer_full}}, voir [Initiation aux serveurs virtuels](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
+Vous pouvez surveiller les événements système pour que vos systèmes continuent à fonctionner de façon harmonieuse.  Pour des informations sur la configuration et la gestion de serveurs virtuels dans l'infrastructure {{site.data.keyword.BluSoftlayer_full}}, voir [Initiation aux serveurs virtuels](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
 {:shortdesc}
 
 ## Affichage d'un journal d'audit pour un compte

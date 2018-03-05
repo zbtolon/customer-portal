@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-02-12"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-12-06"
 # Gestion de vos éléments de facturation
 {: #manage-billing}
 
-Si vous gérez la facturation de l'infrastructure {{site.data.keyword.Bluemix}} pour un compte SoftLayer, vous pouvez gérer votre facturation et vos règlements sur le portail client. Pour gérer la facturation et les règlements de la plateforme {{site.data.keyword.Bluemix_notm}}, voir [Gestion de la facturation et de l'utilisation](/docs/pricing/index.html#accounts).
+Si vous gérez la facturation de l'infrastructure {{site.data.keyword.Bluemix}} pour un compte SoftLayer, vous pouvez gérer votre facturation et vos règlements sur le portail client. Pour gérer la facturation et les règlements de la plateforme {{site.data.keyword.Bluemix_notm}}, voir [Gestion de la facturation et de l'utilisation](/docs/account/index.html).  
 {:shortdesc}
 
 ## Accès à vos éléments de facturation
@@ -32,21 +32,21 @@ La fenêtre Gérer éléments de facturation affiche les éléments de facturati
 ## Annulation d'un élément de facturation
 {: #cp_cancelbillitems}
 
-Vous pouvez à tout moment annuler des éléments de facturation directement depuis la fenêtre Gérer éléments de facturation. Vous pouvez lancer immédiatement des annulations pour la plupart des services et solutions, l'annulation ayant lieu immédiatement ou à la date anniversaire de facturation. 
+Vous pouvez à tout moment annuler des éléments de facturation directement depuis la fenêtre Gérer éléments de facturation. Vous pouvez lancer immédiatement des annulations pour la plupart des services et solutions, l'annulation ayant lieu immédiatement ou à la date anniversaire de facturation.
 
-> **Remarque :** Les données stockées dans un appareil, un service ou une solution annulé(e) ne peuvent plus être extraites après l'annulation. Sauvegardez toutes les données qui le doivent avant d'effectuer la demande d'annulation. 
+> **Remarque :** Les données stockées dans un appareil, un service ou une solution annulé(e) ne peuvent plus être extraites après l'annulation. Sauvegardez toutes les données qui le doivent avant d'effectuer la demande d'annulation.
 
 Utilisez la procédure suivante pour annuler un élément de facturation.
 
 1. Sauvegardez toutes les données que vous souhaitez pour le service ou solution à annuler.
 2. Accédez au [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} à l'aide de vos données d'identification uniques.
 3. Sélectionnez **Compte** > **Facturation** > **Eléments de facturation** pour accéder à la fenêtre Gérer éléments de facturation.
-4. Sélectionnez **Annuler éléments de facturation** dans la liste déroulante **Actions** pour l'élément à annuler. 
-5. Sélectionnez l'option d'annulation pour spécifier la date d'annulation. 
->**Remarque** : Les annulations immédiates sont traitées quand la demande est soumise, sans remboursement. Les annulations à la date anniversaire sont initiées immédiatement, mais l'élément de facturation reste néanmoins actif jusqu'à la date anniversaire suivante, laquelle est fournie lors de la sélection. 
+4. Sélectionnez **Annuler éléments de facturation** dans la liste déroulante **Actions** pour l'élément à annuler.
+5. Sélectionnez l'option d'annulation pour spécifier la date d'annulation.
+>**Remarque** : Les annulations immédiates sont traitées quand la demande est soumise, sans remboursement. Les annulations à la date anniversaire sont initiées immédiatement, mais l'élément de facturation reste néanmoins actif jusqu'à la date anniversaire suivante, laquelle est fournie lors de la sélection.
 6. Entrez le **motif d'annulation** dans la zone de texte **Remarques**.
 7. Cliquez sur **Continuer** pour passer à la fenêtre suivante du processus d'annulation.
-8. Passez en revue les **Conditions de Service** fournies dans l'avertissement d'annulation et cochez la case **Accusé de réception**. 
+8. Passez en revue les **Conditions de Service** fournies dans l'avertissement d'annulation et cochez la case **Accusé de réception**.
 9. Cliquez sur **Annuler Service**.
 
 Une fois l'annulation confirmée, le processus d'annulation de l'élément de facturation débute. Si vous avez demandé une annulation immédiate, l'élément de facturation est immédiatement annulé. Si vous avez demande une annulation à la date anniversaire, l'élément de facturation reste actif jusqu'à la prochaine date anniversaire de facturation. Lors de son annulation, l'élément de facturation n'est plus actif sur le portail client. Des éléments de facturation sont également retirés des factures lorsque tous les soldes en attente ont été réglés pour le service ou la solution, le cas échéant. Aucun remboursement n'est effectué pour les annulations immédiates.
@@ -55,7 +55,7 @@ Une fois l'annulation confirmée, le processus d'annulation de l'élément de fa
 ## Association d'éléments de facturation à un appareil
 {: #cp_assbillitem2device}
 
-Vous pouvez associer des éléments de facturation pour chaque compte à un équipement depuis la fenêtre Gérer éléments de facturation du [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Vous pouvez associer des éléments uniques via la liste déroulante Actions pour l'élément de facturation, ou plusieurs éléments via la liste déroulante Actions groupées. Utilisez la procédure suivante pour associer des éléments de facturation à un appareil. 
+Vous pouvez associer des éléments de facturation pour chaque compte à un équipement depuis la fenêtre Gérer éléments de facturation du [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Vous pouvez associer des éléments uniques via la liste déroulante Actions pour l'élément de facturation, ou plusieurs éléments via la liste déroulante Actions groupées. Utilisez la procédure suivante pour associer des éléments de facturation à un appareil.
 
 1. Accédez au [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Facturation** > **Eléments de facturation** pour accéder à la fenêtre Gérer éléments de facturation.

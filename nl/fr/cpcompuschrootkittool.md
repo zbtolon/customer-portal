@@ -90,7 +90,7 @@ Si vous voyez *Checking `bindshell`... INFECTED (PORTS: 465)* et que vous exécu
 
 Pour configurer une analyse automatisée quotidienne du système vous envoyant un rapport par e-mail, procédez comme suit :
 
-1. En mode SSH, exécutez la commande suivante : 
+1. En mode SSH, exécutez la commande suivante :
 
   ```
   pico /etc/cron.daily/chkrootkit.sh
@@ -123,7 +123,7 @@ Pour configurer une analyse automatisée quotidienne du système vous envoyant u
   ```
   {: pre}
 
-8.  Facultatif : vous pouvez exécuter manuellement un rapport de test dans SSH pour avoir une idée de son aspect : 
+8.  Facultatif : vous pouvez exécuter manuellement un rapport de test dans SSH pour avoir une idée de son aspect :
 
   ```
   cd /etc/cron.daily/

@@ -25,6 +25,6 @@ Si vous êtes l'utilisateur principal d'un compte ou disposez d'un accès admini
 Vous pouvez gérer les annulations à tout moment depuis la fenêtre Demandes d'annulation. Cette fenêtre affiche toutes les annulations en attente et ayant abouti qui sont associées à un compte. Vous pouvez, depuis cette fenêtre, afficher les annulations et les tickets associés. Si un service ou une solution n'a pas encore été annulé(e), il est possible d'annuler l'opération. Utilisez la procédure suivante pour accéder à la fenêtre Demandes d'annulation.
 
 1. Accédez au [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} à l'aide de vos données d'identification uniques.
-2. Sélectionnez **Compte > Ventes > Annulations** depuis le menu pour accéder à la fenêtre Demandes d'annulation. 
+2. Sélectionnez **Compte > Ventes > Annulations** depuis le menu pour accéder à la fenêtre Demandes d'annulation.
 
 Si un service ou un solution a déjà été annulé(e), l'option "Annuler Annulation" n'est pas affichée.

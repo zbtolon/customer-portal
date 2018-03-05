@@ -32,14 +32,14 @@ Après qu'un profil utilisateur a été créé sur le portail client, vous pouve
 2. Sélectionnez **Compte > Utilisateurs** dans la barre de navigation.
 3. Cliquez sur le nom d'utilisateur pour accéder au profil utilisateur associé pour cet utilisateur.
 4. Editez les détails du **Profil utilisateur** selon les besoins. Pour les utilisateurs de comptes utilisant IBMid pour l'authentification, mettez à jour vos adresse e-mail et mot de passe dans votre profil IBMid. voir le Tableau 1 pour plus d'informations.
-5. Si vous souhaitez réinitialiser votre mot de passe après vous être connecté, cliquez sur **Réinitialiser mot de passe** pour générer un e-mail vous permettant de changer votre mot de passe. 
+5. Si vous souhaitez réinitialiser votre mot de passe après vous être connecté, cliquez sur **Réinitialiser mot de passe** pour générer un e-mail vous permettant de changer votre mot de passe.
 6. Cliquez sur **Editer l'utilisateur** pour soumettre les modifications.
 
 | Zone | Définition |
 |-----|----------|
 | Prénom, Nom | Prénom et nom de l'utilisateur associé au profil utilisateur.|
 | Adresse e-mail | Adresse e-mail préférée pour la réception des notifications de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} concernant le compte. La modification de l'adresse e-mail change l'enregistrement dans l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Ce changement n'affecte pas le lien vers les données d'authentification IBMid. Vous devez modifier l'adresse e-mail pour l'IBMid depuis le profil IBMid.|
-| Fuseau horaire| Fuseau horaire à utiliser de préférence lors de l'affichage des données horodatées.|
+| Fuseau horaire | Fuseau horaire à utiliser de préférence lors de l'affichage des données horodatées.|
 | Téléphone, Autre téléphone| Numéros de téléphone préférés à utiliser par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.|
 | Rue, Ville, Pays, Etat/Province, Code postal | Adresse complète du contact, à utiliser par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.|
 {: caption="Tableau 1. Paramètres de configuration des informations personnelles pour l'édition d'un profil utilisateur" caption-side="top"}
@@ -60,30 +60,30 @@ Après qu'un profil utilisateur a été créé sur le portail client, vous pouve
 | Questions de sécurité | Question de sécurité | Lors de l'édition de votre profil, il s'agit de la question à laquelle vous devez répondre pour vous connecter quand les questions de sécurité ont été activées pour votre profil.
 | Réponses de sécurité | Réponse | Réponse à la question de sécurité applicable ; sensible à la casse. |
 {: caption="Tableau 3. Autres paramètres de configuration pour l'édition d'un profil utilisateur" caption-side="top"}
-Une fois que les modifications apportées à un profil utilisateur sont soumises, les changements sont immédiatement appliqués. Vous pouvez modifier à nouveau le profil utilisateur quand vous le souhaitez en répétant les étapes précédentes.   
+Une fois que les modifications apportées à un profil utilisateur sont soumises, les changements sont immédiatement appliqués. Vous pouvez modifier à nouveau le profil utilisateur quand vous le souhaitez en répétant les étapes précédentes.  
 
 Voir [Passage à l'IBMid](/docs/account/softlayerlink.html#switching-to-ibmid) pour plus d'informations sur la configuration d'un compte IBMid.
 
 ## Edition des droits du portail client pour un utilisateur
 {: #cp_editusercpperm}
 
-Les droits utilisateur sur le portail client sont définis par l'administrateur de compte lorsque l'utilisateur est ajouté ; ils peuvent être édités à tout moment par un utilisateur autorisé. Vous pouvez éditer votre propre profil utilisateur et, si vous êtes administrateur, certaines zones des profils utilisateur d'utilisateurs que vous avez ajoutés. Les droits sont classés selon cinq onglets : support, unités, réseau, services et compte. Vous pouvez à tout moment mettre à jour les droits d'un utilisateur mais vous devez sauvegarder vos modifications pour qu'elles deviennent actives. 
+Les droits utilisateur sur le portail client sont définis par l'administrateur de compte lorsque l'utilisateur est ajouté ; ils peuvent être édités à tout moment par un utilisateur autorisé. Vous pouvez éditer votre propre profil utilisateur et, si vous êtes administrateur, certaines zones des profils utilisateur d'utilisateurs que vous avez ajoutés. Les droits sont classés selon cinq onglets : support, unités, réseau, services et compte. Vous pouvez à tout moment mettre à jour les droits d'un utilisateur mais vous devez sauvegarder vos modifications pour qu'elles deviennent actives.
 
-Utilisez la procédure suivante pour éditer les droits d'accès au portail client d'un utilisateur. 
+Utilisez la procédure suivante pour éditer les droits d'accès au portail client d'un utilisateur.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte > Utilisateurs** dans la barre de navigation.
 3. Cliquez sur le nom de l'utilisateur pour accéder à son profil.
-4. Cliquez sur l'icône **Autorisations** pour accéder à la fenêtre du même nom. 
+4. Cliquez sur l'icône **Autorisations** pour accéder à la fenêtre du même nom.
 
   Il est possible que vous receviez un message indiquant que des changements n'ont pas été sauvegardés dans le profil utilisateur. Si aucune modification n'a été apportée au profil, cliquez pour annuler les changements et accéder à la fenêtre Autorisations.
   {: tip}
 
 5. Sélectionnez les droits :
-  * Pour définir des droits rapides, sélectionnez l'ensemble de droits dans la liste **Droits rapides**. Une fois que vous avez sélectionné un ensemble, chaque droit associé à l'ensemble s'affiche en orange, avec une flèche orange pointant sur la case à cocher. Cliquez ensuite sur **Définir droits** pour chaque onglet. 
-  * Pour définir des droits individuels, cochez ou décochez chaque case dans les onglets pour mettre à jour les droits de l'utilisateur. Sur un onglet, cliquez pour **sélectionner tous les droits** ou **désélectionner tous les droits** en une fois. 
+  * Pour définir des droits rapides, sélectionnez l'ensemble de droits dans la liste **Droits rapides**. Une fois que vous avez sélectionné un ensemble, chaque droit associé à l'ensemble s'affiche en orange, avec une flèche orange pointant sur la case à cocher. Cliquez ensuite sur **Définir droits** pour chaque onglet.
+  * Pour définir des droits individuels, cochez ou décochez chaque case dans les onglets pour mettre à jour les droits de l'utilisateur. Sur un onglet, cliquez pour **sélectionner tous les droits** ou **désélectionner tous les droits** en une fois.
 6. Cliquez sur **Modifier droits pour le portail** pour soumettre des modifications et mettre à jour les droits de l'utilisateur.
-7. Pour restaurer les paramètres initiaux des droits de l'utilisateur, cliquez sur **Réinitialiser droits**. Cliquez sur **Annuler** pour annuler les changements et revenir à la fenêtre Utilisateurs. 
+7. Pour restaurer les paramètres initiaux des droits de l'utilisateur, cliquez sur **Réinitialiser droits**. Cliquez sur **Annuler** pour annuler les changements et revenir à la fenêtre Utilisateurs.
 
 Les droits utilisateur sont mis à jour immédiatement après que vous avez soumis les changements. Si des droits ont été octroyés, l'utilisateur peut afficher les fonctions sélectionnées ou interagir avec ces dernières. Si des droits ont été retirés, l'utilisateur ne peut plus afficher les fonctions sélectionnées ou interagir avec ces dernières. Les droits peuvent à tout moment être à nouveau mis à jour en répétant la procédure précédente.
 
@@ -93,7 +93,7 @@ Les droits utilisateur sont mis à jour immédiatement après que vous avez soum
 Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs pour ajouter une protection supplémentaire lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte des accès non vérifié en garantissant que les appareils, données et les informations de compte sont protégés. Cette authentification externe est disponible sous les formes suivantes :
 
 * **Symantec Identity Protection** est l'outil d'authentification externe le plus couramment utilisé et offre un code de sécurité dynamique utilisé en plus des nom d'utilisateur et mot de passe lors de l'accès au portail client.
-* L'authentification **PhoneFactor** offre une authentification d'utilisateur externe depuis un téléphone, un SMS ou une application mobile. PhoneFactor requiert un numéro de téléphone valide auquel vous devez avoir accès à chaque fois que vous tentez de vos authentifier. 
+* L'authentification **PhoneFactor** offre une authentification d'utilisateur externe depuis un téléphone, un SMS ou une application mobile. PhoneFactor requiert un numéro de téléphone valide auquel vous devez avoir accès à chaque fois que vous tentez de vos authentifier.
 
 Vous pouvez ajouter les deux méthodes d'authentification externe, par utilisateur, pour un [faible coût mensuel ![Icône de lien externe](../icons/launch-glyph.svg)](http://www.softlayer.com/services/security/){:new_window}. Utilisez la procédure suivante pour ajouter une authentification externe pour un utilisateur du portail client.
 
@@ -105,13 +105,13 @@ Vous pouvez ajouter les deux méthodes d'authentification externe, par utilisate
   * **PhoneFactor** -- Choisissez une [méthode d'authentification](#cp_phonefacauthmeths).
 5. Cliquez sur **Continuer**
 6. Suivez les invites à l'écran pour le **Code Promo** et **MSA Acknowledgement**.
-7. Cliquez sur **Commander Module d'Authentification Externe** pour terminer la commande. 
+7. Cliquez sur **Commander Module d'Authentification Externe** pour terminer la commande.
 
 Après que vous avez ajouté l'authentification externe pour un utilisateur, les prochaines étapes dépendent du type d'authentification.
 * Si Symantec Identity Protection est activé, vous devez ajouter le code de sécurité associé à l'ID de données d'identification de l'utilisateur de l'utilisateur qui a été entré dans le système au moment où Symantec Identity Protection a été ajouté au compte.
 * Si PhoneFactor est activé, l'utilisateur doit [activer PhoneFactor](#cp_actphonefacauth) pour utiliser ce type d'authentification à deux facteurs avec le compte.
 
-### Activation de l'authentification PhoneFactor 
+### Activation de l'authentification PhoneFactor
 {: #cp_actphonefacauth}
 
 Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'authentification externe avec PhoneFactor via le portail client. Parce que PhoneFactor utilise le contact manuel, il est important de s'assurer que tous les numéros de téléphone associés au compte restent toujours à jour. Si les informations de contact ne sont pas mise à jour, vous risquez de ne pas pouvoir accéder au portail client et au VPN quand PhoneFactor est actif. Une fois que PhoneFactor a été ajouté, vous recevez un e-mail de confirmation de l'ajout de PhoneFactor. Une fois l'e-mail reçu, utilisez la procédure suivante pour activer l'authentification PhoneFactor.
@@ -124,21 +124,22 @@ Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'auth
   Si la section Paramètres PhoneFactor n'est pas disponible, commencez par vérifier que vous avez bien reçu l'e-mail indiquant la mise à disposition de PhoneFactor. Si PhoneFactor a été mis à disposition mais que la section n'est pas disponible, créez un ticket de demande de service. Si PhoneFactor n'a pas encore été mis à disposition, attendez de recevoir l'e-mail puis réessayez. Si PhoneFactor n'a pas encore été ajouté, voir [Ajout d'une authentification externe pour un utilisateur](/docs/customer-portal/cpmanuserprof.html#cp_addextauthuser).
   {: tip}
 
-5. Sélectionnez **Actif** dans la liste **Statut**. 
+5. Sélectionnez **Actif** dans la liste **Statut**.
 6. Editez le **numéro de téléphone principal** pour l'authentification.
-  1. Cliquez sur le lien **Editer**. 
+  1. Cliquez sur le lien **Editer**.
   2. Entrez les **Code pays**, **Numéro de téléphone** et **Extension**, le cas échéant, dans les zones associées.
   3. Cliquez sur **Authentifier et sauvegarder le numéro** pour terminer l'authentification;
 
-    Lors de l'ajout d'un numéro de téléphone pour l'authentification, vous devez être à côté du téléphone. Une fois que vous avez cliqué sur **Authentifier**, le numéro est appelé et vous êtes invité à exécuter une étape pour authentifier le numéro. Les numéros de téléphone ne peuvent pas être authentifiés sans l'exécution de ces étapes.{: tip}
+    Lors de l'ajout d'un numéro de téléphone pour l'authentification, vous devez être à côté du téléphone. Une fois que vous avez cliqué sur **Authentifier**, le numéro est appelé et vous êtes invité à exécuter une étape pour authentifier le numéro. Les numéros de téléphone ne peuvent pas être authentifiés sans l'exécution de ces étapes.
+    {: tip}
 
-  4. Pour ajouter un **Numéro de téléphone secondaire**, répétez la procédure. 
+  4. Pour ajouter un **Numéro de téléphone secondaire**, répétez la procédure.
 7. Sélectionnez la **méthode de contact** dans la liste **Méthode**.
 8. Sélectionnez un **Type de code confidentiel** dans la liste **Type de code confidentiel**.
 9. Si vous sélectionnez **Unique** > **Valeur de code confidentiel**, entrez le code confidentiel dans la zone **Valeur de code confidentiel**.
 10. Cliquez sur **Mettre à jour** pour mettre à jour les changements et activer l'authentification PhoneFactor.
 
-Une fois que PhoneFactor est activé, l'authentification via PhoneFactor est obligatoire pour le portail client ou le VPN. Après l'authentification avec les données d'identification de l'utilisateur, un message vous indique que l'authentification PhoneFactor est en cours. Vous, ou l'utilisateur que vous ajoutez, devez être à proximité du téléphone indiqué pour PhoneFactor afin de compléter l'authentification. PhoneFactor tente de vous authentifier cinq fois. Au bout de cinq tentatives infructueuses, vous êtes verrouillé pendant environ une heure. Vous, ou un utilisateur dotés d'un accès administrateur au compte, pouvez à tout moment changer les paramètres d'authentification PhoneFactor. Vous, ou un administrateur du compte, pouvez à tout moment désactiver PhoneFactor. 
+Une fois que PhoneFactor est activé, l'authentification via PhoneFactor est obligatoire pour le portail client ou le VPN. Après l'authentification avec les données d'identification de l'utilisateur, un message vous indique que l'authentification PhoneFactor est en cours. Vous, ou l'utilisateur que vous ajoutez, devez être à proximité du téléphone indiqué pour PhoneFactor afin de compléter l'authentification. PhoneFactor tente de vous authentifier cinq fois. Au bout de cinq tentatives infructueuses, vous êtes verrouillé pendant environ une heure. Vous, ou un utilisateur dotés d'un accès administrateur au compte, pouvez à tout moment changer les paramètres d'authentification PhoneFactor.  Vous, ou un administrateur du compte, pouvez à tout moment désactiver PhoneFactor.
 
 #### Méthodes d'authentification PhoneFactor
 {: #cp_phonefacauthmeths}
@@ -152,7 +153,7 @@ Si vous configurez PhoneFactor comme type d'authentification, vous pouvez choisi
 <dt>SMS et code confidentiel unique</dt>
 <dd>Avec cette option, vous recevez un message texte avec un code confidentiel à utiliser pour répondre au message. Quand vous entrez le code confidentiel fourni, le processus d'authentification aboutit et vous connecte au portail.</dd>
 <dt>SMS avec valeur de code confidentiel unique</dt>
-<dd>Avec cette option, vous créez une valeur de code confidentiel comportant de 4 à 8 chiffres. Lorsque vous recevez un message texte, vous répondez avec le code fourni et votre numéro de code confidentiel sans espaces. </dd>
+<dd>Avec cette option, vous créez une valeur de code confidentiel comportant de 4 à 8 chiffres. Lorsque vous recevez un message texte, vous répondez avec le code fourni et votre numéro de code confidentiel sans espaces.</dd>
 <dt>Application PhoneFactor et standard (pas de code confidentiel)</dt>
 <dd>Ouvrez l'application PhoneFactor (Azure Authenticator) sur votre appareil et cliquez sur <strong>Authentifier</strong>. Un message s'affiche pour indiquer que vous vous êtes authentifié à l'aide de PhoneFactor et vous êtes connecté au portail.</dd>
 <dt>Application PhoneFactor avec code confidentiel</dt>
@@ -180,7 +181,7 @@ Utilisez la procédure suivante pour changer le statut d'un utilisateur dans le 
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Utilisateurs** dans la barre de navigation.
-3. Sélectionnez **Modifier statut utilisateur** dans la liste **Actions**. 
+3. Sélectionnez **Modifier statut utilisateur** dans la liste **Actions**.
 4. Dans la liste **Statut**, sélectionnez le statut approprié en fonction des définitions de la liste précédente.
 5. Cliquez sur **Enregistrer**.
 
@@ -202,12 +203,12 @@ Quand un [nouvel utilisateur est ajouté](/docs/customer-portal/cpmanacctadduser
 
 Après que l'accès VPN d'un utilisateur a été mis à jour, les droits sont mis à jour en conséquence et la colonne Accès VPN affiche la méthode d'accès VPN mise à jour, le cas échéant.
 
-### Activation ou désactivation de l'accès VPN 
+### Activation ou désactivation de l'accès VPN
 {: #cp_pptpvpn}
 
 Vous pouvez activer le VPN PPTP afin de former un tunnel sécurisé d'accès au réseau privé de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} à l'aide d'un logiciel client spécialisé s'exécutant sur votre bureau ou une unité dédiée. Vous pouvez utiliser PPTP si vous avez besoin de connecter la totalité de votre bureau ou si vous ne pouvez pas utiliser la solution VPN SSL.
 
-Une connexion PPTP vous est allouée avec des connexions supplémentaires disponibles. Vous pouvez demander une aide pour activer l'accès PPTP illimité, disponible sans frais supplémentaires. Utilisez la procédure suivante pour activer l'accès VPN PPTP.
+Une connexion PPTP vous est allouée avec des connexions supplémentaires disponibles.  Vous pouvez demander une aide pour activer l'accès PPTP illimité, disponible sans frais supplémentaires. Utilisez la procédure suivante pour activer l'accès VPN PPTP.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Accès VPN** dans la barre de menus.

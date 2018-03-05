@@ -18,14 +18,15 @@ lastupdated: "2017-12-12"
 # Mise à jour des informations de contact importantes
 {: #customerportal_upcompprofandcont}
 
-Chaque compte SoftLayer possède un profil de société associé contenant les informations sur la société et les détails concernant le titulaire de compte principal. Vous pouvez utiliser les données du profil de société lorsque vous configurez des contacts et des profils utilisateur. Chaque compte SoftLayer comporte également différents contacts spécifiques au compte et qui sont utilisés en association avec les services disponibles sur le compte, comme la publication d'une image (CDN) ou SOC. Si vous êtes l'utilisateur principal d'un compte ou disposez d'un accès administrateur à ce compte, vous pouvez mettre à jour vos informations de contact.{:shortdesc}
+Chaque compte SoftLayer possède un profil de société associé contenant les informations sur la société et les détails concernant le titulaire de compte principal. Vous pouvez utiliser les données du profil de société lorsque vous configurez des contacts et des profils utilisateur. Chaque compte SoftLayer comporte également différents contacts spécifiques au compte et qui sont utilisés en association avec les services disponibles sur le compte, comme la publication d'une image (CDN) ou SOC. Si vous êtes l'utilisateur principal d'un compte ou disposez d'un accès administrateur à ce compte, vous pouvez mettre à jour vos informations de contact.
+{:shortdesc}
 
 ## Mise à jour de votre profil de société
 {: #cp_updcompprof}
 
 L'infrastructure {{site.data.keyword.BluSoftlayer_full}} utilise les informations du profil de société pour vous contacter. Si votre numéro de téléphone ou votre e-mail de contact principal changent, veillez à les mettre à jour. Les informations du profil de société sont entrées dans l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} lors de la création du compte et se trouvent à différents emplacements du portail client.
 
-Vous pouvez changer le profil de société à tout moment en soumettant une demande de changement. Les détails associés sont vérifiés et les modifications sont mises à jour après avoir été validées. Utilisez la procédure suivante pour demander une mise à jour du profil de société. 
+Vous pouvez changer le profil de société à tout moment en soumettant une demande de changement. Les détails associés sont vérifiés et les modifications sont mises à jour après avoir été validées. Utilisez la procédure suivante pour demander une mise à jour du profil de société.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Gérer** > **Profil de la Société** dans le menu pour accéder à la fenêtre Profil du compte.

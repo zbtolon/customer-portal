@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -18,23 +18,32 @@ lastupdated: "2017-12-04"
 # Surveillance de votre environnement et des événements système
 {: #customerportal_cpmonenvsysevent}
 
-La surveillance de votre environnement signifie que vous avez la possibilité de contrôler les appareils à tout moment et que vous êtes automatiquement notifié si l'un des équipements tombe en panne. Vous pouvez également surveiller les événements système afin de garantir un fonctionnement harmonieux.   
+La surveillance de votre environnement signifie que vous avez la possibilité de contrôler les appareils à tout moment et que vous êtes automatiquement notifié si l'un des équipements tombe en panne. Vous pouvez également surveiller les événements système afin de garantir un fonctionnement harmonieux.  
 {: shortdesc}
 
 ## Surveillance de votre environnement
 {: #cpmonenv}
 
-Au minimum, utilisez la surveillance de base par commande ping. Vous avez néanmoins la possibilité de personnaliser vos options de surveillance de la façon la mieux adaptée à vos besoins métier.
+Au minimum, utilisez la surveillance de base par commande ping. Vous avez néanmoins la possibilité de personnaliser vos options de surveillance de la façon la mieux adaptée à vos besoins métier. Pour connaître les options de surveillance, voir [Configuration d'un serveur bare metal](/docs/customer-portal/cpsetupbaremetal.html).
 
 ### Etre tenu informé de la maintenance réseau et des événements imprévus
 {: #cp_stayinfomaintevent}
 
-De temps en temps, des opérations de maintenance réseau planifiées et urgentes sont inévitables. L'infrastructure {{site.data.keyword.BluSoftlayer_full}} gère de nombreux canaux, comme un [compte Twitter ![Icône de lien externe](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, afin de vous tenir informé de tous les événements de maintenance planifié et d'urgence. En outre, vous pouvez vous [abonner aux notifications par e-mail](/docs/customer-portal/cpsub2not.html){:new_window} depuis le système de gestion d'événements. Ce service gratuit envoie automatiquement des courriers électroniques aux utilisateurs abonnés concernant les événements imprévus qui peuvent impacter des services.
+De temps en temps, des opérations de maintenance réseau planifiées et urgentes sont inévitables. L'infrastructure {{site.data.keyword.BluSoftlayer_full}} gère de nombreux canaux, comme un [compte Twitter ![Icône de lien externe](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, afin de vous tenir informé de tous les événements de maintenance planifié et d'urgence. En outre, vous pouvez vous [abonner aux notifications par e-mail](/docs/customer-portal/cpsub2not.html) depuis le système de gestion d'événements. Ce service gratuit envoie automatiquement des courriers électroniques aux utilisateurs abonnés concernant les événements imprévus qui peuvent impacter des services.
 
-### Utilisation du dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} 
+### Utilisation du dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}
 
-Utilisez le [dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} ![Icône de lien externe](../icons/launch-glyph.svg)](https://knowledgelayer.softlayer.com/topic/mobile-devices){:new_window} pour gérer les appareils de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} par mobile à l'aide de votre appareil iOS ou Android. La fonctionnalité au sein du dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} inclut la prise en charge des demandes de service, le contrôle d'appareil de base et la surveillance de la bande passante.
+Utilisez le dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour gérer les appareils de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} par mobile à l'aide de votre appareil iOS ou Android. La fonctionnalité au sein du dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} inclut la prise en charge des demandes de service, le contrôle d'appareil de base et la surveillance de la bande passante.
+
+L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} complète la fonctionnalité du portail client car elle vous permet de surveiller des informations essentielles sur votre infrastructure à partir de n'importe quel endroit à l'aide de votre périphérique mobile connecté au réseau. L'application évolue rapidement et de nouvelles fonctionnalités sont régulièrement ajoutées, mais vous pouvez utiliser l'application mobile pour effectuer des tâches comme les tâches suivantes :
+  * Afficher, créer et mettre à jour des tickets de demande de service
+  * Surveiller l'état des périphériques, y compris la bande passante et les alarmes
+  * Arrêter et redémarrer des serveurs bare metal et des serveurs virtuels
+  * Consulter les factures du compte et procéder à des paiements ponctuels
+  * Accéder au contenu stocké dans Object Storage et l'examiner
+
+L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} est disponible sur plusieurs plateformes de périphériques mobiles répandues et est disponible gratuitement à partir des magasins d'applications associés à chaque plateforme. 
 
 ## Surveillance des événements système
 {: #customerportal_monevent}

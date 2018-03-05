@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -24,9 +24,9 @@ Dans ce tutoriel, nous allons détailler la procédure pour vous rendre opérati
 ## Avant de commencer
 {: #prereqs}
 
-Vous aurez besoin d'un compte [{{site.data.keyword.Bluemix}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.bluemix.net/){:new_window}. Connectez-vous au portail client à l'aide de vos données d'identification IBMid. La plupart des nouveaux utilisateurs se servent d'IBMid pour l'authentification.
+Vous aurez besoin d'un compte [{{site.data.keyword.Bluemix}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.bluemix.net/){:new_window}. Connectez-vous au portail client à l'aide de vos données d'identification IBMid. La plupart des nouveaux utilisateurs se servent de l'[IBMid](/docs/account/softlayerlink.html#switchtoIBMid) pour l'authentification.
 
-Pour les utilisateurs avec des comptes qui n'utilisent pas IBMid pour l'authentification, connectez-vous au portail client avec les données d'identification que vous avez reçues dans le mail qui vous a été envoyé lors de la création de votre compte.
+Si vous n'employez pas d'IBMid pour l'authentification afin de vous connecter à votre compte, connectez-vous au portail client avec vos données d'identification uniques de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
 
 ## Etape 1 : Configurez votre compte
@@ -67,8 +67,8 @@ Pour être notifié des problèmes système pouvant survenir ainsi que des évé
 
 Accédez au système de gestion d'événements sur le portail client pour choisir le type des notifications auxquelles vous souhaitez vous abonner :
   1. Sélectionnez **Compte** > **Gérer** > **Abonnements** dans la barre de menus.
-  2. Cliquez sur un abonnement spécifique dans la liste qui s'affiche. 
-  3. Cochez la case **Oui** dans la colonne Abonné. 
+  2. Cliquez sur un abonnement spécifique dans la liste qui s'affiche.
+  3. Cochez la case **Oui** dans la colonne Abonné.
   4. Cliquez sur **Afficher Tous les Abonnements** pour revenir à la liste des abonnements disponibles et abonnez-vous à d'autres types si nécessaire.
 
 ## Etapes suivantes

@@ -18,7 +18,7 @@ lastupdated: "2017-12-01"
 # Configuration de la connexion unique (SSO)
 {: #customerportal_confssoserv}
 
-Si vous êtes utilisateur principal d'un compte ou disposez d'un accès administrateur à ce compte, vous pouvez configurer la connexion unique. La configuration de la connexion unique pour l'infrastructure {{site.data.keyword.BluSoftlayer_full}} est un processus en deux étapes. Dans un premier temps, vous sélectionnez et configurez votre fournisseur d'identité. Vous configurez ensuite l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour la réception de la demande d'authentification de votre fournisseur d'identité.
+Si vous êtes utilisateur principal d'un compte ou disposez d'un accès administrateur à ce compte, vous pouvez configurer la connexion unique. La configuration de la connexion unique pour l'infrastructure {{site.data.keyword.BluSoftlayer_full}} est un processus en deux étapes.  Dans un premier temps, vous sélectionnez et configurez votre fournisseur d'identité. Vous configurez ensuite l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour la réception de la demande d'authentification de votre fournisseur d'identité.
 {:shortdesc}
 
 ## Sélection et configuration de votre fournisseur d'identité

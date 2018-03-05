@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,8 +31,7 @@ Si vous n'utilisez PAS IBMid pour l'authentification, lorsque vous validez votre
 
 Si vous oubliez votre mot de passe après votre première connexion, utilisez la fonction de **mot de passe oublié** disponible sur l'écran de connexion du [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Vous serez invité à entrer des informations spécifiques, notamment répondre à un ensemble de questions de sécurité spécifiées lors de l'[édition de votre profil utilisateur](edit-user-profile.html).
 
-Si vous oubliez votre nom d'utilisateur, contactez votre administrateur de compte ou utilisateur principal, qui dispose des droits pour extraire votre nom d'utilisateur. Si vous êtes l'administrateur ou l'utilisateur principal sur le compte, [contactez le support](support.html) pour une aide supplémentaire.
-
+Si vous oubliez votre nom d'utilisateur, contactez votre administrateur de compte ou utilisateur principal, qui dispose des droits pour extraire votre nom d'utilisateur. Si vous êtes l'administrateur ou l'utilisateur principal sur le compte, contactez le support pour une aide supplémentaire.
 
 ## Qu'est-ce que l'IBMid, et comment est-il associé aux utilisateurs de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} ?
 {: #bicp_whatisibmid}
@@ -42,7 +41,7 @@ Les nouveaux comptes nécessitent IBMid pour l'authentification. Les comptes exi
 ## Comment lier un compte SoftLayer existant ?
 {: #bicp_linkbmxacct}
 
-Si vous êtes l'utilisateur principal sur votre compte SoftLayer, connectez-vous au portail client et cliquez sur **Lier le compte** dans l'en-tête. Voir [Liaison de comptes utilisateur IBMid](/docs/admin/softlayerlink.html#link_user_accounts) pour plus d'informations.
+Si vous êtes l'utilisateur principal sur votre compte SoftLayer, connectez-vous au portail client et cliquez sur **Lier le compte** dans l'en-tête.  Voir [Liaison de comptes utilisateur IBMid](/docs/account/softlayerlink.html) pour plus d'informations.
 
 ## Faut-il être un utilisateur {{site.data.keyword.Bluemix_notm}} existant pour lier des comptes ?
 {: #bicp_bmxusertolink}
@@ -55,7 +54,7 @@ Non. Vous pouvez créer un compte {{site.data.keyword.Bluemix_notm}} ou lier un 
 
 Il n'y a pas d'impact sur la configuration de l'authentification à deux facteurs au niveau du compte. L'authentification à deux facteurs ne se fait pas par IBMid mais toujours par compte. Quand un IBMid est associé à de nombreux comptes et que vous passez d'un compte à un autre, vous devez confirmer votre identité chaque fois que vous utilisez un compte différent qui nécessite une authentification à deux facteurs. Ceci est valable même si le compte précédent et le nouveau compte ont tous deux été configurés avec le même mécanisme 2FA.
 
-Pour plus d'informations sur l'IBMid avec authentification à deux facteurs, voir [Utilisation de l'authentification à deux facteurs dans les comptes liés](/docs/admin/softlayerlink.html#2fa).
+Pour plus d'informations sur l'IBMid avec authentification à deux facteurs, voir [Utilisation de l'authentification à deux facteurs dans les comptes liés](/docs/account/softlayerlink.html).
 
 
 ## Qui peut lier des comptes ?
@@ -113,7 +112,7 @@ Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateu
 ## Puis-je lier un compte d'abonnement {{site.data.keyword.Bluemix_notm}} ?
 {: #bicp_linkbmxsubacct}
 
-Tous les comptes liés dans {{site.data.keyword.Bluemix_notm}} doivent être des comptes de type Paiement à la carte. Vous pouvez créer un compte de paiement à la carte ou lier un compte existant. Ou bien, vous pouvez lier un compte d'essai existant, mais celui-ci sera mis à niveau vers un compte de paiement à la carte. 
+Tous les comptes liés dans {{site.data.keyword.Bluemix_notm}} doivent être des comptes de type Paiement à la carte. Vous pouvez créer un compte de paiement à la carte ou lier un compte existant. Ou bien, vous pouvez lier un compte d'essai existant, mais celui-ci sera mis à niveau vers un compte de paiement à la carte.
 
 
 ## Comment supprimer le lien de mon compte {{site.data.keyword.Bluemix_notm}} avec mon compte d'infrastructure {{site.data.keyword.BluSoftlayer_notm}} ?

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -15,21 +15,23 @@ lastupdated: "2017-12-12"
 {:new_window: target="_blank"}
 
 
-# Support pour l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} 
+# Support pour l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Si votre compte SoftLayer a été créé avec le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}, et s'il s'agit d'un compte lié, vous disposez de plusieurs options pour obtenir de l'aide. Pour plus d'informations, voir [Support client](/docs/support/index.html#getting-customer-support){:new_window}.
+Si votre compte SoftLayer a été créé avec le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}, et s'il s'agit d'un compte lié, vous disposez de plusieurs options pour obtenir de l'aide. Que vous disposiez ou non d'un compte lié, vous pouvez ouvrir des tickets de demande de service sur le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}}.
 {:shortdesc}
+
+Si vous possédez un [compte lié](/docs/account/softlayerlink.html#link_user_accounts), vous pouvez ouvrir un ticket de demande de service depuis l'infrastructure {{site.data.keyword.BluSoftlayer_full}} ou consultez [Support client](/docs/get-support/howtogetsupport.html) pour avoir plus d'informations sur l'obtention de support via la console {{site.data.keyword.Bluemix}}.
 
 ## Création d'un ticket de demande de service avec le portail client
 {: #cp_creatsuptickwsp}
 
-Que vous disposiez ou non d'un compte lié, vous pouvez ouvrir des tickets de demande de service sur le portail client afin d'obtenir de l'aide sur les problèmes liés à votre compte ou à {{site.data.keyword.BluSoftlayer_full}} en général.
+Vous pouvez ouvrir des tickets de demande de service sur le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} afin d'obtenir de l'aide sur les problèmes liés à votre compte ou à l'infrastructure {{site.data.keyword.BluSoftlayer_full}} en général.
 
 1. Connectez-vous au [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Support** > **Ajouter ticket** depuis le menu.
-3. Sélectionnez dans la liste **Objet** la catégorie qui correspond le mieux au motif d'ouverture d'un ticket. 
-4. Dans la liste **Affecter à**, sélectionnez votre nom d'utilisateur. <br/>
+3. Sélectionnez dans la liste **Objet** la catégorie qui correspond le mieux au motif d'ouverture d'un ticket.
+4. Dans la liste **Affecter à**, sélectionnez votre nom d'utilisateur.<br/>
 
   Si vous ouvrez un ticket pour un autre utilisateur, sélectionnez cet utilisateur dans la liste.
   {:tip}
@@ -40,7 +42,8 @@ Que vous disposiez ou non d'un compte lié, vous pouvez ouvrir des tickets de de
   * Si des mises à jour par e-mail doivent être envoyées à d'autres personnes, dans la zone **Envoyer un e-mail aux autres destinataires**, entrez l'adresse e-mail de l'utilisateur qui doit recevoir les mises à jour ou sélectionnez l'adresse dans la liste. Cliquez ensuite sur **Ajouter destinataire**. Répétez ces étapes jusqu'à ce que tous les destinataires aient été ajoutés. Vous pouvez ajouter jusqu'à cinq destinataires par ticket, en plus du cessionnaire.
 7. Si des appareils sont associés à un ticket existant, entrez le nom de l'unité dans la zone **Unités associées** ou sélectionnez l'appareil dans la liste, puis cliquez sur **Ajouter unité**. Répétez ces étapes jusqu'à ce que tous les appareils aient été ajoutés.
 
-  Vous pouvez associer jusqu'à cinq appareils à un ticket. Plutôt que de créer plusieurs tickets pour chaque unité ayant le même problème ou indisponibilité, associez jusqu'à cinq appareils de votre ticket et ils pourront tous êtres gérés à la fois. Cette solution garantit que l'équipe de support est consciente de l'étendue du problème sur votre compte et peut résoudre ce problème pour tous les emplacements.{:tip}
+  Vous pouvez associer jusqu'à cinq appareils à un ticket. Plutôt que de créer plusieurs tickets pour chaque unité ayant le même problème ou indisponibilité, associez jusqu'à cinq appareils de votre ticket et ils pourront tous êtres gérés à la fois. Cette solution garantit que l'équipe de support est consciente de l'étendue du problème sur votre compte et peut résoudre ce problème pour tous les emplacements.
+  {:tip}
 
 8. Entrez les informations concernant le ticket dans la zone **Détails**.
 
@@ -73,7 +76,6 @@ Après que vous avez ajouté un ticket, vous pouvez le consulter à tout moment 
 3. Sélectionnez le statut du ticket dans le menu déroulant afin de filtrer la vue.
 4. Cliquez sur le numéro de ticket pour en afficher les détails.
 
-
 ## Mise à jour d'un ticket
 {: #cp_updatsuptickwsp}
 
@@ -89,21 +91,22 @@ Vous pouvez à tout moment mettre à jour un ticket de demande de service exista
   * Joindre un fichier : cliquez sur **Joindre des fichiers** et sélectionnez les fichiers à joindre au ticket. Vous pouvez joindre jusqu'à deux (2) fichiers à un ticket.
 6. Cliquez sur **Mettre à jour**.
 
-  A tout moment au cours du processus de mise à jour, vous pouvez ouvrir une session de discussion avec un membre de l'équipe de support pour demander de l'aide. Cliquez sur **Démarrer la discussion** pour ouvrir une session de discussion.{:tip}
+  A tout moment au cours du processus de mise à jour, vous pouvez ouvrir une session de discussion avec un membre de l'équipe de support pour demander de l'aide. Cliquez sur **Démarrer la discussion** pour ouvrir une session de discussion.
+  {:tip}
 
-Si vous réaffectez le ticket, le nouveau cessionnaire devient le point de contact principal pour la résolution du problème. Si vous ajoutez un commentaire ou une pièce jointe, le membre de l'équipe de support qui travaille sur le ticket examine les nouvelles informations pour aider à la résolution du problème. 
+Si vous réaffectez le ticket, le nouveau cessionnaire devient le point de contact principal pour la résolution du problème. Si vous ajoutez un commentaire ou une pièce jointe, le membre de l'équipe de support qui travaille sur le ticket examine les nouvelles informations pour aider à la résolution du problème.
 
 ## Escalade d'un problème au support
 {: #cp_bpsupescalflow}
 
-Si vous avez besoin d'aide pour résoudre un problème, vous pouvez ouvrir un ticket de demande de service. Si le problème est critique ou urgent et que vous avez besoin de faire remonter le problème, utilisez la procédure suivante.
+Si vous avez besoin d'aide pour résoudre un problème, vous pouvez ouvrir un ticket de demande de service.  Si le problème est critique ou urgent et que vous avez besoin de faire remonter le problème, utilisez la procédure suivante.
 
 1. Ouvrez un ticket de demande de service depuis le portail client, une discussion ou par téléphone (866-403-7638).
 
   Lorsque vous créez ou mettez à jour un ticket, incluez toute erreur, journal ou traitement appliqué car cela peut aider à résoudre plus rapidement le problème.
   {: tip}
 
-2. Travaillez avec l'équipe de support de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} sur le ticket. Si, par exemple, l'équipe de support demande des informations complémentaires, répondez aussi rapidement que possible.
+2. Travaillez avec l'équipe de support de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} sur le ticket.  Si, par exemple, l'équipe de support demande des informations complémentaires, répondez aussi rapidement que possible.
 3. Si la progression du ticket semble bloquée, vous pouvez escalader depuis le ticket en fournissant un commentaire, par exemple *"merci de faire remonter ce ticket en raison de l'impact client"*, ou en utilisant la discussion ou le téléphone.
 4. Si le ticket ne progresse pas après la demande initiale, vous pouvez le faire remonter au superviseur du support en demandant l'escalade dans le ticket.
 5. Si vous ne voyez toujours pas de progression après avoir demandé de l'aide au superviseur, vous pouvez envoyer un et-mail à l'équipe de gestion du support à l'adresse Notify-Support-WW@wwpdl.vnet.ibm.com.

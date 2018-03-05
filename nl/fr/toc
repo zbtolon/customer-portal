@@ -31,6 +31,7 @@ Gestion des ressources d'infrastructure
     Gestion de votre environnement
         cpmonenv.md
         cpprotectsys.md
+        cpsetupbaremetal.md
         cpcompsegapptiers.md
         cpcompmanlic.md
         cprebootserver.md

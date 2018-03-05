@@ -20,7 +20,7 @@ lastupdated: "2017-12-04"
 
 La protection de vos systèmes garantit leur bonne exécution, sans interruptions inutiles.
 
-## Utilisez le réseau privé 
+## Utilisez le réseau privé
 {: #cp_bpuseprivnet}
 
 Vous pouvez gérer vos appareils dans l'environnement le plus sécurisé possible à l'aide du réseau privé de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Lorsque cela est possible, interagissez avec vos unités à l'aide d'une connexion VPN et activez le spanning réseau afin que vos systèmes communiquent via le réseau privé. Pour accéder au réseau privé, éditez l'accès VPN de l'utilisateur depuis la [Liste utilisateurs ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Utilisez les instructions de [Réseau privé virtuel ![Icône de lien externe](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} pour vous connecter à l'une des différentes options de VPN.
