@@ -139,7 +139,7 @@ Depois de incluir o PhoneFactor, deve-se ativar manualmente a autenticação ext
 9. Se você selecionar **Uma Vez** > **Valor de PIN**, insira o PIN no campo **Valor do PIN**.
 10. Clique em **Atualizar** para atualizar as mudanças e ativar a autenticação do PhoneFactor.
 
-Depois de ativar o PhoneFactor, a autenticação por meio do PhoneFactor é requerida pelo portal do cliente ou pela VPN. Após a autenticação com as credenciais do usuário, uma mensagem informa que a autenticação do PhoneFactor está sendo tentada. Você, ou o usuário que você está incluindo, deve estar perto do telefone listado no PhoneFactor para concluir a autenticação. O PhoneFactor tenta autenticar cinco vezes. Depois de cinco tentativas de autenticação malsucedidas, você fica bloqueado por aproximadamente uma hora. Você, ou um usuário com acesso administrativo à conta, pode mudar as configurações de autenticação do PhoneFactor a qualquer momento. Você, ou um administrador da conta, pode desativar o PhoneFactor a qualquer momento.
+Depois de ativar o PhoneFactor, a autenticação por meio do PhoneFactor é requerida pelo portal do cliente ou pela VPN. Após a autenticação com as credenciais do usuário, uma mensagem informa que a autenticação do PhoneFactor está sendo tentada. Você, ou o usuário que você está incluindo, deve estar perto do telefone listado no PhoneFactor para concluir a autenticação. O PhoneFactor tenta autenticar cinco vezes. Depois de cinco tentativas de autenticação malsucedidas, você fica bloqueado por aproximadamente uma hora. Você, ou um usuário com acesso administrativo à conta, pode mudar as configurações de autenticação do PhoneFactor a qualquer momento.  Você, ou um administrador da conta, pode desativar o PhoneFactor a qualquer momento.
 
 #### Métodos de autenticação do PhoneFactor
 {: #cp_phonefacauthmeths}
@@ -208,7 +208,7 @@ Após atualizar o acesso de um usuário à VPN, suas permissões são atualizada
 
 É possível ativar a VPN PPTP para formar um túnel seguro para a rede privada da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} usando o software cliente especializado em execução em seu desktop ou dispositivo dedicado. É possível usar PPTP se você precisa conectar todo seu escritório ou se não pode usar a solução VPN SSL.
 
-Você é designado a uma conexão PPTP com conexões adicionais disponíveis. É possível solicitar suporte para ativar o acesso ilimitado ao PPTP, que está disponível sem encargos adicionais. Use as etapas a seguir para ativar ou desativar o acesso à VPN PPTP:
+Você é designado a uma conexão PPTP com conexões adicionais disponíveis.  É possível solicitar suporte para ativar o acesso ilimitado ao PPTP, que está disponível sem encargos adicionais. Use as etapas a seguir para ativar ou desativar o acesso à VPN PPTP:
 
 1. Acesse o portal do cliente usando suas credenciais exclusivas.
 2. Selecione **Conta** > **Acesso à VPN** na barra de menus.

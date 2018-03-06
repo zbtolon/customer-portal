@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -22,6 +22,17 @@ lastupdated: "2017-12-05"
 {:shortdesc}
 
 O objetivo da API é fornecer um ambiente no qual é possível concluir qualquer tarefa do portal do cliente na API. O ambiente de API é mantido com frequentes inclusões e atualizações para assegurar que você tenha as melhores opções disponíveis, incluindo a capacidade de programar em uma variedade de linguagens e opções para usar APIs baseadas em SOAP, XML-RPC e REST. Do mesmo modo que ao trabalhar no portal do cliente, se você fizer principalmente interações de conta na API, também será necessária uma fonte viável para suporte.
+
+## Como acessar a API?
+{: #cp_getapikey}
+
+É possível acessar a API com uma chave API específica do usuário. As chaves API são identificadores alfanuméricos exclusivos que permitem acessar a API com segurança. Sua chave API está vinculada especificamente ao seu ID do usuário e ela fornece as mesmas permissões na API que você tem no Portal do Cliente. Você gera a chave API apenas uma vez e, então, é possível recuperá-la e continuar usando-a. Use as etapas a seguir para gerar sua chave API:
+
+1. Acesse o portal do cliente usando suas credenciais exclusivas.
+2. Selecione **Conta** > **Usuários** na barra de navegação.
+3. Na coluna **CHAVE API** da linha com as credenciais do usuário, clique no link **Gerar**.
+
+Após a chave API ser gerada, o link **Gerar** muda para um link **Visualizar** que pode ser usado para acessar sua chave API a qualquer momento.
 
 ## Onde posso aprender mais sobre a API?
 {: #cp_apimoreinfo}

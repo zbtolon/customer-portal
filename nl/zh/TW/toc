@@ -28,9 +28,10 @@
         pay-invoice.md
 
     {: .topicgroup}
-    管理環境
+    管理您的環境
         cpmonenv.md
         cpprotectsys.md
+        cpsetupbaremetal.md
         cpcompsegapptiers.md
         cpcompmanlic.md
         cprebootserver.md

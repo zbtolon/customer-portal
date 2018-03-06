@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -18,13 +18,14 @@ lastupdated: "2017-12-12"
 # 取得 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構的支援
 {: #customerportal_support}
 
-如果您的 SoftLayer 帳戶是使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站所建立，而且它是已鏈結的帳戶，則您會有數個取得支援的選項。如需相關資訊，請參閱[取得客戶支援](/docs/support/index.html#getting-customer-support){:new_window}。
-{:shortdesc}
+如果您的 SoftLayer 帳戶是使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站所建立，而且它是已鏈結的帳戶，則您會有數個取得支援的選項。不論您是否有已鏈結帳戶，都可以在客戶入口網站中開立 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶支援問題單。{:shortdesc}
+
+如果您具有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)，則您可以在 {{site.data.keyword.BluSoftlayer_full}} 基礎架構中開立支援問題單，或查看[取得客戶支援](/docs/get-support/howtogetsupport.html)，以取得透過 {{site.data.keyword.Bluemix}} 主控台取得支援的相關資訊。
 
 ## 使用客戶入口網站開立支援問題單
 {: #cp_creatsuptickwsp}
 
-不論是否有已鏈結的帳戶，您一般都可以在客戶入口網站中開立客戶支援問題單，以協助處理帳戶或 {{site.data.keyword.BluSoftlayer_full}} 相關問題。
+一般而言，您可以在 客戶入口網站中開立 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶支援問題單，以協助處理帳戶或 {{site.data.keyword.BluSoftlayer_full}} 基礎架構的相關問題。
 
 1. 使用唯一的認證來登入[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}。
 2. 從功能表中，選取**支援中心** > **新增問題單**。
@@ -38,7 +39,7 @@ lastupdated: "2017-12-12"
 6. 如果在更新問題單時應該傳送電子郵件更新，請指出要傳送給誰：
   * 如果應該將更新傳送給受託人，請選取**以電子郵件將更新寄送給我？**勾選框。如果您不是受託人，則選取**以電子郵件將更新寄送給我？**勾選框會將更新傳送給受託人，因為他與**指派給**清單鏈結。
   * 如果應該將電子郵件更新傳送給其他人，請在**以電子郵件寄送給其他人**欄位中，輸入使用者的電子郵件位址來接收更新，或從清單中選取電子郵件位址。然後，按一下**新增收件者**。重複這些步驟，直到所有收件者都已新增。除了受託人之外，您最多還可以為每個問題單新增五位收件者。
-7. 如果裝置與現有問題單相關聯，請在**聯的裝置**欄位中輸入裝置名稱，或從清單中選取裝置，然後按一下**新增裝置**。重複這些步驟，直到所有裝置都已新增。
+7. 如果裝置與現有問題單相關聯，請在**相關聯的裝置**欄位中輸入裝置名稱，或從清單中選取裝置，然後按一下**新增裝置**。重複這些步驟，直到所有裝置都已新增。
 
   您最多可以將五個裝置與問題單相關聯。問題單中最多可關聯五個裝置，而且可以同時處理，而不是針對發生相同問題或運作中斷的每一個裝置開立多個問題單。這也會確保支援團隊可以知道您帳戶的普遍問題，而且可以解決所有位置中的問題。
   {:tip}
@@ -73,7 +74,6 @@ lastupdated: "2017-12-12"
 2. 從功能表中，選取**支援中心** > **問題單**。
 3. 從下拉功能表中選取問題單狀態，以過濾視圖。
 4. 按一下問題單號碼，以檢視問題單的詳細資料。
-
 
 ## 更新問題單
 {: #cp_updatsuptickwsp}

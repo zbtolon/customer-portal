@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-02-12"
 
 ---
 
@@ -18,7 +18,8 @@ lastupdated: "2017-12-06"
 # 管理计费项目
 {: #manage-billing}
 
-如果要管理 SoftLayer 帐户的 {{site.data.keyword.Bluemix}} 基础架构记帐，您可以在客户门户网站中管理您的记帐和付款。要管理 {{site.data.keyword.Bluemix_notm}} 平台记帐和付款，请参阅[管理记帐和使用情况](/docs/pricing/index.html#accounts)。
+如果要管理 SoftLayer 帐户的 {{site.data.keyword.Bluemix}} 基础架构记帐，您可以在客户门户网站中管理您的记帐和付款。要管理 {{site.data.keyword.Bluemix_notm}} 平台记帐和付款，请参阅[管理记帐和使用情况](/docs/account/index.html)。
+  
 {:shortdesc}
 
 ## 访问计费项目

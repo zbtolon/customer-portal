@@ -21,7 +21,7 @@ lastupdated: "2017-12-06"
 您可以使用 Chrootkit 工具來掃描、建立以及以電子郵件寄送系統報告。
 {:shortdesc}
 
-若要使用 Chrootkit 工具，請先以 admin 身分 SSH 到伺服器。請不要使用應該已停用的 Telnet。然後，使用下列步驟：
+若要使用 Chrootkit 工具，請先以 admin 身分透過 SSH 進入伺服器。請不要使用應該已停用的 Telnet。然後，使用下列步驟：
 
 1. 切換至根目錄：  
 
@@ -73,7 +73,7 @@ lastupdated: "2017-12-06"
   ```
   {: pre}
 
-chkrootkit 工具所輸出的所有內容都應該 `not found` 或 `not infected`。
+chkrootkit 工具所輸出的所有內容都應該是 `not found` 或 `not infected`。
 
 如果您看到 *Checking `bindshell`... INFECTED (PORTS: 465)*，而且正在執行 PortSentry、klaxon 或另一個將它自己連結至未用埠的程式，則 chkrootkit 可能會對 bindshell 測試提供誤判（埠 114/tcp、465/tcp、511/tcp、1008/tcp、1524/tcp、1999/tcp、3879/tcp、4369/tcp、5665/tcp、10008/tcp、12321/tcp、23132/tcp、27374/tcp、29364/tcp、31336/tcp、31337/tcp、45454/tcp、47017/tcp、47889/tcp、60001/tcp）。
 {: tip}
@@ -108,7 +108,7 @@ chkrootkit 工具所輸出的所有內容都應該 `not found` 或 `not infected
 
 3. 將 `yourinstallpath` 取代為已解壓縮 Chkrootkit 的實際路徑。
 4. 將 `Servername` 變更為您正在執行的伺服器，讓您知道它的來源。
-5. 將 `admin@youremail.com` 變更為您要 Script 將電子郵件寄送您的實際電子郵件位址。
+5. 將 `admin@youremail.com` 變更為您要 Script 寄送電子郵件的實際電子郵件位址。
 6. 使用下列指令，以將檔案儲存至 SSH：
 
   ```
@@ -123,7 +123,7 @@ chkrootkit 工具所輸出的所有內容都應該 `not found` 或 `not infected
   ```
   {: pre}
 
-8.  您可以選擇在 SSH 中手動執行測試報告，以查看其外觀：
+8.  您可以選擇在 SSH 中手動執行測試報告，以查看其內容：
 
   ```
   cd /etc/cron.daily/

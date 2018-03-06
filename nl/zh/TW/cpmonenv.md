@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -24,17 +24,26 @@ lastupdated: "2017-12-04"
 ## 監視環境
 {: #cpmonenv}
 
-最少要使用基本連線測試監視，但您可以使用最符合商業需求的方式來自訂監視選項。
+最少要使用基本連線測試監視，但您可以使用最符合商業需求的方式來自訂監視選項。如需監視選項，請參閱[設定裸機伺服器](/docs/customer-portal/cpsetupbaremetal.html)。
 
 ### 隨時接收網路維護及非計劃性事件的通知
 {: #cp_stayinfomaintevent}
 
-有時候，排定及緊急網路維護是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基礎架構會維護許多通道（例如 [Twitter 帳戶 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}），讓您可以收到所有排定及緊急維護事件的通知。此外，您還可以從「事件管理系統」中[訂閱電子郵件通知](/docs/customer-portal/cpsub2not.html){:new_window}。此增補服務會自動將有關可能影響服務之非計劃性事件的電子郵件傳送給訂閱的使用者。
+有時候，排定及緊急網路維護是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基礎架構會維護許多通道（例如 [Twitter 帳戶 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}），讓您可以收到所有排定及緊急維護事件的通知。此外，您還可以從「事件管理系統」中[訂閱電子郵件通知](/docs/customer-portal/cpsub2not.html)。此增補服務會自動將有關可能影響服務之非計劃性事件的電子郵件傳送給訂閱的使用者。
 
 ### 使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動
 {: #cp_bmxinframobile}
 
-使用 [{{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://knowledgelayer.softlayer.com/topic/mobile-devices){:new_window}，以使用 iOS 或 Android 行動裝置隨時隨地管理 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構裝置。{{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動內的功能包括問題單支援、基本裝置控制及頻寬監視。
+使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動，和 iOS 或 Android 行動裝置，隨時隨地管理 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構裝置。{{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動內的功能包括問題單支援、基本裝置控制及頻寬監視。
+
+{{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動式應用程式能補充客戶入口網站的功能，因為您可以從任何地方使用連接網路的行動裝置來監視基礎架構的重要資訊。雖然應用程式演進快速且會定期新增功能，您仍可使用行動應用程式來執行如下作業：
+  * 檢視、建立及更新支援問題單
+  * 監視裝置狀態，包括頻寬及警示
+  * 關閉及重新啟動裸機伺服器與虛擬伺服器
+  * 檢視帳戶發票並進行一次性付款
+  * 存取及檢查 ObjectStorage 中儲存的內容
+
+可在數個熱門行動裝置平台上使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動應用程式，且可以在每一個平台的相關應用程式商店中免費取得。
 
 ## 監視系統事件
 {: #customerportal_monevent}

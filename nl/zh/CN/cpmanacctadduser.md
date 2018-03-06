@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2017-12-05"
   * 如果您具有管理访问权，那么可以查看您已创建的所有用户，并且如果向这些用户授予了管理其他用户的许可权，那么还可以查看他们已创建的任何用户。您还可以对与帐户关联的任何用户执行操作，包括编辑对客户门户网站的访问权、更改用户状态和除去用户。
   * 如果您不是帐户的主用户，并且没有管理访问权，那么只会显示您的概要文件。您可以与自己的帐户进行交互，包括查看 API 密钥、编辑 VPN 访问权和添加外部认证。
 
-要通过 {{site.data.keyword.Bluemix_notm}} 控制台来管理用户，请参阅[管理帐户](/docs/admin/adminpublic.html#signing-up-for-ibm-cloud)以及[管理身份和访问权](/docs/iam/quickstart.html#getstarted)。有关 {{site.data.keyword.Bluemix_notm}} 控制台的更多信息，请参阅 [{{site.data.keyword.Bluemix_notm}} 控制台工作方式](/docs/overview/ui.html#ui)。
+要通过 {{site.data.keyword.Bluemix_notm}} 控制台来管理用户，请参阅[帐户设置](/docs/account/adminpublic.html#signing-up-for-ibm-cloud)部分以及[管理身份和访问权](/docs/iam/quickstart.html#getstarted)。有关 {{site.data.keyword.Bluemix_notm}} 控制台的更多信息，请参阅 [{{site.data.keyword.Bluemix_notm}} 控制台工作方式](/docs/overview/ui.html#ui)。
 
 组织内的不同人员具有不同的角色和责任，因而用户许可权集并不通用。因此，您可以使用角色将用户添加到客户门户网站，以确保每个人员或组都只有权访问自己应该访问的内容。如果错误地做出更改或更改未经授权，您可以向后跟踪到相关用户或组，以确保您可以提供相应培训或更新用户许可权。这将通过各种方式最大限度地降低风险，并允许用户专注于自己在客户门户网站内的指定角色。
 

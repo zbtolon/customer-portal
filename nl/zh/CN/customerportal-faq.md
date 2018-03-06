@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,8 +31,7 @@ lastupdated: "2017-12-05"
 
 如果您登录后忘记了密码，请使用[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 登录屏幕上提供的**忘记密码**功能。系统将提示您输入特定信息，包括在[编辑用户概要文件](edit-user-profile.html)时指定的一组安全问题。
 
-如果您忘记了用户名，请联系帐户管理员或主用户，他们有能力检索您的用户名。如果您是帐户的管理员或主用户，请[联系支持](support.html)以获取其他帮助。
-
+如果您忘记了用户名，请联系帐户管理员或主用户，他们有能力检索您的用户名。如果您是帐户的管理员或主用户，请联系支持人员以获取其他帮助。
 
 ## 什么是 IBM 标识？它与 {{site.data.keyword.BluSoftlayer_notm}} 基础架构用户有什么关系？
 {: #bicp_whatisibmid}
@@ -42,7 +41,7 @@ lastupdated: "2017-12-05"
 ## 如何链接现有 SoftLayer 帐户？
 {: #bicp_linkbmxacct}
 
-如果您是 SoftLayer 帐户的主用户，请登录到客户门户网站并单击标题中的**链接帐户**。有关更多信息，请参阅[链接 IBM 标识用户帐户](/docs/admin/softlayerlink.html#link_user_accounts)。
+如果您是 SoftLayer 帐户的主用户，请登录到客户门户网站并单击标题中的**链接帐户**。有关更多信息，请参阅[链接 IBM 标识用户帐户](/docs/account/softlayerlink.html)。
 
 ## 我必须是现有 {{site.data.keyword.Bluemix_notm}} 用户才能链接帐户吗？
 {: #bicp_bmxusertolink}
@@ -55,7 +54,7 @@ lastupdated: "2017-12-05"
 
 对帐户级别的双因子认证配置没有影响。双因子认证不是按 IBM 标识进行的；该认证仍是按帐户进行的。当一个 IBM 标识与多个帐户相关联，而您在各帐户之间进行切换时，每次切换到要求双因子认证的不同帐户时都必须确认身份。即使先前的帐户和新帐户都配置为使用相同的 2FA 机制也是如此。
 
-有关使用双因子认证的 IBM 标识的更多信息，请参阅[链接的帐户中的双因子认证用法](/docs/admin/softlayerlink.html#2fa)。
+有关使用双因子认证的 IBM 标识的更多信息，请参阅[链接的帐户中的双因子认证用法](/docs/account/softlayerlink.html)。
 
 
 ## 谁可以链接帐户？

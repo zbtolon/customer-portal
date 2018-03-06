@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -24,9 +24,9 @@ lastupdated: "2017-12-04"
 ## 开始之前
 {: #prereqs}
 
-您将需要 [{{site.data.keyword.Bluemix}} 帐户 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.bluemix.net/){:new_window}。使用您的 IBM 标识凭证登录到客户门户网站。大部分新用户使用 IBM 标识进行认证。
+您将需要 [{{site.data.keyword.Bluemix}} 帐户 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.bluemix.net/){:new_window}。使用您的 IBM 标识凭证登录到客户门户网站。大部分新用户使用 [IBM 标识](/docs/account/softlayerlink.html#switchtoIBMid)进行认证。
 
-对于其帐户不使用 IBM 标识进行认证的用户，请使用初始创建帐户时发送的电子邮件中收到的凭证登录到客户门户网站。
+如果不使用 IBM 标识进行认证以登录帐户，请使用唯一的 {{site.data.keyword.BluSoftlayer_notm}} 基础架构凭证登录到客户门户网站。
 {: tip}
 
 ## 步骤 1：设置帐户

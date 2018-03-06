@@ -26,7 +26,7 @@ lastupdated: "2017-12-06"
 
 Um arquivo de licença é usado para verificar se a licença é válida para o software em um dispositivo e para quaisquer recursos de software que estão ativados. É possível fazer download dos arquivos de licença do portal do cliente, mas apenas no dispositivo que executa o software do painel de controle correspondente. Use as etapas a seguir para fazer download de um arquivo de licença.
 
-1. Efetue login no cliente do portal com as suas credenciais exclusivas.
+1. Efetue login no portal do cliente com as suas credenciais exclusivas.
 2. Selecione **Dispositivos** > **Gerenciar** > **Licenças do Painel de Controle** no menu para acessar a janela Licenças do Painel de Controle.
 3. Selecione **Ações > Fazer download do arquivo de licença** para a licença.
 4. Salve ou faça download do arquivo para o software do painel de controle no dispositivo usando os prompts fornecidos pelo sistema operacional do dispositivo.
@@ -39,7 +39,7 @@ Depois de fazer download do arquivo de licença para o dispositivo, os detalhes 
 As licenças do painel de controle são faturadas mensalmente, com base nos termos acordados no momento em que a licença foi comprada. É possível cancelar as licenças a qualquer momento e elas são canceladas na próxima data de aniversário de faturamento. Para assegurar que um cancelamento seja adequadamente aplicado ao ciclo de faturamento atual, os cancelamentos devem ser feitos no mínimo 24 horas antes da data de aniversário de faturamento. Informações específicas sobre o aniversário do faturamento da conta serão exibidas durante o processo de cancelamento. Use as etapas a seguir para cancelar uma licença do painel de controle.
 
 1. Faça backup ou transfira quaisquer dados associados à licença do painel de controle.
-2. Efetue login no cliente do portal com as suas credenciais exclusivas.
+2. Efetue login no portal do cliente com as suas credenciais exclusivas.
 3. Selecione **Dispositivos** > **Gerenciar** > **Licenças do Painel de Controle** no menu para acessar a janela Licenças do Painel de Controle.
 4. Selecione **Ações** > **Cancelar** para a licença do painel de controle que você deseja cancelar.
 5. Insira quaisquer notas relacionadas ao cancelamento na caixa de texto **Notas**.
@@ -56,4 +56,4 @@ Depois de iniciar o processo de cancelamento, a licença do painel de controle �
 ## Gerenciando senhas de software em dispositivos
 {: #cp_bpmanacctresp}
 
-Cada parte de software que é provisionada em um dispositivo recebe uma senha que é gerada automaticamente pelos sistemas de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. As senhas de software para cada dispositivo são armazenadas na guia **Senhas** na tela Detalhes do Dispositivo no portal do cliente. Depois de acessar o software pela primeira vez, mude suas senhas. Opcionalmente, é possível armazenar credenciais de software na guia **Senhas** para cada dispositivo. No entanto, quando você armazena senhas no portal do cliente, qualquer pessoa com acesso à conta e permissões apropriadas pode visualizar essas senhas.
+Cada parte de software que é provisionada em um dispositivo recebe uma senha que é gerada automaticamente pelos sistemas de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. As senhas de software para cada dispositivo são armazenadas na guia **Senhas** na tela Detalhes do Dispositivo no portal do cliente.  Depois de acessar o software pela primeira vez, mude suas senhas. Opcionalmente, é possível armazenar credenciais de software na guia **Senhas** para cada dispositivo. No entanto, quando você armazena senhas no portal do cliente, qualquer pessoa com acesso à conta e permissões apropriadas pode visualizar essas senhas.

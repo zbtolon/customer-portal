@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -24,17 +24,26 @@ lastupdated: "2017-12-04"
 ## 监视环境
 {: #cpmonenv}
 
-至少使用基本的 ping 监视，但您也可以使用最适合您的业务需求的方式来定制监视选项。
+至少使用基本的 ping 监视，但您也可以使用最适合您的业务需求的方式来定制监视选项。请参阅[设置裸机服务器](/docs/customer-portal/cpsetupbaremetal.html)以获取监视选项。
 
 ### 随时了解网络维护和计划外事件
 {: #cp_stayinfomaintevent}
 
-有时，执行安排的网络维护和紧急网络维护是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基础架构会维护许多通道（例如 [Twitter 帐户 ![外部链接图标](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}），以便及时向您通知所有安排的维护事件和紧急维护事件。此外，可以通过事件管理系统[预订电子邮件通知 ](/docs/customer-portal/cpsub2not.html){:new_window}。此免费服务会自动向预订用户发送有关可能影响服务的计划外事件的电子邮件。
+有时，执行安排的网络维护和紧急网络维护是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基础架构会维护许多通道（例如 [Twitter 帐户 ![外部链接图标](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}），以便及时向您通知所有安排的维护事件和紧急维护事件。此外，可以通过事件管理系统[预订电子邮件通知 ](/docs/customer-portal/cpsub2not.html)。此免费服务会自动向预订用户发送有关可能影响服务的计划外事件的电子邮件。
 
 ### 使用 {{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile
 {: #cp_bmxinframobile}
 
-使用 [{{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile ![外部链接图标](../icons/launch-glyph.svg)](https://knowledgelayer.softlayer.com/topic/mobile-devices){:new_window} 来使用 iOS 或 Android 移动设备持续管理 {{site.data.keyword.BluSoftlayer_notm}} 基础架构设备。{{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile 中的功能包括开具凭单支持、基本设备控制和带宽监视。
+使用 iOS 或 Android 移动设备，通过 {{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile 持续管理 {{site.data.keyword.BluSoftlayer_notm}} 基础架构设备。{{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile 中的功能包括开具凭单支持、基本设备控制和带宽监视。
+
+{{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile 应用程序认可客户门户网站的功能，因为您可在任何位置使用连接网络的移动设备监视有关基础架构的关键信息。该应用程序发展很快，并定期添加新功能，但您可使用移动应用程序执行类似如下任务：
+  * 查看、创建和更新支持凭单
+  * 监视设备状态，包括带宽和警报
+  * 关闭并重新启动裸机服务器和虚拟服务器
+  * 查看帐户发票并进行一次性付款
+  * 访问并检查 Object Storage 中存储的内容
+
+{{site.data.keyword.BluSoftlayer_notm}} Infrastructure Mobile 应用程序在多个常用移动设备平台上可用，其中每个平台的相关应用程序商店均免费提供该应用程序。
 
 ## 监视系统事件
 {: #customerportal_monevent}

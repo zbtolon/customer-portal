@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-02-12"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-12-06"
 # Gerenciando seus itens de faturamento
 {: #manage-billing}
 
-Se você estiver gerenciando o faturamento de infraestrutura do {{site.data.keyword.Bluemix}} para uma conta do SoftLayer, será possível gerenciar seu faturamento e seus pagamentos no portal do cliente. Para gerenciar o faturamento e os pagamentos da plataforma {{site.data.keyword.Bluemix_notm}}, consulte [Gerenciando o faturamento e o uso](/docs/pricing/index.html#accounts).
+Se você estiver gerenciando o faturamento de infraestrutura do {{site.data.keyword.Bluemix}} para uma conta do SoftLayer, será possível gerenciar seu faturamento e seus pagamentos no portal do cliente. Para gerenciar o faturamento e os pagamentos da plataforma {{site.data.keyword.Bluemix_notm}}, consulte [Gerenciando o faturamento e o uso](/docs/account/index.html).  
 {:shortdesc}
 
 ## Acessando seus itens de faturamento

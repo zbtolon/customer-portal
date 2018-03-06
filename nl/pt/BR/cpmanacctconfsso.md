@@ -18,7 +18,7 @@ lastupdated: "2017-12-01"
 # Configurando a conexão única
 {: #customerportal_confssoserv}
 
-Se você for o usuário principal de uma conta ou tiver acesso administrativo a ela, será possível configurar a conexão única. A configuração da conexão única para a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} é um processo de duas etapas. Primeiro, você seleciona e configura seu provedor de identidade. Em seguida, você configura a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para receber a solicitação de autenticação de seu provedor de identidade.
+Se você for o usuário principal de uma conta ou tiver acesso administrativo a ela, será possível configurar a conexão única. A configuração da conexão única para a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} é um processo de duas etapas.  Primeiro, você seleciona e configura seu provedor de identidade. Em seguida, você configura a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para receber a solicitação de autenticação de seu provedor de identidade.
 {:shortdesc}
 
 ## Selecionando e configurando o provedor de identidade

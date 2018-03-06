@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -18,13 +18,15 @@ lastupdated: "2017-12-12"
 # 获取对 {{site.data.keyword.BluSoftlayer_notm}} 基础架构的支持
 {: #customerportal_support}
 
-如果您的 SoftLayer 帐户是使用 {{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站创建的，并且为链接的帐户，那么有多个选项可用于获取支持。有关更多信息，请参阅[获取客户支持](/docs/support/index.html#getting-customer-support){:new_window}。
+如果您的 SoftLayer 帐户是使用 {{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站创建的，并且为链接的帐户，那么有多个选项可用于获取支持。不管您是否有链接的帐户，都可以在客户门户网站中开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户支持凭单。
 {:shortdesc}
+
+如果您有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)，您可以在 {{site.data.keyword.BluSoftlayer_full}} 基础架构中开具支持凭单，或请参阅[获取客户支持](/docs/get-support/howtogetsupport.html)以了解有关通过 {{site.data.keyword.Bluemix}} 控制台获取支持的更多信息。
 
 ## 使用客户门户网站创建支持凭单
 {: #cp_creatsuptickwsp}
 
-不管您是否有链接的帐户，都可以在客户门户网站中开具客户支持凭单，以帮助解决与您帐户相关的问题或与 {{site.data.keyword.BluSoftlayer_full}} 相关的一般问题。
+您可以在客户门户网站中开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户支持凭单，以帮助解决与您帐户相关的问题或与 {{site.data.keyword.BluSoftlayer_full}} 基础架构相关的一般问题。
 
 1. 使用您的唯一凭证登录到[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}。
 2. 从菜单中选择**支持** > **添加凭单**。
@@ -73,7 +75,6 @@ lastupdated: "2017-12-12"
 2. 从菜单中选择**支持** > **凭单**。
 3. 从下拉菜单中选择凭单的状态以过滤视图。
 4. 单击凭单编号以查看凭单的详细信息。
-
 
 ## 更新凭单
 {: #cp_updatsuptickwsp}

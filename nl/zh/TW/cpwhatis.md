@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2017-02-09"
 
 ---
 
@@ -22,11 +22,12 @@ lastupdated: "2017-12-05"
 {:shortdesc}
 
 基於下列原因，您將使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站，而非 {{site.data.keyword.Bluemix_notm}} 主控台：
-  * 如果您只要使用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務（而不使用平台服務），而且沒有[已鏈結的帳戶](/docs/cloud-platform/accounts/softlayerlink.html#link_user_accounts)
-  * 如果您沒有 [IBM ID](/docs/admin/softlayerlink.html#switching-to-ibmid)
-  * 如果您需要存取聯合環境
+  * 如果您只要使用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務（而不使用平台服務），而且沒有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)。
+  * 如果您沒有 [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)。
+  * 如果您需要存取聯邦環境，例如，美國政府機關可能需要能限制外部存取且更安全的封鎖資料中心。這個環境中僅可用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務；聯邦資料中心不提供 {{site.data.keyword.Bluemix_notm}} 平台存取。
 
 您接著會使用 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶入口網站來進行下列作業：
+  * 管理您的資源存取、監視資源及檢視存取日誌
   * 訂購基礎架構產品及服務，並與之互動，例如新增及管理裝置和[虛擬伺服器](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
   * 管理及維護已鏈結或解除鏈結的 SoftLayer 帳戶
   * 檢視及支付每月基礎架構資源發票

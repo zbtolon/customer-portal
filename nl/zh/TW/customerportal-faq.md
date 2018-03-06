@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,8 +31,7 @@ lastupdated: "2017-12-05"
 
 如果您在登入之後忘記密碼，請使用[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 登入畫面上所提供的**忘記密碼**特性。系統將提示您輸入特定資訊（這包括您在[編輯使用者設定檔](edit-user-profile.html)時指定的一組安全問題）。
 
-如果您忘記使用者名稱，請聯絡可擷取使用者名稱的帳戶管理者或主要使用者。如果您是帳戶上的管理者或主要使用者，請[聯絡支援中心](support.html)以取得額外協助。
-
+如果您忘記使用者名稱，請聯絡可擷取使用者名稱的帳戶管理者或主要使用者。如果您是帳戶上的管理者或主要使用者，請與支援中心聯絡以取得額外的協助。
 
 ## 何謂 IBM ID，以及其與「{{site.data.keyword.BluSoftlayer_notm}} 基礎架構」使用者的關係？
 {: #bicp_whatisibmid}
@@ -42,7 +41,7 @@ lastupdated: "2017-12-05"
 ## 如何鏈結現有 SoftLayer 帳戶？
 {: #bicp_linkbmxacct}
 
-如果您是 SoftLayer 帳戶上的主要使用者，請登入客戶入口網站，然後按一下標頭中的**鏈結帳戶**。如需相關資訊，請參閱[鏈結 IBM ID 使用者帳戶](/docs/admin/softlayerlink.html#link_user_accounts)。
+如果您是 SoftLayer 帳戶上的主要使用者，請登入客戶入口網站，然後按一下標頭中的**鏈結帳戶**。如需相關資訊，請參閱[鏈結 IBM ID 使用者帳戶](/docs/account/softlayerlink.html)。
 
 ## 我必須是現有 {{site.data.keyword.Bluemix_notm}} 使用者才能鏈結帳戶嗎？
 {: #bicp_bmxusertolink}
@@ -55,7 +54,7 @@ lastupdated: "2017-12-05"
 
 不會影響位於帳戶層次的雙因子鑑別配置。雙因子鑑別不是根據 IBM ID；它仍是根據帳戶。如果 IBM ID 與許多帳戶相關聯，而且您在帳戶之間切換，則每次切換至需要雙因子鑑別的不同帳戶時都必須確認身分。即使前一個帳戶及新的帳戶都已配置相同的雙因子鑑別機制時也是如此。
 
-如需含雙因子鑑別的 IBM ID 的相關資訊，請參閱[已鏈結帳戶中的雙因子鑑別用量](/docs/admin/softlayerlink.html#2fa)。
+如需含雙因子鑑別的 IBM ID 的相關資訊，請參閱[已鏈結帳戶中的雙因子鑑別用量](/docs/account/softlayerlink.html)。
 
 
 ## 誰可以鏈結帳戶？

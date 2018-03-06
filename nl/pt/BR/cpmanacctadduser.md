@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -29,9 +29,9 @@ Dependendo de seu acesso, será possível gerenciar sua conta do SoftLayer ou as
   Se precisar compartilhar as credenciais de login principal para sua conta, compartilhe as credenciais cuidadosamente. Seu login principal controla cada aspecto de sua conta e deve ser protegido. Para permitir que outros usuários usem o portal do cliente, configure usuários individuais ou baseados em permissões. Isso permite que você tenha maior controle sobre quem é capaz de interagir com determinados aspectos de sua conta.
   {:tip}
   * Se você tiver acesso administrativo, poderá ver todos os usuários que criou e, se você deu permissão a esses usuários para administrar outros usuários, também será possível ver quaisquer usuários que eles criaram. Também é possível executar ações em qualquer usuário associado à conta, incluindo a edição de acesso ao portal do cliente, a mudança de status do usuário e a remoção de usuários.
-  * Se você não for o usuário principal da conta e não tiver acesso administrativo, apenas seu perfil será mostrado. É possível interagir com sua própria conta, inclusive visualizar a chave API, editar o acesso à VPN e incluir autenticação externa.
+  * Se você não for o usuário principal da conta e não tiver acesso administrativo, apenas seu perfil será mostrado.  É possível interagir com sua própria conta, inclusive visualizar a chave API, editar o acesso à VPN e incluir autenticação externa.
 
-Para gerenciar usuários do console do {{site.data.keyword.Bluemix_notm}}, consulte [Gerenciando sua conta](/docs/admin/adminpublic.html#signing-up-for-ibm-cloud) e [Gerenciando a identidade e o acesso](/docs/iam/quickstart.html#getstarted). Consulte [Como o console do {{site.data.keyword.Bluemix_notm}} funciona](/docs/overview/ui.html#ui) para obter mais informações sobre o console do {{site.data.keyword.Bluemix_notm}}.
+Para gerenciar usuários do console do {{site.data.keyword.Bluemix_notm}}, consulte a seção [Configuração da conta](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) e [Gerenciando a identidade e o acesso](/docs/iam/quickstart.html#getstarted). Consulte [Como o console do {{site.data.keyword.Bluemix_notm}} funciona](/docs/overview/ui.html#ui) para obter mais informações sobre o console do {{site.data.keyword.Bluemix_notm}}.
 
 Pessoas diferentes em uma organização possuem funções e responsabilidades diferentes e os conjuntos de permissões do usuário não são uniformizados. Portanto, é possível incluir usuários no portal do cliente com funções para assegurar que cada pessoa ou grupo tenha acesso apenas ao que deve. Se forem feitas mudanças com erro ou desautorizadas, será possível rastreá-las de volta até o usuário ou grupo para assegurar que você possa fornecer permissões de treinamento adequado ou de atualização do usuário. Isso minimiza o risco de várias formas e permite que os usuários se concentrem em sua função especificada dentro do portal do cliente.
 

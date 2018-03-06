@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2017-02-09"
 
 ---
 
@@ -22,11 +22,12 @@ lastupdated: "2017-12-05"
 {:shortdesc}
 
 出于以下原因，您将使用 {{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站，而不使用 {{site.data.keyword.Bluemix_notm}} 控制台：
-  * 要仅使用 {{site.data.keyword.Bluemix_notm}} 基础架构服务（而不使用平台服务）并且您没有[链接的帐户](/docs/cloud-platform/accounts/softlayerlink.html#link_user_accounts)
-  * 您没有 [IBM 标识](/docs/admin/softlayerlink.html#switching-to-ibmid)
-  * 您需要访问联邦环境
+  * 要仅使用 {{site.data.keyword.Bluemix_notm}} 基础架构服务（而不使用平台服务）并且您没有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)。
+  * 您没有 [IBM 标识](/docs/account/softlayerlink.html#switchtoIBMid)。
+  * 您需要访问联邦环境，例如，美国政府机构可能要求更加安全地锁定数据中心且提供有限的外部访问。此环境中仅可使用 {{site.data.keyword.Bluemix_notm}} 基础架构服务；联邦数据中心内不提供 {{site.data.keyword.Bluemix_notm}} 平台访问。
 
 然后，您将使用 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户门户网站来执行以下任务：
+  * 管理对资源的访问权，监视资源以及查看访问日志
   * 订购基础架构产品和服务并与其进行交互，例如，添加并管理设备和[虚拟服务器](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
   * 管理和维护已链接或未链接的 SoftLayer 帐户
   * 查看每月基础架构资源发票并付款

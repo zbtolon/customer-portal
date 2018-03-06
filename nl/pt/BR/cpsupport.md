@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -18,13 +18,15 @@ lastupdated: "2017-12-12"
 # Obtendo suporte para a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Se sua conta do SoftLayer foi criada com o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} e é uma conta vinculada, você tem várias opções para obter suporte. Consulte [Obtendo suporte ao cliente](/docs/support/index.html#getting-customer-support){:new_window} para obter mais informações.
+Se sua conta do SoftLayer foi criada com o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} e é uma conta vinculada, você tem várias opções para obter suporte. Independentemente de você ter uma conta vinculada ou não, é possível abrir chamados de suporte ao cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} no portal do cliente.
 {:shortdesc}
+
+Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts), será possível abrir um chamado de suporte na infraestrutura do {{site.data.keyword.BluSoftlayer_full}} ou consulte [Obtendo suporte ao cliente](/docs/get-support/howtogetsupport.html) para obter mais informações sobre como obter suporte por meio do console do {{site.data.keyword.Bluemix}}.
 
 ## Criando um chamado de suporte com o portal do cliente
 {: #cp_creatsuptickwsp}
 
-Independentemente de você ter ou não uma conta vinculada, será possível abrir chamados de suporte ao cliente no portal do cliente para ajudar nos problemas relacionados à sua conta ou ao {{site.data.keyword.BluSoftlayer_full}} em geral.
+É possível abrir os chamados de suporte ao cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} no portal do cliente para ajudar nos problemas relacionados à sua conta ou à infraestrutura do {{site.data.keyword.BluSoftlayer_full}} em geral.
 
 1. Efetue login no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando suas credenciais exclusivas.
 2. Selecione **Suporte** > **Incluir chamado** no menu.
@@ -74,7 +76,6 @@ Depois de incluir um chamado, é possível visualizá-lo a qualquer momento na j
 3. Selecione o status do chamado no menu suspenso para filtrar a visualização.
 4. Clique no número de chamado para visualizar os detalhes do chamado.
 
-
 ## Atualizando um chamado
 {: #cp_updatsuptickwsp}
 
@@ -98,14 +99,14 @@ Se você redesignar o chamado, o novo designado se tornará o ponto principal de
 ## Escalando um problema de suporte
 {: #cp_bpsupescalflow}
 
-Se você tiver um problema que precisa de ajuda para resolver, será possível abrir um chamado de suporte. Se o problema for crítico ou urgente e você precisar escalá-lo, use as etapas a seguir.
+Se você tiver um problema que precisa de ajuda para resolver, será possível abrir um chamado de suporte.  Se o problema for crítico ou urgente e você precisar escalá-lo, use as etapas a seguir.
 
 1. Abra um chamado de suporte no portal do cliente, bate-papo ou por telefone (866-403-7638).
 
   Ao criar ou atualizar um chamado, inclua quaisquer erros, logs ou resolução de problemas que ocorreu pois isso ajuda a resolver o problema mais rapidamente.
   {: tip}
 
-2. Trabalhe com a Equipe de Suporte de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} no chamado. Por exemplo, se a equipe de suporte solicitar informações adicionais, responda o mais rápido que puder.
+2. Trabalhe com a Equipe de Suporte de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} no chamado.  Por exemplo, se a equipe de suporte solicitar informações adicionais, responda o mais rápido que puder.
 3. Se o progresso do chamado parar, escale pelo chamado e faça um comentário como *"Escalar o chamado devido ao impacto no cliente"* ou por bate-papo ou por telefone.
 4. Se o chamado não progredir após a solicitação inicial, será possível escalá-lo para o Supervisor de Suporte solicitando essa escalação no chamado.
 5. Se você ainda não estiver obtendo o progresso necessário depois de solicitar ajuda do Supervisor de Suporte, será possível enviar um e-mail para a equipe de Gerenciamento de Suporte em Notify-Support-WW@wwpdl.vnet.ibm.com.

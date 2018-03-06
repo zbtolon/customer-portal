@@ -19,7 +19,7 @@ lastupdated: "2017-12-01"
 # Monitorando eventos do sistema de infraestrutura do {{site.data.keyword.Bluemix_notm}}
 {: #customerportal_monevent}
 
-É possível monitorar eventos do sistema para manter seus sistemas em execução sem problemas. Para obter informações sobre como configurar e gerenciar servidores virtuais na infraestrutura do {{site.data.keyword.BluSoftlayer_full}}, consulte [Introdução aos servidores virtuais](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
+É possível monitorar eventos do sistema para manter seus sistemas em execução sem problemas.  Para obter informações sobre como configurar e gerenciar servidores virtuais na infraestrutura do {{site.data.keyword.BluSoftlayer_full}}, consulte [Introdução aos servidores virtuais](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
 {:shortdesc}
 
 ## Visualizando um log de auditoria para uma conta

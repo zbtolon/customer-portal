@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -18,23 +18,32 @@ lastupdated: "2017-12-04"
 # Monitorando seu ambiente e eventos do sistema
 {: #customerportal_cpmonenvsysevent}
 
-Monitorar seu ambiente significa que você tem a capacidade de verificar dispositivos a qualquer momento e que é notificado automaticamente se um de seus dispositivos fica inativo. Também é possível monitorar eventos do sistema para manter seus sistemas em execução sem problemas.  
+Monitorar seu ambiente significa que você tem a capacidade de verificar dispositivos a qualquer momento e você é automaticamente notificado se um de seus dispositivos fica inativo. Também é possível monitorar eventos do sistema para manter seus sistemas em execução sem problemas.  
 {: shortdesc}
 
 ## Monitorando seu ambiente
 {: #cpmonenv}
 
-No mínimo, use monitoramento de ping básico, mas você pode customizar suas opções de monitoramento de uma maneira que se adeque melhor às suas necessidades de negócios.
+No mínimo, use monitoramento de ping básico, mas você pode customizar suas opções de monitoramento de uma maneira que se adeque melhor às suas necessidades de negócios. Consulte [Configurando um servidor bare metal](/docs/customer-portal/cpsetupbaremetal.html) para obter as opções de monitoramento.
 
 ### Ficando informado sobre manutenção de rede e eventos não planejados
 {: #cp_stayinfomaintevent}
 
-De vez em quando, a manutenção de rede planejada e emergencial é inevitável. A infraestrutura do {{site.data.keyword.BluSoftlayer_full}} mantém vários canais, como a [conta do Twitter ![Ícone de link externo](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, para mantê-lo informado sobre todos os eventos de manutenção planejados e emergenciais. Além disso, é possível [assinar notificações por e-mail](/docs/customer-portal/cpsub2not.html){:new_window} do Sistema de Gerenciamento de Eventos. Esse serviço complementar envia e-mails automaticamente aos usuários inscritos sobre eventos não planejados que possam impactar os serviços.
+De vez em quando, a manutenção de rede planejada e emergencial é inevitável. A infraestrutura do {{site.data.keyword.BluSoftlayer_full}} mantém vários canais, como a [conta do Twitter ![Ícone de link externo](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, para mantê-lo informado sobre todos os eventos de manutenção planejados e emergenciais. Além disso, é possível [assinar notificações por e-mail](/docs/customer-portal/cpsub2not.html) do Sistema de Gerenciamento de Eventos. Esse serviço complementar envia e-mails automaticamente aos usuários inscritos sobre eventos não planejados que possam impactar os serviços.
 
 ### Usando a infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}
 
-Use a infraestrutura móvel do [{{site.data.keyword.BluSoftlayer_notm}} ![Ícone de link externo](../icons/launch-glyph.svg)](https://knowledgelayer.softlayer.com/topic/mobile-devices){:new_window} para gerenciar seus dispositivos de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} em movimento usando seu dispositivo móvel iOS ou Android. A funcionalidade dentro da infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}} inclui suporte de chamados, controle de dispositivo básico e monitoramento de largura da banda.
+Use a infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}} para gerenciar seus dispositivos de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} em movimento usando seu dispositivo móvel iOS ou Android. A funcionalidade dentro da infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}} inclui suporte de chamados, controle de dispositivo básico e monitoramento de largura da banda.
+
+O aplicativo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} complementa a funcionalidade do portal do cliente porque você pode monitorar informações críticas sobre sua infraestrutura de qualquer lugar usando seu dispositivo móvel conectado à rede. O aplicativo evolui rapidamente e a nova funcionalidade é incluída regularmente, mas é possível usar o aplicativo móvel para executar tarefas como as seguintes:
+  * Visualizar, criar e atualizar chamados de suporte
+  * Monitorar o status do dispositivo, incluindo a largura da banda e os alarmes
+  * Encerrar e reiniciar Servidores Bare Metal e servidores virtuais
+  * Visualizar faturas de contas e fazer pagamentos únicos
+  * Acessar e examinar o conteúdo armazenado no Object Storage
+
+O aplicativo móvel de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} está disponível em várias plataformas populares de dispositivo móvel e está disponível de graça nas lojas de aplicativos relacionadas para cada plataforma.
 
 ## Monitorando eventos do sistema
 {: #customerportal_monevent}

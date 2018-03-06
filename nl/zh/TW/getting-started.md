@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -24,9 +24,9 @@ lastupdated: "2017-12-04"
 ## 開始之前
 {: #prereqs}
 
-您將需要 [{{site.data.keyword.Bluemix}} 帳戶 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.bluemix.net/){:new_window}。使用 IBM ID 認證來登入客戶入口網站。大部分的新使用者都會使用 IBM ID 進行鑑別。
+您將需要 [{{site.data.keyword.Bluemix}} 帳戶 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.bluemix.net/){:new_window}。使用 IBM ID 認證來登入客戶入口網站。大部分的新使用者會使用 [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid) 進行鑑別。
 
-如果使用者的帳戶未使用 IBM ID 進行鑑別，則請使用您在帳戶一開始建立時傳送之電子郵件中收到的認證來登入客戶入口網站。
+如果您在登入帳戶時未使用 IBM ID 進行鑑別，則請使用您的唯一 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構認證來登入客戶入口網站。
 {: tip}
 
 ## 步驟 1：設定帳戶
@@ -50,7 +50,7 @@ lastupdated: "2017-12-04"
 ## 步驟 3：啟用存取 {{site.data.keyword.Bluemix_notm}} 基礎架構專用網路
 {: #enable-private-network}
 
-{{site.data.keyword.Bluemix_notm}} 基礎架構專用網路免費提供給使用者及裝置使用。專用網路上使用的所有頻寬都是未計量且增補的。專用網路提供許多好處，包括將裝置環境抄寫至其他資料中心以進行失效接手、資料庫伺服器的前端系統可存取性，以及安全的系統存取及管理。
+{{site.data.keyword.Bluemix_notm}} 基礎架構專用網路免費提供給使用者及裝置使用。專用網路上使用的所有頻寬都是未計量且增補的。專用網路提供許多好處，包括將裝置環境抄寫至其他資料中心以進行失效接手、取得資料庫伺服器的前端系統可存取性，以及取得安全的系統存取及管理。
 
 若要讓使用者存取專用網路，請在客戶入口網站中編輯 VPN 存取權：
   1. 從功能表列中，選取**帳戶** > **VPN 存取權**。  

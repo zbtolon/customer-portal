@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -24,9 +24,9 @@ Neste tutorial, percorreremos o processo para que sua conta do SoftLayer entre e
 ## Antes de começar
 {: #prereqs}
 
-Será necessária uma conta do [{{site.data.keyword.Bluemix}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.bluemix.net/){:new_window}. Efetue login no portal do cliente com suas credenciais do IBMid. A maioria dos novos usuários usa o IBMid para autenticação.
+Será necessária uma conta do [{{site.data.keyword.Bluemix}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.bluemix.net/){:new_window}. Efetue login no portal do cliente com suas credenciais do IBMid. A maioria dos novos usuários usa o [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) para autenticação.
 
-Para usuários com contas que não usam o IBMid para autenticação, efetue login no portal do cliente com as credenciais que você recebeu no e-mail que foi enviado quando sua conta foi criada inicialmente.
+Se você não usar o IBMid para autenticação para efetuar login em sua conta, efetue login no portal do cliente com suas credenciais exclusivas da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
 
 ## Etapa 1: configurar sua conta

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,8 +31,7 @@ Se você NÃO usar o IBMid para autenticação, quando efetuar seu primeiro pedi
 
 Se você esquecer sua senha após efetuar login, use o recurso **Esqueceu sua Senha** que está disponível na tela de login do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Será solicitado que insira informações específicas, incluindo um conjunto de perguntas de segurança que você especificou ao [editar seu perfil do usuário](edit-user-profile.html).
 
-Se você esqueceu seu nome de usuário, entre em contato com o administrador da conta ou com o usuário principal, que tem a capacidade de recuperar seu nome de usuário. Se você for o usuário administrador ou principal na conta, [entre em contato com o Suporte](support.html) para obter assistência adicional.
-
+Se você esqueceu seu nome de usuário, entre em contato com o administrador da conta ou com o usuário principal, que tem a capacidade de recuperar seu nome de usuário. Se você for o usuário administrador ou principal na conta, entre em contato com o Suporte para obter assistência adicional.
 
 ## O que é o IBMid e como ele se relaciona com os usuários de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}?
 {: #bicp_whatisibmid}
@@ -42,12 +41,12 @@ Novas contas requerem o IBMid para autenticação. As contas existentes continua
 ## Como vincular uma conta do SoftLayer existente?
 {: #bicp_linkbmxacct}
 
-Se você for o usuário principal em sua conta do SoftLayer, efetue login no portal do cliente e clique em **Vincular uma conta** no cabeçalho. Veja [Vinculando contas do usuário IBMid](/docs/admin/softlayerlink.html#link_user_accounts) para obter informações adicionais.
+Se você for o usuário principal em sua conta do SoftLayer, efetue login no portal do cliente e clique em **Vincular uma conta** no cabeçalho.  Veja [Vinculando contas do usuário IBMid](/docs/account/softlayerlink.html) para obter informações adicionais.
 
 ## Tenho que ser um usuário existente do {{site.data.keyword.Bluemix_notm}} para vincular contas?
 {: #bicp_bmxusertolink}
 
-Não. É possível criar uma nova conta do {{site.data.keyword.Bluemix_notm}} ou vincular uma conta de avaliação ou pay-as-you-go existente do {{site.data.keyword.Bluemix_notm}}.
+Não. É possível criar uma nova conta do {{site.data.keyword.Bluemix_notm}} ou vincular uma conta de avaliação ou pré-paga existente do {{site.data.keyword.Bluemix_notm}}.
 
 
 ## Como funciona a autenticação de dois fatores?
@@ -55,7 +54,7 @@ Não. É possível criar uma nova conta do {{site.data.keyword.Bluemix_notm}} ou
 
 Não há nenhum impacto para a configuração de autenticação de dois fatores no nível da conta. A autenticação de dois fatores não é por IBMid; ela ainda é por conta. Quando um IBMid está associado a muitas contas, e você alterna entre as contas, deve-se confirmar sua identidade toda vez que você alterna para uma conta diferente que requer autenticação de dois fatores. Isso é verdadeiro mesmo se a conta anterior e a nova conta são configuradas com o mesmo mecanismo 2FA.
 
-Para obter mais informações sobre o IBMid com a autenticação de dois fatores, consulte [Uso da autenticação de dois fatores em contas vinculadas](/docs/admin/softlayerlink.html#2fa).
+Para obter mais informações sobre o IBMid com a autenticação de dois fatores, consulte [Uso da autenticação de dois fatores em contas vinculadas](/docs/account/softlayerlink.html).
 
 
 ## Quem pode vincular contas?
@@ -113,7 +112,7 @@ Os usuários principais e aqueles com permissões de administrador têm acesso r
 ## Posso vincular uma conta de assinatura do {{site.data.keyword.Bluemix_notm}}?
 {: #bicp_linkbmxsubacct}
 
-Todas as contas vinculadas no {{site.data.keyword.Bluemix_notm}} devem ser contas pay-as-you-go. É possível criar uma nova conta pay-as-you-go ou vincular uma conta pay-as-you-go existente. Ou, é possível vincular uma conta para teste existente, mas ela será atualizada para uma conta pay-as-you-go.
+Todas as contas vinculadas no {{site.data.keyword.Bluemix_notm}} devem ser contas pré-paga . É possível criar uma nova conta pré-paga ou vincular uma conta existente. Ou, é possível vincular uma conta para teste existente, mas ela será atualizada para uma conta pré-paga.
 
 
 ## Como desvincular minha conta do {{site.data.keyword.Bluemix_notm}} com minha conta de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}?
