@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -33,7 +33,7 @@ The public network is great for many things, but there are certain aspects that,
 ## Safeguard your data through regular backups
 {: #cp_bpsafedataregback}
 
-{{site.data.keyword.BluSoftlayer_notm}} infrastructure offers multiple backup solutions to ensure that you can retrieve your data in the event of drive failure or user error. Backup solutions currently include NAS, EVault Backup and R1Soft CDP, which are all available in a variety of storage options. Check out the [Storage ![External link icon](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} page for more information on each backup solution.
+{{site.data.keyword.BluSoftlayer_notm}} infrastructure offers multiple backup solutions to ensure that you can retrieve your data in the event of drive failure or user error. Backup solutions currently include NAS, EVault Backup and R1Soft CDP, which are all available in a variety of storage options. Check out the [Storage ![External link icon](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} page for more information on each backup solution and see [Getting started with backup services](/docs/infrastructure/Backup/index.html) for more information about backing up your data.
 
 ### Don't assume you have redundancy; know that you do
 {: #cp_bpknowredundant}
