@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -23,7 +23,11 @@ When hosting an application, two of the most critical aspects to consider for an
 ## Securing your systems with firewalls
 {: #cp_bpsecuresystem}
 
+Use the available hardware firewalls to ensure that your device is secure at all times. You can provision hardware firewalls on demand with no downtime, if rules are established properly, to protect your server from unwanted activity.
+
 Firewalls are add-on services to any devices that you must manually configure and enable to ensure they are effective. You can lock down superfluous ports and disable public ports for private network-based systems to further manage outside accessibility to your systems. Performing regular vulnerability scans in the customer portal identifies any outstanding or unknown security risks so that you can mitigate risks quickly.
+
+After you order your firewall, it must be enabled and rules must be set.
 
 ### Activating your firewall
 {: #cp_bpnofirewalbypass}

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -24,7 +24,7 @@ Monitoring your environment means that you have the ability to check on devices 
 ## Monitoring your environment
 {: #cpmonenv}
 
-At a minimum, use basic ping monitoring but you can customize your monitoring options in a way that best suits your business needs. See [Setting Up a Bare Metal Server](/docs/customer-portal/cpsetupbaremetal.html) for monitoring options.
+At a minimum, use basic ping monitoring but you can customize your monitoring options in a way that best suits your business needs.
 
 ### Staying informed of network maintenance and unplanned events
 {: #cp_stayinfomaintevent}
@@ -44,6 +44,11 @@ The {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile application co
   * Access and examine content stored in Object Storage
 
 The {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile application is available on several popular mobile device platforms and is available free from the related application stores for each platform.
+
+## Monitoring servers
+{: #customerportal_monservers}
+
+Set up monitoring to check the status of your server and to know when to scale. You can use either standard monitoring or Nimsoft monitoring services. You can use standard, or basic, monitoring in the ping-and-respond method by using either a slow or service ping from the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal. You can also use Nimsoft, or advanced, monitoring from the customer portal or in one of three tiers: basic, advanced, and premium.  See [Getting started with Bare Metal servers](/docs/bare-metal/about.html) for more information about Bare Metal servers, specifically.
 
 ## Monitoring system events
 {: #customerportal_monevent}
@@ -69,4 +74,4 @@ Access Logs display data for each access attempt made by a specific customer por
 2. Select **Account** > **Users** from the menu bar to access the Users window.
 3. From **Actions** drop down list, select **View Audit Log** to view the user's access log.
 
-The access log for each user displays the access attempts made by that user by date, along with the IP address from which the access attempt was made. Information within the access log is read-only, so edits to the content cannot be made at any time. You can view the access logs again at any time by repeating the previous steps. To exit the logs and return to the Users screen, click the **View All Users** link at the top of the screen.
+The access log for each user displays the access attempts made by that user by date, along with the IP address from which the access attempt was made. Information within the access log is read-only, so edits to the content cannot be made at any time. You can view the access logs again at any time by repeating the previous steps. To exit the logs and return to the Users screen, click the **View All Users** link.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -129,7 +129,7 @@ The company profile was the information submitted at the time the account was cr
 ## Where do I find my device and software passwords?
 {: #bicp_devswpw}
 
-Device and software passwords are stored in two locations within the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. To retrieve device credentials, including the root or admin user name and password for both {{site.data.keyword.baremetal_short}} and {{site.data.keyword.virtualmachinesshort}}, see [Interact with a Device in the Snapshot View](/docs/vsi/vsi_interact_device_snapshot_view.html). To quickly view and retrieve software credentials that are manually tracked using the customer portal, see [Managing device access](/docs/vsi_device_access.html).
+Device and software passwords are stored in two locations within the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. To retrieve device credentials, including the root or admin user name and password for both {{site.data.keyword.baremetal_short}} and {{site.data.keyword.virtualmachinesshort}}, see [Interact with a Device in the Snapshot View](/docs/vsi/vsi_interact_device_snapshot_view.html). To quickly view and retrieve software credentials that are manually tracked using the customer portal, see [Managing device access](/docs/vsi/vsi_device_access.html).
 
 ##How do I keep my web data in sync?
 {: #bicp_webdatasync}

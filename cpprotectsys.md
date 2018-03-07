@@ -33,7 +33,14 @@ The public network is great for many things, but there are certain aspects that,
 ## Safeguard your data through regular backups
 {: #cp_bpsafedataregback}
 
-{{site.data.keyword.BluSoftlayer_notm}} infrastructure offers multiple backup solutions to ensure that you can retrieve your data in the event of drive failure or user error. Backup solutions currently include NAS, EVault Backup and R1Soft CDP, which are all available in a variety of storage options. Check out the [Storage ![External link icon](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} page for more information on each backup solution and see [Getting started with backup services](/docs/infrastructure/Backup/index.html) for more information about backing up your data.
+Schedule backups to ensure that your data is safely stored outside of your device and to be able to reload it if it is lost.
+
+{{site.data.keyword.BluSoftlayer_notm}} infrastructure offers multiple backup solutions to ensure that you can retrieve your data in the event of drive failure or user error. Backup solutions currently include NAS, EVault Backup and R1Soft CDP, which are all available in a variety of storage options.
+For example, you can choose one of the following backup services to store your data in a secure location:
+  * EVault Backup is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through additional plug-ins. EVault users interact with this service through EVault’s WebCC Web-based application.
+  * R1Soft Continuous Data Protection (CDP) can be installed on your server or self-managed virtual machine. It is recommended if you are looking for a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for additional functionality.
+
+ Check out the [Storage ![External link icon](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} page for more information on each backup solution and see [Getting started with backup services](/docs/infrastructure/Backup/index.html) for more information about backing up your data.
 
 ### Don't assume you have redundancy; know that you do
 {: #cp_bpknowredundant}
