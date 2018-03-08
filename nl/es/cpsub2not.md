@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-02"
 
 ---
 
@@ -63,7 +63,7 @@ La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} se esfuerza por da
 ## Adición de suscriptores a notificaciones de sucesos
 {: #cp_bpaddsub2eventnotcp}
 
-Cada vez más, los clientes de IBM se basan en los servicios de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} (IaaS), ya sea mediante la contratación con IBM para servicios de infraestructura gestionados, la contratación de servicios en la nube que se ejecutan en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, o la contratación directa con los servicios de infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Cuando los servicios en la nube implican la infraestructura, solo estarán autorizados para recibir notificaciones los usuarios de la cuenta de SoftLayer, tal como se describe en la sección anterior. En algunos casos, es posible que no conozca a los equipos de IBM Account o de Managed Service implicados en las operaciones o al soporte de los servicios de infraestructura para acceder a sus cuentas de SoftLayer. Se ha añadido una nueva característica al portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, lo que le permite designar una lista de suscriptores, por ejemplo personal de IBM, para que reciba notificaciones sin tener privilegios en las cuentas.
+Cada vez más, los clientes de IBM se basan en los servicios de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} (IaaS), ya sea mediante la contratación con IBM para servicios de infraestructura gestionados, la contratación de servicios en la nube que se ejecutan en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} o la contratación directa con los servicios de infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Cuando los servicios en la nube implican la infraestructura, solo estarán autorizados para recibir notificaciones los usuarios de la cuenta de SoftLayer, tal como se describe en la sección anterior. En algunos casos, es posible que no desee que los equipos de IBM Account o de Managed Service implicados en las operaciones o el soporte de los servicios de infraestructura accedan a sus cuentas de SoftLayer. Se ha añadido una nueva característica al portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, lo que le permite designar una lista de suscriptores, por ejemplo personal de IBM, para que reciba notificaciones sin tener privilegios en las cuentas.
 
 Para designar una lista de suscriptores, los usuarios maestro pueden iniciar sesión en su cuenta de portal de cliente y seguir estos pasos:
 1. Pulse **Cuenta** > **Gestionar** > **Suscripciones** en el menú.

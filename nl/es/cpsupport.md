@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -18,13 +18,15 @@ lastupdated: "2017-12-12"
 # Obtención de soporte para la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Si su cuenta de SoftLayer se creó con el portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, y si es una cuenta enlazada, tiene varias opciones para obtener soporte. Consulte [Obtención de soporte al cliente](/docs/support/index.html#getting-customer-support){:new_window} para obtener más información.
+Si su cuenta de SoftLayer se creó con el portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, y si es una cuenta enlazada, tiene varias opciones para obtener soporte. Tenga o no una cuenta enlazada, puede abrir incidencias de soporte al cliente de infraestructura de {{site.data.keyword.BluSoftlayer_full}} en el portal de clientes.
 {:shortdesc}
+
+Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede abrir una incidencia de soporte en la infraestructura de {{site.data.keyword.BluSoftlayer_full}} o consultar [Obtención de soporte al cliente](/docs/get-support/howtogetsupport.html) para obtener más información sobre la obtención de soporte mediante la consola de {{site.data.keyword.Bluemix}}.
 
 ## Creación de una incidencia de soporte con el portal del cliente
 {: #cp_creatsuptickwsp}
 
-Tenga o no una cuenta enlazada, puede abrir incidencias de soporte al cliente en el portal del cliente para ayudar con problemas relacionados con la cuenta o con {{site.data.keyword.BluSoftlayer_full}} en general.
+Puede abrir incidencias de soporte al cliente de infraestructura de {{site.data.keyword.BluSoftlayer_full}} en el portal del cliente para ayudar con problemas relacionados con la cuenta o la infraestructura de {{site.data.keyword.BluSoftlayer_full}} en general.
 
 1. Inicie sesión en el [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Soporte** > **Añadir incidencia** en el menú.
@@ -73,7 +75,6 @@ Después de añadir una incidencia, podrá verla en cualquier momento desde la v
 2. Seleccione **Soporte** > **Incidencias** en el menú.
 3. Seleccione el estado de la incidencia en el menú desplegable para filtrar la vista.
 4. Pulse el número de incidencia para ver los detalles de la incidencia.
-
 
 ## Actualización de una incidencia
 {: #cp_updatsuptickwsp}

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,7 +31,7 @@ En función de su acceso, puede gestionar su cuenta de SoftLayer o las cuentas d
   * Si tiene acceso administrativo, puede ver todos los usuarios que ha creado y, si se le dio permiso a dichos usuarios para administrar otros usuarios, también puede ver los usuarios que han creado. También puede tomar acciones en cualquier usuario asociado con la cuenta, incluida la edición de acceso al portal de cliente, cambiar el estado de usuario y eliminar usuarios.
   * Si usted no es el usuario maestro de la cuenta y no tiene acceso administrativo, solo se mostrará el perfil. Puede interactuar con su propia cuenta, incluida la visualización de la clave de API, la edición del acceso VPN, y la adición de la autenticación externa.
 
-Para gestionar usuarios desde la consola de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de la cuenta](/docs/admin/adminpublic.html#signing-up-for-ibm-cloud) y [Gestión de identidad y acceso](/docs/iam/quickstart.html#getstarted). Consulte [Cómo funciona la consola de {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui) para obtener más información sobre la consola de {{site.data.keyword.Bluemix_notm}}.
+Para gestionar usuarios desde la consola de {{site.data.keyword.Bluemix_notm}}, consulte la sección [Configuración de la cuenta](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) y [Gestión de identidad y acceso](/docs/iam/quickstart.html#getstarted). Consulte [Cómo funciona la consola de {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui) para obtener más información sobre la consola de {{site.data.keyword.Bluemix_notm}}.
 
 Diferentes personas dentro de una organización tienen diferentes roles y responsabilidades, y los conjuntos de permisos de usuarios no son únicos. Por lo tanto, puede añadir usuarios al portal de cliente con roles para asegurarse de que cada persona o grupo tengan acceso únicamente a lo que deberían. Si los cambios se realizan en error o no estaban autorizados, puede rastrearlos de nuevo al usuario o al grupo para asegurarse de que pueda proporcionar permisos de usuario de formación o de actualización correctos. Esto minimiza el riesgo en diversas formas y permite a los usuarios centrarse en su rol especificado del portal de cliente.
 

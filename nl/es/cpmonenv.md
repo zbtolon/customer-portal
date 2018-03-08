@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -24,17 +24,26 @@ La supervisión del entorno significa que tiene la capacidad para comprobar los 
 ## Supervisión del entorno
 {: #cpmonenv}
 
-Como mínimo, utilice la supervisión de ping básica, pero puede personalizar sus opciones de supervisión de la forma que se ajuste mejor a sus necesidades de negocio.
+Como mínimo, utilice la supervisión de ping básica, pero puede personalizar sus opciones de supervisión de la forma que se ajuste mejor a sus necesidades de negocio. Consulte las opciones de supervisión en [Configuración de un servidor nativo](/docs/customer-portal/cpsetupbaremetal.html).
 
 ### Manténgase informado de los sucesos de mantenimiento de red y de los no planeados
 {: #cp_stayinfomaintevent}
 
-De vez en cuando, es inevitable tener que llevar a cabo mantenimiento de red de emergencia y programado. La infraestructura de {{site.data.keyword.BluSoftlayer_full}} mantiene muchos canales, como la [cuenta de Twitter ![Icono de enlace externo](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, para mantenerle informado de todos los sucesos de mantenimiento planificados y de emergencia. Además, puede [suscribirse a las notificaciones por correo electrónico](/docs/customer-portal/cpsub2not.html){:new_window} desde el Event Management System. Este servicio gratuito envía mensajes de correo electrónico automáticamente a los usuarios suscritos sobre sucesos no planeados que pueden afectar a los servicios.
+De vez en cuando, es inevitable tener que llevar a cabo mantenimiento de red de emergencia y programado. La infraestructura de {{site.data.keyword.BluSoftlayer_full}} mantiene muchos canales, como la [cuenta de Twitter ![Icono de enlace externo](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, para mantenerle informado de todos los sucesos de mantenimiento planificados y de emergencia. Además, puede [suscribirse a las notificaciones por correo electrónico](/docs/customer-portal/cpsub2not.html) desde el Event Management System. Este servicio gratuito envía mensajes de correo electrónico automáticamente a los usuarios suscritos sobre sucesos no planeados que pueden afectar a los servicios.
 
 ### Utilización de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil
 {: #cp_bmxinframobile}
 
-Utilice la infraestructura de [{{site.data.keyword.BluSoftlayer_notm}} móvil ![Icono de enlace externo](../icons/launch-glyph.svg)](https://knowledgelayer.softlayer.com/topic/mobile-devices){:new_window} para gestionar los dispositivos de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} sobre la marcha utilizando su dispositivo móvil iOS o Android. La funcionalidad dentro de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil incluye soporte de creación de incidencias, control básico de dispositivos y supervisión del ancho de banda.
+Utilice la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil para gestionar los dispositivos de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} sobre la marcha utilizando su dispositivo móvil iOS o Android. La funcionalidad dentro de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil incluye soporte de creación de incidencias, control básico de dispositivos y supervisión del ancho de banda.
+
+La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} complementa la funcionalidad del portal de clientes, ya que permite supervisar la información crítica sobre la infraestructura desde cualquier sitio mediante el dispositivo móvil conectado a la red. La aplicación evoluciona rápidamente y se añaden nuevas funciones con regularidad, pero puede utilizar la aplicación móvil para efectuar las tareas siguiente, entre otras:
+  * Ver, crear y actualizar incidencias de soporte
+  * Supervisar el estado del dispositivo, incluido el ancho de banda y las alarmas
+  * Cerrar y reiniciar los servidores nativos y los servidores virtuales
+  * Ver facturas de cuentas y realizar pagos únicos
+  * Acceder al contenido almacenado en Object Storage y examinarlo
+
+La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} está disponible en varias plataformas populares de dispositivo móvil, de forma gratuita en las tiendas de aplicaciones de cada plataforma.
 
 ## Supervisión de sucesos del sistema
 {: #customerportal_monevent}

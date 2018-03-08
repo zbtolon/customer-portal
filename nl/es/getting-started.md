@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-02-09"
 
 ---
 
@@ -24,9 +24,9 @@ En esta guía de aprendizaje, le guiaremos por el proceso de ejecución y uso de
 ## Antes de empezar
 {: #prereqs}
 
-Necesitará una [cuenta de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.bluemix.net/){:new_window}. Inicie sesión en el portal del cliente con sus credenciales de IBMid. La mayoría de los usuarios nuevos utilizan IBMid para su autenticación.
+Necesitará una [cuenta de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.bluemix.net/){:new_window}. Inicie sesión en el portal del cliente con sus credenciales de IBMid. La mayoría de los usuarios nuevos utilizan [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) para su autenticación.
 
-Para los usuarios que tienen cuentas que no utilizan IBMid para la autenticación, inicie sesión en el portal del cliente con las credenciales que ha recibido en el correo electrónico enviado cuando se creó inicialmente su cuenta.
+Si no utiliza un IBMid para la autenticación para iniciar sesión en la cuenta, inicie sesión en el portal de clientes con sus credenciales exclusivas de infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
 
 ## Paso 1: Configurar la cuenta

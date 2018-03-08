@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2018-02-12"
 
 ---
 
@@ -31,8 +31,7 @@ Si NO utiliza IBMid para la autenticación, cuando realice su primer pedido o cu
 
 Si olvida la contraseña tras iniciar sesión, utilice la característica **Contraseña olvidada** que está disponible en la pantalla de inicio de sesión del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Se le solicitará que especifique la información específica, incluido un conjunto de preguntas de seguridad que ha especificado al [editar el perfil de usuario](edit-user-profile.html).
 
-Si olvida su nombre de usuario, póngase en contacto con el administrador de la cuenta o con el usuario maestro, que tienen la capacidad de recuperar su nombre de usuario. Si usted es el administrador o el usuario maestro de la cuenta, [póngase en contacto con el Soporte](support.html) para obtener ayuda adicional.
-
+Si olvida su nombre de usuario, póngase en contacto con el administrador de la cuenta o con el usuario maestro, que tienen la capacidad de recuperar su nombre de usuario. Si usted es el administrador o el usuario maestro de la cuenta, póngase en contacto con el Soporte para obtener ayuda adicional.
 
 ## ¿Qué es el IBMid, y cómo se relaciona con los usuarios de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}?
 {: #bicp_whatisibmid}
@@ -42,7 +41,7 @@ Las cuentas nuevas requieren IBMid para la autenticación. Las cuentas existente
 ## ¿Cómo puedo enlazar una cuenta de SoftLayer existente?
 {: #bicp_linkbmxacct}
 
-Si usted es el usuario maestro de la cuenta de SoftLayer, inicie sesión en el portal del cliente y pulse **Enlazar una cuenta** en la cabecera. Consulte [Cómo enlazar cuentas de usuario de IBMid](/docs/admin/softlayerlink.html#link_user_accounts) para obtener más información.
+Si usted es el usuario maestro de la cuenta de SoftLayer, inicie sesión en el portal del cliente y pulse **Enlazar una cuenta** en la cabecera. Consulte [Cómo enlazar cuentas de usuario de IBMid](/docs/account/softlayerlink.html) para obtener más información.
 
 ## ¿Tengo que ser un usuario existente de {{site.data.keyword.Bluemix_notm}} para enlazar cuentas?
 {: #bicp_bmxusertolink}
@@ -55,7 +54,7 @@ No. Puede crear una cuenta nueva de {{site.data.keyword.Bluemix_notm}} o enlazar
 
 No hay impacto en la configuración de la autenticación de dos factores a nivel de cuenta. La autenticación de dos factores no es por IBMid; sigue siendo por cuenta. Cuando un IBMid se asocie con muchas cuentas, y pueda cambiar entre ellas, debe confirmar su identidad cada vez que cambie a una cuenta distinta que necesite la autenticación de dos factores. Esto es cierto incluso aunque la cuenta anterior y la cuenta nueva estén configuradas con el mismo mecanismo de 2FA.
 
-Para obtener más información sobre IBMid con la autenticación de dos factores, consulte [Uso de la autenticación de dos factores en cuentas enlazadas](/docs/admin/softlayerlink.html#2fa).
+Para obtener más información sobre IBMid con la autenticación de dos factores, consulte [Uso de la autenticación de dos factores en cuentas enlazadas](/docs/account/softlayerlink.html).
 
 
 ## ¿Quién puede enlazar cuentas?

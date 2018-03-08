@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-02-12"
 
 ---
 
@@ -18,7 +18,8 @@ lastupdated: "2017-12-06"
 # Gestión de los elementos de facturación
 {: #manage-billing}
 
-Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de cliente. Para gestionar la facturación y los pagos de la plataforma de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de facturación y uso](/docs/pricing/index.html#accounts).
+Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de cliente. Para gestionar la facturación y los pagos de la plataforma de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de facturación y uso](/docs/account/index.html).
+  
 {:shortdesc}
 
 ## Acceso a los elementos de facturación
