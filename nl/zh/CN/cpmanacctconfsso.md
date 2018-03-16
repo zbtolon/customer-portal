@@ -28,7 +28,7 @@ lastupdated: "2017-12-01"
 * Ping Identity&reg;
 * OneLogin&trade;
 * IBM&reg; Cloud Security Enforcer
-* IBM Cloud Identity Services。
+* IBM Cloud Identity Services
 有关更多信息，请联系 {{site.data.keyword.BluSoftlayer_notm}} 基础架构销售代表。
 
 如果尚未设置身份提供者，那么可以联系身份提供者支持来获取特定步骤，或者使用以下高级步骤来配置身份提供者：

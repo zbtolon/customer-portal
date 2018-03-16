@@ -60,10 +60,10 @@ lastupdated: "2018-02-02"
 除非情况极端紧急，必须实施修订以避免更大的间接影响，否则 {{site.data.keyword.BluSoftlayer_notm}} 基础架构会尽力提前更长时间发送通知。
 
 
-## 向事件通知添加订户
+## 添加事件通知订户
 {: #cp_bpaddsub2eventnotcp}
 
-IBM 客户更多地依赖于 {{site.data.keyword.BluSoftlayer_notm}} 基础架构服务 (IaaS)，采用的方法是与 IBM 签订受管基础架构服务合同、针对在 {{site.data.keyword.BluSoftlayer_notm}} 基础架构上运行的云服务签订合同或直接与 {{site.data.keyword.BluSoftlayer_notm}} 基础架构服务签订合同。云服务涉及基础架构时，仅 SoftLayer 帐户用户有权接收通知，如上一部分中所述。在某些情况下，您可能不希望运营中涉及的 IBM 客户或受管服务团队或者基础架构服务的支持人员访问您的 SoftLayer 帐户。为此，{{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站中添加了一项新功能，支持您指定订户（例如，IBM 人员）的列表，这些订户无需具有对您帐户的任何权限就可接收通知。
+IBM 客户更多地依赖于 {{site.data.keyword.BluSoftlayer_notm}} 基础架构服务 (IaaS)，采用的方法是与 IBM 签订受管基础架构服务合同、针对在 {{site.data.keyword.BluSoftlayer_notm}} 基础架构上运行的云服务签订合同或直接与 {{site.data.keyword.BluSoftlayer_notm}} 基础架构服务签订合同。云服务涉及基础架构时，仅 SoftLayer 帐户用户有权接收通知，如上一部分中所述。在某些情况下，您可能不希望参与基础架构服务运营或支持的 IBM 帐户或受管服务团队访问您的 SoftLayer 帐户。为此，{{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站中添加了一项新功能，允许您指定订户（例如，IBM 人员）的列表，这些订户无需您帐户的任何权限就可接收通知。
 
 要指定订户列表，主用户可以登录到自己的客户门户网站帐户并使用以下步骤：
 1. 从菜单中选择**帐户** > **管理** > **预订**。
