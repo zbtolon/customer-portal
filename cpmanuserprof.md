@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-19"
 
 ---
 
@@ -90,7 +90,7 @@ User permissions are updated immediately after you submit the changes. If permis
 ## Adding external authentication for a user
 {: #cp_addextauthuser}
 
-From the customer portal, you can activate external, two-factor authentication to add additional protection when logging in to the portal. This additional layer of security protects the account from unverified access, ensuring devices, data, and account information are protected. This external authentication is available in the following forms:
+From the customer portal, you can activate external, two-factor authentication (2FA) to add additional protection when logging in to the portal. This additional layer of security protects the account from unverified access, ensuring devices, data, and account information are protected. This external authentication is available in the following forms:
 
 * **Symantec Identify Protection** is the most commonly used external authentication tool, providing a dynamic security code used in addition to the username and password when accessing the customer portal.
 * **PhoneFactor** authentication provides out-of-band user authentication from a phone, SMS, or mobile app. PhoneFactor requires a valid phone number that you must have access to any time you attempt to authenticate.
@@ -214,6 +214,17 @@ You are allotted one PPTP connection with additional connections available.  You
 2. Select **Account** > **VPN Access** from the menu bar.
 3. From the **VPN Access** column for the user, click the current VPN access type link to display the VPN Access window.
 4. From the **VPN Type** list, select a VPN method (SSL, PPTP, SSL & PPTP, or none) to assign the user.
+
+## Selecting email notifications
+{: #cp_select-email-notifications}
+
+You can select which email notifications you want to receive from {{site.data.keyword.BluSoftlayer_notm}} infrastructure, and which you don't. By default, you receive all email notifications but you can change them at any time. To change your email notification settings, use the following steps:
+1. Access the customer portal using your unique credentials for the account associated with the email address that receives notifications.
+2. Click **Account** > **Users** > **E-mail Preferences** from the menu bar.
+3. From the list of notification types, uncheck the box beside any notifications that you no longer want to receive.
+
+Your changes are saved automatically. These settings affect the emails that are sent to you, however, they do not affect the email notifications of any other users on your account.
+
 
 ## Setting the EU Supported option
 {: #cp_seteusupported}
