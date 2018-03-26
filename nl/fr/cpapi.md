@@ -26,13 +26,13 @@ L'objectif de l'API est de fournir un environnement où vous pouvez effectuer to
 ## Comment accéder à l'API ?
 {: #cp_getapikey}
 
-Vous pouvez accéder à l'API avec une clé d'API propre à l'utilisateur. Les clés d'API sont des identificateurs alphanumériques uniques qui vous permettent d'accéder de manière sécurisée à l'API. Votre clé d'API est liée spécifiquement à votre ID utilisateur et vous fournit les mêmes droits sur l'API que ceux dont vous disposez dans le portail client. Vous ne générez la clé d'API qu'une seule fois, puis vous pouvez l'extraire et continuer à l'utiliser. Pour générer votre clé d'API, procédez comme suit : 
+Vous pouvez accéder à l'API avec une clé d'API propre à l'utilisateur. Les clés d'API sont des identificateurs alphanumériques uniques qui vous permettent d'accéder de manière sécurisée à l'API. Votre clé d'API est liée spécifiquement à votre ID utilisateur et vous fournit les mêmes droits sur l'API que ceux dont vous disposez dans le portail client. Vous ne générez la clé d'API qu'une seule fois, puis vous pouvez l'extraire et continuer à l'utiliser. Pour générer votre clé d'API, procédez comme suit :
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Utilisateurs** dans la barre de navigation.
 3. Sous la colonne **Clé d'API** correspondant à la ligne indiquant les données d'identification de l'utilisateur, cliquez sur le lien **Générer**.
 
-Une fois la clé d'API générée, le lien **Générer** est modifié en un lien **Afficher** qui vous permet d'accéder à votre clé d'API à n'importe quel moment. 
+Une fois la clé d'API générée, le lien **Générer** est modifié en un lien **Afficher** qui vous permet d'accéder à votre clé d'API à n'importe quel moment.
 
 ## Où puis-je trouver des informations supplémentaires sur l'API ?
 {: #cp_apimoreinfo}

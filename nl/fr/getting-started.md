@@ -29,7 +29,7 @@ Vous aurez besoin d'un compte [{{site.data.keyword.Bluemix}} ![Icône de lien ex
 Si vous n'employez pas d'IBMid pour l'authentification afin de vous connecter à votre compte, connectez-vous au portail client avec vos données d'identification uniques de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
 
-## Etape 1 : Configurez votre compte
+## Etape 1 : Configurer votre compte
 {: #account-setup}
 
 La configuration de votre compte inclut la vérification de vos informations de contact et des détails de facturation :
@@ -37,7 +37,7 @@ La configuration de votre compte inclut la vérification de vos informations de 
  * Pour vérifier les détails de votre profil de société, accédez à **Compte** > **Gérer** > **Profil de la Société**. Les informations de profil de l'entreprise contiennent des détails relatifs au titulaire de compte principal.
  * Pour vérifier vos détails de facturation, accédez à **Compte** > **Facturation** > **Mode de Règlement**. Le mode de règlement mensuel est la carte de crédit facturée sur une base récurrente pour les paiements associés à votre compte.
 
-## Etape 2 : Ajoutez des utilisateurs et affectez des droits
+## Etape 2 : Ajouter des utilisateurs et affecter des droits
 {: #users-permissions}
 
 Pour ajouter des utilisateurs à votre compte et définir les droits initiaux, accédez à **Compte** > **Utilisateurs**.
@@ -47,7 +47,7 @@ Pour ajouter des utilisateurs à votre compte et définir les droits initiaux, a
 Lorsque vous définissez des droits d'accès à l'infrastructure dans l'invitation initiale, vous choisissez parmi l'un des trois ensembles de droits : Affichage uniquement, Utilisateur de base, Superutilisateur. Une fois que l'utilisateur a accepté l'invitation, vous pouvez personnaliser son accès en éditant les droits d'accès au portail. Voir [Droits relatifs à l'infrastructure](/docs/iam/infrastructureaccess.html) pour plus d'informations.
 {: tip}
 
-## Etape 3 : Activez l'accès au réseau privé de l'infrastructure {{site.data.keyword.Bluemix_notm}}
+## Etape 3 : Activer l'accès au réseau privé de l'infrastructure {{site.data.keyword.Bluemix_notm}}
 {: #enable-private-network}
 
 Le réseau privé de l'infrastructure {{site.data.keyword.Bluemix_notm}} est proposée gratuitement aux utilisateurs et appareils. Toute la bande passante utilisée sur le réseau privé est illimitée et gratuite. Le réseau privé offre de nombreux avantages incluant la réplication d'environnements d'unités vers d'autres centres de données pour la reprise en ligne, l'accessibilité au système frontal pour les serveurs de base de données et l'accès sécurisé et la gestion de vos systèmes.
@@ -60,7 +60,7 @@ Pour activer l'accès utilisateur au réseau privé, éditez l'accès VPN sur le
 Pour les utilisateurs de comptes utilisant l'authentification par IBMid, le nom d'utilisateur VPN SoftLayer pour l'accès VPN est utilisé. Le nom d'utilisateur VPN est défini dans le profil utilisateur. Le nom d'utilisateur VPN est différent du nom d'utilisateur dont la valeur par défaut est l'adresse e-mail et l'ID de compte IBMid.
 {: tip}
 
-## Etape 4 : Abonnez-vous aux notifications
+## Etape 4 : S'abonner aux notifications
 {: #get-notified}
 
 Pour être notifié des problèmes système pouvant survenir ainsi que des événements de maintenance planifiée, vous pouvez vous abonner aux notifications via le système de gestion d'événements. Lorsque vous créez un compte ou que vous êtes ajouté à un compte, vous êtes par défaut désabonné des notifications.

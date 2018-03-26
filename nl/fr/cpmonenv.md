@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -24,7 +24,7 @@ La surveillance de votre environnement signifie que vous avez la possibilité de
 ## Surveillance de votre environnement
 {: #cpmonenv}
 
-Au minimum, utilisez la surveillance de base par commande ping. Vous avez néanmoins la possibilité de personnaliser vos options de surveillance de la façon la mieux adaptée à vos besoins métier. Pour connaître les options de surveillance, voir [Configuration d'un serveur bare metal](/docs/customer-portal/cpsetupbaremetal.html).
+Au minimum, utilisez la surveillance de base par commande ping. Vous avez néanmoins la possibilité de personnaliser vos options de surveillance de la façon la mieux adaptée à vos besoins métier.
 
 ### Etre tenu informé de la maintenance réseau et des événements imprévus
 {: #cp_stayinfomaintevent}
@@ -43,7 +43,12 @@ L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
   * Consulter les factures du compte et procéder à des paiements ponctuels
   * Accéder au contenu stocké dans Object Storage et l'examiner
 
-L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} est disponible sur plusieurs plateformes de périphériques mobiles répandues et est disponible gratuitement à partir des magasins d'applications associés à chaque plateforme. 
+L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} est disponible sur plusieurs plateformes de périphériques mobiles répandues et est disponible gratuitement à partir des magasins d'applications associés à chaque plateforme.
+
+## Surveillance des serveurs
+{: #customerportal_monservers}
+
+Configurez la surveillance pour vérifier le statut de votre serveur et savoir quand vous devez le faire évoluer. Vous pouvez utiliser des services de surveillance standard ou Nimsoft. Vous pouvez employer la surveillance standard ou de base dans la méthode ping-avec-réponse en utilisant un ping avec réponse lente ou un ping de service à partir du portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Vous pouvez également faire appel à la surveillance Nimsoft ou avancée à partir du portail client ou dans l'un des trois niveaux suivants : de base, avancé et premium. Pour plus d'informations sur les serveurs bare metal, voir [Initiation aux serveurs bare metal](/docs/bare-metal/about.html). 
 
 ## Surveillance des événements système
 {: #customerportal_monevent}
@@ -69,4 +74,4 @@ Les journaux d'accès affichent les données de chaque tentative d'accès effect
 2. Sélectionnez **Compte** > **Utilisateurs** dans la barre de menus pour accéder à la fenêtre Utilisateurs.
 3. Dans la liste déroulante **Actions**, sélectionnez **Afficher journal d'audit** pour afficher le journal d'accès de l'utilisateur.
 
-Le journal d'accès de chaque utilisateur montre les tentatives d'accès effectuées par cet utilisateur par date, ainsi que l'adresse IP à partir de laquelle a eu lieu la tentative d'accès. Les informations du journal d'accès sont en lecture seule, il n'est donc pas possible d'éditer le contenu. Vous pouvez afficher les journaux d'audit à tout moment en répétant la procédure précédente. Pour quitter les journaux et revenir à l'écran Utilisateurs, cliquez sur le lien **Afficher tous les utilisateurs** en haut de l'écran.
+Le journal d'accès de chaque utilisateur montre les tentatives d'accès effectuées par cet utilisateur par date, ainsi que l'adresse IP à partir de laquelle a eu lieu la tentative d'accès. Les informations du journal d'accès sont en lecture seule, il n'est donc pas possible d'éditer le contenu. Vous pouvez afficher les journaux d'audit à tout moment en répétant la procédure précédente. Pour quitter les journaux et revenir à l'écran Utilisateurs, cliquez sur le lien **Afficher tous les utilisateurs**. 

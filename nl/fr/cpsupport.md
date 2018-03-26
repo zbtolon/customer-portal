@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-02-23"
 
 ---
 
@@ -18,15 +18,17 @@ lastupdated: "2018-02-12"
 # Support pour l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Si votre compte SoftLayer a été créé avec le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}, et s'il s'agit d'un compte lié, vous disposez de plusieurs options pour obtenir de l'aide. Que vous disposiez ou non d'un compte lié, vous pouvez ouvrir des tickets de demande de service sur le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}}.
+Si vous rencontrez des problèmes lors de l'utilisation de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} et que vous ne disposez pas d'un compte lié, vous pouvez utiliser le portail client pour vous aider à déterminer la cause de ces problèmes et trouver une solution.
 {:shortdesc}
 
-Si vous possédez un [compte lié](/docs/account/softlayerlink.html#link_user_accounts), vous pouvez ouvrir un ticket de demande de service depuis l'infrastructure {{site.data.keyword.BluSoftlayer_full}} ou consultez [Support client](/docs/get-support/howtogetsupport.html) pour avoir plus d'informations sur l'obtention de support via la console {{site.data.keyword.Bluemix}}.
+Si vous possédez un [compte lié](/docs/account/softlayerlink.html#link_user_accounts), vous pouvez obtenir de l'aide au moyen de la console {{site.data.keyword.Bluemix}}. Pour plus d'informations, voir [Support client](/docs/get-support/howtogetsupport.html). 
 
-## Création d'un ticket de demande de service avec le portail client
+Si vous ne possédez pas de compte lié, vous pouvez ouvrir des tickets de demande de service dans le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} pour signaler des problèmes techniques d'ordre général ou pour obtenir de l'aide dans la résolution des problèmes liés à votre compte.
+
+## Création d'un ticket de demande de service d'assistance technique
 {: #cp_creatsuptickwsp}
 
-Vous pouvez ouvrir des tickets de demande de service sur le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} afin d'obtenir de l'aide sur les problèmes liés à votre compte ou à l'infrastructure {{site.data.keyword.BluSoftlayer_full}} en général.
+Vous pouvez ouvrir des tickets dans le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} pour signaler des problèmes techniques d'ordre général en procédant comme suit :
 
 1. Connectez-vous au [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Support** > **Ajouter ticket** depuis le menu.
@@ -65,6 +67,15 @@ Vous pouvez ouvrir des tickets de demande de service sur le portail client de l'
 11. Cliquez sur **Ajouter ticket**.
 
 Après que vous avez ajouté un ticket, celui-ci est routé vers le membre approprié de l'équipe de support pour résolution. Les tickets sont gérés en fonction du degré de gravité, ce qui signifie que les problèmes les plus sévères tels que les indisponibilités sont gérés en premier, suivis par les problèmes entraînant une dégradation de service, et enfin les questions. Un membre de l'équipe de support entrera en contact avec les cessionnaires pour les informations complémentaires permettant de résoudre le ticket.
+
+## Création d'un ticket pour des problèmes de compte
+{: #cp_creatacctsuptickwsp}
+
+Vous pouvez ouvrir des tickets sur le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} afin d'obtenir de l'aide sur les problèmes liés à votre compte en procédant comme pour l'ouverture d'un ticket afin de signaler des problèmes techniques d'ordre général, mais avec une différence majeure.   
+
+Après vous être connecté au [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} et avoir sélectionné **Support** > **Ajouter un ticket**, vous devez faire en sorte que le ticket soit acheminé vers l'équipe de support appropriée pour être rapidement résolu. Pour acheminer correctement le ticket afin de résoudre des problèmes de compte, dans la liste **Objet**, sélectionnez **Demande pour comptabilisation**.
+
+Complétez le reste du ticket comme vous le feriez pour créer un ticket d'assistance d'ordre général et soumettez le ticket. Lorsque la valeur **Demande pour comptabilisation** est sélectionnée dans la liste **Objet**, le ticket est affecté à l'équipe de support appropriée et peut être rapidement résolu. 
 
 ## Affichage d'un ticket existant
 {: #cp_viewsuptickwsp}

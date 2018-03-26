@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -23,7 +23,11 @@ Quand il s'agit d'héberger une application, deux des aspects les plus critiques
 ## Sécurisation de vos systèmes avec des pare-feux
 {: #cp_bpsecuresystem}
 
+Utilisez les pare-feux matériels disponibles pour vous assurer que votre unité est sécurisée en permanence. Vous pouvez mettre à disposition des pare-feux matériels à la demande sans temps d'indisponibilité si des règles sont correctement établies afin de protéger votre serveur contre toute activité indésirable.
+
 Les pare-feux sont des services de modules complémentaires pour tout appareil que vous devez configurer et activer manuellement afin de vous assurer qu'ils sont efficaces. Vous pouvez verrouiller les ports superflus et désactiver les ports publics pour des systèmes basés sur un réseau privé afin de gérer au plus près l'accessibilité externe à vos systèmes. L'exécution d'analyses de vulnérabilité régulières sur le portail client identifie les risques de sécurité en suspens ou inconnus afin de vous permettre de rapidement atténuer ces risques.
+
+Après avoir commandé votre pare-feu, vous devez l'activer et définir des règles.
 
 ### Activation de votre pare-feu
 {: #cp_bpnofirewalbypass}

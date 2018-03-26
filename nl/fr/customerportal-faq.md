@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -129,7 +129,7 @@ Le profil de société correspond aux informations soumises lors de la création
 ## Où se trouvent les mots de passe de mon appareil et du logiciel ?
 {: #bicp_devswpw}
 
-Les mots de passe d'appareil et de logiciel sont stockés à deux emplacements sur le [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Pour extraire les donnée d'identification de l'appareil, y compris le nom d'utilisateur root ou administrateur et les mots de passe pour {{site.data.keyword.baremetal_short}} et {{site.data.keyword.virtualmachinesshort}}, voir la rubrique sur l'[interaction avec un appareil dans la vue Instantané](/docs/vsi/vsi_interact_device_snapshot_view.html). Pour rapidement afficher et extraire les données d'identification du logiciel qui sont manuellement suivies via le portail client, voir la rubrique sur la [gestion des accès à l'équipement](/docs/vsi_device_access.html).
+Les mots de passe d'appareil et de logiciel sont stockés à deux emplacements sur le [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Pour extraire les donnée d'identification de l'appareil, y compris le nom d'utilisateur root ou administrateur et les mots de passe pour {{site.data.keyword.baremetal_short}} et {{site.data.keyword.virtualmachinesshort}}, voir la rubrique sur l'[interaction avec un appareil dans la vue Instantané](/docs/vsi/vsi_interact_device_snapshot_view.html). Pour rapidement afficher et extraire les données d'identification du logiciel qui sont manuellement suivies via le portail client, voir la rubrique sur la [gestion des accès à l'équipement](/docs/vsi/vsi_device_access.html).
 
 ##Comment garder mes données Web synchronisées ?
 {: #bicp_webdatasync}
