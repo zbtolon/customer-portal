@@ -1,0 +1,50 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html"}
+Gestione delle risorse dell'infrastruttura
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    cpwhatis.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Gestione di account utente
+        cpmanacctadduser.md
+        cpmanibmid.md
+        cpmanuserprof.md
+        cpmanacctmanpw.md
+        cpmanacctcompprofcont.md
+        cpmanacctconfsso.md
+        ccpmanacccancreq.md
+        cpsetupfedid.md
+        accessing_infrastructure.md
+
+    {: .topicgroup}
+    Gestione della fatturazione e dei pagamenti
+        cpmanacctbillpay.md
+        pay-invoice.md
+
+    {: .topicgroup}
+    Gestione del tuo ambiente
+        cpmonenv.md
+        cpprotectsys.md
+        cpsetupbaremetal.md
+        cpcompsegapptiers.md
+        cpcompmanlic.md
+        cprebootserver.md
+        cpcompmanbwpool.md
+        cpcompuschrootkittool.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    cpsupport.md
+    cpsub2not.md
+    customerportal-faq.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    cpapi.md
+    {: .navgroup-end}
