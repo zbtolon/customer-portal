@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -32,7 +32,7 @@ lastupdated: "2018-02-12"
 
 로그인한 후 비밀번호를 잊어버린 경우 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}의 로그인 화면에서 사용 가능한 **비밀번호 찾기** 기능을 사용하십시오. 특정 정보를 입력하도록 프롬프트가 표시되며, [사용자 프로파일 편집](edit-user-profile.html) 중에 지정한 보안 질문 세트가 포함됩니다.
 
-사용자 이름을 잊어버린 경우 사용자 이름을 검색할 수 있는 계정 관리자 또는 마스터 관리자에게 문의하십시오. 계정의 마스터 사용자 또는 관리자인 경우에는 지원 센터에 문의하여 추가 지원을 받으십시오. 
+사용자 이름을 잊어버린 경우 사용자 이름을 검색할 수 있는 계정 관리자 또는 마스터 관리자에게 문의하십시오. 계정의 마스터 사용자 또는 관리자인 경우에는 지원 센터에 문의하여 추가 지원을 받으십시오.
 
 ## IBM ID는 무엇이며, {{site.data.keyword.BluSoftlayer_notm}} 인프라 사용자와 어떻게 관련이 있습니까?
 {: #bicp_whatisibmid}
@@ -131,7 +131,7 @@ IBM ID로 전환하기 위해 마법사를 따랐으나 이메일을 받지 못�
 {: #bicp_devswpw}
 
 디바이스 및 소프트웨어 비밀번호는 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 내의 두 위치에 저장되어 있습니다. {{site.data.keyword.baremetal_short}} 및 {{site.data.keyword.virtualmachinesshort}}의
-루트 또는 관리 사용자 이름과 비밀번호를 포함하여 디바이스 신임 정보를 검색하려면 [스냅샷 보기에서 디바이스와 상호작용](/docs/vsi/vsi_interact_device_snapshot_view.html)을 참조하십시오. 고객 포털을 사용하여 수동으로 추적된 소프트웨어 신임 정보를 빠르게 보고 검색하려면 [디바이스 액세스 관리](/docs/vsi_device_access.html)를 참조하십시오.
+루트 또는 관리 사용자 이름과 비밀번호를 포함하여 디바이스 신임 정보를 검색하려면 [스냅샷 보기에서 디바이스와 상호작용](/docs/vsi/vsi_interact_device_snapshot_view.html)을 참조하십시오. 고객 포털을 사용하여 수동으로 추적된 소프트웨어 신임 정보를 빠르게 보고 검색하려면 [디바이스 액세스 관리](/docs/vsi/vsi_device_access.html)를 참조하십시오.
 
 ##내 웹 데이터의 동기화를 유지하는 방법은 무엇입니까?
 {: #bicp_webdatasync}

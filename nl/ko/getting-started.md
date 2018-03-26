@@ -24,7 +24,7 @@ lastupdated: "2018-02-09"
 ## 시작하기 전에
 {: #prereqs}
 
-[{{site.data.keyword.Bluemix}} 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.bluemix.net/){:new_window}이 필요합니다. IBM ID 신임 정보를 사용하여 고객 포털에 로그인하십시오. 대부분의 신규 사용자는 인증에 [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)를 사용합니다. 
+[{{site.data.keyword.Bluemix}} 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.bluemix.net/){:new_window}이 필요합니다. IBM ID 신임 정보를 사용하여 고객 포털에 로그인하십시오. 대부분의 신규 사용자는 인증에 [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)를 사용합니다.
 
 인증용 IBM ID를 사용하여 계정에 로그인하지 않는 경우에는 고유 {{site.data.keyword.BluSoftlayer_notm}} 인프라 신임 정보를 사용하여 고객 포털에 로그인하십시오.
 {: tip}
@@ -50,7 +50,7 @@ lastupdated: "2018-02-09"
 ## 3단계: {{site.data.keyword.Bluemix_notm}} 인프라 사설 네트워크
 {: #enable-private-network}
 
-{{site.data.keyword.Bluemix_notm}} 인프라 사설 네트워크는 사용자와 디바이스에 무료로 제공됩니다. 사설 네트워크에 사용되는 대역폭은 무제한이고 무료입니다. 사설 네트워크는 장애 복구를 위해 기타 데이터 센터로 디바이스 환경 복제, 데이터베이스 서버에 대한 프론트 엔드 시스템 접근성 및 시스템에 대한 보안 액세스 및 관리 등을 포함하여 많은 이점을 제공합니다. 
+{{site.data.keyword.Bluemix_notm}} 인프라 사설 네트워크는 사용자와 디바이스에 무료로 제공됩니다. 사설 네트워크에 사용되는 대역폭은 무제한이고 무료입니다. 사설 네트워크는 장애 복구를 위해 기타 데이터 센터로 디바이스 환경 복제, 데이터베이스 서버에 대한 프론트 엔드 시스템 접근성 및 시스템에 대한 보안 액세스 및 관리 등을 포함하여 많은 이점을 제공합니다.
 
 사용자가 사설 네트워크에 액세스할 수 있으려면 고객 포털에서 VPN 액세스를 편집하십시오.
   1. 메뉴 표시줄에서 **계정** > **VPN 액세스**를 선택하십시오.  

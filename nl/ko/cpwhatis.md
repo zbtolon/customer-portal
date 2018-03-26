@@ -22,9 +22,9 @@ lastupdated: "2017-02-09"
 {:shortdesc}
 
 다음 이유로 인해, {{site.data.keyword.Bluemix_notm}} 콘솔 대신 {{site.data.keyword.BluSoftlayer_notm}} 인프라 고객 포털을 사용합니다.
-  * {{site.data.keyword.Bluemix_notm}} 인프라 서비스만 사용 중이며(플랫폼 서비스는 사용하지 않음) [연결된 계정](/docs/account/softlayerlink.html#link_user_accounts)이 없는 경우. 
-  * [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)가 없는 경우. 
-  * 예를 들어, 연방 정부 환경에 대한 액세스가 필요한 경우에는 미국 정부 기관이 외부 액세스가 제한된 보다 안전하게 잠겨 있는 데이터 센터를 요구할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 인프라 서비스만 이 환경에서 사용 가능합니다. {{site.data.keyword.Bluemix_notm}} 플랫폼 액세스는 연방 정부 데이터 센터에서는 사용 가능하지 않습니다. 
+  * {{site.data.keyword.Bluemix_notm}} 인프라 서비스만 사용 중이며(플랫폼 서비스는 사용하지 않음) [연결된 계정](/docs/account/softlayerlink.html#link_user_accounts)이 없는 경우.
+  * [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)가 없는 경우.
+  * 예를 들어, 연방 정부 환경에 대한 액세스가 필요한 경우에는 미국 정부 기관이 외부 액세스가 제한된 보다 안전하게 잠겨 있는 데이터 센터를 요구할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 인프라 서비스만 이 환경에서 사용 가능합니다. {{site.data.keyword.Bluemix_notm}} 플랫폼 액세스는 연방 정부 데이터 센터에서는 사용 가능하지 않습니다.
 
 그런 다음, 다음 태스크에 대한 {{site.data.keyword.BluSoftlayer_full}} 인프라 고객 포털을 사용합니다.
   * 리소스의 액세스 관리, 리소스 모니터링 및 액세스 로그 보기
