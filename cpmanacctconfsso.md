@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-03-26"
 
 ---
 
@@ -67,4 +67,4 @@ Use the following steps to set up {{site.data.keyword.BluSoftlayer_notm}} infras
 7. Click **Download XML Configuration** to download the service provider metadata or jot down the information.
 8. Use the **Service Provider** metadata to configure your identity provider based on the instructions of your identity provider.  
 
-You should now be able to log in to {{site.data.keyword.BluSoftlayer_notm}} infrastructure by using your federated ID.
+You should now be able to log in to {{site.data.keyword.BluSoftlayer_notm}} infrastructure by using your federated ID. For more information about federated IDs, see [Signing up for {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html).
