@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -23,7 +23,11 @@ Ao hospedar um aplicativo, dois dos aspectos mais críticos a serem considerados
 ## Protegendo seus sistemas com firewalls
 {: #cp_bpsecuresystem}
 
+Use os firewalls de hardware disponíveis para assegurar que seu dispositivo esteja seguro em todos os momentos. É possível provisionar firewalls de hardware sob demanda sem tempo de inatividade, se as regras estiverem estabelecidas corretamente, para proteger seu servidor contra atividade indesejada.
+
 Firewalls são serviços complementares para quaisquer dispositivos que devem ser configurados e ativados manualmente para assegurar que sejam efetivos. É possível bloquear portas supérfluas e desativar portas públicas para sistemas baseados na rede privada para gerenciar ainda mais a acessibilidade externa aos seus sistemas. A execução de varreduras de vulnerabilidade regulares no portal do cliente identifica quaisquer riscos de segurança pendentes ou desconhecidos para que você possa mitigar os riscos rapidamente.
+
+Depois de pedir o firewall, ele deve ser ativado e as regras devem ser configuradas.
 
 ### Ativando seu firewall
 {: #cp_bpnofirewalbypass}

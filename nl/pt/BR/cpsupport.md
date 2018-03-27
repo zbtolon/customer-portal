@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-02-23"
 
 ---
 
@@ -18,15 +18,17 @@ lastupdated: "2018-02-12"
 # Obtendo suporte para a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Se sua conta do SoftLayer foi criada com o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} e é uma conta vinculada, você tem várias opções para obter suporte. Independentemente de você ter uma conta vinculada ou não, é possível abrir chamados de suporte ao cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} no portal do cliente.
+Se você tiver problemas com a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} e não tiver uma conta vinculada, será possível obter ajuda para determinar a causa do problema e localizar uma solução usando o portal do cliente.
 {:shortdesc}
 
-Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts), será possível abrir um chamado de suporte na infraestrutura do {{site.data.keyword.BluSoftlayer_full}} ou consulte [Obtendo suporte ao cliente](/docs/get-support/howtogetsupport.html) para obter mais informações sobre como obter suporte por meio do console do {{site.data.keyword.Bluemix}}.
+Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix}}. Veja [Obtendo suporte ao cliente](/docs/get-support/howtogetsupport.html) para obter mais informações.
 
-## Criando um chamado de suporte com o portal do cliente
+Se você não tiver uma conta vinculada, será possível abrir chamados de suporte no portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para questões técnicas gerais ou para ajudar com problemas relacionados à sua conta.
+
+## Criando um chamado de suporte técnico geral
 {: #cp_creatsuptickwsp}
 
-É possível abrir os chamados de suporte ao cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} no portal do cliente para ajudar nos problemas relacionados à sua conta ou à infraestrutura do {{site.data.keyword.BluSoftlayer_full}} em geral.
+É possível abrir os chamados da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para questões técnicas gerais no portal do cliente usando as etapas a seguir:
 
 1. Efetue login no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando suas credenciais exclusivas.
 2. Selecione **Suporte** > **Incluir chamado** no menu.
@@ -65,6 +67,15 @@ Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_
 11. Clique em **Incluir chamado**.
 
 Depois de incluir um chamado, ele será roteado para o membro apropriado da equipe de Suporte para resolução. Os chamados são tratados com base no grau de severidade, o que significa que os problemas mais graves, como indisponibilidades, são tratados primeiro, seguidos pelos problemas que comprometem os serviços e, em seguida, as dúvidas. Um membro da equipe de Suporte entrará em contato com os designados sobre informações adicionais para resolver o chamado.
+
+## Criando um chamado para problemas de conta
+{: #cp_creatacctsuptickwsp}
+
+É possível abrir os chamados da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para ajudar com problemas relacionados à sua conta no portal do cliente de forma semelhante à maneira que você abre um chamado para problemas de suporte técnico geral, mas com uma diferença importante.  
+
+Depois de efetuar login no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} e selecionar **Suporte** > **Incluir chamado**, deve-se assegurar que o chamado seja roteado para a equipe de suporte correta e possa ser resolvidos rapidamente. Para rotear o chamado corretamente para manipular problemas de conta, na lista **Assunto**, selecione **Solicitação de contabilidade**.
+
+Conclua o resto do chamado como você faria para criar um chamado para suporte técnico geral e envie o chamado. Com o **Assunto** configurado para **Solicitação de contabilidade**, a equipe de suporte correta é designada ao chamado e pode ajudar a resolver o problema rapidamente.
 
 ## Visualizando um chamado existente
 {: #cp_viewsuptickwsp}
@@ -106,10 +117,10 @@ Se você tiver um problema que precisa de ajuda para resolver, será possível a
   Ao criar ou atualizar um chamado, inclua quaisquer erros, logs ou resolução de problemas que ocorreu pois isso ajuda a resolver o problema mais rapidamente.
   {: tip}
 
-2. Trabalhe com a Equipe de Suporte de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} no chamado.  Por exemplo, se a equipe de suporte solicitar informações adicionais, responda o mais rápido que puder.
+2. Trabalhe com a Equipe de Suporte da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} no chamado.  Por exemplo, se a equipe de suporte solicitar informações adicionais, responda o mais rápido que puder.
 3. Se o progresso do chamado parar, escale pelo chamado e faça um comentário como *"Escalar o chamado devido ao impacto no cliente"* ou por bate-papo ou por telefone.
 4. Se o chamado não progredir após a solicitação inicial, será possível escalá-lo para o Supervisor de Suporte solicitando essa escalação no chamado.
 5. Se você ainda não estiver obtendo o progresso necessário depois de solicitar ajuda do Supervisor de Suporte, será possível enviar um e-mail para a equipe de Gerenciamento de Suporte em Notify-Support-WW@wwpdl.vnet.ibm.com.
 
-Essa lista de distribuição notifica toda a equipe de Gerenciamento de Suporte de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para garantir que todos os recursos certos estejam engajados na resolução de seu problema.
+Essa lista de distribuição notifica toda a equipe de Gerenciamento de Suporte da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para garantir que todos os recursos certos estejam engajados na resolução de seu problema.
 {:tip}

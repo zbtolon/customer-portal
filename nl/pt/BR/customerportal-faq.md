@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -129,7 +129,7 @@ O perfil da empresa são as informações enviadas no momento da criação da co
 ## Onde localizar minhas senhas de dispositivo e software?
 {: #bicp_devswpw}
 
-As senhas do dispositivo e de software são armazenadas em dois locais dentro do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Para recuperar as credenciais do dispositivo, incluindo o nome do usuário raiz ou administrador e a senha para o {{site.data.keyword.baremetal_short}} e o {{site.data.keyword.virtualmachinesshort}}, consulte [Interagir com um dispositivo na visualização de captura instantânea](/docs/vsi/vsi_interact_device_snapshot_view.html). Para visualizar e recuperar rapidamente as credenciais de software que são controladas manualmente usando o portal do cliente, consulte [Gerenciando o acesso ao dispositivo](/docs/vsi_device_access.html).
+As senhas do dispositivo e de software são armazenadas em dois locais dentro do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Para recuperar as credenciais do dispositivo, incluindo o nome do usuário raiz ou administrador e a senha para o {{site.data.keyword.baremetal_short}} e o {{site.data.keyword.virtualmachinesshort}}, consulte [Interagir com um dispositivo na visualização de captura instantânea](/docs/vsi/vsi_interact_device_snapshot_view.html). Para visualizar e recuperar rapidamente as credenciais de software que são controladas manualmente usando o portal do cliente, consulte [Gerenciando o acesso ao dispositivo](/docs/vsi/vsi_device_access.html).
 
 ##Como manter meus dados da web em sincronia?
 {: #bicp_webdatasync}

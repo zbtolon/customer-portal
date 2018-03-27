@@ -26,7 +26,7 @@ lastupdated: "2017-12-06"
 
 Após um conjunto de largura da banda ser criado, se você for um usuário autorizado, será possível acessar o conjunto a qualquer momento. É possível acessar o conjunto de largura da banda para visualizar dispositivos associados ao conjunto, incluir dispositivos no conjunto ou remover dispositivos do conjunto. Use as etapas a seguir para acessar um conjunto:
 
-1. Efetue login no cliente do portal com suas credenciais exclusivas.
+1. Efetue login no portal do cliente com as suas credenciais exclusivas.
 2. Selecione **Rede** > **Largura da banda** > **Conjuntos** no menu para acessar a janela Conjuntos de largura da banda.
 3. Clique no **Nome do conjunto** para acessar o conjunto. Cada dispositivo associado ao conjunto é exibido.
 4. Na guia **Modificar**, é possível renomear o conjunto, incluir um dispositivo ou remover um dispositivo do conjunto:

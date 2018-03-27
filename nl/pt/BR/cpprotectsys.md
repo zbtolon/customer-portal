@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-03-16"
 
 ---
 
@@ -23,7 +23,7 @@ A proteção de seus sistemas assegura que seus sistemas sejam executados sem pr
 ## Use a rede privada
 {: #cp_bpuseprivnet}
 
-É possível gerenciar seus dispositivos no ambiente mais seguro possível usando a rede privada de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Quando possível, interaja com seus dispositivos usando uma conexão VPN e permita a ampliação da rede para que seus sistemas se comuniquem na rede privada. Para acessar a rede privada, edite o acesso do usuário à VPN na [Lista de Usuários ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Use as instruções da [Rede Privada Virtual ![Ícone de link externo](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} para conectar-se a uma das várias opções de VPN.
+É possível gerenciar seus dispositivos no ambiente mais seguro possível usando a rede privada de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Quando possível, interaja com seus dispositivos usando uma conexão VPN e permita a ampliação da rede para que seus sistemas se comuniquem na rede privada. Para acessar a rede privada, edite o acesso do usuário à VPN na [Lista de Usuários ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Use a lista [Rede privada virtual ![Ícone de link externo](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} para se conectar a uma das várias opções de VPN.
 
 ### Não deixe RDP, SSH ou portas de controle na rede pública
 {: #cp_bpnordpsshcponpubnet}
@@ -33,7 +33,14 @@ A rede pública é ótima para muitas coisas, mas há certos aspectos que, quand
 ## Proteja seus dados por meio de backups regulares
 {: #cp_bpsafedataregback}
 
-A infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} oferece diversas soluções de backup para assegurar que você possa recuperar seus dados no caso de falha da unidade ou de erro do usuário. As soluções de backup atualmente incluem NAS, EVault Backup e R1Soft CDP, que estão todos disponíveis em uma variedade de opções de armazenamento. Consulte a página [Armazenamento ![Ícone de link externo](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} para obter mais informações sobre cada solução de backup.
+Planeje backups para assegurar que seus dados sejam armazenados com segurança fora de seu dispositivo e para ser capaz de recarregá-los se forem perdidos.
+
+A infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} oferece diversas soluções de backup para assegurar que você possa recuperar seus dados no caso de falha da unidade ou de erro do usuário. As soluções de backup atualmente incluem NAS, EVault Backup e R1Soft CDP, que estão todos disponíveis em uma variedade de opções de armazenamento.
+Por exemplo, é possível escolher um dos serviços de backup para armazenar seus dados em um local seguro:
+  * EVault Backup é um sistema de backup automatizado baseado em agente. Essa é uma solução "configurar e esquecer" popular para gerenciar seu dispositivo. Ela é compatível com o software Microsoft, incluindo Exchange e SQL por meio de plug-ins adicionais. Os usuários do EVault interagem com esse serviço por meio do aplicativo baseado na web WebCC do EVault.
+  * O R1Soft Continuous Data Protection (CDP) pode ser instalado em seu servidor ou na máquina virtual autogerenciada. Ele é recomendado se você está procurando uma única interface para gerenciar todos os seus backups. Você interage com o R1Soft CDP por meio de seu sistema de gerenciamento proprietário, que permite que os agentes sejam instalados em máquinas virtuais e oferece plug-ins de banco de dados para funcionalidade adicional.
+
+ Veja a página [Armazenamento ![Ícone de link externo](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} para obter mais informações sobre cada solução de backup e veja [Introdução aos serviços de backup](/docs/infrastructure/Backup/index.html) para obter mais informações sobre como fazer backup de seus dados.
 
 ### Não suponha que você tem uma redundância; saiba que você tem
 {: #cp_bpknowredundant}

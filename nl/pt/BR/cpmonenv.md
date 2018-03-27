@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -24,7 +24,7 @@ Monitorar seu ambiente significa que você tem a capacidade de verificar disposi
 ## Monitorando seu ambiente
 {: #cpmonenv}
 
-No mínimo, use monitoramento de ping básico, mas você pode customizar suas opções de monitoramento de uma maneira que se adeque melhor às suas necessidades de negócios. Consulte [Configurando um servidor bare metal](/docs/customer-portal/cpsetupbaremetal.html) para obter as opções de monitoramento.
+No mínimo, use monitoramento de ping básico, mas você pode customizar suas opções de monitoramento de uma maneira que se adeque melhor às suas necessidades de negócios.
 
 ### Ficando informado sobre manutenção de rede e eventos não planejados
 {: #cp_stayinfomaintevent}
@@ -44,6 +44,11 @@ O aplicativo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
   * Acessar e examinar o conteúdo armazenado no Object Storage
 
 O aplicativo móvel de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} está disponível em várias plataformas populares de dispositivo móvel e está disponível de graça nas lojas de aplicativos relacionadas para cada plataforma.
+
+## Monitorando servidores
+{: #customerportal_monservers}
+
+Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar monitoramento Nimsoft ou avançado do portal do cliente ou em uma das três camadas: básica, avançada e premium. Veja [Introdução a servidores bare metal](/docs/bare-metal/about.html) para obter mais informações sobre servidores bare metal, especificamente.
 
 ## Monitorando eventos do sistema
 {: #customerportal_monevent}
@@ -69,4 +74,4 @@ Logs de acesso exibem dados para cada tentativa de acesso feita por um usuário 
 2. Selecione **Conta** > **Usuários** na barra de menus para acessar a janela Usuários.
 3. Na lista suspensa **Ações**, selecione **Visualizar log de auditoria** para visualizar o log de acesso do usuário.
 
-O log de acesso para cada usuário exibe as tentativas de acesso feitas por esse usuário por data, juntamente com o endereço IP do qual a tentativa de acesso foi feita. Informações dentro do log de acesso são somente leitura; portanto, as edições para o conteúdo não podem ser feitas a qualquer momento. É possível visualizar os logs de acesso novamente a qualquer momento repetindo as etapas anteriores. Para sair dos logs e retornar à tela Usuários, clique no link **Visualizar todos os usuários** na parte superior da tela.
+O log de acesso para cada usuário exibe as tentativas de acesso feitas por esse usuário por data, juntamente com o endereço IP do qual a tentativa de acesso foi feita. Informações dentro do log de acesso são somente leitura; portanto, as edições para o conteúdo não podem ser feitas a qualquer momento. É possível visualizar os logs de acesso novamente a qualquer momento repetindo as etapas anteriores. Para sair dos logs e retornar à tela Usuários, clique no link **Visualizar todos os usuários**.
