@@ -56,7 +56,7 @@ Es obligatorio que cada cuenta de SoftLayer tenga una tarjeta de crédito regist
 > **Nota:** Pulse el recuadro de selección **Utilizar la información de la empresa** para completar automáticamente los campos de esta sección con la información de la empresa que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} tiene registrada para la cuenta.
 3. Especifique la información de la tarjeta de crédito en cada campo de la sección **Información de pago**.
 4. Pulse **Añadir tarjeta de crédito** para añadir la tarjeta de crédito como método de pago mensual.
-5. Opcionalmente, seleccione **Soporte en la UE** para asegurarse de que el equipo de soporte de Europa gestione los problemas de mantenimiento y de soporte. Para obtener más información sobre esta opción, consulte [Establecimiento de la opción de equipo de soporte europeo exclusivo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
+5. Opcionalmente, seleccione **Soporte en la UE** para asegurarse de que el equipo de soporte de Europa gestione los problemas de mantenimiento y de soporte.  Para obtener más información sobre esta opción, consulte [Establecimiento de la opción de equipo de soporte europeo exclusivo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
 
 Después de añadir el método de pago, la solicitud será procesada por los representantes de la cuenta de SoftLayer para garantizar la validez de la tarjeta. Las tarjetas validadas estarán disponibles para su uso en la cuenta dentro de 24 horas. El cambio de estado para el método de pago será enviado por correo electrónico al contacto proporcionado al añadir el método de pago.
 
@@ -71,7 +71,7 @@ Puede realizar pagos únicos utilizando una cuenta de PayPal o una tarjeta de cr
 2. Especifique el importe de pago en el campo **Importe de pago**.
 3. Si está realizando el pago con PayPal, pulse **PayPal** y siga las indicaciones de PayPal para completar el pago. No es necesaria ninguna otra acción. Si está realizando el pago con una tarjeta de crédito, especifique el **Número, fecha de caducidad y código de seguridad de la tarjeta** en los campos apropiados.
 4. Especifique la información de facturación en los campos apropiados en la sección **Dirección de facturación de la tarjeta de crédito**.
-5. Opcionalmente, seleccione **Soporte en la UE** para asegurarse de que el equipo de soporte de Europa gestione los problemas de mantenimiento y de soporte. Para obtener más información sobre esta opción, consulte [Establecimiento de la opción de equipo de soporte europeo exclusivo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
+5. Opcionalmente, seleccione **Soporte en la UE** para asegurarse de que el equipo de soporte de Europa gestione los problemas de mantenimiento y de soporte.  Para obtener más información sobre esta opción, consulte [Establecimiento de la opción de equipo de soporte europeo exclusivo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
 6. Pulse **Pagar con tarjeta de crédito** para iniciar el pago.
 
 Después de iniciar el pago, este se procesará en consecuencia. Si surgen problemas con el pago, siga las indicaciones de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} o de PayPal hasta que se resuelva el problema. El pago se procesará, se aplicará el importe y se actualizará el saldo actual.

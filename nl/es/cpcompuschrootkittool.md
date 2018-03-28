@@ -100,8 +100,7 @@ Para configurar una exploración del sistema automatizada diaria que le envíe p
 2. Añada la línea siguiente al archivo nuevo:
 
   ```
-#!/bin/bash
-<br/>
+  #!/bin/bash<br/>
   cd /yourinstallpath/chkrootkit-0.42b/<br/>
   ./chkrootkit | mail -s "Daily chkrootkit from Servername" admin@youremail.com
   ```

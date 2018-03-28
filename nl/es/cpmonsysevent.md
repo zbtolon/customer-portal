@@ -19,7 +19,7 @@ lastupdated: "2017-12-01"
 # Supervisión de sucesos del sistema de la infraestructura de {{site.data.keyword.Bluemix_notm}}
 {: #customerportal_monevent}
 
-Puede supervisar sucesos del sistema para que sus sistemas se sigan ejecutando sin contratiempos. Para obtener información sobre la configuración y la gestión de servidores virtuales en la infraestructura de {{site.data.keyword.BluSoftlayer_full}}, consulte [Iniciación a los servidores virtuales](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
+Puede supervisar sucesos del sistema para que sus sistemas se sigan ejecutando sin contratiempos.  Para obtener información sobre la configuración y la gestión de servidores virtuales en la infraestructura de {{site.data.keyword.BluSoftlayer_full}}, consulte [Iniciación a los servidores virtuales](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
 {:shortdesc}
 
 ## Visualización de un registro de auditoría para una cuenta

@@ -18,7 +18,7 @@ lastupdated: "2017-12-01"
 # Configuración del inicio de sesión único
 {: #customerportal_confssoserv}
 
-Si usted es el usuario maestro de una cuenta o tiene acceso administrativo a la misma, puede configurar el inicio de sesión único. La configuración del inicio de sesión único para la infraestructura de {{site.data.keyword.BluSoftlayer_full}} es un proceso de dos pasos. En primer lugar, seleccione y configure el proveedor de identidad. A continuación, configure la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para recibir la solicitud de autenticación del proveedor de identidad.
+Si usted es el usuario maestro de una cuenta o tiene acceso administrativo a la misma, puede configurar el inicio de sesión único. La configuración del inicio de sesión único para la infraestructura de {{site.data.keyword.BluSoftlayer_full}} es un proceso de dos pasos.  En primer lugar, seleccione y configure el proveedor de identidad. A continuación, configure la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para recibir la solicitud de autenticación del proveedor de identidad.
 {:shortdesc}
 
 ## Selección y configuración del proveedor de identidad

@@ -35,12 +35,12 @@ Después de crear un perfil de usuario en el portal de cliente, puede editarlo e
 5. Si desea restablecer la contraseña después de iniciar la sesión, pulse **Restablecer contraseña** para generar un correo electrónico que le permita cambiar la contraseña.
 6. Pulse **Editar usuario** para enviar los cambios.
 
-| Campo | Definición|
+| Campo | Definición |
 |-----|----------|
 | Nombre, apellido | Nombre y apellido del usuario asociado con el perfil de usuario.|
 | Dirección de correo electrónico | Dirección de correo electrónico preferido para recibir notificaciones de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} relacionada con la cuenta. Cambiar la dirección de correo electrónico cambia el registro en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Este cambio no afecta al enlace con las credenciales de autenticación de IBMid. Debe cambiar la dirección de correo electrónico para el IBMid desde el perfil de IBMid.|
 | Huso horario | Huso horario preferido a utilizar al visualizar datos con indicación de hora.|
-| Teléfono, teléfono alternativo | Números de teléfono de contacto preferidos para que los utilice la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.|
+| Teléfono, teléfono alternativo| Números de teléfono de contacto preferidos para que los utilice la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.|
 | Dirección, Ciudad, País, Estado / provincia, Código postal | Dirección de contacto completa para que la utilice la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.|
 {: caption="Tabla 1. Valores de configuración de la información personal para editar un perfil de usuario" caption-side="top"}
 
@@ -56,7 +56,7 @@ Después de crear un perfil de usuario en el portal de cliente, puede editarlo e
 |Sección|Campo|Definición|
 |-------|-----|----------|
 | Información de acceso a la API | IP permitidas | Direcciones IP permitidas para autenticarse en la API utilizando la clave de API exclusiva asociada con el perfil de usuario |
-| Suscripciones a notificaciones de usuario | Facturación| Marque el recuadro de selección **Facturación** para recibir una factura por correo electrónico una vez que se haya creado. |
+| Suscripciones a notificaciones de usuario | Facturación | Marque el recuadro de selección **Facturación** para recibir una factura por correo electrónico una vez que se haya creado. |
 | Preguntas de seguridad | Pregunta de seguridad | Al editar su perfil, esta es la pregunta que debe responder para iniciar sesión cuando se hayan activado las preguntas de seguridad para su perfil.
 | Respuestas de seguridad | Respuesta | Respuesta sensible a las mayúsculas y minúsculas en la pregunta de seguridad aplicable. |
 {: caption="Tabla 3. Otros valores de configuración para editar un perfil de usuario" caption-side="top"}
@@ -139,7 +139,7 @@ Después de añadir PhoneFactor, debe activar manualmente la autenticación exte
 9. Si selecciona **Una vez** > **Valor de PIN**, escriba el PIN en el campo **Valor de PIN**.
 10. Pulse **Actualizar** para actualizar los cambios y activar la autenticación de PhoneFactor.
 
-Después de activar PhoneFactor, el portal de cliente o VPN necesita la autenticación a través de PhoneFactor. Después de autenticarse con las credenciales de usuario, un mensaje le indicará que se ha intentado dicha autenticación de PhoneFactor. Usted, o el usuario que está añadiendo, debe estar cerca del teléfono listado con PhoneFactor para completar la autenticación. PhoneFactor intentará autenticarse cinco veces. Tras cinco intentos de autenticación infructuosos, se le bloqueará durante aproximadamente una hora. Usted, o un usuario con acceso administrativo a la cuenta, puede cambiar los valores de autenticación de PhoneFactor en cualquier momento. Usted, o un administrador de la cuenta, puede desactivar PhoneFactor en cualquier momento.
+Después de activar PhoneFactor, el portal de cliente o VPN necesita la autenticación a través de PhoneFactor. Después de autenticarse con las credenciales de usuario, un mensaje le indicará que se ha intentado dicha autenticación de PhoneFactor. Usted, o el usuario que está añadiendo, debe estar cerca del teléfono listado con PhoneFactor para completar la autenticación. PhoneFactor intentará autenticarse cinco veces. Tras cinco intentos de autenticación infructuosos, se le bloqueará durante aproximadamente una hora. Usted, o un usuario con acceso administrativo a la cuenta, puede cambiar los valores de autenticación de PhoneFactor en cualquier momento.  Usted, o un administrador de la cuenta, puede desactivar PhoneFactor en cualquier momento.
 
 #### Métodos de autenticación de PhoneFactor
 {: #cp_phonefacauthmeths}
@@ -208,7 +208,7 @@ Después de actualizar el acceso VPN de un usuario, sus permisos se actualizará
 
 Puede activar PPTP VPN para formar un túnel seguro en la red privada de la infraestructura de {{site.data.keyword.BluSoftlayer_full}} utilizando el software especializado de cliente que se ejecuta en el escritorio o en el dispositivo dedicado. Puede utilizar PPTP si necesita conectar toda su oficina o si no puede utilizar la solución SSL VPN.
 
-Se le asignará una conexión PPTP con conexiones adicionales disponibles. Puede solicitar soporte para permitir acceso ilimitado a PPTP, que está disponible sin coste adicional. Utilice los pasos siguientes para activar o desactivar el acceso PPTP VPN:
+Se le asignará una conexión PPTP con conexiones adicionales disponibles.  Puede solicitar soporte para permitir acceso ilimitado a PPTP, que está disponible sin coste adicional. Utilice los pasos siguientes para activar o desactivar el acceso PPTP VPN:
 
 1. Acceda al portal del cliente utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Acceso VPN** desde la barra de menús.

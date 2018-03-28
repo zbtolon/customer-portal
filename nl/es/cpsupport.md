@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-02-23"
 
 ---
 
@@ -18,15 +18,17 @@ lastupdated: "2018-02-12"
 # Obtención de soporte para la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Si su cuenta de SoftLayer se creó con el portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, y si es una cuenta enlazada, tiene varias opciones para obtener soporte. Tenga o no una cuenta enlazada, puede abrir incidencias de soporte al cliente de infraestructura de {{site.data.keyword.BluSoftlayer_full}} en el portal de clientes.
+Si tiene problemas con la infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta enlazada, puede obtener ayuda para determinar la causa del problema y encontrar una solución utilizando el portal del cliente.
 {:shortdesc}
 
-Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede abrir una incidencia de soporte en la infraestructura de {{site.data.keyword.BluSoftlayer_full}} o consultar [Obtención de soporte al cliente](/docs/get-support/howtogetsupport.html) para obtener más información sobre la obtención de soporte mediante la consola de {{site.data.keyword.Bluemix}}.
+Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix}}. Consulte [Obtención de soporte al cliente](/docs/get-support/howtogetsupport.html) para obtener más información.
 
-## Creación de una incidencia de soporte con el portal del cliente
+Si no tiene una cuenta enlazada, puede abrir incidencias de soporte en el portal del cliente de infraestructura de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos o para obtener ayuda con problemas relacionados con su cuenta.
+
+## Creación de una incidencia de soporte técnico genérico
 {: #cp_creatsuptickwsp}
 
-Puede abrir incidencias de soporte al cliente de infraestructura de {{site.data.keyword.BluSoftlayer_full}} en el portal del cliente para ayudar con problemas relacionados con la cuenta o la infraestructura de {{site.data.keyword.BluSoftlayer_full}} en general.
+Siga los siguientes pasos para abrir incidencias de soporte de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos en el portal del cliente:
 
 1. Inicie sesión en el [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Soporte** > **Añadir incidencia** en el menú.
@@ -66,6 +68,15 @@ Puede abrir incidencias de soporte al cliente de infraestructura de {{site.data.
 
 Después de añadir una incidencia, se direccionará al miembro apropiado del Equipo de soporte para su resolución. Las incidencias se manejan en función del grado de gravedad, lo que significa que los problemas más graves, como las interrupciones, se gestionarán en primer lugar, seguidos por los problemas de degradación del servicio, y luego las preguntas. Un miembro del Equipo de soporte estará en contacto con los cesionarios en relación con la información adicional para resolver la incidencia.
 
+## Creación de una incidencia para problemas con las cuentas
+{: #cp_creatacctsuptickwsp}
+
+Puede abrir incidencias de infraestructura de {{site.data.keyword.BluSoftlayer_full}} para obtener ayuda con problemas relacionados con su cuenta en el portal del cliente de forma parecida en la que abre una incidencia para problemas de soporte técnico genéricos, pero con una diferencia importante.  
+
+Después de iniciar una sesión en el [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} y seleccionar **Soporte** > **Añadir incidencia**, debe asegurarse de que la incidencia se dirige al equipo de soporte adecuado y que se resuelva con rapidez. Para dirigir la incidencia correctamente para manejar los problemas de cuenta, en la lista de **Asunto**, seleccione **Solicitud de cuenta**.
+
+Complete el resto de la información de la incidencia tal como lo haría al crear una incidencia para un problema de soporte técnico genérico y envíe dicha incidencia. Con el **Asunto** establecido en **Solicitud de cuenta**, la incidencia se asigna el equipo de soporte adecuado para que le ayuda a resolver el problema con rapidez.
+
 ## Visualización de una incidencia existente
 {: #cp_viewsuptickwsp}
 
@@ -99,14 +110,14 @@ Si reasigna la incidencia, el cesionario nuevo se convertirá en el punto de con
 ## Escalada de un problema de soporte
 {: #cp_bpsupescalflow}
 
-Si tiene un problema y necesita ayuda para resolverlo, puede abrir una incidencia de soporte. Si el problema es crítico o urgente y tiene que escalarlo, efectúe los pasos siguientes.
+Si tiene un problema y necesita ayuda para resolverlo, puede abrir una incidencia de soporte.  Si el problema es crítico o urgente y tiene que escalarlo, efectúe los pasos siguientes.
 
 1. Abra una incidencia de soporte desde el portal del cliente, la conversación, o por teléfono (866-403-7638).
 
   Al crear o actualizar una incidencia, incluya los errores, los registros o la resolución de problemas que hayan tenido lugar, ya que esto ayuda a resolver el problema más rápidamente.
   {: tip}
 
-2. Trabaje con el Equipo de soporte de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} en la incidencia. Por ejemplo, si el equipo de soporte solicita información adicional, responda tan pronto como sea posible.
+2. Trabaje con el Equipo de soporte de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} en la incidencia.  Por ejemplo, si el equipo de soporte solicita información adicional, responda tan pronto como sea posible.
 3. Si se detiene el progreso en la incidencia, puede escalar desde la incidencia proporcionando un comentario como, por ejemplo, *"escale esta incidencia debido al impacto en el cliente"*, o por conversación o por teléfono.
 4. Si la incidencia no progresa tras la solicitud inicial, puede escalarla hasta el Supervisor de soporte solicitando este escalado en la incidencia.
 5. Si todavía no está recibiendo el progreso que necesita tras solicitar ayuda del Supervisor de soporte, puede escribir un correo electrónico al equipo de Gestión de soporte en Notify-Support-WW@wwpdl.vnet.ibm.com.

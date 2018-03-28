@@ -18,7 +18,7 @@ lastupdated: "2017-02-09"
 # ¿Qué es el portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}?
 {: #customerportal_whatisCP}
 
-Puede utilizar la consola de {{site.data.keyword.Bluemix}} para gestionar gran parte de su infraestructura. Sin embargo, el portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_full}} proporciona algunas funciones adicionales para gestionar productos y servicios de la infraestructura y cuentas de SoftLayer.
+Puede utilizar la consola de {{site.data.keyword.Bluemix}} para gestionar gran parte de su infraestructura.  Sin embargo, el portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_full}} proporciona algunas funciones adicionales para gestionar productos y servicios de la infraestructura y cuentas de SoftLayer.
 {:shortdesc}
 
 Utilizará el portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, en lugar de la consola de {{site.data.keyword.Bluemix_notm}}, por los motivos siguientes:
@@ -36,5 +36,5 @@ Utilizará luego el portal del cliente de la infraestructura de {{site.data.keyw
 Para todo lo demás, utilice la consola de [{{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
 
 Puede acceder al portal del cliente de las siguientes maneras:
-* Desde la consola de [{{site.data.keyword.Bluemix}} menú de ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} seleccionando **Infraestructura** desde el icono Menú de la barra de menús ![Icono Menú](../icons/icon_hamburger.svg). Para obtener más información, consulte [Cómo funciona la consola de {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
+* Desde la consola de [{{site.data.keyword.Bluemix}} menú de ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} seleccionando **Infraestructura** desde el icono Menú de la barra de menús ![Icono Menú](../icons/icon_hamburger.svg).  Para obtener más información, consulte [Cómo funciona la consola de {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
 * Desde el [portal del cliente de SoftLayer ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} directamente.

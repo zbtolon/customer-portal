@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-03-16"
 
 ---
 
@@ -23,7 +23,7 @@ Proteger los sistemas garantiza que los sistemas se ejecuten sin contratiempos y
 ## Utilice la red privada
 {: #cp_bpuseprivnet}
 
-Puede gestionar sus dispositivos en el entorno lo más seguro posible utilizando la red privada de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Cuando sea posible, interactúe con sus dispositivos utilizando una conexión VPN y habilite la expansión de red para que los sistemas se comuniquen a través de la red privada. Para acceder a la red privada, edite el acceso VPN del usuario desde la [Lista de usuarios ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Utilice las instrucciones de la [Red privada virtual ![Icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} para conectarse a una de las distintas opciones de VPN.
+Puede gestionar sus dispositivos en el entorno lo más seguro posible utilizando la red privada de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Cuando sea posible, interactúe con sus dispositivos utilizando una conexión VPN y habilite la expansión de red para que los sistemas se comuniquen a través de la red privada. Para acceder a la red privada, edite el acceso VPN del usuario desde la [Lista de usuarios ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Utilice la lista [Red privada virtual ![Icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} para conectarse a una de las distintas opciones de VPN.
 
 ### No deje RDP, SSH o los puertos de control en la red pública
 {: #cp_bpnordpsshcponpubnet}
@@ -33,17 +33,24 @@ La red pública es idónea para muchas cosas, pero hay ciertos aspectos que, cua
 ## Proteja los datos con copias de seguridad regulares
 {: #cp_bpsafedataregback}
 
-La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ofrece varias soluciones de copia de seguridad para garantizar que pueda recuperar sus datos en el caso de anomalía de la unidad o de error de usuario. Las soluciones de copia de seguridad actualmente incluyen NAS, copia de seguridad de EVault y CDP de R1Soft, que están disponibles con diversidad de opciones de almacenamiento. Consulte la página [Almacenamiento ![Icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} para obtener más información sobre cada solución de copia de seguridad.
+Planifique copias de seguridad para asegurarse de que los datos se almacenen de forma segura fuera del dispositivo y pueda cargarlos de nuevo si el dispositivo se pierde.
+
+La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ofrece varias soluciones de copia de seguridad para garantizar que pueda recuperar sus datos en el caso de anomalía de la unidad o de error de usuario. Las soluciones de copia de seguridad actualmente incluyen NAS, copia de seguridad de EVault y CDP de R1Soft, que están disponibles con diversidad de opciones de almacenamiento.
+Por ejemplo, puede elegir uno de los siguientes servicios de copia de seguridad para almacenar los datos en una ubicación segura:
+  * La copia de seguridad de EVault es un sistema de copia de seguridad automático basado en agente. Se trata de una conocida solución automatizada de muy fácil activación (“set-and-forget”) para la gestión del dispositivo. Es compatible con el software de Microsoft, incluido Exchange y SQL a través de conectores adicionales. Los usuarios de EVault interactúan con este servicio a través de la aplicación basada en web WebCC de EVault.
+  * R1Soft Continuous Data Protection (CDP) se puede instalar en el servidor o en una máquina virtual autogestionada. Se recomienda utilizarlo si busca una sola interfaz para gestionar todas sus copias de seguridad. Puede interactuar con R1Soft CDP a través de su propio sistema de gestión, lo que permite instalar agentes en máquinas virtuales y ofrece plugins de base de datos para obtener funcionalidad adicional.
+
+ Consulte la página [Almacenamiento ![Icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} para obtener más información sobre cada solución de copia de seguridad y consulte la [Guía de iniciación con servicios de copia de seguridad](/docs/infrastructure/Backup/index.html) para obtener más información sobre cómo realizar copias de seguridad de sus datos.
 
 ### No suponga que haya redundancia; sabe que no
 {: #cp_bpknowredundant}
 
-La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ofrece varias redundancias complementarias, incluidas la vía de acceso dual, las fuentes de alimentación redundantes y las configuraciones RAID. Verifique que ha suministrado una o varias de estas características para garantizar que está trabajando en un entorno redundante y que está protegido en caso producirse un error. 
+La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ofrece varias redundancias complementarias, incluidas la vía de acceso dual, las fuentes de alimentación redundantes y las configuraciones RAID. Verifique que ha suministrado una o varias de estas características para garantizar que está trabajando en un entorno redundante y que está protegido en caso producirse un error.
 
 ### Confirme que la información está respaldada antes de realizar una recarga de SO
 {: #cp_bpnoperfOSwobackupconf}
 
-Recargar el sistema operativo elimina todos los datos del disco duro del dispositivo. Antes de iniciar una recarga de SO, realice una copia de seguridad de la información y verifique que se ha efectuado correctamente para no perder información. Una vez completada la recarga de SO, no podrá recuperarse la información perdida. 
+Recargar el sistema operativo elimina todos los datos del disco duro del dispositivo. Antes de iniciar una recarga de SO, realice una copia de seguridad de la información y verifique que se ha efectuado correctamente para no perder información. Una vez completada la recarga de SO, no podrá recuperarse la información perdida.
 
 ## No elimine Adaptec Storage Manager (ASM)
 {: #cp_bpsupdontremovasm}

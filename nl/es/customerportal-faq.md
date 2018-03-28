@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -41,7 +41,7 @@ Las cuentas nuevas requieren IBMid para la autenticación. Las cuentas existente
 ## ¿Cómo puedo enlazar una cuenta de SoftLayer existente?
 {: #bicp_linkbmxacct}
 
-Si usted es el usuario maestro de la cuenta de SoftLayer, inicie sesión en el portal del cliente y pulse **Enlazar una cuenta** en la cabecera. Consulte [Cómo enlazar cuentas de usuario de IBMid](/docs/account/softlayerlink.html) para obtener más información.
+Si usted es el usuario maestro de la cuenta de SoftLayer, inicie sesión en el portal del cliente y pulse **Enlazar una cuenta** en la cabecera.  Consulte [Cómo enlazar cuentas de usuario de IBMid](/docs/account/softlayerlink.html) para obtener más información.
 
 ## ¿Tengo que ser un usuario existente de {{site.data.keyword.Bluemix_notm}} para enlazar cuentas?
 {: #bicp_bmxusertolink}
@@ -129,7 +129,7 @@ El perfil de empresa era la información enviada en el momento de crear la cuent
 ## ¿Dónde puedo encontrar las contraseñas de mi dispositivo y del software?
 {: #bicp_devswpw}
 
-Las contraseñas del dispositivo y del software se almacenan en dos ubicaciones dentro del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Para recuperar las credenciales del dispositivo, incluidos el nombre de usuario y la contraseña del administrador y del usuario root para {{site.data.keyword.baremetal_short}} y {{site.data.keyword.virtualmachinesshort}}, consulte [Interactuar con un dispositivo en la vista de instantánea](/docs/vsi/vsi_interact_device_snapshot_view.html). Para ver y recuperar rápidamente las credenciales del software que se rastrean manualmente utilizando el portal del cliente, consulte [Gestión el acceso a dispositivos](/docs/vsi_device_access.html).
+Las contraseñas del dispositivo y del software se almacenan en dos ubicaciones dentro del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Para recuperar las credenciales del dispositivo, incluidos el nombre de usuario y la contraseña del administrador y del usuario root para {{site.data.keyword.baremetal_short}} y {{site.data.keyword.virtualmachinesshort}}, consulte [Interactuar con un dispositivo en la vista de instantánea](/docs/vsi/vsi_interact_device_snapshot_view.html). Para ver y recuperar rápidamente las credenciales del software que se rastrean manualmente utilizando el portal del cliente, consulte [Gestión el acceso a dispositivos](/docs/vsi/vsi_device_access.html).
 
 ##¿Cómo mantengo mis datos web sincronizados?
 {: #bicp_webdatasync}

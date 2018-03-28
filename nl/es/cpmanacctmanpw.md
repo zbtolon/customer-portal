@@ -52,7 +52,7 @@ Para ver, editar o suprimir la información de usuario de la herramienta de segu
 
 1. Acceda al portal del cliente utilizando sus credenciales exclusivas.
 2. Seleccione **Dispositivos** > **Gestionar** > **Contraseñas** en el menú.
-3. Pulse el separador **Filtro**. 
+3. Pulse el separador **Filtro**.
 4. Seleccione o especifique el nombre de dispositivo, software, o el nombre de usuario en los campos correspondientes.
 5. Pulse **Filtro**.
 

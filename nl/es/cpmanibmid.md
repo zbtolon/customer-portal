@@ -28,7 +28,7 @@ Si tiene una cuenta existente de SoftLayer, puede cambiar a un ID de IBM. Un asi
 
 Puede asociar un ID de IBM con varias cuentas de SoftLayer utilizando una dirección de correo electrónico de ID de IBM existente al configurar la cuenta. Solo se puede correlacionar un usuario de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para cada cuenta en el IBMid único. El ID de IBM debe ser exclusivo dentro de cada cuenta de SoftLayer. Sin embargo, un usuario con acceso a varias cuentas de SoftLayer puede utilizar un ID de IBM para acceder a varias cuentas de SoftLayer.
 
-Por ejemplo, un ID de IBM puede correlacionar al usuario maestro en las cuentas A y B, y a un usuario adicional en las cuentas C y D. Una de las cuentas correlacionadas a dicho ID de IBM es la cuenta predeterminada.  Normalmente, la cuenta predeterminada es la cuenta que se correlacionó por primera vez en el ID de IBM. Sin embargo, puede cambiar qué cuenta es la predeterminada mediante una característica de conmutación de cuenta en el portal de cliente.
+Por ejemplo, un ID de IBM puede correlacionar al usuario maestro en las cuentas A y B, y a un usuario adicional en las cuentas C y D. Una de las cuentas correlacionadas a dicho ID de IBM es la cuenta predeterminada. Normalmente, la cuenta predeterminada es la cuenta que se correlacionó por primera vez en el ID de IBM. Sin embargo, puede cambiar qué cuenta es la predeterminada mediante una característica de conmutación de cuenta en el portal de cliente.
 
 ![Varias cuentas de SoftLayer para un IBMid](images/ibmid-image.png)
 

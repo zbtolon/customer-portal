@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -24,7 +24,7 @@ La supervisión del entorno significa que tiene la capacidad para comprobar los 
 ## Supervisión del entorno
 {: #cpmonenv}
 
-Como mínimo, utilice la supervisión de ping básica, pero puede personalizar sus opciones de supervisión de la forma que se ajuste mejor a sus necesidades de negocio. Consulte las opciones de supervisión en [Configuración de un servidor nativo](/docs/customer-portal/cpsetupbaremetal.html).
+Como mínimo, utilice la supervisión de ping básica, pero puede personalizar sus opciones de supervisión de la forma que se ajuste mejor a sus necesidades de negocio.
 
 ### Manténgase informado de los sucesos de mantenimiento de red y de los no planeados
 {: #cp_stayinfomaintevent}
@@ -44,6 +44,11 @@ La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_not
   * Acceder al contenido almacenado en Object Storage y examinarlo
 
 La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} está disponible en varias plataformas populares de dispositivo móvil, de forma gratuita en las tiendas de aplicaciones de cada plataforma.
+
+## Supervisión de servidores
+{: #customerportal_monservers}
+
+Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium.  Consulte la [Guía de iniciación con servidores nativos](/docs/bare-metal/about.html) para obtener información más específica sobre los servidores nativos.
 
 ## Supervisión de sucesos del sistema
 {: #customerportal_monevent}
@@ -69,4 +74,4 @@ Los Registros de acceso muestran datos por cada intento de acceso realizado por 
 2. Seleccione **Cuenta** > **Usuarios** en la barra de menús para acceder a la ventana Usuarios.
 3. En la lista desplegable **Acciones**, seleccione **Ver registro de auditoría** para ver el registro de acceso del usuario.
 
-El registro de acceso para cada usuario muestra los intentos de acceso realizados por dicho usuario por fecha, junto con la dirección IP desde la que se ha realizado el intento de acceso. La información del registro de acceso es de solo lectura, por lo que las ediciones en el contenido no se pueden realizar en cualquier momento. Puede ver los registros de acceso de nuevo en cualquier momento repitiendo los pasos anteriores. Para salir de los registros y volver a la pantalla Usuarios, pulse el enlace **Ver todos los usuarios** en la parte superior de la pantalla.
+El registro de acceso para cada usuario muestra los intentos de acceso realizados por dicho usuario por fecha, junto con la dirección IP desde la que se ha realizado el intento de acceso. La información del registro de acceso es de solo lectura, por lo que las ediciones en el contenido no se pueden realizar en cualquier momento. Puede ver los registros de acceso de nuevo en cualquier momento repitiendo los pasos anteriores. Para salir de los registros y volver a la pantalla Usuarios, pulse el enlace **Ver todos los usuarios**.

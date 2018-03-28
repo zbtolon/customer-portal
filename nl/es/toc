@@ -17,6 +17,7 @@ Gestión de recursos de infraestructura
         cpmanuserprof.md
         cpmanacctmanpw.md
         cpmanacctcompprofcont.md
+        cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md
         cpsetupfedid.md
@@ -31,7 +32,6 @@ Gestión de recursos de infraestructura
     Gestión del entorno
         cpmonenv.md
         cpprotectsys.md
-        cpsetupbaremetal.md
         cpcompsegapptiers.md
         cpcompmanlic.md
         cprebootserver.md
