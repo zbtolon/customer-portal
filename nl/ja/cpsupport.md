@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-02-23"
 
 ---
 
@@ -18,15 +18,16 @@ lastupdated: "2018-02-12"
 # {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーのサポートの利用
 {: #customerportal_support}
 
-SoftLayer アカウントが {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルで作成されたもので、リンクされたアカウントである場合、サポートを利用するにはいくつかのオプションがあります。 リンクされたアカウントを持っているかどうかに関係なく、カスタマー・ポータルで {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーのお客様サポート・チケットをオープンできます。
-{:shortdesc}
+{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーで問題が発生し、リンクされたアカウントをお持ちでない場合、カスタマー・ポータルを使用して、問題の原因を判別し、解決策を特定するための支援を受けることができます。{:shortdesc}
 
-[アカウントをリンク](/docs/account/softlayerlink.html#link_user_accounts)している場合は、{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーでサポート・チケットをオープンできます。または、[お客様サポートの利用](/docs/get-support/howtogetsupport.html)を参照して、{{site.data.keyword.Bluemix}} コンソールからのサポートの利用方法の詳細を確認してください。
+[リンクされたアカウント](/docs/account/softlayerlink.html#link_user_accounts)をお持ちの場合は、{{site.data.keyword.Bluemix}} コンソールからサポートを利用することができます。詳しくは、『[お客様サポートの利用](/docs/get-support/howtogetsupport.html)』を参照してください。
 
-## カスタマー・ポータルでのサポート・チケットの作成
+リンクされたアカウントをお持ちでない場合は、一般的な技術問題またはアカウントに関連する問題に関する支援を受けるために、{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー・カスタマー・ポータルでサポート・チケットをオープンすることができます。
+
+## 一般的な技術サポート・チケットの作成
 {: #cp_creatsuptickwsp}
 
-ご使用のアカウントまたは {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー全般に関連した問題を支援するための、{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーのお客様サポート・チケットをカスタマー・ポータルでオープンできます。
+一般的な技術問題に関する {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー・チケットをカスタマー・ポータルでオープンするには、以下の手順を使用します。
 
 1. 固有の資格情報を使用して[カスタマー・ポータル ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} にログインします。
 2. メニューから**「サポート」**>**「チケットの追加」**を選択します。
@@ -65,6 +66,15 @@ SoftLayer アカウントが {{site.data.keyword.BluSoftlayer_notm}} インフ�
 11. **「チケットの追加」**をクリックします。
 
 追加されたチケットは、解決のためにサポート・チームの該当メンバーに送付されます。 チケットは、重大度に基づいて処理されます。つまり、障害などの最も重大な問題が先に処理され、次にサービス低下の問題、その後に質問が処理されます。 サポート・チームのメンバーは、チケットの解決のための追加情報について、割り当てられた担当者に連絡します。
+
+## アカウントの問題に関するチケットの作成
+{: #cp_creatacctsuptickwsp}
+
+ご使用のアカウントに関連した問題の支援を受けるための {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー・チケットをカスタマー・ポータルでオープンするには、一般的な技術問題のサポートのチケットをオープンするのと同じ方法を使用できますが、重要な違いが 1 つあります。  
+
+[カスタマー・ポータル![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}にログインし、**「サポート」** > **「チケットの追加」**を選択した後、チケットが正しいサポート・チームに送付され、迅速に解決できるようにする必要があります。アカウントの問題を処理するためにチケットを正しく送付するには、**「サブジェクト」**リストから**「アカウント要求 (Accounting Request)」**を選択します。
+
+一般的な技術サポートのチケットの作成と同様にチケットの残りを完了させて、チケットを送信します。**「サブジェクト」**を**「アカウント要求 (Accounting Request)」**に設定することで、チケットは正しいサポート・チームに割り当てられ、問題の迅速な解決が可能になります。
 
 ## 既存チケットの表示
 {: #cp_viewsuptickwsp}

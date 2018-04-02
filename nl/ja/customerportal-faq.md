@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -130,7 +130,7 @@ IBM ID でサインインする際に、*「この IBMid または E メール�
 {: #bicp_devswpw}
 
 デバイスとソフトウェアのパスワードは、[カスタマー・ポータル ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 内の 2 つの場所に保管されています。 {{site.data.keyword.baremetal_short}} と {{site.data.keyword.virtualmachinesshort}} の両方の root ユーザーまたは管理ユーザーのユーザー名とパスワードなど、デバイスの資格情報を取得するには、[スナップショット・ビュー内でのデバイスの操作
-](/docs/vsi/vsi_interact_device_snapshot_view.html)を参照してください。 カスタマー・ポータルを使用して手動で追跡されたソフトウェア資格情報を迅速に表示および取得するには、[デバイス・アクセスの管理](/docs/vsi_device_access.html)を参照してください。
+](/docs/vsi/vsi_interact_device_snapshot_view.html)を参照してください。 カスタマー・ポータルを使用して手動で追跡されたソフトウェア資格情報を迅速に表示および取得するには、[デバイス・アクセスの管理](/docs/vsi/vsi_device_access.html)を参照してください。
 
 ##Web データの同期を維持するには、どのようにすればよいですか?
 {: #bicp_webdatasync}

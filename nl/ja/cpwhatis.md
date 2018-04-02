@@ -24,7 +24,7 @@ lastupdated: "2017-02-09"
 以下の理由で、{{site.data.keyword.Bluemix_notm}} コンソールではなく、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルを使用します。
   * {{site.data.keyword.Bluemix_notm}} インフラストラクチャー・サービスのみを使用し (プラットフォーム・サービスは使用しない)、[リンクされたアカウント](/docs/account/softlayerlink.html#link_user_accounts)を持っていない場合。
   * [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid) を持っていない場合。
-  * 連邦政府環境にアクセスする必要がある場合。例えば、アメリカ合衆国政府機関には、外部アクセスが制限された、より安全にロックダウンされたデータ・センターが必要な可能性があります。この環境では、{{site.data.keyword.Bluemix_notm}} インフラストラクチャー・サービス・サービスのみが使用可能になります。{{site.data.keyword.Bluemix_notm}} プラットフォーム・アクセスは、連邦政府のデータ・センターでは使用できません。
+  * 連邦政府環境にアクセスする必要がある場合。例えば、アメリカ合衆国政府機関には、外部アクセスが制限された、より安全にロックダウンされたデータ・センターが必要な可能性があります。 この環境では、{{site.data.keyword.Bluemix_notm}} インフラストラクチャー・サービス・サービスのみが使用可能になります。{{site.data.keyword.Bluemix_notm}} プラットフォーム・アクセスは、連邦政府のデータ・センターでは使用できません。
 
 そして、以下のタスクに、{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー・カスタマー・ポータルを使用します。
   * リソースのアクセスの管理、リソースのモニタリング、およびアクセス・ログの表示
