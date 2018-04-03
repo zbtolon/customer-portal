@@ -31,7 +31,7 @@ Un file di licenza viene utilizzato per verificare che la licenza sia valida per
 3. Seleziona **Azioni > Scarica file di licenza** per la licenza.
 4. Salva o scarica il file sul software del pannello di controllo del dispositivo utilizzando i prompt forniti dal sistema operativo del dispositivo.
 
-Dopo aver scaricato il file di licenza sul dispositivo, i dettagli del software del pannello di controllo relativi alla licenza vengono aggiornati. Se si verificano dei problemi o se il download non è riuscito, prova di nuovo il processo di download ripetendo i passi precedenti. 
+Dopo aver scaricato il file di licenza sul dispositivo, i dettagli del software del pannello di controllo relativi alla licenza vengono aggiornati. Se si verificano dei problemi o se il download non è riuscito, prova di nuovo il processo di download ripetendo i passi precedenti.
 
 ## Annullamento di una licenza del pannello di controllo
 {: #cp_compcanlisc}

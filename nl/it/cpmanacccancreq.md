@@ -22,7 +22,7 @@ Se sei l'utente master di un account o hai accesso amministrativo ad esso, puoi 
 {:shortdesc}
 
 
-Puoi gestire gli annullamenti in qualsiasi momento dalla finestra Richieste di annullamento. La finestra Richieste di annullamento visualizza tutti gli annullamenti completati o in sospeso associati a un account.  Da questa finestra, puoi visualizzare gli annullamenti e i ticket associati. annullamentoFrom this window, you can view cancellations and associated tickets. Se l'annullamento di un servizio o di una soluzione non è stato ancora completato, è possibile invalidare l'annullamento. Utilizza la seguente procedura per accedere alla finestra Richieste di annullamento.
+Puoi gestire gli annullamenti in qualsiasi momento dalla finestra Richieste di annullamento. La finestra Richieste di annullamento visualizza tutti gli annullamenti completati o in sospeso associati a un account. Da questa finestra, puoi visualizzare gli annullamenti e i ticket associati. annullamentoFrom this window, you can view cancellations and associated tickets. Se l'annullamento di un servizio o di una soluzione non è stato ancora completato, è possibile invalidare l'annullamento. Utilizza la seguente procedura per accedere alla finestra Richieste di annullamento.
 
 1. Accedi al [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
 2. Dal menu, seleziona **Account > Vendite > Annullamenti** per accedere alla finestra Richieste di annullamento.

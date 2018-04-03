@@ -39,7 +39,7 @@ Nella finestra Fatture, ogni singola fattura viene riepilogata in base a numero 
 <dd>Un'inversione delle spese, per un addebito una tantum o ricorrente.</dd>
 </dl>
 
-Puoi anche visualizzare un riepilogo di fatturazione per l'account, incluso il saldo corrente e la stima del saldo successivo, il metodo di pagamento e le date dell'ultima e della prossima fattura ricorrente. 
+Puoi anche visualizzare un riepilogo di fatturazione per l'account, incluso il saldo corrente e la stima del saldo successivo, il metodo di pagamento e le date dell'ultima e della prossima fattura ricorrente.
 
 1. Fai clic su **Account** > **Fatturazione** > **Fatture** dal menu.
 2. Puoi anche visualizzare la fattura nel portale del cliente o scaricare la fattura.
@@ -55,7 +55,7 @@ Ogni account SoftLayer è tenuto ad avere una carta di credito registrata in arc
 2. Immetti i dettagli di fatturazione richiesti per la carta in ogni campo della sezione **Indirizzo di fatturazione**.
 > **Nota:** fai clic sulla casella di spunta **Utilizza informazioni azienda** per completare automaticamente i campi in questa sezione con le informazioni sulla società che l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} ha in archivio per l'account.
 3. Immetti le informazioni della carta di credito in ogni campo della sezione **Informazioni di pagamento**.
-4. Fai clic su **Aggiungi carta di credito** per aggiungere la carta di credito come metodo di pagamento mensile. 
+4. Fai clic su **Aggiungi carta di credito** per aggiungere la carta di credito come metodo di pagamento mensile.
 5. Facoltativamente, seleziona **Supportato UE** per assicurarti che il team di supporto in Europa gestisca i tuoi problemi di manutenzione e supporto.  Per ulteriori informazioni su questa opzione, vedi [Impostazione dell'opzione esclusiva del team di supporto europeo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
 
 Dopo aver aggiunto il metodo di pagamento, la richiesta viene elaborata dai rappresentanti dell'account SoftLayer per garantire la validità della carta. Le carte convalidate sono disponibili per l'uso sull'account entro 24 ore. La modifica dello stato per il metodo di pagamento viene inviata via e-mail al contatto che è stato fornito quando è stato aggiunto il metodo di pagamento.
@@ -69,7 +69,7 @@ Puoi effettuare pagamenti una tantum utilizzando un account PayPal o una carta d
  * Dal menu, vai a **Account** > **Effettua un pagamento**.
  * Dalla pagina Fatture, fai clic su **Paga saldo**.
 2. Immetti l'importo di pagamento nel campo **Importo del pagamento**.
-3. Se effettui il pagamento con PayPal, fai clic su **PayPal** e segui le istruzioni in PayPal per completare il pagamento. Non sono richieste ulteriori azioni. Se effettui il pagamento con una carta di credito, immetti il **Numero della carta, la Data di scadenza e il Codice di sicurezza** nei campi appropriati. 
+3. Se effettui il pagamento con PayPal, fai clic su **PayPal** e segui le istruzioni in PayPal per completare il pagamento. Non sono richieste ulteriori azioni. Se effettui il pagamento con una carta di credito, immetti il **Numero della carta, la Data di scadenza e il Codice di sicurezza** nei campi appropriati.
 4. Immetti le informazioni di fatturazione nei campi appropriati nella sezione **Indirizzo di fatturazione della carta di credito**.
 5. Facoltativamente, seleziona **Supportato UE** per assicurarti che il team di supporto in Europa gestisca i tuoi problemi di manutenzione e supporto.  Per ulteriori informazioni su questa opzione, vedi [Impostazione dell'opzione esclusiva del team di supporto europeo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
 6. Fai clic su **Paga con carta di credito** per avviare il pagamento.

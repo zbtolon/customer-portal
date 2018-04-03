@@ -18,7 +18,7 @@ lastupdated: "2017-02-09"
 # Cos'è il portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}?
 {: #customerportal_whatisCP}
 
-Puoi utilizzare la console {{site.data.keyword.Bluemix}} per gestire gran parte della tua infrastruttura. Tuttavia, il portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} fornisce alcune funzioni aggiuntive per gestire prodotti e servizi di infrastruttura e gli account SoftLayer.
+Puoi utilizzare la console {{site.data.keyword.Bluemix}} per gestire gran parte della tua infrastruttura.  Tuttavia, il portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} fornisce alcune funzioni aggiuntive per gestire prodotti e servizi di infrastruttura e gli account SoftLayer.
 {:shortdesc}
 
 Potresti utilizzare il portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}, invece della console {{site.data.keyword.Bluemix_notm}}, per i seguenti motivi:

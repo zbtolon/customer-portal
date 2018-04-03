@@ -32,7 +32,7 @@ Il tracciamento delle password all'interno del portale del cliente è facoltativ
 
 1. Accedi al portale del cliente utilizzando le tue credenziali univoche.
 2. Seleziona **Dispositivi** > **Gestisci** > **Password** dal menu.
-3. Fai clic sulla scheda **Aggiugni credenziali**.
+3. Fai clic sulla scheda **Aggiungi credenziali**.
 4. Seleziona il **Nome dispositivo** a cui è associato l'utente dall'elenco a discesa **Nome dispositivo**.
 5. Seleziona il **Software** a cui è associato l'utente dall'elenco **Software**.
 
@@ -82,7 +82,7 @@ Prima di poter configurare l'account, devi aver configurato l'applicazione "VIP 
 Completa quindi la seguente procedura:
 1. Apri l'applicazione. Trova l'ID credenziale nella parte superiore e la tua password monouso corrente nella parte inferiore. Inizialmente puoi ignorare la password, ma ti servirà l'ID credenziale per il portale, quindi manteni aperta l'applicazione.
 2. Accedi al portale del cliente come utente per il quale vuoi configurare la password monouso.
-3. Fai clic su **Account** > **Utenti** > **Azioni** > **Aggiugni autenticazione esterna**.
+3. Fai clic su **Account** > **Utenti** > **Azioni** > **Aggiungi autenticazione esterna**.
 4. Seleziona il tipo di autenticazione da aggiungere. Se stai utilizzando l'applicazione Verisign, scegli **Symantect Identity Protection**.
 5. Immetti l'ID credenziale dal passo 1 e fai clic su **Continua**.
 6. Completa il processo di ordinazione e l'opzione di sicurezza aggiuntiva viene applicata automaticamente in pochi minuti.

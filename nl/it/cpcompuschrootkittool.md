@@ -97,7 +97,7 @@ Per configurare una scansione del sistema automatizzata giornaliera che ti invii
   ```
   {: pre}
 
-2. Aggiugni la seguente riga al nuovo file:
+2. Aggiungi la seguente riga al nuovo file:
 
   ```
   #!/bin/bash<br/>

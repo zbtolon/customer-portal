@@ -65,8 +65,8 @@ Di seguito è riportato un flusso di esempio di come potrebbe funzionare l'auten
 
 In questo modello, accadono le seguenti cose:
 * Vengono creati i ruoli nel provider di identità e quindi assegnati all'utente.
-* Le assegnazioni di ruoli e autorizzazioni sono configurate nell'IMS dell'infrastruttura {{site.data.keyword.BluSoftlayer}} utilizzando le API dell'infrastruttura {{site.data.keyword.BluSoftlayer}}. 
-* Gli utenti si autenticano con il provider di identità e federano le proprie credenzial e gli attributi del ruolo. 
+* Le assegnazioni di ruoli e autorizzazioni sono configurate nell'IMS dell'infrastruttura {{site.data.keyword.BluSoftlayer}} utilizzando le API dell'infrastruttura {{site.data.keyword.BluSoftlayer}}.
+* Gli utenti si autenticano con il provider di identità e federano le proprie credenzial e gli attributi del ruolo.
 * L'infrastruttura {{site.data.keyword.BluSoftlayer}} utilizza le credenziali dell'utente e gli attributi del ruolo. Se il ruolo assegnato dal provider di identità dell'utente corrisponde a un ruolo nell'infrastruttura {{site.data.keyword.BluSoftlayer}}, all'utente vengono concesse le autorizzazioni per tale ruolo durante l'accesso all'infrastruttura {{site.data.keyword.BluSoftlayer}}.
 * Gli utenti creati nel provider di identità sono considerati federati in quanto essi e i relativi ruoli sono autenticati tramite SAML 2.0.
 

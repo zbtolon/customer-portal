@@ -24,12 +24,12 @@ Uno o più utenti possono interagire con i prodotti e i servizi associati a un a
 Se gestisci gli utenti dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}}, quali account SoftLayer puoi gestire dipende dall'accesso che è stato assegnato al tuo account utente e da come è configurato il tuo account. Se sei l'utente master o hai un accesso amministrativo come proprietario dell'account, puoi gestire altri utenti del portale del cliente. Se il tuo account non è configurato come utente master, puoi gestire il tuo profilo utente.
 
 A seconda del tuo accesso, puoi gestire il tuo account SoftLayer o gli account di altri utenti dalla finestra Utenti. La finestra Utenti nel [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} visualizza gli utenti associati a un account. Le interazioni disponibili nella finestra Utenti variano in base alla tua serie univoca di autorizzazioni account.
-  * Se sei l'utente master dell'account, puoi visualizzare tutti gli utenti associati all'account. 
+  * Se sei l'utente master dell'account, puoi visualizzare tutti gli utenti associati all'account.
 
   Se devi condividere le credenziali di accesso master per il tuo account, condividi le credenziali con attenzione. Il tuo accesso master controlla ogni aspetto del tuo account e deve essere protetto. Per consentire ad altri utenti di utilizzare il portale del cliente, puoi configurare utenti individuali o basati su autorizzazioni. Ciò ti consente di avere il massimo controllo su chi è in grado di interagire con determinati aspetti del tuo account.
   {:tip}
   * Se disponi dell'accesso amministrativo, puoi vedere tutti gli utenti che hai creato e, se hai concesso a tali utenti l'autorizzazione per amministrare altri utenti, puoi anche vedere tutti gli utenti che essi hanno creato. Puoi anche intraprendere azioni su qualsiasi utente associato all'account, incluso la modifica dell'accesso al portale del cliente, la modifica dello stato dell'utente e la rimozione di utenti.
-  * Se non sei l'utente master dell'account e non disponi dell'accesso amministrativo, viene visualizzato solo il tuo profilo. Puoi interagire con il tuo proprio account, ad esempio visualizzare la chiave API, modificare l'accesso VPN e aggiungere l'autenticazione esterna.
+  * Se non sei l'utente master dell'account e non disponi dell'accesso amministrativo, viene visualizzato solo il tuo profilo.  Puoi interagire con il tuo proprio account, ad esempio visualizzare la chiave API, modificare l'accesso VPN e aggiungere l'autenticazione esterna.
 
 Per gestire gli utenti dalla console {{site.data.keyword.Bluemix_notm}}, vedi la sezione [Configurazione account](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) e [Gestione di identità e accesso](/docs/iam/quickstart.html#getstarted). Per ulteriori informazioni sulla console {{site.data.keyword.Bluemix_notm}}, vedi [Come funziona la console {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui).
 
@@ -51,7 +51,7 @@ Utilizza la seguente procedura per aggiungere un utente a un account.
 * Fai clic sulla casella di spunta **Password del portale utente per VPN** per sincronizzare le password del portale del cliente e della VPN.
 6. Fai clic su **Aggiungi utente**.
 
-Dopo aver creato un account per un utente, l'utente riceve una notifica via e-mail per completare la configurazione del proprio account impostando una password e, facoltativamente, le domande di sicurezza se hai indicato che sono richieste. 
+Dopo aver creato un account per un utente, l'utente riceve una notifica via e-mail per completare la configurazione del proprio account impostando una password e, facoltativamente, le domande di sicurezza se hai indicato che sono richieste.
 
 Il modo in cui gli utenti senza l'accesso amministrativo di un utente master accedono al portale del cliente dipende dall'utente master che ha fornito l'accesso all'utente nei propri account SoftLayer:
   * Se l'utente master ha un ID IBM per l'autenticazione, ogni utente creato dall'utente master ha un ID IBM.

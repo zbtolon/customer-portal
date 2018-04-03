@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -25,13 +25,13 @@ Le seguenti domande frequenti riguardano la gestione dei problemi relativi alle 
 ## Come posso recuperare le mie credenziali per il Portale del cliente?
 {: #bicp_retcreds}
 
-Se utilizzi l'ID IBM per l'autenticazione, quando effettui il primo ordine o quando vieni aggiunto come utente a un account, ti viene inviata un'e-mail contenente un link per iniziare con l'ID IBM. Se dimentichi o perdi il tuo nome utente o password, vai al tuo [profilo ID IBM![Icona link esterno](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} e reimposta o recupera la password utilizzando le istruzioni che seguono la procedura di accesso. Ti verrà richiesto di immettere informazioni specifiche, che potrebbero includere le risposte alle tue domande di sicurezza. 
+Se utilizzi l'ID IBM per l'autenticazione, quando effettui il primo ordine o quando vieni aggiunto come utente a un account, ti viene inviata un'e-mail contenente un link per iniziare con l'ID IBM. Se dimentichi o perdi il tuo nome utente o password, vai al tuo [profilo ID IBM![Icona link esterno](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} e reimposta o recupera la password utilizzando le istruzioni che seguono la procedura di accesso. Ti verrà richiesto di immettere informazioni specifiche, che potrebbero includere le risposte alle tue domande di sicurezza.
 
 Se NON utilizzi l'ID IBM per l'autenticazione, quando effettui il primo ordine o vieni aggiunto come utente a un account del [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, ricevi un'e-mail contenente il tuo nome utente e la password iniziale per iniziare nel portale del cliente. Assicurati di cambiare la password dopo aver effettuato l'accesso per la prima volta [modificando il tuo profilo utente](edit-user-profile.html).
 
 Se dimentichi la password dopo aver effettuato l'accesso, utilizza la funzione **Password dimenticata** disponibile nella schermata di accesso del [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Ti verrà richiesto di immettere informazioni specifiche, incluso un insieme di domande di sicurezza che hai specificato durante la [modifica del tuo profilo utente](edit-user-profile.html).
 
-Se dimentichi il nome utente, contatta l'amministratore dell'account o l'utente master, che ha la possibilità di recuperare il tuo nome utente. Se sei l'amministratore o l'utente master dell'account, contatta il supporto per ricevere ulteriore assistenza. 
+Se dimentichi il nome utente, contatta l'amministratore dell'account o l'utente master, che ha la possibilità di recuperare il tuo nome utente. Se sei l'amministratore o l'utente master dell'account, contatta il supporto per ricevere ulteriore assistenza.
 
 ## Che cos'è l'ID IBM e in che modo è correlato agli utenti dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}?
 {: #bicp_whatisibmid}
@@ -41,7 +41,7 @@ I nuovi account richiedono l'ID IBM per l'autenticazione. Gli account esistenti 
 ## Come collego un account SoftLayer esistente?
 {: #bicp_linkbmxacct}
 
-Se sei l'utente master nel tuo account SoftLayer, accedi al portale del cliente e fai clic su **Collega un account** nell'intestazione. Per ulteriori informazioni, vedi [Collegamento degli account utente ID IBM](/docs/account/softlayerlink.html).
+Se sei l'utente master nel tuo account SoftLayer, accedi al portale del cliente e fai clic su **Collega un account** nell'intestazione.  Per ulteriori informazioni, vedi [Collegamento degli account utente ID IBM](/docs/account/softlayerlink.html).
 
 ## Devo essere un utente {{site.data.keyword.Bluemix_notm}} esistente per collegare gli account?
 {: #bicp_bmxusertolink}
@@ -129,7 +129,7 @@ Il profilo azienda rappresenta le informazioni inviate al momento della creazion
 ## Dove trovo le mie password per il dispositivo e il software?
 {: #bicp_devswpw}
 
-Le password del dispositivo e del software sono memorizzate in due posizioni all'interno del [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Per recuperare le credenziali del dispositivo, inclusi il nome utente e la password root o amministratore per i {{site.data.keyword.baremetal_short}} e {{site.data.keyword.virtualmachinesshort}}, vedi [Interazione con un dispositivo nella vista dell'istantanea](/docs/vsi/vsi_interact_device_snapshot_view.html). Per visualizzare e recuperare rapidamente le credenziali del software che vengono tracciate manualmente utilizzando il portale del cliente, vedi [Gestione dell'accesso al dispositivo](/docs/vsi_device_access.html).
+Le password del dispositivo e del software sono memorizzate in due posizioni all'interno del [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Per recuperare le credenziali del dispositivo, inclusi il nome utente e la password root o amministratore per i {{site.data.keyword.baremetal_short}} e {{site.data.keyword.virtualmachinesshort}}, vedi [Interazione con un dispositivo nella vista dell'istantanea](/docs/vsi/vsi_interact_device_snapshot_view.html). Per visualizzare e recuperare rapidamente le credenziali del software che vengono tracciate manualmente utilizzando il portale del cliente, vedi [Gestione dell'accesso al dispositivo](/docs/vsi/vsi_device_access.html).
 
 ##Come posso mantenere sincronizzati i miei dati web?
 {: #bicp_webdatasync}

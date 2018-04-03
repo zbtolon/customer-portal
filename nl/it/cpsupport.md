@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-02-23"
 
 ---
 
@@ -18,15 +18,17 @@ lastupdated: "2018-02-12"
 # Richiesta di supporto per l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Se il tuo account SoftLayer è stato creato con il portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} ed è un account collegato, hai più opzioni per richiedere supporto. A prescindere che tu abbia o no un account collegato, puoi aprire ticket del supporto clienti per l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} nel portale del cliente.
+Se si verificano problemi con l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} e non hai un account collegato, puoi ottenere aiuto per determinare la causa del problema e trovare una soluzione utilizzando il portale del cliente.
 {:shortdesc}
 
-Se hai un [account collegato](/docs/account/softlayerlink.html#link_user_accounts), puoi aprire un ticket di supporto nell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} o consultare [Richiesta di assistenza clienti](/docs/get-support/howtogetsupport.html) per ulteriori informazioni sulla richiesta di supporto tramite la console {{site.data.keyword.Bluemix}}.
+Se hai un [account collegato](/docs/account/softlayerlink.html#link_user_accounts), puoi ottenere assistenza attraverso la console {{site.data.keyword.Bluemix}}. Per ulteriori informazioni, vedi [Richiesta di assistenza clienti](/docs/get-support/howtogetsupport.html).
 
-## Creazione di un ticket di supporto con il portale del cliente
+Se non hai un account collegato, puoi aprire i ticket di supporto nel portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici o generali per il supporto con i problemi relativi al tuo account.
+
+## Creazione di un ticket di supporto tecnico generale 
 {: #cp_creatsuptickwsp}
 
-Puoi aprire ticket del supporto clienti per l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} nel portale del cliente per aiutare a risolvere problemi relativi al tuo account o all'infrastruttura {{site.data.keyword.BluSoftlayer_full}} in generale.
+Puoi aprire i ticket dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici generali nel portale del cliente utilizzando la seguente procedura:
 
 1. Accedi al [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
 2. Seleziona **Supporto** > **Aggiungi ticket** dal menu.
@@ -38,9 +40,9 @@ Puoi aprire ticket del supporto clienti per l'infrastruttura {{site.data.keyword
 
 5. Immetti una breve descrizione della domanda o del problema nel campo **Titolo**.
 6. Se quando il ticket viene aggiornato devono essere inviati degli aggiornamenti tramite e-mail, indica il destinatario:
-  * Se gli aggiornamenti devono essere inviati all'assegnatario, seleziona la casella di spunta **Inviami aggiormanenti via e-mail?**. Se non sei l'assegnatario, selezionando la casella di spunta **Inviami aggiormanenti via e-mail?** l'assegnatario riceverà gli aggiornamenti, poiché è collegato con l'elenco **Assegna a**.
+  * Se gli aggiornamenti devono essere inviati all'assegnatario, seleziona la casella di spunta **Inviami aggiornamenti via e-mail?**. Se non sei l'assegnatario, selezionando la casella di spunta **Inviami aggiornamenti via e-mail?** l'assegnatario riceverà gli aggiornamenti, poiché è collegato con l'elenco **Assegna a**.
   * Se gli aggiornamenti tramite e-mail devono essere inviati ad altre persone, nel campo **Invia e-mail ad altri**, immetti l'indirizzo e-mail dell'utente che riceverà gli aggiornamenti o seleziona l'indirizzo e-mail dall'elenco. Quindi, fai clic su **Aggiungi destinatario**. Ripeti questi passi finché non sono stati aggiunti tutti i destinatari. Puoi aggiungere fino a cinque destinatari per ticket, oltre all'assegnatario.
-7. Se i dispositivi sono associati a un ticket esistente, immetti il nome del dispositivo nel campo **Dispositivi associati** o seleziona il dispositivo dall'elenco, quindi fai clic su **Aggiugni dispositivo**. Ripeti questi passi finché non sono stati aggiunti tutti i dispositivi.
+7. Se i dispositivi sono associati a un ticket esistente, immetti il nome del dispositivo nel campo **Dispositivi associati** o seleziona il dispositivo dall'elenco, quindi fai clic su **Aggiungi dispositivo**. Ripeti questi passi finché non sono stati aggiunti tutti i dispositivi.
 
   Puoi associare a un ticket un massimo di cinque dispositivi. Invece di creare più ticket per ogni dispositivo che presenta lo stesso problema o interruzione, associa fino a cinque dispositivi nel ticket e potranno quindi essere gestiti tutti contemporaneamente. Ciò garantisce anche che il team di supporto sia a conoscenza di un problema diffuso sul tuo account e possa risolvere il problema in tutte le ubicazioni.
   {:tip}
@@ -66,6 +68,15 @@ Puoi aprire ticket del supporto clienti per l'infrastruttura {{site.data.keyword
 
 Dopo aver aggiunto un ticket, questo viene indirizzato al membro appropriato del team di supporto per la risoluzione. I ticket vengono gestiti in base al grado di severità, il che significa che i problemi più gravi, come le interruzioni, vengono gestiti per primi, seguiti da problemi di prestazioni del servizio e quindi da domande. Un membro del team di supporto sarà in contatto con gli assegnatari per ulteriori informazioni sulla risoluzione del ticket.
 
+## Creazione di un ticket per problemi con l'account 
+{: #cp_creatacctsuptickwsp}
+
+Puoi aprire i ticket per l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per assistenza nel risolvere i problemi relativi al tuo account nel portale del cliente analogamente a come apri un ticket per i problemi di supporto tecnico generale, ma con una importante differenza.  
+
+Dopo che hai eseguito l'accesso al [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} e selezionato **Supporto** > **Aggiungi ticket**, devi assicurarti che il ticket sia instradato al team di supporto corretto e possa essere risolto velocemente. Per instradare il ticket correttamente per gestire i problemi dell'account, dall'elenco **Oggetto**, seleziona **Richiesta di account**.
+
+Compila il resto del ticket come se volessi creare un ticket per il supporto tecnico generale e invialo. Con l'**Oggetto** impostato su **Richiesta di account**, il team di supporto corretto viene assegnato al ticket e può aiutare a risolvere il problema rapidamente.
+
 ## Visualizzazione di un ticket esistente
 {: #cp_viewsuptickwsp}
 
@@ -86,7 +97,7 @@ Puoi aggiornare un ticket di supporto esistente in qualsiasi momento per include
 3. Seleziona lo stato del ticket dal menu a discesa per filtrare la vista.
 4. Fai clic sul numero del ticket per visualizzarne i dettagli.
 5. Aggiorna il ticket secondo necessità. Puoi effettuare le seguenti attività:
-  * Riassegnare un ticket: dalle'elenco a discesa **Riassegna**, seleziona l'utente a cui riassegnare il ticket.   
+  * Riassegnare un ticket: dall'elenco a discesa **Riassegna**, seleziona l'utente a cui riassegnare il ticket.   
   * Aggiungere un commento: immetti i commenti nella casella di testo **Commento**.
   * Allegare un file: fai clic su **Allega file** e seleziona i file da allegare al ticket. Puoi allegare a un ticket un massimo di due (2) file.
 6. Fai clic su **Aggiorna**.
@@ -99,7 +110,7 @@ Se riassegni il ticket, il nuovo assegnatario diventa il punto di contatto princ
 ## Escalating di un problema di supporto
 {: #cp_bpsupescalflow}
 
-Se hai un problema per il quale hai bisogno di aiuto per la risoluzione, puoi aprire un ticket di supporto. Se il problema è critico o urgente e devi effettuare l'escalatione del problema, utilizza la seguente procedura.
+Se hai un problema per il quale hai bisogno di aiuto per la risoluzione, puoi aprire un ticket di supporto.  Se il problema è critico o urgente e devi effettuare l'escalation del problema, utilizza la seguente procedura.
 
 1. Apri un ticket di supporto dal portale del cliente, via chat o tramite telefono (866-403-7638).
 

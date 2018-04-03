@@ -24,7 +24,7 @@ In questa esercitazione, illustreremo il processo per attivare il tuo account So
 ## Prima di iniziare
 {: #prereqs}
 
-Avrai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.bluemix.net/){:new_window}. Accedi al portale del cliente con le tue credenziali dell'ID IBM. La maggior parte dei nuovi utenti utilizza l'[ID IBM ](/docs/account/softlayerlink.html#switchtoIBMid) per l'autenticazione. 
+Avrai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.bluemix.net/){:new_window}. Accedi al portale del cliente con le tue credenziali dell'ID IBM. La maggior parte dei nuovi utenti utilizza l'[ID IBM ](/docs/account/softlayerlink.html#switchtoIBMid) per l'autenticazione.
 
 Se non utilizzi l'ID IBM per l'autenticazione per accedere al tuo account, accedi al portale del cliente con le tue credenziali univoche dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
@@ -42,7 +42,7 @@ La configurazione del tuo account include la verifica delle informazioni di cont
 
 Per aggiungere utenti al tuo account e impostare le autorizzazioni iniziali, vai a **Account** > **Utenti**.
  * Per invitare gli utenti alle risorse della piattaforma e dell'infrastruttura nel tuo account in base a specifiche autorizzazioni da te assegnate, fai clic su **Invita utenti**. Vieni quindi indirizzato all'interfaccia utente di {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) per invitare utenti e assegnare l'accesso. Per ulteriori informazioni, vedi [Invito di utenti e assegnazione dell'accesso](/docs/iam/iamuserinv.html).
- * Per aggiungere solo utenti con accesso VPN, fai clic su **Aggiungi utente solo VPN**. Immetti le informazioni personali, imposta le autorizzazioni del portale e imposta l'accesso al dispositivo per l'utente. 
+ * Per aggiungere solo utenti con accesso VPN, fai clic su **Aggiungi utente solo VPN**. Immetti le informazioni personali, imposta le autorizzazioni del portale e imposta l'accesso al dispositivo per l'utente.
 
 Quando imposti le autorizzazioni dell'infrastruttura nell'invito iniziale, puoi scegliere una di tre seri di autorizzazioni: Solo visualizzazione, Utente di base e Super utente. Dopo che gli utenti accettano l'invito, puoi personalizzare il loro accesso modificando le autorizzazioni del portale. Per ulteriori informazioni, vedi [Autorizzazioni dell'infrastruttura](/docs/iam/infrastructureaccess.html).
 {: tip}
@@ -63,7 +63,7 @@ Per gli utenti negli account che utilizzano l'autenticazione con l'ID IBM, per l
 ## Passo 4: sottoscrivi alle notifiche
 {: #get-notified}
 
-Per ricevere notifiche sui problemi di sistema che potrebbero verificarsi e sugli eventi di manutenzione pianificata, puoi sottoscrivere alle notifiche tramite l'Event Management System. Quando crei un account o vieni aggiunto a un account, per impostazione predefinita ti viene annullata la sottoscrizione alle notifiche. 
+Per ricevere notifiche sui problemi di sistema che potrebbero verificarsi e sugli eventi di manutenzione pianificata, puoi sottoscrivere alle notifiche tramite l'Event Management System. Quando crei un account o vieni aggiunto a un account, per impostazione predefinita ti viene annullata la sottoscrizione alle notifiche.
 
 Accedi a Event Management System nel portale del cliente per scegliere le notifiche a cui sottoscrivere:
   1. Seleziona **Account** > **Gestisci** > **Sottoscrizioni** dalla barra dei menu.

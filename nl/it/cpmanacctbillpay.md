@@ -24,7 +24,7 @@ Se stai gestendo la fatturazione dell'infrastruttura {{site.data.keyword.Bluemix
 ## Accesso ai tuoi elementi di fatturazione
 {: #cp_accbillitems}
 
-Puoi utilizzare la finestra Gestisci elementi di fatturazione nel [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} per associare gli elementi di fatturazione a specifici dispositivi e, se necessario, annullare questi elementi. 
+Puoi utilizzare la finestra Gestisci elementi di fatturazione nel [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} per associare gli elementi di fatturazione a specifici dispositivi e, se necessario, annullare questi elementi.
 
 La finestra Gestisci elementi di fatturazione mostra gli elementi di fatturazione associati. Puoi modificare la vista selezionando un'altra opzione dall'elenco a discesa **Visualizza**. Mentre visualizzi gli elementi di fatturazione, puoi modificare gli elementi di fatturazione non associati in modo che siano associati e gli elementi associati in modo che siano dissociati. Puoi modificare gli elementi associati e dissociati individualmente o per più di un elemento alla volta utilizzando la funzione Azioni in blocco. Puoi annullare singoli elementi di fatturazione in qualsiasi momento dalla finestra Gestisci elementi di fatturazione.
 
@@ -34,11 +34,11 @@ La finestra Gestisci elementi di fatturazione mostra gli elementi di fatturazion
 
 Puoi annullare gli elementi di fatturazione in qualsiasi momento direttamente dalla finestra Gestisci elementi di fatturazione. Puoi avviare immediatamente gli annullamenti per la maggior parte dei servizi e delle soluzioni, con annullamento immediato o nella ricorrenza di fatturazione.
 
-> **Nota:** i dati memorizzati su qualsiasi dispositivo, servizio o soluzione annullato non possono essere recuperati dopo l'annullamento. Esegui il backup di tutti i dati che devono essere salvati prima di completare la richiesta di annullamento. 
+> **Nota:** i dati memorizzati su qualsiasi dispositivo, servizio o soluzione annullato non possono essere recuperati dopo l'annullamento. Esegui il backup di tutti i dati che devono essere salvati prima di completare la richiesta di annullamento.
 
 Utilizza la seguente procedura per annullare un elemento di fatturazione.
 
-1. Esegui il backup di tutti i dati che vuoi salvare per il servizio o la soluzione da annullare. 
+1. Esegui il backup di tutti i dati che vuoi salvare per il servizio o la soluzione da annullare.
 2. Accedi al [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
 3. Seleziona **Account** > **Fatturazione** > **Elementi di fatturazione** per accedere alla finestra Gestisci elementi di fatturazione.
 4. Seleziona **Annulla elementi di fatturazione** dall'elenco a discesa **Azioni** per l'elemento di fatturazione da annullare.
@@ -64,7 +64,7 @@ Puoi associare gli elementi di fatturazione per ciascun account a un dispositivo
   * Per associare più elementi di fatturazione, fai clic sulla casella di spunta relativa a ciascun elemento di fatturazione da associare al dispositivo e quindi, dal menu **Azioni in blocco**, seleziona **Associa elementi selezionati al dispositivo**.
 4. Fai clic su **Sì**.
 
-Al completamento della richiesta, l'associazione degli elementi di fatturazione avviene immediatamente all'interno dei sistemi di backend. Dopo aver associato un elemento di fatturazione a un dispositivo, questo viene visualizzato nell'elenco Elementi di fatturazione associati e il nome del dispositivo viene visualizzato nella colonna Associato a per ogni elemento di fatturazione. 
+Al completamento della richiesta, l'associazione degli elementi di fatturazione avviene immediatamente all'interno dei sistemi di backend. Dopo aver associato un elemento di fatturazione a un dispositivo, questo viene visualizzato nell'elenco Elementi di fatturazione associati e il nome del dispositivo viene visualizzato nella colonna Associato a per ogni elemento di fatturazione.
 
 
 ## Rimozione dell'associazione del dispositivo per gli elementi di fatturazione
@@ -79,4 +79,4 @@ Dopo che gli elementi di fatturazione per un account sono stati associati a un d
   * Per rimuovere un'associazione per più elementi di fatturazione, fai clic sulla casella di spunta relativa a ciascun elemento di fatturazione da rimuovere dal dispositivo e quindi, dall'elenco **Azioni in blocco**, seleziona **Rimuovi associazione dagli elementi selezionati**.
 4. Fai clic su **Sì**.
 
-Al completamento della richiesta, la rimozione dell'associazione degli elementi di fatturazione avviene immediatamente all'interno dei sistemi di backend. Dopo aver rimosso l'associazione di un elemento di fatturazione, questo viene visualizzato nell'elenco Elementi di fatturazione non associati e il nome del dispositivo non è più visualizzato nella colonna Associato a per ogni elemento di fatturazione. Puoi [associare gli elementi di fatturazione a un altro dispositivo](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device) in qualsiasi momento utilizzando il metodo di associazione singola o in blocco. 
+Al completamento della richiesta, la rimozione dell'associazione degli elementi di fatturazione avviene immediatamente all'interno dei sistemi di backend. Dopo aver rimosso l'associazione di un elemento di fatturazione, questo viene visualizzato nell'elenco Elementi di fatturazione non associati e il nome del dispositivo non è più visualizzato nella colonna Associato a per ogni elemento di fatturazione. Puoi [associare gli elementi di fatturazione a un altro dispositivo](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device) in qualsiasi momento utilizzando il metodo di associazione singola o in blocco.
