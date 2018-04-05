@@ -18,7 +18,7 @@ lastupdated: "2017-02-09"
 # Was ist das Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur?
 {: #customerportal_whatisCP}
 
-Mit der {{site.data.keyword.Bluemix}}-Konsole können Sie einen Großteil Ihrer Infrastruktur verwalten. Das Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur bietet jedoch einige zusätzliche Funktionen für die Verwaltung von Infrastrukturprodukten und -services sowie SoftLayer-Konten.
+Mit der {{site.data.keyword.Bluemix}}-Konsole können Sie einen Großteil Ihrer Infrastruktur verwalten.  Das Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur bietet jedoch einige zusätzliche Funktionen für die Verwaltung von Infrastrukturprodukten und -services sowie SoftLayer-Konten.
 {:shortdesc}
 
 Die Verwendung des Kundenportals der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anstelle der {{site.data.keyword.Bluemix_notm}}-Konsole könnte in den folgenden Situationen praktisch sein:

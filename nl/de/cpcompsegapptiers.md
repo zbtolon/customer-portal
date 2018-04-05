@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -23,7 +23,11 @@ Zwei der wichtigsten Aspekte, die ein Systemadministrator beim Hosting einer Anw
 ## Systeme mit Firewalls schützen
 {: #cp_bpsecuresystem}
 
+Verwenden Sie die verfügbaren Hardware-Firewalls um sicherzustellen, dass Ihr Gerät jederzeit sicher ist. Sie können Hardware-Firewalls bedarfsgerecht ohne Ausfallzeit bereitstellen, wenn die Regeln ordnungsgemäß festgelegt wurden, um Ihren Server vor unerwünschter Aktivität zu schützen.
+
 Firewalls sind Add-on-Services für Geräte, die Sie manuell konfigurieren und aktivieren müssen, damit sie wirksam sind. Sie können entbehrliche Ports sperren und öffentliche Ports für private netzbasierte Systeme inaktivieren, um die externe Zugänglichkeit zu Ihren Systemen weiter zu verwalten. Die Durchführung regelmäßiger Scans auf Sicherheitslücken sorgt dafür, dass alle ausstehenden oder unbekannten Sicherheitsrisiken erkannt werden und Sie Risiken schnell begrenzen können.
+
+Nach dem Anfordern Ihrer Firewall muss sie aktiviert werden und es müssen Regeln festgelegt werden.
 
 ### Firewall aktivieren
 {: #cp_bpnofirewalbypass}

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -129,7 +129,7 @@ Beim Unternehmensprofil handelt es sich um die Informationen, die bei der Erstel
 ## Wo finde ich meine Kennwörter für Geräte und Software?
 {: #bicp_devswpw}
 
-Geräte- und Softwarekennwörter werden im [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} an zwei Stellen gespeichert. Informationen zum Abrufen von Geräteberechtigungsnachweisen (inklusive Name und Kennwort des Root- oder Adminstratorbenutzers für {{site.data.keyword.baremetal_short}} und {{site.data.keyword.virtualmachinesshort}}) finden Sie unter [Mit Geräten in der Snapshotansicht interagieren](/docs/vsi/vsi_interact_device_snapshot_view.html). Softwareberechtigungsnachweise, die mithilfe des Kundenportals manuell aufgezeichnet werden, können Sie anhand der Angaben im Abschnitt [Gerätezugriff verwalten](/docs/vsi_device_access.html) ohne großen Aufwand anzeigen und abrufen.
+Geräte- und Softwarekennwörter werden im [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} an zwei Stellen gespeichert. Informationen zum Abrufen von Geräteberechtigungsnachweisen (inklusive Name und Kennwort des Root- oder Adminstratorbenutzers für {{site.data.keyword.baremetal_short}} und {{site.data.keyword.virtualmachinesshort}}) finden Sie unter [Mit Geräten in der Snapshotansicht interagieren](/docs/vsi/vsi_interact_device_snapshot_view.html). Softwareberechtigungsnachweise, die mithilfe des Kundenportals manuell aufgezeichnet werden, können Sie anhand der Angaben im Abschnitt [Gerätezugriff verwalten](/docs/vsi/vsi_device_access.html) ohne großen Aufwand anzeigen und abrufen.
 
 ##Wie sorge ich dafür, dass meine Webdaten synchron bleiben?
 {: #bicp_webdatasync}

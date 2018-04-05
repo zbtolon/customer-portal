@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -24,7 +24,7 @@ Durch die Überwachung Ihrer Umgebung haben Sie die Möglichkeit, Geräte jederz
 ## Umgebung überwachen
 {: #cpmonenv}
 
-Verwenden Sie mindestens die Basisüberwachung mit Pingsignalen. Sie können jedoch Ihre Überwachungsoptionen so anpassen, dass Ihre Geschäftsanforderungen optimal erfüllt werden. Informationen zu Überwachungsoptionen enthält der Abschnitt [Bare-Metal-Server einrichten](/docs/customer-portal/cpsetupbaremetal.html).
+Verwenden Sie mindestens die Basisüberwachung mit Pingsignalen. Sie können jedoch Ihre Überwachungsoptionen so anpassen, dass Ihre Geschäftsanforderungen optimal erfüllt werden.
 
 ### Über Netzwartung und ungeplante Ereignisse informiert bleiben
 {: #cp_stayinfomaintevent}
@@ -44,6 +44,11 @@ Die mobile Anwendung für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruk
   * Auf im Objektspeicher gespeicherten Inhalt zugreifen und diesen prüfen
 
 Die mobile Anwendung für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur ist auf verschiedenen gängigen Plattformen für Mobilgeräte verfügbar und ist über die zugehörigen Onlinegeschäfte für Anwendungen der jeweiligen Plattformen verfügbar.
+
+## Server überwachen
+{: #customerportal_monservers}
+
+Richten Sie die Überwachung ein, um den Status Ihres Servers überprüfen zu können und Informationen zur Notwendigkeit einer Skalierung abrufen zu können. Sie können Standardüberwachungsservices oder Nimsoft-Überwachungsservices verwenden. Sie können bei der Methode 'ping-and-respond' die Standardüberwachung (oder Basisüberwachung) verwenden, indem Sie entweder einen langsamen Ping oder einen Serviceping aus dem Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwenden. Ferner können Sie auch die Nimsoft-Überwachung oder die erweiterte Überwachung aus dem Kundenportal oder in einer von drei möglichen Stufen verwenden: Basic, Advanced und Premium. Weitere Informationen speziell zu Bare-Metal-Servern finden Sie unter [Einführung in Bare-Metal-Server](/docs/bare-metal/about.html). 
 
 ## Systemereignisse überwachen
 {: #customerportal_monevent}
@@ -69,4 +74,4 @@ Zugriffsprotokolle zeigen Daten für jeden Zugriffsversuch an, der durch einen b
 2. Wählen Sie in der Menüleiste die Optionen **Konto** > **Benutzer** aus, um auf das Fenster 'Benutzer' zuzugreifen.
 3. Wählen Sie in der Dropdown-Liste **Aktionen** den Eintrag **Prüfprotokoll anzeigen** aus, um das Zugriffsprotokoll des Benutzers anzuzeigen.
 
-Im Zugriffsprotokoll werden für jeden Benutzer die von ihm unternommenen Zugriffsversuche nach Datum sortiert zusammen mit der IP-Adresse angezeigt, über die der Zugriffsversuch erfolgte. Die Informationen im Zugriffsprotokoll sind schreibgeschützt, so dass zu keinem Zeitpunkt Änderungen am Inhalt vorgenommen werden können. Sie können das Zugriffsprotokoll jederzeit erneut anzeigen, indem Sie die obigen Schritte wiederholen. Um die Protokolle zu verlassen und zur Anzeige 'Benutzer' zurückzukehren, klicken Sie oben in der Anzeige auf den Link **Alle Benutzer anzeigen**.
+Im Zugriffsprotokoll werden für jeden Benutzer die von ihm unternommenen Zugriffsversuche nach Datum sortiert zusammen mit der IP-Adresse angezeigt, über die der Zugriffsversuch erfolgte. Die Informationen im Zugriffsprotokoll sind schreibgeschützt, so dass zu keinem Zeitpunkt Änderungen am Inhalt vorgenommen werden können. Sie können das Zugriffsprotokoll jederzeit erneut anzeigen, indem Sie die obigen Schritte wiederholen. Um die Protokolle zu verlassen und zur Anzeige 'Benutzer' zurückzukehren, klicken Sie auf den Link **Alle Benutzer anzeigen**. 
