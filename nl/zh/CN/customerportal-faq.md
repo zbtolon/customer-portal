@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-03-07"
 
 ---
 
@@ -128,7 +128,7 @@ lastupdated: "2018-02-12"
 ## 在哪里可以找到设备和软件密码？
 {: #bicp_devswpw}
 
-设备和软件密码存储在[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 中的两个位置。要检索设备凭证（包括 {{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.virtualmachinesshort}} 的 root 用户或管理员用户的用户名和密码），请参阅[在快照视图中与设备交互](/docs/vsi/vsi_interact_device_snapshot_view.html)。要使用客户门户网站快速查看和检索手动跟踪的软件凭证，请参阅[管理设备访问权](/docs/vsi_device_access.html)。
+设备和软件密码存储在[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 中的两个位置。要检索设备凭证（包括 {{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.virtualmachinesshort}} 的 root 用户或管理员用户的用户名和密码），请参阅[在快照视图中与设备交互](/docs/vsi/vsi_interact_device_snapshot_view.html)。要使用客户门户网站快速查看和检索手动跟踪的软件凭证，请参阅[管理设备访问权](/docs/vsi/vsi_device_access.html)。
 
 ##如何使 Web 数据保持同步？
 {: #bicp_webdatasync}

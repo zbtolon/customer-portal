@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-04"
+lastupdated: "2018-03-16"
 
 ---
 
@@ -23,17 +23,23 @@ lastupdated: "2017-12-04"
 ## 使用專用網路
 {: #cp_bpuseprivnet}
 
-您可以使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構專用網路，在盡可能最安全的環境中管理裝置。盡可能使用 VPN 連線與裝置互動，並啟用網路跨越，讓系統透過專用網路進行通訊。若要存取專用網路，請從[使用者清單 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window} 中編輯使用者的 VPN 存取權。使用[虛擬專用網路 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 指示，以連接至各種 VPN 選項的其中一個。
+您可以使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構專用網路，在盡可能最安全的環境中管理裝置。盡可能使用 VPN 連線與裝置互動，並啟用網路跨越，讓系統透過專用網路進行通訊。若要存取專用網路，請從[使用者清單 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window} 中編輯使用者的 VPN 存取權。使用[虛擬專用網路 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 清單，以連接至各種 VPN 選項的其中一個。
 
-### 不要在公用網路上開啟 RDP、SSH 或控制埠
+### 不要在公用網路上開放 RDP、SSH 或控制埠
 {: #cp_bpnordpsshcponpubnet}
 
-公用網路對很多事情而言很棒，但某些特定層面如果透過開放的埠而保持提供於公用網路時，會讓系統出現漏洞。在公用網路上停用 RDP 或限制 SSH，即可保護您自己。如果必須在公用網路上使用這些服務，請考慮將 RDP 或 SSH 移至自訂埠號。
+公用網路對很多事情而言很棒，但在某些層面，如果在公用網路上提供開放埠，會讓系統出現漏洞。在公用網路上停用 RDP 或限制 SSH，即可保護您自己。如果必須在公用網路上使用這些服務，請考慮將 RDP 或 SSH 移至自訂埠號。
 
 ## 透過定期備份保護資料
 {: #cp_bpsafedataregback}
 
-{{site.data.keyword.BluSoftlayer_notm}} 基礎架構提供多個備份解決方案，確保您可以在磁碟機故障或使用者錯誤時擷取資料。備份解決方案目前包括 NAS、EVault Backup 及 R1Soft CDP，這些都會出現在各種儲存空間選項中。如需每一個備份解決方案的相關資訊，請參閱[儲存空間 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 頁面。
+排定備份以確保您的資料安全地儲存於裝置之外，且能在資料遺失時重新載入。
+
+{{site.data.keyword.BluSoftlayer_notm}} 基礎架構提供多個備份解決方案，確保您可以在磁碟機故障或使用者錯誤時擷取資料。備份解決方案目前包括 NAS、EVault Backup 及 R1Soft CDP，這些都會出現在各種儲存空間選項中。例如，您可以選擇下列其中一項備份服務，將您的資料儲存在安全的位置：
+  * EVault Backup 是一種自動化、代理程式型的備份系統。這是用於管理裝置的熱門「設定後即忘記」解決方案。它透過其他外掛程式而與 Microsoft 軟體（包括 Exchange 和 SQL）相容。EVault 使用者可以透過 EVault 的 WebCC Web 型應用程式與此服務進行互動。
+  * R1Soft Continuous Data Protection (CDP) 可以安裝在您的伺服器或自我管理的虛擬機器上。如果您要尋找的是以單一介面來管理所有的備份，則建議使用此產品。您可透過專有管理系統與 R1Soft CDP 互動，而此管理系統容許代理程式安裝在虛擬機器上，並且會提供資料庫外掛程式來提供額外的功能。
+
+ 如需每一個備份解決方案的相關資訊，請參閱[儲存空間 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 頁面，如需備份資料的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup/index.html)。
 
 ### 不要假設您有備援；要確知您有
 {: #cp_bpknowredundant}

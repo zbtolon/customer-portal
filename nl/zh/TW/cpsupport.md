@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-02-23"
 
 ---
 
@@ -18,14 +18,18 @@ lastupdated: "2018-02-12"
 # 取得 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構的支援
 {: #customerportal_support}
 
-如果您的 SoftLayer 帳戶是使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站所建立，而且它是已鏈結的帳戶，則您會有數個取得支援的選項。不論您是否有已鏈結帳戶，都可以在客戶入口網站中開立 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶支援問題單。{:shortdesc}
+如果您在使用 {{site.data.keyword.BluSoftlayer_full}} 基礎架構時遇到問題，且沒有已鏈結帳戶，則可以利用客戶入口網站來取得判斷問題原因及尋找解決方案的協助。
+{:shortdesc}
 
-如果您具有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)，則您可以在 {{site.data.keyword.BluSoftlayer_full}} 基礎架構中開立支援問題單，或查看[取得客戶支援](/docs/get-support/howtogetsupport.html)，以取得透過 {{site.data.keyword.Bluemix}} 主控台取得支援的相關資訊。
+如果您具有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)，則可以透過 {{site.data.keyword.Bluemix}} 主控台取得支援。如需相關資訊，請參閱[取得客戶支援](/docs/get-support/howtogetsupport.html)。
 
-## 使用客戶入口網站開立支援問題單
+
+如果您沒有已鏈結帳戶，則可以 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶入口網站中開立一般技術問題的支援問題單，或是取得與帳戶相關問題的協助。
+
+## 建立一般技術支援問題單
 {: #cp_creatsuptickwsp}
 
-一般而言，您可以在 客戶入口網站中開立 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶支援問題單，以協助處理帳戶或 {{site.data.keyword.BluSoftlayer_full}} 基礎架構的相關問題。
+您可以使用下列步驟，在客戶入口網站中開立一般技術問題的 {{site.data.keyword.BluSoftlayer_full}} 基礎架構問題單：
 
 1. 使用唯一的認證來登入[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}。
 2. 從功能表中，選取**支援中心** > **新增問題單**。
@@ -46,7 +50,7 @@ lastupdated: "2018-02-12"
 
 8. 在**詳細資料**欄位中，輸入任何有關問題單的資訊。
 
-  報告問題時，請盡可能包括最多資訊（包括問題發生期間或發生問題時所採取的動作及擷取畫面（如果有的話））。
+  報告問題時，請盡可能包括最多資訊（包括問題發生期間或發生問題時所採取的動作及擷取畫面，如果有的話）。
   {:tip}
 
 9. 如果要將檔案附加至問題單，請按一下**附加檔案**，然後選取要附加至問題單的檔案。
@@ -63,7 +67,16 @@ lastupdated: "2018-02-12"
 
 11. 按一下**新增問題單**。
 
-在您新增問題單之後，就會將問題單遞送給適當的支援團隊成員來進行解決。問題單的處理是根據嚴重性程度，這表示會依序處理最嚴重問題（例如運作中斷）、服務退化問題以及疑問。支援團隊成員會與受託人聯絡其他相關資訊，以解決問題單。
+在您新增問題單之後，就會將問題單遞送給適當的支援團隊成員來進行解決。問題單的處理是根據嚴重性程度，這表示會依序處理最嚴重問題（例如運作中斷）、服務品質下降問題以及疑問。支援團隊成員會與受託人聯絡了解其他相關資訊，以解決問題單。
+
+## 建立帳戶問題的問題單
+{: #cp_creatacctsuptickwsp}
+
+您可以在客戶入口網站中開立 {{site.data.keyword.BluSoftlayer_full}} 基礎架構問題單，以協助處理與帳戶相關的問題，方法類似於您開立一般技術支援問題之問題單的方式，但有一項重要的差異。  
+
+在您登入[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 並選取**支援** > **新增問題單**之後，您必須確定問題單已遞送至正確的支援團隊，且可以快速解決。若要正確遞送問題單以處理帳戶問題，請從**主旨**清單中選取**帳戶要求**。
+
+請依照您建立一般技術支援問題單的方式完成問題單的其餘部分，然後提交問題單。將**主旨**設為**帳戶要求**之後，正確的支援團隊會被指派給這張問題單，並且可以協助快速解決問題。
 
 ## 檢視現有問題單
 {: #cp_viewsuptickwsp}
@@ -93,22 +106,22 @@ lastupdated: "2018-02-12"
   在更新處理程序期間的任何時間，您都可以開啟與支援團隊成員的會談階段作業，以尋求協助。按一下**開始會談**，以開啟會談階段作業。
   {:tip}
 
-如果您重新指派問題單，則新的受託人會成為解決問題的主要聯絡點。如果您新增註解或附件，則處理問題單的支援團隊成員會檢閱用來協助解決問題的新資訊。
+如果您重新指派問題單，則新的受託人會成為解決問題的主要聯絡人。如果您新增註解或附件，則處理問題單的支援團隊成員會檢閱新資訊以協助解決問題。
 
 ## 呈報支援問題
 {: #cp_bpsupescalflow}
 
 如果您有需要協助解決的問題，則可以開立支援問題單。如果問題嚴重或緊急，而且需要呈報問題，請使用下列步驟。
 
-1. 從客戶入口網站、會談或透過電話 (866-403-7638)，開立支援問題單。
+1. 從客戶入口網站、會談或撥打電話 (866-403-7638)，開立支援問題單。
 
   當您建立或更新問題單時，請包括所發生的任何錯誤、日誌或疑難排解，因為這有助於更快速地解決問題。
   {: tip}
 
-2. 與問題單中的 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構支援團隊合作。例如，如果支援團隊要求其他資訊，請盡快回應。
+2. 與 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構支援團隊合作，處理問題單。例如，如果支援團隊要求其他資訊，請盡快回應。
 3. 如果問題單進度停滯，您可以從問題單呈報，方法是提供 *"please escalate this ticket due to customer impact"* 這類註解，或者透過會談或電話。
-4. 如果問題單在起始要求之後未進行，您可以將它呈報給 Support Supervisor，方法是在問題單中要求這項呈報。
-5. 如果您在向 Support Supervisor 要求協助之後仍然沒有所需的進度，則可以傳送電子郵件給 Support Management 團隊：Notify-Support-WW@wwpdl.vnet.ibm.com。
+4. 如果問題單在起始要求之後毫無進展，您可以將它呈報給「支援主管」，方法是在問題單中要求這項呈報。
+5. 如果您在向「支援主管」要求協助之後仍然沒有所需的進度，則可以傳送電子郵件給「支援管理」團隊：Notify-Support-WW@wwpdl.vnet.ibm.com。
 
-此發佈清單會通知所有 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構支援管理團隊，確定包含所有解決問題的正確資源。
+此發佈清單會通知所有 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構支援管理團隊成員，確保利用所有正確資源來解決您的問題。
 {:tip}

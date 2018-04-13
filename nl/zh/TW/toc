@@ -17,6 +17,7 @@
         cpmanuserprof.md
         cpmanacctmanpw.md
         cpmanacctcompprofcont.md
+        cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md
         cpsetupfedid.md
@@ -28,10 +29,9 @@
         pay-invoice.md
 
     {: .topicgroup}
-    管理您的環境
+    管理環境
         cpmonenv.md
         cpprotectsys.md
-        cpsetupbaremetal.md
         cpcompsegapptiers.md
         cpcompmanlic.md
         cprebootserver.md

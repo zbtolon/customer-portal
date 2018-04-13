@@ -18,7 +18,7 @@ lastupdated: "2018-02-02"
 # 预订通知
 {: #cp_bpnotifications}
 
-有时，{{site.data.keyword.BluSoftlayer_notm}} 基础架构中会发生需要执行操作的事件；有些是意外事件，有些是保持 {{site.data.keyword.BluSoftlayer_notm}} 基础架构在其峰值条件下正常运行的计划维护活动。我们已尽可能使客户与这些事件相隔离，但有时还是需要使设备脱机。不管对客户有怎样的影响，始终需要做到信息透明、及时和翔实。
+有时，{{site.data.keyword.BluSoftlayer_notm}} 基础架构中会发生需要执行操作的事件；有些是意外事件，有些是保持 {{site.data.keyword.BluSoftlayer_notm}} 基础架构在其峰值条件下正常运行的计划维护活动。我们已尽可能使客户与这些事件相隔离，但有时还是需要使设备脱机。不管对客户有怎样的影响，始终需要做到信息透明、及时和详实。
 {:shortdesc}
 
 您应该掌控自己的云体验，因此您需要及时了解有关维护活动的信息。要获取这些信息，您可以预订来自客户门户网站的通知。{{site.data.keyword.BluSoftlayer_notm}} 基础架构对以下类型的重要操作事件使用事件管理系统 (EMS) 通知过程：

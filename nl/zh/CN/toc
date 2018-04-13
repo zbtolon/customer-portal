@@ -17,6 +17,7 @@
         cpmanuserprof.md
         cpmanacctmanpw.md
         cpmanacctcompprofcont.md
+        cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md
         cpsetupfedid.md
@@ -31,7 +32,6 @@
     管理环境
         cpmonenv.md
         cpprotectsys.md
-        cpsetupbaremetal.md
         cpcompsegapptiers.md
         cpcompmanlic.md
         cprebootserver.md

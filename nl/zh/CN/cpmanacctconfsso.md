@@ -38,7 +38,7 @@ lastupdated: "2017-12-01"
 ## 设置 {{site.data.keyword.BluSoftlayer_notm}} 基础架构进行 SSO
 {: #cp_setupsso}
 
-您必须从身份提供者中提取安全性断言标记语言&trade; (SAML&trade;) 2.0 元数据信息的以下必填字段，以便用于 {{site.data.keyword.BluSoftlayer_notm}}。
+您必须从身份提供者中提取 Security Assertion Markup Language&trade; (SAML&trade;，安全性断言标记语言) 2.0 元数据信息的以下必填字段，以便用于 {{site.data.keyword.BluSoftlayer_notm}}。
 <dl>
 <dt>实体标识</dt>
 <dd>身份提供者的实体标识。</dd>

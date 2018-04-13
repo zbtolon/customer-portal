@@ -21,7 +21,7 @@ lastupdated: "2017-12-06"
 您可以使用 Chrootkit 工具來掃描、建立以及以電子郵件寄送系統報告。
 {:shortdesc}
 
-若要使用 Chrootkit 工具，請先以 admin 身分透過 SSH 進入伺服器。請不要使用應該已停用的 Telnet。然後，使用下列步驟：
+若要使用 Chrootkit 工具，請先以 admin 身分透過 SSH 連接伺服器。請不要使用應該已停用的 Telnet。然後，使用下列步驟：
 
 1. 切換至根目錄：  
 
@@ -109,7 +109,7 @@ chkrootkit 工具所輸出的所有內容都應該是 `not found` 或 `not infec
 3. 將 `yourinstallpath` 取代為已解壓縮 Chkrootkit 的實際路徑。
 4. 將 `Servername` 變更為您正在執行的伺服器，讓您知道它的來源。
 5. 將 `admin@youremail.com` 變更為您要 Script 寄送電子郵件的實際電子郵件位址。
-6. 使用下列指令，以將檔案儲存至 SSH：
+6. 處於 SSH 時，請使用下列指令來儲存檔案：
 
   ```
   Ctrl+X then type Y
@@ -131,4 +131,4 @@ chkrootkit 工具所輸出的所有內容都應該是 `not found` 或 `not infec
   ```
   {: pre}
 
-您已設為接收含報告的每日電子郵件，因此不需要手動執行。
+您已準備妥當，每日以電子郵件接收報告，因此不需要手動執行。

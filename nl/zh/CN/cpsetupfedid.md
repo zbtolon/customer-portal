@@ -48,7 +48,7 @@ lastupdated: "2018-01-11"
 2. 在 {{site.data.keyword.BluSoftlayer}} 基础架构中分配许可权。
 3. 在身份提供者中创建用户。
 
-单个用户概要文件中的**电子邮件**或**用户名**字段用于安全性断言标记语言&trade; (SAML&trade;) 2.0 令牌，此令牌会在身份提供者和 {{site.data.keyword.BluSoftlayer}} 基础架构之间映射用户。
+单个用户概要文件中的**电子邮件**或**用户名**字段用于 Security Assertion Markup Language&trade; (SAML&trade;) 2.0 令牌，此令牌会在身份提供者和 {{site.data.keyword.BluSoftlayer}} 基础架构之间映射用户。
 
 ### 登录认证的示例流程
 下面是在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户时，用户登录认证可能如何工作的示例流程：

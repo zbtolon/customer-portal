@@ -18,7 +18,8 @@ lastupdated: "2018-02-12"
 # 設定裸機伺服器
 {: #customerportal_setupbaremetal}
 
-您可以將「裸機伺服器」設定為專用伺服器。{:shortdesc}
+您可以將「裸機伺服器」設定為專用伺服器。
+{:shortdesc}
 
 請使用下列步驟，以設定「裸機伺服器」：
 

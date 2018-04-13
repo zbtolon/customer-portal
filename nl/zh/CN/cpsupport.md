@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-02-23"
 
 ---
 
@@ -18,15 +18,18 @@ lastupdated: "2018-02-12"
 # 获取对 {{site.data.keyword.BluSoftlayer_notm}} 基础架构的支持
 {: #customerportal_support}
 
-如果您的 SoftLayer 帐户是使用 {{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站创建的，并且为链接的帐户，那么有多个选项可用于获取支持。不管您是否有链接的帐户，都可以在客户门户网站中开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户支持凭单。
+如果遇到 {{site.data.keyword.BluSoftlayer_full}} 基础架构问题，并且没有链接的帐户，那么可以使用客户门户网站来获取有关确定问题原因并查找相应解决方案的帮助。
 {:shortdesc}
 
-如果您有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)，您可以在 {{site.data.keyword.BluSoftlayer_full}} 基础架构中开具支持凭单，或请参阅[获取客户支持](/docs/get-support/howtogetsupport.html)以了解有关通过 {{site.data.keyword.Bluemix}} 控制台获取支持的更多信息。
+如果您有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)，那么可以通过 {{site.data.keyword.Bluemix}} 控制台来获得支持。有关更多信息，请参阅[获取客户支持](/docs/get-support/howtogetsupport.html)。
 
-## 使用客户门户网站创建支持凭单
+
+如果您没有链接的帐户，那么可以在 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户门户网站中开具支持凭单，以解决常规技术问题或者帮助解决与帐户相关的问题。
+
+## 创建常规技术支持凭单
 {: #cp_creatsuptickwsp}
 
-您可以在客户门户网站中开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户支持凭单，以帮助解决与您帐户相关的问题或与 {{site.data.keyword.BluSoftlayer_full}} 基础架构相关的一般问题。
+您可以在客户门户网站中使用以下步骤针对常规技术问题开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构凭单：
 
 1. 使用您的唯一凭证登录到[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}。
 2. 从菜单中选择**支持** > **添加凭单**。
@@ -65,6 +68,15 @@ lastupdated: "2018-02-12"
 11. 单击**添加凭单**。
 
 添加凭单后，该凭单会发送给支持团队的相应成员以供解决。凭单是根据严重程度进行处理的，这意味着将首先处理最严重的问题（如中断），其次处理会导致服务性能下降的问题，最后处理疑问。支持团队的成员将与受让人联系以获得可用于解决凭单的其他信息。
+
+## 针对帐户问题创建凭单
+{: #cp_creatacctsuptickwsp}
+
+您可以在客户门户网站中开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构凭单，以帮助解决与帐户相关的问题，方法类似于针对常规技术支持问题开具凭单，但有一个重要差异。  
+
+登录到[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}，并选择**支持** > **添加凭单**后，必须确保将该凭单发送给正确的支持团队，从而可以快速加以解决。要正确发送凭单以处理帐户问题，请从**主题**列表中选择**帐户请求**。
+
+填写凭单的剩余部分，这部分与针对常规技术支持创建凭单并提交该凭单一样。将**主题**设置为**帐户请求**后，凭单会分配给正确的支持团队，从而可以快速帮助解决问题。
 
 ## 查看现有凭单
 {: #cp_viewsuptickwsp}
