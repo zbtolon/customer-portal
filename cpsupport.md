@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-23"
 If you experience problems with {{site.data.keyword.BluSoftlayer_full}} infrastructure and you do not have a linked account, you can get help with determining the cause of the problem and finding a solution using the customer portal.
 {:shortdesc}
 
-If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can get support through the {{site.data.keyword.Bluemix}} console. See [Getting customer support](/docs/get-support/howtogetsupport.html) for more information.
+If you have a [linked account](/docs/account/softlayerlink.html#link_user_accounts), you can get support through the {{site.data.keyword.Bluemix_notm}} console. See [Getting customer support](/docs/get-support/howtogetsupport.html) for more information.
 
 If you do not have a linked account, you can open support tickets in {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for general technical issues or to assist with issues related to your account.
 
@@ -73,7 +73,7 @@ After you add a ticket, it is routed to the appropriate member of the Support te
 
 You can open {{site.data.keyword.BluSoftlayer_full}} infrastructure tickets to assist with issues related to your account in the customer portal similarly to the way you open a ticket for general technical support issues, but with one important difference.  
 
-After you log in to the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} and select **Support** > **Add Ticket**, you must ensure that the ticket is routed to the correct support team and can be resolved quickly. To route the ticket correctly to handle account issues, from the **Subject** list, select **Accounting Request**.
+After you log in to the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} and select **Support** > **Add Ticket**, you must ensure that the ticket is routed to the correct support team and can be resolved quickly. To route the ticket correctly to handle account issues, from the **Subject** list, select the **Accounting Request**.
 
 Complete the rest of the ticket as you would to create a ticket for general technical support and submit the ticket. With the **Subject** set to **Accounting Request**, the correct support team is assigned the ticket and can help resolve the issue quickly.
 
@@ -110,17 +110,4 @@ If you reassign the ticket, the new assignee becomes the primary point of contac
 ## Escalating a support issue
 {: #cp_bpsupescalflow}
 
-If you have an issue that you need help resolving, you can open a support ticket.  If the issue is critical or urgent and you need to escalate the issue, use the following steps.
-
-1. Open a support ticket from the customer portal, chat, or by phone (866-403-7638).
-
-  When you create or update a ticket, include any errors, logs, or troubleshooting that has occurred as this helps to resolve the issue more quickly.
-  {: tip}
-
-2. Work with the {{site.data.keyword.BluSoftlayer_notm}} infrastructure Support Team in the ticket.  For example, if the support team asks for additional information, respond as quickly as you can.
-3. If progress on the ticket stalls, you can escalate from the ticket by providing a comment like, *"please escalate this ticket due to customer impact,"* or by chat or by phone.
-4. If the ticket does not progress after the initial request, you can escalate it to the Support Supervisor by requesting this escalation in the ticket.
-5. If you are still not getting the progress you need after requesting help from the Support Supervisor, you can email the Support Management team at Notify-Support-WW@wwpdl.vnet.ibm.com.
-
-This distribution list notifies all of the {{site.data.keyword.BluSoftlayer_notm}} infrastructure Support Management team to make sure all of the right resources are engaged to resolve your issue.
-{:tip}
+You can request further assistance by escalating your issue. See [Escalating support tickets](/docs/get-support/quicktickresp.html#escalation) for more information.
