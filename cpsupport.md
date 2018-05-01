@@ -107,7 +107,7 @@ You can update an existing support ticket at any time to include additional comm
 
 If you reassign the ticket, the new assignee becomes the primary point of contact for issue resolution. If you add a comment or attachment, the Support team member working on the ticket reviews the new information to assist in issue resolution.
 
-## Escalating a support issue
+## Escalating a support case
 {: #cp_bpsupescalflow}
 
-You can request further assistance by escalating your issue. See [Escalating support tickets](/docs/get-support/quicktickresp.html#escalation) for more information.
+You can request further assistance by escalating your case. See [Escalating support tickets](/docs/get-support/quicktickresp.html#escalation) for more information.
