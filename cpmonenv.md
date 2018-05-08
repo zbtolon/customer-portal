@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -29,12 +29,12 @@ At a minimum, use basic ping monitoring but you can customize your monitoring op
 ### Staying informed of network maintenance and unplanned events
 {: #cp_stayinfomaintevent}
 
-From time to time, scheduled and emergency network maintenance is unavoidable. {{site.data.keyword.BluSoftlayer_full}} infrastructure maintains many channels, such as [Twitter account ![External link icon](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, to keep you informed of all scheduled and emergency maintenance events. Additionally, you can [subscribe to email notifications](/docs/customer-portal/cpsub2not.html) from the Event Management System. This complimentary service automatically emails subscribed users regarding unplanned events which might impact services.
+From time to time, scheduled and emergency network maintenance is unavoidable. {{site.data.keyword.BluSoftlayer_full}} infrastructure maintains many channels to keep you informed of all scheduled and emergency maintenance events. Additionally, you can [subscribe to email notifications](/docs/customer-portal/cpsub2not.html) from the Event Management System. This complimentary service automatically emails subscribed users regarding unplanned events which might impact services.
 
 ### Using {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile
 {: #cp_bmxinframobile}
 
-Use {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile to manage your {{site.data.keyword.BluSoftlayer_notm}} infrastructure devices on the go using your iOS or Android mobile device. Functionality within {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile includes ticketing support, basic device control, and bandwidth monitoring.
+Use {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile to manage your {{site.data.keyword.BluSoftlayer_notm}} infrastructure devices on the go using your iOS or Android mobile device. Functionality within {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile includes ticket support, basic device control, and bandwidth monitoring.
 
 The {{site.data.keyword.BluSoftlayer_notm}} infrastructure mobile application compliments the functionality of the customer portal because you can monitor critical information about your infrastructure from anywhere using your network-connected mobile device. The application evolves quickly and new functionality is added regularly, but you can use the mobile application to perform tasks like the following:
   * View, create and update Support tickets
