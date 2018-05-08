@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -27,9 +27,9 @@ The following frequently asked questions relate to managing infrastructure resou
 
 If you use IBMid for authentication, when you place your first order or when you are added as a user to an account, an email is sent that has a link to get you started with your IBMid. If your user name or password is lost or forgotten, go to your [IBMid profile ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} and reset or recover the password using the instructions that follow the sign in process. You will be prompted to enter specific information, which might include providing answers to your security questions.
 
-If you do NOT use IBMid for authentication, when you place your first order or you are added as a user to a [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} account, you receive an email that contains your user name and initial password to get started in the customer portal. Be sure to change your password after you log in for the first time by [editing your user profile](edit-user-profile.html).
+If you do NOT use IBMid for authentication, when you place your first order or you are added as a user to a [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} account, you receive an email that contains your user name and initial password to get started in the customer portal. Be sure to change your password after you log in for the first time by editing your user profile. To change your password, log in with the information in the email and click your user name on the top panel to edit your profile.
 
-If you forget your password after you log in, use the **Forgot Password** feature that is available on the login screen of the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. You will be prompted to enter specific information, including a set of security questions you specified while [editing your user profile](edit-user-profile.html).
+If you forget your password after you log in, use the **Forgot Password** feature that is available on the login screen of the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. You will be prompted to enter specific information, including a set of security questions you specified when you set up yur user profile.
 
 If you forget your user name, contact your account administrator or master user, who has the ability to retrieve your user name. If you are the administrator or master user on the account, contact Support for additional assistance.
 
@@ -106,7 +106,7 @@ If you followed the wizard to switch to IBMid and haven't received the email, it
 ## Will I have full, root access to my account?
 {: #bicp_fullrootaccaccess}
 
-Master users, and those with administrator permissions, have full root access to accounts on the customer portal and API. Users without administrator permissions have accessibility controlled by those with admin roles. These permissions can be updated at any time by [editing the user profile](edit-user-profile.html) in the customer portal.
+Master users, and those with administrator permissions, have full root access to accounts on the customer portal and API. Users without administrator permissions have accessibility controlled by those with admin roles. These permissions can be updated by administrators from the customer portal by [editing a user profile](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Without administrator permissions, you can edit your user profile in the customer portal by clicking your user name on the top panel.
 
 
 ## Can I link an {{site.data.keyword.Bluemix_notm}} subscription account?
