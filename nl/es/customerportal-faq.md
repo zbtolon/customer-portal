@@ -77,12 +77,12 @@ La facturación de la cuenta está enlazada y puede moverse de forma sencilla en
 {: #bicp_SLloginerror}
 
 Tras cambiar a un IBMid, si inicia sesión en el portal del cliente con el nombre de usuario de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, verá el error *"Se han proporcionado credenciales de inicio de sesión no válidas"*.
-Esto se debe a que, tras cambiar a un IBMid, ya no puede iniciar sesión en el portal del cliente con su nombre de usuario de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Debe pulsar **Iniciar sesión con ID de IBM** en el diálogo Inicio de sesión de cuenta.
+Esto se debe a que, tras cambiar a un IBMid, ya no puede iniciar sesión en el portal del cliente con su nombre de usuario de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Debe pulsar **Iniciar sesión con IBMid** en el diálogo Inicio de sesión de cuenta.
 
 ## He intentado iniciar sesión con mi IBMid, ¿por qué obtengo un error?
 {: #bicp_IBMidloginerror}
 
-Al iniciar sesión con su IBMid, si obtiene el error *"No hemos reconocido este ID de IBM o correo electrónico"*, asegúrese de que está especificando una dirección de correo electrónico completa. Asegúrese también de que no está utilizando el nombre de usuario de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
+Al iniciar sesión con su IBMid, si obtiene el error *"No hemos reconocido este IBMid o correo electrónico"*, asegúrese de que está especificando una dirección de correo electrónico completa. Asegúrese también de que no está utilizando el nombre de usuario de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
 
 
 ##  Tengo una cuenta nueva de SoftLayer que utiliza IBMid para la autenticación; ¿puedo utilizar el mismo ID para la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} y {{site.data.keyword.Bluemix_notm}}?
