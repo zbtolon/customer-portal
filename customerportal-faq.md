@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-08"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -131,7 +131,7 @@ The company profile was the information submitted at the time the account was cr
 
 Device and software passwords are stored in two locations within the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. To retrieve device credentials, including the root or admin user name and password for both {{site.data.keyword.baremetal_short}} and {{site.data.keyword.virtualmachinesshort}}, see [Interact with a Device in the Snapshot View](/docs/vsi/vsi_interact_device_snapshot_view.html). To quickly view and retrieve software credentials that are manually tracked using the customer portal, see [Managing device access](/docs/vsi/vsi_device_access.html).
 
-##How do I keep my web data in sync?
+## How do I keep my web data in sync?
 {: #bicp_webdatasync}
 
 Though you are responsible for maintaining data consistence between real servers, {{site.data.keyword.BluSoftlayer_full}} provides a private network that you can use to synchronize without incurring usage charges.
@@ -145,4 +145,4 @@ The Event Management System is a toolset that optimizes the way {{site.data.keyw
 ## How and where can I cancel a device?
 {: #bicp_candev}
 
-You can cancel a device at any time through the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. See [Cancel a Device](/vsi/vsi_managing.html) for more information about completing a cancellation request.
+You can cancel a device at any time through the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. See [Cancel a Device](/docs/vsi/vsi_managing.html) for more information about completing a cancellation request.
