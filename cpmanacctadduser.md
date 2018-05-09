@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,7 +27,8 @@ Depending on your access, you can manage either your SoftLayer account or the ac
   * If you are the master user of the account, you can see all users associated with the account.
 
   If you must share the master login credentials for your account, share the credentials carefully. Your master login controls every aspect of your account and should be protected. To enable other users to use the customer portal, you set up individual or permission-based users. This allows you to have the most control over who is able to interact with certain aspects of your account.
-  {:tip}
+{:tip}
+
   * If you have administrative access, you can see all of the users you’ve created and, if you gave those users permission to administer other users, you can also see any users they’ve created. You can also take actions on any user associated with the account, including editing access to the customer portal, changing user status, and removing users.
   * If you are not the master user of the account and you do not have administrative access, only your profile is shown.  You can interact with your own account, including viewing the API key, editing VPN access, and adding external authentication.
 
@@ -48,7 +49,7 @@ Use the following steps to add a user to an account.
 5. Complete the required fields in the **Log In Settings** section, including if the settings can be edited by the user, whether the IP address is restricted, and whether or not the user is required to set up and use security questions. Also, for any users that aren't using IBMid, you can set the length of time before the password expires.
 **Notes:**
 * If you use IBMid for authentication, update passwords in your [IBMid profiles ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} by following the instructions under **Sign In**.
-* Click the **User Portal Password for VPN** check box to sync the customer portal and VPN passwords.
+* Click the **Use Portal Password for VPN** check box to sync the customer portal and VPN passwords.
 6. Click **Add User**.
 
 After you create an account for a user, the user receives an email notification to finish setting up their account by setting a password and, optionally, security questions if you indicated that they are required.
