@@ -36,7 +36,7 @@ lastupdated: "2018-01-11"
 在此模型中，會發生下列事項：
 * 在身分提供者及 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構中，建立使用者。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基礎架構客戶入口網站或 API，在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中指派使用者許可權。
-* 使用者會鑑別身分提供者，並聯合其認證。
+* 使用者會向身分提供者鑑別自己，並聯合其認證。
 * {{site.data.keyword.BluSoftlayer}} 基礎架構會使用認證，而且存取控制是根據在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中針對使用者所定義的許可權。
 
 使用隨機密碼，先在 {{site.data.keyword.BluSoftlayer}} 基礎架構中建立需要存取 {{site.data.keyword.BluSoftlayer}} 基礎架構之使用者的帳戶。必須先在 {{site.data.keyword.BluSoftlayer}} 基礎架構中配置所有許可權，使用者才能透過身分提供者來使用 SSO。目前是根據個別使用者來設定許可權。
@@ -66,7 +66,7 @@ lastupdated: "2018-01-11"
 在此模型中，會發生下列事項：
 * 在身分提供者中建立角色，並將其指派給使用者。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基礎架構 API，在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中設定角色及許可權指派。
-* 使用者會鑑別身分提供者，並聯合其認證及角色屬性。
+* 使用者會向身分提供者鑑別自己，並聯合其認證及角色屬性。
 * {{site.data.keyword.BluSoftlayer}} 基礎架構會利用使用者認證及角色屬性。如果使用者的身分提供者已指派角色符合 {{site.data.keyword.BluSoftlayer}} 基礎架構中的角色，則使用者會在登入 {{site.data.keyword.BluSoftlayer}} 基礎架構時獲授與該角色的許可權。
 * 會將身分提供者中所建立的使用者視為聯合，因為他們及其角色是透過 SAML 2.0 進行鑑別。
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-03-26"
 
 ---
 
@@ -32,10 +32,10 @@ lastupdated: "2017-12-01"
 如需相關資訊，請聯絡 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構業務代表。
 
 如果您尚未設定身分提供者，則可以聯絡身分提供者支援人員來瞭解特定步驟，或使用下列高階步驟來配置身分提供者：
-1. 下載並安裝身分提供者執行檔，以準備身分提供者環境。
+1. 下載並安裝身分提供者環境的執行檔，以準備身分提供者環境。
 2. 配置身分提供者，以使用 {{site.data.keyword.BluSoftlayer_notm}} 鑑別。
 
-## 設定 SSO 的 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構
+## 設定 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構以進行 SSO
 {: #cp_setupsso}
 
 您必須從身分提供者擷取 Security Assertion Markup Language&trade; (SAML&trade;) 2.0 Meta 資料資訊的下列必要欄位，以與 {{site.data.keyword.BluSoftlayer_notm}} 搭配使用。
@@ -67,4 +67,4 @@ lastupdated: "2017-12-01"
 7. 按一下**下載 XML 配置**，以下載服務提供者 meta 資料，或趕快記下資訊。
 8. 使用**服務提供者** meta 資料，以根據身分提供者指示來配置身分提供者。  
 
-您現在應該可以使用聯合 ID 來登入 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構。
+您現在應該可以使用聯合 ID 來登入 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構。如需聯合 ID 的相關資訊，請參閱[註冊 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 及 [IBMid Enterprise Federation Adoption Guide ![外部鏈結圖示](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。

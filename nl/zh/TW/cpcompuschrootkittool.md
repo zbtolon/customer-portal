@@ -108,7 +108,7 @@ chkrootkit 工具所輸出的所有內容都應該是 `not found` 或 `not infec
 
 3. 將 `yourinstallpath` 取代為已解壓縮 Chkrootkit 的實際路徑。
 4. 將 `Servername` 變更為您正在執行的伺服器，讓您知道它的來源。
-5. 將 `admin@youremail.com` 變更為您要 Script 寄送電子郵件的實際電子郵件位址。
+5. 將 `admin@youremail.com` 變更為您要 Script 寄送電子郵件給您的實際電子郵件位址。
 6. 處於 SSH 時，請使用下列指令來儲存檔案：
 
   ```

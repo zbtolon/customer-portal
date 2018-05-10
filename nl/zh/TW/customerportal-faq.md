@@ -78,10 +78,10 @@ lastupdated: "2018-03-07"
 
 在您切換至 IBM ID 之後，如果使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構使用者名稱來登入客戶入口網站，則會看到*提供的登入認證無效* 錯誤。原因是，在您切換至 IBM ID 之後，就無法再使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構使用者名稱來登入客戶入口網站。您必須按一下「帳戶登入」對話框中的**使用 IBM ID 登入**。
 
-## 我嘗試使用 IBM ID 登入，但為什麼收到錯誤？
+## 我嘗試使用 IBM ID 進行登入，但為什麼收到錯誤？
 {: #bicp_IBMidloginerror}
 
-使用 IBM ID 登入時，如果您收到*無法辨識此 IBM ID 或電子郵件* 錯誤，則請確定您輸入的是完整電子郵件位址。也請確定您不是使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構使用者名稱。
+使用 IBM ID 進行登入時，如果您收到*無法辨識此 IBM ID 或電子郵件* 錯誤，則請確定您輸入的是完整電子郵件位址。也請確定您不是使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構使用者名稱。
 
 
 ##  我的新 SoftLayer 帳戶使用 IBM ID 進行鑑別；我可以將相同的 ID 用於 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構及 {{site.data.keyword.Bluemix_notm}}？

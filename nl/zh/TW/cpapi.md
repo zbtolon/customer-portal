@@ -37,7 +37,7 @@ API 的目標是提供您可以在 API 中完成任何客戶入口網站作業�
 ## 哪裡可以進一步瞭解 API？
 {: #cp_apimoreinfo}
 
-使用 API 與帳戶、產品及服務互動時，[SoftLayer Development Network (SLDN) ![外部鏈結圖示](../icons/launch-glyph.svg)](http://sldn.softlayer.com/){:new_window} 專用於支援您。[SLDN ![外部鏈結圖示](../icons/launch-glyph.svg)](http://sldn.softlayer.com/){:new_window} 包含 SoftLayer API、所支援程式設計語言、可用 API 呼叫等等文件。SLDN 是資源，用於各種 API 特性、完整 API 呼叫清單及各種部落格文章的資訊，讓您知道如何最恰當地使用 API。
+使用 API 與帳戶、產品及服務互動時，[SoftLayer Development Network (SLDN) ![外部鏈結圖示](../icons/launch-glyph.svg)](http://sldn.softlayer.com/){:new_window} 專用於支援您。[SLDN ![外部鏈結圖示](../icons/launch-glyph.svg)](http://sldn.softlayer.com/){:new_window} 包含 SoftLayer API、所支援程式設計語言、可用 API 呼叫等等的相關文件。SLDN 是資源，用於提供各種 API 特性、完整 API 呼叫清單及各種部落格文章的資訊，讓您知道如何最恰當地使用 API。
 
 
-如果您有任何 API 問題，可以將它們張貼至客戶討論區，或透過直接的文章提出意見。
+如果您有任何 API 問題，可以將它們張貼至客戶討論區，或透過文章直接提出意見。

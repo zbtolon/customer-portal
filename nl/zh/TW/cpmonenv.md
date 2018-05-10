@@ -36,7 +36,7 @@ lastupdated: "2018-03-07"
 
 使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動，和 iOS 或 Android 行動裝置，隨時隨地管理 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構裝置。{{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動內的功能包括問題單支援、基本裝置控制及頻寬監視。
 
-{{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動式應用程式能補充客戶入口網站的功能，因為您可以從任何地方使用連接網路的行動裝置來監視基礎架構的重要資訊。雖然應用程式演進快速且會定期新增功能，您仍可使用行動應用程式來執行如下作業：
+{{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動應用程式能補充客戶入口網站的功能，因為您可以從任何地方使用連接網路的行動裝置來監視基礎架構的重要資訊。雖然應用程式演進快速且會定期新增功能，您仍可使用行動應用程式來執行如下作業：
   * 檢視、建立及更新支援問題單
   * 監視裝置狀態，包括頻寬及警示
   * 關閉及重新啟動裸機伺服器與虛擬伺服器
