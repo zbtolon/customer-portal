@@ -4,9 +4,10 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-19"
 
 ---
+
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -90,7 +91,7 @@ Le autorizzazioni utente vengono aggiornate immediatamente dopo l'invio delle mo
 ## Aggiunta dell'autenticazione esterna per un utente
 {: #cp_addextauthuser}
 
-Dal portale del cliente, puoi attivare l'autenticazione esterna a due fattori per aggiungere ulteriore protezione durante l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo la protezione di dispositivi, dati e informazioni sull'account. Questa autenticazione esterna è disponibile nelle seguenti forme:
+Dal portale del cliente, puoi attivare l'autenticazione esterna a due fattori (2FA) per aggiungere ulteriore protezione durante l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo la protezione di dispositivi, dati e informazioni sull'account. Questa autenticazione esterna è disponibile nelle seguenti forme:
 
 * **Symantec Identify Protection** è lo strumento di autenticazione esterna più comune che fornisce un codice di sicurezza dinamico utilizzato in aggiunta al nome utente e alla password quando si accede al portale del cliente.
 * L'autenticazione **PhoneFactor** fornisce l'autenticazione utente fuori banda da un telefono, un SMS o un'applicazione mobile. PhoneFactor richiede un numero di telefono valido a cui devi avere accesso ogni volta che tenti di eseguire l'autenticazione.
@@ -121,7 +122,7 @@ Dopo aver aggiunto PhoneFactor, devi attivare manualmente l'autenticazione ester
 3. Fai clic sul nome utente per accedere al profilo associato a tale utente.
 4. Scorri fino alla sezione **Impostazioni PhoneFactor**.
 
-  Se la sezione Impostazioni PhoneFactor non è disponibile, verifica innanzitutto di aver ricevuto l'e-mail di provisioning di PhoneFactor che indica che PhoneFactor è stato fornito. Se il provisioning di PhoneFactor è stato eseguito ma la sezione non è disponibile, crea un ticket di supporto. Se il provisiong di PhoneFactor non è stato ancora eseguito, attendi l'e-mail e prova di nuovo. Se PhoneFactor non è stato ancora aggiunto, vedi [Aggiunta dell'autenticazione esterna per un utente](/docs/customer-portal/cpmanuserprof.html#cp_addextauthuser).
+  Se la sezione Impostazioni PhoneFactor non è disponibile, verifica innanzitutto di aver ricevuto l'e-mail di provisioning di PhoneFactor che indica che PhoneFactor è stato fornito. Se il provisioning di PhoneFactor è stato eseguito ma la sezione non è disponibile, crea un ticket di supporto. Se il provisioning di PhoneFactor non è stato ancora eseguito, attendi l'e-mail e prova di nuovo. Se PhoneFactor non è stato ancora aggiunto, vedi [Aggiunta dell'autenticazione esterna per un utente](/docs/customer-portal/cpmanuserprof.html#cp_addextauthuser).
   {: tip}
 
 5. Seleziona **Attivo** dall'elenco **Stato**.
@@ -214,6 +215,17 @@ Ti viene assegnata una connessione PPTP con connessioni aggiuntive disponibili. 
 2. Seleziona **Account** > **Accesso VPN** dalla barra dei menu.
 3. Dalla colonna **Accesso VPN** relativa all'utente, fai clic sul link del tipo di accesso VPN corrente per visualizzare la finestra Accesso VPN.
 4. Dall'elenco **Tipo di VPN**, seleziona un metodo VPN (SSL, PPTP, SSL & PPTP o nessuno) da assegnare all'utente.
+
+## Selezione delle notifiche email 
+{: #cp_select-email-notifications}
+
+Puoi selezionare le notifiche email che vuoi ricevere dall'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} e quali no. Per impostazione predefinita, ricevi tutte le notifiche email ma puoi modificarle in qualsiasi momento. Per modificare le tue impostazioni della notifica email, utilizza la seguente procedura: 
+1. Accedi al portale del cliente utilizzando le tue credenziali univoche dell'account associato all'indirizzo email che riceve le notifiche. 
+2. Fai clic su **Account** > **Utenti** > **Preferenze email** dalla barra dei menu.
+3. Dall'elenco dei tipi di notifica, deseleziona la casella accanto alle notifiche che non vuoi più ricevere. 
+
+Le tue modifiche vengono salvate automaticamente. Queste impostazioni influenzano le email che ti vengono inviate, tuttavia, non influenzano le notifiche email di altri utenti nel tuo account. 
+
 
 ## Impostazione dell'opzione Supportato UE
 {: #cp_seteusupported}

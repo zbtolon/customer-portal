@@ -36,7 +36,7 @@ La rete pubblica è ottima per molte cose, ma ci sono alcuni aspetti che, se las
 Pianifica i backup per garantire che i tuoi dati siano memorizzati in modo sicuro al di fuori del tuo dispositivo e riuscire a ricaricarli se vengono persi.
 
 L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} offre più soluzioni di backup per garantirti di poter recuperare i dati in caso di errore dell'unità o di errore dell'utente. Le soluzioni di backup attualmente includono NAS, EVault Backup e R1Soft CDP, che sono tutti disponibili in una varietà di opzioni di archiviazione.
-Ad esempio, puoi scegliere uno dei seguenti servizi di backup per memorizzare i dati in un luogo sicuro: 
+Ad esempio, puoi scegliere uno dei seguenti servizi di backup per memorizzare i dati in un luogo sicuro:
   * EVault Backup è un sistema di backup automatizzato basato sull'agent. Questa è una comune soluzione “set-and-forget” (imposta e dimentica) per la gestione del tuo dispositivo. È compatibile con i software Microsoft tra cui Exchange e SQL tramite plug-in aggiuntivi. Gli utenti EVault interagiscono con questo servizio tramite l'applicazione basata sul web WebCC di EVault.
   * R1Soft Continuous Data Protection (CDP) può essere installato sul tuo server o sulla macchina virtuale autogestita. È consigliabile se desideri una singola interfaccia per gestire tutti i backup. Interagisci con R1Soft CDP tramite il tuo sistema di gestione proprietario, che consente di installare gli agent su macchine virtuali e offre plug-in di database per funzionalità aggiuntive.
 

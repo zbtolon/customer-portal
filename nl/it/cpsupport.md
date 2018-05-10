@@ -25,7 +25,7 @@ Se hai un [account collegato](/docs/account/softlayerlink.html#link_user_account
 
 Se non hai un account collegato, puoi aprire i ticket di supporto nel portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici o generali per il supporto con i problemi relativi al tuo account.
 
-## Creazione di un ticket di supporto tecnico generale 
+## Creazione di un ticket di supporto tecnico generale
 {: #cp_creatsuptickwsp}
 
 Puoi aprire i ticket dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici generali nel portale del cliente utilizzando la seguente procedura:
@@ -68,7 +68,7 @@ Puoi aprire i ticket dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}}
 
 Dopo aver aggiunto un ticket, questo viene indirizzato al membro appropriato del team di supporto per la risoluzione. I ticket vengono gestiti in base al grado di severità, il che significa che i problemi più gravi, come le interruzioni, vengono gestiti per primi, seguiti da problemi di prestazioni del servizio e quindi da domande. Un membro del team di supporto sarà in contatto con gli assegnatari per ulteriori informazioni sulla risoluzione del ticket.
 
-## Creazione di un ticket per problemi con l'account 
+## Creazione di un ticket per problemi con l'account
 {: #cp_creatacctsuptickwsp}
 
 Puoi aprire i ticket per l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per assistenza nel risolvere i problemi relativi al tuo account nel portale del cliente analogamente a come apri un ticket per i problemi di supporto tecnico generale, ma con una importante differenza.  

@@ -15,7 +15,7 @@ lastupdated: "2018-02-12"
 {:new_window: target="_blank"}
 
 
-# Configurazione di un server bare metal 
+# Configurazione di un server bare metal
 {: #customerportal_setupbaremetal}
 
 Puoi configurare un server bare metal come server dedicato.

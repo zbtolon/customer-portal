@@ -45,10 +45,10 @@ L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}
 
 L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} è utilizzabile su diverse piattaforme per dispositivi mobili popolari ed è disponibile gratuitamente dai relativi application store per ciascuna piattaforma.
 
-## Monitoraggio dei server 
+## Monitoraggio dei server
 {: #customerportal_monservers}
 
-Configura il monitoraggio per controllare lo stato del tuo server e sapere quando ridimensionare. Puoi utilizzare il monitoraggio standard o i servizi di monitoraggio Nimsoft. Puoi utilizzare il monitoraggio standard, o di base, nel metodo ping-and-respond (effettua ping e rispondi) utilizzando un ping lento o di servizio dal portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Puoi anche utilizzare il monitoraggio Nimsoft, o avanzato, dal portale del cliente o in uno dei tre livelli: base, avanzato e premium. Consulta [Introduzione ai server bare metal](/docs/bare-metal/about.html) per ulteriori informazioni sui server bare metal, in particolare.
+Configura il monitoraggio per controllare lo stato del tuo server e sapere quando ridimensionare. Puoi utilizzare il monitoraggio standard o i servizi di monitoraggio Nimsoft. Puoi utilizzare il monitoraggio standard, o di base, nel metodo ping-and-respond (effettua ping e rispondi) utilizzando un ping lento o di servizio dal portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Puoi anche utilizzare il monitoraggio Nimsoft, o avanzato, dal portale del cliente o in uno dei tre livelli: base, avanzato e premium.  Consulta [Introduzione ai server bare metal](/docs/bare-metal/about.html) per ulteriori informazioni sui server bare metal, in particolare.
 
 ## Monitoraggio degli eventi di sistema
 {: #customerportal_monevent}
@@ -74,4 +74,4 @@ I log di accesso visualizzano i dati per ciascun tentativo di accesso effettuato
 2. Seleziona **Account** > **Utenti** dalla barra dei menu per accedere alla finestra Utenti.
 3. Dall'elenco a discesa **Azioni**, seleziona **Visualizza log di controllo** per visualizzare il log di accesso dell'utente.
 
-Il log di accesso per ciascun utente visualizza i tentativi di accesso effettuati da tale utente per data, insieme all'indirizzo IP da cui è stato effettuato il tentativo. Le informazioni contenute nel log di accesso sono di sola lettura, pertanto non è possibile apportare modifiche al contenuto. Puoi visualizzare nuovamente i log di accesso in qualsiasi momento ripetendo i passi precedenti. Per uscire dai log e tornare alla schermata Utenti, fai clic sul link **Visualizza tutti gli utenti**. 
+Il log di accesso per ciascun utente visualizza i tentativi di accesso effettuati da tale utente per data, insieme all'indirizzo IP da cui è stato effettuato il tentativo. Le informazioni contenute nel log di accesso sono di sola lettura, pertanto non è possibile apportare modifiche al contenuto. Puoi visualizzare nuovamente i log di accesso in qualsiasi momento ripetendo i passi precedenti. Per uscire dai log e tornare alla schermata Utenti, fai clic sul link **Visualizza tutti gli utenti**.
