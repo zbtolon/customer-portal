@@ -4,9 +4,10 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-19"
 
 ---
+
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -90,7 +91,8 @@ As permissões de usuário são atualizadas imediatamente após você enviar as 
 ## Incluindo autenticação externa para um usuário
 {: #cp_addextauthuser}
 
-No portal do cliente, é possível ativar a autenticação externa de dois fatores para incluir proteção adicional ao efetuar login no portal. Essa camada adicional de segurança protege a conta contra acesso não verificado, garantindo que dispositivos, dados e dados da conta sejam protegidos. Essa autenticação externa está disponível nas seguintes formas:
+No portal do cliente, é possível ativar a autenticação externa de dois fatores (2FA) para incluir
+proteção adicional ao efetuar login no portal. Essa camada adicional de segurança protege a conta contra acesso não verificado, garantindo que dispositivos, dados e dados da conta sejam protegidos. Essa autenticação externa está disponível nas seguintes formas:
 
 * **Symantec Identify Protection** é a ferramenta de autenticação externa mais comumente usada, fornecendo um código de segurança dinâmico usado além do nome do usuário e da senha ao acessar o portal do cliente.
 * A autenticação **PhoneFactor** fornece autenticação do usuário fora da banda de um telefone, SMS ou aplicativo móvel. O PhoneFactor requer um número de telefone válido ao qual deve-se ter acesso toda vez que a autenticação for tentada.
@@ -214,6 +216,24 @@ Você é designado a uma conexão PPTP com conexões adicionais disponíveis.  �
 2. Selecione **Conta** > **Acesso à VPN** na barra de menus.
 3. Na coluna **Acesso à VPN** para o usuário, clique no link de tipo de acesso VPN atual para exibir a janela Acesso à VPN.
 4. Na lista **Tipo de VPN**, selecione um método de VPN (SSL, PPTP, SSL & PPTP ou nenhum) para designar o usuário.
+
+## Selecionando notificações por e-mail
+{: #cp_select-email-notifications}
+
+É possível selecionar quais notificações de e-mail que você deseja receber da
+infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} e quais você não deseja receber. Por padrão,
+você recebe todas as notificações por e-mail, mas é possível mudá-las a qualquer momento. Para mudar suas
+configurações de notificação por e-mail, use as etapas a seguir:
+1. Acesse o portal do cliente usando suas credenciais exclusivas para a conta associada ao endereço de
+e-mail que recebe notificações.
+2. Clique em **Conta** > **Usuários** > **Preferências
+de e-mail** na barra de menus.
+3. Na lista de tipos de notificação, desmarque a caixa ao lado de quaisquer notificações que você não
+deseja mais receber.
+
+Suas mudanças são salvas automaticamente. Essas configurações afetam os e-mails que são enviados a você,
+mas não afetam as notificações por e-mail de quaisquer outros usuários em sua conta.
+
 
 ## Configurando a opção Suportado pela União Europeia
 {: #cp_seteusupported}

@@ -48,7 +48,7 @@ O aplicativo móvel de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
 ## Monitorando servidores
 {: #customerportal_monservers}
 
-Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar monitoramento Nimsoft ou avançado do portal do cliente ou em uma das três camadas: básica, avançada e premium. Veja [Introdução a servidores bare metal](/docs/bare-metal/about.html) para obter mais informações sobre servidores bare metal, especificamente.
+Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar monitoramento Nimsoft ou avançado do portal do cliente ou em uma das três camadas: básica, avançada e premium.  Veja [Introdução a servidores bare metal](/docs/bare-metal/about.html) para obter mais informações sobre servidores bare metal, especificamente.
 
 ## Monitorando eventos do sistema
 {: #customerportal_monevent}
