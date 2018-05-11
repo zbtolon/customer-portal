@@ -21,14 +21,14 @@ lastupdated: "2018-02-23"
 Falls Sie Probleme mit der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur feststellen und kein verknüpftes Konto haben, können Sie Hilfe beim Bestimmen der Ursache des Problems und beim Finden einer Lösung über das Kundenportal abrufen.
 {:shortdesc}
 
-Wenn Sie ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix}}-Konsole abrufen. Weitere Informationen finden Sie unter [Kundenunterstützung abrufen](/docs/get-support/howtogetsupport.html). 
+Wenn Sie ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix}}-Konsole abrufen. Weitere Informationen finden Sie unter [Kundenunterstützung abrufen](/docs/get-support/howtogetsupport.html).
 
-Wenn Sie kein verknüpftes Konto haben, können Sie bei allgemeinen technischen Problemen oder bei Problemen mit Ihrem Konto Support-Tickets im Kundenportal für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen. 
+Wenn Sie kein verknüpftes Konto haben, können Sie bei allgemeinen technischen Problemen oder bei Problemen mit Ihrem Konto Support-Tickets im Kundenportal für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen.
 
 ## Allgemeine technische Support-Tickets öffnen
 {: #cp_creatsuptickwsp}
 
-Führen Sie die folgenden Schritte aus, um im Kundenportal in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur Tickets für allgemeine technische Probleme zu öffnen: 
+Führen Sie die folgenden Schritte aus, um im Kundenportal in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur Tickets für allgemeine technische Probleme zu öffnen:
 
 1. Melden Sie sich beim [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
 2. Wählen Sie im Menü die Optionen **Support** > **Ticket hinzufügen** aus.
@@ -71,11 +71,11 @@ Nachdem Sie ein Ticket hinzugefügt haben, wird es zur Problemlösung an das ent
 ## Tickets für Kontoprobleme erstellen
 {: #cp_creatacctsuptickwsp}
 
-Sie können im Kundenportal in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur Tickets für Probleme mit Ihrem Konto auf dieselbe Weise öffnen wie Tickets für allgemeine technische Probleme - mit einem wichtigen Unterschied.   
+Sie können im Kundenportal in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur Tickets für Probleme mit Ihrem Konto auf dieselbe Weise öffnen wie Tickets für allgemeine technische Probleme - mit einem wichtigen Unterschied.  
 
-Nachdem Sie sich beim [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} angemeldet und **Support** > **Ticket hinzufügen** ausgewählt haben, müssen Sie sicherstellen, dass das Ticket an das richtige Support-Team weitergeleitet wird und schnell gelöst werden kann. Um das Ticket für Kontoprobleme an die richtige Adresse weiterzuleiten, wählen Sie in der Liste **Betreff** die Option **Kontoanfrage** aus. 
+Nachdem Sie sich beim [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} angemeldet und **Support** > **Ticket hinzufügen** ausgewählt haben, müssen Sie sicherstellen, dass das Ticket an das richtige Support-Team weitergeleitet wird und schnell gelöst werden kann. Um das Ticket für Kontoprobleme an die richtige Adresse weiterzuleiten, wählen Sie in der Liste **Betreff** die Option **Kontoanfrage** aus.
 
-Füllen Sie das restliche Ticket genau so aus, wie Sie es bei einem allgemeinen technischen Problem tun würden, und reichen Sie es ein. Wenn der **Betreff** **Kontoanfrage** lautet, wird das Ticket dem passenden Support-Team zugewiesen, das sich schnell an die Lösung des Problems machen kann. 
+Füllen Sie das restliche Ticket genau so aus, wie Sie es bei einem allgemeinen technischen Problem tun würden, und reichen Sie es ein. Wenn der **Betreff** **Kontoanfrage** lautet, wird das Ticket dem passenden Support-Team zugewiesen, das sich schnell an die Lösung des Problems machen kann.
 
 ## Bestehendes Ticket anzeigen
 {: #cp_viewsuptickwsp}

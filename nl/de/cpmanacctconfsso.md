@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-03-26"
 
 ---
 
@@ -67,4 +67,4 @@ Führen Sie die folgenden Schritte aus, um die {{site.data.keyword.BluSoftlayer_
 7. Klicken Sie auf **XML-Konfiguration herunterladen**, um die Metadaten für den Service-Provider herunterzuladen oder die Informationen zu notieren.
 8. Verwenden Sie die Metadaten für den **Service-Provider**, um Ihren Identitätsprovider entsprechend den Anweisungen Ihres Identitätsproviders zu konfigurieren.  
 
-Sie sollten jetzt in der Lage sein, sich unter Verwendung Ihrer eingebundenen ID bei der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anzumelden.
+Sie sollten jetzt in der Lage sein, sich unter Verwendung Ihrer eingebundenen ID bei der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anzumelden. Weitere Informationen zu eingebundenen IDs finden Sie unter [{{site.data.keyword.Bluemix_notm}}-Anmeldung](/docs/account/adminpublic.html) und in der Veröffentlichung [IBMid Enterprise Federation Adoption Guide ![Symbol für externen Link](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.

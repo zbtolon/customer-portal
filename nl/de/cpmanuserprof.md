@@ -4,9 +4,10 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-19"
 
 ---
+
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -90,7 +91,7 @@ Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen �
 ## Externe Authentifizierung für einen Benutzer hinzufügen
 {: #cp_addextauthuser}
 
-Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung aktivieren, um für die Anmeldung beim Portal einen zusätzlichen Schutz bereitzustellen. Diese zusätzliche Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Diese externe Authentifizierung ist in den folgenden Formen verfügbar:
+Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal einen zusätzlichen Schutz bereitzustellen. Diese zusätzliche Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Diese externe Authentifizierung ist in den folgenden Formen verfügbar:
 
 * **Symantec Identity Protection** ist das am häufigsten genutzte Tool für die externe Authentifizierung. Es stellt beim Zugriff auf das Kundenportal zusätzlich zum Benutzernamen und Kennwort einen dynamischen Sicherheitscode bereit.
 * Die Authentifizierung mit **PhoneFactor** stellt eine externe Benutzerauthentifizierung mittels Telefon, SMS oder mobiler App bereit. PhoneFactor macht eine gültige Telefonnummer erforderlich, auf die Sie bei jedem Authentifizierungsversuch Zugriff haben müssen.
@@ -214,6 +215,17 @@ Ihnen wird eine PPTP-Verbindung mit zusätzlichen verfügbaren Verbindungen zuge
 2. Wählen Sie in der Menüleiste die Optionen **Konto** > **VPN-Zugriff** aus.
 3. Klicken Sie in der Spalte **VPN-Zugriff** für den Benutzer auf den aktuellen VPN-Zugriffstyp, um das Fenster 'VPN-Zugriff' aufzurufen.
 4. Wählen Sie in der Liste **VPN-Typ** eine VPN-Methode aus (SSL, PPTP, SSL & PPTP oder 'Keine'), die dem Benutzer zugeordnet werden soll.
+
+## E-Mail-Benachrichtigungen auswählen
+{: #cp_select-email-notifications}
+
+Sie können auswählen, welche E-Mail-Benachrichtigungen Sie von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur empfangen wollen und welche nicht. Standardmäßig empfangen Sie alle E-Mail-Benachrichtigungen, aber Sie können diese Einstellung jederzeit ändern. Führen Sie die folgenden Schritte aus, um Ihre Einstellung für E-Mail-Benachrichtigungen zu ändern:
+1. Greifen Sie auf das Kundenportal mit Ihren eindeutigen Berechtigungsnachweisen für das Konto zu, das der E-Mail-Adresse zugeordnet ist, die Benachrichtigungen empfängt.
+2. Klicken Sie in der Menüleiste auf **Kunde** > **Benutzer** > **Vorgaben für E-Mail**.
+3. Inaktivieren Sie in der Liste der Benachrichtigungstypen das Kontrollkästchen neben den Benachrichtigungen, die Sie nicht mehr empfangen wollen.
+
+Ihre Änderungen werden automatisch gespeichert. Diese Einstellungen wirken sich auf die E-Mails aus, die an Sie gesendet werden. Sie haben jedoch keine Auswirkungen auf die E-Mail-Benachrichtigungen anderer Benutzer auf Ihrem Konto.
+
 
 ## Option 'Unterstützung in der EU' festlegen
 {: #cp_seteusupported}

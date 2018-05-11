@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-03-26"
 
 ---
 
@@ -67,4 +67,4 @@ Utilisez la procédure suivante pour configurer l'infrastructure {{site.data.key
 7. Cliquez sur **Télécharger la configuration XML** pour télécharger les métadonnées du fournisseur de services ou notez ces informations.
 8. Utilisez les métadonnées du **Fournisseur de service** pour configurer votre fournisseur d'identité en fonction des instructions de ce dernier.  
 
-Vous devez à présent pouvoir vous connecter à l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} en utilisant votre ID fédéré.
+Vous devez à présent pouvoir vous connecter à l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} en utilisant votre ID fédéré. Pour plus d'informations sur les ID fédérés, voir [Inscription à {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) et [IBMid Enterprise Federation Adoption Guide ![Icône de lien externe](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.

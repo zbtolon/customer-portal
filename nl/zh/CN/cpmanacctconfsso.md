@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-03-26"
 
 ---
 
@@ -67,4 +67,4 @@ lastupdated: "2017-12-01"
 7. 单击**下载 XML 配置**以下载服务提供者元数据或记下信息。
 8. 使用**服务提供者**元数据以基于身份提供者的指示信息来配置身份提供者。  
 
-您现在应该可以使用联合标识登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。
+您现在应该可以使用联合标识登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。有关联合标识的更多信息，请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 和 [IBMid Enterprise Federation Adoption Guide ![外部链接图标](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。

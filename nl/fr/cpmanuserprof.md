@@ -4,9 +4,10 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-19"
 
 ---
+
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -214,6 +215,17 @@ Une connexion PPTP vous est allouée avec des connexions supplémentaires dispon
 2. Sélectionnez **Compte** > **Accès VPN** dans la barre de menus.
 3. Dans la colonne **Accès VPN** de l'utilisateur, cliquez sur le lien du type d'accès en cours pour afficher la fenêtre Accès VPN.
 4. Dans la liste **Type de VPN**, sélectionnez une méthode VPN (SSL, PPTP, SSL & PPTP, ou aucune) à affecter à l'utilisateur.
+
+## Sélection de notifications par courrier électronique
+{: #cp_select-email-notifications}
+
+Vous pouvez sélectionner les notifications par courrier électronique que vous souhaitez recevoir de la part de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} et celles que vous ne souhaitez pas recevoir. Par défaut, vous recevez toutes les notifications par courrier électronique, mais vous pouvez les modifier à tout moment. Pour modifier vos paramètres de notification par courrier électronique, procédez comme suit : 
+1. Accédez au portail client à l'aide de vos données d'identification uniques pour le compte associé à l'adresse électronique destinataire des notifications.
+2. Cliquez sur **Compte** > **Utilisateurs** > **Préférences de courrier électronique** dans la barre de menus. 
+3. Dans la liste de types de notification, décochez la zone en regard des notifications que vous ne souhaitez plus recevoir. 
+
+Vos modifications sont sauvegardées automatiquement. Ces paramètres affectent le courrier électronique qui vous est envoyé, mais ils n'ont aucun impact sur les notifications par courrier électronique des autres utilisateurs de votre compte. 
+
 
 ## Définition de l'option Support dans l'Union européenne
 {: #cp_seteusupported}

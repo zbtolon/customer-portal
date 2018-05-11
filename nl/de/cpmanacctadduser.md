@@ -48,7 +48,7 @@ Führen Sie zum Hinzufügen eines Benutzers zu einem Konto die folgenden Schritt
 5. Füllen Sie die erforderlichen Felder im Abschnitt **Einstellungen für Anmeldung** aus, wozu auch die Angabe gehört, ob die Einstellungen vom Benutzer bearbeitet werden können, ob die IP-Adresse eingeschränkt ist und ob der Benutzer Sicherheitsfragen definieren und verwenden muss oder nicht. Außerdem können Sie für alle Benutzer, die keine IBMid verwenden, den Zeitraum angeben, nach dem das Kennwort abläuft.
 **Hinweise:**
 * Falls Sie die IBMid für die Authentifizierung verwenden, aktualisieren Sie die Kennwörter in Ihren [IBMid-Profilen ![Symbol für externen Link](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window}, indem Sie die Anweisungen unter **Anmelden** befolgen.
-* Klicken Sie auf das Kontrollkästchen **Benutzerportalkennwort für VPN**, um das Kundenportalkennwort und das VPN-Kennwort zu synchronisieren.
+* Klicken Sie auf das Kontrollkästchen **Portalkennwort für VPN verwenden**, um das Kundenportalkennwort und das VPN-Kennwort zu synchronisieren.
 6. Klicken Sie auf **Benutzer hinzufügen**.
 
 Nachdem Sie ein Konto für einen Benutzer erstellt haben, empfängt der Benutzer eine E-Mail-Benachrichtigung, damit er die Einrichtung seines Kontos durch das Festlegen eines Kennworts sowie optional durch das Definieren von Sicherheitsfragen abschließt, sofern Sie angegeben haben, dass Sicherheitsfragen erforderlich sind.
