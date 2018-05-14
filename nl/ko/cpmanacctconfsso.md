@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-03-26"
 
 ---
 
@@ -67,4 +67,4 @@ ID 제공자로부터 인증 유형을 수신하기 위해 {{site.data.keyword.B
 7. **XML 구성 다운로드**를 클릭하여 서비스 제공자 메타데이터를 다운로드하거나 정보를 작성하십시오.
 8. **서비스 제공자** 메타데이터를 사용하여 ID 제공자의 지시사항에 따라 ID 제공자를 구성하십시오.  
 
-이제 연합 ID를 사용하여 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 로그인할 수 있어야 합니다.
+이제 연합 ID를 사용하여 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 로그인할 수 있어야 합니다. 연합 ID에 대한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 등록](/docs/account/adminpublic.html) 및 [IBMid Enterprise Federation Adoption Guide ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}를 참조하십시오.

@@ -23,12 +23,12 @@ lastupdated: "2018-02-23"
 
 [링크된 계정](/docs/account/softlayerlink.html#link_user_accounts)이 있으면 {{site.data.keyword.Bluemix}} 콘솔을 통해 지원을 받을 수 있습니다. 자세한 정보는 [고객 지원 받기](/docs/get-support/howtogetsupport.html)를 참조하십시오.
 
-연결된 계정이 없으면 일반 기술 문제에 대해 또는 계정과 관련된 문제를 지원 받기 위해 {{site.data.keyword.BluSoftlayer_full}} 인프라 고객 포털에서 지원 티켓을 열 수 있습니다. 
+연결된 계정이 없으면 일반 기술 문제에 대해 또는 계정과 관련된 문제를 지원 받기 위해 {{site.data.keyword.BluSoftlayer_full}} 인프라 고객 포털에서 지원 티켓을 열 수 있습니다.
 
 ## 일반 기술 지원 티켓 작성
 {: #cp_creatsuptickwsp}
 
-다음 단계를 사용하여 고객 포털에서 일반 기술 문제에 대해 {{site.data.keyword.BluSoftlayer_full}} 인프라 티켓을 열 수 있습니다. 
+다음 단계를 사용하여 고객 포털에서 일반 기술 문제에 대해 {{site.data.keyword.BluSoftlayer_full}} 인프라 티켓을 열 수 있습니다.
 
 1. 고유 신임 정보를 사용하여 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}에 로그인하십시오.
 2. 메뉴에서 **지원** > **티켓 추가**를 선택하십시오.
@@ -71,11 +71,11 @@ lastupdated: "2018-02-23"
 ## 계정 문제에 대한 티켓 작성
 {: #cp_creatacctsuptickwsp}
 
-일반 기술 지원 문제에 대해 티켓을 연 것과 유사하게(한 개의 차이점을 제외하면), 고객 포털에서 계정과 관련된 문제를 지원 받기 위해 {{site.data.keyword.BluSoftlayer_full}} 인프라 티켓을 열 수 있습니다.   
+일반 기술 지원 문제에 대해 티켓을 연 것과 유사하게(한 개의 차이점을 제외하면), 고객 포털에서 계정과 관련된 문제를 지원 받기 위해 {{site.data.keyword.BluSoftlayer_full}} 인프라 티켓을 열 수 있습니다.  
 
-[고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}에 로그인하고 **지원** > **티켓 추가**를 선택한 후, 티켓이 올바른 지원 팀으로 라우팅되어 빠르게 해결될 수 있도록 확인해야 합니다. 계정 문제를 처리하기 위해 티켓을 올바르게 라우트하려면 **주제** 목록에서 **계정 요청**을 선택하십시오. 
+[고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}에 로그인하고 **지원** > **티켓 추가**를 선택한 후, 티켓이 올바른 지원 팀으로 라우팅되어 빠르게 해결될 수 있도록 확인해야 합니다. 계정 문제를 처리하기 위해 티켓을 올바르게 라우트하려면 **주제** 목록에서 **계정 요청**을 선택하십시오.
 
-일반 기술 지원에 대한 티켓을 작성하고 티켓을 제출하려면 티켓의 나머지 부분을 완료하십시오. **주제**를 **계정 요청**으로 설정하고 티켓에 올바른 지원 팀이 지정되면 문제를 빠르게 해결하는 데 도움이 될 수 있습니다. 
+일반 기술 지원에 대한 티켓을 작성하고 티켓을 제출하려면 티켓의 나머지 부분을 완료하십시오. **주제**를 **계정 요청**으로 설정하고 티켓에 올바른 지원 팀이 지정되면 문제를 빠르게 해결하는 데 도움이 될 수 있습니다.
 
 ## 기존 티켓 보기
 {: #cp_viewsuptickwsp}
