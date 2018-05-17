@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -66,7 +66,7 @@ You can open {{site.data.keyword.BluSoftlayer_full}} infrastructure tickets for 
 
 11. Click **Add Ticket**.
 
-After you add a ticket, it is routed to the appropriate member of the Support team for resolution. Tickets are handled based on the degree of severity, meaning that the most severe issues, such as outages, are handled first, followed by service degrading issues, and then questions. A member of the Support team will be in contact with the assignees regarding additional information to resolve the ticket.
+After you add a ticket, it is routed to the appropriate member of the support team for resolution. Tickets are handled based on the degree of severity, meaning that the most severe issues, such as outages, are handled first, followed by service degrading issues, and then questions. A member of the support team will be in contact with the assignees regarding additional information to resolve the ticket.
 
 ## Creating a ticket for account issues
 {: #cp_creatacctsuptickwsp}
@@ -102,12 +102,12 @@ You can update an existing support ticket at any time to include additional comm
   * Attach a File: click **Attach Files** and select the files to be attached to the ticket. You can attach up to two (2) files to a ticket.
 6. Click **Update**.
 
-  At any time during the update process, you can open a chat session with a Support team member for assistance. Click **Start Chat** to open the chat session.
+  At any time during the update process, you can open a chat session with a support team member for assistance. Click **Start Chat** to open the chat session.
   {:tip}
 
-If you reassign the ticket, the new assignee becomes the primary point of contact for issue resolution. If you add a comment or attachment, the Support team member working on the ticket reviews the new information to assist in issue resolution.
+If you reassign the ticket, the new assignee becomes the primary point of contact for issue resolution. If you add a comment or attachment, the support team member working on the ticket reviews the new information to assist in issue resolution.
 
-## Escalating a support case
+## Escalating a support ticket
 {: #cp_bpsupescalflow}
 
-You can request further assistance by escalating your case. See [Escalating support tickets](/docs/get-support/quicktickresp.html#escalation) for more information.
+You can request further assistance by escalating your ticket. See [Escalating support tickets](/docs/get-support/quicktickresp.html#escalation) for more information.
