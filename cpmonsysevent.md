@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-01-11"
 
 ---
 
@@ -41,4 +41,4 @@ Access Logs display data for each access attempt made by a specific customer por
 2. Select **Account** > **Users** from the menu bar to access the Users window.
 3. From **Actions** drop down list, select **View Audit Log** to view the user's access log.
 
-The access log for each user displays the access attempts made by that user by date, along with the IP address from which the access attempt was made. Information within the access log is read-only, so edits to the content cannot be made at any time. You can view the access logs again at any time by repeating the previous steps. To exit the logs and return to the Users screen, click the **View All Users** link at the top of the screen.
+The access log for each user displays the access attempts made by that user by date, along with the IP address from which the access attempt was made. Information within the access log is read-only, so edits to the content cannot be made at any time. You can view the access logs again at any time by repeating the previous steps. To exit the logs and return to the Users screen, click the **View All Users** link.
