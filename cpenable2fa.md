@@ -83,7 +83,7 @@ After you add PhoneFactor, you must manually activate external authentication wi
 
 After activating PhoneFactor, authentication through PhoneFactor is required by the customer portal or VPN. After authenticating with the user credentials, a message tells you that PhoneFactor authentication is being attempted. You, or the user you are adding, must be near the phone listed with PhoneFactor in order to complete authentication. PhoneFactor attempts to authenticate five times. After five unsuccessful authentication attempts, you are locked out for approximately one hour. You, or a user with administrative access to the account, can change the PhoneFactor authentication settings at any time.  You, or an administrator of the account, can deactivate PhoneFactor at any time.
 
- If you choose to set up PhoneFactor for the customer portal and your VPN login, the 2FA for each is separate.
+ If you choose to set up PhoneFactor for the customer portal and your VPN login, there are two separate 2FA login processes, one for the customer portal, and another for VPN.
  {: tip}
 
 #### PhoneFactor authentication methods
