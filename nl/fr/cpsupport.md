@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-23"
 Si vous rencontrez des problèmes lors de l'utilisation de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} et que vous ne disposez pas d'un compte lié, vous pouvez utiliser le portail client pour vous aider à déterminer la cause de ces problèmes et trouver une solution.
 {:shortdesc}
 
-Si vous possédez un [compte lié](/docs/account/softlayerlink.html#link_user_accounts), vous pouvez obtenir de l'aide au moyen de la console {{site.data.keyword.Bluemix}}. Pour plus d'informations, voir [Support client](/docs/get-support/howtogetsupport.html).
+Si vous possédez un [compte lié](/docs/account/softlayerlink.html#link_user_accounts), vous pouvez obtenir de l'aide au moyen de la console {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, voir [Support client](/docs/get-support/howtogetsupport.html).
 
 Si vous ne possédez pas de compte lié, vous pouvez ouvrir des tickets de demande de service dans le portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} pour signaler des problèmes techniques d'ordre général ou pour obtenir de l'aide dans la résolution des problèmes liés à votre compte.
 
@@ -107,20 +107,7 @@ Vous pouvez à tout moment mettre à jour un ticket de demande de service exista
 
 Si vous réaffectez le ticket, le nouveau cessionnaire devient le point de contact principal pour la résolution du problème. Si vous ajoutez un commentaire ou une pièce jointe, le membre de l'équipe de support qui travaille sur le ticket examine les nouvelles informations pour aider à la résolution du problème.
 
-## Escalade d'un problème au support
+## Escalade d'un cas de support
 {: #cp_bpsupescalflow}
 
-Si vous avez besoin d'aide pour résoudre un problème, vous pouvez ouvrir un ticket de demande de service.  Si le problème est critique ou urgent et que vous avez besoin de faire remonter le problème, utilisez la procédure suivante.
-
-1. Ouvrez un ticket de demande de service depuis le portail client, une discussion ou par téléphone (866-403-7638).
-
-  Lorsque vous créez ou mettez à jour un ticket, incluez toute erreur, journal ou traitement appliqué car cela peut aider à résoudre plus rapidement le problème.
-  {: tip}
-
-2. Travaillez avec l'équipe de support de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} sur le ticket.  Si, par exemple, l'équipe de support demande des informations complémentaires, répondez aussi rapidement que possible.
-3. Si la progression du ticket semble bloquée, vous pouvez escalader depuis le ticket en fournissant un commentaire, par exemple *"merci de faire remonter ce ticket en raison de l'impact client"*, ou en utilisant la discussion ou le téléphone.
-4. Si le ticket ne progresse pas après la demande initiale, vous pouvez le faire remonter au superviseur du support en demandant l'escalade dans le ticket.
-5. Si vous ne voyez toujours pas de progression après avoir demandé de l'aide au superviseur, vous pouvez envoyer un et-mail à l'équipe de gestion du support à l'adresse Notify-Support-WW@wwpdl.vnet.ibm.com.
-
-Cette liste de distribution notifie toute l'équipe de gestion du support de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour garantir que les ressources appropriés sont consacrées à la résolution de votre problème.
-{:tip}
+Vous pouvez demander une assistance supplémentaire en faisant remonter votre cas. Pour plus d'informations, voir [Escalade de tickets de demande de service](/docs/get-support/quicktickresp.html#escalation). 

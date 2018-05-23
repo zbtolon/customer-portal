@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,9 +27,9 @@ Les questions les plus fréquentes suivantes sont liées à la gestion des probl
 
 Si vous utilisez IBMid pour l'authentification, lorsque vous validez votre première commande ou que vous êtes ajouté en tant qu'utilisateur à un compte, vous recevez un e-mail comportant un lien pour vous permettre de débuter avec votre IBMid. Si vous perdez ou oubliez votre nom ou votre mot de passe, accédez à votre [profil IBMid ![Icône de lien externe](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} et réinitialisez ou récupérez le mot de passe en suivant les instructions fournies après le processus de connexion. Vous serez invité à entrer des informations spécifiques, lesquelles peuvent inclure des réponses à vos questions de sécurité.
 
-Si vous n'utilisez PAS IBMid pour l'authentification, lorsque vous validez votre première commande ou que êtes ajouté en tant qu'utilisateur à un compte de [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, vous recevez un e-mail contenant votre nom d'utilisateur et votre mot de passe initial pour débuter sur le portail client. Veillez à changer votre mot de passe après vous être connecté pour la première fois en [éditant votre profil utilisateur](edit-user-profile.html).
+Si vous n'utilisez PAS IBMid pour l'authentification, lorsque vous validez votre première commande ou que êtes ajouté en tant qu'utilisateur à un compte de [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, vous recevez un e-mail contenant votre nom d'utilisateur et votre mot de passe initial pour débuter sur le portail client. Prenez soin de changer votre mot de passe après vous être connecté pour la première fois en éditant votre profil utilisateur. Afin de modifier votre mot de passe, connectez-vous avec les informations contenues dans le courrier électronique et cliquez sur votre nom d'utilisateur dans le panneau supérieur pour éditer votre profil. 
 
-Si vous oubliez votre mot de passe après votre première connexion, utilisez la fonction de **mot de passe oublié** disponible sur l'écran de connexion du [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Vous serez invité à entrer des informations spécifiques, notamment répondre à un ensemble de questions de sécurité spécifiées lors de l'[édition de votre profil utilisateur](edit-user-profile.html).
+Si vous oubliez votre mot de passe après votre première connexion, utilisez la fonction de **mot de passe oublié** disponible sur l'écran de connexion du [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Vous serez invité à entrer des informations spécifiques, et notamment à répondre à un ensemble de questions de sécurité que vous avez spécifiées lors de la configuration de votre profil utilisateur. 
 
 Si vous oubliez votre nom d'utilisateur, contactez votre administrateur de compte ou utilisateur principal, qui dispose des droits pour extraire votre nom d'utilisateur. Si vous êtes l'administrateur ou l'utilisateur principal sur le compte, contactez le support pour une aide supplémentaire.
 
@@ -106,7 +106,7 @@ Si vous avez suivi l'assistant pour passer à IBMid et n'avez pas reçu l'e-mail
 ## Est-ce que je disposerai de droits d'accès de l'utilisateur root complets à mon compte ?
 {: #bicp_fullrootaccaccess}
 
-Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateur possèdent des droits d'accès root complets sur le portail client et l'API. L'accessibilité des utilisateurs dotés de droits d'administrateur est contrôlée par les utilisateurs ayant un rôle administratif. Ces droits peuvent être mis à jour à tout moment en [éditant le profil utilisateur](edit-user-profile.html) sur le portail client.
+Les utilisateurs principaux et les utilisateurs dotés de droits d'administrateur possèdent des droits d'accès root complets sur le portail client et l'API. L'accessibilité des utilisateurs dotés de droits d'administrateur est contrôlée par les utilisateurs ayant un rôle administratif. Ces droits peuvent être mis à jour par des administrateurs à partir du portail client en [éditant un profil utilisateur](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Si vous ne disposez pas de droits d'administrateur, vous pouvez éditer votre profil utilisateur dans le portail client en cliquant sur votre nom d'utilisateur dans le panneau supérieur. 
 
 
 ## Puis-je lier un compte d'abonnement {{site.data.keyword.Bluemix_notm}} ?
@@ -131,7 +131,7 @@ Le profil de société correspond aux informations soumises lors de la création
 
 Les mots de passe d'appareil et de logiciel sont stockés à deux emplacements sur le [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Pour extraire les donnée d'identification de l'appareil, y compris le nom d'utilisateur root ou administrateur et les mots de passe pour {{site.data.keyword.baremetal_short}} et {{site.data.keyword.virtualmachinesshort}}, voir la rubrique sur l'[interaction avec un appareil dans la vue Instantané](/docs/vsi/vsi_interact_device_snapshot_view.html). Pour rapidement afficher et extraire les données d'identification du logiciel qui sont manuellement suivies via le portail client, voir la rubrique sur la [gestion des accès à l'équipement](/docs/vsi/vsi_device_access.html).
 
-##Comment garder mes données Web synchronisées ?
+## Comment garder mes données Web synchronisées ?
 {: #bicp_webdatasync}
 
 Bien que vous soyez responsable de la conservation de la cohérence des données entre les serveurs réels, {{site.data.keyword.BluSoftlayer_full}} fournit un réseau privé que vous pouvez utiliser pour la synchronisation sans frais d'utilisation.
@@ -145,4 +145,4 @@ Le système de gestion d'événements est un outil qui optimise la façon dont {
 ## Comment et où puis-je annuler un équipement ?
 {: #bicp_candev}
 
-Vous pouvez à tout moment annuler un appareil via le [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Voir la rubrique relative à l'[annulation d'appareil](/vsi/vsi_managing.html) pour plus d'informations sur l'exécution d'une demande d’annulation.
+Vous pouvez à tout moment annuler un appareil via le [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Voir la rubrique relative à l'[annulation d'appareil](/docs/vsi/vsi_managing.html) pour plus d'informations sur l'exécution d'une demande d’annulation.

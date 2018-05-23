@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -29,7 +29,7 @@ Au minimum, utilisez la surveillance de base par commande ping. Vous avez néanm
 ### Etre tenu informé de la maintenance réseau et des événements imprévus
 {: #cp_stayinfomaintevent}
 
-De temps en temps, des opérations de maintenance réseau planifiées et urgentes sont inévitables. L'infrastructure {{site.data.keyword.BluSoftlayer_full}} gère de nombreux canaux, comme un [compte Twitter ![Icône de lien externe](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, afin de vous tenir informé de tous les événements de maintenance planifié et d'urgence. En outre, vous pouvez vous [abonner aux notifications par e-mail](/docs/customer-portal/cpsub2not.html) depuis le système de gestion d'événements. Ce service gratuit envoie automatiquement des courriers électroniques aux utilisateurs abonnés concernant les événements imprévus qui peuvent impacter des services.
+De temps en temps, des opérations de maintenance réseau planifiées et urgentes sont inévitables. L'infrastructure {{site.data.keyword.BluSoftlayer_full}} gère de nombreux canaux afin de vous tenir informé de tous les événements de maintenance planifié et d'urgence. En outre, vous pouvez vous [abonner aux notifications par e-mail](/docs/customer-portal/cpsub2not.html) depuis le système de gestion d'événements. Ce service gratuit envoie automatiquement des courriers électroniques aux utilisateurs abonnés concernant les événements imprévus qui peuvent impacter des services.
 
 ### Utilisation du dispositif mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}

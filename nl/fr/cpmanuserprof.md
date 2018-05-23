@@ -4,10 +4,9 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-01"
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -91,75 +90,8 @@ Les droits utilisateur sont mis à jour immédiatement après que vous avez soum
 ## Ajout d'authentification externe pour un utilisateur
 {: #cp_addextauthuser}
 
-Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs pour ajouter une protection supplémentaire lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte des accès non vérifié en garantissant que les appareils, données et les informations de compte sont protégés. Cette authentification externe est disponible sous les formes suivantes :
+Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs pour ajouter une protection supplémentaire lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte des accès non vérifié en garantissant que les appareils, données et les informations de compte sont protégés. Pour plus d'informations, voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal/cpenable2fa.html#customerportal_2fa). 
 
-* **Symantec Identity Protection** est l'outil d'authentification externe le plus couramment utilisé et offre un code de sécurité dynamique utilisé en plus des nom d'utilisateur et mot de passe lors de l'accès au portail client.
-* L'authentification **PhoneFactor** offre une authentification d'utilisateur externe depuis un téléphone, un SMS ou une application mobile. PhoneFactor requiert un numéro de téléphone valide auquel vous devez avoir accès à chaque fois que vous tentez de vos authentifier.
-
-Vous pouvez ajouter les deux méthodes d'authentification externe, par utilisateur, pour un [faible coût mensuel ![Icône de lien externe](../icons/launch-glyph.svg)](http://www.softlayer.com/services/security/){:new_window}. Utilisez la procédure suivante pour ajouter une authentification externe pour un utilisateur du portail client.
-
-1. Accédez au portail client à l'aide de vos données d'identification uniques.
-2. Sélectionnez **Compte > Utilisateurs** dans la barre de navigation.
-3. Sélectionnez **Ajouter authentification externe** depuis la liste **Actions** de l'utilisateur.
-4. Sélectionnez le type d'authentification externe à commander.
-  * **Symantec Identity Protection** -- Entrez l'ID des données d'identification de l'utilisateur dans la zone **Données d'Identification**.
-  * **PhoneFactor** -- Choisissez une [méthode d'authentification](#cp_phonefacauthmeths).
-5. Cliquez sur **Continuer**
-6. Suivez les invites à l'écran pour le **Code Promo** et **MSA Acknowledgement**.
-7. Cliquez sur **Commander Module d'Authentification Externe** pour terminer la commande.
-
-Après que vous avez ajouté l'authentification externe pour un utilisateur, les prochaines étapes dépendent du type d'authentification.
-* Si Symantec Identity Protection est activé, vous devez ajouter le code de sécurité associé à l'ID de données d'identification de l'utilisateur de l'utilisateur qui a été entré dans le système au moment où Symantec Identity Protection a été ajouté au compte.
-* Si PhoneFactor est activé, l'utilisateur doit [activer PhoneFactor](#cp_actphonefacauth) pour utiliser ce type d'authentification à deux facteurs avec le compte.
-
-### Activation de l'authentification PhoneFactor
-{: #cp_actphonefacauth}
-
-Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'authentification externe avec PhoneFactor via le portail client. Parce que PhoneFactor utilise le contact manuel, il est important de s'assurer que tous les numéros de téléphone associés au compte restent toujours à jour. Si les informations de contact ne sont pas mise à jour, vous risquez de ne pas pouvoir accéder au portail client et au VPN quand PhoneFactor est actif. Une fois que PhoneFactor a été ajouté, vous recevez un e-mail de confirmation de l'ajout de PhoneFactor. Une fois l'e-mail reçu, utilisez la procédure suivante pour activer l'authentification PhoneFactor.
-
-1. Accédez au portail client à l'aide de vos données d'identification uniques.
-2. Sélectionnez **Compte > Utilisateurs** dans la barre de navigation.
-3. Cliquez sur le nom d'utilisateur pour accéder au profil utilisateur associé pour cet utilisateur.
-4. Faites défiler jusqu'à la section **Paramètres PhoneFactor**.
-
-  Si la section Paramètres PhoneFactor n'est pas disponible, commencez par vérifier que vous avez bien reçu l'e-mail indiquant la mise à disposition de PhoneFactor. Si PhoneFactor a été mis à disposition mais que la section n'est pas disponible, créez un ticket de demande de service. Si PhoneFactor n'a pas encore été mis à disposition, attendez de recevoir l'e-mail puis réessayez. Si PhoneFactor n'a pas encore été ajouté, voir [Ajout d'une authentification externe pour un utilisateur](/docs/customer-portal/cpmanuserprof.html#cp_addextauthuser).
-  {: tip}
-
-5. Sélectionnez **Actif** dans la liste **Statut**.
-6. Editez le **numéro de téléphone principal** pour l'authentification.
-  1. Cliquez sur le lien **Editer**.
-  2. Entrez les **Code pays**, **Numéro de téléphone** et **Extension**, le cas échéant, dans les zones associées.
-  3. Cliquez sur **Authentifier et sauvegarder le numéro** pour terminer l'authentification;
-
-    Lors de l'ajout d'un numéro de téléphone pour l'authentification, vous devez être à côté du téléphone. Une fois que vous avez cliqué sur **Authentifier**, le numéro est appelé et vous êtes invité à exécuter une étape pour authentifier le numéro. Les numéros de téléphone ne peuvent pas être authentifiés sans l'exécution de ces étapes.
-    {: tip}
-
-  4. Pour ajouter un **Numéro de téléphone secondaire**, répétez la procédure.
-7. Sélectionnez la **méthode de contact** dans la liste **Méthode**.
-8. Sélectionnez un **Type de code confidentiel** dans la liste **Type de code confidentiel**.
-9. Si vous sélectionnez **Unique** > **Valeur de code confidentiel**, entrez le code confidentiel dans la zone **Valeur de code confidentiel**.
-10. Cliquez sur **Mettre à jour** pour mettre à jour les changements et activer l'authentification PhoneFactor.
-
-Une fois que PhoneFactor est activé, l'authentification via PhoneFactor est obligatoire pour le portail client ou le VPN. Après l'authentification avec les données d'identification de l'utilisateur, un message vous indique que l'authentification PhoneFactor est en cours. Vous, ou l'utilisateur que vous ajoutez, devez être à proximité du téléphone indiqué pour PhoneFactor afin de compléter l'authentification. PhoneFactor tente de vous authentifier cinq fois. Au bout de cinq tentatives infructueuses, vous êtes verrouillé pendant environ une heure. Vous, ou un utilisateur dotés d'un accès administrateur au compte, pouvez à tout moment changer les paramètres d'authentification PhoneFactor.  Vous, ou un administrateur du compte, pouvez à tout moment désactiver PhoneFactor.
-
-#### Méthodes d'authentification PhoneFactor
-{: #cp_phonefacauthmeths}
-
-Si vous configurez PhoneFactor comme type d'authentification, vous pouvez choisir l'une des options suivantes comme méthode d'authentification :
-<dl>
-<dt>Appel téléphonique et standard (pas de code confidentiel)</dt>
-<dd>Avec cette option, lorsque vous vous connectez au portail, vous recevez un appel téléphonique sur le numéro principal activé. Lorsque vous répondez à l'appel, il vous est demandé d'appuyer sur la touche dièse (#) pour terminer l'authentification.</dd>
-<dt>Appel téléphonique avec code confidentiel</dt>
-<dd>Avec cette option, vous entrez une valeur de code confidentiel sur le portail client. La code confidentiel doit comporter entre 4 et 8 chiffres. Lorsque vous essayez de vous connecter au portail, vous recevez un appel sur le numéro de téléphone principal figurant sur le portail. Quand vous répondez, il vous est demandé d'appuyer sur la touche dièse (#) pour terminer l'authentification.</dd>
-<dt>SMS et code confidentiel unique</dt>
-<dd>Avec cette option, vous recevez un message texte avec un code confidentiel à utiliser pour répondre au message. Quand vous entrez le code confidentiel fourni, le processus d'authentification aboutit et vous connecte au portail.</dd>
-<dt>SMS avec valeur de code confidentiel unique</dt>
-<dd>Avec cette option, vous créez une valeur de code confidentiel comportant de 4 à 8 chiffres. Lorsque vous recevez un message texte, vous répondez avec le code fourni et votre numéro de code confidentiel sans espaces.</dd>
-<dt>Application PhoneFactor et standard (pas de code confidentiel)</dt>
-<dd>Ouvrez l'application PhoneFactor (Azure Authenticator) sur votre appareil et cliquez sur <strong>Authentifier</strong>. Un message s'affiche pour indiquer que vous vous êtes authentifié à l'aide de PhoneFactor et vous êtes connecté au portail.</dd>
-<dt>Application PhoneFactor avec code confidentiel</dt>
-<dd>Avec cette option, vous définissez un code confidentiel, entre 4 et 8 chiffres, sur le portail. Vous ouvrez ensuite l'application PhoneFactor (Azure Authenticator) sur votre appareil. Vous entrez ensuite votre code confidentiel créé sur le portail et cliquez sur <strong>Authentifier</strong> pour vous connecter au portail.</dd>
-</dl>
 
 ## Changement du statut d'un utilisateur
 {: #cp_changeuserstat}
@@ -187,6 +119,7 @@ Utilisez la procédure suivante pour changer le statut d'un utilisateur dans le 
 5. Cliquez sur **Enregistrer**.
 
 Après que vous avez mis à jour le statut d'un utilisateur, les modifications apportées à l'accessibilité du portail client s'alignent sur le nouveau statut.
+
 
 ## Edition de l'accès VPN d'un utilisateur
 {: #cp_edituservpnaccess}
@@ -216,15 +149,16 @@ Une connexion PPTP vous est allouée avec des connexions supplémentaires dispon
 3. Dans la colonne **Accès VPN** de l'utilisateur, cliquez sur le lien du type d'accès en cours pour afficher la fenêtre Accès VPN.
 4. Dans la liste **Type de VPN**, sélectionnez une méthode VPN (SSL, PPTP, SSL & PPTP, ou aucune) à affecter à l'utilisateur.
 
+
 ## Sélection de notifications par courrier électronique
 {: #cp_select-email-notifications}
 
-Vous pouvez sélectionner les notifications par courrier électronique que vous souhaitez recevoir de la part de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} et celles que vous ne souhaitez pas recevoir. Par défaut, vous recevez toutes les notifications par courrier électronique, mais vous pouvez les modifier à tout moment. Pour modifier vos paramètres de notification par courrier électronique, procédez comme suit : 
+Vous pouvez sélectionner les notifications par courrier électronique que vous souhaitez recevoir de la part de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} et celles que vous ne souhaitez pas recevoir. Par défaut, vous recevez toutes les notifications par courrier électronique, mais vous pouvez les modifier à tout moment. Pour modifier vos paramètres de notification par courrier électronique, procédez comme suit :
 1. Accédez au portail client à l'aide de vos données d'identification uniques pour le compte associé à l'adresse électronique destinataire des notifications.
-2. Cliquez sur **Compte** > **Utilisateurs** > **Préférences de courrier électronique** dans la barre de menus. 
-3. Dans la liste de types de notification, décochez la zone en regard des notifications que vous ne souhaitez plus recevoir. 
+2. Cliquez sur **Compte** > **Utilisateurs** > **Préférences de courrier électronique** dans la barre de menus.
+3. Dans la liste de types de notification, décochez la zone en regard des notifications que vous ne souhaitez plus recevoir.
 
-Vos modifications sont sauvegardées automatiquement. Ces paramètres affectent le courrier électronique qui vous est envoyé, mais ils n'ont aucun impact sur les notifications par courrier électronique des autres utilisateurs de votre compte. 
+Vos modifications sont sauvegardées automatiquement. Ces paramètres affectent le courrier électronique qui vous est envoyé, mais ils n'ont aucun impact sur les notifications par courrier électronique des autres utilisateurs de votre compte.
 
 
 ## Définition de l'option Support dans l'Union européenne

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,7 +27,8 @@ En fonction de votre accès, vous pouvez gérer votre compte SoftLayer ou les co
   * Si vous êtes l'utilisateur principal du compte, vous pouvez voir tous les utilisateurs associés au compte.
 
   Si vous devez partager les identifiants de connexion principaux de votre compte, faites-le avec prudence. Votre connexion principale contrôle chaque aspect de votre compte et doit être protégée. Pour permettre à d'autres utilisateurs de se servir du portail client, vous configurez des utilisateurs individuels ou basés sur des permissions. Vous disposez ainsi d'un contrôle maximal sur les personnes pouvant interagir avec certains aspects de votre compte.
-  {:tip}
+{:tip}
+
   * Si vous disposez d'un accès administrateur, vous pouvez voir tous les utilisateurs que vous avez créés et, si vous leur avez donné le droit d'administrer d'autres utilisateurs, vous pouvez également voir les utilisateurs qu'ils ont créés. Vous pouvez également exécuter des actions sur tout utilisateur associé au compte, y compris éditer l'accès au portail client, changer le statut utilisateur ou retirer des utilisateurs.
   * Si vous n'êtes pas l'utilisateur principal du compte, et si vous ne disposez pas d'un accès administrateur, seul votre profil s'affiche.  Vous pouvez interagir avec votre propre compte, notamment en affichant la clé d'API, en éditant l'accès au VPN ou en ajoutant une authentification externe.
 
@@ -48,7 +49,7 @@ Utilisez la procédure suivante pour ajouter un utilisateur à un compte :
 5. Renseignez les zones requises à la section **Paramètres de connexion**, notamment en indiquant si les paramètres peuvent ou non être édités par l'utilisateur, si l'adresse IP est restreinte, et si l'utilisateur doit ou non configurer et utiliser des questions de sécurité. En outre, pour les personnes n'utilisant pas d'IBMid, vous pouvez définir la durée avant expiration du mot de passe.
 **Remarques :**
 * Si vous utiliser IBMid pour l'authentification mettez à jour les mots de passe dans vos [profils IBMid ![Icône de lien externe](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} en suivant les instructions sous l'**ouverture de session**.
-* Cochez la case du **mot de passe de l'utilisateur du portail pour VPN** pour synchroniser les mots de passe VPN et du portail client.
+* Cochez la case **Utiliser le mot de passe du portail pour le VPN** pour synchroniser les mots de passe du portail client et du réseau privé virtuel. 
 6. Cliquez sur **Ajouter un utilisateur**.
 
 Après que vous avez créé un compte pour un utilisateur, l'utilisateur reçoit une notification par e-mail pour terminer la configuration de son compte en définissant un mot de passe et, éventuellement des questions de sécurité si vous avez indiqué qu'elles étaient obligatoires.
