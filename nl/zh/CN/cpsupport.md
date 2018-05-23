@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-23"
 如果遇到 {{site.data.keyword.BluSoftlayer_full}} 基础架构问题，并且没有链接的帐户，那么可以使用客户门户网站来获取有关确定问题原因并查找相应解决方案的帮助。
 {:shortdesc}
 
-如果您有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)，那么可以通过 {{site.data.keyword.Bluemix}} 控制台来获得支持。有关更多信息，请参阅[获取客户支持](/docs/get-support/howtogetsupport.html)。
+如果您有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)，那么可以通过 {{site.data.keyword.Bluemix_notm}} 控制台来获得支持。有关更多信息，请参阅[获取客户支持](/docs/get-support/howtogetsupport.html)。
 
 
 如果您没有链接的帐户，那么可以在 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户门户网站中开具支持凭单，以解决常规技术问题或者帮助解决与帐户相关的问题。
@@ -58,12 +58,12 @@ lastupdated: "2018-02-23"
   您可以向一张凭单附加最多两个文件。
   {:tip}
 
-10. 如果您是位于欧洲的客户，并且您要求处理您的凭单的支持团队也必须位于欧洲，请从**支持 EU** 列表中选择数据中心。
+10. 如果您是位于欧洲的客户，并且您要求处理您的凭单的支持团队也必须位于欧洲，请从**欧盟支持**列表中选择数据中心。
 
   如果您不要求支持团队实际身处欧洲，请选择**无**。
   {: tip}
 
-  有关为您的帐户初始化此功能的信息，请参阅[设置支持 EU 选项](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported)。
+  有关为您的帐户初始化此功能的信息，请参阅[设置欧盟支持选项](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported)。
 
 11. 单击**添加凭单**。
 
@@ -74,7 +74,7 @@ lastupdated: "2018-02-23"
 
 您可以在客户门户网站中开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构凭单，以帮助解决与帐户相关的问题，方法类似于针对常规技术支持问题开具凭单，但有一个重要差异。  
 
-登录到[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}，并选择**支持** > **添加凭单**后，必须确保将该凭单发送给正确的支持团队，从而可以快速加以解决。要正确发送凭单以处理帐户问题，请从**主题**列表中选择**帐户请求**。
+登录到[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}，并选择**支持** > **添加凭单**后，必须确保将该凭单发送给正确的支持团队，从而可以快速加以解决。要正确传递凭单以处理帐户问题，请从**主题**列表中选择**帐户请求**。
 
 填写凭单的剩余部分，这部分与针对常规技术支持创建凭单并提交该凭单一样。将**主题**设置为**帐户请求**后，凭单会分配给正确的支持团队，从而可以快速帮助解决问题。
 
@@ -108,20 +108,7 @@ lastupdated: "2018-02-23"
 
 如果重新分配了凭单，那么新的受让人将成为问题解决的主要联系点。如果添加了注释或附件，那么处理凭单的支持团队成员将查看新信息以协助解决问题。
 
-## 上报支持凭单
+## 上报支持案例
 {: #cp_bpsupescalflow}
 
-如果您有需要帮助解决的问题，可以开具支持凭单。如果问题严重或紧急，并且需要上报该问题，请使用以下步骤。
-
-1. 通过客户门户网站、交谈或电话 (866-403-7638) 来开具支持凭单。
-
-  创建或更新凭单时，请包含发生的所有错误、日志或故障诊断，因为这将有助于更快解决问题。
-  {: tip}
-
-2. 与 {{site.data.keyword.BluSoftlayer_notm}} 基础架构支持团队合作处理凭单。例如，如果支持团队要求提供其他信息，您应该尽快予以响应。
-3. 如果凭单处理进度迟滞，那么可以通过在凭单中提供类似“*因客户影响，请上报此凭单*”的注释，或者通过交谈或电话进行上报。
-4. 如果在初始请求后凭单没有进展，您可以通过在凭单中请求此上报，将其上报到支持主管。
-5. 如果在向支持主管请求帮助后，仍然无法获得所需的进展，可以通过电子邮件联系支持管理团队：Notify-Support-WW@wwpdl.vnet.ibm.com。
-
-此分发列表将通知 {{site.data.keyword.BluSoftlayer_notm}} 基础架构支持管理团队的所有成员，以确保利用所有合适资源来解决您的问题。
-{:tip}
+您可以上报您的案例来请求进一步的帮助。有关更多信息，请参阅[上报支持凭单](/docs/get-support/quicktickresp.html#escalation)。

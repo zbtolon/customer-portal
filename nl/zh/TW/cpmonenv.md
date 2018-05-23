@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -29,7 +29,7 @@ lastupdated: "2018-03-07"
 ### 隨時接收網路維護及非計劃性事件的通知
 {: #cp_stayinfomaintevent}
 
-有時候，排定及緊急網路維護是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基礎架構會維護許多通道（例如 [Twitter 帳戶 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}），讓您可以收到所有排定及緊急維護事件的通知。此外，您還可以從「事件管理系統」中[訂閱電子郵件通知](/docs/customer-portal/cpsub2not.html)。此增補服務會自動將有關可能影響服務之非計劃性事件的電子郵件傳送給訂閱的使用者。
+有時候，排定及緊急網路維護是不可避免的。{{site.data.keyword.BluSoftlayer_full}} 基礎架構會維護許多通道，讓您可以收到所有排定及緊急維護事件的通知。此外，您還可以從「事件管理系統」中[訂閱電子郵件通知](/docs/customer-portal/cpsub2not.html)。此增補服務會自動將有關可能影響服務之非計劃性事件的電子郵件傳送給訂閱的使用者。
 
 ### 使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構行動
 {: #cp_bmxinframobile}

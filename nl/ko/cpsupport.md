@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-23"
 {{site.data.keyword.BluSoftlayer_full}} 인프라에서 문제점을 경험하고 연결된 계정이 없는 경우 고객 포털을 사용하여 문제점의 원인을 판별하고 솔루션을 찾는 데 도움을 받을 수 있습니다.
 {:shortdesc}
 
-[링크된 계정](/docs/account/softlayerlink.html#link_user_accounts)이 있으면 {{site.data.keyword.Bluemix}} 콘솔을 통해 지원을 받을 수 있습니다. 자세한 정보는 [고객 지원 받기](/docs/get-support/howtogetsupport.html)를 참조하십시오.
+[링크된 계정](/docs/account/softlayerlink.html#link_user_accounts)이 있으면 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 지원을 받을 수 있습니다. 자세한 정보는 [고객 지원 받기](/docs/get-support/howtogetsupport.html)를 참조하십시오.
 
 연결된 계정이 없으면 일반 기술 문제에 대해 또는 계정과 관련된 문제를 지원 받기 위해 {{site.data.keyword.BluSoftlayer_full}} 인프라 고객 포털에서 지원 티켓을 열 수 있습니다.
 
@@ -107,20 +107,7 @@ lastupdated: "2018-02-23"
 
 티켓을 재지정하는 경우 새 담당자가 문제 해결을 위한 1차 연락 지점이 됩니다. 주석 또는 첨부 파일을 추가하는 경우 티켓에서 작업하는 팀 구성원이 문제 해결을 지원하기 위한 새 정보를 검토합니다.
 
-## 지원 문제 에스컬레이션
+## 지원 케이스 에스컬레이션
 {: #cp_bpsupescalflow}
 
-문제 해결을 위해 도움이 필요한 경우 지원 티켓을 열 수 있습니다.  문제가 심각하거나 긴급하여 문제점을 에스컬레이션해야 하는 경우 다음 단계를 수행하십시오.
-
-1. 고객 포털, 대화 또는 전화(866-403-7638)에서 지원 티켓을 여십시오.
-
-  티켓을 작성하거나 업데이트하는 경우 문제를 좀 더 빠르게 해결하는 데 도움이 되도록 발생한 오류, 로그 또는 문제점 해결을 포함하십시오.
-  {: tip}
-
-2. 티켓에서 {{site.data.keyword.BluSoftlayer_notm}} 인프라 지원 팀과 함께 작업하십시오.  예를 들어, 지원 팀이 추가 정보를 요구하는 경우 가능한 빨리 응답하십시오.
-3. 티켓에 대한 진행상태가 중지된 경우 주석(예: *"please escalate this ticket due to customer impact,"*)을 제공하거나 대화 또는 전화로 티켓에서 에스컬레이션할 수 있습니다.
-4. 초기 요청 후 티켓이 진행되지 않는 경우 티켓에서 이 에스컬레이션을 요청하여 지원 관리자에게 티켓을 에스컬레이션할 수 있습니다.
-5. 지원 관리자에게 도움을 요청한 후에도 진행되지 않는 경우 지원 관리 팀( Notify-Support-WW@wwpdl.vnet.ibm.com)에게 이메일을 보낼 수 있습니다.
-
-이 분배 목록은 올바른 모든 리소스가 문제를 해결하는 데 연관되도록 모든 {{site.data.keyword.BluSoftlayer_notm}} 인프라 지원 관리 팀에게 알립니다.
-{:tip}
+사용자 케이스를 에스컬레이션하여 추가 지원을 요청할 수 있습니다. 자세한 정보는 [지원 티켓 에스컬레이션](/docs/get-support/quicktickresp.html#escalation)을 참조하십시오.

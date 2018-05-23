@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,9 +27,9 @@ lastupdated: "2018-03-07"
 
 如果您使用 IBM 标识进行认证，那么首次下订单时或将您添加为某个帐户的用户时，系统会发送一封电子邮件，其中包含一个链接，供您开始使用 IBM 标识。如果丢失或忘记了您的用户名或密码，请转至 [IBM 标识概要文件 ![外部链接图标](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window}，然后使用登录过程后的指示信息重置或恢复密码。系统将提示您输入特定信息，其中可能包括提供安全问题的答案。
 
-如果您未使用 IBM 标识进行认证，那么首次下订单时或将您添加为[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 帐户的用户时，您会收到一封电子邮件，其中包含您的用户名和初始密码，供您在客户门户网站中开始工作。首次登录后，请务必通过[编辑用户概要文件](edit-user-profile.html)来更改您的密码。
+如果您未使用 IBM 标识进行认证，那么首次下订单时或将您添加为[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 帐户的用户时，您会收到一封电子邮件，其中包含您的用户名和初始密码，供您在客户门户网站中开始工作。首次登录后，请务必通过编辑用户概要文件来更改您的密码。要更改密码，请使用电子邮件中的信息进行登录，然后单击顶部面板上的用户名来编辑概要文件。
 
-如果您登录后忘记了密码，请使用[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 登录屏幕上提供的**忘记密码**功能。系统将提示您输入特定信息，包括在[编辑用户概要文件](edit-user-profile.html)时指定的一组安全问题。
+如果您登录后忘记了密码，请使用[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 登录屏幕上提供的**忘记密码**功能。系统将提示您输入特定信息，包括您在设置用户概要文件时指定的一组安全问题。
 
 如果您忘记了用户名，请联系能够检索您的用户名的帐户管理员或主用户。如果您是帐户的管理员或主用户，请联系支持人员以获取其他帮助。
 
@@ -52,7 +52,7 @@ lastupdated: "2018-03-07"
 ## 双因子认证如何工作？
 {: #bicp_2fa}
 
-对帐户级别的双因子认证配置没有影响。双因子认证不是按 IBM 标识进行的；该认证仍是按帐户进行的。当一个 IBM 标识与多个帐户相关联，而您在各帐户之间进行切换时，每次切换到要求双因子认证的不同帐户时都必须确认身份。即使先前的帐户和新帐户都配置为使用相同的双因子认证机制也是如此。
+对帐户级别的双因子认证配置没有影响。双因子认证不是按 IBM 标识进行的；该认证仍是按帐户进行的。当一个 IBM 标识与多个帐户相关联，而您在各帐户之间进行切换时，每次切换到要求双因子认证的不同帐户时都必须确认身份。即使旧帐户和新帐户都配置了相同的 2FA 机制，也是如此。
 
 有关使用双因子认证的 IBM 标识的更多信息，请参阅[链接的帐户中的双因子认证用法](/docs/account/softlayerlink.html)。
 
@@ -105,7 +105,7 @@ lastupdated: "2018-03-07"
 ## 我是否拥有对我的帐户的完全 root 用户访问权？
 {: #bicp_fullrootaccaccess}
 
-主用户和具有管理员许可权的用户对客户门户网站和 API 上的帐户具有完全 root 用户访问权。没有管理员许可权的用户由具有管理员角色的用户控制可访问性。通过在客户门户网站中[编辑用户概要文件](edit-user-profile.html)，可随时更新这些许可权。
+主用户和具有管理员许可权的用户对客户门户网站和 API 上的帐户具有完全 root 用户访问权。没有管理员许可权的用户由具有管理员角色的用户控制可访问性。在客户门户网站中，管理员可以通过[编辑用户概要文件](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile)来更新这些许可权。如果您没有管理员许可权，那么可以在客户门户网站中通过单击顶部面板上的用户名来编辑用户概要文件。
 
 
 ## 可以链接 {{site.data.keyword.Bluemix_notm}} 预订帐户吗？
@@ -130,7 +130,7 @@ lastupdated: "2018-03-07"
 
 设备和软件密码存储在[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 中的两个位置。要检索设备凭证（包括 {{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.virtualmachinesshort}} 的 root 用户或管理员用户的用户名和密码），请参阅[在快照视图中与设备交互](/docs/vsi/vsi_interact_device_snapshot_view.html)。要使用客户门户网站快速查看和检索手动跟踪的软件凭证，请参阅[管理设备访问权](/docs/vsi/vsi_device_access.html)。
 
-##如何使 Web 数据保持同步？
+## 如何使 Web 数据保持同步？
 {: #bicp_webdatasync}
 
 虽然由您负责使真实服务器之间的数据保持一致，但 {{site.data.keyword.BluSoftlayer_full}} 提供了一个专用网络，您可以使用该网络进行同步，而不会产生使用费用。
@@ -144,4 +144,4 @@ lastupdated: "2018-03-07"
 ## 可以如何以及在哪里取消设备？
 {: #bicp_candev}
 
-您可以通过[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 随时取消设备。有关完成取消请求的更多信息，请参阅[取消设备](/vsi/vsi_managing.html)。
+您可以通过[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 随时取消设备。有关完成取消请求的更多信息，请参阅[取消设备](/docs/vsi/vsi_managing.html)。

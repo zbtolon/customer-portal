@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -29,12 +29,12 @@ lastupdated: "2018-03-07"
 ### ネットワーク保守および予定外のイベントの情報を常に入手する
 {: #cp_stayinfomaintevent}
 
-スケジュールされた緊急ネットワーク保守が不可避であることが時々あります。 {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーは、スケジュールされた緊急時保守イベントのすべての情報をユーザーが常に入手できるように、[Twitter アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window} など、多くのチャネルを保守します。 さらに、Event Management System からの [E メール通知をサブスクライブする](/docs/customer-portal/cpsub2not.html)こともできます。 この無料サービスは、各種サービスに影響を与える可能性のある予定外のイベントに関して、サブスクライブしたユーザーに自動的に E メールを送信します。
+スケジュールされた緊急ネットワーク保守が不可避であることが時々あります。 {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーは、スケジュールされた緊急時保守イベントのすべての情報をユーザーが常に入手できるように、多くのチャネルを保守します。 さらに、Event Management System からの [E メール通知をサブスクライブする](/docs/customer-portal/cpsub2not.html)こともできます。 この無料サービスは、各種サービスに影響を与える可能性のある予定外のイベントに関して、サブスクライブしたユーザーに自動的に E メールを送信します。
 
 ### {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・モバイルを使用する
 {: #cp_bmxinframobile}
 
-{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・モバイルを使用して、iOS または Android モバイル・デバイスを使用する持ち運べる {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・デバイスを管理します。 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・モバイルの機能には、チケット作成のサポート、基本的なデバイス制御、および処理能力モニタリングが含まれます。
+{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・モバイルを使用して、iOS または Android モバイル・デバイスを使用する持ち運べる {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・デバイスを管理します。 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・モバイルの機能には、チケットのサポート、基本的なデバイス制御、および処理能力モニタリングが含まれます。
 
 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・モバイル・アプリケーションは、カスタマー・ポータルの機能を補完します。ユーザーはネットワーク接続されたモバイル・デバイスを使用してどこからでもインフラストラクチャーに関する重要な情報をモニターすることができます。 このアプリケーションは急速に進化し、定期的に新しい機能が追加されていますが、ユーザーはモバイル・アプリケーションを使用して以下のようなタスクを実行できます。
   * サポート・チケットの表示、作成、および更新

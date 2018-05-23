@@ -4,10 +4,9 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-01"
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -91,75 +90,8 @@ lastupdated: "2018-03-19"
 ## 新增使用者的外部鑑別
 {: #cp_addextauthuser}
 
-從客戶入口網站中，您可以在登入入口網站時啟動外部雙因子鑑別 (2FA) 來新增其他保護。這個額外安全層可保護帳戶不受未驗證地存取，確保裝置、資料及帳戶資訊受到保護。此外部鑑別的形式如下：
+從客戶入口網站中，可以啟動外部雙因子鑑別 (2FA)，為登入入口網站時增加額外的保護。這個額外安全層可保護帳戶不受未驗證地存取，確保裝置、資料及帳戶資訊受到保護。如需相關資訊，請參閱[設定雙因子鑑別](/docs/customer-portal/cpenable2fa.html#customerportal_2fa)。
 
-* **Symantec Identify Protection** 是最常用的外部鑑別工具，在存取客戶入口網站時，除了使用者名稱及密碼之外，還會提供所使用的動態安全碼。
-* **PhoneFactor** 鑑別透過電話、SMS 或行動應用程式來提供頻外使用者鑑別。PhoneFactor 需要只要嘗試鑑別時就必須存取的有效電話號碼。
-
-針對[少量每月費用 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/services/security/){:new_window}，您可以為每位使用者新增兩種外部鑑別方法。請使用下列步驟，以新增客戶入口網站使用者的外部鑑別。
-
-1. 使用唯一的認證來存取客戶入口網站。
-2. 從導覽列中，選取**帳戶 > 使用者**。
-3. 從使用者的**動作**清單中，選取**新增外部鑑別**。
-4. 選取要訂購的外部鑑別類型：
-  * **Symantec Identity Protection** -- 在**認證 ID** 欄位中，輸入使用者的認證 ID。
-  * **PhoneFactor** -- 選擇[鑑別方法](#cp_phonefacauthmeths)。
-5. 按一下**繼續**。
-6. 完成**促銷代碼**及 **MSA 認可**的視窗上的提示。
-7. 按一下**訂購外部鑑別**，以完成訂單。
-
-在新增使用者的外部鑑別之後，接下來的步驟取決於鑑別類型。
-* 如果已啟用 Symantec Identity Protection，則必須新增安全代碼，而此代碼與將 Symantec Identity Protection 新增至帳戶時在系統中輸入的使用者「認證 ID」相關聯。
-* 如果已啟用 PhoneFactor，則使用者必須[啟動 PhoneFactor](#cp_actphonefacauth)，以搭配使用這類型的雙因子鑑別與帳戶。
-
-### 啟動 PhoneFactor 鑑別
-{: #cp_actphonefacauth}
-
-在新增 PhoneFactor 之後，您必須透過客戶入口網站手動啟動與 PhoneFactor 的外部鑑別。因為 PhoneFactor 使用手動聯絡，所以務必確保與帳戶相關聯的所有電話號碼隨時都是最新資訊。無法持續更新聯絡資訊可能會導致在 PhoneFactor 作用時，無法存取客戶入口網站及 VPN。順利新增 PhoneFactor 之後，您會收到一封電子郵件用來確認已新增 PhoneFactor。在收到電子郵件之後，請使用下列步驟來啟動 PhoneFactor 鑑別。
-
-1. 使用唯一的認證來存取客戶入口網站。
-2. 從導覽列中，選取**帳戶 > 使用者**。
-3. 按一下使用者名稱，以存取該使用者的關聯使用者設定檔。
-4. 捲動至 **PhoneFactor 設定**區段。
-
-  如果「PhoneFactor 設定」區段無法使用，請先驗證您已收到 PhoneFactor 佈建電子郵件，指出已佈建 PhoneFactor。如果已佈建 PhoneFactord，但是此區段無法使用，請建立支援問題單。如果尚未佈建 PhoneFactor，請等待電子郵件，然後再試一次。如果尚未新增 PhoneFactor，請參閱[新增使用者的外部鑑別](/docs/customer-portal/cpmanuserprof.html#cp_addextauthuser)。
-  {: tip}
-
-5. 從**狀態**清單中，選取**作用中**。
-6. 編輯進行鑑別的**主要電話號碼**。
-  1. 按一下**編輯**鏈結。
-  2. 在關聯的欄位中，輸入**國碼**、**電話號碼**及**分機**（適用時）。
-  3. 按一下**鑑別並儲存號碼**，以完成鑑別。
-
-    新增進行鑑別的電話號碼時，您必須透過電話。在按一下**鑑別**之後，即會撥打此號碼，而且系統會提示您完成鑑別號碼的步驟。必須完成這些步驟，才能鑑別電話號碼。
-    {: tip}
-
-  4. 若要新增**次要電話號碼**，請重複這些步驟。
-7. 從**方法**清單中，選取**聯絡方法**。
-8. 從 **PIN 碼類型**清單中，選取 **PIN 碼類型**。
-9. 如果您選取**一次性** > **PIN 碼值**，請在 **PIN 碼值**欄位中輸入 PIN 碼。
-10. 按一下**更新**，以更新變更，並啟動 PhoneFactor 鑑別。
-
-啟動 PhoneFactor 之後，客戶入口網站或 VPN 需要透過 PhoneFactor 進行鑑別。透過使用者認證進行鑑別之後，有一則訊息會告訴您將嘗試進行 PhoneFactor 鑑別。您或所新增的使用者必須在使用 PhoneFactor 所列出的電話旁邊，才能完成鑑別。PhoneFactor 會嘗試鑑別五次。在五次不成功的鑑別嘗試之後，會將您鎖定大約一小時。您或具有帳戶管理存取權的使用者隨時都可以變更 PhoneFactor 鑑別設定。您或帳戶管理者隨時可以取消啟動 PhoneFactor。
-
-#### PhoneFactor 鑑別方法
-{: #cp_phonefacauthmeths}
-
-如果您設定 PhoneFactor 作為鑑別類型，則可以選擇下列其中一個選項作為鑑別方法：
-<dl>
-<dt>通話及標準（無 PIN 碼）</dt>
-<dd>如果啟用此選項，您會在登入入口網站時接到撥入已啟用主要號碼的通話。當您接聽通話時，會要求您按 # 鍵來完成鑑別。</dd>
-<dt>使用 PIN 碼的通話</dt>
-<dd>如果選取此選項，您會在客戶入口網站中輸入 PIN 碼值。PIN 碼必須介於 4 到 8 個數字。當您嘗試登入入口網站時，會接到撥入入口網站中所列主要號碼的通話。當您接聽時，會要求您輸入 PIN 碼，然後按下 #，以完成鑑別。</dd>
-<dt>SMS 文字及一次性 PIN 碼</dt>
-<dd>如果選取此選項，您會收到含有 PIN 碼的文字訊息，而您可以使用此 PIN 碼來回覆訊息。當您輸入提供的 PIN 碼時，鑑別處理程序會完成，並將您登入入口網站。</dd>
-<dt>含有一次性及 PIN 碼值的 SMS 文字</dt>
-<dd>如果選取此選項，您會建立 4 到 8 個數字的 PIN 碼值。然後，您會收到一則文字訊息，並以提供的代碼及 PIN 碼（無空格）回覆。</dd>
-<dt>PhoneFactor 應用程式及標準（無 PIN 碼）</dt>
-<dd>在裝置上開啟 PhoneFactor 應用程式 (Azure Authenticator)，然後按一下<strong>鑑別</strong>。它將會顯示您已使用 PhoneFactor 順利進行鑑別，並將您登入入口網站。</dd>
-<dt>使用 PIN 碼的 PhoneFactor 應用程式</dt>
-<dd>使用此選項，您可以在入口網站中設定 4 到 8 個數字的 PIN 碼。然後，在裝置上啟動 PhoneFactor 應用程式 (Azure Authenticator)。接下來，輸入在入口網站中建立的 PIN 碼，然後按一下<strong>鑑別</strong>以登入入口網站。</dd>
-</dl>
 
 ## 變更使用者的狀態
 {: #cp_changeuserstat}
@@ -188,6 +120,7 @@ lastupdated: "2018-03-19"
 
 在您更新使用者的狀態之後，對客戶入口網站可存取性的變更會與新狀態一致。
 
+
 ## 編輯使用者的 VPN 存取權
 {: #cp_edituservpnaccess}
 
@@ -215,6 +148,7 @@ lastupdated: "2018-03-19"
 2. 從功能表列中，選取**帳戶** > **VPN 存取權**。
 3. 從使用者的 **VPN 存取權**直欄中，按一下現行 VPN 存取權類型鏈結，以顯示「VPN 存取權」視窗。
 4. 從 **VPN 類型**清單中，選取 VPN 方法（SSL、PPTP、SSL 及 PPTP 或無）以指派使用者。
+
 
 ## 選取電子郵件通知
 {: #cp_select-email-notifications}

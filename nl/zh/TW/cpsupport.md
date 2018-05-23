@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-23"
 如果您在使用 {{site.data.keyword.BluSoftlayer_full}} 基礎架構時遇到問題，且沒有已鏈結帳戶，則可以利用客戶入口網站來取得判斷問題原因及尋找解決方案的協助。
 {:shortdesc}
 
-如果您具有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)，則可以透過 {{site.data.keyword.Bluemix}} 主控台取得支援。如需相關資訊，請參閱[取得客戶支援](/docs/get-support/howtogetsupport.html)。
+如果您具有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)，則可以透過 {{site.data.keyword.Bluemix_notm}} 主控台取得支援。如需相關資訊，請參閱[取得客戶支援](/docs/get-support/howtogetsupport.html)。
 
 
 如果您沒有已鏈結帳戶，則可以 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶入口網站中開立一般技術問題的支援問題單，或是取得與帳戶相關問題的協助。
@@ -108,20 +108,7 @@ lastupdated: "2018-02-23"
 
 如果您重新指派問題單，則新的受託人會成為解決問題的主要聯絡人。如果您新增註解或附件，則處理問題單的支援團隊成員會檢閱新資訊以協助解決問題。
 
-## 呈報支援問題
+## 呈報支援案例
 {: #cp_bpsupescalflow}
 
-如果您有需要協助解決的問題，則可以開立支援問題單。如果問題嚴重或緊急，而且需要呈報問題，請使用下列步驟。
-
-1. 從客戶入口網站、透過會談或撥打電話 (866-403-7638)，開立支援問題單。
-
-  當您建立或更新問題單時，請包括所發生的任何錯誤、日誌或疑難排解，因為這有助於更快速地解決問題。
-  {: tip}
-
-2. 與 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構支援團隊合作，處理問題單。例如，如果支援團隊要求其他資訊，請盡快回應。
-3. 如果問題單進度停滯，您可以從問題單呈報，方法是提供 *"please escalate this ticket due to customer impact"* 這類註解，或者透過會談或電話。
-4. 如果問題單在起始要求之後毫無進展，您可以在問題單中要求將它呈報給「支援主管」。
-5. 如果您在向「支援主管」要求協助之後仍然沒有所需的進度，則可以傳送電子郵件給「支援管理」團隊：Notify-Support-WW@wwpdl.vnet.ibm.com。
-
-此發佈清單會通知所有 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構支援管理團隊成員，確保利用所有正確資源來解決您的問題。
-{:tip}
+您可以透過呈報您的案例來要求進一步的協助。如需相關資訊，請參閱[呈報支援問題單](/docs/get-support/quicktickresp.html#escalation)。

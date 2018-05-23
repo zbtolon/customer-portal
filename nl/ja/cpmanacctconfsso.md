@@ -67,4 +67,4 @@ lastupdated: "2018-03-26"
 7. **「XML 構成のダウンロード (Download XML Configuration)」**をクリックして、サービス・プロバイダー・メタデータをダウンロードするか、情報をメモします。
 8. **「サービス・プロバイダー (Service Provider)」**メタデータを使用して、ご使用の ID プロバイダーの指示に基づいて ID プロバイダーを構成します。  
 
-これで、フェデレーテッド ID を使用して {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーにログインできるようになりました。フェデレーテッド ID について詳しくは、[{{site.data.keyword.Bluemix_notm}} への登録](/docs/account/adminpublic.html)および[IBMid Enterprise Federation Adoption Guide ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}を参照してください。
+これで、フェデレーテッド ID を使用して {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーにログインできるようになりました。 フェデレーテッド ID について詳しくは、[{{site.data.keyword.Bluemix_notm}} への登録](/docs/account/adminpublic.html)および[IBMid Enterprise Federation Adoption Guide ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}を参照してください。

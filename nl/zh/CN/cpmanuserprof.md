@@ -4,10 +4,9 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-01"
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -91,75 +90,8 @@ lastupdated: "2018-03-19"
 ## 为用户添加外部认证
 {: #cp_addextauthuser}
 
-在客户门户网站中，您可以激活外部双因子认证 (2FA)，以在登录到门户网站时增加额外的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息受到保护。这种外部认证通过以下形式提供：
+在客户门户网站中，可以激活外部双因子认证 (2FA)，为门户网站登录增加额外的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。有关更多信息，请参阅[设置双因子认证](/docs/customer-portal/cpenable2fa.html#customerportal_2fa)。
 
-* **Symantec Identify Protection** 是最常用的外部认证工具，在访问客户门户网站时，除了提供用户名和密码外，还提供一个动态的安全代码。
-* **PhoneFactor** 认证通过手机、短信或移动应用程序提供频带外用户认证。PhoneFactor 需要有效的电话号码，您在任何时候尝试进行认证时必须有权访问该号码。
-
-您可以为每个用户同时添加这两种外部认证方法，[每月支付少量费用 ![外部链接图标](../icons/launch-glyph.svg)](http://www.softlayer.com/services/security/){:new_window} 即可。使用以下步骤为客户门户网站用户添加外部认证。
-
-1. 使用您的唯一凭证来访问客户门户网站。
-2. 从导航栏中选择**帐户 > 用户**。
-3. 从用户的**操作**列表中，选择**添加外部认证**。
-4. 选择要订购的外部认证的类型：
-  * **Symantec Identity Protection** - 在**凭证标识**字段中，输入用户的凭证标识。
-  * **PhoneFactor** - 选择[认证方法](#cp_phonefacauthmeths)。
-5. 单击**继续**。
-6. 在窗口上完成提供**促销代码**和 **MSA 确认**的提示。
-7. 单击**订购外部认证**以完成订单。
-
-为用户添加外部认证后，后续步骤取决于认证类型。
-* 如果启用了 Symantec Identity Protection，那么必须添加与用户的凭证标识（将 Symantec Identity Protection 添加到帐户时，在系统中输入的凭证标识）关联的安全代码。
-* 如果启用了 PhoneFactor，那么用户必须[激活 PhoneFactor](#cp_actphonefacauth) 才能将此类型的双因子认证用于帐户。
-
-### 激活 PhoneFactor 认证
-{: #cp_actphonefacauth}
-
-添加 PhoneFactor 后，您必须通过客户门户网站使用 PhoneFactor 手动激活外部认证。由于 PhoneFactor 利用的是手动联系，因此务必确保与帐户关联的所有电话号码始终保持最新。如果未能保持更新联系人信息，那么可能会导致无法在 PhoneFactor 处于活动状态时访问客户门户网站和 VPN。成功添加 PhoneFactor 后，您将收到一封电子邮件，确认已添加 PhoneFactor。收到该电子邮件后，请使用以下步骤激活 PhoneFactor 认证。
-
-1. 使用您的唯一凭证来访问客户门户网站。
-2. 从导航栏中选择**帐户 > 用户**。
-3. 单击用户名以访问该用户的关联用户概要文件。
-4. 滚动至 **PhoneFactor 设置**部分。
-
-  如果“PhoneFactor 设置”部分不可用，请首先验证您是否收到 PhoneFactor 供应电子邮件，指示已供应 PhoneFactor。如果 PhoneFactor 已供应，但该部分不可用，请创建支持凭单。如果 PhoneFactor 尚未供应，请等待电子邮件，然后重试。如果 PhoneFactor 尚未添加，请参阅[为用户添加外部认证](/docs/customer-portal/cpmanuserprof.html#cp_addextauthuser)。
-  {: tip}
-
-5. 从**状态**列表中，选择**活动**。
-6. 编辑用于认证的**主电话号码**。
-  1. 单击**编辑**链接。
-  2. 在关联的字段中，输入**国家或地区代码**、**电话号码**和**分机**（如果适用）。
-  3. 单击**认证并保存号码**以完成认证。
-
-    添加用于认证的电话号码后，您必须在电话旁边等候。单击**认证**后，会呼叫该号码，并提示您完成号码认证步骤。如果不完成这些步骤，就无法对电话号码进行认证。
-    {: tip}
-
-  4. 要添加**辅助电话号码**，请重复上述步骤。
-7. 从**方法**列表中，选择**联系方法**。
-8. 从 **PIN 类型**列表中，选择一种 **PIN 类型**。
-9. 如果选择**一次性** > **PIN 值**，请在 **PIN 值**字段中输入 PIN。
-10. 单击**更新**以更新更改并激活 PhoneFactor 认证。
-
-激活 PhoneFactor 后，客户门户网站或 VPN 需要通过 PhoneFactor 进行认证。使用用户凭证进行认证后，将显示一条消息，指示您正在尝试进行 PhoneFactor 认证。您或您要添加的用户必须在随 PhoneFactor 列出的电话旁边等候，以便完成认证。PhoneFactor 会尝试认证五次。五次认证尝试失败后，会将您锁定大约一小时。您或具有对帐户的管理访问权的用户可以随时更改 PhoneFactor 认证设置。您或帐户管理员可以随时停用 PhoneFactor。
-
-#### PhoneFactor 认证方法
-{: #cp_phonefacauthmeths}
-
-如果将 PhoneFactor 设置为认证类型，那么可以选择以下其中一个选项作为认证方法：
-<dl>
-<dt>电话呼叫和标准（无 PIN）</dt>
-<dd>启用此选项后，当您登录到门户网站时，会收到呼叫所启用主号码的电话。接听电话时，会指示您按 # 键完成认证。</dd>
-<dt>电话呼叫（使用 PIN）</dt>
-<dd>选择此选项后，您将在客户门户网站中输入 PIN 值。PIN 必须是 4 到 8 位数字。当您尝试登录门户网站时，会收到对门户网站中所列主号码的呼叫。接听电话时，会指示您输入 PIN 号并按 # 完成认证。</dd>
-<dt>短信文本和一次性 PIN</dt>
-<dd>选择此选项后，您将收到一条带 PIN 的短信，此 PIN 供您用于回复该消息。输入提供的 PIN 后，认证过程完成并使您登录到门户网站。</dd>
-<dt>短信文本和一次性代码及 PIN 值</dt>
-<dd>选择此选项后，您将创建 4 到 8 位数字的 PIN 值。然后，您会收到一条短信，您可使用提供的代码和您的 PIN 号（不含空格）进行回复。</dd>
-<dt>PhoneFactor 应用程序和标准（无 PIN）</dt>
-<dd>在设备上打开 PhoneFactor 应用程序 (Azure Authenticator)，然后单击<strong>认证</strong>。这将显示您已经使用 PhoneFactor 成功认证并使您登录到门户网站。</dd>
-<dt>PhoneFactor 应用程序（使用 PIN）</dt>
-<dd>使用此选项，您将在门户网站中设置 4 到 8 位数字的 PIN。然后，在设备上启动 PhoneFactor 应用程序 (Azure Authenticator)。接下来，输入已在门户网站中创建的 PIN，然后单击<strong>认证</strong>以登录到门户网站。</dd>
-</dl>
 
 ## 更改用户的状态
 {: #cp_changeuserstat}
@@ -187,6 +119,7 @@ lastupdated: "2018-03-19"
 5. 单击**保存**。
 
 更新用户的状态后，客户门户网站可访问性的更改会与新状态一致。
+
 
 ## 编辑用户的 VPN 访问
 {: #cp_edituservpnaccess}
@@ -216,6 +149,7 @@ lastupdated: "2018-03-19"
 3. 在用户的 **VPN 访问**列中，单击当前的 VPN 访问类型链接以显示“VPN 访问”窗口。
 4. 从 **VPN 类型**列表中，选择 VPN 方法（SSL、PPTP、SSL 与 PPTP 或无）以分配给用户。
 
+
 ## 选择电子邮件通知
 {: #cp_select-email-notifications}
 
@@ -227,15 +161,15 @@ lastupdated: "2018-03-19"
 系统会自动保存您的更改。这些设置会影响发送给您的电子邮件，但不会影响您帐户上其他任何用户的电子邮件通知。
 
 
-## 设置支持 EU 选项
+## 设置欧盟支持选项
 {: #cp_seteusupported}
 
-您可以指示您只希望实际身处欧盟 (EU) 的支持团队提供支持。可以在设置帐户或更新现有帐户时选择此选项。要设置**支持 EU** 选项，请使用以下步骤：
+您可以指示您只希望实际身处欧盟 (EU) 的支持团队提供支持。可以在设置帐户或更新现有帐户时选择此选项。要设置**欧盟支持**选项，请使用以下步骤：
 1. 使用您的唯一凭证来访问客户门户网站。
 2. 从菜单栏中选择**帐户** > **管理** > **公司概要文件**。
-3. 选中**支持 EU** 复选框。
+3. 选中**欧盟支持**复选框。
 4. 单击**请求概要文件更新**。
 
-如果**支持 EU** 选项不可用，说明您的帐户中可能有用户启用了 PPTP VPN 访问。首先禁用帐户中所有用户的 PPTP VPN 访问，以启用**支持 EU** 选项。有关更多信息，请参阅[激活或停用 PPTP VPN 访问](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn)。
+如果**欧盟支持**选项不可用，说明您的帐户中可能有用户启用了 PPTP VPN 访问。首先禁用帐户中所有用户的 PPTP VPN 访问，以启用**欧盟支持**选项。有关更多信息，请参阅[激活或停用 PPTP VPN 访问](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn)。
 
-有关在开具支持凭单时实施**支持 EU** 选项的更多信息，请参阅[请求对欧盟中资源的支持](/docs/get-support/howtogetsupport.html#eusupported)。
+有关在开具支持凭单时实施**欧盟支持**选项的更多信息，请参阅[请求对欧盟中资源的支持](/docs/get-support/howtogetsupport.html#eusupported)。

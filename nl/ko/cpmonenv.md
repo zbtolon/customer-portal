@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -29,18 +29,17 @@ lastupdated: "2018-03-07"
 ### 네트워크 유지보수 및 계획되지 않은 이벤트에 대한 알림 제공 유지
 {: #cp_stayinfomaintevent}
 
-가끔씩 스케줄링된 네트워크 유지보수와 비상 네트워크 유지보수를 피할 수 없는 경우가 있습니다. {{site.data.keyword.BluSoftlayer_full}} 인프라는 [Twitter 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}과
-같은 다수의 채널을 유지보수하여 모든 스케줄링된 유지보수 이벤트 및 비상 유지보수 이벤트에 대한 알림을 계속 제공합니다. 또한 이벤트 관리 시스템에서 [이메일 알림 구독](/docs/customer-portal/cpsub2not.html)을 수행할 수 있습니다. 이 무료 서비스는 서비스에 영향을 줄 수 있는 계획되지 않은 이벤트에 대해 구독한 사용자에게 자동으로 이메일을 발송합니다.
+가끔씩 스케줄링된 네트워크 유지보수와 비상 네트워크 유지보수를 피할 수 없는 경우가 있습니다. {{site.data.keyword.BluSoftlayer_full}} 인프라는 다수의 채널을 유지보수하여 스케줄링된 모든 유지보수 이벤트 및 비상 유지보수 이벤트에 대한 알림을 계속 제공합니다. 또한 이벤트 관리 시스템에서 [이메일 알림 구독](/docs/customer-portal/cpsub2not.html)을 수행할 수 있습니다. 이 무료 서비스는 서비스에 영향을 줄 수 있는 계획되지 않은 이벤트에 대해 구독한 사용자에게 자동으로 이메일을 발송합니다.
 
 ### {{site.data.keyword.BluSoftlayer_notm}} 인프라 모바일 사용
 {: #cp_bmxinframobile}
 
-{{site.data.keyword.BluSoftlayer_notm}} 인프라 모바일을 사용하면 iOS 또는 Android 모바일 디바이스를 통해 {{site.data.keyword.BluSoftlayer_notm}} 인프라 디바이스를 지속적으로 관리할 수 있습니다. {{site.data.keyword.BluSoftlayer_notm}} 인프라 내 기능에는 티켓팅 지원, 기본 디바이스 제어 및 대역폭 모니터링이 포함됩니다.
+{{site.data.keyword.BluSoftlayer_notm}} 인프라 모바일을 사용하면 iOS 또는 Android 모바일 디바이스를 통해 {{site.data.keyword.BluSoftlayer_notm}} 인프라 디바이스를 지속적으로 관리할 수 있습니다. {{site.data.keyword.BluSoftlayer_notm}} 인프라 모바일 내의 기능에는 티켓 지원, 기본 디바이스 제어 및 대역폭 모니터링이 포함됩니다.
 
 네트워크에 연결된 모바일 디바이스를 사용하여 어느 위치에서든 인프라에 대한 중요한 정보를 모니터할 수 있으므로 {{site.data.keyword.BluSoftlayer_notm}} 인프라 모바일 애플리케이션은 고객 포털의 기능을 보완합니다. 애플리케이션이 빠르게 진화하며 새 기능이 주기적으로 추가되지만, 모바일 애플리케이션을 사용하여 다음과 같은 태스크를 수행할 수 있습니다.
   * 지원 티켓 보기, 작성 및 업데이트
   * 대역폭 및 알람을 포함하여 디바이스 상태 모니터링
-  * 베어메탈 서버 및 가상 서버의 종료 및 다시 시작
+  * Bare Metal Server 및 가상 서버의 종료 및 다시 시작
   * 계정 송장 보기 및 일시불로 지급
   * 오브젝트 스토리지에 저장된 컨텐츠의 액세스 및 검사
 
@@ -49,7 +48,7 @@ lastupdated: "2018-03-07"
 ## 서버 모니터링
 {: #customerportal_monservers}
 
-서버의 상태를 확인하고 스케일링할 시점을 파악할 수 있도록 모니터링을 설정하십시오. 표준 모니터링 또는 Nimsoft 모니터링 서비스를 사용할 수 있습니다. {{site.data.keyword.BluSoftlayer_notm}} 인프라 고객 포털에서 슬로우 또는 서비스 Ping을 사용하여 ping-and-respond 메소드에서 표준 또는 기본 모니터링을 사용할 수 있습니다. 또한 3개의 티어(기본, 고급 및 프리미엄) 중 하나에서 또는 고객 포털에서 Nimsoft 또는 고급 모니터링을 사용할 수도 있습니다.  특히 베어메탈 서버에 대한 자세한 정보는 [베어메탈 서버 시작하기](/docs/bare-metal/about.html)를 참조하십시오.
+서버의 상태를 확인하고 스케일링할 시점을 파악할 수 있도록 모니터링을 설정하십시오. 표준 모니터링 또는 Nimsoft 모니터링 서비스를 사용할 수 있습니다. {{site.data.keyword.BluSoftlayer_notm}} 인프라 고객 포털에서 슬로우 또는 서비스 Ping을 사용하여 ping-and-respond 메소드에서 표준 또는 기본 모니터링을 사용할 수 있습니다. 또한 3개의 티어(기본, 고급 및 프리미엄) 중 하나에서 또는 고객 포털에서 Nimsoft 또는 고급 모니터링을 사용할 수도 있습니다.  특히 Bare Metal Server에 대한 자세한 정보는 [Bare Metal Server 시작하기](/docs/bare-metal/about.html)를 참조하십시오.
 
 ## 시스템 이벤트 모니터링
 {: #customerportal_monevent}

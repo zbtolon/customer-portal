@@ -15,13 +15,13 @@ lastupdated: "2018-02-12"
 {:new_window: target="_blank"}
 
 
-# 베어메탈 서버 설정
+# Bare Metal Server 설정
 {: #customerportal_setupbaremetal}
 
-베어메탈 서버를 데디케이티드 서버로 설정할 수 있습니다.
+Bare Metal Server를 데디케이티드 서버로 설정할 수 있습니다.
 {:shortdesc}
 
-베어메탈 서버를 설정하려면 다음 단계를 수행하십시오.
+Bare Metal Server를 설정하려면 다음 단계를 수행하십시오.
 
 1. 고유 신임 정보로 {{site.data.keyword.BluSoftlayer_full}} 고객 포털에 로그인하십시오.
 

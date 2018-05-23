@@ -75,4 +75,4 @@ lastupdated: "2018-02-09"
 ## 后续步骤
 {: #next-steps}
 
-设置帐户后，请转至 [{{site.data.keyword.Bluemix_notm}} 目录 ![外部链接图标](../icons/launch-glyph.svg)](https://console.bluemix.net/catalog/?category=infrastructure){:new_window}，然后开始订购设备。
+设置帐户后，请转至 [{{site.data.keyword.Bluemix_notm}}“目录”![外部链接图标](../icons/launch-glyph.svg)](https://console.bluemix.net/catalog/?category=infrastructure){:new_window}，然后开始订购设备。

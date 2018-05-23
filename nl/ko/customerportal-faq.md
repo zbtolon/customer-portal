@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -28,9 +28,9 @@ lastupdated: "2018-03-07"
 인증을 위해 IBM ID를 사용하는 경우 처음 주문하거나 사용자로 계정에 추가될 때 IBM ID를 시작할 수 있는 링크가 포함된 이메일이 발송됩니다. 사용자 이름 또는 비밀번호를
 잃어버렸거나 기억이 나지 않는 경우 [IBM ID 프로파일 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window}로 이동한 후 로그인 프로세스가 설명된 지시사항을 수행하여 비밀번호를 재설정하거나 복구하십시오. 특정 정보를 입력하도록 프롬프트가 표시되며, 보안 질문에 대한 답변 제공이 포함될 수 있습니다.
 
-인증을 위해 IBM ID를 사용하지 않는 경우 처음 주문하거나 사용자로 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 계정에 추가될 때 고객 포털을 시작할 수 있는 사용자 이름 및 초기 비밀번호가 포함된 이메일이 발송됩니다. 처음 로그인한 후 [사용자 프로파일 편집](edit-user-profile.html)을 통해 비밀번호를 변경해야 합니다.
+인증을 위해 IBM ID를 사용하지 않는 경우 처음 주문하거나 사용자로 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 계정에 추가될 때 고객 포털을 시작할 수 있는 사용자 이름 및 초기 비밀번호가 포함된 이메일이 발송됩니다. 처음 로그인한 후에 사용자 프로파일을 편집하여 비밀번호를 변경해야 합니다. 비밀번호를 변경하려면 이메일에 포함된 정보를 사용하여 로그인한 후 맨 위 패널에서 이름을 클릭하여 프로파일을 편집하십시오.
 
-로그인한 후 비밀번호를 잊어버린 경우 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}의 로그인 화면에서 사용 가능한 **비밀번호 찾기** 기능을 사용하십시오. 특정 정보를 입력하도록 프롬프트가 표시되며, [사용자 프로파일 편집](edit-user-profile.html) 중에 지정한 보안 질문 세트가 포함됩니다.
+로그인한 후 비밀번호를 잊어버린 경우 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}의 로그인 화면에서 사용 가능한 **비밀번호 찾기** 기능을 사용하십시오. 사용자 프로파일을 설정할 때 지정한 보안 질문 세트를 포함하여 특정 정보를 입력하도록 프롬프트가 표시됩니다.
 
 사용자 이름을 잊어버린 경우 사용자 이름을 검색할 수 있는 계정 관리자 또는 마스터 관리자에게 문의하십시오. 계정의 마스터 사용자 또는 관리자인 경우에는 지원 센터에 문의하여 추가 지원을 받으십시오.
 
@@ -107,7 +107,7 @@ IBM ID로 전환하기 위해 마법사를 따랐으나 이메일을 받지 못�
 ## 내 계정에 대한 전체 루트 액세스가 있습니까?
 {: #bicp_fullrootaccaccess}
 
-마스터 사용자와 관리자 권한이 있는 사용자는 고객 포털 및 API의 계정에 대한 전체 루트 액세스 권한이 있습니다. 관리자 권한이 없는 사용자는 관리자 역할이 있는 사용자가 제어하는 접근성을 갖고 있습니다. 이 권한은 고객 포털에서 [사용자 프로파일 편집](edit-user-profile.html)을 통해 언제든지 업데이트될 수 있습니다.
+마스터 사용자와 관리자 권한이 있는 사용자는 고객 포털 및 API의 계정에 대한 전체 루트 액세스 권한이 있습니다. 관리자 권한이 없는 사용자는 관리자 역할이 있는 사용자가 제어하는 접근성을 갖고 있습니다. 고객 포털에서 관리자가 [사용자 프로파일을 편집](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile)하여 이러한 권한을 업데이트할 수 있습니다. 관리자 권한이 없는 경우 고객 포털에서 맨 위 패널에 있는 사용자 이름을 클릭하여 사용자 프로파일을 편집할 수 있습니다. 
 
 
 ## {{site.data.keyword.Bluemix_notm}} 구독 계정을 연결할 수 있습니까?
@@ -133,7 +133,7 @@ IBM ID로 전환하기 위해 마법사를 따랐으나 이메일을 받지 못�
 디바이스 및 소프트웨어 비밀번호는 [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 내의 두 위치에 저장되어 있습니다. {{site.data.keyword.baremetal_short}} 및 {{site.data.keyword.virtualmachinesshort}}의
 루트 또는 관리 사용자 이름과 비밀번호를 포함하여 디바이스 신임 정보를 검색하려면 [스냅샷 보기에서 디바이스와 상호작용](/docs/vsi/vsi_interact_device_snapshot_view.html)을 참조하십시오. 고객 포털을 사용하여 수동으로 추적된 소프트웨어 신임 정보를 빠르게 보고 검색하려면 [디바이스 액세스 관리](/docs/vsi/vsi_device_access.html)를 참조하십시오.
 
-##내 웹 데이터의 동기화를 유지하는 방법은 무엇입니까?
+## 내 웹 데이터의 동기화를 유지하는 방법은 무엇입니까?
 {: #bicp_webdatasync}
 
 실제 서버 간에 데이터 일관성을 유지할 책임이 있지만, {{site.data.keyword.BluSoftlayer_full}}는 사용 비용 발생 없이 동기화하는 데 사용할 수 있는 사설 네트워크를 제공합니다.
@@ -147,4 +147,4 @@ IBM ID로 전환하기 위해 마법사를 따랐으나 이메일을 받지 못�
 ## 디바이스 취소 방법은 무엇이며 어디서 취소할 수 있습니까?
 {: #bicp_candev}
 
-[고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}을 통해 언제든지 디바이스를 취소할 수 있습니다. 취소 요청 완료에 대한 자세한 정보는 [디바이스 취소](/vsi/vsi_managing.html)를 참조하십시오.
+[고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}을 통해 언제든지 디바이스를 취소할 수 있습니다. 취소 요청 완료에 대한 자세한 정보는 [디바이스 취소](/docs/vsi/vsi_managing.html)를 참조하십시오.

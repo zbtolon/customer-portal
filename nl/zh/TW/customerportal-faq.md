@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,9 +27,9 @@ lastupdated: "2018-03-07"
 
 如果您使用 IBM ID 進行鑑別，則當您第一次下單或將您新增為帳戶的使用者時，會傳送一封電子郵件，內含開始使用 IBM ID 的鏈結。如果遺失或忘記您的使用者名稱或密碼，請前往 [IBM ID 設定檔 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window}，並使用登入處理程序後的指示來重設或回復密碼。系統將提示您輸入特定資訊（這可能包括提供安全問題的回答）。
 
-如果您未使用 IBM ID 進行鑑別，則當您第一次下單或將您新增為[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 帳戶的使用者時，會收到一封電子郵件，內含您的使用者名稱及起始密碼，以在客戶入口網站中開始使用。請務必在第一次登入之後變更密碼，方法是[編輯使用者設定檔](edit-user-profile.html)。
+如果您未使用 IBM ID 進行鑑別，則當您第一次下單或將您新增為[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 帳戶的使用者時，會收到一封電子郵件，內含您的使用者名稱及起始密碼，以在客戶入口網站中開始使用。請務必在第一次登入之後變更密碼，方法是編輯使用者設定檔。若要變更密碼，請使用電子郵件中的資訊登入，然後按一下頂端畫面上的使用者名稱來編輯您的設定檔。
 
-如果您在登入之後忘記密碼，請使用[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 登入畫面上所提供的**忘記密碼**特性。系統將提示您輸入特定資訊（這包括您在[編輯使用者設定檔](edit-user-profile.html)時指定的一組安全問題）。
+如果您在登入之後忘記密碼，請使用[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 登入畫面上所提供的**忘記密碼**特性。系統將提示您輸入特定資訊（這包括您在設定使用者設定檔時指定的一組安全問題）。
 
 如果您忘記使用者名稱，請聯絡可擷取使用者名稱的帳戶管理者或主要使用者。如果您是帳戶上的管理者或主要使用者，請與支援中心聯絡以取得額外的協助。
 
@@ -105,7 +105,7 @@ lastupdated: "2018-03-07"
 ## 我具有我帳戶的完整 root 存取權嗎？
 {: #bicp_fullrootaccaccess}
 
-主要使用者及具有管理者許可權的使用者都會有客戶入口網站及 API 上帳戶的完整 root 存取權。沒有管理者許可權的使用者的可存取性是由具有 admin 角色的使用者所控制。您可以藉由在客戶入口網站中[編輯使用者設定檔](edit-user-profile.html)，以隨時更新這些許可權。
+主要使用者及具有管理者許可權的使用者都會有客戶入口網站及 API 上帳戶的完整 root 存取權。沒有管理者許可權的使用者的可存取性是由具有 admin 角色的使用者所控制。管理者可以利用[編輯使用者設定檔](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile)，從客戶入口網站更新這些許可權。如果沒有管理者許可權，您可以在客戶入口網站的頂端畫面上按一下使用者名稱，以編輯使用者設定檔。
 
 
 ## 我可以鏈結 {{site.data.keyword.Bluemix_notm}} 訂閱帳戶嗎？
@@ -130,7 +130,7 @@ lastupdated: "2018-03-07"
 
 裝置及軟體密碼儲存在[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 內的兩個位置。若要擷取裝置認證（包括 {{site.data.keyword.baremetal_short}} 及 {{site.data.keyword.virtualmachinesshort}} 的 root 或管理使用者名稱及密碼），請參閱[在 Snapshot 視圖中與裝置互動](/docs/vsi/vsi_interact_device_snapshot_view.html)。若要快速檢視及擷取使用客戶入口網站手動追蹤的軟體認證，請參閱[管理裝置存取權](/docs/vsi/vsi_device_access.html)。
 
-##如何保持 Web 資料同步？
+## 如何保持 Web 資料同步？
 {: #bicp_webdatasync}
 
 雖然您負責維護實際伺服器之間的資料一致性，但是 {{site.data.keyword.BluSoftlayer_full}} 提供您可用來同步化而不會產生使用費用的專用網路。
@@ -144,4 +144,4 @@ lastupdated: "2018-03-07"
 ## 取消裝置的方式及位置為何？
 {: #bicp_candev}
 
-您隨時可以透過[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 來取消裝置。如需完成取消要求的相關資訊，請參閱[取消裝置](/vsi/vsi_managing.html)。
+您隨時可以透過[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 來取消裝置。如需完成取消要求的相關資訊，請參閱[取消裝置](/docs/vsi/vsi_managing.html)。
