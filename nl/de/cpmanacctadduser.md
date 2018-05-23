@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,7 +27,8 @@ Abhängig von Ihrem Zugriff können Sie entweder Ihr eigenes SoftLayer-Konto ode
   * Als Masterbenutzer des Kontos können Sie alle Benutzer anzeigen, die dem Konto zugeordnet sind.
 
   Falls Sie die Masteranmeldeberechtigungsnachweise für Ihr Konto gemeinsam nutzen müssen, gehen Sie hierbei umsichtig vor. Ihre Masteranmeldung steuert alle Aspekte Ihres Kontos und sollte geschützt sein. Um anderen Benutzern die Verwendung des Kundenportals zu ermöglichen, konfigurieren Sie einzelne oder berechtigungsbasierte Benutzer. Auf diese Weise haben Sie die größte Kontrolle darüber, wer mit bestimmten Aspekten Ihres Kontos interagieren kann.
-  {:tip}
+{:tip}
+
   * Falls Sie Verwaltungszugriff besitzen, können Sie alle Benutzer anzeigen, die Sie erstellt haben, sowie alle von diesen Benutzern erstellten Benutzer, sofern Sie diese Benutzer zum Verwalten anderer Benutzer berechtigt haben. Außerdem können Sie Aktionen für jeden Benutzer ausführen, der dem Konto zugeordnet ist, was das Bearbeiten des Zugriffs auf das Kundenportal, das Ändern des Benutzerstatus und das Entfernen von Benutzern einschließt.
   * Falls Sie nicht der Masterbenutzer des Kontos sind und keinen Verwaltungszugriff besitzen, wird lediglich Ihr Profil angezeigt.  Sie können mit Ihrem eigenen Konto interagieren, beispielsweise den API-Schlüssel anzeigen, den VPN-Zugriff bearbeiten und eine externe Authentifizierung hinzufügen.
 

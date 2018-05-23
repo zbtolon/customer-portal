@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -29,12 +29,12 @@ Verwenden Sie mindestens die Basisüberwachung mit Pingsignalen. Sie können jed
 ### Über Netzwartung und ungeplante Ereignisse informiert bleiben
 {: #cp_stayinfomaintevent}
 
-Geplante und Notfallnetzwartungen sind von Zeit zu Zeit unvermeidbar. In der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur werden viele Kanäle (z. B. [Twitter-Konten ![Symbol für externen Link](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}) unterhalten, damit Sie stets über alle geplanten und Notfallwartungsereignisse informiert sind. Darüber hinaus können Sie [E-Mail-Benachrichtigungen abonnieren](/docs/customer-portal/cpsub2not.html), die vom Ereignismanagementsystem ausgegeben werden. Dieser ergänzende Service sendet an Benutzer mit einem entsprechenden Abonnement automatisch E-Mails über ungeplante Ereignisse, die sich auf Services auswirken könnten.
+Geplante und Notfallnetzwartungen sind von Zeit zu Zeit unvermeidbar. In der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur werden viele Kanäle unterhalten, damit Sie stets über alle geplanten und Notfallwartungsereignisse informiert sind. Darüber hinaus können Sie [E-Mail-Benachrichtigungen abonnieren](/docs/customer-portal/cpsub2not.html), die vom Ereignismanagementsystem ausgegeben werden. Dieser ergänzende Service sendet an Benutzer mit einem entsprechenden Abonnement automatisch E-Mails über ungeplante Ereignisse, die sich auf Services auswirken könnten.
 
 ### {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte nutzen
 {: #cp_bmxinframobile}
 
-Verwenden Sie die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte, um Ihre Geräte für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur unterwegs über Ihr mobiles iOS- oder Android-Gerät zu verwalten. Die Funktionalität in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte beinhaltet Ticketingunterstützung, Basisgerätesteuerung und Bandbreitenüberwachung.
+Verwenden Sie die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte, um Ihre Geräte für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur unterwegs über Ihr mobiles iOS- oder Android-Gerät zu verwalten. Die Funktionalität in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Mobilgeräte beinhaltet Ticketunterstützung, Basisgerätesteuerung und Bandbreitenüberwachung.
 
 Die mobile Anwendung für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur ergänzt die Funktionalität des Kundenportals, da Sie kritische Informationen über Ihre Infrastruktur standortunabhängig über Ihr mit dem Netz verbundenes mobiles Gerät überwachen können. Die Anwendung entwickelt sich rasch weiter und es werden regelmäßig neue Funktionen hinzugefügt, Sie können die mobile Anwendung jedoch zum Ausführen der folgenden Tasks verwenden:
   * Support-Tickets anzeigen, erstellen und aktualisieren

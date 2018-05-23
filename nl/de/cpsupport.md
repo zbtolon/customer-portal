@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-23"
 Falls Sie Probleme mit der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur feststellen und kein verknüpftes Konto haben, können Sie Hilfe beim Bestimmen der Ursache des Problems und beim Finden einer Lösung über das Kundenportal abrufen.
 {:shortdesc}
 
-Wenn Sie ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix}}-Konsole abrufen. Weitere Informationen finden Sie unter [Kundenunterstützung abrufen](/docs/get-support/howtogetsupport.html).
+Wenn Sie ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix_notm}}-Konsole abrufen. Weitere Informationen finden Sie unter [Kundenunterstützung abrufen](/docs/get-support/howtogetsupport.html).
 
 Wenn Sie kein verknüpftes Konto haben, können Sie bei allgemeinen technischen Problemen oder bei Problemen mit Ihrem Konto Support-Tickets im Kundenportal für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen.
 
@@ -107,20 +107,7 @@ Sie können ein bestehendes Support-Ticket jederzeit aktualisieren, um zusätzli
 
 Falls Sie das Ticket neu zuordnen, wird der neue Verantwortliche zum Hauptansprechpartner für die Problemlösung. Falls Sie einen Kommentar oder einen Anhang hinzufügen, prüft das Mitglied des Support-Teams, von dem das Ticket bearbeitet wird, die neuen Informationen zur Unterstützung bei der Problemlösung.
 
-## Support-Problem eskalieren
+## Supportfall eskalieren
 {: #cp_bpsupescalflow}
 
-Wenn Sie bei der Lösung eines Problems Hilfe benötigen, können Sie ein Support-Ticket öffnen.  Falls es sich um ein kritisches oder dringendes Problem handelt und Sie das Problem eskalieren müssen, führen Sie die folgenden Schritte aus.
-
-1. Öffnen Sie ein Support-Ticket im Kundenportal, in einem Chat oder durch einen Anruf (866-403-7638).
-
-  Wenn Sie ein Ticket erstellen oder aktualisieren, beziehen Sie alle Fehler, Protokolle oder stattgefundenen Fehlerbehebungsmaßnahmen ein, da dies zu einer schnelleren Lösung des Problems beiträgt.
-  {: tip}
-
-2. Arbeiten Sie im Ticket mit dem Support-Team für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur zusammen.  Antworten Sie beispielsweise so schnell wie möglich, falls das Support-Team zusätzliche Informationen anfordert.
-3. Wenn der Verarbeitungsfortschritt für das Ticket stagniert, können Sie das Ticket eskalieren, indem Sie einen Kommentar wie beispielsweise *Please escalate this ticket due to customer impact* (Bitte eskalieren Sie dieses Ticket aufgrund der Auswirkung auf den Kunden) über das Portal, im Chat oder bei einem Anruf angeben.
-4. Falls die Bearbeitung des Tickets nach der ersten Anforderung nicht fortschreitet, können Sie es an den Support-Supervisor eskalieren, indem Sie diese Eskalation im Ticket anfordern.
-5. Falls sich nach dem Anfordern der Unterstützung durch den Support-Supervisor weiterhin nicht der benötigte Verarbeitungsfortschritt einstellt, können Sie unter der Adresse 'Notify-Support-WW@wwpdl.vnet.ibm.com' eine E-Mail an das Support-Managementteam senden.
-
-In dieser Verteilerliste sind alle Mitglieder des Support-Managementteams für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur aufgeführt, um sicherzustellen, dass alle geeigneten Ressourcen in die Lösung Ihres Problems einbezogen werden.
-{:tip}
+Sie können weitergehende Unterstützung anfordern, indem Sie Ihren Fall eskalieren. Weitere Informationen finden Sie unter [Support-Tickets eskalieren](/docs/get-support/quicktickresp.html#escalation). 

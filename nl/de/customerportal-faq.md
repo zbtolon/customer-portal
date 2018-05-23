@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,9 +27,9 @@ Die hier aufgeführten häufig gestellten Fragen beziehen sich auf Probleme bei 
 
 Falls Sie Ihre erste Bestellung aufgeben oder als Benutzer zu einem Konto hinzugefügt werden und zur Authentifizierung Ihre IBMid verwenden, erhalten Sie eine E-Mail mit einem Link, über den Sie mit Ihrer IBMid einsteigen können. Falls Sie Ihren Benutzernamen oder Ihr Kennwort vergessen haben oder nicht mehr auffinden, rufen Sie Ihr [IBMid-Profil ![Symbol für externen Link](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} auf und führen Sie für Ihr Kennwort anhand der Anweisungen, die nach dem Anmeldeprozess ausgegeben werden, eine Zurücksetzung oder Wiederherstellung durch. Sie werden zur Eingabe bestimmter Informationen aufgefordert, wozu auch die Beantwortung  Ihrer Sicherheitsfragen gehören kann.
 
-Wenn Sie Ihre erste Bestellung aufgeben oder als Benutzer zu einem Konto des [Kundenportals ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} hinzugefügt werden und zur Authentifizierung KEINE IBMid verwenden, empfangen Sie eine E-Mail, die Ihren Benutzernamen sowie ein Anfangskennwort enthält, mit dem Sie die Verwendung des Kundenportals beginnen können. Denken Sie daran, Ihr Kennwort nach der ersten Anmeldung zu ändern, indem Sie Ihr [Benutzerprofil bearbeiten](edit-user-profile.html).
+Wenn Sie Ihre erste Bestellung aufgeben oder als Benutzer zu einem Konto des [Kundenportals ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} hinzugefügt werden und zur Authentifizierung KEINE IBMid verwenden, empfangen Sie eine E-Mail, die Ihren Benutzernamen sowie ein Anfangskennwort enthält, mit dem Sie die Verwendung des Kundenportals beginnen können. Denken Sie daran, Ihr Kennwort nach der ersten Anmeldung zu ändern, indem Sie Ihr Benutzerprofil bearbeiten. Um Ihr Kennwort zu ändern, melden Sie sich mit den Informationen in der E-Mail an und klicken Sie auf den Benutzernamen oben in der Anzeige, um Ihr Profil zu bearbeiten. 
 
-Falls Sie Ihr Kennwort nach der Anmeldung vergessen haben, verwenden Sie die Funktion **Kennwort vergessen**, die in der Anmeldeanzeige für das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} verfügbar ist. Sie werden zur Eingabe bestimmter Informationen aufgefordert, zu denen auch Antworten auf eine Reihe von Sicherheitsfragen gehören, die Sie beim [Bearbeiten Ihres Benutzerprofils](edit-user-profile.html) eingegeben haben.
+Falls Sie Ihr Kennwort nach der Anmeldung vergessen haben, verwenden Sie die Funktion **Kennwort vergessen**, die in der Anmeldeanzeige für das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} verfügbar ist. Sie werden zur Eingabe bestimmter Informationen aufgefordert, zu denen auch Antworten auf eine Reihe von Sicherheitsfragen gehören, die Sie beim Einrichten Ihres Benutzerprofils angegeben haben. 
 
 Falls Sie Ihren Benutzernamen vergessen haben, wenden Sie sich an Ihren Kontoadministrator oder Masterbenutzer, der Ihren Benutzernamen abrufen kann. Als Administrator oder Masterbenutzer des Kontos wenden Sie sich an den Support, wenn Sie zusätzliche Unterstützung benötigen.
 
@@ -106,7 +106,7 @@ Falls Sie den Assistenten für den Wechsel zur IBMid durchgearbeitet und die E-M
 ## Besitze ich uneingeschränkten Rootzugriff auf mein Konto?
 {: #bicp_fullrootaccaccess}
 
-Masterbenutzer sowie Personen mit Administratorberechtigungen besitzen im Kundenportal und über die API uneingeschränkten Rootzugriff auf Konten. Die Zugriffsmöglichkeit von Benutzern ohne Administratorberechtigungen wird durch Benutzer mit Verwaltungsrollen gesteuert. Diese Berechtigungen können jederzeit durch eine [Bearbeitung des Benutzerprofils](edit-user-profile.html) im Kundenportal geändert werden.
+Masterbenutzer sowie Personen mit Administratorberechtigungen besitzen im Kundenportal und über die API uneingeschränkten Rootzugriff auf Konten. Die Zugriffsmöglichkeit von Benutzern ohne Administratorberechtigungen wird durch Benutzer mit Verwaltungsrollen gesteuert. Diese Berechtigungen können von Administratoren im Kundenportal aktualisiert werden, indem sie ein [Benutzerprofil bearbeiten](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Ohne Administratorberechtigungen können Sie Ihr Benutzerprofil im Kundenportal bearbeiten, indem Sie oben in der Anzeige auf Ihren Benutzernamen klicken. 
 
 
 ## Kann ich ein {{site.data.keyword.Bluemix_notm}}-Abonnementkonto verknüpfen?
@@ -131,7 +131,7 @@ Beim Unternehmensprofil handelt es sich um die Informationen, die bei der Erstel
 
 Geräte- und Softwarekennwörter werden im [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} an zwei Stellen gespeichert. Informationen zum Abrufen von Geräteberechtigungsnachweisen (inklusive Name und Kennwort des Root- oder Adminstratorbenutzers für {{site.data.keyword.baremetal_short}} und {{site.data.keyword.virtualmachinesshort}}) finden Sie unter [Mit Geräten in der Snapshotansicht interagieren](/docs/vsi/vsi_interact_device_snapshot_view.html). Softwareberechtigungsnachweise, die mithilfe des Kundenportals manuell aufgezeichnet werden, können Sie anhand der Angaben im Abschnitt [Gerätezugriff verwalten](/docs/vsi/vsi_device_access.html) ohne großen Aufwand anzeigen und abrufen.
 
-##Wie sorge ich dafür, dass meine Webdaten synchron bleiben?
+## Wie sorge ich dafür, dass meine Webdaten synchron bleiben?
 {: #bicp_webdatasync}
 
 Für die Erhaltung der Datenkonsistenz zwischen realen Servern sind Sie zwar selbst verantwortlich, aber {{site.data.keyword.BluSoftlayer_full}} bietet ein privates Netz, das Sie ohne Nutzungsgebühren für die Synchronisierung verwenden können.
@@ -145,4 +145,4 @@ Das Ereignismanagementsystem (Event Management System, EMS) ist ein Toolset, mit
 ## Wie und an welcher Stelle kann ich ein Gerät stornieren?
 {: #bicp_candev}
 
-Sie können ein Gerät jederzeit über das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} stornieren. Weitere Informationen zur Ausführung einer Stornierungsanforderung finden Sie unter [Gerät stornieren](/vsi/vsi_managing.html).
+Sie können ein Gerät jederzeit über das [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} stornieren. Weitere Informationen zur Ausführung einer Stornierungsanforderung finden Sie unter [Gerät stornieren](/docs/vsi/vsi_managing.html).

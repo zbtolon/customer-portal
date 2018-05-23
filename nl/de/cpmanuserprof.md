@@ -4,10 +4,9 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-01"
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -91,75 +90,8 @@ Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen �
 ## Externe Authentifizierung für einen Benutzer hinzufügen
 {: #cp_addextauthuser}
 
-Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal einen zusätzlichen Schutz bereitzustellen. Diese zusätzliche Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Diese externe Authentifizierung ist in den folgenden Formen verfügbar:
+Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal einen zusätzlichen Schutz bereitzustellen. Diese zusätzliche Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal/cpenable2fa.html#customerportal_2fa). 
 
-* **Symantec Identity Protection** ist das am häufigsten genutzte Tool für die externe Authentifizierung. Es stellt beim Zugriff auf das Kundenportal zusätzlich zum Benutzernamen und Kennwort einen dynamischen Sicherheitscode bereit.
-* Die Authentifizierung mit **PhoneFactor** stellt eine externe Benutzerauthentifizierung mittels Telefon, SMS oder mobiler App bereit. PhoneFactor macht eine gültige Telefonnummer erforderlich, auf die Sie bei jedem Authentifizierungsversuch Zugriff haben müssen.
-
-Sie können beide Methoden der externen Authentifizierung gegen eine [geringe monatliche Gebühr![Symbol für externen Link](../icons/launch-glyph.svg)](http://www.softlayer.com/services/security/){:new_window} für jeden Benutzer hinzufügen. Führen Sie die folgenden Schritte aus, um die externe Authentifizierung für einen Kundenportalbenutzer hinzuzufügen.
-
-1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
-2. Wählen Sie in der Navigationsleiste die Optionen **Konto > Benutzer** aus.
-3. Wählen Sie in der Liste **Aktionen** für den Benutzer den Eintrag **Externe Authentifizierung hinzufügen** aus.
-4. Wählen Sie den Typ der externen Authentifizierung aus, den Sie bestellen wollen:
-  * **Symantec Identity Protection**: Geben Sie die Berechtigungsnachweis-ID des Benutzers im Feld **Berechtigungsnachweis-ID** ein.
-  * **PhoneFactor**: Wählen Sie eine [Authentifizierungsmethode](#cp_phonefacauthmeths) aus.
-5. Klicken Sie auf **Weiter**.
-6. Füllen Sie die Bedienerführungen im Fenster für den **Werbeaktionscode** und die **MSA-Bestätigung** aus.
-7. Klicken Sie auf **Externe Authentifizierung bestellen**, um die Bestellung abzuschließen.
-
-Nachdem Sie die externe Authentifizierung für einen Benutzer hinzugefügt haben, richtet sich der nächste Schritt nach dem Authentifizierungstyp.
-* Falls Sie 'Symantec Identity Protection' aktiviert haben, müssen Sie den Sicherheitscode hinzufügen, der der Berechtigungsnachweis-ID des Benutzers zugeordnet ist, die im System eingegeben wurde, als Symantec Identity Protection zum Konto hinzugefügt wurde.
-* Falls Sie 'PhoneFactor' aktiviert haben, muss der Benutzer [PhoneFactor aktivieren](#cp_actphonefacauth), um diesen Typ der Zwei-Faktor-Authentifizierung für das Konto zu verwenden.
-
-### PhoneFactor-Authentifizierung aktivieren
-{: #cp_actphonefacauth}
-
-Nachdem Sie PhoneFactor hinzugefügt haben, müssen Sie die externe Authentifizierung mit PhoneFactor manuell über das Kundenportal aktivieren. Da PhoneFactor einen manuellen Kontakt verwendet, muss unbedingt sichergestellt sein, dass alle dem Konto zugeordneten Telefonnummern jederzeit aktuell sind. Nicht aktualisierte Kontaktinformationen könnten dazu führen, dass der Zugriff auf das Kundenportal und VPN nicht möglich ist, wenn PhoneFactor aktiv ist. Nachdem PhoneFactor erfolgreich hinzugefügt wurde, erhalten Sie eine E-Mail zur Bestätigung, dass PhoneFactor hinzugefügt worden ist. Nach dem Empfang der E-Mail führen Sie die folgenden Schritte aus, um die PhoneFactor-Authentifizierung zu aktivieren.
-
-1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
-2. Wählen Sie in der Navigationsleiste die Optionen **Konto > Benutzer** aus.
-3. Klicken Sie auf den Benutzernamen, um auf das zugehörige Benutzerprofil für diesen Benutzer zuzugreifen.
-4. Blättern Sie zum Abschnitt **PhoneFactor-Einstellungen**.
-
-  Falls der Abschnitt 'PhoneFactor-Einstellungen' nicht verfügbar ist, überprüfen Sie zuerst, ob Sie die Bereitstellungs-E-Mail für PhoneFactor erhalten haben, in der angegeben ist, dass PhoneFactor bereitgestellt wurde. Falls PhoneFactor bereitgestellt wurde und der Abschnitt nicht verfügbar ist, erstellen Sie ein Support-Ticket. Wurde PhoneFactor noch nicht bereitgestellt, warten Sie, bis Sie die E-Mail erhalten haben, und wiederholen Sie den Versuch. Falls PhoneFactor noch nicht hinzugefügt wurde, finden Sie unter [Externe Authentifizierung für einen Benutzer hinzufügen](/docs/customer-portal/cpmanuserprof.html#cp_addextauthuser) weitere Informationen.
-  {: tip}
-
-5. Wählen Sie in der Liste **Status** den Eintrag **Aktiv** aus.
-6. Bearbeiten Sie die **Primäre Telefonnummer** für die Authentifizierung.
-  1. Klicken Sie auf den Link **Bearbeiten**.
-  2. Geben Sie in den entsprechenden Feldern den **Landescode**, die **Telefonnummer** und gegebenenfalls die **Durchwahl** ein.
-  3. Klicken Sie auf **Nummer authentifizieren und speichern**, um die Authentifizierung abzuschließen.
-
-    Wenn Sie eine Telefonnummer für die Authentifizierung hinzufügen, muss sich das Telefon in Ihrer Nähe befinden. Nachdem Sie auf **Authentifizieren** geklickt haben, wird die Nummer angerufen und Sie werden aufgefordert, einen Schritt zur Authentifizierung der Nummer auszuführen. Telefonnummern können ohne eine Ausführung dieser Schritte nicht authentifiziert werden.
-    {: tip}
-
-  4. Wiederholen Sie diese Schritte, um eine **sekundäre Telefonnummer** hinzuzufügen.
-7. Wählen Sie in der Liste **Methode** den Eintrag **Kontaktmethode** aus.
-8. Wählen Sie in der Liste **PIN-Typ** einen **PIN-Typ** aus.
-9. Falls Sie **Einmalig** > **PIN-Wert** auswählen, geben Sie die PIN im Feld **PIN-Wert** ein.
-10. Klicken Sie auf **Aktualisieren**, um die Änderungen zu aktualisieren und die PhoneFactor-Authentifizierung zu aktivieren.
-
-Nach der Aktivierung von PhoneFactor ist für das Kundenportal oder das VPN eine Authentifizierung über PhoneFactor erforderlich. Nachdem Sie sich mit den Benutzerberechtigungsnachweisen authentifiziert haben, wird Ihnen in einer Nachricht mitgeteilt, dass ein Versuch für die PhoneFactor-Authentifizierung erfolgt. Sie selbst oder der Benutzer, den Sie hinzufügen, muss sich in der Nähe des für PhoneFactor angegebenen Telefons befinden, um die Authentifizierung abschließen zu können. PhoneFactor unternimmt fünf Authentifizierungsversuche. Nach fünf erfolglosen Authentifizierungsversuchen werden Sie für ca. eine Stunde gesperrt. Sie können die Einstellungen für die PhoneFactor-Authentifizierung jederzeit ändern; dies kann auch durch einen Benutzer mit Verwaltungszugriff auf das Konto vorgenommen werden.  Eine Inaktivierung von PhoneFactor kann jederzeit durch Sie selbst oder einen Administrator des Kontos erfolgen.
-
-#### Methoden für die PhoneFactor-Authentifizierung
-{: #cp_phonefacauthmeths}
-
-Falls Sie PhoneFactor als Authentifizierungstyp festlegen, können Sie eine der folgenden Optionen als Authentifizierungsmethode auswählen:
-<dl>
-<dt>Anruf und Standardwert (ohne PIN)</dt>
-<dd>Wenn diese Option aktiviert ist, empfangen Sie einen Anruf unter der aktivierten primären Nummer, sobald Sie sich beim Portal anmelden. Wenn Sie den Anruf annehmen, werden Sie aufgefordert, die Raute-Taste (#) zu drücken, um die Authentifizierung abzuschließen.</dd>
-<dt>Anruf mit PIN</dt>
-<dd>Wenn diese Option ausgewählt ist, geben Sie einen PIN-Wert im Kundenportal ein. Die PIN muss 4 bis 8 Ziffern umfassen. Sobald Sie versuchen, sich beim Portal anzumelden, empfangen Sie einen Anruf unter der im Portal aufgelisteten primären Nummer. Wenn Sie den Anruf annehmen, werden Sie aufgefordert, Ihre PIN einzugeben und die Raute-Taste (#) zu drücken, um die Authentifizierung abzuschließen.</dd>
-<dt>SMS-Text und einmalige PIN</dt>
-<dd>Wenn diese Option ausgewählt ist, empfangen Sie eine Textnachricht mit einer PIN, die Sie zur Beantwortung der Nachricht verwenden. Nachdem Sie die bereitgestellte PIN eingegeben haben, wird der Authentifizierungsprozess abgeschlossen und Sie werden beim Portal angemeldet.</dd>
-<dt>SMS-Text mit Einmalanmeldung &amp; PIN-Wert</dt>
-<dd>Wenn diese Option ausgewählt ist, erstellen Sie einen PIN-Wert aus 4 bis 8 Ziffern. Anschließend empfangen Sie eine Textnachricht und antworten mit dem bereitgestellten Code sowie Ihrer PIN-Nummer ohne Leerzeichen.</dd>
-<dt>PhoneFactor-App und Standardwert (ohne PIN)</dt>
-<dd>Öffnen Sie die PhoneFactor-Anwendung (Azure Authenticator) auf Ihrem Gerät und klicken Sie auf <strong>Authentifizieren</strong>. Es wird die Nachricht ausgegeben, dass Sie sich erfolgreich mit PhoneFactor authentifiziert haben, und Sie werden beim Portal angemeldet.</dd>
-<dt>PhoneFactor-App mit PIN</dt>
-<dd>Bei dieser Option legen Sie im Portal eine PIN aus 4 bis 8 Ziffern fest. Anschließend rufen Sie die PhoneFactor-Anwendung (Azure Authenticator) auf Ihrem Gerät auf. Danach geben Sie Ihre im Portal erstellte PIN ein und klicken Sie auf <strong>Authentifizieren</strong>, um sich beim Portal anzumelden.</dd>
-</dl>
 
 ## Status eines Benutzers ändern
 {: #cp_changeuserstat}
@@ -188,6 +120,7 @@ Führen Sie die folgenden Schritte aus, um den Status eines Benutzers im Kundenp
 
 Nachdem Sie den Status eines Benutzers aktualisiert haben, werden Änderungen an der Zugriffsmöglichkeit auf das Kundenportal am neuen Status ausgerichtet.
 
+
 ## VPN-Zugriff eines Benutzers bearbeiten
 {: #cp_edituservpnaccess}
 
@@ -215,6 +148,7 @@ Ihnen wird eine PPTP-Verbindung mit zusätzlichen verfügbaren Verbindungen zuge
 2. Wählen Sie in der Menüleiste die Optionen **Konto** > **VPN-Zugriff** aus.
 3. Klicken Sie in der Spalte **VPN-Zugriff** für den Benutzer auf den aktuellen VPN-Zugriffstyp, um das Fenster 'VPN-Zugriff' aufzurufen.
 4. Wählen Sie in der Liste **VPN-Typ** eine VPN-Methode aus (SSL, PPTP, SSL & PPTP oder 'Keine'), die dem Benutzer zugeordnet werden soll.
+
 
 ## E-Mail-Benachrichtigungen auswählen
 {: #cp_select-email-notifications}
