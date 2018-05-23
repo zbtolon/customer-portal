@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -18,19 +18,19 @@ lastupdated: "2018-02-23"
 # Richiesta di supporto per l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Se si verificano problemi con l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} e non hai un account collegato, puoi ottenere aiuto per determinare la causa del problema e trovare una soluzione utilizzando il portale del cliente.
+Se si verificano problemi con l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} e non hai un account collegato, puoi ottenere aiuto per determinare la causa del problema e trovare una soluzione utilizzando il portale clienti.
 {:shortdesc}
 
-Se hai un [account collegato](/docs/account/softlayerlink.html#link_user_accounts), puoi ottenere assistenza attraverso la console {{site.data.keyword.Bluemix}}. Per ulteriori informazioni, vedi [Richiesta di assistenza clienti](/docs/get-support/howtogetsupport.html).
+Se hai un [account collegato](/docs/account/softlayerlink.html#link_user_accounts), puoi ottenere assistenza attraverso la console {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Richiesta di assistenza clienti](/docs/get-support/howtogetsupport.html).
 
-Se non hai un account collegato, puoi aprire i ticket di supporto nel portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici o generali per il supporto con i problemi relativi al tuo account.
+Se non hai un account collegato, puoi aprire i ticket di supporto nel portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici o generali per il supporto con i problemi relativi al tuo account.
 
 ## Creazione di un ticket di supporto tecnico generale
 {: #cp_creatsuptickwsp}
 
-Puoi aprire i ticket dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici generali nel portale del cliente utilizzando la seguente procedura:
+Puoi aprire i ticket dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per problemi tecnici generali nel portale clienti utilizzando la seguente procedura:
 
-1. Accedi al [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
+1. Accedi al [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
 2. Seleziona **Supporto** > **Aggiungi ticket** dal menu.
 3. Seleziona la categoria che meglio si adatta al motivo dell'apertura di un ticket dall'elenco **Oggetto**.
 4. Seleziona il tuo nome utente dall'elenco **Assegna a**.<br/>
@@ -71,9 +71,9 @@ Dopo aver aggiunto un ticket, questo viene indirizzato al membro appropriato del
 ## Creazione di un ticket per problemi con l'account
 {: #cp_creatacctsuptickwsp}
 
-Puoi aprire i ticket per l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per assistenza nel risolvere i problemi relativi al tuo account nel portale del cliente analogamente a come apri un ticket per i problemi di supporto tecnico generale, ma con una importante differenza.  
+Puoi aprire i ticket per l'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per assistenza nel risolvere i problemi relativi al tuo account nel portale clienti analogamente a come apri un ticket per i problemi di supporto tecnico generale, ma con una importante differenza.  
 
-Dopo che hai eseguito l'accesso al [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} e selezionato **Supporto** > **Aggiungi ticket**, devi assicurarti che il ticket sia instradato al team di supporto corretto e possa essere risolto velocemente. Per instradare il ticket correttamente per gestire i problemi dell'account, dall'elenco **Oggetto**, seleziona **Richiesta di account**.
+Dopo che hai eseguito l'accesso al [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} e selezionato **Supporto** > **Aggiungi ticket**, devi assicurarti che il ticket sia instradato al team di supporto corretto e possa essere risolto velocemente. Per instradare il ticket correttamente per gestire i problemi dell'account, dall'elenco **Oggetto**, seleziona **Richiesta di account**.
 
 Compila il resto del ticket come se volessi creare un ticket per il supporto tecnico generale e invialo. Con l'**Oggetto** impostato su **Richiesta di account**, il team di supporto corretto viene assegnato al ticket e può aiutare a risolvere il problema rapidamente.
 
@@ -82,7 +82,7 @@ Compila il resto del ticket come se volessi creare un ticket per il supporto tec
 
 Dopo aver aggiunto un ticket, puoi visualizzarlo in qualsiasi momento dalla finestra **Ticket**. Puoi vedere tutti i dettagli relativi al ticket e alla sua cronologia. Utilizza la seguente procedura per visualizzare un ticket esistente.
 
-1. Accedi al [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
+1. Accedi al [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
 2. Seleziona **Supporto** > **Ticket** dal menu.
 3. Seleziona lo stato del ticket dal menu a discesa per filtrare la vista.
 4. Fai clic sul numero del ticket per visualizzarne i dettagli.
@@ -92,7 +92,7 @@ Dopo aver aggiunto un ticket, puoi visualizzarlo in qualsiasi momento dalla fine
 
 Puoi aggiornare un ticket di supporto esistente in qualsiasi momento per includere commenti o allegati aggiuntivi e puoi anche assegnarlo a un altro utente nell'account. Potresti dover aggiungere commenti o allegati per assistere il team di supporto nella risoluzione del problema. Utilizza la seguente procedura per aggiornare un ticket esistente.
 
-1. Accedi al [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
+1. Accedi al [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
 2. Seleziona **Supporto** > **Ticket** dal menu.
 3. Seleziona lo stato del ticket dal menu a discesa per filtrare la vista.
 4. Fai clic sul numero del ticket per visualizzarne i dettagli.
@@ -107,20 +107,7 @@ Puoi aggiornare un ticket di supporto esistente in qualsiasi momento per include
 
 Se riassegni il ticket, il nuovo assegnatario diventa il punto di contatto principale per la risoluzione del problema. Se aggiungi un commento o un allegato, il membro del team di supporto che lavora sul ticket rivede le nuove informazioni per assistere nella risoluzione del problema.
 
-## Escalating di un problema di supporto
+## Escalation di un caso di supporto
 {: #cp_bpsupescalflow}
 
-Se hai un problema per il quale hai bisogno di aiuto per la risoluzione, puoi aprire un ticket di supporto.  Se il problema è critico o urgente e devi effettuare l'escalation del problema, utilizza la seguente procedura.
-
-1. Apri un ticket di supporto dal portale del cliente, via chat o tramite telefono (866-403-7638).
-
-  Quando crei o aggiorni un ticket, includi eventuali errori, log o risoluzioni dei problemi che si sono verificati poiché questo aiuta a risolvere il problema più rapidamente.
-  {: tip}
-
-2. Lavora con il team di supporto dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} in merito al ticket.  Ad esempio, se il team di supporto richiede ulteriori informazioni, rispondi il più velocemente possibile.
-3. Se l'avanzamento sul ticket rallenta, puoi effettuare l'escalation dal ticket fornendo un commento come, *"Eseguire l'escalation di questo ticket a causa dell'impatto del cliente"* oppure tramite chat o telefono.
-4. Se il ticket non avanza dopo la richiesta iniziale, puoi inoltrarlo al Supervisor di supporto richiedendo questa escalation nel ticket.
-5. Se non ottieni ancora l'avanzamento necessario dopo aver richiesto assistenza al Supervisor di supporto, puoi inviare una e-mail al team di gestione del supporto all'indirizzo Notify-Support-WW@wwpdl.vnet.ibm.com.
-
-Questo elenco di distribuzione notifica a tutto il team di gestione del supporto dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} di assicurarsi di utilizzare tutte le risorse adeguate per risolvere il problema.
-{:tip}
+Puoi richiedere ulteriore assistenza eseguendo un escalation del tuo caso. Per ulteriori informazioni, consulta [Escalation dei ticket di supporto](/docs/get-support/quicktickresp.html#escalation).

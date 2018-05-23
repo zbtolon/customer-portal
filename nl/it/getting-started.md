@@ -24,9 +24,9 @@ In questa esercitazione, illustreremo il processo per attivare il tuo account So
 ## Prima di iniziare
 {: #prereqs}
 
-Avrai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.bluemix.net/){:new_window}. Accedi al portale del cliente con le tue credenziali dell'ID IBM. La maggior parte dei nuovi utenti utilizza l'[ID IBM ](/docs/account/softlayerlink.html#switchtoIBMid) per l'autenticazione.
+Avrai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.bluemix.net/){:new_window}. Accedi al portale clienti con le tue credenziali dell'ID IBM. La maggior parte dei nuovi utenti utilizza l'[ID IBM ](/docs/account/softlayerlink.html#switchtoIBMid) per l'autenticazione.
 
-Se non utilizzi l'ID IBM per l'autenticazione per accedere al tuo account, accedi al portale del cliente con le tue credenziali univoche dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
+Se non utilizzi l'ID IBM per l'autenticazione per accedere al tuo account, accedi al portale clienti con le tue credenziali univoche dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
 
 ## Passo 1: configura il tuo account
@@ -52,7 +52,7 @@ Quando imposti le autorizzazioni dell'infrastruttura nell'invito iniziale, puoi 
 
 La rete privata dell'infrastruttura {{site.data.keyword.Bluemix_notm}} viene offerta gratuitamente a utenti e dispositivi. Tutta la larghezza di banda utilizzata nella rete privata è illimitata e gratuita. La rete privata offre numerosi vantaggi, tra cui la replica degli ambienti dei dispositivi in altri data center per il failover, l'accessibilità del sistema front-end ai server di database e l'accesso e la gestione sicuri nei tuoi sistemi.
 
-Per abilitare l'accesso utente alla rete privata, modifica l'accesso VPN nel portale del cliente:
+Per abilitare l'accesso utente alla rete privata, modifica l'accesso VPN nel portale clienti:
   1. Seleziona **Account** > **Accesso VPN** dalla barra dei menu.  
   2. Fai clic sul link nella colonna Accesso VPN.
   3. Seleziona un'opzione dal menu **Tipo di VPN** e fai clic su **Salva**.  
@@ -65,7 +65,7 @@ Per gli utenti negli account che utilizzano l'autenticazione con l'ID IBM, per l
 
 Per ricevere notifiche sui problemi di sistema che potrebbero verificarsi e sugli eventi di manutenzione pianificata, puoi sottoscrivere alle notifiche tramite l'Event Management System. Quando crei un account o vieni aggiunto a un account, per impostazione predefinita ti viene annullata la sottoscrizione alle notifiche.
 
-Accedi a Event Management System nel portale del cliente per scegliere le notifiche a cui sottoscrivere:
+Accedi a Event Management System nel portale clienti per scegliere le notifiche a cui sottoscrivere:
   1. Seleziona **Account** > **Gestisci** > **Sottoscrizioni** dalla barra dei menu.
   2. Fai clic su una sottoscrizione specifica dall'elenco mostrato.
   3. Seleziona la casella di spunta **Sì** nella colonna Sottoscritto.

@@ -75,7 +75,7 @@ Per utilizzare lo strumento Chrootkit, per prima cosa accedi tramite SSH al tuo 
 
 Tutto ciò che viene emesso dallo strumento chkrootkit deve essere `not found` o `not infected`.
 
-Se visualizzi *Checking `bindshell`... INFECTED (PORTS: 465)* e stai eseguendo PortSentry, klaxon o un altro programa che si collega a porte non utilizzate, è probabile che chkrootkit ti dia un falso positivo nel test bindshell (porte 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp).
+Se visualizzi *Checking `bindshell`... INFECTED (PORTS: 465)* e stai eseguendo PortSentry, klaxon o un altro programma che si collega a porte non utilizzate, è probabile che chkrootkit ti dia un falso positivo nel test bindshell (porte 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp).
 {: tip}
 
 8. Modifica la directory (`cd ..`) e rimuovi il file .gz:  

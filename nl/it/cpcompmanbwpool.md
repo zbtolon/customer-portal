@@ -26,7 +26,7 @@ Puoi ottimizzare l'utilizzo della larghezza di banda "raggruppando" insieme tutt
 
 Una volta creato un pool di larghezza di banda, se sei un utente autorizzato, puoi accedere al pool in qualsiasi momento. Accedi al pool di larghezza di banda per visualizzare i dispositivi associati al pool, aggiungere dispositivi o rimuovere i dispositivi dal pool. Utilizza la seguente procedura per accedere a un pool:
 
-1. Accedi al portale del cliente con le tue credenziali univoche.
+1. Accedi al portale clienti con le tue credenziali univoche.
 2. Dal menu, seleziona **Rete** > **Larghezza di banda** > **Pool** per accedere alla finestra Pool di larghezza di banda.
 3. Fai clic su **Nome pool** per accedere al pool. Viene visualizzato ogni dispositivo associato al pool.
 4. Dalla scheda **Modifica**, puoi rinominare il pool, aggiungere un dispositivo o rimuovere un dispositivo dal pool.

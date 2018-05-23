@@ -21,7 +21,7 @@ A volte, nell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} si verifica
 {:shortdesc}
 
 Utilizza la seguente procedura per riavviare il tuo server:
-1. Dal portale del cliente, fai clic sulla scheda **Supporto**.
+1. Dal portale clienti, fai clic sulla scheda **Supporto**.
 2. Fai clic su **Riavvia**.
 3. Seleziona il server da riavviare e fai clic su **Riavvia**.
 4. Seleziona uno dei seguenti metodi per riavviare il server:

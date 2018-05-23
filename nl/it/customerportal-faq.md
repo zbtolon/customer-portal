@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -22,14 +22,14 @@ Le seguenti domande frequenti riguardano la gestione dei problemi relativi alle 
 {:shortdesc}
 
 
-## Come posso recuperare le mie credenziali per il Portale del cliente?
+## Come posso recuperare le mie credenziali per il Portale clienti?
 {: #bicp_retcreds}
 
 Se utilizzi l'ID IBM per l'autenticazione, quando effettui il primo ordine o quando vieni aggiunto come utente a un account, ti viene inviata un'e-mail contenente un link per iniziare con l'ID IBM. Se dimentichi o perdi il tuo nome utente o password, vai al tuo [profilo ID IBM![Icona link esterno](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} e reimposta o recupera la password utilizzando le istruzioni che seguono la procedura di accesso. Ti verrà richiesto di immettere informazioni specifiche, che potrebbero includere le risposte alle tue domande di sicurezza.
 
-Se NON utilizzi l'ID IBM per l'autenticazione, quando effettui il primo ordine o vieni aggiunto come utente a un account del [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, ricevi un'e-mail contenente il tuo nome utente e la password iniziale per iniziare nel portale del cliente. Assicurati di cambiare la password dopo aver effettuato l'accesso per la prima volta [modificando il tuo profilo utente](edit-user-profile.html).
+Se NON utilizzi l'ID IBM per l'autenticazione, quando effettui il primo ordine o vieni aggiunto come utente a un account del [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, ricevi un'e-mail contenente il tuo nome utente e la password iniziale per iniziare nel portale clienti. Assicurati di cambiare la tua password dopo aver effettuato l'accesso per la prima volta modificando il tuo profilo utente. Per modificare la tua password, accedi con le informazioni nell'email e fai clic sul tuo nome utente nel pannello superiore per modificare il tuo profilo.
 
-Se dimentichi la password dopo aver effettuato l'accesso, utilizza la funzione **Password dimenticata** disponibile nella schermata di accesso del [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Ti verrà richiesto di immettere informazioni specifiche, incluso un insieme di domande di sicurezza che hai specificato durante la [modifica del tuo profilo utente](edit-user-profile.html).
+Se dimentichi la password dopo aver effettuato l'accesso, utilizza la funzione **Password dimenticata** disponibile nella schermata di accesso del [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Ti verrà richiesto di immettere delle informazioni specifiche, comprese una serie di domande di sicurezza da te specificate quando hai configurato il tuo profilo utente.
 
 Se dimentichi il nome utente, contatta l'amministratore dell'account o l'utente master, che ha la possibilità di recuperare il tuo nome utente. Se sei l'amministratore o l'utente master dell'account, contatta il supporto per ricevere ulteriore assistenza.
 
@@ -41,7 +41,7 @@ I nuovi account richiedono l'ID IBM per l'autenticazione. Gli account esistenti 
 ## Come collego un account SoftLayer esistente?
 {: #bicp_linkbmxacct}
 
-Se sei l'utente master nel tuo account SoftLayer, accedi al portale del cliente e fai clic su **Collega un account** nell'intestazione.  Per ulteriori informazioni, vedi [Collegamento degli account utente ID IBM](/docs/account/softlayerlink.html).
+Se sei l'utente master nel tuo account SoftLayer, accedi al portale clienti e fai clic su **Collega un account** nell'intestazione.  Per ulteriori informazioni, vedi [Collegamento degli account utente ID IBM](/docs/account/softlayerlink.html).
 
 ## Devo essere un utente {{site.data.keyword.Bluemix_notm}} esistente per collegare gli account?
 {: #bicp_bmxusertolink}
@@ -76,8 +76,8 @@ La fatturazione dell'account è collegata e puoi spostarti facilmente tra i tuoi
 ## Ho provato ad accedere con il mio nome utente SoftLayer, perché ricevo un errore?
 {: #bicp_SLloginerror}
 
-Dopo essere passato a un ID IBM, se accedi al portale del cliente con il tuo nome utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} visualizzerai l'errore *"Credenziali di accesso non valide"*.
-Questo si verifica perché, dopo essere passato a un ID IBM, non puoi più accedere al portale del cliente con il tuo nome utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Devi invece fare clic su **Accedi con ID IBM** nella finestra di dialogo Accesso account.
+Dopo essere passato a un ID IBM, se accedi al portale clienti con il tuo nome utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} visualizzerai l'errore *"Credenziali di accesso non valide"*.
+Questo si verifica perché, dopo essere passato a un ID IBM, non puoi più accedere al portale clienti con il tuo nome utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Devi invece fare clic su **Accedi con ID IBM** nella finestra di dialogo Accesso account.
 
 ## Ho provato a collegarmi con il mio ID IBM, perché ricevo un errore?
 {: #bicp_IBMidloginerror}
@@ -100,13 +100,13 @@ Devi invitarli a {{site.data.keyword.Bluemix_notm}}. Nell'interfaccia utente {{s
 ## Dov'è la mia e-mail per completare il passaggio all'Id IBM?
 {: #bicp_ibmidswitchemail}
 
-Se hai seguito la procedura guidata per passare all'ID IBM e non hai ricevuto l'e-mail, l'invio dell'e-mail con il tuo codice di registrazione può richiedere minuti o ore. Puoi tornare alla pagina **Modifica profilo utente** nel portale del cliente e fare clic su **Invia nuovamente e-mail** per riprovare.
+Se hai seguito la procedura guidata per passare all'ID IBM e non hai ricevuto l'e-mail, l'invio dell'e-mail con il tuo codice di registrazione può richiedere minuti o ore. Puoi tornare alla pagina **Modifica profilo utente** nel portale clienti e fare clic su **Invia nuovamente e-mail** per riprovare.
 
 
 ## Avrò accesso root completo al mio account?
 {: #bicp_fullrootaccaccess}
 
-Gli utenti master e quelli con autorizzazioni di amministratore hanno accesso root completo agli account sul portale del cliente e sull'API. Gli utenti senza autorizzazioni di amministratore hanno l'accessibilità controllata da quelli con i ruoli di amministratore. Queste autorizzazioni possono essere aggiornare in qualsiasi momento [modificando il profilo utente](edit-user-profile.html) nel portale del cliente.
+Gli utenti master e quelli con autorizzazioni di amministratore hanno accesso root completo agli account sul portale clienti e sull'API. Gli utenti senza autorizzazioni di amministratore hanno l'accessibilità controllata da quelli con i ruoli di amministratore. Queste autorizzazioni possono essere aggiornate dagli amministratori dal portale clienti [modificando un profilo utente](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Senza le autorizzazioni di amministratore, puoi modificare il tuo profilo utente nel portale clienti facendo clic sul tuo nome utente nel pannello superiore.
 
 
 ## Posso collegare un account di sottoscrizione {{site.data.keyword.Bluemix_notm}}?
@@ -129,9 +129,9 @@ Il profilo azienda rappresenta le informazioni inviate al momento della creazion
 ## Dove trovo le mie password per il dispositivo e il software?
 {: #bicp_devswpw}
 
-Le password del dispositivo e del software sono memorizzate in due posizioni all'interno del [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Per recuperare le credenziali del dispositivo, inclusi il nome utente e la password root o amministratore per i {{site.data.keyword.baremetal_short}} e {{site.data.keyword.virtualmachinesshort}}, vedi [Interazione con un dispositivo nella vista dell'istantanea](/docs/vsi/vsi_interact_device_snapshot_view.html). Per visualizzare e recuperare rapidamente le credenziali del software che vengono tracciate manualmente utilizzando il portale del cliente, vedi [Gestione dell'accesso al dispositivo](/docs/vsi/vsi_device_access.html).
+Le password del dispositivo e del software sono memorizzate in due posizioni all'interno del [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Per recuperare le credenziali del dispositivo, inclusi il nome utente e la password root o amministratore per i {{site.data.keyword.baremetal_short}} e {{site.data.keyword.virtualmachinesshort}}, vedi [Interazione con un dispositivo nella vista dell'istantanea](/docs/vsi/vsi_interact_device_snapshot_view.html). Per visualizzare e recuperare rapidamente le credenziali del software che vengono tracciate manualmente utilizzando il portale clienti, vedi [Gestione dell'accesso al dispositivo](/docs/vsi/vsi_device_access.html).
 
-##Come posso mantenere sincronizzati i miei dati web?
+## Come posso mantenere sincronizzati i miei dati web?
 {: #bicp_webdatasync}
 
 Sebbene tu sia responsabile per il mantenimento della coerenza dei dati tra server reali, {{site.data.keyword.BluSoftlayer_full}} fornisce una rete privata che puoi utilizzare per sincronizzare senza incorrere in costi di utilizzo.
@@ -140,9 +140,9 @@ Sebbene tu sia responsabile per il mantenimento della coerenza dei dati tra serv
 ## Cos'è Event Management System?
 {: #bicp_whatisems}
 
-The Event Management System è un insieme di strumenti che ottimizza il modo in cui {{site.data.keyword.BluSoftlayer_full}} condivide le informazioni con gli utenti su problemi di infrastruttura non pianificati e imminenti eventi di manutenzione pianificata. Utilizza avvisi e-mail mirati basati su sottoscrizione relativi a questi incidenti per condividere il tipo di evento che si è verificato. Fornisce agli utenti sottoscritti ulteriori dettagli sull'impatto complessivo dell'evento e sullo stato corrente dell'incidente non pianificato in corso (UIP).
+Event Management System è un insieme di strumenti che ottimizza il modo in cui {{site.data.keyword.BluSoftlayer_full}} condivide le informazioni con gli utenti su problemi di infrastruttura non pianificati e imminenti eventi di manutenzione pianificata. Utilizza avvisi e-mail mirati basati su sottoscrizione relativi a questi incidenti per condividere il tipo di evento che si è verificato. Fornisce agli utenti sottoscritti ulteriori dettagli sull'impatto complessivo dell'evento e sullo stato corrente dell'incidente non pianificato in corso (UIP).
 
 ## Come e dove posso annullare un dispositivo?
 {: #bicp_candev}
 
-Puoi annullare un dispositivo in qualsiasi momento attraverso il [portale del cliente ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Vedi [Cancel a Device](/vsi/vsi_managing.html) per ulteriori informazioni su come completare la richiesta di annullamento.
+Puoi annullare un dispositivo in qualsiasi momento attraverso il [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Vedi [Cancel a Device](/docs/vsi/vsi_managing.html) per ulteriori informazioni su come completare la richiesta di annullamento.

@@ -35,7 +35,7 @@ Più utenti possono essere assegnati a un singolo ruolo. Inoltre, se un ruolo es
 
 In questo modello, si verifica quanto segue:
 * Gli utenti vengono creati nel provider di identità e nell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
-* Le autorizzazioni utente vengono assegnate nell'IMS dell'infrastruttura {{site.data.keyword.BluSoftlayer}} utilizzando il portale del cliente o le API dell'infrastruttura {{site.data.keyword.BluSoftlayer}}.
+* Le autorizzazioni utente vengono assegnate nell'IMS dell'infrastruttura {{site.data.keyword.BluSoftlayer}} utilizzando il portale clienti o le API dell'infrastruttura {{site.data.keyword.BluSoftlayer}}.
 * Gli utenti si autenticano con il provider di identità e federano le proprie credenziali.
 * L'infrastruttura {{site.data.keyword.BluSoftlayer}} utilizza le credenziali e il controllo dell'accesso si basa sulle autorizzazioni definite per l'utente nell'IMS dell'infrastruttura {{site.data.keyword.BluSoftlayer}}.
 
@@ -57,7 +57,7 @@ Di seguito è riportato un flusso di esempio di come potrebbe funzionare l'auten
 3. Il provider di identità restituisce risposte SAML 2.0.
 4. Il provider di identità invia una risposta SAML 2.0 al provider di servizio, in questo caso all'infrastruttura {{site.data.keyword.BluSoftlayer}}, per autenticare l'ID utente.
 5. L'infrastruttura {{site.data.keyword.BluSoftlayer}} convalida la risposta SAML 2.0.
-6. L'utente ha effettuato l'accesso al portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer}} in base alla configurazione affidabile tra il provider di indentità e l'infrastruttura {{site.data.keyword.BluSoftlayer}}.
+6. L'utente ha effettuato l'accesso al portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer}} in base alla configurazione affidabile tra il provider di identità e l'infrastruttura {{site.data.keyword.BluSoftlayer}}.
 
 
 ## Creazione di utenti nel provider di identità
@@ -66,7 +66,7 @@ Di seguito è riportato un flusso di esempio di come potrebbe funzionare l'auten
 In questo modello, accadono le seguenti cose:
 * Vengono creati i ruoli nel provider di identità e quindi assegnati all'utente.
 * Le assegnazioni di ruoli e autorizzazioni sono configurate nell'IMS dell'infrastruttura {{site.data.keyword.BluSoftlayer}} utilizzando le API dell'infrastruttura {{site.data.keyword.BluSoftlayer}}.
-* Gli utenti si autenticano con il provider di identità e federano le proprie credenzial e gli attributi del ruolo.
+* Gli utenti si autenticano con il provider di identità e federano le proprie credenziali e gli attributi del ruolo.
 * L'infrastruttura {{site.data.keyword.BluSoftlayer}} utilizza le credenziali dell'utente e gli attributi del ruolo. Se il ruolo assegnato dal provider di identità dell'utente corrisponde a un ruolo nell'infrastruttura {{site.data.keyword.BluSoftlayer}}, all'utente vengono concesse le autorizzazioni per tale ruolo durante l'accesso all'infrastruttura {{site.data.keyword.BluSoftlayer}}.
 * Gli utenti creati nel provider di identità sono considerati federati in quanto essi e i relativi ruoli sono autenticati tramite SAML 2.0.
 
@@ -94,7 +94,7 @@ Di seguito è riportato un flusso di esempio di come potrebbe funzionare l'auten
 3. Il provider di identità restituisce risposte SAML 2.0.
 4. Il provider di identità invia una risposta SAML 2.0 al provider di servizio, in questo caso all'infrastruttura {{site.data.keyword.BluSoftlayer}}, per autenticare il ruolo utente.
 5. L'infrastruttura {{site.data.keyword.BluSoftlayer}} convalida la risposta SAML 2.0.
-6. L'infrastruttura {{site.data.keyword.BluSoftlayer}} reindirizza l'utente al portale del cliente.
-7. L'utente ha effettuato l'accesso al portale del cliente dell'infrastruttura {{site.data.keyword.BluSoftlayer}}.
+6. L'infrastruttura {{site.data.keyword.BluSoftlayer}} reindirizza l'utente al portale clienti.
+7. L'utente ha effettuato l'accesso al portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer}}.
 
 Esamina le procedure del tuo provider di identità per informazioni sulla configurazione di nuovi ruoli e su come associarli all'infrastruttura {{site.data.keyword.BluSoftlayer}}.

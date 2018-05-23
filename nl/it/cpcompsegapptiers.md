@@ -17,7 +17,7 @@ lastupdated: "2018-03-07"
 # Protezione e ridimensionamento del tuo ambiente
 {: #cp_compsegapptierssecscal}
 
-Qquando si effettua l'hosting di un'applicazione, an application, due degli aspetti più critici che qualsiasi amministratore di sistema deve considerare sono la sicurezza e la scalabilità dell'applicazione.
+Quando si effettua l'hosting di un'applicazione, due degli aspetti più critici che qualsiasi amministratore di sistema deve considerare sono la sicurezza e la scalabilità dell'applicazione.
 {:shortdesc}
 
 ## Protezione dei tuoi sistemi con i firewall
@@ -25,7 +25,7 @@ Qquando si effettua l'hosting di un'applicazione, an application, due degli aspe
 
 Utilizza i firewall hardware disponibili per assicurarti che il tuo dispositivo sia sempre sicuro. Puoi eseguire il provisioning di firewall hardware su richiesta senza tempi di inattività, se vengono stabilite correttamente delle regole, per proteggere il tuo server da attività indesiderate.
 
-I firewall sono servizi aggiuntivi per qualsiasi dispositivo che devi configurare e abilitare manualmente per garantirne l'efficiacia. Puoi bloccare porte superflue e disabilitare le porte pubbliche per sistemi basati su reti private per gestire ulteriormente l'accessibilità esterna ai tuoi sistemi. L'esecuzione di scansioni regolari delle vulnerabilità nel portale del cliente identifica eventuali rischi di sicurezza rilevanti o sconosciuti in modo da poter ridurre rapidamente tali rischi.
+I firewall sono servizi aggiuntivi per qualsiasi dispositivo che devi configurare e abilitare manualmente per garantirne l'efficiacia. Puoi bloccare porte superflue e disabilitare le porte pubbliche per sistemi basati su reti private per gestire ulteriormente l'accessibilità esterna ai tuoi sistemi. L'esecuzione di scansioni regolari delle vulnerabilità nel portale clienti identifica eventuali rischi di sicurezza rilevanti o sconosciuti in modo da poter ridurre rapidamente tali rischi.
 
 Dopo aver ordinato il firewall, è necessario abilitarlo e impostare le regole.
 
@@ -49,6 +49,6 @@ Configurando il tuo ambiente in questo modo, aumenti la sicurezza impedendo alle
 
 Un ambiente multilivello offre anche facilità di scalabilità rispetto alle architetture verticali o ad host singolo. Puoi configurare un ambiente multilivello per semplificare il ridimensionamento incrementale della tua applicazione, consentendo il ridimensionamento per i servizi che richiedono risorse aggiuntive. Ad esempio, nello scenario precedente, se il tuo server web è sottoposto a tassazione eccessiva, puoi semplicemente distribuire un altro server web, replicare i dati del sito o dell'applicazione e configurare il bilanciamento del carico o il DNS round robin per consentire ai tuoi due server web di suddividere il carico web. Il DNS round robin o bilanciamento del carico fornisce un'elevata disponibilità al tuo ambiente, consentendo a più server web di rispondere alle richieste in entrata.  Se un singolo server si interrompe, è disponibile un altro nodo per gestire le richieste dell'utente finale.
 
-Puoi anche eseguire il ridimensionamento incrementale del tuo database. Ad esempio, con un database {{site.data.keyword.mysql}}, un'opzione è quella di configuirare un altro server fisico e utilizzarlo come 'slave' in una configurazione di replica Master/Slave {{site.data.keyword.mysql}}.  Puoi segmentare tutte le scritture del database sul 'master' e tutte le letture su uno o più 'slave' per ridimensionare il database per supportare più carico.  Questo tipo di configurazione aggiungerà anche un livello di alta disponibilità consentendoti di modificare lo stato di uno 'slave' in 'master' e instradare ad esso sia il traffico di lettura che di scrittura nel caso in cui il nodo 'master' {{site.data.keyword.mysql}} si interrompa.
+Puoi anche eseguire il ridimensionamento incrementale del tuo database. Ad esempio, con un database {{site.data.keyword.mysql}}, un'opzione è quella di configurare un altro server fisico e utilizzarlo come 'slave' in una configurazione di replica Master/Slave {{site.data.keyword.mysql}}.  Puoi segmentare tutte le scritture del database sul 'master' e tutte le letture su uno o più 'slave' per ridimensionare il database per supportare più carico.  Questo tipo di configurazione aggiungerà anche un livello di alta disponibilità consentendoti di modificare lo stato di uno 'slave' in 'master' e instradare ad esso sia il traffico di lettura che di scrittura nel caso in cui il nodo 'master' {{site.data.keyword.mysql}} si interrompa.
 
 Queste idee sono solo alcuni dei molti modi per proteggere e ridimensionare il tuo ambiente. Se hai domande o dubbi relativi al modo migliore di progettare il tuo ambiente da una prospettiva di sicurezza o scalabilità, l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} ha un team Sales Engineering che può aiutarti.

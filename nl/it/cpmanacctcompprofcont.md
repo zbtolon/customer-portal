@@ -24,11 +24,11 @@ Ogni account SoftLayer ha un profilo azienda associato che contiene le informazi
 ## Aggiornamento del tuo profilo azienda
 {: #cp_updcompprof}
 
-L'infrastruttura {{site.data.keyword.BluSoftlayer_full}} utilizza le informazioni disponibili nel profilo azienda per contattarti. Se il tuo numero di telefono o l'e-mail di contatto principale cambiano, assicurati di aggiornarli. Le informazioni sul profilo azienda vengono inserite nell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} al momento della creazione dell'account e possono essere reperite in diverse posizioni nel portale del cliente.
+L'infrastruttura {{site.data.keyword.BluSoftlayer_full}} utilizza le informazioni disponibili nel profilo azienda per contattarti. Se il tuo numero di telefono o l'e-mail di contatto principale cambiano, assicurati di aggiornarli. Le informazioni sul profilo azienda vengono inserite nell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} al momento della creazione dell'account e possono essere reperite in diverse posizioni nel portale clienti.
 
 Puoi modificare il profilo azienda in qualsiasi momento inviando una richiesta di modifica. I dettagli associati vengono verificati e le modifiche vengono aggiornate dopo la loro convalida. Utilizza la seguente procedura per richiedere un aggiornamento del profilo azienda.
 
-1. Accedi al portale del cliente utilizzando le tue credenziali univoche.
+1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Gestisci** > **Profilo azienda** dal menu per accedere alla finestra Profilo account.
 3. Aggiorna i dettagli nella sezione **Informazioni azienda** o **Titolare account principale** o in entrambe.
 > **Nota:** le informazioni nel profilo dell'account vengono utilizzate solo per scopi amministrativi interni.
@@ -42,9 +42,9 @@ Dopo aver richiesto un aggiornamento al profilo azienda, un membro del team dell
 
 Le informazioni sui contatti per il tuo account devono essere completate e aggiornate nel caso in cui sia necessaria una richiesta. Assicurati che i contatti dell'account siano le persone appropriate da contattare per ogni tipo di richiesta. Potrebbero esserci più voci di contatto per ogni account, ma solo un contatto per ogni tipo di servizio. Le informazioni di contatto specifiche dell'account *non* includono il profilo dell'account, che è l'informazione di contatto principale associata a un account. Utilizza la seguente procedura per aggiungere o modificare un contatto dell'account.
 
-1. Accedi al portale del cliente utilizzando le tue credenziali univoche.
+1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Gestisci** > **Contatti azienda** dal menu.
-3. Immetti o aggiorna le informazioni di conatatto per il **Tipo di contatto**.<br/>**Nota:** assicurati di fornire le informazioni di contatto per la persona che dovrebbe ricevere richieste riguardanti lo specifico tipo di contatto che verranno effettuate dal tipo di contatto. Verifica le informazioni prima di eseguire l'aggiornamento.
+3. Immetti o aggiorna le informazioni di contatto per il **Tipo di contatto**.<br/>**Nota:** assicurati di fornire le informazioni di contatto per la persona che dovrebbe ricevere richieste riguardanti lo specifico tipo di contatto che verranno effettuate dal tipo di contatto. Verifica le informazioni prima di eseguire l'aggiornamento.
 4. Fai clic su **Salva**.
 
 Dopo aver inviato le nuove informazioni di contatto, i contatti dell'account vengono aggiornati immediatamente.
