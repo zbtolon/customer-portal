@@ -28,7 +28,7 @@ You would use the {{site.data.keyword.BluSoftlayer_notm}} infrastructure custome
 
 You would then use the {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for the following tasks:
   * Managing access of your resources, monitoring resources, and viewing access logs
-  * Ordering and interacting with infrastructure products and services, for example adding and managing devices and [virtual servers](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
+  * Ordering and interacting with infrastructure products and services, for example, adding and managing devices and [virtual servers](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
   * Managing and maintaining your linked or unlinked SoftLayer accounts
   * Viewing and paying monthly infrastructure resource invoices
   * Opening, viewing, and updating tickets associated with any {{site.data.keyword.BluSoftlayer_notm}} infrastructure product or service
@@ -36,5 +36,5 @@ You would then use the {{site.data.keyword.BluSoftlayer_full}} infrastructure cu
 For everything else, use the [{{site.data.keyword.Bluemix}} console ![External link icon](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
 
 You can access the customer portal in the following ways:
-* From the [{{site.data.keyword.Bluemix}} console ![External link icon](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} menu by selecting **Infrastructure** from the menu bar Menu icon ![Menu icon](../icons/icon_hamburger.svg).  For more information, see [How the {{site.data.keyword.cloud_notm}} console works](/docs/overview/ui.html#ui).
+* From the [{{site.data.keyword.Bluemix}} console ![External link icon](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} menu by selecting **Infrastructure** from the menu bar ![Menu icon](../icons/icon_hamburger.svg). For more information, see [How the {{site.data.keyword.cloud_notm}} console works](/docs/overview/ui.html#ui).
 * From the SoftLayer [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} directly.
