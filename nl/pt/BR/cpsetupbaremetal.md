@@ -15,13 +15,13 @@ lastupdated: "2018-02-12"
 {:new_window: target="_blank"}
 
 
-# Configurando um servidor bare metal
+# Configurando um Bare Metal Server
 {: #customerportal_setupbaremetal}
 
-É possível configurar um Servidor Bare Metal como um servidor dedicado.
+É possível configurar um Bare Metal Server como um servidor dedicado.
 {:shortdesc}
 
-Use as etapas a seguir para configurar um Servidor Bare Metal:
+Use as etapas a seguir para configurar um Bare Metal Server:
 
 1. Efetue login no portal do cliente do {{site.data.keyword.BluSoftlayer_full}} com suas credenciais exclusivas.
 

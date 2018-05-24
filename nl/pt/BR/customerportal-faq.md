@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,9 +27,9 @@ As perguntas mais frequentes a seguir se relacionam ao gerenciamento de problema
 
 Se você usar o IBMid para autenticação, quando efetuar seu primeiro pedido ou quando for incluído como um usuário em uma conta, será enviado um e-mail com um link para você começar a usar seu IBMid. Se seu nome de usuário ou senha for perdida ou esquecida, acesse seu [perfil do IBMid ![Ícone de link externo](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} e reconfigure ou recupere a senha usando as instruções que seguem o processo de conexão. Será solicitado que insira informações específicas, que podem incluir o fornecimento de respostas às suas perguntas de segurança.
 
-Se você NÃO usar o IBMid para autenticação, quando efetuar seu primeiro pedido ou for incluído como um usuário a uma conta do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, receberá um e-mail contendo seu nome de usuário e senha inicial para começar a usar o portal do cliente. Certifique-se de mudar sua senha após efetuar login pela primeira vez [editando seu perfil do usuário](edit-user-profile.html).
+Se você NÃO usar o IBMid para autenticação, quando efetuar seu primeiro pedido ou for incluído como um usuário a uma conta do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, receberá um e-mail contendo seu nome de usuário e senha inicial para começar a usar o portal do cliente. Certifique-se de mudar sua senha após efetuar login pela primeira vez editando seu perfil do usuário. Para mudar sua senha, efetue login com as informações no e-mail e clique em seu nome do usuário no painel superior para editar seu perfil.
 
-Se você esquecer sua senha após efetuar login, use o recurso **Esqueceu sua Senha** que está disponível na tela de login do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Será solicitado que insira informações específicas, incluindo um conjunto de perguntas de segurança que você especificou ao [editar seu perfil do usuário](edit-user-profile.html).
+Se você esquecer sua senha após efetuar login, use o recurso **Esqueceu sua Senha** que está disponível na tela de login do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Você será solicitado a inserir informações específicas, incluindo um conjunto de perguntas de segurança que foram especificadas ao configurar seu perfil do usuário.
 
 Se você esqueceu seu nome de usuário, entre em contato com o administrador da conta ou com o usuário principal, que tem a capacidade de recuperar seu nome de usuário. Se você for o usuário administrador ou principal na conta, entre em contato com o Suporte para obter assistência adicional.
 
@@ -106,7 +106,7 @@ Se você seguiu o assistente para alternar para o IBMid e não recebeu o e-mail,
 ## Terei total acesso raiz à minha conta?
 {: #bicp_fullrootaccaccess}
 
-Os usuários principais e aqueles com permissões de administrador têm acesso raiz completo às contas no portal do cliente e à API. Os usuários sem permissões de administrador têm acessibilidade controlada por aqueles com funções de administrador. Essas permissões podem ser atualizadas a qualquer momento [editando o perfil do usuário](edit-user-profile.html) no portal do cliente.
+Os usuários principais e aqueles com permissões de administrador têm acesso raiz completo às contas no portal do cliente e à API. Os usuários sem permissões de administrador têm acessibilidade controlada por aqueles com funções de administrador. Essas permissões podem ser atualizadas pelos administradores do portal do cliente [editando um perfil do usuário](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Sem permissões de administrador, é possível editar seu perfil do usuário no portal do cliente clicando em seu nome do usuário no painel superior.
 
 
 ## Posso vincular uma conta de assinatura do {{site.data.keyword.Bluemix_notm}}?
@@ -131,7 +131,7 @@ O perfil da empresa são as informações enviadas no momento da criação da co
 
 As senhas do dispositivo e de software são armazenadas em dois locais dentro do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Para recuperar as credenciais do dispositivo, incluindo o nome do usuário raiz ou administrador e a senha para o {{site.data.keyword.baremetal_short}} e o {{site.data.keyword.virtualmachinesshort}}, consulte [Interagir com um dispositivo na visualização de captura instantânea](/docs/vsi/vsi_interact_device_snapshot_view.html). Para visualizar e recuperar rapidamente as credenciais de software que são controladas manualmente usando o portal do cliente, consulte [Gerenciando o acesso ao dispositivo](/docs/vsi/vsi_device_access.html).
 
-##Como manter meus dados da web em sincronia?
+## Como manter meus dados da web em sincronia?
 {: #bicp_webdatasync}
 
 Embora você seja responsável por manter a consistência de dados entre servidores reais, o {{site.data.keyword.BluSoftlayer_full}} fornece uma rede privada que você pode usar para sincronizar sem incorrer em encargos de uso.
@@ -145,4 +145,4 @@ O Sistema de Gerenciamento de Eventos é um conjunto de ferramentas que otimiza 
 ## Como e onde posso cancelar um dispositivo?
 {: #bicp_candev}
 
-É possível cancelar um dispositivo a qualquer momento por meio do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Consulte [Cancelar um dispositivo](/vsi/vsi_managing.html) para obter mais informações sobre como concluir uma solicitação de cancelamento.
+É possível cancelar um dispositivo a qualquer momento por meio do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Consulte [Cancelar um dispositivo](/docs/vsi/vsi_managing.html) para obter mais informações sobre como concluir uma solicitação de cancelamento.

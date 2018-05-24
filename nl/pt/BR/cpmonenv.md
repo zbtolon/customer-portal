@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -29,17 +29,17 @@ No mínimo, use monitoramento de ping básico, mas você pode customizar suas op
 ### Ficando informado sobre manutenção de rede e eventos não planejados
 {: #cp_stayinfomaintevent}
 
-De vez em quando, a manutenção de rede planejada e emergencial é inevitável. A infraestrutura do {{site.data.keyword.BluSoftlayer_full}} mantém vários canais, como a [conta do Twitter ![Ícone de link externo](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, para mantê-lo informado sobre todos os eventos de manutenção planejados e emergenciais. Além disso, é possível [assinar notificações por e-mail](/docs/customer-portal/cpsub2not.html) do Sistema de Gerenciamento de Eventos. Esse serviço complementar envia e-mails automaticamente aos usuários inscritos sobre eventos não planejados que possam impactar os serviços.
+De vez em quando, a manutenção de rede planejada e emergencial é inevitável. A infraestrutura do {{site.data.keyword.BluSoftlayer_full}} mantém vários canais para deixá-lo informado sobre todos os eventos de manutenção planejados e emergenciais. Além disso, é possível [assinar notificações por e-mail](/docs/customer-portal/cpsub2not.html) do Sistema de Gerenciamento de Eventos. Esse serviço complementar envia e-mails automaticamente aos usuários inscritos sobre eventos não planejados que possam impactar os serviços.
 
 ### Usando a infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}
 
-Use a infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}} para gerenciar seus dispositivos de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} em movimento usando seu dispositivo móvel iOS ou Android. A funcionalidade dentro da infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}} inclui suporte de chamados, controle de dispositivo básico e monitoramento de largura da banda.
+Use a infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}} para gerenciar seus dispositivos de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} em movimento usando seu dispositivo móvel iOS ou Android. A funcionalidade dentro do dispositivo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} inclui suporte de chamado, controle de dispositivo básico e monitoramento de largura da banda.
 
 O aplicativo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} complementa a funcionalidade do portal do cliente porque você pode monitorar informações críticas sobre sua infraestrutura de qualquer lugar usando seu dispositivo móvel conectado à rede. O aplicativo evolui rapidamente e a nova funcionalidade é incluída regularmente, mas é possível usar o aplicativo móvel para executar tarefas como as seguintes:
   * Visualizar, criar e atualizar chamados de suporte
   * Monitorar o status do dispositivo, incluindo a largura da banda e os alarmes
-  * Encerrar e reiniciar Servidores Bare Metal e servidores virtuais
+  * Encerrar e reiniciar Bare Metal Servers e servidores virtuais
   * Visualizar faturas de contas e fazer pagamentos únicos
   * Acessar e examinar o conteúdo armazenado no Object Storage
 

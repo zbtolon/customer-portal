@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-23"
 Se você tiver problemas com a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} e não tiver uma conta vinculada, será possível obter ajuda para determinar a causa do problema e localizar uma solução usando o portal do cliente.
 {:shortdesc}
 
-Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix}}. Veja [Obtendo suporte ao cliente](/docs/get-support/howtogetsupport.html) para obter mais informações.
+Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix_notm}}. Veja [Obtendo suporte ao cliente](/docs/get-support/howtogetsupport.html) para obter mais informações.
 
 Se você não tiver uma conta vinculada, será possível abrir chamados de suporte no portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para questões técnicas gerais ou para ajudar com problemas relacionados à sua conta.
 
@@ -73,7 +73,7 @@ Depois de incluir um chamado, ele será roteado para o membro apropriado da equi
 
 É possível abrir os chamados da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para ajudar com problemas relacionados à sua conta no portal do cliente de forma semelhante à maneira que você abre um chamado para problemas de suporte técnico geral, mas com uma diferença importante.  
 
-Depois de efetuar login no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} e selecionar **Suporte** > **Incluir chamado**, deve-se assegurar que o chamado seja roteado para a equipe de suporte correta e possa ser resolvidos rapidamente. Para rotear o chamado corretamente para manipular problemas de conta, na lista **Assunto**, selecione **Solicitação de contabilidade**.
+Depois de efetuar login no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} e selecionar **Suporte** > **Incluir chamado**, deve-se assegurar que o chamado seja roteado para a equipe de suporte correta e possa ser resolvidos rapidamente. Para rotear o chamado corretamente para manipular problemas de conta, na lista **Assunto**, selecione a **Solicitação de contabilidade**.
 
 Conclua o resto do chamado como você faria para criar um chamado para suporte técnico geral e envie o chamado. Com o **Assunto** configurado para **Solicitação de contabilidade**, a equipe de suporte correta é designada ao chamado e pode ajudar a resolver o problema rapidamente.
 
@@ -107,20 +107,7 @@ Depois de incluir um chamado, é possível visualizá-lo a qualquer momento na j
 
 Se você redesignar o chamado, o novo designado se tornará o ponto principal de contato para resolução do problema. Se você incluir um comentário ou anexo, o membro da equipe de suporte que trabalha no chamado revisará as novas informações para ajudar na resolução do problema.
 
-## Escalando um problema de suporte
+## Escalando um caso de suporte
 {: #cp_bpsupescalflow}
 
-Se você tiver um problema que precisa de ajuda para resolver, será possível abrir um chamado de suporte.  Se o problema for crítico ou urgente e você precisar escalá-lo, use as etapas a seguir.
-
-1. Abra um chamado de suporte no portal do cliente, bate-papo ou por telefone (866-403-7638).
-
-  Ao criar ou atualizar um chamado, inclua quaisquer erros, logs ou resolução de problemas que ocorreu pois isso ajuda a resolver o problema mais rapidamente.
-  {: tip}
-
-2. Trabalhe com a Equipe de Suporte da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} no chamado.  Por exemplo, se a equipe de suporte solicitar informações adicionais, responda o mais rápido que puder.
-3. Se o progresso do chamado parar, escale pelo chamado e faça um comentário como *"Escalar o chamado devido ao impacto no cliente"* ou por bate-papo ou por telefone.
-4. Se o chamado não progredir após a solicitação inicial, será possível escalá-lo para o Supervisor de Suporte solicitando essa escalação no chamado.
-5. Se você ainda não estiver obtendo o progresso necessário depois de solicitar ajuda do Supervisor de Suporte, será possível enviar um e-mail para a equipe de Gerenciamento de Suporte em Notify-Support-WW@wwpdl.vnet.ibm.com.
-
-Essa lista de distribuição notifica toda a equipe de Gerenciamento de Suporte da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para garantir que todos os recursos certos estejam engajados na resolução de seu problema.
-{:tip}
+É possível solicitar assistência adicional escalando seu caso. Veja [Escalando chamados de suporte](/docs/get-support/quicktickresp.html#escalation) para obter mais informações.

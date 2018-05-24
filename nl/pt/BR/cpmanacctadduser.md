@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,7 +27,8 @@ Dependendo de seu acesso, será possível gerenciar sua conta do SoftLayer ou as
   * Se você for o usuário principal da conta, poderá ver todos os usuários associados à conta.
 
   Se precisar compartilhar as credenciais de login principal para sua conta, compartilhe as credenciais cuidadosamente. Seu login principal controla cada aspecto de sua conta e deve ser protegido. Para permitir que outros usuários usem o portal do cliente, configure usuários individuais ou baseados em permissões. Isso permite que você tenha maior controle sobre quem é capaz de interagir com determinados aspectos de sua conta.
-  {:tip}
+{:tip}
+
   * Se você tiver acesso administrativo, poderá ver todos os usuários que criou e, se você deu permissão a esses usuários para administrar outros usuários, também será possível ver quaisquer usuários que eles criaram. Também é possível executar ações em qualquer usuário associado à conta, incluindo a edição de acesso ao portal do cliente, a mudança de status do usuário e a remoção de usuários.
   * Se você não for o usuário principal da conta e não tiver acesso administrativo, apenas seu perfil será mostrado.  É possível interagir com sua própria conta, inclusive visualizar a chave API, editar o acesso à VPN e incluir autenticação externa.
 
@@ -48,7 +49,7 @@ Use as etapas a seguir para incluir um usuário em uma conta.
 5. Preencha os campos necessários na seção **Configurações de login**, incluindo se as configurações podem ser editadas pelo usuário, se o endereço IP é restrito e se o usuário precisa ou não configurar e usar perguntas de segurança. Além disso, para quaisquer usuários que não estão usando o IBMid, é possível configurar o período de tempo antes da expiração da senha.
 **Notas:**
 * Se você usar o IBMid para autenticação, atualize as senhas em seus [perfis do IBMid ![Ícone de link externo](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} seguindo as instruções em **Conectar**.
-* Clique na caixa de seleção **Senha do portal do usuário para VPN** para sincronizar as senhas do portal do cliente e da VPN.
+* Clique na caixa de seleção **Usar senha do portal para VPN** para sincronizar as senhas do portal do cliente e da VPN.
 6. Clique em **Incluir usuário**.
 
 Após a criação de uma conta para um usuário, o usuário recebe uma notificação por e-mail para concluir a configuração de sua conta configurando uma senha e, opcionalmente, perguntas de segurança se você tiver indicado que elas são necessárias.
