@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-26"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -31,8 +31,8 @@ If you do not already have an identity provider, first select one and set it up.
 * IBM Cloud Identity Services.
 Contact your {{site.data.keyword.BluSoftlayer_notm}} infrastructure Sales Representative for more information.
 
-If you do not already have an identity provider set up, you can contact your identity provider support for specific steps, or use the following high-level steps to configure your identity provider:
-1. Prepare your identity provider environment by downloading and installing its executable.
+If you do not already have an identity provider set up, you can contact your identity provider support for specific steps. You can also use the following high-level steps to configure your identity provider:
+1. Prepare your identity provider environment by downloading and installing the executable file.
 2. Configure your identity provider to work with {{site.data.keyword.BluSoftlayer_notm}} authentication.
 
 ## Setting up {{site.data.keyword.BluSoftlayer_notm}} infrastructure for SSO
@@ -45,7 +45,7 @@ You must extract the following required fields of Security Assertion Markup Lang
 <dt>Single Sign-on URL</dt>
 <dd>The endpoint of the identity provider for SSO.</dd>
 <dt>Certificate</dt>
-<dd>The identity provider's certificate used to sign requests.</dd>
+<dd>The identity provider's certificate that is used to sign requests.</dd>
 </dl>
 
 The following field is optional:
@@ -58,7 +58,7 @@ Use the following steps to set up {{site.data.keyword.BluSoftlayer_notm}} infras
 1. Log in to your identity provider, if you are not already logged in, and locate the **SAML configuration** page. Note the following information:
   * Entity ID
   * Single sign-on URL
-  * Certificate (This will vary based on your identity provider.)
+  * Certificate (Certificate requirements vary based on your identity provider.)
 2. Log in to {{site.data.keyword.BluSoftlayer_notm}} infrastructure as the master user with the master user name and password you used to create your SoftLayer account.
 3. Click **Account** > **Manage** > **SAML Authentication**.
 4. Enter the **Identity Provider** metadata.
@@ -67,4 +67,4 @@ Use the following steps to set up {{site.data.keyword.BluSoftlayer_notm}} infras
 7. Click **Download XML Configuration** to download the service provider metadata or jot down the information.
 8. Use the **Service Provider** metadata to configure your identity provider based on the instructions of your identity provider.  
 
-You should now be able to log in to {{site.data.keyword.BluSoftlayer_notm}} infrastructure by using your federated ID. For more information about federated IDs, see [Signing up for {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) and [IBMid Enterprise Federation Adoption Guide ![External link icon](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.
+You can log in to {{site.data.keyword.BluSoftlayer_notm}} infrastructure by using your federated ID. For more information about federated IDs, see [Signing up for {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) and [IBMid Enterprise Federation Adoption Guide ![External link icon](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.
