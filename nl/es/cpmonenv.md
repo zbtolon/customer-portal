@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-08"
 
 ---
 
@@ -29,12 +29,12 @@ Como mínimo, utilice la supervisión de ping básica, pero puede personalizar s
 ### Manténgase informado de los sucesos de mantenimiento de red y de los no planeados
 {: #cp_stayinfomaintevent}
 
-De vez en cuando, es inevitable tener que llevar a cabo mantenimiento de red de emergencia y programado. La infraestructura de {{site.data.keyword.BluSoftlayer_full}} mantiene muchos canales, como la [cuenta de Twitter ![Icono de enlace externo](../icons/launch-glyph.svg)](https://twitter.com/softlayernotify){:new_window}, para mantenerle informado de todos los sucesos de mantenimiento planificados y de emergencia. Además, puede [suscribirse a las notificaciones por correo electrónico](/docs/customer-portal/cpsub2not.html) desde el Event Management System. Este servicio gratuito envía mensajes de correo electrónico automáticamente a los usuarios suscritos sobre sucesos no planeados que pueden afectar a los servicios.
+De vez en cuando, es inevitable tener que llevar a cabo mantenimiento de red de emergencia y programado. La infraestructura de {{site.data.keyword.BluSoftlayer_full}} mantiene muchos canales para mantenerle informado de todos los sucesos de mantenimiento de emergencia y planificados. Además, puede [suscribirse a las notificaciones por correo electrónico](/docs/customer-portal/cpsub2not.html) desde el Event Management System. Este servicio gratuito envía mensajes de correo electrónico automáticamente a los usuarios suscritos sobre sucesos no planeados que pueden afectar a los servicios.
 
 ### Utilización de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil
 {: #cp_bmxinframobile}
 
-Utilice la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil para gestionar los dispositivos de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} sobre la marcha utilizando su dispositivo móvil iOS o Android. La funcionalidad dentro de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil incluye soporte de creación de incidencias, control básico de dispositivos y supervisión del ancho de banda.
+Utilice la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil para gestionar los dispositivos de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} sobre la marcha utilizando su dispositivo móvil iOS o Android. La funcionalidad dentro de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil incluye soporte de incidencias, control básico de dispositivos y supervisión del ancho de banda.
 
 La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} complementa la funcionalidad del portal de clientes, ya que permite supervisar la información crítica sobre la infraestructura desde cualquier sitio mediante el dispositivo móvil conectado a la red. La aplicación evoluciona rápidamente y se añaden nuevas funciones con regularidad, pero puede utilizar la aplicación móvil para efectuar las tareas siguiente, entre otras:
   * Ver, crear y actualizar incidencias de soporte

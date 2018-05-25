@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-23"
+lastupdated: "2018-05-01"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-02-23"
 Si tiene problemas con la infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta enlazada, puede obtener ayuda para determinar la causa del problema y encontrar una solución utilizando el portal del cliente.
 {:shortdesc}
 
-Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix}}. Consulte [Obtención de soporte al cliente](/docs/get-support/howtogetsupport.html) para obtener más información.
+Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix_notm}}. Consulte [Obtención de soporte al cliente](/docs/get-support/howtogetsupport.html) para obtener más información.
 
 Si no tiene una cuenta enlazada, puede abrir incidencias de soporte en el portal del cliente de infraestructura de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos o para obtener ayuda con problemas relacionados con su cuenta.
 
@@ -107,20 +107,7 @@ Puede actualizar una incidencia de soporte existente en cualquier momento para q
 
 Si reasigna la incidencia, el cesionario nuevo se convertirá en el punto de contacto principal para la resolución de problemas. Si añade un comentario o un archivo adjunto, el miembro del Equipo de soporte que está trabajando en la incidencia revisará la información nueva para ayudar en la resolución del problema.
 
-## Escalada de un problema de soporte
+## Escalada de un caso de soporte
 {: #cp_bpsupescalflow}
 
-Si tiene un problema y necesita ayuda para resolverlo, puede abrir una incidencia de soporte.  Si el problema es crítico o urgente y tiene que escalarlo, efectúe los pasos siguientes.
-
-1. Abra una incidencia de soporte desde el portal del cliente, la conversación, o por teléfono (866-403-7638).
-
-  Al crear o actualizar una incidencia, incluya los errores, los registros o la resolución de problemas que hayan tenido lugar, ya que esto ayuda a resolver el problema más rápidamente.
-  {: tip}
-
-2. Trabaje con el Equipo de soporte de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} en la incidencia.  Por ejemplo, si el equipo de soporte solicita información adicional, responda tan pronto como sea posible.
-3. Si se detiene el progreso en la incidencia, puede escalar desde la incidencia proporcionando un comentario como, por ejemplo, *"escale esta incidencia debido al impacto en el cliente"*, o por conversación o por teléfono.
-4. Si la incidencia no progresa tras la solicitud inicial, puede escalarla hasta el Supervisor de soporte solicitando este escalado en la incidencia.
-5. Si todavía no está recibiendo el progreso que necesita tras solicitar ayuda del Supervisor de soporte, puede escribir un correo electrónico al equipo de Gestión de soporte en Notify-Support-WW@wwpdl.vnet.ibm.com.
-
-Esta lista de distribución notifica a todo el equipo de Gestión de soporte de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para asegurarse de que estén dedicados todos los recursos correctos para resolver el problema.
-{:tip}
+Puede solicitar asistencia adicional escalando su caso. Consulte [Escalada de incidencia de soporte](/docs/get-support/quicktickresp.html#escalation) para obtener más información.

@@ -15,7 +15,7 @@ lastupdated: "2018-02-12"
 {:new_window: target="_blank"}
 
 
-# Configuración de un servidor dedicado
+# Configuración de un servidor nativo
 {: #customerportal_setupbaremetal}
 
 Puede configurar un servidor nativo como servidor dedicado.

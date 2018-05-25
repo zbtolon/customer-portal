@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-12"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,7 +27,8 @@ En función de su acceso, puede gestionar su cuenta de SoftLayer o las cuentas d
   * Si usted es el usuario maestro de la cuenta, puede ver todos los usuarios asociados con la cuenta.
 
   Si debe compartir las credenciales de inicio de maestro para su cuenta, comparta las credenciales cuidadosamente. El inicio de sesión maestro permite controlar todos los aspectos de la cuenta y debería protegerse. Para permitir que otros usuarios utilicen el portal del cliente, puede configurar usuarios individuales o basados en permisos. De esa manera, podrá controlar quién puede interactuar con algunos aspectos de la cuenta.
-  {:tip}
+{:tip}
+
   * Si tiene acceso administrativo, puede ver todos los usuarios que ha creado y, si se le dio permiso a dichos usuarios para administrar otros usuarios, también puede ver los usuarios que han creado. También puede tomar acciones en cualquier usuario asociado con la cuenta, incluida la edición de acceso al portal de cliente, cambiar el estado de usuario y eliminar usuarios.
   * Si usted no es el usuario maestro de la cuenta y no tiene acceso administrativo, solo se mostrará el perfil.  Puede interactuar con su propia cuenta, incluida la visualización de la clave de API, la edición del acceso VPN, y la adición de la autenticación externa.
 
@@ -48,7 +49,7 @@ Efectúe los pasos siguientes para añadir un usuario a una cuenta.
 5. Complete los campos necesarios en la sección **Valores de inicio de sesión**, incluido si los valores los puede editar el usuario, si la dirección IP está restringida, y si se necesita o no que el usuario configure y utilice preguntas de seguridad. Además, para los usuarios que no están utilizando IBMid, puede establecer la longitud de tiempo antes de que caduque la contraseña.
 **Notas:**
 * Si utiliza IBMid para la autenticación, actualice las contraseñas en los [perfiles de IBMid ![Icono de enlace externo](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} siguiendo las instrucciones debajo de **Iniciar sesión**.
-* Pulse el recuadro de selección **Contraseña del portal de usuario para VPN** para sincronizar las contraseñas del portal de cliente y de VPN.
+* Pulse el recuadro de selección **Utilizar contraseña del portal para VPN** para sincronizar las contraseñas del portal de cliente y de VPN.
 6. Pulse **Añadir usuario**.
 
 Después de crear una cuenta para un usuario, el usuario recibirá una notificación por correo electrónico para terminar de configurar su cuenta estableciendo una contraseña y, opcionalmente, preguntas de seguridad, si indica que son necesarias.

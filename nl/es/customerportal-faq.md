@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-07"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -27,9 +27,9 @@ Las siguientes preguntas frecuentes se relacionan con la gestión de problemas d
 
 Si utiliza IBMid para la autenticación, cuando realice su primer pedido o cuando se le añada como usuario a una cuenta, se enviará un correo electrónico que tiene un enlace para iniciarle a su IBMid. Si pierde u olvida el nombre de usuario o la contraseña, vaya al [perfil de IBMid ![Icono de enlace externo](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} y restablezca o recupere la contraseña utilizando las instrucciones que siguen al signo en curso. Se le solicitará que especifique la información específica, lo que podría incluir proporcionar respuestas a las preguntas de seguridad.
 
-Si NO utiliza IBMid para la autenticación, cuando realice su primer pedido o cuando se le añada como usuario a una cuenta de [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, recibirá un correo electrónico que contiene su nombre de usuario y su contraseña inicial para empezar en el portal del cliente. Asegúrese de cambiar la contraseña después de iniciar sesión por primera vez [editando su perfil de usuario](edit-user-profile.html).
+Si NO utiliza IBMid para la autenticación, cuando realice su primer pedido o cuando se le añada como usuario a una cuenta de [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}, recibirá un correo electrónico que contiene su nombre de usuario y su contraseña inicial para empezar en el portal del cliente. Asegúrese de cambiar la contraseña después de iniciar sesión por primera vez editando su perfil de usuario. Para cambiar la contraseña, inicie sesión con la información del correo electrónico y pulse su nombre de usuario en el panel superior para editar su perfil.
 
-Si olvida la contraseña tras iniciar sesión, utilice la característica **Contraseña olvidada** que está disponible en la pantalla de inicio de sesión del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Se le solicitará que especifique la información específica, incluido un conjunto de preguntas de seguridad que ha especificado al [editar el perfil de usuario](edit-user-profile.html).
+Si olvida la contraseña tras iniciar sesión, utilice la característica **Contraseña olvidada** que está disponible en la pantalla de inicio de sesión del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Se le solicitará que especifique información específica, incluido un conjunto de pregunta que ha especificado al editar el perfil de usuario.
 
 Si olvida su nombre de usuario, póngase en contacto con el administrador de la cuenta o con el usuario maestro, que tienen la capacidad de recuperar su nombre de usuario. Si usted es el administrador o el usuario maestro de la cuenta, póngase en contacto con el Soporte para obtener ayuda adicional.
 
@@ -106,7 +106,7 @@ Si ha seguido el asistente para cambiar a IBMid y no ha recibido el correo elect
 ## ¿Tendré acceso completo y acceso como usuario root a mi cuenta?
 {: #bicp_fullrootaccaccess}
 
-Los usuarios maestros, y aquellos con permisos de administrador, tienen acceso completo como usuario root a las cuentas del portal y de la API del cliente. Los usuarios sin permisos de administrador tienen la accesibilidad controlada por aquellos con roles de administración. Estos permisos se pueden actualizar en cualquier momento [editando el perfil de usuario](edit-user-profile.html) en el portal del cliente.
+Los usuarios maestros, y aquellos con permisos de administrador, tienen acceso completo como usuario root a las cuentas del portal y de la API del cliente. Los usuarios sin permisos de administrador tienen la accesibilidad controlada por aquellos con roles de administración. Estos permisos los pueden actualizar administradores desde el portal de cliente [editando un perfil de usuario](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Sin permisos de administrador, puede editar el perfil de usuario en el portal de cliente pulsando su nombre de usuario en el panel superior.
 
 
 ## ¿Puedo enlazar una cuenta de suscripción de {{site.data.keyword.Bluemix_notm}}?
@@ -131,7 +131,7 @@ El perfil de empresa era la información enviada en el momento de crear la cuent
 
 Las contraseñas del dispositivo y del software se almacenan en dos ubicaciones dentro del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Para recuperar las credenciales del dispositivo, incluidos el nombre de usuario y la contraseña del administrador y del usuario root para {{site.data.keyword.baremetal_short}} y {{site.data.keyword.virtualmachinesshort}}, consulte [Interactuar con un dispositivo en la vista de instantánea](/docs/vsi/vsi_interact_device_snapshot_view.html). Para ver y recuperar rápidamente las credenciales del software que se rastrean manualmente utilizando el portal del cliente, consulte [Gestión el acceso a dispositivos](/docs/vsi/vsi_device_access.html).
 
-##¿Cómo mantengo mis datos web sincronizados?
+## ¿Cómo mantengo mis datos web sincronizados?
 {: #bicp_webdatasync}
 
 Aunque es responsable de mantener la coherencia de datos entre los servidores reales, {{site.data.keyword.BluSoftlayer_full}} proporciona una red privada que puede utilizar para sincronizar sin incurrir en cargos de uso.
@@ -145,4 +145,4 @@ Event Management System es un conjunto de herramientas que optimiza la forma en 
 ## ¿Cómo y dónde puedo cancelar un dispositivo?
 {: #bicp_candev}
 
-Puede cancelar un dispositivo en cualquier momento a través del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Consulte [Cancelar un dispositivo](/vsi/vsi_managing.html) para obtener más información sobre la finalización de una solicitud de cancelación.
+Puede cancelar un dispositivo en cualquier momento a través del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Consulte [Cancelar un dispositivo](/docs/vsi/vsi_managing.html) para obtener más información sobre la finalización de una solicitud de cancelación.
