@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -24,6 +24,8 @@ lastupdated: "2018-03-16"
 {: #cp_bpuseprivnet}
 
 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーのプライベート・ネットワークを使用して、最大限保護された環境でデバイスを管理することができます。 可能な場合、デバイスとの対話に VPN 接続を使用し、ネットワーク・スパンを有効にして、システムがプライベート・ネットワークを介して通信するようにしてください。 プライベート・ネットワークにアクセスするには、[ユーザー・リスト ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window} からユーザーの VPN アクセスを編集します。 「[仮想プライベート・ネットワーク ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 」リストを使用して、各種 VPN オプションの 1 つに接続します。
+
+VPN 接続について詳しくは、[VPN について](/docs/infrastructure/iaas-vpn/about-vpn.html)を参照してください。
 
 ### RDP ポート、SSH ポート、または制御ポートをパブリック・ネットワークに置いたままにしない
 {: #cp_bpnordpsshcponpubnet}

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-26"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-03-26"
 * IBM Cloud Identity Services。
 詳しくは、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーの営業担当員にお問い合わせください。
 
-まだ ID プロバイダーをセットアップしていない場合、ID プロバイダーのサポートに連絡して具体的な手順を確認するか、または、以下の手順概要を使用して ID プロバイダーを構成します。
+まだ ID プロバイダーをセットアップしていない場合、ID プロバイダーのサポートに連絡して具体的な手順を確認します。 、または、以下の手順概要を使用して ID プロバイダーを構成します。
 1. ID プロバイダー環境を、実行可能ファイルをダウンロードおよびインストールすることによって作成します。
 2. {{site.data.keyword.BluSoftlayer_notm}} 認証と連携して機能するよう ID プロバイダーを構成します。
 
@@ -58,7 +58,7 @@ lastupdated: "2018-03-26"
 1. まだログインしていない場合は ID プロバイダーにログインし、**「SAML 構成 (SAML configuration)」**ページを見つけます。 以下の情報をメモします。
   * エンティティー ID
   * シングル・サインオン URL
-  * 証明書 (これは、ご使用の ID プロバイダーによって異なります)
+  * 証明書 (証明書の要件は、ご使用の ID プロバイダーによって異なります)
 2. SoftLayer アカウントの作成に使用したマスター・ユーザー名とパスワードを使用して、マスター・ユーザーとして {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーにログインします。
 3. **「アカウント」** > **「管理」** > **「SAML 認証 (SAML Authentication)」**をクリックします。
 4. **「ID プロバイダー (Identity Provider)」**メタデータを入力します。
@@ -67,4 +67,4 @@ lastupdated: "2018-03-26"
 7. **「XML 構成のダウンロード (Download XML Configuration)」**をクリックして、サービス・プロバイダー・メタデータをダウンロードするか、情報をメモします。
 8. **「サービス・プロバイダー (Service Provider)」**メタデータを使用して、ご使用の ID プロバイダーの指示に基づいて ID プロバイダーを構成します。  
 
-これで、フェデレーテッド ID を使用して {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーにログインできるようになりました。 フェデレーテッド ID について詳しくは、[{{site.data.keyword.Bluemix_notm}} への登録](/docs/account/adminpublic.html)および[IBMid Enterprise Federation Adoption Guide ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}を参照してください。
+フェデレーテッド ID を使用して {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーにログインできます。フェデレーテッド ID について詳しくは、[{{site.data.keyword.Bluemix_notm}} への登録](/docs/account/adminpublic.html)および[IBMid Enterprise Federation Adoption Guide ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}を参照してください。

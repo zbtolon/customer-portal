@@ -36,5 +36,5 @@ lastupdated: "2017-02-09"
 その他のすべてについては、[{{site.data.keyword.Bluemix}} コンソール ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} を使用します。
 
 カスタマー・ポータルには、以下の方法でアクセスできます。
-* [{{site.data.keyword.Bluemix}} コンソール ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} のメニューから。メニュー・バーのメニュー・アイコン ![メニュー・アイコン](../icons/icon_hamburger.svg) で**「インフラストラクチャー」**を選択します。  詳しくは、[{{site.data.keyword.cloud_notm}} コンソールの機能](/docs/overview/ui.html#ui)を参照してください。
+* [{{site.data.keyword.Bluemix}} コンソール ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} のメニューから。メニュー・バーの ![メニュー・アイコン](../icons/icon_hamburger.svg) で**「インフラストラクチャー」**を選択します。 詳しくは、[{{site.data.keyword.cloud_notm}} コンソールの機能](/docs/overview/ui.html#ui)を参照してください。
 * 直接、SoftLayer [カスタマー・ポータル ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} から。
