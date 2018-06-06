@@ -26,10 +26,10 @@ Se disponi di un account SoftLayer esistente, puoi passare a un ID IBM. Una proc
 ## Associazione di più account SoftLayer a un ID IBM
 {: #cp_mapmultclinfrto1ibmid}
 
-Puoi associare un ID IBM a più account SoftLayer utilizzando un'e-mail ID IBM esistente durante l'impostazione dell'account. Al singolo ID IBM è possibile associare un solo utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} per ogni account. L'ID IBM deve essere univoco all'interno di ogni account SoftLayer. Tuttavia, un utente con accesso a più account SoftLayer può utilizzare un ID IBM per accedere a diversi account SoftLayer.
+Puoi associare un ID IBM a più account SoftLayer utilizzando un indirizzo e-mail ID IBM esistente quando configuri l'account. Al singolo ID IBM è possibile associare un solo utente dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} per ogni account. L'ID IBM deve essere univoco all'interno di ogni account SoftLayer. Tuttavia, un utente con accesso a più account SoftLayer può utilizzare un ID IBM per accedere a diversi account SoftLayer.
 
-Ad esempio, un ID IBM può essere associato all'utente master negli account A e B e a un ulteriore utente negli account C e D. Uno degli account associato a tale ID IBM è l'account predefinito. Di solito, l'account predefinito è quello che è stato associato per primo all'ID IBM. Tuttavia, puoi cambiare l'account predefinito utilizzando una funzione di passaggio tra account nel portale clienti.
+Ad esempio, un ID IBM può essere associato all'utente master negli account A e B e a un altro utente negli account C e D. Uno degli account associati a tale ID IBM è l'account predefinito. Di solito, l'account predefinito è quello che è stato associato per primo all'ID IBM. Tuttavia, puoi scegliere l'account predefinito utilizzando una funzione del portale del cliente per cambiare l'account.
 
 ![Più account SoftLayer a un ID IBM](images/ibmid-image.png)
 
-Per un utente che dispone dell'accesso ID IBM a più account e per cui è abilitata l'autenticazione a due fattori, è richiesto un codice di verifica appropriato per tale autenticazione durante l'accesso e il passaggio tra gli account.
+Per un utente che dispone dell'accesso ID IBM a più account con l'autenticazione a due fattori abilitata, è richiesto un codice di verifica dell'autenticazione a due fattori. Il codice di verifica viene richiesto, per ogni account, durante l'accesso all'account e quando cambi l'account predefinito.

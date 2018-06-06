@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-01-11"
 
 ---
 
@@ -41,4 +41,4 @@ I log di accesso visualizzano i dati per ciascun tentativo di accesso effettuato
 2. Seleziona **Account** > **Utenti** dalla barra dei menu per accedere alla finestra Utenti.
 3. Dall'elenco a discesa **Azioni**, seleziona **Visualizza log di controllo** per visualizzare il log di accesso dell'utente.
 
-Il log di accesso per ciascun utente visualizza i tentativi di accesso effettuati da tale utente per data, insieme all'indirizzo IP da cui è stato effettuato il tentativo. Le informazioni contenute nel log di accesso sono di sola lettura, pertanto non è possibile apportare modifiche al contenuto. Puoi visualizzare nuovamente i log di accesso in qualsiasi momento ripetendo i passi precedenti. Per uscire dai log e tornare alla schermata Utenti, fai clic sul link **Visualizza tutti gli utenti** nella parte superiore della schermata.
+Il log di accesso per ciascun utente visualizza i tentativi di accesso effettuati da tale utente per data, insieme all'indirizzo IP da cui è stato effettuato il tentativo. Le informazioni contenute nel log di accesso sono di sola lettura, pertanto non è possibile apportare modifiche al contenuto. Puoi visualizzare nuovamente i log di accesso in qualsiasi momento ripetendo i passi precedenti. Per uscire dai log e tornare alla schermata Utenti, fai clic sul link **Visualizza tutti gli utenti**.

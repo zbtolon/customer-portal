@@ -28,7 +28,7 @@ Potresti utilizzare il portale clienti dell'infrastruttura {{site.data.keyword.B
 
 Potresti quindi utilizzare il portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} per le seguenti attività:
   * Gestione dell'accesso delle tue risorse, monitoraggio delle risorse e visualizzazione dei log di accesso
-  * Ordine e interazione con prodotti e servizi dell'infrastruttura, ad esempio l'aggiunta e la gestione di dispositivi e [server virtuali](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
+  * Ordine e interazione con prodotti e servizi dell'infrastruttura, ad esempio, l'aggiunta e la gestione di dispositivi e [server virtuali](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
   * Gestione e manutenzione dei tuoi account SoftLayer collegati o non collegati
   * Visualizzazione e pagamento delle fatture mensili delle risorse dell'infrastruttura
   * Apertura, visualizzazione e aggiornamento dei ticket associati a prodotti o servizi dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}
@@ -36,5 +36,5 @@ Potresti quindi utilizzare il portale clienti dell'infrastruttura {{site.data.ke
 Per tutto il resto, utilizza la console [{{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
 
 Puoi accedere al portale clienti nei seguenti modi:
-* Dal menu della [console {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} selezionando **Infrastruttura** dall'icona Menu della barra dei menu ![Icona Menu](../icons/icon_hamburger.svg).  Per ulteriori informazioni, vedi [Come funziona la console {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
+* Dal menu della [console {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} selezionando **Infrastruttura** dalla barra dei menu ![Icona Menu](../icons/icon_hamburger.svg). Per ulteriori informazioni, vedi [Come funziona la console {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
 * Direttamente dal portale clienti SoftLayer [![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.

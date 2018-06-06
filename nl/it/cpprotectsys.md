@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -24,6 +24,8 @@ La protezione dei sistemi garantisce che i tuoi sistemi funzionino in modo scorr
 {: #cp_bpuseprivnet}
 
 Puoi gestire i tuoi dispositivi in un ambiente altamente sicuro utilizzando la rete privata dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Quando possibile, interagisci con i tuoi dispositivi utilizzando una connessione VPN e abilita lo spanning della rete in modo che i tuoi sistemi comunichino sulla rete privata. Per accedere alla rete privata, modifica l'accesso VPN dell'utente dall'[Elenco utenti![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Utilizza l'elenco [VPN (Virtual Private Network) ![Icona link esterno](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} per la connessione a una delle varie opzioni VPN.
+
+Per ulteriori informazioni sull'utilizzo di una connessione VPN, vedi [Informazioni sulla VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
 ### Non lasciare le porte RDP, SSH o di controllo sulla rete pubblica
 {: #cp_bpnordpsshcponpubnet}

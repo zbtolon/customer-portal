@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -105,9 +105,9 @@ Puoi aggiornare un ticket di supporto esistente in qualsiasi momento per include
   In qualsiasi momento durante il processo di aggiornamento, puoi aprire una sessione di chat con un membro del team di supporto per richiedere assistenza. Fai clic su **Avvia chat** per aprire una sessione di chat.
   {:tip}
 
-Se riassegni il ticket, il nuovo assegnatario diventa il punto di contatto principale per la risoluzione del problema. Se aggiungi un commento o un allegato, il membro del team di supporto che lavora sul ticket rivede le nuove informazioni per assistere nella risoluzione del problema.
+Se riassegni il ticket, il nuovo assegnatario diventa il punto di contatto principale per la risoluzione del problema. Se aggiungi un commento o un allegato, il membro del team di supporto che lavora sul ticket esamina le nuove informazioni per assistere nella risoluzione del problema. 
 
-## Escalation di un caso di supporto
+## Escalation di un ticket di supporto
 {: #cp_bpsupescalflow}
 
-Puoi richiedere ulteriore assistenza eseguendo un escalation del tuo caso. Per ulteriori informazioni, consulta [Escalation dei ticket di supporto](/docs/get-support/quicktickresp.html#escalation).
+Puoi richiedere ulteriore assistenza eseguendo un'escalation del tuo ticket. Per ulteriori informazioni, consulta [Escalation dei ticket di supporto](/docs/get-support/quicktickresp.html#escalation).

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-09"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -50,15 +50,20 @@ Quando imposti le autorizzazioni dell'infrastruttura nell'invito iniziale, puoi 
 ## Passo 3: abilita l'accesso alla rete privata dell'infrastruttura {{site.data.keyword.Bluemix_notm}}
 {: #enable-private-network}
 
-La rete privata dell'infrastruttura {{site.data.keyword.Bluemix_notm}} viene offerta gratuitamente a utenti e dispositivi. Tutta la larghezza di banda utilizzata nella rete privata è illimitata e gratuita. La rete privata offre numerosi vantaggi, tra cui la replica degli ambienti dei dispositivi in altri data center per il failover, l'accessibilità del sistema front-end ai server di database e l'accesso e la gestione sicuri nei tuoi sistemi.
+La rete privata dell'infrastruttura {{site.data.keyword.Bluemix_notm}} viene offerta gratuitamente a utenti e dispositivi. Tutta la larghezza di banda sulla rete privata è illimitata e gratuita. La rete privata offre numerosi vantaggi, tra cui:
+  * Replica degli ambienti dei dispositivi in altri data center per il failover
+  * Accessibilità del sistema front-end ai server di database
+  * Accesso e gestione sicuri ai tuoi sistemi
 
 Per abilitare l'accesso utente alla rete privata, modifica l'accesso VPN nel portale clienti:
   1. Seleziona **Account** > **Accesso VPN** dalla barra dei menu.  
   2. Fai clic sul link nella colonna Accesso VPN.
   3. Seleziona un'opzione dal menu **Tipo di VPN** e fai clic su **Salva**.  
 
-Per gli utenti negli account che utilizzano l'autenticazione con l'ID IBM, per l'accesso VPN viene utilizzato il nome utente VPN SoftLayer. Il nome utente VPN è definito nel profilo utente. Il nome utente VPN è diverso dal nome utente predefinito per l'indirizzo e-mail e l'ID account dell'ID IBM.
+Per gli utenti negli account che utilizzano l'autenticazione con l'ID IBM, viene utilizzato il nome utente VPN SoftLayer per l'accesso VPN. Il nome utente VPN è definito nel profilo utente. Il nome utente VPN è diverso dal nome utente che, per impostazione predefinita, utilizza l'indirizzo e-mail e l'ID account dell'ID IBM.
 {: tip}
+
+Per ulteriori informazioni sull'utilizzo di una connessione VPN, vedi [Informazioni sulla VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
 ## Passo 4: sottoscrivi alle notifiche
 {: #get-notified}
@@ -67,7 +72,7 @@ Per ricevere notifiche sui problemi di sistema che potrebbero verificarsi e sugl
 
 Accedi a Event Management System nel portale clienti per scegliere le notifiche a cui sottoscrivere:
   1. Seleziona **Account** > **Gestisci** > **Sottoscrizioni** dalla barra dei menu.
-  2. Fai clic su una sottoscrizione specifica dall'elenco mostrato.
+  2. Fai clic su una specifica sottoscrizione dall'elenco.
   3. Seleziona la casella di spunta **Sì** nella colonna Sottoscritto.
   4. Fai clic su **Visualizza tutte le sottoscrizioni** per tornare all'elenco di sottoscrizioni disponibili e sottoscrivere ad altri tipi secondo necessità.
 
