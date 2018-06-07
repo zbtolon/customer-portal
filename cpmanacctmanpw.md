@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# Managing passwords
+# Managing password tracking
 {: #customerportal_manpws}
 
 If you are a master user or the owner of an account, you can enable password tracking and you can also set up a password for one-time access to the account. Password tracking enables users to store software password data for devices and their associated software.
