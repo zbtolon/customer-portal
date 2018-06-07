@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -24,6 +24,8 @@ Proteger los sistemas garantiza que los sistemas se ejecuten sin contratiempos y
 {: #cp_bpuseprivnet}
 
 Puede gestionar sus dispositivos en el entorno lo más seguro posible utilizando la red privada de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Cuando sea posible, interactúe con sus dispositivos utilizando una conexión VPN y habilite la expansión de red para que los sistemas se comuniquen a través de la red privada. Para acceder a la red privada, edite el acceso VPN del usuario desde la [Lista de usuarios ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Utilice la lista [Red privada virtual ![Icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} para conectarse a una de las distintas opciones de VPN.
+
+Para obtener más información sobre cómo utilizar una conexión VPN, consulte [Acerca de VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
 ### No deje RDP, SSH o los puertos de control en la red pública
 {: #cp_bpnordpsshcponpubnet}

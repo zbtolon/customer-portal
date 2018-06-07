@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-07"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -28,15 +28,15 @@ El portal del cliente contiene una herramienta de [seguimiento de contraseñas !
 
 Los equipos de soporte también utilizan el seguimiento de contraseñas si el acceso remoto a un sistema es obligatorio. El soporte utiliza los nombres de usuario y contraseñas se sólo cuando sea necesario y autorizado para la resolución de incidencias.
 
-El seguimiento de contraseñas en el portal del cliente es opcional y cualquier usuario con los permisos adecuados tiene la capacidad de ver todas las contraseñas almacenadas utilizando esta herramienta. La información de usuarios y de contraseñas se sigue manualmente, por lo que no se sincroniza automáticamente con un dispositivo ni con su software. Por lo tanto, asegúrese de actualizar la herramienta de seguimiento de contraseñas a la vez que actualiza los usuarios y las contraseñas en los dispositivos y el software. Efectúe los pasos siguientes para añadir un usuario a la herramienta de seguimiento de contraseñas.
+El seguimiento de contraseñas dentro del portal de cliente es opcional. Cualquier usuario con los permisos adecuados puede ver todas las contraseñas que almacena esta herramienta. La información de usuarios y de contraseñas se sigue manualmente, por lo que no se sincroniza automáticamente con un dispositivo ni con su software. Por lo tanto, asegúrese de actualizar la herramienta de seguimiento de contraseñas a la vez que actualiza los usuarios y las contraseñas en los dispositivos y el software. Efectúe los pasos siguientes para añadir un usuario a la herramienta de seguimiento de contraseñas.
 
-1. Acceda al portal del cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
 2. Seleccione **Dispositivos** > **Gestionar** > **Contraseñas** en el menú.
 3. Pulse el separador **Añadir credenciales**.
 4. Seleccione el **Nombre de dispositivo** con el que está asociado el usuario desde la lista desplegable **Nombre de dispositivo**.
 5. Seleccione el **Software** con el que está asociado el usuario desde la lista **Software**.
 
-  El software listado se proporciona mediante la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} mediante suscripciones de pago o gratuitas. Ningún software de terceros que se haya instalado manualmente en el dispositivo está disponible para su seguimiento a través del portal del cliente.
+  El software que se lista se proporciona mediante la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} mediante suscripciones de pago o gratuitas. Ningún software de terceros que se instalara manualmente en el dispositivo está disponible para su seguimiento a través del portal del cliente.
   {: tip}
 
 6. Escriba el nombre de usuario y la contraseña para el software en los campos correspondientes.
@@ -48,9 +48,9 @@ Tras añadir el usuario a la herramienta de seguimiento de contraseñas, la info
 ### Filtrado de información en la herramienta de seguimiento de contraseñas
 {: #cp_filterusinfopwtracktool}
 
-Para ver, editar o suprimir la información de usuario de la herramienta de seguimiento de contraseñas, puede filtrar para localizar rápidamente un usuario cuando la lista abarque varias filas o páginas. Utilice los pasos siguientes para filtrar por dispositivo, software o usuario en la herramienta de seguimiento de contraseñas.
+Para ver, editar o suprimir la información de usuario de la herramienta de seguimiento de contraseñas, puede filtrar para localizar rápidamente un usuario. Filtrar para encontrar un usuario es útil cuando la lista de usuarios abarque varias filas o páginas. Utilice los pasos siguientes para filtrar por dispositivo, software o usuario en la herramienta de rastreo de contraseñas.
 
-1. Acceda al portal del cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
 2. Seleccione **Dispositivos** > **Gestionar** > **Contraseñas** en el menú.
 3. Pulse el separador **Filtro**.
 4. Seleccione o especifique el nombre de dispositivo, software, o el nombre de usuario en los campos correspondientes.
@@ -61,9 +61,9 @@ Puede seleccionar la información de usuario para ver, editar o eliminar.
 ### Edición de la información de usuario en la herramienta de seguimiento de contraseñas
 {: #cp_editusinfopwtracktool}
 
-Cuando un usuario se haya añadido a la herramienta de seguimiento de contraseñas, puede editar los detalles asociados con el usuario o la contraseña. Efectúe los pasos siguientes para editar información para un usuario en la herramienta de seguimiento de contraseñas.
+Tras añadir un usuario a la herramienta de seguimiento de contraseñas, puede editar los detalles asociados con el usuario o la contraseña. Efectúe los pasos siguientes para editar información para un usuario en la herramienta de seguimiento de contraseñas.
 
-1. Acceda al portal del cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
 2. Seleccione **Dispositivos** > **Gestionar** > **Contraseñas** en el menú.
 3. Localice la combinación de dispositivo-usuario en la herramienta. Utilice la característica de filtro para localizar rápidamente un usuario.
 4. Pulse en cualquier lugar de la fila para abrir la vista de detalles de usuario.
@@ -75,12 +75,12 @@ Después de editar un usuario o una contraseña en la herramienta de seguimiento
 ## Configuración de una cuenta para el acceso mediante contraseña única
 {: #cp_confportacc1timpwacc}
 
-Antes de poder configurar la cuenta, primero debe tener configurada la aplicación "Acceso VIP" de Verisign. Si no ha hecho esto, descargue en primer lugar la aplicación para uno de los dispositivos siguientes:
+Antes de poder configurar la cuenta, primero debe configurar la aplicación "Acceso VIP" de Verisign. Si Acceso VIP no está configurado, descargue en primer lugar la aplicación para uno de los dispositivos siguientes:
 * Para su teléfono: [https://m.vip.symantec.com/home.v ![Icono de enlace externo](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
 * Para su escritorio: [https://idprotect.verisign.com/desktop/download.v ![Icono de enlace externo](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
 
 A continuación, realice los pasos siguientes:
-1. Abra la aplicación. Busque el ID de credenciales en la parte superior y su contraseña única actual en la parte inferior. Puede ignorar la contraseña inicialmente, pero necesita el ID de credenciales para el portal, por lo que mantenga la aplicación abierta.
+1. Abra la aplicación. Busque el ID de credenciales y su contraseña única actual. Puede ignorar la contraseña inicialmente, pero necesita el ID de credenciales para el portal, por lo que mantenga la aplicación abierta.
 2. Inicie sesión en el portal del cliente como el usuario para el que desea configurar la contraseña única.
 3. Pulse **Cuenta** > **Usuarios** > **Acciones** > **Añadir autenticación externa**.
 4. Seleccione el tipo de autenticación para añadir. Si está utilizando la aplicación Verisign, elija **Symantect Identity Protection**.
@@ -89,7 +89,7 @@ A continuación, realice los pasos siguientes:
 7. Tras varios minutos, seleccione **Cuenta** > **Usuarios** desde la barra de navegación y seleccione el usuario para el que ha configurado la contraseña única.
 8. Pulse el enlace **Actualizar credencial** debajo de la sección **Symantec Validation Settings**.
 9. Seleccione **habilitado** para el **Estado de credencial** y pulse **Actualizar credencial**.
-10. Una vez que se haya procesado correctamente la opción de seguridad adicional, podrá iniciar sesión en el portal de cliente como de costumbre. Después de enviar su nombre de usuario y contraseña, se le solicitará que especifique un código de seguridad.
+10. Una vez que se procese correctamente la opción de seguridad adicional, podrá iniciar sesión en el portal de cliente como de costumbre. Después de enviar su nombre de usuario y contraseña, se le solicitará que especifique un código de seguridad.
 11. Abra la aplicación Verisign Identity Protection en el dispositivo que prefiera y proporcione el código que se muestra para iniciar sesión.
 
 Guarde el ID de credenciales de Verisign Identity Protection original en una ubicación segura para referencia futura. Sin él, no podrá acceder al portal.

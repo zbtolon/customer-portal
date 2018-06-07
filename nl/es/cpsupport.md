@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -66,7 +66,7 @@ Siga los siguientes pasos para abrir incidencias de soporte de {{site.data.keywo
 
 11. Pulse **Añadir incidencia**.
 
-Después de añadir una incidencia, se direccionará al miembro apropiado del Equipo de soporte para su resolución. Las incidencias se manejan en función del grado de gravedad, lo que significa que los problemas más graves, como las interrupciones, se gestionarán en primer lugar, seguidos por los problemas de degradación del servicio, y luego las preguntas. Un miembro del Equipo de soporte estará en contacto con los cesionarios en relación con la información adicional para resolver la incidencia.
+Después de añadir una incidencia, se direccionará al miembro apropiado del equipo de soporte para su resolución. Las incidencias se manejan en función del grado de gravedad, lo que significa que los problemas más graves, como las interrupciones, se gestionarán en primer lugar, seguidos por los problemas de degradación del servicio, y luego las preguntas. Un miembro del equipo de soporte estará en contacto con los cesionarios en relación con la información adicional para resolver la incidencia.
 
 ## Creación de una incidencia para problemas con las cuentas
 {: #cp_creatacctsuptickwsp}
@@ -105,9 +105,9 @@ Puede actualizar una incidencia de soporte existente en cualquier momento para q
   En cualquier momento durante el proceso de actualización, puede abrir una sesión de conversación con un miembro del equipo de soporte para obtener ayuda. Pulse **Iniciar conversación** para abrir la sesión de conversación.
   {:tip}
 
-Si reasigna la incidencia, el cesionario nuevo se convertirá en el punto de contacto principal para la resolución de problemas. Si añade un comentario o un archivo adjunto, el miembro del Equipo de soporte que está trabajando en la incidencia revisará la información nueva para ayudar en la resolución del problema.
+Si reasigna la incidencia, el cesionario nuevo se convertirá en el punto de contacto principal para la resolución de problemas. Si añade un comentario o un archivo adjunto, el miembro del equipo de soporte que está trabajando en la incidencia revisará la información nueva para ayudar en la resolución del problema.
 
-## Escalada de un caso de soporte
+## Escalada de una incidencia de soporte
 {: #cp_bpsupescalflow}
 
-Puede solicitar asistencia adicional escalando su caso. Consulte [Escalada de incidencia de soporte](/docs/get-support/quicktickresp.html#escalation) para obtener más información.
+Puede solicitar más ayuda escalando su incidencia. Consulte [Escalada de incidencia de soporte](/docs/get-support/quicktickresp.html#escalation) para obtener más información.

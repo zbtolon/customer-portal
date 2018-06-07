@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-01-11"
 
 ---
 
@@ -41,4 +41,4 @@ Los Registros de acceso muestran datos por cada intento de acceso realizado por 
 2. Seleccione **Cuenta** > **Usuarios** en la barra de menús para acceder a la ventana Usuarios.
 3. En la lista desplegable **Acciones**, seleccione **Ver registro de auditoría** para ver el registro de acceso del usuario.
 
-El registro de acceso para cada usuario muestra los intentos de acceso realizados por dicho usuario por fecha, junto con la dirección IP desde la que se ha realizado el intento de acceso. La información del registro de acceso es de solo lectura, por lo que las ediciones en el contenido no se pueden realizar en cualquier momento. Puede ver los registros de acceso de nuevo en cualquier momento repitiendo los pasos anteriores. Para salir de los registros y volver a la pantalla Usuarios, pulse el enlace **Ver todos los usuarios** en la parte superior de la pantalla.
+El registro de acceso para cada usuario muestra los intentos de acceso realizados por dicho usuario por fecha, junto con la dirección IP desde la que se ha realizado el intento de acceso. La información del registro de acceso es de solo lectura, por lo que las ediciones en el contenido no se pueden realizar en cualquier momento. Puede ver los registros de acceso de nuevo en cualquier momento repitiendo los pasos anteriores. Para salir de los registros y volver a la pantalla Usuarios, pulse el enlace **Ver todos los usuarios**.

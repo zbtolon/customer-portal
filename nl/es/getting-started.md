@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-09"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -44,13 +44,16 @@ Para añadir usuarios a la cuenta y establecer permisos iniciales, vaya a **Cuen
  * Para invitar a usuarios a los recursos de plataforma y de infraestructura de su cuenta basados en los permisos específicos que asigne, pulse **Invitar a usuarios**. Se le dirigirá entonces a la IU de {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) para invitar a usuarios y asignar el acceso. Consulte [Invitación de usuarios y asignación de acceso](/docs/iam/iamuserinv.html) para obtener más información.
  * Para añadir usuarios que solo tengan acceso VPN, pulse **Añadir usuario solo VPN**. Escriba la información personal, configure los permisos del portal y establezca el acceso de dispositivo para el usuario.
 
-Al establecer permisos de infraestructura en la invitación inicial, opte por uno de los tres conjuntos de permisos: Solo visualización, Usuario básico, Superusuario. Cuando los usuarios acepten la invitación, podrá personalizar su acceso editando sus permisos de portal. Consulte [Permisos de infraestructura](/docs/iam/infrastructureaccess.html) para obtener más información.
+Al establecer permisos de infraestructura en la invitación inicial, opte por uno de los tres conjuntos de permisos: Solo visualización, Usuario básico, Superusuario. Cuando los usuarios acepten la invitación, podrá personalizar su acceso editando sus permisos de portal. Para obtener más información, consulte [Permisos de infraestructura](/docs/iam/infrastructureaccess.html).
 {: tip}
 
 ## Paso 3: Habilitar el acceso a la red privada de la infraestructura de {{site.data.keyword.Bluemix_notm}}
 {: #enable-private-network}
 
-La red privada de la infraestructura de {{site.data.keyword.Bluemix_notm}} se ofrece a los usuarios y a los dispositivos de forma gratuita. Todo el ancho de banda utilizado en la red privada no se mide y es gratuito. La red privada ofrece muchos beneficios, incluida la réplica de los entornos de dispositivos a otros centros de datos para la migración tras error, la accesibilidad del sistema frontal a los servidores de base de datos, y el acceso y gestión seguros a sus sistemas.
+La red privada de la infraestructura de {{site.data.keyword.Bluemix_notm}} se ofrece a los usuarios y a los dispositivos de forma gratuita. Todo el ancho de banda de la red privada no se mide y es gratuito. La red privada ofrece muchos beneficios, entre los que se incluyen los siguientes:
+  * Réplica de los entornos de dispositivos a otros centros de datos para la migración tras error
+  * Accesibilidad del sistema frontal a los servidores de base de datos
+  * Acceso y gestión seguros a sus sistemas
 
 Para habilitar el acceso de usuario a la red privada, edite el acceso VPN en el portal del cliente:
   1. Seleccione **Cuenta** > **Acceso VPN** desde la barra de menús.  
@@ -60,6 +63,8 @@ Para habilitar el acceso de usuario a la red privada, edite el acceso VPN en el 
 Para los usuarios de cuentas que utilizan la autenticación de IBMid, se utilizará el nombre de usuario de VPN de SoftLayer para el acceso a VPN. El nombre de usuario de VPN está definido en el perfil de usuario. El nombre de usuario de VPN es distinto del nombre de usuario que tiene como valor predeterminado la dirección de correo electrónico y el ID de la cuenta de IBMid.
 {: tip}
 
+Para obtener más información sobre cómo utilizar una conexión VPN, consulte [Acerca de VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
+
 ## Paso 4: Suscribirse a las notificaciones
 {: #get-notified}
 
@@ -67,7 +72,7 @@ Para obtener una notificación sobre los problemas del sistema que pueden produc
 
 Acceda al Event Management System en el portal del cliente para elegir a qué notificaciones desea suscribirse:
   1. Seleccione **Cuenta** > **Gestionar** > **Suscripciones** en la barra de menús.
-  2. Pulse una suscripción específica de la lista que se muestra.
+  2. Pulse una suscripción específica de la lista.
   3. Marque el recuadro de selección **Sí** en la columna Suscrito.
   4. Pulse **Ver todas las suscripciones** para volver a la lista de suscripciones disponibles y suscribirse a otros tipos si es necesario.
 

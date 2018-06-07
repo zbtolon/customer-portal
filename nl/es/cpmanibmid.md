@@ -28,8 +28,8 @@ Si tiene una cuenta existente de SoftLayer, puede cambiar a un IBMid. Un asisten
 
 Puede asociar un IBMid con varias cuentas de SoftLayer utilizando una dirección de correo electrónico de IBMid existente al configurar la cuenta. Solo se puede correlacionar un usuario de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para cada cuenta en el IBMid único. El IBMid debe ser exclusivo dentro de cada cuenta de SoftLayer. Sin embargo, un usuario con acceso a varias cuentas de SoftLayer puede utilizar un IBMid para acceder a varias cuentas de SoftLayer.
 
-Por ejemplo, un IBMid puede correlacionar al usuario maestro en las cuentas A y B, y a un usuario adicional en las cuentas C y D. Una de las cuentas correlacionadas a dicho IBMid es la cuenta predeterminada. Normalmente, la cuenta predeterminada es la cuenta que se correlacionó por primera vez en el IBMid. Sin embargo, puede cambiar qué cuenta es la predeterminada mediante una característica de conmutación de cuenta en el portal de cliente.
+Por ejemplo, un IBMid puede correlacionar al usuario maestro en las cuentas A y B, y a otro usuario en las cuentas C y D. Una de las cuentas correlacionadas con dicho IBMid es la cuenta predeterminada. Normalmente, la cuenta predeterminada es la cuenta que se correlacionó por primera vez en el IBMid. Sin embargo, puede cambiar qué cuenta es la predeterminada utilizando una característica en el portal de cliente para cambiar cuentas.
 
 ![Varias cuentas de SoftLayer para un IBMid](images/ibmid-image.png)
 
-Para un usuario con acceso de IBMid a varias cuentas con la autenticación por dos factores habilitada, se requerirá un código de verificación de autenticación por dos factores adecuado por cuenta durante el inicio de sesión a la cuenta y el cambio de cuenta.
+Para un usuario con acceso de IBMid a varias cuentas con la autenticación de dos factores habilitada, se requerirá un código de verificación de autenticación de dos factores. El código de verificación es necesario, por cuenta, durante el inicio de sesión de la cuenta y cuando se cambia la cuenta predeterminada.

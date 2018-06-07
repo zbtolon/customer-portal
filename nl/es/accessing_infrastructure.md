@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-01-10"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -18,17 +18,17 @@ lastupdated: "2018-01-10"
 # Acceso a los recursos de infraestructura
 {: #accessinfrastructure}
 
-Puede utilizar los recursos de infraestructura al crear sus apps en el entorno público de {{site.data.keyword.Bluemix_notm}}. 
+Puede utilizar los recursos de infraestructura al crear sus apps en el entorno público de {{site.data.keyword.Bluemix_notm}}.
 {: shortdesc}
 
-Utilice los recursos de infraestructura para crear entornos virtuales, proporcionar almacenamiento, establecer una red y proteger su entorno. Para obtener más información, consulte [Visión general de la plataforma](/docs/overview/ibm-cloud.html). 
+Utilice los recursos de infraestructura para crear entornos virtuales, proporcionar almacenamiento, establecer una red y proteger su entorno. Para obtener más información, consulte [Visión general de la plataforma](/docs/overview/ibm-cloud.html).
 
-Para acceder a los recursos de infraestructura, debe tener una cuenta de Pago según uso. La tabla siguiente lista las cuentas diferentes y las opciones para acceder a los recursos de infraestructura. 
+Para acceder a los recursos de infraestructura, debe tener una cuenta de Pago según uso. La tabla siguiente lista las cuentas diferentes y las opciones para acceder a los recursos de infraestructura.
 
 |{{site.data.keyword.Bluemix_notm}} Tipo de cuenta |	¿Acceso de infraestructura? |	¿Qué opciones tengo? |
 |------------------|-----------------------|---------------|
 |Cuenta gratuita (Lite o Prueba de 30 días) |	Sin acceso |	Actualice su cuenta gratuita a una cuenta de Pago según uso |
-|Cuenta de Pago según uso | Sí, si su cuenta se creó después del 24 de octubre de 2016 | No es necesario nada más | 
+|Cuenta de Pago según uso | Sí, si su cuenta se creó después del 24 de octubre de 2016 | No es necesario nada más |
 | | Sin acceso si su cuenta se creó antes del 24 de octubre de 2016 | Añada de nuevo sus detalles de la tarjeta de crédito |
 |Cuenta de Suscripción |	Sin acceso |	Cree una cuenta de Pago según uso aparte con una dirección de correo electrónico diferente a la dirección de correo electrónico que está asociada con su cuenta de Suscripción |
 {:caption="Tabla 1. Opciones de cuenta para acceder a los recursos de infraestructura" caption-side="top"}
