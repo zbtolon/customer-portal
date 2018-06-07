@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -33,7 +33,7 @@ lastupdated: "2018-01-11"
 ## 在身分提供者及 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構中建立使用者
 {: #cp_scenario1both}
 
-在此模型中，會發生下列事項：
+在此模型中，會發生下列處理程序：
 * 在身分提供者及 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構中，建立使用者。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基礎架構客戶入口網站或 API，在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中指派使用者許可權。
 * 使用者會向身分提供者鑑別自己，並聯合其認證。
@@ -48,10 +48,12 @@ lastupdated: "2018-01-11"
 2. 在 {{site.data.keyword.BluSoftlayer}} 基礎架構中指派許可權。
 3. 在身分提供者中建立使用者。
 
-個別使用者設定檔內的**電子郵件**或**使用者名稱**欄位是用於 Security Assertion Markup Language&trade; (SAML&trade;) 2.0 記號，而此記號可在身分提供者與 {{site.data.keyword.BluSoftlayer}} 基礎架構之間對映使用者。
+個別使用者設定檔內的**電子郵件**或**使用者名稱**欄位是用於 Security Assertion Markup Language&trade; (SAML&trade;) 2.0 記號。此記號可在身分提供者與 {{site.data.keyword.BluSoftlayer}} 基礎架構之間對映使用者。
 
-### 登入鑑別範例流程
-以下範例流程說明在身分提供者及 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構中建立使用者時，使用者登入鑑別的運作方式：
+### 登入鑑別的範例流程
+{: #exlogauthflowidprovicloud}
+
+下列範例流程顯示在身分提供者及 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構中建立使用者時，使用者登入鑑別的運作方式：
 1. 使用者從瀏覽器階段作業中存取身分提供者 URL。
 2. 身分提供者會鑑別使用者，例如，透過其 LDAP。
 3. 身分提供者會傳回 SAML 2.0 回應。
@@ -67,10 +69,12 @@ lastupdated: "2018-01-11"
 * 在身分提供者中建立角色，並將其指派給使用者。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基礎架構 API，在 {{site.data.keyword.BluSoftlayer}} 基礎架構 IMS 中設定角色及許可權指派。
 * 使用者會向身分提供者鑑別自己，並聯合其認證及角色屬性。
-* {{site.data.keyword.BluSoftlayer}} 基礎架構會利用使用者認證及角色屬性。如果使用者的身分提供者已指派角色符合 {{site.data.keyword.BluSoftlayer}} 基礎架構中的角色，則使用者會在登入 {{site.data.keyword.BluSoftlayer}} 基礎架構時獲授與該角色的許可權。
-* 會將身分提供者中所建立的使用者視為聯合，因為他們及其角色是透過 SAML 2.0 進行鑑別。
+* {{site.data.keyword.BluSoftlayer}} 基礎架構會驗證使用者認證及角色屬性。如果身分提供者指派給使用者的角色，符合 {{site.data.keyword.BluSoftlayer}} 基礎架構中的角色，則當使用者登入 {{site.data.keyword.BluSoftlayer}} 基礎架構時，會授與使用者那些角色的許可權。
+* 當身分提供者建立使用者時，會將他們視為聯合，因為他們及其角色是透過 SAML 2.0 進行鑑別。
 
 ### 設定使用者的角色
+{: #cp_set-up-user-role}
+
 請使用下列步驟，以設定使用者的角色：
 
 1. 透過 {{site.data.keyword.BluSoftlayer}} 基礎架構 API 設定角色。
@@ -87,8 +91,10 @@ lastupdated: "2018-01-11"
 
 在此情境下，您不需要在 {{site.data.keyword.BluSoftlayer}} 基礎架構中手動建立使用者。
 
-### 使用者登入鑑別範例流程
-以下範例流程說明在身分提供者中建立使用者時使用者登入鑑別的運作方式：
+### 使用者登入鑑別的範例流程
+{: #exlogauthflowidprov}
+
+下列範例流程顯示在身分提供者中建立使用者時，使用者登入鑑別的運作方式：
 1. 使用者從瀏覽器階段作業中存取身分提供者 URL。
 2. 身分提供者會鑑別使用者，例如，透過其 LDAP。
 3. 身分提供者會傳回 SAML 2.0 回應。

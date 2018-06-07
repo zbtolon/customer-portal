@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-26"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -31,8 +31,8 @@ lastupdated: "2018-03-26"
 * IBM Cloud Identity Services。
 如需相關資訊，請聯絡 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構業務代表。
 
-如果您尚未設定身分提供者，則可以聯絡身分提供者支援人員來瞭解特定步驟，或使用下列高階步驟來配置身分提供者：
-1. 下載並安裝身分提供者環境的執行檔，以準備身分提供者環境。
+如果您尚未設定身分提供者，則可以聯絡身分提供者支援人員來瞭解特定步驟。您也可以使用下列高階步驟來配置身分提供者：
+1. 下載並安裝執行檔，以準備身分提供者環境。
 2. 配置身分提供者，以使用 {{site.data.keyword.BluSoftlayer_notm}} 鑑別。
 
 ## 設定 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構以進行 SSO
@@ -58,7 +58,7 @@ lastupdated: "2018-03-26"
 1. 登入身分提供者（如果尚未登入），並找出 **SAML 配置**頁面。請記下下列資訊：
   * 實體 ID
   * 單一登入 URL
-  * 憑證（這會根據身分提供者而不同。）
+  * 憑證（憑證需求會根據身分提供者而不同。）
 2. 使用您用來建立 SoftLayer 帳戶的主要使用者名稱及密碼，以主要使用者身分登入 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構。
 3. 按一下**帳戶** > **管理** > **SAML 鑑別**。
 4. 輸入**身分提供者** meta 資料。
@@ -67,4 +67,4 @@ lastupdated: "2018-03-26"
 7. 按一下**下載 XML 配置**，以下載服務提供者 meta 資料，或趕快記下資訊。
 8. 使用**服務提供者** meta 資料，以根據身分提供者指示來配置身分提供者。  
 
-您現在應該可以使用聯合 ID 來登入 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構。如需聯合 ID 的相關資訊，請參閱[註冊 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 及 [IBMid Enterprise Federation Adoption Guide ![外部鏈結圖示](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。
+您可以使用聯合 ID 來登入 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構。如需聯合 ID 的相關資訊，請參閱[註冊 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 及 [IBMid Enterprise Federation Adoption Guide ![外部鏈結圖示](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。

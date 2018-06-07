@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -24,6 +24,8 @@ lastupdated: "2018-03-16"
 {: #cp_bpuseprivnet}
 
 您可以使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構專用網路，在盡可能最安全的環境中管理裝置。盡可能使用 VPN 連線與裝置互動，並啟用網路跨越，讓系統透過專用網路進行通訊。若要存取專用網路，請從[使用者清單 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window} 中編輯使用者的 VPN 存取權。使用[虛擬專用網路 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 清單，以連接至各種 VPN 選項的其中一個。
+
+如需使用 VPN 連線的相關資訊，請參閱[關於 VPN](/docs/infrastructure/iaas-vpn/about-vpn.html)。
 
 ### 不要在公用網路上開放 RDP、SSH 或控制埠
 {: #cp_bpnordpsshcponpubnet}

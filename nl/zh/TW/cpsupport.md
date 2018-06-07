@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -108,7 +108,7 @@ lastupdated: "2018-05-01"
 
 如果您重新指派問題單，則新的受託人會成為解決問題的主要聯絡人。如果您新增註解或附件，則處理問題單的支援團隊成員會檢閱新資訊以協助解決問題。
 
-## 呈報支援案例
+## 呈報支援問題單
 {: #cp_bpsupescalflow}
 
-您可以透過呈報您的案例來要求進一步的協助。如需相關資訊，請參閱[呈報支援問題單](/docs/get-support/quicktickresp.html#escalation)。
+您可以透過呈報您的問題單來要求進一步的協助。如需相關資訊，請參閱[呈報支援問題單](/docs/get-support/quicktickresp.html#escalation)。

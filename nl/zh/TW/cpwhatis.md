@@ -36,5 +36,5 @@ lastupdated: "2017-02-09"
 針對其他任何項目，請使用 [{{site.data.keyword.Bluemix}} 主控台 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
 
 您可以使用下列方式來存取客戶入口網站：
-* 在 [{{site.data.keyword.Bluemix}} 主控台 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} 功能表中，從功能表列「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) 中選取**基礎架構**。如需相關資訊，請參閱 [{{site.data.keyword.cloud_notm}} 主控台的運作方式](/docs/overview/ui.html#ui)。
+* 在 [{{site.data.keyword.Bluemix}} 主控台 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} 功能表中，從功能表列 ![「功能表」圖示](../icons/icon_hamburger.svg) 中選取**基礎架構**。如需相關資訊，請參閱 [{{site.data.keyword.cloud_notm}} 主控台的運作方式](/docs/overview/ui.html#ui)。
 * 直接從 SoftLayer [客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 存取。
