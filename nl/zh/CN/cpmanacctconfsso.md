@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-26"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -31,8 +31,8 @@ lastupdated: "2018-03-26"
 * IBM Cloud Identity Services
 有关更多信息，请联系 {{site.data.keyword.BluSoftlayer_notm}} 基础架构销售代表。
 
-如果尚未设置身份提供者，那么可以联系身份提供者支持来获取特定步骤，或者使用以下高级步骤来配置身份提供者：
-1. 通过下载并安装身份提供者的可执行文件来准备身份提供者环境。
+如果尚未设置身份提供者，那么可以联系身份提供者支持来获取特定步骤。还可以使用以下高级步骤来配置身份提供者：
+1. 通过下载并安装可执行文件来准备身份提供者环境。
 2. 配置身份提供者以使用 {{site.data.keyword.BluSoftlayer_notm}} 认证。
 
 ## 设置 {{site.data.keyword.BluSoftlayer_notm}} 基础架构进行 SSO
@@ -58,7 +58,7 @@ lastupdated: "2018-03-26"
 1. 如果您尚未登录，请登录到身份提供者，并找到 **SAML 配置**页面。请注意以下信息：
   * 实体标识
   * 单点登录 URL
-  * 证书（这将根据身份提供者而变化。）
+  * 证书（证书需求将根据身份提供者而变化。）
 2. 以具有用于创建 SoftLayer 帐户的主用户名和密码的主用户身份登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。
 3. 单击**帐户** > **管理** > **SAML 认证**。
 4. 输入**身份提供者**元数据。
@@ -67,4 +67,4 @@ lastupdated: "2018-03-26"
 7. 单击**下载 XML 配置**以下载服务提供者元数据或记下信息。
 8. 使用**服务提供者**元数据以基于身份提供者的指示信息来配置身份提供者。  
 
-您现在应该可以使用联合标识登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。有关联合标识的更多信息，请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 和 [IBMid Enterprise Federation Adoption Guide ![外部链接图标](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。
+您可以使用联合标识登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。有关联合标识的更多信息，请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 和 [IBMid Enterprise Federation Adoption Guide ![外部链接图标](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。

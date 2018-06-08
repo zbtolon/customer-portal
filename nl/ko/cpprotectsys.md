@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -25,6 +25,8 @@ lastupdated: "2018-03-16"
 
 {{site.data.keyword.BluSoftlayer_notm}} 인프라 사설 네트워크 사용하여 가능한 가장 안전한 환경에서 디바이스를 관리할 수 있습니다. 가능하면 시스템이 사설 네트워크를 통해 통신하도록 VPN 연결을 사용하여 디바이스와 상호작용하고 사설 네트워크 범위를 사용 가능하도록 설정하십시오. 사설 네트워크에 액세스하려면 [사용자 목록 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}에서
 사용자의 VPN 액세스를 편집하십시오. [가상 사설망(VPN) ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 목록을 사용하여 다양한 VPN 옵션 중 하나에 연결하십시오.
+
+VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructure/iaas-vpn/about-vpn.html)를 참조하십시오. 
 
 ### RDP, SSH 또는 제어 포트를 공용 네트워크에 두지 않음
 {: #cp_bpnordpsshcponpubnet}

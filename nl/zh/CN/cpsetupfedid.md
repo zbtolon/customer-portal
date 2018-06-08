@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -33,7 +33,7 @@ lastupdated: "2018-01-11"
 ## 在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户
 {: #cp_scenario1both}
 
-在此模型中，将执行以下操作：
+在此模型中，将执行以下过程：
 * 在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基础架构客户门户网站或 API 在 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中分配用户许可权。
 * 用户向身份提供者进行认证并联合自己的凭证。
@@ -48,10 +48,12 @@ lastupdated: "2018-01-11"
 2. 在 {{site.data.keyword.BluSoftlayer}} 基础架构中分配许可权。
 3. 在身份提供者中创建用户。
 
-单个用户概要文件中的**电子邮件**或**用户名**字段用于 Security Assertion Markup Language&trade; (SAML&trade;) 2.0 令牌，此令牌会在身份提供者和 {{site.data.keyword.BluSoftlayer}} 基础架构之间映射用户。
+单个用户概要文件中的**电子邮件**或**用户名**字段用于 Security Assertion Markup Language&trade; (SAML&trade;) 2.0 令牌。此令牌会在身份提供者和 {{site.data.keyword.BluSoftlayer}} 基础架构之间映射用户。
 
 ### 登录认证的示例流程
-下面是在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户时，用户登录认证可能如何工作的示例流程：
+{: #exlogauthflowidprovicloud}
+
+以下示例流程显示了在身份提供者和 {{site.data.keyword.BluSoftlayer_notm}} 基础架构中创建用户时，用户登录认证可能如何工作：
 1. 用户通过浏览器会话访问身份提供者 URL。
 2. 身份提供者对用户进行认证，例如通过其 LDAP。
 3. 身份提供者返回 SAML 2.0 响应。
@@ -67,10 +69,12 @@ lastupdated: "2018-01-11"
 * 在身份提供者中创建角色，并将其分配给用户。
 * 使用 {{site.data.keyword.BluSoftlayer}} 基础架构 API 在 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中设置角色和许可权分配。
 * 用户向身份提供者进行认证并联合自己的凭证和角色属性。
-* {{site.data.keyword.BluSoftlayer}} 基础架构使用用户凭证和角色属性。如果用户的身份提供者分配的角色与 {{site.data.keyword.BluSoftlayer}} 基础架构中的角色相匹配，那么当用户登录到 {{site.data.keyword.BluSoftlayer}} 基础架构时，会向其授予该角色的许可权。
-* 在身份提供者中创建的用户会视为联合用户，因为这些用户及其角色通过 SAML 2.0 进行认证。
+* {{site.data.keyword.BluSoftlayer}} 基础架构验证用户凭证和角色属性。如果通过用户的身份提供者为用户分配的角色与 {{site.data.keyword.BluSoftlayer}} 基础架构中的角色相匹配，那么当用户登录到 {{site.data.keyword.BluSoftlayer}} 基础架构时，会为用户授予这些角色的许可权。
+* 身份提供者创建用户时，会将这些用户视为联合用户，因为这些用户及其角色通过 SAML 2.0 进行认证。
 
 ### 设置用户的角色
+{: #cp_set-up-user-role}
+
 使用以下步骤设置用户的角色：
 
 1. 通过 {{site.data.keyword.BluSoftlayer}} 基础架构 API 来设置角色。
@@ -88,7 +92,9 @@ lastupdated: "2018-01-11"
 在此场景中，您无需在 {{site.data.keyword.BluSoftlayer}} 基础架构中手动创建用户。
 
 ### 用户登录认证的示例流程
-下面是在身份提供者中创建用户时，用户登录认证可能如何工作的示例流程：
+{: #exlogauthflowidprov}
+
+以下示例流程显示了在身份提供者中创建用户时，用户登录认证可能如何工作：
 1. 用户通过浏览器会话访问身份提供者 URL。
 2. 身份提供者对用户进行认证，例如通过其 LDAP。
 3. 身份提供者返回 SAML 2.0 响应。

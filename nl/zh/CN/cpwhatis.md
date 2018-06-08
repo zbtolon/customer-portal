@@ -36,5 +36,5 @@ lastupdated: "2017-02-09"
 对于其他所有任务，请使用 [{{site.data.keyword.Bluemix}} 控制台 ![外部链接图标](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
 
 可以通过以下方式来访问客户门户网站：
-* 在 [{{site.data.keyword.Bluemix}} 控制台 ![外部链接图标](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} 菜单中，从菜单栏的“菜单”图标 ![“菜单”图标](../icons/icon_hamburger.svg) 选择**基础架构**。有关更多信息，请参阅 [{{site.data.keyword.cloud_notm}} 控制台工作方式](/docs/overview/ui.html#ui)。
+* 在 [{{site.data.keyword.Bluemix}} 控制台 ![外部链接图标](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} 菜单中，从菜单栏 ![“菜单”图标](../icons/icon_hamburger.svg) 中选择**基础架构**。有关更多信息，请参阅 [{{site.data.keyword.cloud_notm}} 控制台工作方式](/docs/overview/ui.html#ui)。
 * 直接在[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 中访问。

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -24,6 +24,8 @@ lastupdated: "2018-03-16"
 {: #cp_bpuseprivnet}
 
 您可以使用 {{site.data.keyword.BluSoftlayer_notm}} 基础架构专用网络在尽可能最安全的环境中管理设备。如果可能，请使用 VPN 连接与设备进行交互并启用网络生成，以便系统可通过专用网络进行通信。要访问专用网络，请从[用户列表 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window} 编辑用户的 VPN 访问权。使用[虚拟专用网 ![外部链接图标](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window} 列表来连接到各种 VPN 选项中的一个选项。
+
+有关使用 VPN 连接的更多信息，请参阅[关于 VPN](/docs/infrastructure/iaas-vpn/about-vpn.html)。
 
 ### 请勿在公用网络上打开 RDP、SSH 或控制端口
 {: #cp_bpnordpsshcponpubnet}
