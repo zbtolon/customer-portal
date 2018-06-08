@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -33,9 +33,9 @@ Múltiplos usuários podem ser designados a uma única função. Além disso, se
 ## Criando usuários no provedor de identidade e na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_scenario1both}
 
-Nesse modelo, ocorre o seguinte:
+Nesse modelo, o processo a seguir ocorre:
 * Os usuários são criados no provedor de identidade e na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}.
-* As permissões de usuário são designadas no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}} usando o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer}} ou as APIs.
+* As permissões de usuário são designadas no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}} usando o portal do cliente ou as APIs da infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 * Os usuários se autenticam no provedor de identidade e federam suas credenciais.
 * A infraestrutura do {{site.data.keyword.BluSoftlayer}} consome as credenciais e o controle de acesso baseia-se nas permissões definidas para o usuário no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 
@@ -48,16 +48,18 @@ Use as etapas a seguir para configurar um usuário:
 2. Designe permissões na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 3. Crie usuários no provedor de identidade.
 
-O campo **E-mail** ou **Nome de usuário** dentro do perfil do usuário individual é usado para o token Security Assertion Markup Language&trade; (SAML&trade;) 2.0, que mapeia usuários entre o provedor de identidade e a infraestrutura do {{site.data.keyword.BluSoftlayer}}.
+O campo **E-mail** ou **Nome do usuário** dentro do perfil de usuário individual é usado para o token do Security Assertion Markup Language&trade; (SAML&trade;) 2.0. O token mapeia usuários entre o provedor de identidade e a infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 
 ### Exemplo de fluxo para autenticação de login
-A seguir há um fluxo de exemplo de como a autenticação de login do usuário pode funcionar ao criar usuários no provedor de identidade e na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}:
+{: #exlogauthflowidprovicloud}
+
+O fluxo de exemplo a seguir mostra como a autenticação de login do usuário pode funcionar ao criar usuários no provedor de identidade e na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}:
 1. O usuário acessa a URL do provedor de identidade de uma sessão do navegador.
 2. O provedor de identidade autentica o usuário, por exemplo, através de seu LDAP.
 3. O provedor de identidade retorna respostas do SAML 2.0.
 4. O provedor de identidade envia uma resposta SAML 2.0 para o provedor de serviços, neste caso a infraestrutura do {{site.data.keyword.BluSoftlayer}}, para autenticar o ID do usuário.
 5. A infraestrutura do {{site.data.keyword.BluSoftlayer}} valida a resposta do SAML 2.0.
-6. O usuário efetuou login no portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer}} com base na configuração confiável entre o provedor de identidade e a infraestrutura do {{site.data.keyword.BluSoftlayer}}.
+6. O usuário está conectado ao portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer}} com base na configuração confiável entre o provedor de identidade e a infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 
 
 ## Criando usuários no provedor de identidade
@@ -67,10 +69,12 @@ Nesse modelo, as coisas acontecem conforme a seguir:
 * As funções são criadas no provedor de identidade e designadas ao usuário.
 * As designações de função e permissão são configuradas no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}} usando APIs de infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 * Os usuários se autenticam no provedor de identidade e federam suas credenciais e atributos de função.
-* A infraestrutura do {{site.data.keyword.BluSoftlayer}} consome as credenciais do usuário e os atributos de função. Se a função designada pelo provedor de identidade do usuário corresponder à função na infraestrutura do {{site.data.keyword.BluSoftlayer}}, o usuário receberá as permissões para essa função ao efetuar login na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
-* Os usuários criados no provedor de identidade são considerados federados porque eles, e suas funções, são autenticados por meio do SAML 2.0.
+* A infraestrutura do {{site.data.keyword.BluSoftlayer}} verifica as credenciais do usuário e os atributos de função. Se as funções designadas aos usuários por seu provedor de identidade corresponderem às funções na infraestrutura do {{site.data.keyword.BluSoftlayer}}, os usuários receberão permissões para essas funções quando efetuarem login na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
+* Quando o provedor de identidade cria usuários, eles são considerados federados porque eles e suas funções são autenticados por meio do SAML 2.0.
 
 ### Configurando uma função para um usuário
+{: #cp_set-up-user-role}
+
 Use as etapas a seguir para configurar uma função para um usuário:
 
 1. Configure funções por meio da API de infraestrutura do {{site.data.keyword.BluSoftlayer}}.
@@ -85,10 +89,12 @@ Use as etapas a seguir para configurar um usuário:
 1. Configure os usuários no provedor de identidade.
 2. Designe funções aos usuários no provedor de identidade.
 
-Nesse cenário, não há necessidade de criar usuários manualmente na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
+Neste cenário, não é necessário criar manualmente usuários na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 
 ### Exemplo de fluxo para autenticação de login do usuário
-A seguir há um fluxo de exemplo de como a autenticação de login do usuário pode funcionar ao criar usuários no provedor de identidade:
+{: #exlogauthflowidprov}
+
+O fluxo de exemplo a seguir mostra como a autenticação de login do usuário pode funcionar quando você cria usuários no provedor de identidade:
 1. O usuário acessa a URL do provedor de identidade de uma sessão do navegador.
 2. O provedor de identidade autentica o usuário, por exemplo, através de seu LDAP.
 3. O provedor de identidade retorna respostas do SAML 2.0.

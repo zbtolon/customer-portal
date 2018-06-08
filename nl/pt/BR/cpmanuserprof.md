@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -18,17 +18,17 @@ lastupdated: "2018-05-01"
 # Gerenciando um perfil do usuário
 {: #customerportal_accuserprof}
 
-No portal do cliente, um perfil do usuário contém uma variedade de dados sobre o usuário, incluindo informações de contato e a chave API. Também é o local no qual as senhas são armazenadas. Além disso, se você tiver acesso administrativo, será possível mudar as permissões e o acesso ao dispositivo do perfil.
+No portal do cliente, um perfil do usuário contém uma variedade de dados sobre o usuário, incluindo informações de contato e a chave API. Também é o local no qual as senhas são armazenadas. Se você tiver acesso administrativo, será possível mudar as permissões e o acesso ao dispositivo por meio do perfil.
 {:shortdesc}
 
-No perfil do usuário, é possível gerenciar informações de contato e senhas, visualizar chaves API e atualizar permissões adicionais e acesso ao dispositivo com base em suas permissões.
+No perfil do usuário, é possível gerenciar informações de contato e senhas, visualizar chaves API e atualizar permissões e acesso ao dispositivo com base em suas permissões.
 
 ## Editando um perfil de usuário
 {: #cp_edituserprofile}
 
 Depois de um perfil do usuário ser criado no portal do cliente, é possível editá-lo a qualquer momento. Os detalhes associados ao perfil do usuário incluem informações pessoais, configurações de login, detalhes de acesso à API, assinaturas de notificação do usuário e perguntas de segurança. Use as etapas a seguir para editar um perfil do usuário.
 
-1. Acesse o portal do cliente usando suas credenciais exclusivas.
+1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Selecione **Conta > Usuários** na barra de navegação.
 3. Clique no nome do usuário para acessar o perfil do usuário associado para ele.
 4. Edite os detalhes de **Perfil do usuário** conforme necessário. Para usuários em contas que usam IBMid para autenticação, atualize seu e-mail e senha em seu perfil do IBMid. Consulte a Tabela 1 para obter mais informações.
@@ -55,12 +55,12 @@ Depois de um perfil do usuário ser criado no portal do cliente, é possível ed
 
 |Seção|Campo|Definição|
 |-------|-----|----------|
-| Informações de acesso à API | IPs permitidos | Endereços IP permitidos para autenticar a API usando a chave API exclusiva associada ao perfil do usuário |
+| Informações de acesso à API | IPs permitidos | Endereços IP permitidos para se autenticar à API com a chave API exclusiva associada ao perfil do usuário |
 | Assinaturas de notificação do usuário | Faturamento | Selecione a caixa de seleção **Faturamento** para receber uma fatura por e-mail após sua criação. |
 | Perguntas de segurança | Pergunta de segurança | Ao editar seu perfil, essa é a pergunta que deve ser respondida para efetuar login quando perguntas de segurança foram ativadas para seu perfil.
 | Respostas de segurança | Resposta | Resposta com distinção entre maiúsculas e minúsculas à pergunta de segurança aplicável. |
 {: caption="Tabela 3. Outras definições de configuração para editar um perfil do usuário" caption-side="top"}
-Depois de enviar edições em um perfil do usuário, as mudanças são aplicadas imediatamente. É possível mudar o perfil do usuário novamente a qualquer momento repetindo as etapas anteriores.  
+Depois de enviar edições para um perfil do usuário, as mudanças são aplicadas imediatamente. É possível mudar o perfil do usuário novamente a qualquer momento repetindo as etapas anteriores.
 
 Consulte [Alternando para IBMid](/docs/account/softlayerlink.html#switching-to-ibmid) para obter mais informações sobre como configurar uma conta do IBMid.
 
@@ -71,7 +71,7 @@ As permissões de usuário no portal do cliente são configuradas pelo administr
 
 Use as etapas a seguir para editar permissões do portal do cliente de um usuário.
 
-1. Acesse o portal do cliente usando suas credenciais exclusivas.
+1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Selecione **Conta > Usuários** na barra de navegação.
 3. Clique no nome do usuário para acessar o perfil do usuário.
 4. Clique no ícone **Permissões** para acessar a janela Permissões.
@@ -90,7 +90,7 @@ As permissões de usuário são atualizadas imediatamente após você enviar as 
 ## Incluindo autenticação externa para um usuário
 {: #cp_addextauthuser}
 
-No portal do cliente, é possível ativar a autenticação de dois fatores (2FA) externa para incluir proteção adicional ao efetuar login no portal. Essa camada adicional de segurança protege a conta contra acesso não verificado, garantindo que dispositivos, dados e dados da conta sejam protegidos. Veja [Configurando a autenticação de dois fatores](/docs/customer-portal/cpenable2fa.html#customerportal_2fa) para obter mais informações.
+No portal do cliente, é possível ativar a autenticação externa de dois fatores (2FA) para incluir proteção quando você efetuar login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos. Veja [Configurando a autenticação de dois fatores](/docs/customer-portal/cpenable2fa.html#customerportal_2fa) para obter mais informações.
 
 
 ## Mudando o status de um usuário
@@ -112,7 +112,7 @@ Seu status no portal do cliente determina sua acessibilidade ao portal do client
 
 Use as etapas a seguir para mudar o status de um usuário no portal do cliente.
 
-1. Acesse o portal do cliente usando suas credenciais exclusivas.
+1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Selecione **Conta** > **Usuários** na barra de navegação.
 3. Selecione **Mudar o status do usuário** na lista **Ações**.
 4. Na lista **Status**, selecione o status apropriado de acordo com as definições na lista anterior.
@@ -126,28 +126,28 @@ Depois de atualizar o status de um usuário, as mudanças na acessibilidade do p
 
 Quando um [novo usuário é incluído](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct) em uma conta do portal do cliente, o acesso à VPN é selecionado em uma variedade de métodos de conexão, incluindo SSL, PPTP ou uma combinação dos dois. Com o acesso à VPN, a rede privada pode ser acessada em sua totalidade ou o acesso à rede pode ser limitado a uma ou mais sub-redes específicas. É possível gerenciar e atualizar o acesso à VPN a qualquer momento na janela Usuários. Use as etapas a seguir para editar o acesso de um usuário à VPN.
 
-1. Acesse o portal do cliente usando suas credenciais exclusivas.
+1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Selecione **Conta** > **Acesso à VPN** na barra de navegação.
 3. Na coluna **Acesso à VPN** para o usuário, clique no link de tipo de acesso VPN atual para exibir a janela Acesso à VPN.
-4. Na lista **Tipo de VPN**, selecione um método de VPN (SSL, PPTP, SSL & PPTP ou nenhum) para designar o usuário.
-5. Indique como o **Acesso à sub-rede** deve ser gerenciado:
+4. Na lista de **Tipos de VPN**, selecione um método de VPN (SSL, PPTP, SSL e PPTP ou nenhum) para designar o usuário.
+5. Indique como você deseja gerenciar o **Acesso à sub-rede**:
   * Selecione **Automático** para gerenciar automaticamente o acesso à sub-rede.
-  * Selecione **Manual** para gerenciar manualmente o acesso à sub-rede e, em seguida, selecione a caixa de seleção **Conceder acesso** para cada sub-rede à qual o usuário deve ter acesso. Certifique-se de limpar quaisquer caixas de seleção às quais o usuário não deve ter acesso.
+  * Selecione **Manual** para gerenciar manualmente o acesso à sub-rede e, em seguida, marque a caixa de seleção **Conceder acesso** para cada sub-rede à qual você deseja que o usuário tenha acesso. Certifique-se de limpar quaisquer caixas de seleção para sub-redes às quais você não deseja que o usuário tenha acesso.
 6. Clique em **Salvar**.
 
-Após atualizar o acesso de um usuário à VPN, suas permissões são atualizadas adequadamente e a coluna Acesso à VPN exibe o método de acesso à VPN atualizado, se aplicável.
+Depois de atualizar o acesso à VPN de um usuário, suas permissões serão atualizadas e a coluna Acesso à VPN exibirá o método de acesso à VPN atualizado, se aplicável.
 
 ### Ativando ou desativando o acesso à VPN
 {: #cp_pptpvpn}
 
-É possível ativar a VPN PPTP para formar um túnel seguro para a rede privada da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} usando o software cliente especializado em execução em seu desktop ou dispositivo dedicado. É possível usar PPTP se você precisa conectar todo seu escritório ou se não pode usar a solução VPN SSL.
+É possível ativar a VPN PPTP para formar um túnel seguro para a rede privada da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} que usa o software cliente especializado executado em sua área de trabalho ou dispositivo dedicado. É possível usar PPTP se você precisa conectar todo seu escritório ou se não pode usar a solução VPN SSL.
 
-Você é designado a uma conexão PPTP com conexões adicionais disponíveis.  É possível solicitar suporte para ativar o acesso ilimitado ao PPTP, que está disponível sem encargos adicionais. Use as etapas a seguir para ativar ou desativar o acesso à VPN PPTP:
+Uma conexão PPTP é atribuída a você com conexões extras disponíveis. É possível solicitar suporte para ativar o acesso ilimitado ao PPTP, disponível sem encargos extras. Use as etapas a seguir para ativar ou desativar o acesso à VPN PPTP:
 
-1. Acesse o portal do cliente usando suas credenciais exclusivas.
+1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Selecione **Conta** > **Acesso à VPN** na barra de menus.
 3. Na coluna **Acesso à VPN** para o usuário, clique no link de tipo de acesso VPN atual para exibir a janela Acesso à VPN.
-4. Na lista **Tipo de VPN**, selecione um método de VPN (SSL, PPTP, SSL & PPTP ou nenhum) para designar o usuário.
+4. Na lista de **Tipos de VPN**, selecione um método de VPN (SSL, PPTP, SSL e PPTP ou nenhum) para designar o usuário.
 
 
 ## Selecionando notificações por e-mail
@@ -157,12 +157,10 @@ Você é designado a uma conexão PPTP com conexões adicionais disponíveis.  �
 infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} e quais você não deseja receber. Por padrão,
 você recebe todas as notificações por e-mail, mas é possível mudá-las a qualquer momento. Para mudar suas
 configurações de notificação por e-mail, use as etapas a seguir:
-1. Acesse o portal do cliente usando suas credenciais exclusivas para a conta associada ao endereço de
-e-mail que recebe notificações.
+1. Acesse o portal do cliente usando suas credenciais exclusivas para a conta que está associada ao endereço de e-mail que recebe notificações.
 2. Clique em **Conta** > **Usuários** > **Preferências
 de e-mail** na barra de menus.
-3. Na lista de tipos de notificação, desmarque a caixa ao lado de quaisquer notificações que você não
-deseja mais receber.
+3. Na lista de tipos de notificação, limpe as notificações que não deseja mais receber.
 
 Suas mudanças são salvas automaticamente. Essas configurações afetam os e-mails que são enviados a você,
 mas não afetam as notificações por e-mail de quaisquer outros usuários em sua conta.
@@ -172,11 +170,11 @@ mas não afetam as notificações por e-mail de quaisquer outros usuários em su
 {: #cp_seteusupported}
 
 É possível indicar que você deseja suporte exclusivamente de uma equipe de suporte que está localizada fisicamente na União Europeia (UE). É possível selecionar essa opção ao configurar sua conta ou ao atualizar sua conta existente. Para configurar a opção **Suportado pela União Europeia**, use as etapas a seguir:
-1. Acesse o portal do cliente usando suas credenciais exclusivas.
+1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Clique em **Conta** > **Gerenciar** > **Perfil da Empresa** na barra de menus.
 3. Selecione a caixa de seleção **Suportado pela União Europeia**.
 4. Clique em **Solicitar atualização de perfil**.
 
-Se a opção **Suportado pela União Europeia** não está disponível, você pode ter usuários em sua conta com acesso à VPN PPTP ativado. Para ativar a opção **Suportado pela União Europeia**, primeiro desative o acesso à VPN PPTP para todos os usuários em sua conta. Consulte [Ativando ou desativando o acesso à VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn) para obter mais informações.
+Se a opção **Suportado pela União Europeia** não está disponível, você pode ter usuários em sua conta com acesso à VPN PPTP ativado. Para ativar a opção **Suportado pela União Europeia**, primeiro desative o acesso à VPN PPTP para todos os usuários em sua conta. Para obter mais informações, veja [Ativando ou desativando o acesso à VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
 
 Para obter mais informações sobre como implementar a opção **Suportado pela União Europeia** ao abrir um chamado de suporte, consulte [Solicitando suporte para recursos na União Europeia](/docs/get-support/howtogetsupport.html#eusupported).

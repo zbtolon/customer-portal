@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -66,7 +66,7 @@ Se você não tiver uma conta vinculada, será possível abrir chamados de supor
 
 11. Clique em **Incluir chamado**.
 
-Depois de incluir um chamado, ele será roteado para o membro apropriado da equipe de Suporte para resolução. Os chamados são tratados com base no grau de severidade, o que significa que os problemas mais graves, como indisponibilidades, são tratados primeiro, seguidos pelos problemas que comprometem os serviços e, em seguida, as dúvidas. Um membro da equipe de Suporte entrará em contato com os designados sobre informações adicionais para resolver o chamado.
+Depois de incluir um chamado, ele será roteado para o membro apropriado da equipe de suporte para resolução. Os chamados são tratados com base no grau de severidade, o que significa que os problemas mais graves, como indisponibilidades, são tratados primeiro, seguidos pelos problemas que comprometem os serviços e, em seguida, as dúvidas. Um membro da equipe de suporte entrará em contato com os designados sobre informações adicionais para resolver o chamado.
 
 ## Criando um chamado para problemas de conta
 {: #cp_creatacctsuptickwsp}
@@ -102,12 +102,12 @@ Depois de incluir um chamado, é possível visualizá-lo a qualquer momento na j
   * Anexar um arquivo: clique em **Anexar arquivos** e selecione os arquivos a serem anexados no chamado. É possível anexar até dois (2) arquivos em um chamado.
 6. Clique em **Atualizar**.
 
-  A qualquer momento durante o processo de atualização, é possível abrir uma sessão de bate-papo com um membro da equipe de Suporte para obter assistência. Clique em **Iniciar bate-papo** para abrir a sessão de bate-papo.
+  A qualquer momento durante o processo de atualização, é possível abrir uma sessão de bate-papo com um membro da equipe de suporte para obter assistência. Clique em **Iniciar bate-papo** para abrir a sessão de bate-papo.
   {:tip}
 
-Se você redesignar o chamado, o novo designado se tornará o ponto principal de contato para resolução do problema. Se você incluir um comentário ou anexo, o membro da equipe de suporte que trabalha no chamado revisará as novas informações para ajudar na resolução do problema.
+Se você redesignar o chamado, o novo designado se tornará o ponto principal de contato para resolução do problema. Se você incluir um comentário ou um anexo, o membro da equipe de suporte que trabalha no chamado revisará as novas informações para ajudar na resolução do problema.
 
-## Escalando um caso de suporte
+## Escalando um chamado de suporte
 {: #cp_bpsupescalflow}
 
-É possível solicitar assistência adicional escalando seu caso. Veja [Escalando chamados de suporte](/docs/get-support/quicktickresp.html#escalation) para obter mais informações.
+É possível solicitar assistência adicional escalando seu chamado. Veja [Escalando chamados de suporte](/docs/get-support/quicktickresp.html#escalation) para obter mais informações.

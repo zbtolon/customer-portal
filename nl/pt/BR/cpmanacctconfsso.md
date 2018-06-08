@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-26"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -31,8 +31,8 @@ Se você ainda não tiver um provedor de identidade, primeiro selecione um e con
 * IBM Cloud Identity Services.
 Entre em contato com seu Representante de Vendas de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para obter mais informações.
 
-Se você ainda não tiver um provedor de identidade configurado, será possível entrar em contato com o suporte do provedor de identidade para obter etapas específicas ou usar as etapas de alto nível a seguir para configurar seu provedor de identidade:
-1. Prepare seu ambiente do provedor de identidade fazendo download e instalando seu executável.
+Se você ainda não tiver um provedor de identidade configurado, será possível entrar em contato com o suporte do provedor de identidade para obter etapas específicas. Também é possível usar as etapas de alto nível a seguir para configurar seu provedor de identidade:
+1. Prepare o ambiente de seu provedor de identidade fazendo download e instalando o arquivo executável.
 2. Configure seu provedor de identidade para funcionar com a autenticação do {{site.data.keyword.BluSoftlayer_notm}}.
 
 ## Configurando a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para SSO
@@ -58,7 +58,7 @@ Use as etapas a seguir para configurar a infraestrutura do {{site.data.keyword.B
 1. Efetue login em seu provedor de identidade, se você ainda não tiver efetuado login, e localize a página **Configuração do SAML**. Anote as informações a seguir:
   * ID da entidade
   * URL de conexão única
-  * Certificado (Isso irá variar com base em seu provedor de identidade.)
+  * Certificado (Os requisitos do certificado variam com base em seu provedor de identidade.)
 2. Efetue login na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} como o usuário principal com o nome do usuário principal e a senha que você usou para criar sua conta do SoftLayer.
 3. Clique em **Conta** > **Gerenciar** > **Autenticação SAML**.
 4. Insira os metadados do **Provedor de identidade**.
@@ -67,4 +67,4 @@ Use as etapas a seguir para configurar a infraestrutura do {{site.data.keyword.B
 7. Clique em **Fazer download da configuração XML** para fazer download dos metadados do provedor de serviços ou anote as informações.
 8. Use os metadados do **Provedor de serviços** para configurar seu provedor de identidade com base nas instruções de seu provedor de identidade.  
 
-Agora você deve ser capaz de efetuar login na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} usando seu ID federado. Para obter mais informações sobre IDs federados, consulte [Inscrevendo-se para o {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) e [IBMid Enterprise Federation Adoption Guide ![Ícone de link externo](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.
+É possível efetuar login na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} usando seu ID federado. Para obter mais informações sobre IDs federados, consulte [Inscrevendo-se para o {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) e [IBMid Enterprise Federation Adoption Guide ![Ícone de link externo](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.

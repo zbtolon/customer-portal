@@ -28,7 +28,7 @@ Você usará o portal do cliente de infraestrutura do {{site.data.keyword.BluSof
 
 Você poderia, então, usar o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para as tarefas a seguir:
   * Gerenciar o acesso de seus recursos, monitorar recursos e visualizar logs de acesso
-  * Solicitar e interagir com produtos e serviços de infraestrutura, por exemplo, incluindo e gerenciando dispositivos e [servidores virtuais](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
+  * Pedir e interagir com produtos e serviços de infraestrutura, por exemplo, incluindo e gerenciando dispositivos e [servidores virtuais](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)
   * Gerenciar e manter suas contas vinculadas ou desvinculadas do SoftLayer
   * Visualizar e pagar as faturas mensais de recursos de infraestrutura
   * Abrir, visualizar e atualizar chamados associados a qualquer produto ou serviço da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
@@ -36,5 +36,5 @@ Você poderia, então, usar o portal do cliente de infraestrutura do {{site.data
 Por todo o resto, use o console do [{{site.data.keyword.Bluemix}} ![Ícone de link externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
 
 É possível acessar o portal do cliente das maneiras a seguir:
-* No menu do console do [{{site.data.keyword.Bluemix}} ![Ícone de link externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} selecionando **Infraestrutura** no ícone Menu da barra de menus ![ícone Menu](../icons/icon_hamburger.svg).  Para obter mais informações, consulte [Como o console do {{site.data.keyword.cloud_notm}} funciona](/docs/overview/ui.html#ui).
+* No menu do console do [{{site.data.keyword.Bluemix}} ![Ícone de link externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} selecionando **Infraestrutura** na barra de menus ![Ícone de menu](../icons/icon_hamburger.svg). Para obter mais informações, consulte [Como o console do {{site.data.keyword.cloud_notm}} funciona](/docs/overview/ui.html#ui).
 * No [portal do cliente do SoftLayer ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} diretamente.
