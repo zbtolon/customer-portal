@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-07"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -28,7 +28,7 @@ Le portail client comporte un outil facultatif de [suivi des mots de passe ![Ic�
 
 Les équipes de support utilisent également le suivi des mots de passe si l'accès distant à un système est requis. Les noms d'utilisateur et mots de passe sont utilisés par le support uniquement si nécessaire et autorisé pour la résolution de ticket.
 
-Le suivi des mots de passe au sein du portail client est facultatif et tout utilisateur disposant des droits appropriés peut afficher tous les mots de passe stockés à l'aide de cet outil. Les informations d'utilisateur et de mot de passe sont suivies manuellement de façon à ne pas être automatiquement synchronisées avec un appareil ou son logiciel. C'est pourquoi vous devez veiller à mettre à jour l'outil de suivi des mots de passe en même temps que vous mettez à jour les utilisateurs et les mots de passe sur l'appareil et le logiciel. Utilisez la procédure suivante pour ajouter un utilisateur à l'outil de suivi des mots de passe.
+Le suivi des mots de passe dans le portail client est facultatif. N'importe quel utilisateur disposant des droits appropriés peut voir tous les mots de passe stockés par cet outil. Les informations d'utilisateur et de mot de passe sont suivies manuellement de façon à ne pas être automatiquement synchronisées avec un appareil ou son logiciel. C'est pourquoi vous devez veiller à mettre à jour l'outil de suivi des mots de passe en même temps que vous mettez à jour les utilisateurs et les mots de passe sur l'appareil et le logiciel. Utilisez la procédure suivante pour ajouter un utilisateur à l'outil de suivi des mots de passe.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Cliquez sur **Equipements** > **Gérer** > **Mots de passe** depuis le menu.
@@ -36,7 +36,7 @@ Le suivi des mots de passe au sein du portail client est facultatif et tout util
 4. Sélectionnez le **Nom de l'unité** auquel l'utilisateur est associé depuis la liste déroulante **Nom de l'unité**.
 5. Sélectionnez le **Logiciel** auquel l'utilisateur est associé depuis la liste **Logiciel**.
 
-  Le logiciel répertorié est fourni par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} via des abonnements payants ou gratuits. Aucun logiciel tiers installé manuellement sur l'appareil n'est disponible pour le suivi via le portail client.
+  Le logiciel répertorié est fourni par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} via des abonnements payants ou gratuits. Aucun logiciel tiers installé manuellement sur l'appareil n'est disponible pour suivi via le portail client.
   {: tip}
 
 6. Entrez le nom d'utilisateur et le mot de passe pour le logiciel dans les zones appropriées.
@@ -48,7 +48,7 @@ Une fois l'utilisateur ajouté à l'outil de suivi des mots de passe, les inform
 ### Filtrage des informations dans l'outil de suivi des mots de passe
 {: #cp_filterusinfopwtracktool}
 
-Pour afficher, éditer ou supprimer des informations utilisateur depuis l'outil de suivi des mots de passe, vous pouvez appliquer un filtre afin de rapidement localiser un utilisateur lorsque la liste s'étend sur plusieurs lignes ou pages. Utilisez la procédure suivante pour filtrer par appareil, logiciel ou utilisateur dans l'outil de suivi des mots de passe.
+Pour afficher, éditer ou supprimer des informations utilisateur depuis l'outil de suivi des mots de passe, vous pouvez appliquer un filtre afin de rapidement localiser un utilisateur. Ce filtrage est pratique lorsque la liste des utilisateurs couvre de nombreuses lignes ou pages. Utilisez la procédure suivante pour filtrer par appareil, logiciel ou utilisateur dans l'outil de suivi des mots de passe.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Cliquez sur **Equipements** > **Gérer** > **Mots de passe** depuis le menu.
@@ -61,7 +61,7 @@ Vous pouvez sélectionner les informations utilisateur à afficher, éditer ou r
 ### Edition des informations utilisateur dans l'outil de suivi des mots de passe
 {: #cp_editusinfopwtracktool}
 
-Une fois qu'un utilisateur a été ajouté à l'outil de suivi des mots de passe, vous pouvez éditer les détails associés à l'utilisateur ou au mot de passe. Utilisez la procédure suivante pour éditer les informations d'un utilisateur dans l'outil de suivi des mots de passe.
+Une fois qu'un utilisateur a été ajouté à l'outil de suivi des mots de passe, vous pouvez éditer les informations associées à l'utilisateur ou au mot de passe. Utilisez la procédure suivante pour éditer les informations d'un utilisateur dans l'outil de suivi des mots de passe.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Cliquez sur **Equipements** > **Gérer** > **Mots de passe** depuis le menu.
@@ -75,12 +75,12 @@ Après qu'un utilisateur ou un mot de passe a été modifié dans l'outil de sui
 ## Configuration d'un compte pour un accès par mot de passe à usage unique
 {: #cp_confportacc1timpwacc}
 
-Avant de pouvoir configurer le compte, vous devez d'abord avoir configuré l'application Verisign "VIP Access". Si vous ne l'avez pas encore fait, commencez par télécharger l'application pour l'un des appareils suivants :
+Avant de pouvoir configurer le compte, vous devez d'abord configurer l'application Verisign "VIP Access". Si vous n'avez pas encore configuré VIP Access, commencez par télécharger l'application pour l'un des appareils suivants : 
 * Pour votre téléphone : [https://m.vip.symantec.com/home.v ![Icône de lien externe](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
 * Pour votre bureau : [https://idprotect.verisign.com/desktop/download.v ![Icône de lien externe](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
 
 Procédez ensuite comme suit :
-1. Ouvrez l'application. Vous trouverez les données d'identification en haut et votre mot de passe à usage unique en cours en bas. Vous pouvez ignorer le mot de passe, mais vous avez besoin des données d'identification pour le portail ; conservez l'application ouverte.
+1. Ouvrez l'application. Accédez à vos données d'identification et à votre mot de passe à usage unique. Vous pouvez ignorer initialement le mot de passe, mais aurez besoin des données d'identification pour le portail ; conservez donc l'application ouverte.
 2. Connectez-vous au portail client en tant qu'utilisateur pour lequel vous souhaitez configurer le mot de passe à usage unique.
 3. Cliquez sur **Compte** > **Utilisateurs** > **Actions** > **Ajouter authentification externe**.
 4. Sélectionnez le type d'authentification à ajouter. Si vous utilisez l'application Verisign, choisissez **Symantec Identity Protection**.

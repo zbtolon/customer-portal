@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2018-01-11"
 
 ---
 
@@ -41,4 +41,4 @@ Les journaux d'accès affichent les données de chaque tentative d'accès effect
 2. Sélectionnez **Compte** > **Utilisateurs** dans la barre de menus pour accéder à la fenêtre Utilisateurs.
 3. Dans la liste déroulante **Actions**, sélectionnez **Afficher journal d'audit** pour afficher le journal d'accès de l'utilisateur.
 
-Le journal d'accès de chaque utilisateur montre les tentatives d'accès effectuées par cet utilisateur par date, ainsi que l'adresse IP à partir de laquelle a eu lieu la tentative d'accès. Les informations du journal d'accès sont en lecture seule, il n'est donc pas possible d'éditer le contenu. Vous pouvez afficher les journaux d'audit à tout moment en répétant la procédure précédente. Pour quitter les journaux et revenir à l'écran Utilisateurs, cliquez sur le lien **Afficher tous les utilisateurs** en haut de l'écran.
+Le journal d'accès de chaque utilisateur montre les tentatives d'accès effectuées par cet utilisateur par date, ainsi que l'adresse IP à partir de laquelle a eu lieu la tentative d'accès. Les informations du journal d'accès sont en lecture seule, il n'est donc pas possible d'éditer le contenu. Vous pouvez afficher les journaux d'audit à tout moment en répétant la procédure précédente. Pour quitter les journaux et revenir à l'écran Utilisateurs, cliquez sur le lien **Afficher tous les utilisateurs**.

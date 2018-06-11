@@ -36,5 +36,5 @@ Vous utiliserez alors le portail client de l'infrastructure {{site.data.keyword.
 Pour le reste, utilisez la [console {{site.data.keyword.Bluemix}} ![Icône de lien externe](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
 
 Vous pouvez accéder au portail client des façons suivantes :
-* Depuis la menu de la console [{{site.data.keyword.Bluemix}} ![Icône de lien externe](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} en sélectionnant l'icône **Infrastructure** dans la barre de menus ![Icône de menu](../icons/icon_hamburger.svg).  Pour plus d'informations, voir [Fonctionnement de la console {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
+* Depuis le menu de la [console {{site.data.keyword.Bluemix}} ![External link icon](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} en sélectionnant **Infrastructure** dans la barre de menu ![Icône Menu](../icons/icon_hamburger.svg). Pour plus d'informations, voir [Fonctionnement de la console {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
 * Directement depuis le [portail client SoftLayer ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.

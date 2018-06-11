@@ -31,10 +31,9 @@ Vous pouvez associer un IBMid à plusieurs comptes SoftLayer en utilisant une ad
 compte. Vous ne pouvez mapper qu'un seul utilisateur de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour chaque compte à l'IBMid unique. L'IBMid doit être unique dans chaque compte SoftLayer. Toutefois,
 un utilisateur disposant de l'accès à plusieurs comptes SoftLayer peut utiliser un IBMid afin d'accéder à plusieurs comptes SoftLayer.
 
-Par exemple, un IBMid peut être mappé à un utilisateur principal dans les comptes A et B, et à un utilisateur supplémentaire dans les comptes C et D.
-L'un des comptes mappés à cet IBMid est le compte par défaut. En général, le compte par défaut est celui qui a été mappé en premier à l'IBMid. Toutefois, vous pouvez changer le compte par défaut à l'aide d'une fonction de changement de compte dans le portail client.
+Par exemple, un IBMid peut être mappé à l'utilisateur principal dans les comptes A et B, et à un autre utilisateur dans les comptes C et D. L'un des comptes mappés à cet IBMid est le compte par défaut. En général, le compte par défaut est celui qui a été mappé en premier à l'IBMid. Toutefois, vous pouvez changer le compte par défaut à l'aide d'une fonction à cet effet dans le portail client.
 
 ![Comptes SoftLayer multiples vers un IBMid](images/ibmid-image.png)
 
 Pour un utilisateur disposant d'un accès IBMid à plusieurs comptes pour lesquels l'authentification à deux facteurs est activée, un code de
-vérification pour l'authentification à deux facteurs approprié par compte est requis lors de la connexion de compte et du changement de compte.
+vérification pour l'authentification à deux facteurs est requis. Le code de vérification est requis, par compte, lors de la connexion au compte et lorsque vous changez de compte par défaut.

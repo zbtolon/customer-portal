@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -66,7 +66,7 @@ Vous pouvez ouvrir des tickets dans le portail client de l'infrastructure {{site
 
 11. Cliquez sur **Ajouter ticket**.
 
-Après que vous avez ajouté un ticket, celui-ci est routé vers le membre approprié de l'équipe de support pour résolution. Les tickets sont gérés en fonction du degré de gravité, ce qui signifie que les problèmes les plus sévères tels que les indisponibilités sont gérés en premier, suivis par les problèmes entraînant une dégradation de service, et enfin les questions. Un membre de l'équipe de support entrera en contact avec les cessionnaires pour les informations complémentaires permettant de résoudre le ticket.
+Après que vous avez ajouté un ticket, celui-ci est transmis au membre approprié de l'équipe de support pour sa résolution. Les tickets sont gérés en fonction du degré de gravité, ce qui signifie que les problèmes les plus sévères tels que les indisponibilités sont gérés en premier, suivis par les problèmes entraînant une dégradation de service, et enfin les questions. Un membre de l'équipe de support entrera en contact avec les personnes désignées pour informations complémentaires afin de résoudre le ticket.
 
 ## Création d'un ticket pour des problèmes de compte
 {: #cp_creatacctsuptickwsp}
@@ -107,7 +107,7 @@ Vous pouvez à tout moment mettre à jour un ticket de demande de service exista
 
 Si vous réaffectez le ticket, le nouveau cessionnaire devient le point de contact principal pour la résolution du problème. Si vous ajoutez un commentaire ou une pièce jointe, le membre de l'équipe de support qui travaille sur le ticket examine les nouvelles informations pour aider à la résolution du problème.
 
-## Escalade d'un cas de support
+## Escalade d'un ticket de demande de service
 {: #cp_bpsupescalflow}
 
-Vous pouvez demander une assistance supplémentaire en faisant remonter votre cas. Pour plus d'informations, voir [Escalade de tickets de demande de service](/docs/get-support/quicktickresp.html#escalation). 
+Vous pouvez demander une assistance supplémentaire en faisant remonter votre cas. Pour plus d'informations, voir [Escalade de tickets de demande de service](/docs/get-support/quicktickresp.html#escalation).

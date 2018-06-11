@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-26"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -31,8 +31,8 @@ Si vous ne disposez pas déjà d'un fournisseur d'identité, commencez par en s�
 * IBM Cloud Identity Services.
 Pour plus d'informations, contactez votre ingénieur commercial pour l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.
 
-Si vous ne disposez pas déjà d'un fournisseur d'identité configuré, vous pouvez contacter le support correspondant pour connaître la procédure spécifique, ou utiliser les étapes de haut niveau suivantes pour configurer votre fournisseur d'identité.
-1. Préparez l'environnement de votre fournisseur d'identité en téléchargeant et en installant l'exécutable correspondant.
+Si vous ne disposez pas déjà d'un fournisseur d'identité configuré, vous pouvez contacter le support de votre fournisseur d'identité pour connaître la procédure spécifique. Vous pouvez aussi utiliser les étapes de haut niveau suivantes pour configurer votre fournisseur d'identité :
+1. Préparez l'environnement de votre fournisseur d'identité en téléchargeant et en installant le fichier exécutable correspondant.
 2. Configurez votre fournisseur d'identité pour une authentification avec {{site.data.keyword.BluSoftlayer_notm}}.
 
 ## Configuration de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour la connexion unique
@@ -45,7 +45,7 @@ Vous devez extraire les zones requises suivantes des informations de métadonné
 <dt>Adresse URL de connexion unique</dt>
 <dd>Noeud final du fournisseur d'identité pour la connexion unique.</dd>
 <dt>Certificat</dt>
-<dd>Certificat du fournisseur d'identité utilisé pour signer les demandes.</dd>
+<dd>Certificat du fournisseur d'identité à utiliser pour signer les demandes.</dd>
 </dl>
 
 La zone suivante est facultative :
@@ -58,7 +58,7 @@ Utilisez la procédure suivante pour configurer l'infrastructure {{site.data.key
 1. Connectez-vous à votre fournisseur d'identité, si ce n'est pas déjà le cas, et accédez à la page **Configuration SAML**. Notez les informations suivantes :
   * ID d'entité
   * Adresse URL de connexion unique
-  * Certificat (varie en fonction du fournisseur d'identité)
+  * Certificat (les exigences concernant le certificat varient en fonction du fournisseur d'identité)
 2. Connectez-vous à l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} en tant qu'utilisateur principal, avec les nom d'utilisateur et mot de passe utilisés pour créer votre compte SoftLayer.
 3. Cliquez sur **Compte** > **Gérer** > **Authentification SAML**.
 4. Entrez les métadonnées du **Fournisseur d'identité**.
@@ -67,4 +67,4 @@ Utilisez la procédure suivante pour configurer l'infrastructure {{site.data.key
 7. Cliquez sur **Télécharger la configuration XML** pour télécharger les métadonnées du fournisseur de services ou notez ces informations.
 8. Utilisez les métadonnées du **Fournisseur de service** pour configurer votre fournisseur d'identité en fonction des instructions de ce dernier.  
 
-Vous devez à présent pouvoir vous connecter à l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} en utilisant votre ID fédéré. Pour plus d'informations sur les ID fédérés, voir [Inscription à {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) et [IBMid Enterprise Federation Adoption Guide ![Icône de lien externe](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.
+Vous pouvez vous connecter à l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} en utilisant votre ID fédéré. Pour plus d'informations sur les ID fédérés, voir [Inscription à {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) et [IBMid Enterprise Federation Adoption Guide ![Icône de lien externe](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.

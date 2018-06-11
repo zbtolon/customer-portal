@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -18,10 +18,10 @@ lastupdated: "2018-05-01"
 # Gestion d'un profil utilisateur
 {: #customerportal_accuserprof}
 
-Sur le portail client, un profil utilisateur comporte différentes données sur l'utilisateur, y compris les informations de contact et la clé d'API. C'est également là que sont stockés les mots de passe. En outre, si vous disposez d'un accès administrateur, vous pouvez changer les droits et l'accès à l'unité depuis le profil.
+Sur le portail client, un profil utilisateur comporte différentes données sur l'utilisateur, y compris les informations de contact et la clé d'API. C'est également là que sont stockés les mots de passe. Si vous disposez d'un accès administrateur, vous pouvez changer les droits et l'accès à l'unité depuis le profil.
 {:shortdesc}
 
-Dans le profil utilisateur, vous pouvez gérer les informations de contact et les mots de passe, afficher les clés d'API et mettre à jour des droits supplémentaires et l'accès à l'unité en fonction de vos droits.
+Dans le profil utilisateur, vous pouvez gérer les informations de contact et les mots de passe, afficher les clés d'API et mettre à jour les droits et l'accès à l'unité en fonction de vos droits.
 
 ## Edition d'un profil utilisateur
 {: #cp_edituserprofile}
@@ -55,12 +55,12 @@ Après qu'un profil utilisateur a été créé sur le portail client, vous pouve
 
 |Section|Zone|Définition|
 |-------|-----|----------|
-| Informations d'accès à l'API | Adresses IP autorisées | Adresses IP autorisées pour l'authentification auprès de l'API via la clé d'API unique associée au profil utilisateur. |
+| Informations d'accès à l'API | Adresses IP autorisées | Adresses IP autorisées pour authentification auprès de l'API via la clé d'API unique associée au profil utilisateur. |
 | Abonnements notification utilisateur | Facturation | Cochez la case **Facturation** pour recevoir une facture par e-mail une fois celle-ci créée. |
 | Questions de sécurité | Question de sécurité | Lors de l'édition de votre profil, il s'agit de la question à laquelle vous devez répondre pour vous connecter quand les questions de sécurité ont été activées pour votre profil.
 | Réponses de sécurité | Réponse | Réponse à la question de sécurité applicable ; sensible à la casse. |
 {: caption="Tableau 3. Autres paramètres de configuration pour l'édition d'un profil utilisateur" caption-side="top"}
-Une fois que les modifications apportées à un profil utilisateur sont soumises, les changements sont immédiatement appliqués. Vous pouvez modifier à nouveau le profil utilisateur quand vous le souhaitez en répétant les étapes précédentes.  
+Une fois que les modifications apportées à un profil utilisateur sont soumises, les changements sont immédiatement appliqués. Vous pouvez modifier à nouveau le profil utilisateur quand vous le souhaitez en répétant les étapes précédentes.
 
 Voir [Passage à l'IBMid](/docs/account/softlayerlink.html#switching-to-ibmid) pour plus d'informations sur la configuration d'un compte IBMid.
 
@@ -90,7 +90,7 @@ Les droits utilisateur sont mis à jour immédiatement après que vous avez soum
 ## Ajout d'authentification externe pour un utilisateur
 {: #cp_addextauthuser}
 
-Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs pour ajouter une protection supplémentaire lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte des accès non vérifié en garantissant que les appareils, données et les informations de compte sont protégés. Pour plus d'informations, voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal/cpenable2fa.html#customerportal_2fa). 
+Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour ajouter une protection lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés. Pour plus d'informations, voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
 
 
 ## Changement du statut d'un utilisateur
@@ -129,25 +129,25 @@ Quand un [nouvel utilisateur est ajouté](/docs/customer-portal/cpmanacctadduser
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Accès VPN** dans la barre de navigation.
 3. Dans la colonne **Accès VPN** de l'utilisateur, cliquez sur le lien du type d'accès en cours pour afficher la fenêtre Accès VPN.
-4. Dans la liste **Type de VPN**, sélectionnez une méthode VPN (SSL, PPTP, SSL & PPTP, ou aucune) à affecter à l'utilisateur.
-5. Indiquez comment l'**Accès au sous-réseau** doit être géré :
+4. Dans la liste **Type de VPN**, sélectionnez une méthode VPN (SSL, PPTP, SSL et PPTP, ou aucune) à affecter à l'utilisateur.
+5. Indiquez comment gérer l'**Accès au sous-réseau** :
   * Sélectionnez **Auto** pour gérer automatiquement l'accès au sous-réseau.
-  * Sélectionnez **Manuel** pour gérer manuellement l'accès au sous-réseau, puis cochez la case **Autoriser accès** pour chaque sous-réseau auquel l'utilisateur doit avoir accès. Veillez à décocher les cases correspondant aux sous-réseaux auxquels l'utilisateur ne doit pas avoir accès.
+  * Sélectionnez **Manuel** pour gérer manuellement l'accès au sous-réseau, puis cochez la case **Autoriser accès** pour chaque sous-réseau auquel l'utilisateur doit avoir accès. Prenez soin de décocher les cases correspondant aux sous-réseaux auxquels l'utilisateur ne doit pas avoir accès.
 6. Cliquez sur **Enregistrer**.
 
-Après que l'accès VPN d'un utilisateur a été mis à jour, les droits sont mis à jour en conséquence et la colonne Accès VPN affiche la méthode d'accès VPN mise à jour, le cas échéant.
+Après que l'accès VPN d'un utilisateur a été mis à jour, ses droits sont mis à jour et la colonne Accès VPN affiche la méthode d'accès VPN mise à jour, le cas échéant.
 
 ### Activation ou désactivation de l'accès VPN
 {: #cp_pptpvpn}
 
 Vous pouvez activer le VPN PPTP afin de former un tunnel sécurisé d'accès au réseau privé de l'infrastructure {{site.data.keyword.BluSoftlayer_full}} à l'aide d'un logiciel client spécialisé s'exécutant sur votre bureau ou une unité dédiée. Vous pouvez utiliser PPTP si vous avez besoin de connecter la totalité de votre bureau ou si vous ne pouvez pas utiliser la solution VPN SSL.
 
-Une connexion PPTP vous est allouée avec des connexions supplémentaires disponibles.  Vous pouvez demander une aide pour activer l'accès PPTP illimité, disponible sans frais supplémentaires. Utilisez la procédure suivante pour activer l'accès VPN PPTP.
+Une connexion PPTP vous est allouée avec des connexions supplémentaires disponibles. Vous pouvez demander une aide pour activer l'accès PPTP illimité, disponible sans frais supplémentaires. Utilisez la procédure suivante pour activer l'accès VPN PPTP.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Accès VPN** dans la barre de menus.
 3. Dans la colonne **Accès VPN** de l'utilisateur, cliquez sur le lien du type d'accès en cours pour afficher la fenêtre Accès VPN.
-4. Dans la liste **Type de VPN**, sélectionnez une méthode VPN (SSL, PPTP, SSL & PPTP, ou aucune) à affecter à l'utilisateur.
+4. Dans la liste **Type de VPN**, sélectionnez une méthode VPN (SSL, PPTP, SSL et PPTP, ou aucune) à affecter à l'utilisateur.
 
 
 ## Sélection de notifications par courrier électronique
@@ -156,7 +156,7 @@ Une connexion PPTP vous est allouée avec des connexions supplémentaires dispon
 Vous pouvez sélectionner les notifications par courrier électronique que vous souhaitez recevoir de la part de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} et celles que vous ne souhaitez pas recevoir. Par défaut, vous recevez toutes les notifications par courrier électronique, mais vous pouvez les modifier à tout moment. Pour modifier vos paramètres de notification par courrier électronique, procédez comme suit :
 1. Accédez au portail client à l'aide de vos données d'identification uniques pour le compte associé à l'adresse électronique destinataire des notifications.
 2. Cliquez sur **Compte** > **Utilisateurs** > **Préférences de courrier électronique** dans la barre de menus.
-3. Dans la liste de types de notification, décochez la zone en regard des notifications que vous ne souhaitez plus recevoir.
+3. Dans la liste de types de notification, désélectionnez les notifications que vous ne souhaitez plus recevoir.
 
 Vos modifications sont sauvegardées automatiquement. Ces paramètres affectent le courrier électronique qui vous est envoyé, mais ils n'ont aucun impact sur les notifications par courrier électronique des autres utilisateurs de votre compte.
 
@@ -170,6 +170,6 @@ Vous pouvez indiquer que vous souhaitez l'aide exclusive d'une équipe de suppor
 3. Cochez la case **Support dans l'Union européenne**.
 4. Cliquez sur **Demander mise à jour du profil**.
 
-Si l'option **Support dans l'Union européenne** n'est pas disponible, il est possible que l'accès VPN PPTP de certains utilisateurs de votre compte soit activé. Désactivez l'accès VPN PPTP pour tous les utilisateurs de votre compte avant d'activer l'option **Support dans l'Union européenne**. Voir [Activation ou désactivation de l'accès VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn) pour plus d'informations.
+Si l'option **Support dans l'Union européenne** n'est pas disponible, il est possible que l'accès VPN PPTP de certains utilisateurs de votre compte soit activé. Désactivez l'accès VPN PPTP pour tous les utilisateurs de votre compte avant d'activer l'option **Support dans l'Union européenne**. Pour plus d'informations, voir [Activation ou désactivation de l'accès VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
 
 Pour plus d'informations sur la mise en oeuvre de l'option **Support dans l'Union européenne** lorsque vous ouvrez un ticket de demande de service, voir [Demande de support pour des ressources dans l'Union européenne](/docs/get-support/howtogetsupport.html#eusupported).
