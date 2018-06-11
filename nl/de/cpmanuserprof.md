@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -18,10 +18,10 @@ lastupdated: "2018-05-01"
 # Benutzerprofil verwalten
 {: #customerportal_accuserprof}
 
-Im Kundenportal enthält ein Benutzerprofil eine Vielzahl von Daten über den Benutzer, inklusive Kontaktinformationen und API-Schlüssel. An dieser Stelle werden auch Kennwörter gespeichert. Falls Sie Verwaltungszugriff besitzen, können Sie über das Profil auch die Berechtigungen und den Gerätezugriff ändern.
+Im Kundenportal enthält ein Benutzerprofil eine Vielzahl von Daten über den Benutzer, inklusive Kontaktinformationen und API-Schlüssel. An dieser Stelle werden auch Kennwörter gespeichert. Falls Sie Verwaltungszugriff besitzen, können Sie über das Profil die Berechtigungen und den Gerätezugriff ändern.
 {:shortdesc}
 
-Innerhalb des Benutzerprofils können Sie Kontaktinformationen und Kennwörter verwalten, API-Schlüssel anzeigen sowie zusätzliche Berechtigungen und den Gerätezugriff auf der Grundlage Ihrer Berechtigungen aktualisieren.
+Innerhalb des Benutzerprofils können Sie Kontaktinformationen und Kennwörter verwalten, API-Schlüssel anzeigen sowie Berechtigungen und den Gerätezugriff auf der Grundlage Ihrer Berechtigungen aktualisieren.
 
 ## Benutzerprofil bearbeiten
 {: #cp_edituserprofile}
@@ -60,7 +60,7 @@ Nachdem ein Benutzerprofil im Kundenportal erstellt wurde, können Sie es jederz
 | Sicherheitsfragen | Sicherheitsfrage | Bei der Bearbeitung des Profils müssen Sie diese Frage beantworten, um sich anzumelden, wenn Sicherheitsfragen für Ihr Profil aktiviert wurden.
 | Sicherheitsantworten | Antwort | Die Antwort auf die maßgebliche Sicherheitsfrage. Die Groß-/Kleinschreibung muss beachtet werden. |
 {: caption="Tabelle 3. Weitere Konfigurationseinstellungen zur Bearbeitung eines Benutzerprofils" caption-side="top"}
-Nachdem Sie Bearbeitungen eines Benutzerprofils übergeben haben, werden die Änderungen sofort angewendet. Sie können das Benutzerprofil jederzeit erneut ändern, indem Sie die obigen Schritte wiederholen.  
+Nachdem Sie Bearbeitungen eines Benutzerprofils übergeben haben, werden die Änderungen sofort angewendet. Sie können das Benutzerprofil jederzeit erneut ändern, indem Sie die obigen Schritte wiederholen.
 
 Weitere Informationen zum Einrichten eines IBMid-Kontos finden Sie im Abschnitt [Zur IBMid wechseln](/docs/account/softlayerlink.html#switching-to-ibmid).
 
@@ -90,7 +90,7 @@ Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen �
 ## Externe Authentifizierung für einen Benutzer hinzufügen
 {: #cp_addextauthuser}
 
-Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal einen zusätzlichen Schutz bereitzustellen. Diese zusätzliche Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal/cpenable2fa.html#customerportal_2fa). 
+Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
 
 
 ## Status eines Benutzers ändern
@@ -129,34 +129,34 @@ Wenn zu einem Kundenportalkonto ein [neuer Benutzer hinzugefügt wird](/docs/cus
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie in der Navigationsleiste die Optionen **Konto** > **VPN-Zugriff** aus.
 3. Klicken Sie in der Spalte **VPN-Zugriff** für den Benutzer auf den aktuellen VPN-Zugriffstyp, um das Fenster 'VPN-Zugriff' aufzurufen.
-4. Wählen Sie in der Liste **VPN-Typ** eine VPN-Methode aus (SSL, PPTP, SSL & PPTP oder 'Keine'), die dem Benutzer zugeordnet werden soll.
-5. Geben Sie an, wie der **Teilnetzzugriff** verwaltet werden soll:
+4. Wählen Sie in der Liste **VPN-Typ** eine VPN-Methode aus (SSL, PPTP, SSL und PPTP oder 'Keine'), die dem Benutzer zugeordnet werden soll.
+5. Geben Sie an, wie Sie den **Teilnetzzugriff** verwalten wollen:
   * Wählen Sie **Automatisch** aus, damit der Teilnetzzugriff automatisch verwaltet wird.
-  * Wählen Sie **Manuell** aus, um den Teilnetzzugriff manuell zu verwalten, und wählen Sie dann das Kontrollkästchen **Zugriff erteilen** für jedes Teilnetz aus, auf das der Benutzer Zugriff haben soll. Achten Sie darauf, die Kontrollkästchen für alle Teilnetze abzuwählen, auf die der Benutzer nicht zugreifen soll.
+  * Wählen Sie **Manuell** aus, um den Teilnetzzugriff manuell zu verwalten, und wählen Sie dann das Kontrollkästchen **Zugriff erteilen** für jedes Teilnetz aus, auf das der Benutzer Zugriff erhält. Achten Sie darauf, die Kontrollkästchen für all diejenigen Teilnetze abzuwählen, auf die der Benutzer keinen Zugriff haben soll.
 6. Klicken Sie auf **Speichern**.
 
-Nachdem Sie den VPN-Zugriff eines Benutzers aktualisiert haben, werden seine Berechtigungen entsprechend aktualisiert und in der Spalte 'VPN-Zugriff' wird gegebenenfalls die aktualisierte VPN-Zugriffsmethode angezeigt.
+Nachdem Sie den VPN-Zugriff für einen Benutzer aktualisiert haben, werden seine Berechtigungen aktualisiert, und in der Spalte 'VPN-Zugriff' wird gegebenenfalls die aktualisierte VPN-Zugriffsmethode angezeigt.
 
 ### VPN-Zugriff aktivieren oder inaktivieren
 {: #cp_pptpvpn}
 
-Sie können das PPTP-VPN aktivieren, um einen sicheren Tunnel zum privaten Netz der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur zu bilden, wobei auf Ihrem Desktop oder dem dedizierten Gerät eine spezialisierte Client-Software ausgeführt wird. Sie können PPTP verwenden, wenn Sie Ihre gesamte Niederlassung verbinden müssen oder die VPN-Lösung mit SSL nicht verwenden können.
+Sie können das PPTP-VPN aktivieren, um einen sicheren Tunnel zum privaten Netz der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur zu bilden, die spezialisierte Client-Software verwendet, die auf Ihrem Desktop oder dem dedizierten Gerät ausgeführt wird. Sie können PPTP verwenden, wenn Sie Ihre gesamte Niederlassung verbinden müssen oder die VPN-Lösung mit SSL nicht verwenden können.
 
-Ihnen wird eine PPTP-Verbindung mit zusätzlichen verfügbaren Verbindungen zugeteilt.  Sie können Unterstützung anfordern, um einen uneingeschränkten PPTP-Zugriff zu aktivieren, der ohne Aufpreis verfügbar ist. Führen Sie zum Aktivieren oder Inaktivieren des PPTP-VPN-Zugriffs die folgenden Schritte aus:
+Ihnen wird eine PPTP-Verbindung mit zusätzlich verfügbaren Verbindungen zugeteilt. Sie können Unterstützung anfordern, um einen uneingeschränkten PPTP-Zugriff zu aktivieren, der ohne Aufpreis verfügbar ist. Führen Sie zum Aktivieren oder Inaktivieren des PPTP-VPN-Zugriffs die folgenden Schritte aus:
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie in der Menüleiste die Optionen **Konto** > **VPN-Zugriff** aus.
 3. Klicken Sie in der Spalte **VPN-Zugriff** für den Benutzer auf den aktuellen VPN-Zugriffstyp, um das Fenster 'VPN-Zugriff' aufzurufen.
-4. Wählen Sie in der Liste **VPN-Typ** eine VPN-Methode aus (SSL, PPTP, SSL & PPTP oder 'Keine'), die dem Benutzer zugeordnet werden soll.
+4. Wählen Sie in der Liste **VPN-Typ** eine VPN-Methode aus (SSL, PPTP, SSL und PPTP oder 'Keine'), die dem Benutzer zugeordnet werden soll.
 
 
 ## E-Mail-Benachrichtigungen auswählen
 {: #cp_select-email-notifications}
 
 Sie können auswählen, welche E-Mail-Benachrichtigungen Sie von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur empfangen wollen und welche nicht. Standardmäßig empfangen Sie alle E-Mail-Benachrichtigungen, aber Sie können diese Einstellung jederzeit ändern. Führen Sie die folgenden Schritte aus, um Ihre Einstellung für E-Mail-Benachrichtigungen zu ändern:
-1. Greifen Sie auf das Kundenportal mit Ihren eindeutigen Berechtigungsnachweisen für das Konto zu, das der E-Mail-Adresse zugeordnet ist, die Benachrichtigungen empfängt.
+1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen für das Konto, das der E-Mail-Adresse zugeordnet ist, die Benachrichtigungen empfängt, auf das Kundenportal zu.
 2. Klicken Sie in der Menüleiste auf **Kunde** > **Benutzer** > **Vorgaben für E-Mail**.
-3. Inaktivieren Sie in der Liste der Benachrichtigungstypen das Kontrollkästchen neben den Benachrichtigungen, die Sie nicht mehr empfangen wollen.
+3. Wählen Sie in der Liste der Benachrichtigungstypen jeweils die Benachrichtigungen ab, die Sie nicht mehr erhalten wollen.
 
 Ihre Änderungen werden automatisch gespeichert. Diese Einstellungen wirken sich auf die E-Mails aus, die an Sie gesendet werden. Sie haben jedoch keine Auswirkungen auf die E-Mail-Benachrichtigungen anderer Benutzer auf Ihrem Konto.
 
@@ -170,6 +170,6 @@ Sie können angeben, dass die Unterstützung ausschließlich durch ein Support-T
 3. Wählen Sie das Kontrollkästchen **Unterstützung in der EU** aus.
 4. Klicken Sie auf **Profilaktualisierung anfordern**.
 
-Falls die Option **Unterstützung in der EU** nicht verfügbar ist, ist möglicherweise für Benutzer in Ihrem Konto der PPTP-VPN-Zugriff aktiviert. Inaktivieren Sie den PPTP-VPN-Zugriff für alle Benutzer in Ihrem Konto, bevor Sie die Option **Unterstützung in der EU** aktivieren. Weitere Informationen finden Sie unter [PPTP-VPN-Zugriff aktivieren oder inaktivieren](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
+Falls die Option **Unterstützung in der EU** nicht verfügbar ist, ist möglicherweise für Benutzer in Ihrem Konto der PPTP-VPN-Zugriff aktiviert. Inaktivieren Sie den PPTP-VPN-Zugriff für alle Benutzer in Ihrem Konto, bevor Sie die Option **Unterstützung in der EU** aktivieren. Weitere Informationen zu diesem Thema finden Sie in [PPTP-VPN-Zugriff aktivieren oder inaktivieren](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
 
 Weitere Informationen zum Implementieren der Option **Unterstützung in der EU** beim Öffnen eines Support-Tickets enthält der Abschnitt [Support für Ressourcen in der Europäischen Union anfordern](/docs/get-support/howtogetsupport.html#eusupported).

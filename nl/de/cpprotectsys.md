@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -24,6 +24,8 @@ Durch den Schutz Ihrer Systeme können Sie dafür sorgen, dass die Systeme reibu
 {: #cp_bpuseprivnet}
 
 Durch Verwendung des privaten Netzes der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur können Sie Ihre Geräte in einer Umgebung mit der größtmöglichen Sicherheit verwalten. Hier interagieren Sie nach Möglichkeit über eine VPN-Verbindung mit Ihren Geräten und ermöglichen eine netzübergreifende Verarbeitung, damit Ihre Systeme über das private Netz miteinander kommunizieren. Um auf das private Netz zuzugreifen, bearbeiten Sie den VPN-Zugriff des Benutzers über die [Benutzerliste ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/account/user/list){:new_window}. Verwenden Sie die Liste [Virtuelles privates Netz ![Symbol für externen Link](../icons/launch-glyph.svg)](http://www.softlayer.com/vpn-access){:new_window}, um eine Verbindung zu einer der verschiedenen VPN-Optionen herzustellen.
+
+Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
 ### RDP, SSH oder Steuerports nicht im öffentlichen Netz belassen
 {: #cp_bpnordpsshcponpubnet}

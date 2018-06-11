@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-01"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -102,12 +102,12 @@ Sie können ein bestehendes Support-Ticket jederzeit aktualisieren, um zusätzli
   * Datei anhängen: Klicken Sie auf **Dateien anhängen** und wählen Sie die Dateien aus, die an das Ticket angehängt werden sollen. Sie können bis zu zwei (2) Dateien an ein Ticket anhängen.
 6. Klicken Sie auf **Aktualisieren**.
 
-  Während des Aktualisierungsprozesses können Sie jederzeit eine Chatsitzung mit einem Mitglied des Support-Teams öffnen, wenn Sie Unterstützung benötigen. Klicken Sie zum Öffnen der Chatsitzung auf **Chat starten**.
+  Während des Aktualisierungsprozesses können Sie bei Bedarf jederzeit eine Chatsitzung mit einem Mitglied des Support-Teams öffnen, um Unterstützung zu erhalten. Klicken Sie zum Öffnen der Chatsitzung auf **Chat starten**.
   {:tip}
 
-Falls Sie das Ticket neu zuordnen, wird der neue Verantwortliche zum Hauptansprechpartner für die Problemlösung. Falls Sie einen Kommentar oder einen Anhang hinzufügen, prüft das Mitglied des Support-Teams, von dem das Ticket bearbeitet wird, die neuen Informationen zur Unterstützung bei der Problemlösung.
+Falls Sie das Ticket neu zuordnen, wird der neue Verantwortliche zum Hauptansprechpartner für die Problemlösung. Falls Sie einen Kommentar oder einen Anhang hinzufügen, prüft das Mitglied des Support-Teams, von dem das Ticket bearbeitet wird, die neuen Informationen und berücksichtigt diese bei der Problemlösung.
 
-## Supportfall eskalieren
+## Support-Ticket eskalieren
 {: #cp_bpsupescalflow}
 
-Sie können weitergehende Unterstützung anfordern, indem Sie Ihren Fall eskalieren. Weitere Informationen finden Sie unter [Support-Tickets eskalieren](/docs/get-support/quicktickresp.html#escalation). 
+Sie können weitergehende Unterstützung anfordern, indem Sie Ihr Ticket eskalieren. Weitere Informationen finden Sie unter [Support-Tickets eskalieren](/docs/get-support/quicktickresp.html#escalation).

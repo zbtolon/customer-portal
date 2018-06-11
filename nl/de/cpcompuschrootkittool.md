@@ -85,7 +85,7 @@ Falls *Checking `bindshell`... INFECTED (PORTS: 465)* angezeigt wird und Sie Por
   ```
   {: pre}
 
-## Automatisiserte tägliche Scans senden
+## Automatisierte tägliche Scans senden
 {: #cp_chrootkitdaiautscan}
 
 Um einen automatisierten täglichen Systemscan zu konfigurieren, der Ihnen einen Bericht per E-Mail sendet, gehen Sie folgendermaßen vor:

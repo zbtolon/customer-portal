@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-03-26"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -31,8 +31,8 @@ Falls Sie noch keinen Identitätsprovider verwenden, wählen Sie zunächst einen
 * IBM Cloud Identity Services
 Weitere Informationen erhalten Sie bei Ihrem Vertriebsbeauftragten für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur.
 
-Falls Sie bereits einen Identitätsprovider eingerichtet haben, können Sie bei Ihrem Identitätsprovider Unterstützung für bestimmte Schritte anfordern oder die folgenden allgemeinen Schritte zur Konfiguration des Identitätsproviders ausführen:
-1. Bereiten Sie die Umgebung für Ihren Identitätsprovider vor, indem Sie die entsprechenden ausführbaren Dateien herunterladen und installieren.
+Falls Sie noch keinen Identitätsprovider eingerichtet haben, können Sie beim Support Ihres Identitätsproviders Unterstützung für bestimmte Schritte anfordern. Außerdem können Sie auch die folgenden allgemeinen Schritte zur Konfiguration Ihres Identitätsproviders ausführen:
+1. Bereiten Sie die Umgebung für Ihren Identitätsprovider vor, indem Sie die ausführbare Datei herunterladen und installieren.
 2. Konfigurieren Sie Ihren Identitätsprovider für die Verwendung bei der {{site.data.keyword.BluSoftlayer_notm}}-Authentifizierung.
 
 ## {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für Single Sing-on konfigurieren
@@ -45,7 +45,7 @@ Sie müssen die folgenden erforderlichen Felder der Metadaten gemäß Security A
 <dt>URL für Single Sign-on</dt>
 <dd>Der Endpunkt des Identitätsproviders für das Single Sign-on (SSO).</dd>
 <dt>Zertifikat</dt>
-<dd>Das Zertifikat des Identitätsproviders, mit dem Anforderungen signiert werden.</dd>
+<dd>Das Zertifikat des Identitätsproviders, das zum Signieren von Anforderungen verwendet wird.</dd>
 </dl>
 
 Das folgende Feld ist optional:
@@ -58,7 +58,7 @@ Führen Sie die folgenden Schritte aus, um die {{site.data.keyword.BluSoftlayer_
 1. Melden Sie sich bei Ihrem Identitätsprovider an, wenn Sie noch nicht angemeldet sind, und suchen Sie nach der Seite für die **SAML-Konfiguration**. Notieren Sie sich die folgenden Informationen:
   * Entitäts-ID
   * URL für Single Sign-on
-  * Zertifikat (variiert je nach Identitätsprovider)
+  * Zertifikat (Zertifikatsanforderungen variieren je nach Identitätsprovider)
 2. Melden Sie sich bei der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur als Masterbenutzer mit dem Namen und dem Kennwort des Masterbenutzers an, als der Sie Ihr SoftLayer-Konto erstellt haben.
 3. Klicken Sie auf **Konto** > **Verwalten** > **SAML-Authentifizierung**.
 4. Geben Sie die Metadaten für den **Identitätsprovider** ein.
@@ -67,4 +67,4 @@ Führen Sie die folgenden Schritte aus, um die {{site.data.keyword.BluSoftlayer_
 7. Klicken Sie auf **XML-Konfiguration herunterladen**, um die Metadaten für den Service-Provider herunterzuladen oder die Informationen zu notieren.
 8. Verwenden Sie die Metadaten für den **Service-Provider**, um Ihren Identitätsprovider entsprechend den Anweisungen Ihres Identitätsproviders zu konfigurieren.  
 
-Sie sollten jetzt in der Lage sein, sich unter Verwendung Ihrer eingebundenen ID bei der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anzumelden. Weitere Informationen zu eingebundenen IDs finden Sie unter [{{site.data.keyword.Bluemix_notm}}-Anmeldung](/docs/account/adminpublic.html) und in der Veröffentlichung [IBMid Enterprise Federation Adoption Guide ![Symbol für externen Link](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.
+Sie können sich unter Verwendung Ihrer förderierten (eingebundenen) ID bei der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anmelden. Weitere Informationen zu eingebundenen IDs finden Sie unter [{{site.data.keyword.Bluemix_notm}}-Anmeldung](/docs/account/adminpublic.html) und in der Veröffentlichung [IBMid Enterprise Federation Adoption Guide ![Symbol für externen Link](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}.

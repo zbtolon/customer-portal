@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-12"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-12-12"
 # Wichtige Kontaktinformationen aktualisieren
 {: #customerportal_upcompprofandcont}
 
-Jedem SoftLayer-Konto ist ein Unternehmensprofil zugeordnet, das die Unternehmensinformationen und Details über den primären Kontoeigner enthält. Sie können Daten aus dem Unternehmensprofil verwenden, wenn Sie Ansprechpartner und Benutzerprofile konfigurieren. Jedes SoftLayer-Konto enthält außerdem eine Vielzahl von kontospezifischen Kontaktinformationen, die in Verbindung mit den für das Konto verfügbaren Services verwendet werden, z. B. Veröffentlichung von Bildern (CDN) oder SOC. Wenn Sie Masterbenutzer eines Kontos sind oder einen Verwaltungszugriff auf das Konto besitzen, können Sie die Kontaktinformationen aktualisieren.
+Jedem SoftLayer-Konto ist ein Unternehmensprofil zugeordnet, das die Unternehmensinformationen und Details über den primären Kontoeigner enthält. Sie können Daten aus dem Unternehmensprofil verwenden, wenn Sie Ansprechpartner und Benutzerprofile konfigurieren. Jedes SoftLayer-Konto enthält außerdem verschiedene kontospezifische Kontaktinformationen, die in Verbindung mit den für das Konto verfügbaren Services verwendet werden, z. B. Veröffentlichung von Bildern (CDN) oder SOC. Wenn Sie Masterbenutzer eines Kontos sind oder einen Verwaltungszugriff auf das Konto besitzen, können Sie die Kontaktinformationen aktualisieren.
 {:shortdesc}
 
 ## Unternehmensprofil aktualisieren
@@ -40,11 +40,11 @@ Nachdem Sie eine Aktualisierung für das Unternehmensprofil angefordert haben, w
 ## Ansprechpartner eines Kontos hinzufügen oder bearbeiten
 {: #cp_addoreditacctcont}
 
-Informationen zu den Ansprechpartnern für Ihr Konto sollten für den Fall, dass eine Anfrage erforderlich ist, vollständig und aktuell sein. Achten Sie darauf, dass die Ansprechpartner für das Konto für jeden Typ Anforderung geeignet sind. Es kann mehrere Kontakteinträge für ein Konto geben, jedoch nur einen einzigen Ansprechpartner für jeden Servicetyp. Zu den kontospezifischen Kontaktinformationen gehört *nicht* das Kontoprofil, bei dem es sich um den Hauptansprechpartner handelt, der einem Konto zugeordnet ist. Führen Sie zum Hinzufügen oder Bearbeiten eines Ansprechpartners für ein Konto die folgenden Schritte aus.
+Stellen Sie für den Fall, dass Rückfragen notwendig sind, sicher, dass die Informationen zu den Ansprechpartnern für Ihr Konto vollständig und aktuell sind. Achten Sie darauf, dass die Ansprechpartner für das Konto für jeden Typ Anforderung geeignet sind. Für jedes Konto können mehrere Kontakteinträge vorhanden sein, doch kann es immer nur einen Ansprechpartner für jeden Servicetyp geben. Zu den kontospezifischen Kontaktinformationen gehört *nicht* das Kontoprofil, bei dem es sich um den Hauptansprechpartner handelt, der einem Konto zugeordnet ist. Führen Sie zum Hinzufügen oder Bearbeiten eines Ansprechpartners für ein Konto die folgenden Schritte aus.
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie im Menü die Optionen **Konto** > **Verwalten** > **Ansprechpartner im Unternehmen** aus.
-3. Geben Sie die Kontaktinformationen für den **Kontakttyp** ein oder aktualisieren Sie die entsprechenden Angaben.<br/>**Hinweis:** Achten Sie darauf, dass Sie die Kontaktinformationen für die Person angeben, die Anfragen zu dem speziellen Typ des Kontakts empfangen soll, die vom Kontakttyp ausgegeben werden. Verifizieren Sie die Informationen, bevor Sie die Aktualisierung vornehmen.
+3. Geben Sie die Kontaktinformationen für den **Kontakttyp** ein oder aktualisieren Sie die entsprechenden Angaben.<br/>**Hinweis:** Achten Sie darauf, dass Sie die Kontaktinformationen für die Person, an die Rückfragen zu dem speziellen Typ von Kontakt gerichtet werden sollen, nach Kontakttyp angeben. Verifizieren Sie die Informationen, bevor Sie die Aktualisierung vornehmen.
 4. Klicken Sie auf **Speichern**.
 
 Nachdem Sie die neuen Kontaktinformationen übergeben haben, werden die Ansprechpartner für das Konto sofort aktualisiert.

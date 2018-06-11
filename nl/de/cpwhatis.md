@@ -36,5 +36,5 @@ In diesen Fällen können Sie im Kundenportal der {{site.data.keyword.BluSoftlay
 Für alle anderen Task verwenden Sie die [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}.
 
 Der Zugriff auf das Kundenportal ist auf den folgenden Wegen möglich:
-* Ausgehend vom Menü der [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} durch Auswahl von **Infrastruktur** über das Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg) in der Menüleiste.  Weitere Informationen finden Sie unter [Funktionsweise der {{site.data.keyword.cloud_notm}}-Konsole](/docs/overview/ui.html#ui).
+* Ausgehend vom Menü der [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} durch Auswahl von **Infrastruktur** in der Menüleiste ![Menüsymbol](../icons/icon_hamburger.svg). Weitere Informationen finden Sie unter [Funktionsweise der {{site.data.keyword.cloud_notm}}-Konsole](/docs/overview/ui.html#ui).
 * Direkt aus dem SoftLayer-[Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.

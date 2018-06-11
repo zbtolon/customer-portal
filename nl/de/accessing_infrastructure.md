@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-01-10"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -18,17 +18,17 @@ lastupdated: "2018-01-10"
 # Auf Infrastrukturressource zugreifen
 {: #accessinfrastructure}
 
-Beim Erstellen Ihrer Apps in der {{site.data.keyword.Bluemix_notm}} Public-Umgebung können Sie Infrastrukturressourcen verwenden. 
+Beim Erstellen Ihrer Apps in der {{site.data.keyword.Bluemix_notm}} Public-Umgebung können Sie Infrastrukturressourcen verwenden.
 {: shortdesc}
 
-Infrastrukturressourcen können zum Erstellen virtueller Umgebungen verwendet werden, zur Bereitstellung von Speicherplatz, zum Aufbauen eines Netzwerks und Sichern der Umgebung. Weitere Informationen enthält der Abschnitt [Übersicht über die Plattform](/docs/overview/ibm-cloud.html). 
+Infrastrukturressourcen können zum Erstellen virtueller Umgebungen verwendet werden, zur Bereitstellung von Speicherplatz, zum Aufbauen eines Netzwerks und Sichern der Umgebung. Weitere Informationen enthält der Abschnitt [Übersicht über die Plattform](/docs/overview/ibm-cloud.html).
 
-Für den Zugriff auf Infrastrukturressourcen müssen Sie über ein nutzungsabhängiges Konto verfügen. In der folgenden Tabelle sind die verschiedenen Konten und Ihre Optionen für den Zugriff auf Infrastrukturressource aufgelistet. 
+Um auf Infrastrukturressourcen zugreifen zu können, müssen Sie über ein Konto mit nutzungsabhängiger Zahlung verfügen. In der folgenden Tabelle sind die verschiedenen Konten und Ihre Optionen für den Zugriff auf Infrastrukturressource aufgelistet.
 
 |{{site.data.keyword.Bluemix_notm}}-Kontotyp |	Infrastrukturzugriff? |	Was sind meine Optionen? |
 |------------------|-----------------------|---------------|
 |Kostenloses Konto (Lite oder 30-tägiger Test) |	Kein Zugriff |	Führen Sie ein Upgrade Ihres kostenlosen Kontos auf ein nutzungsabhängiges Konto durch. |
-|Nutzungsabhängiges Konto | Ja, wenn Ihr Konto nach dem 24. Oktober 2016 erstellt wurde | Nichts anderes ist erforderlich. | 
+|Nutzungsabhängiges Konto | Ja, wenn Ihr Konto nach dem 24. Oktober 2016 erstellt wurde | Nichts anderes ist erforderlich. |
 | | Kein Zugriff, wenn Ihr Konto vor dem 24. Oktober 2016 erstellt wurde | Fügen Sie Ihre Kreditkarteninformationen erneut hinzu. |
 |Abonnementkonto |	Kein Zugriff |	Erstellen Sie ein separates nutzungsabhängiges Konto mit einer anderen E-Mail-Adresse als der E-Mail-Adresse, die Ihrem Abonnement zugeordnet ist. |
 {:caption="Tabelle 1. Kontooptionen für den Zugriff auf Infrastrukturressourcen" caption-side="top"}

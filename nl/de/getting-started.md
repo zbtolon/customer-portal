@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-09"
+lastupdated: "2018-05-15"
 
 ---
 
@@ -34,7 +34,7 @@ Wenn Sie zum Anmelden an Ihrem Konto nicht die IBMid zur Authentifizierung verwe
 
 Zur Einrichtung Ihres Kontos müssen Sie die Kontaktinformationen und Abrechnungsdetails für das Konto prüfen:
  * Um die Details für den Ansprechpartner im Unternehmen zu prüfen, navigieren Sie zu **Konto** > **Verwalten** > **Ansprechpartner im Unternehmen**. Die Informationen zum Ansprechpartner im Unternehmen für Ihr Konto werden verwendet, um Sie über Probleme mit oder Änderungen an Ihrem Konto zu benachrichtigen.
- * Um die Details für das Unternehmensprofil zu prüfen, navigieren Sie zu **Konto** > **Verwalten** > **Unternehmensprofil**. Die Informationen zum Unternehmensprofil enthalten Details über den primären Kontoeigner.
+ * Um die Details für das Unternehmensprofil zu prüfen, navigieren Sie zu **Konto** > **Verwalten** > **Unternehmensprofil**. Die Informationen zum Unternehmensprofil enthalten Details zum primären Kontoeigner.
  * Um die Details für die Abrechnung zu prüfen, navigieren Sie zu **Konto** > **Abrechnung** > **Zahlungsmethode**. Die monatliche Zahlungsmethode ist die Kreditkarte, die regelmäßig mit Zahlungen für Ihr Konto belastet wird.
 
 ## Schritt 2: Benutzer hinzufügen und Berechtigungen zuordnen
@@ -44,13 +44,16 @@ Um Benutzer zu Ihrem Konto hinzuzufügen und deren Anfangsberechtigungen festzul
  * Um Benutzer für sowohl Plattform- als auch Infrastrukturressourcen in Ihrem Konto auf Grundlage der jeweils von Ihnen zugeordneten Berechtigungen einzuladen, klicken Sie auf **Benutzer einladen**. Anschließend werden Sie zur Benutzerschnittstelle von {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) geleitet, in der Sie Benutzer einladen und den Zugriff zuordnen können. Weitere Informationen finden Sie unter [Benutzer einladen und Zugriff zuordnen](/docs/iam/iamuserinv.html).
  * Um Benutzer nur mit VPN-Zugriff hinzuzufügen, klicken Sie auf **Reine VPN-Benutzer hinzufügen**. Geben Sie die persönlichen Informationen ein, definieren Sie die Portalberechtigungen und legen Sie den Gerätezugriff für den Benutzer fest.
 
-Wenn Sie in der erstmaligen Einladung Infrastrukturberechtigungen festlegen, wählen Sie eines der drei Berechtigungssets 'Nur anzeigen', 'Basisbenutzer' oder 'Superuser' aus. Nachdem Benutzer die Einladung angenommen haben, können Sie deren Zugriff anpassen, indem Sie die Portalberechtigungen bearbeiten. Weitere Informationen finden Sie unter [Infrastrukturberechtigungen](/docs/iam/infrastructureaccess.html).
+Wenn Sie in der erstmaligen Einladung Infrastrukturberechtigungen festlegen, wählen Sie eines der drei Berechtigungssets 'Nur anzeigen', 'Basisbenutzer' oder 'Superuser' aus. Nachdem Benutzer die Einladung angenommen haben, können Sie deren Zugriff anpassen, indem Sie die Portalberechtigungen bearbeiten. Weitere Informationen finden Sie in [Infrastructure-Berechtigungen](/docs/iam/infrastructureaccess.html).
 {: tip}
 
 ## Schritt 3: Zugriff auf das private Netz der {{site.data.keyword.Bluemix_notm}}-Infrastruktur ermöglichen
 {: #enable-private-network}
 
-Das private Netz der {{site.data.keyword.Bluemix_notm}}-Infrastruktur wird kostenlos für Benutzer und Geräte angeboten. Die gesamte für das private Netz genutzte Bandbreite wird nicht gemessen und ist als Ergänzung zu verstehen. Das private Netz bietet viele Vorzüge, unter anderem die Replizierung von Geräteumgebungen in anderen Rechenzentren für das Failover, die Zugriffsmöglichkeit auf Datenbankserver von Front-End-Systemen sowie den sicheren Zugriff und die sichere Verwaltung für Ihre Systeme.
+Das private Netz der {{site.data.keyword.Bluemix_notm}}-Infrastruktur wird kostenlos für Benutzer und Geräte angeboten. Die gesamte im privaten Netz genutzte Bandbreite wird nicht gemessen und ist als Ergänzung zu verstehen. Das private Netz bietet zahlreiche Vorteile wie die folgenden:
+  * Replizieren von Geräteumgebungen auf andere Rechenzentren zwecks Failover
+  * Front-End-Systemzugriff auf Datenbankserver
+  * Sicherer Zugriff auf Ihre Systeme und sichere Verwaltung
 
 Um Benutzern den Zugriff auf das private Netz zu ermöglichen, bearbeiten Sie den VPN-Zugriff im Kundenportal:
   1. Wählen Sie in der Menüleiste die Optionen **Konto** > **VPN-Zugriff** aus.  
@@ -60,6 +63,8 @@ Um Benutzern den Zugriff auf das private Netz zu ermöglichen, bearbeiten Sie de
 Für Benutzer in Konten, die die IBMid-Authentifizierung verwenden, wird der SoftLayer-VPN-Benutzername für den VPN-Zugriff verwendet. Der VPN-Benutzername ist im Benutzerprofil definiert. Der VPN-Benutzername ist nicht mit dem Benutzernamen identisch, der standardmäßig aus der IBMid-E-Mail-Adresse und der Konto-ID besteht.
 {: tip}
 
+Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
+
 ## Schritt 4: Benachrichtigungen abonnieren
 {: #get-notified}
 
@@ -67,7 +72,7 @@ Damit Sie über möglicherweise auftretende Systemprobleme und planmäßige Wart
 
 Greifen Sie auf das Ereignismanagementsystem im Kundenportal zu, um die Benachrichtigungen auszuwählen, die Sie abonnieren wollen:
   1. Wählen Sie in der Menüleiste die Optionen **Konto** > **Verwalten** > **Abonnements** aus.
-  2. Klicken Sie in der angezeigten Liste auf ein bestimmtes Abonnement.
+  2. Klicken Sie in der Liste auf ein bestimmtes Abonnement.
   3. Wählen Sie in der Spalte 'Abonniert' das Kontrollkästchen **Ja** aus.
   4. Klicken Sie auf **Alle Abonnements anzeigen**, um zur Liste der verfügbaren Abonnements zurückzukehren und bei Bedarf weitere Typen zu abonnieren.
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -33,11 +33,11 @@ Einer einzigen Rolle können mehrere Benutzer zugeordnet sein. Wenn eine Rolle i
 ## Benutzer im Identitätsprovider und in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erstellen
 {: #cp_scenario1both}
 
-Bei diesem Modell findet Folgendes statt:
+In diesem Modell findet der folgende Prozess statt:
 * Benutzer werden sowohl im Identitätsprovider als auch in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erstellt.
 * Benutzerberechtigungen werden im Identitätsmanagementsystem (IMS) der {{site.data.keyword.BluSoftlayer}}-Infrastruktur mithilfe des Kundenportals oder der APIs für die {{site.data.keyword.BluSoftlayer}}-Infrastruktur zugeordnet.
 * Benutzer authentifizieren sich beim Identitätsprovider und binden ihre Berechtigungsnachweise ein.
-* Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur verarbeitet die Berechtigungsnachweise; die Zugriffssteuerung basiert auf den Berechtigungen, die für den Benutzer im IMS der {{site.data.keyword.BluSoftlayer}}-Infrastruktur definiert sind.
+* Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur verarbeitet die Berechtigungsnachweise und die Zugriffssteuerung basiert auf den Berechtigungen, die für den Benutzer im IMS der {{site.data.keyword.BluSoftlayer}}-Infrastruktur definiert sind.
 
 Konten für Benutzer, die auf die {{site.data.keyword.BluSoftlayer}}-Infrastruktur zugreifen müssen, werden in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur anfänglich mit automatisch generierten Kennwörtern erstellt. Alle Berechtigungen müssen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur konfiguriert worden sein, bevor der Benutzer das Single Sign-on (SSO) über den Identitätsprovider verwenden kann. Gegenwärtig werden Berechtigungen für jeden Benutzer separat konfiguriert.
 
@@ -48,16 +48,18 @@ Führen Sie zum Einrichten eines Benutzers die folgenden Schritte aus:
 2. Ordnen Sie Berechtigungen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur zu.
 3. Erstellen Sie Benutzer im Identitätsprovider.
 
-Das Feld **E-Mail** oder **Benutzername** wird im Profil des individuellen Benutzers für das Token von Security Assertion Markup Language&trade; (SAML&trade;) 2.0 verwendet, das Benutzer zwischen dem Identitätsprovider und der {{site.data.keyword.BluSoftlayer}}-Infrastruktur zuordnet.
+Das Feld **E-Mail** oder **Benutzername** wird im Profil des einzelnen Benutzers für das Token von Security Assertion Markup Language&trade; (SAML&trade;) 2.0 verwendet. Dieses Token ordnet Benutzer zwischen dem Identitätsprovider und der {{site.data.keyword.BluSoftlayer}}-Infrastruktur zu.
 
 ### Beispielablauf für die Authentifizierung bei der Anmeldung
+{: #exlogauthflowidprovicloud}
+
 Der folgende Beispielablauf veranschaulicht, wie die Authentifizierung bei der Benutzeranmeldung funktionieren könnte, wenn Sie Benutzer im Identitätsprovider und in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur erstellen:
 1. Der Benutzer greift aus einer Browsersitzung heraus auf die URL des Identitätsproviders zu.
 2. Der Identitätsprovider authentifiziert den Benutzer, beispielsweise über LDAP.
 3. Der Identitätsprovider gibt Antworten in SAML 2.0 zurück.
 4. Der Identitätsprovider sendet eine Antwort in SAML 2.0 an den Service-Provider, in diesem Fall die {{site.data.keyword.BluSoftlayer}}-Infrastruktur, um die Benutzer-ID zu authentifizieren.
 5. Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur validiert die Antwort in SAML 2.0.
-6. Der Benutzer wird beim Kundenportal der {{site.data.keyword.BluSoftlayer}}-Infrastruktur auf Grundlage der anerkannten Konfiguration zwischen dem Identitätsprovider und der {{site.data.keyword.BluSoftlayer}}-Infrastruktur angemeldet.
+6. Der Benutzer wird beim Kundenportal der {{site.data.keyword.BluSoftlayer}}-Infrastruktur auf Grundlage der als vertrauenswürdig anerkannten Konfiguration zwischen dem Identitätsprovider und der {{site.data.keyword.BluSoftlayer}}-Infrastruktur angemeldet.
 
 
 ## Benutzer im Identitätsprovider erstellen
@@ -67,10 +69,12 @@ Bei diesem Modell findet Folgendes statt:
 * Im Identitätsprovider werden Rollen erstellt und dem Benutzer zugeordnet.
 * Im IMS der {{site.data.keyword.BluSoftlayer}}-Infrastruktur werden mithilfe der APIs für die {{site.data.keyword.BluSoftlayer}}-Infrastruktur Rollen- und Berechtigungszuordnungen konfiguriert.
 * Benutzer authentifizieren sich beim Identitätsprovider und binden ihre Berechtigungsnachweis und Rollenattribute ein.
-* Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur verarbeitet die Benutzerberechtigungsnachweise und die Rollenattribute. Falls die vom Identitätsprovider des Benutzers zugeordnete Rolle mit einer Rolle in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur übereinstimmt, werden dem Benutzer die Berechtigungen für diese Rolle erteilt, wenn er sich bei der {{site.data.keyword.BluSoftlayer}}-Infrastruktur anmeldet.
-* Im Identitätsprovider erstellte Benutzer werden als eingebunden betrachtet, weil sie und ihre Rollen über SAML 2.0 authentifiziert werden.
+* Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur überprüft die Benutzerberechtigungsnachweise und die Rollenattribute. Wenn die Rollen, die den Benutzern von ihrem Identitätsprovider zugewiesen sind, mit den Rollen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur übereinstimmen, erhalten diese Benutzer Berechtigungen für diese Rollen, wenn sie sich bei der {{site.data.keyword.BluSoftlayer}}-Infrastruktur anmelden.
+* Die vom Identitätsprovider erstellten Benutzer gelten als eingebunden (föderiert), da die Authentifizierung für sie und ihre Rollen über SAML 2.0 erfolgt.
 
 ### Rolle für einen Benutzer konfigurieren
+{: #cp_set-up-user-role}
+
 Führen Sie die folgenden Schritte aus, um eine Rolle für einen Benutzer zu konfigurieren:
 
 1. Richten Sie Rollen mithilfe der APIs für die {{site.data.keyword.BluSoftlayer}}-Infrastruktur ein.
@@ -85,9 +89,11 @@ Führen Sie zum Einrichten eines Benutzers die folgenden Schritte aus:
 1. Richten Sie Benutzer im Identitätsprovider ein.
 2. Ordnen Sie Rollen im Identitätsprovider zu Benutzern zu.
 
-In diesem Szenario ist es nicht erforderlich, dass Sie in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur Benutzer manuell erstellen.
+In diesem Szenario müssen Sie keine Benutzer manuell in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur erstellen.
 
 ### Beispielablauf für die Authentifizierung bei der Benutzeranmeldung
+{: #exlogauthflowidprov}
+
 Der folgende Beispielablauf veranschaulicht, wie die Authentifizierung bei der Benutzeranmeldung funktionieren könnte, wenn Sie Benutzer im Identitätsprovider erstellen:
 1. Der Benutzer greift aus einer Browsersitzung heraus auf die URL des Identitätsproviders zu.
 2. Der Identitätsprovider authentifiziert den Benutzer, beispielsweise über LDAP.
