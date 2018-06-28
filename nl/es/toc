@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html"}
-Gestión de recursos de infraestructura
+Cómo trabajar en el portal de cliente
 
     {: .navgroup id="learn"}
     getting-started.md

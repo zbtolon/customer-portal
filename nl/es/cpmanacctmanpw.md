@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# Gestión de contraseñas
+# Gestión del seguimiento de contraseñas
 {: #customerportal_manpws}
 
 Si es un usuario maestro o el propietario de una cuenta, puede habilitar el seguimiento de contraseñas y también puede configurar una contraseña para un acceso puntual a la cuenta. El seguimiento de contraseñas permite a los usuarios almacenar datos de contraseñas de software para dispositivos y su software asociado.

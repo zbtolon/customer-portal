@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-07"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -39,21 +39,24 @@ En la ventana Facturas, cada factura individual viene resumida con su número de
 <dd>Una inversión de cargos, para un cargo puntual o recurrente.</dd>
 </dl>
 
-También puede ver un resumen de facturación de la cuenta, incluido el saldo actual y el saldo próximo estimado, el método de pago y las fechas de las últimas y de las próximas facturas recurrentes.
+También puede ver un resumen de facturación de la cuenta, incluida la información siguiente:
+  * Saldo actual y saldo próximo estimado
+  * Método de pago
+  * Fechas de las últimas y de las próximas facturas recurrentes
 
 1. Pulse **Cuenta** > **Facturación** > **Facturas** en el menú.
 2. Puede ver la factura en el portal del cliente o descargarla.
 
-Si está viendo la factura en el portal del cliente, se mostrará una lista detallada de elementos de facturación para la factura seleccionada. Pulse en cualquier lugar de la línea para un elemento de facturación para ver detalles adicionales sobre el cargo. Si ha descargado la factura, podrá verla en función de los valores del navegador. Las facturas descargadas proporcionan una factura de resumen desglosada y una factura detallada desglosada para cada elemento de facturación.
+Si está viendo la factura en el portal del cliente, se mostrará una lista detallada de elementos de facturación para la factura seleccionada. Pulse en cualquier lugar de la línea para un elemento de facturación para ver más detalles sobre el cargo. Si ha descargado la factura, podrá verla en función de los valores del navegador. Las facturas descargadas proporcionan una factura de resumen desglosada y una factura detallada desglosada para cada elemento de facturación.
 
 ## Adición de un método de pago
 {: #cp_cpmanacctbillpay}
 
-Es obligatorio que cada cuenta de SoftLayer tenga una tarjeta de crédito registrada a la que se le cargue automáticamente la cantidad de la factura cada mes. Esta información debe estar actualizada en todo momento para evitar pagos atrasados; se puede actualizar en cualquier momento para garantizar que la información de pago sea siempre precisa. Si la información de la tarjeta de crédito registrada es correcta pero se debe aplicar una forma de pago alternativa al saldo actual, consulte [Realizar un pago único](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment). Utilice los pasos siguientes para añadir un método de pago para una cuenta en el portal del cliente.
+Es obligatorio que cada cuenta de SoftLayer tenga una tarjeta de crédito registrada a la que se le cargue automáticamente la cantidad de la factura cada mes. Esta información debe estar siempre actualizada para evitar pagos atrasados; puede actualizarla en cualquier momento para garantizar que la información de pago sea siempre precisa. Si la información de la tarjeta de crédito registrada es correcta pero se debe aplicar una forma de pago alternativa al saldo actual, consulte [Realizar un pago único](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment). Utilice los pasos siguientes para añadir un método de pago para una cuenta en el portal del cliente.
 
 1. Pulse **Cuenta** > **Facturación** > **Método de pago** en el menú.
 2. Especifique los detalles de facturación necesarios para la tarjeta en cada campo de la sección **Dirección de facturación**.
-> **Nota:** Pulse el recuadro de selección **Utilizar la información de la empresa** para completar automáticamente los campos de esta sección con la información de la empresa que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} tiene registrada para la cuenta.
+> **Nota:** Pulse el recuadro de selección **Utilizar la información de la empresa** para completar automáticamente los campos con la información de la empresa que la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} tiene registrada para la cuenta.
 3. Especifique la información de la tarjeta de crédito en cada campo de la sección **Información de pago**.
 4. Pulse **Añadir tarjeta de crédito** para añadir la tarjeta de crédito como método de pago mensual.
 5. Opcionalmente, seleccione **Soporte en la UE** para asegurarse de que el equipo de soporte de Europa gestione los problemas de mantenimiento y de soporte.  Para obtener más información sobre esta opción, consulte [Establecimiento de la opción de equipo de soporte europeo exclusivo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
@@ -74,4 +77,4 @@ Puede realizar pagos únicos utilizando una cuenta de PayPal o una tarjeta de cr
 5. Opcionalmente, seleccione **Soporte en la UE** para asegurarse de que el equipo de soporte de Europa gestione los problemas de mantenimiento y de soporte.  Para obtener más información sobre esta opción, consulte [Establecimiento de la opción de equipo de soporte europeo exclusivo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
 6. Pulse **Pagar con tarjeta de crédito** para iniciar el pago.
 
-Después de iniciar el pago, este se procesará en consecuencia. Si surgen problemas con el pago, siga las indicaciones de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} o de PayPal hasta que se resuelva el problema. El pago se procesará, se aplicará el importe y se actualizará el saldo actual.
+Después de iniciar el pago, este se procesará. Si surgen problemas con el pago, siga las indicaciones de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} o de PayPal hasta que se resuelva el problema. El pago se procesará. Se aplicará el importe y se actualizará el saldo actual.

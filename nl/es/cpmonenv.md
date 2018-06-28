@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-08"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -41,14 +41,14 @@ La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_not
   * Supervisar el estado del dispositivo, incluido el ancho de banda y las alarmas
   * Cerrar y reiniciar los servidores nativos y los servidores virtuales
   * Ver facturas de cuentas y realizar pagos únicos
-  * Acceder al contenido almacenado en Object Storage y examinarlo
+  * Acceder y examinar contenido almacenado en Object Storage
 
 La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} está disponible en varias plataformas populares de dispositivo móvil, de forma gratuita en las tiendas de aplicaciones de cada plataforma.
 
 ## Supervisión de servidores
 {: #customerportal_monservers}
 
-Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium.  Consulte la [Guía de iniciación con servidores nativos](/docs/bare-metal/about.html) para obtener información más específica sobre los servidores nativos.
+Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium. Para obtener más información sobre los servidores nativos, específicamente, consulte [Guía de iniciación con servidores nativos](/docs/bare-metal/about.html).
 
 ## Supervisión de sucesos del sistema
 {: #customerportal_monevent}
@@ -58,12 +58,18 @@ Puede supervisar sucesos del sistema visualizando registros de auditoría y de a
 ### Visualización de un registro de auditoría para una cuenta
 {: #cp_viewacctauditlog}
 
-Cada cuenta del portal del cliente viene con un registro de auditoría que realiza el seguimiento de las interacciones de cada usuario en el portal del cliente. Entre las interacciones rastreadas se incluyen intentos de inicio de sesión (correctas e incorrectas), actualizaciones de la velocidad de puerto, encendido o apagado y rearranques, y las interacciones realizadas por el personal de soporte de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Efectúe los pasos siguientes para ver un registro de auditoría para una cuenta de usuario.
+Cada cuenta del portal del cliente viene con un registro de auditoría que realiza el seguimiento de las interacciones de cada usuario en el portal del cliente. Se realiza seguimiento, por ejemplo, de las siguientes interacciones:
+  * Intentos de inicio de sesión (correctas e incorrectas)
+  * Actualizaciones de la velocidad de puerto
+  * Encendido o apagado y rearranques
+  * Interacciones realizadas por el personal de soporte de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
+
+Efectúe los pasos siguientes para ver un registro de auditoría para una cuenta de usuario.
 
 1. Acceda al [Portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Gestionar** > **Registro de auditoría** desde la barra de navegación para acceder al registro de auditoría.
 
-El registro de auditoría muestra inicialmente las últimas 25 interacciones realizadas por los usuarios en la cuenta. Puede ver hasta 200 interacciones en cualquier momento. Actualice el número de resultados mostrados desde la lista desplegable **Visualizar**. Si se han modificado los valores, la columna **Acción** para la interacción contendrá un enlace. Pulse cualquier enlace para ver el valor afectado por la acción y los detalles sobre el cambio. Al pulsar el nombre de dispositivo o el nombre de usuario para cualquier interacción, se le redirigirá a la pantalla Detalles de dispositivo o a la pantalla Perfil de usuario, respectivamente.
+El registro de auditoría muestra inicialmente las últimas 25 interacciones realizadas por los usuarios en la cuenta. Puede ver hasta 200 interacciones en cualquier momento. Actualice el número de resultados mostrados desde la lista desplegable **Visualizar**. Si se han modificado los valores, la columna **Acción** para la interacción contendrá un enlace. Pulse cualquier enlace para ver el valor afectado por la acción y los detalles sobre el cambio. Al pulsar el nombre de dispositivo o el nombre de usuario para cualquier interacción, se le redirigirá a la pantalla Detalles de dispositivo o a la pantalla Perfil de usuario.
 
 ### Visualización de registros de acceso de un usuario
 {: #cp_viewuserlogs}
