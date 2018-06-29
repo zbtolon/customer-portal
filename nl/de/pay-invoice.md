@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-07"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -39,21 +39,24 @@ Im Fenster 'Rechnungen' wird jede Rechnung nach Rechnungsnummer, Datum, Rechnung
 <dd>Eine Rückbuchung für eine einmalige oder wiederkehrende Gebühr.</dd>
 </dl>
 
-Sie können außerdem eine Rechnungszusammenfassung für das Konto anzeigen; hierzu gehören der aktuelle und erwartete nächste Kontostand, die Zahlungsmethode sowie das letzte und nächste Einzelrechnungsdatum.
+Sie können außerdem eine Rechnungszusammenfassung für das Konto anzeigen; hierzu gehören die folgenden Informationen:
+  * Aktueller und erwarteter nächste Kontostand
+  * Zahlungsmethode
+  * Letztes und nächstes Einzelrechnungsdatum
 
 1. Klicken Sie im Menü **Konto** > **Abrechnung** > **Rechnungen**.
 2. Sie können die Rechnung entweder im Kundenportal anzeigen oder herunterladen.
 
-Falls Sie die Rechnung im Kundenportal anzeigen, wird eine Liste mit einzeln aufgeführten Rechnungspositionen für die ausgewählte Rechnung angezeigt. Wenn Sie auf eine Stelle in der Zeile für eine Rechnungsposition klicken, werden zusätzliche Einzelangaben über die Gebühr angezeigt. Falls Sie die Rechnung heruntergeladen haben, können Sie sie entsprechend Ihren Browsereinstellungen anzeigen. Heruntergeladene Rechnungen bieten sowohl eine aufgegliederte Zusammenfassung als auch einzeln aufgeführte Abrechnungsdetails für jede Rechnungsposition.
+Falls Sie die Rechnung im Kundenportal anzeigen, wird eine Liste mit einzeln aufgeführten Rechnungspositionen für die ausgewählte Rechnung angezeigt. Wenn Sie auf eine Stelle in der Zeile für eine Rechnungsposition klicken, werden zusätzliche Einzelangaben zur Gebühr angezeigt. Falls Sie die Rechnung heruntergeladen haben, können Sie sie entsprechend Ihren Browsereinstellungen anzeigen. Heruntergeladene Rechnungen bieten sowohl eine aufgegliederte Zusammenfassung als auch einzeln aufgeführte Abrechnungsdetails für jede Rechnungsposition.
 
 ## Zahlungsmethode hinzufügen
 {: #cp_cpmanacctbillpay}
 
-Jedem SoftLayer-Konto muss eine bestehende Kreditkarte zugeordnet sein, die in jedem Monat automatisch mit dem Rechnungsbetrag belastet wird. Diese Informationen müssen stets aktuell sein, um Zahlungsverzögerungen zu vermeiden. Sie können sie jederzeit aktualisieren und somit sicherstellen, dass die Zahlungsinformationen immer korrekt sind. Falls die vorhandenen Kreditkarteninformationen richtig sind, jedoch für den aktuellen Saldo eine andere Zahlungsform verwendet werden soll, finden Sie unter [Einmalzahlung vornehmen](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment) entsprechende Informationen. Führen Sie die folgenden Schritte aus, um eine Zahlungsmethode für ein Konto im Kundenportal hinzuzufügen.
+Jedem SoftLayer-Konto muss eine bestehende Kreditkarte zugeordnet sein, die in jedem Monat automatisch mit dem Rechnungsbetrag belastet wird. Diese Informationen müssen stets aktuell sein, um Zahlungsverzögerungen zu vermeiden. Sie können sie jederzeit aktualisieren und somit sicherstellen, dass die Zahlungsinformationen immer korrekt sind. Falls die vorhandenen Kreditkarteninformationen richtig sind, Sie jedoch für den aktuellen Saldo eine andere Zahlungsform verwenden möchten, finden Sie unter [Einmalzahlung vornehmen](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment) entsprechende Informationen. Führen Sie die folgenden Schritte aus, um eine Zahlungsmethode für ein Konto im Kundenportal hinzuzufügen.
 
 1. Klicken Sie im Menü **Konto** > **Abrechnung** > **Zahlungsmethode**.
 2. Geben Sie die erforderlichen Abrechnungsdetails für die Karte in den Feldern im Abschnitt **Rechnungsadresse** ein.
-> **Hinweis:** Wenn Sie auf das Kontrollkästchen **Unternehmensinformationen verwenden** klicken, werden die Felder in diesem Abschnitt automatisch mit den Unternehmensinformationen gefüllt, die in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für das Konto angegeben wurden.
+> **Hinweis:** Wenn Sie auf das Kontrollkästchen **Unternehmensinformationen verwenden** klicken, werden die Felder automatisch mit den Unternehmensinformationen gefüllt, die in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für das Konto angegeben wurden.
 3. Geben Sie in den Feldern im Abschnitt **Zahlungsinformationen** die Kreditkarteninformationen ein.
 4. Klicken Sie auf **Kreditkarte hinzufügen**, um die Kreditkarte als Methode für die monatliche Zahlung hinzuzufügen.
 5. Optional können Sie durch Auswahl von **Unterstützung in der EU** gewährleisten, dass Ihre Service- und Unterstützungsprobleme durch das in Europa ansässige Support-Team bearbeitet werden.  Weitere Informationen zu dieser Option finden Sie im Abschnitt [Option für ausschließlich europäisches Support-Team festlegen](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
@@ -74,4 +77,4 @@ Sie können Einmalzahlungen entweder über ein PayPal-Konto oder eine Hauptkredi
 5. Optional können Sie durch Auswahl von **Unterstützung in der EU** gewährleisten, dass Ihre Service- und Unterstützungsprobleme durch das in Europa ansässige Support-Team bearbeitet werden.  Weitere Informationen zu dieser Option finden Sie im Abschnitt [Option für ausschließlich europäisches Support-Team festlegen](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
 6. Klicken Sie auf **Mit Kreditkarte zahlen**, um die Zahlung auszulösen.
 
-Nachdem Sie die Zahlung ausgelöst haben, wird die Zahlung entsprechend verarbeitet. Falls im Zusammenhang mit der Zahlung Probleme auftreten, befolgen Sie die Eingabeaufforderungen in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bzw. bei PayPal, bis das Problem gelöst ist. Die Zahlung wird verarbeitet, der Betrag wird angewendet und der aktuelle Kontostand wird aktualisiert.
+Nachdem Sie die Zahlung ausgelöst haben, wird die Zahlung verarbeitet. Falls im Zusammenhang mit der Zahlung Probleme auftreten, befolgen Sie die Eingabeaufforderungen in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bzw. bei PayPal, bis das Problem gelöst ist. Die Zahlung wird verarbeitet. Der Betrag wird angewendet und der aktuelle Kontostand wird aktualisiert.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -37,18 +37,18 @@ lastupdated: "2018-05-15"
 
 排定備份以確保您的資料安全地儲存於裝置之外，且能在資料遺失時重新載入。
 
-{{site.data.keyword.BluSoftlayer_notm}} 基礎架構提供多個備份解決方案，確保您可以在磁碟機故障或使用者錯誤時擷取資料。備份解決方案目前包括 NAS、EVault Backup 及 R1Soft CDP，這些都會出現在各種儲存空間選項中。例如，您可以選擇下列其中一項備份服務，將您的資料儲存在安全的位置：
-  * EVault Backup 是一種自動化、代理程式型的備份系統。這是用於管理裝置的熱門「設定後即忘記」解決方案。它透過其他外掛程式而與 Microsoft 軟體（包括 Exchange 和 SQL）相容。EVault 使用者可以透過 EVault 的 WebCC Web 型應用程式與此服務進行互動。
-  * R1Soft Continuous Data Protection (CDP) 可以安裝在您的伺服器或自我管理的虛擬機器上。如果您要尋找的是以單一介面來管理所有的備份，則建議使用此產品。您可透過專有管理系統與 R1Soft CDP 互動，而此管理系統容許代理程式安裝在虛擬機器上，並且會提供資料庫外掛程式來提供額外的功能。
+{{site.data.keyword.BluSoftlayer_notm}} 基礎架構提供多個備份解決方案，確保您可以在磁碟機故障或使用者犯錯時擷取資料。備份解決方案目前包括 NAS、EVault 備份及 R1Soft CDP，這些會以各種儲存空間選項提供。例如，您可以選擇下列其中一項備份服務，將您的資料儲存在安全的位置：
+  * EVault 備份是一種以代理程式為基礎的自動化備份系統，且是用於管理裝置的熱門「設定後即忘記」解決方案。它透過其他外掛程式而與包括 Exchange 和 SQL 的 Microsoft 軟體相容。EVault 使用者可以透過 EVault 的 WebCC Web 型應用程式與此服務進行互動。
+  * R1Soft Continuous Data Protection (CDP) 可以安裝在您的伺服器或自我管理的虛擬機器上。如果您要尋找的是以單一介面來管理所有的備份，則可以使用此產品。您可透過專有管理系統與 R1Soft CDP 互動，而此管理系統容許代理程式安裝在虛擬機器上，並且會提供資料庫外掛程式來提供更多功能。
 
  如需每一個備份解決方案的相關資訊，請參閱[儲存空間 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 頁面，如需備份資料的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup/index.html)。
 
 ### 不要假設您有備援；要確知您有
 {: #cp_bpknowredundant}
 
-{{site.data.keyword.BluSoftlayer_notm}} 基礎架構提供多個附加備援（包括雙重路徑、備用電源供應器及 RAID 配置）。請驗證您已佈建其中一個以上的特性，以確保您是在備援環境中工作，並且在失敗時受到保護。
+{{site.data.keyword.BluSoftlayer_notm}} 基礎架構提供多個附加備援，包括雙重路徑、備用電源供應器及 RAID 配置。請驗證您已佈建其中一個以上的特性，以確保您是在備援環境中工作，並且在發生失敗的情況下受到保護。
 
-### 確認先備份資訊然後再執行 OS 重新載入
+### 確認已備份資訊然後再重新載入 OS
 {: #cp_bpnoperfOSwobackupconf}
 
 重新載入作業系統會移除裝置硬碟中的所有資料。起始 OS 重新載入之前，請備份您的資訊，並驗證該備份成功，就不會遺失任何資訊。完成 OS 重新載入之後，即無法擷取遺失的資訊。

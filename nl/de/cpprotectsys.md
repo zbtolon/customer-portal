@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -35,24 +35,24 @@ Das öffentliche Netz ist für viele Zwecke hervorragend geeignet. Es gibt jedoc
 ## Daten durch regelmäßige Sicherungen schützen
 {: #cp_bpsafedataregback}
 
-Planen Sie Sicherungen um sicherzustellen, dass Ihre Daten sicher außerhalb Ihres Geräts gespeichert werden und um sie bei Verlust erneut laden zu können.
+Planen Sie Sicherungen, um sicherzustellen, dass Ihre Daten sicher außerhalb Ihres Geräts gespeichert werden und um sie bei Verlust erneut laden zu können. 
 
-Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bietet mehrere Sicherungslösungen, die gewährleisten, dass Sie Ihre Daten bei einem Laufwerkausfall oder Benutzerfehler abrufen können. Zu den Sicherungslösungen gehören derzeit NAS, EVault Backup und R1Soft CDP; alle diese Lösungen sind in einer Vielzahl von Speicheroptionen verfügbar.
+Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bietet mehrere Sicherungslösungen, die gewährleisten, dass Sie Ihre Daten bei einem Laufwerkausfall oder Benutzerfehler abrufen können. Zu den Sicherungslösungen gehören derzeit NAS, EVault Backup und R1Soft CDP; alle diese Lösungen sind in verschiedenen Speicheroptionen verfügbar.
 Sie können einen der folgenden Backup-Services auswählen, um Ihre Daten an einer sicheren Position zu speichern:
-  * EVault Backup ist ein automatisiertes, agentenbasiertes Sicherungssystem. Dies ist eine gängige, komfortable und wartungsfreie Lösung zur Verwaltung Ihres Geräts. Sie ist kompatibel mit Microsoft-Software, einschließlich Exchange und SQL (über zusätzliche Plug-ins). EVault-Benutzer interagieren mit diesem Service über die webbasierte EVault-Anwendung WebCC.
-  * R1Soft Continuous Data Protection (CDP) kann auf Ihrem Server oder auf der selbstverwalteten virtuellen Maschine installiert werden. Diese Lösung empfiehlt sich, wenn Sie nach einer einzigen Schnittstelle zum Verwalten all Ihrer Sicherungen suchen. Sie interagieren mit R1Soft CDP über Ihr proprietäres Managementsystem, das die Installation von Agenten auf virtuellen Maschinen ermöglicht und Datenbank-Plug-ins für zusätzliche Funktionalität bietet.
+  * EVault Backup ist ein automatisiertes, agentenbasiertes Sicherungssystem und eine eine gängige, komfortable und wartungsfreie Lösung zur Verwaltung Ihres Geräts. Sie ist kompatibel mit Microsoft-Software, einschließlich Exchange und SQL (über Plug-ins). EVault-Benutzer interagieren mit diesem Service über die webbasierte EVault-Anwendung WebCC.
+  * R1Soft Continuous Data Protection (CDP) kann auf Ihrem Server oder auf der selbstverwalteten virtuellen Maschine installiert werden. Diese Lösung eignet sich, wenn Sie nach einer einzigen Schnittstelle zum Verwalten all Ihrer Sicherungen suchen. Sie interagieren mit R1Soft CDP über Ihr proprietäres Managementsystem, das die Installation von Agenten auf virtuellen Maschinen ermöglicht und Datenbank-Plug-ins für weitere Funktionen bietet. 
 
  Weitere Informationen zu den einzelnen Sicherungslösungen können Sie dem Abschnitt [Speicher ![Symbol für externen Link](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} entnehmen und weitere Informationen zum Sichern Ihrer Daten erhalten Sie im Abschnitt [Einführung in Backup-Services](/docs/infrastructure/Backup/index.html).
 
 ### Redundanz nicht voraussetzen, sondern sicherstellen
 {: #cp_bpknowredundant}
 
-Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bietet mehrere Add-on-Redundanzen, die doppelte Pfade, redundante Stromversorgungssysteme und RAID-Konfigurationen umfassen. Vergewissern Sie sich, dass Sie eine oder mehrere dieser Funktionen bereitgestellt haben, damit sichergestellt ist, dass Sie in einer redundanten Umgebung arbeiten und im Fall einer Störung geschützt sind.
+Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bietet mehrere Add-on-Redundanzen, die doppelte Pfade, redundante Stromversorgungssysteme und RAID-Konfigurationen umfassen. Vergewissern Sie sich, dass Sie eine oder mehrere dieser Funktionen bereitgestellt haben, damit sichergestellt ist, dass Sie in einer redundanten Umgebung arbeiten und im Fall einer Störung geschützt sind. 
 
 ### Sicherung der Informationen vor einem erneuten Laden des Betriebssystems überprüfen
 {: #cp_bpnoperfOSwobackupconf}
 
-Beim erneuten Laden des Betriebssystems werden alle Daten von der Festplatte des Geräts entfernt. Bevor Sie das erneute Laden des Betriebssystems einleiten, müssen Sie Ihre Informationen sichern und den Erfolg der Sicherung verifizieren, damit keine Daten verlorengehen. Nachdem einem erneuten Laden des Betriebssystem können verlorene Informationen nicht mehr abgerufen werden.
+Beim erneuten Laden des Betriebssystems werden alle Daten von der Festplatte des Geräts entfernt. Bevor Sie das erneute Laden des Betriebssystems einleiten, müssen Sie Ihre Informationen sichern und den Erfolg der Sicherung verifizieren, damit keine Daten verlorengehen. Nach dem erneuten Laden des Betriebssystem können verlorene Informationen nicht mehr abgerufen werden. 
 
 ## Adaptec Storage Manager (ASM) nicht entfernen
 {: #cp_bpsupdontremovasm}

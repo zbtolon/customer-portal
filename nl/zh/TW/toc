@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html"}
-管理基礎架構資源
+在客戶入口網站中工作
 
     {: .navgroup id="learn"}
     getting-started.md

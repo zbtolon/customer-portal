@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# Kennwörter verwalten
+# Kennwortaufzeichnung verwalten
 {: #customerportal_manpws}
 
 Als Masterbenutzer oder Eigner eines Kontos können Sie die Kennwortaufzeichnung aktivieren und auch ein Kennwort für den einmaligen Zugriff auf das Konto einrichten. Die Kennwortaufzeichnung ermöglicht Benutzern die Speicherung von Softwarekennwortdaten für Geräte und deren zugehörige Software.
@@ -36,7 +36,8 @@ Die Aufzeichnung von Kennwörtern im Kundenportal ist optional. Jeder Benutzer m
 4. Wählen Sie den **Namen des Geräts**, dem der Benutzer zugeordnet ist, in der Dropdown-Liste **Gerätename** aus.
 5. Wählen Sie die **Software**, der der Benutzer zugeordnet ist, in der Dropdown-Liste **Software** aus.
 
-  Die aufgelistete Software wird durch die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur über gebührenpflichtige oder kostenlose Abonnements bereitgestellt. Die Aufzeichnung über das Kundenportal ist nicht für Software anderer Anbieter verfügbar, die manuell auf dem Gerät installiert wurde.{: tip}
+  Die aufgelistete Software wird durch die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur über gebührenpflichtige oder kostenlose Abonnements bereitgestellt. Die Aufzeichnung über das Kundenportal ist nicht für Software anderer Anbieter verfügbar, die manuell auf dem Gerät installiert wurde.
+  {: tip}
 
 6. Geben Sie den Benutzernamen und das Kennwort für die Software in den entsprechenden Feldern ein.
 8. Optional können Sie etwaige maßgebliche Kommentare im Feld **Hinweise** eingeben.
