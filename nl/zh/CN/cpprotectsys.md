@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -37,9 +37,10 @@ lastupdated: "2018-05-15"
 
 安排备份，以确保数据安全存储于设备外部，并在数据丢失时可重新装入。
 
-{{site.data.keyword.BluSoftlayer_notm}} 基础架构提供了多种备份解决方案，以确保您可以在发生驱动器故障或用户错误时检索数据。目前，备份解决方案包括 NAS、EVault Backup 和 R1Soft CDP，它们全都适用于各种存储选项。例如，您可以选择以下其中一个备份服务，以将数据存储于安全位置：
-  * EVault Backup 是一种基于代理程序的自动备份系统。这是一种十分受欢迎的“设置后不管”解决方案，可用于管理设备。它通过附加插件兼容 Microsoft 软件，包括 Exchange 和 SQL。EVault 用户通过 EVault 的基于 Web 的 WebCC 应用程序与此服务进行交互。
-  * R1Soft Continuous Data Protection (CDP) 可安装在服务器或自我管理的虚拟机上。如果您希望在单个界面上管理所有备份，那么建议使用此软件。您可以通过专有管理系统与 R1Soft CDP 进行交互，该系统允许在虚拟机上安装代理程序并提供数据库插件以获得其他功能。
+{{site.data.keyword.BluSoftlayer_notm}} 基础架构提供了多种备份解决方案，以确保您可以在驱动器发生故障或用户出错时取回数据。目前，备份解决方案包括 NAS、EVault Backup 和 R1Soft CDP，它们全都可用于各种存储选项。
+例如，您可以选择以下其中一个备份服务，以将数据存储于安全位置：
+  * EVault Backup 是一种基于代理程序的自动备份系统，也是十分受欢迎的“一劳永逸”设备管理解决方案。它通过插件兼容 Microsoft 软件，包括 Exchange 和 SQL。EVault 用户通过 EVault 的基于 Web 的 WebCC 应用程序与此服务进行交互。
+  * R1Soft Continuous Data Protection (CDP) 可安装在服务器或自我管理的虚拟机上。如果您希望在单个界面上管理所有备份，那么建议使用此软件。您可以通过专有管理系统与 R1Soft CDP 进行交互，该系统允许在虚拟机上安装代理程序并提供数据库插件以获得更多功能。
 
  有关每种备份解决方案的更多信息，请查看[存储器 ![外部链接图标](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 页面；有关备份数据的更多信息，请查看[备份服务入门](/docs/infrastructure/Backup/index.html)。
 
@@ -48,10 +49,10 @@ lastupdated: "2018-05-15"
 
 {{site.data.keyword.BluSoftlayer_notm}} 基础架构提供了多种附加冗余，包括双路径、冗余电源和 RAID 配置。请验证您是否已供应其中一个或多个功能，以确保您在冗余环境中工作，并可在发生故障时受到保护。
 
-### 执行操作系统重装之前，确认信息是否已备份
+### 重装操作系统之前，确认信息是否已备份
 {: #cp_bpnoperfOSwobackupconf}
 
-重装操作系统会从设备的硬盘驱动器中除去所有数据。在启动操作系统重装前，请备份您的信息并验证是否已成功完成此备份而没有丢失任何信息。在完成操作系统重装后，无法检索到丢失的信息。
+重装操作系统会从设备的硬盘中除去所有数据。在启动操作系统重装前，请备份您的信息并验证是否已成功完成此备份而没有丢失任何信息。在完成操作系统重装后，无法取回丢失的信息。
 
 ## 请勿除去 Adaptec Storage Manager (ASM)
 {: #cp_bpsupdontremovasm}
