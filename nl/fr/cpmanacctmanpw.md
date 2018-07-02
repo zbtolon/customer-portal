@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# Gestion des mots de passe
+# Gestion du suivi des mots de passe
 {: #customerportal_manpws}
 
 Si vous êtes utilisateur principal ou propriétaire d'un compte, vous pouvez activer le suivi des mots de passe, ainsi que configurer un mot de passe à usage unique pour le compte. Le suivi des mots de passe permet aux utilisateurs de stocker les données de mot de passe logiciel pour des appareils et leur logiciel associé.
@@ -75,7 +75,7 @@ Après qu'un utilisateur ou un mot de passe a été modifié dans l'outil de sui
 ## Configuration d'un compte pour un accès par mot de passe à usage unique
 {: #cp_confportacc1timpwacc}
 
-Avant de pouvoir configurer le compte, vous devez d'abord configurer l'application Verisign "VIP Access". Si vous n'avez pas encore configuré VIP Access, commencez par télécharger l'application pour l'un des appareils suivants : 
+Avant de pouvoir configurer le compte, vous devez d'abord configurer l'application Verisign "VIP Access". Si vous n'avez pas encore configuré VIP Access, commencez par télécharger l'application pour l'un des appareils suivants :
 * Pour votre téléphone : [https://m.vip.symantec.com/home.v ![Icône de lien externe](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
 * Pour votre bureau : [https://idprotect.verisign.com/desktop/download.v ![Icône de lien externe](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
 

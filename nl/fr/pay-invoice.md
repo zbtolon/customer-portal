@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-07"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -39,10 +39,13 @@ Dans la fenêtre Factures, chaque facture individuelle est récapitulé par num�
 <dd>Remboursement de frais, qu'ils soient ponctuels ou périodiques.</dd>
 </dl>
 
-Vous pouvez également afficher un récapitulatif de facturation pour le compte, incluant le solde en cours et le solde estimé suivant, le mode de règlement, ainsi que les dates des factures récurrentes précédente et suivante.
+Vous pouvez également afficher un récapitulatif de facturation pour le compte, incluant les informations suivantes :
+  * Solde en cours et solde estimé suivant
+  * Mode de règlement
+  * Dates des factures récurrentes précédente et suivante
 
 1. Cliquez sur **Compte** > **Facturation** > **Factures** dans le menu.
-2. Vous pouvez afficher une facture dans le portail client ou la télécharger.
+2. Vous pouvez consulter une facture dans le portail client ou la télécharger.
 
 Si vous affichez la facture dans le portail client, une liste détaillée des éléments de facturation s'affiche pour la facture sélectionnée. Cliquez sur la ligne d'un élément de facturation pour afficher des détails supplémentaires concernant les frais. Si vous avez téléchargé la facture, vous pouvez l'afficher en fonction des paramètres de votre navigateur. Les factures téléchargées fournissent un récapitulatif détaillé ainsi que des détails pour chaque élément de facturation.
 
@@ -53,7 +56,7 @@ Chaque compte SoftLayer doit comporter une carte de crédit enregistrée sur laq
 
 1. Cliquez sur **Compte** > **Facturation** > **Mode de règlement** depuis le menu.
 2. Entrez dans chaque zone les détails de facturation requis pour la carte à la section **Adresse de facturation**.
-> **Remarque :** Cochez la case **Utiliser les informations de la société** pour renseigner automatiquement les zones de cette section à l'aide des informations de la société que l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} a enregistrées pour le compte.
+> **Remarque :** Cochez la case **Utiliser les informations de la société** pour renseigner automatiquement les zones à l'aide des informations de la société que l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} a enregistrées pour le compte.
 3. Entrez les informations de carte de crédit dans chaque zone de la section **Informations de paiement**.
 4. Cliquez sur **Ajouter carte de crédit** pour ajouter la carte de crédit en tant que mode de règlement mensuel.
 5. Facultatif : Sélectionnez **Support dans l'Union européenne** pour vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support.  Pour plus d'informations sur cette option, voir la rubrique permettant de [définir l'option d'équipe de support exclusivement européenne](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
@@ -74,4 +77,4 @@ Vous pouvez effectuer des paiements ponctuels à l'aide d'un compte PayPal ou d'
 5. Facultatif : Sélectionnez **Support dans l'Union européenne** pour vous assurer que l'équipe de support en Europe gère vos problèmes de maintenance et de support.  Pour plus d'informations sur cette option, voir la rubrique permettant de [définir l'option d'équipe de support exclusivement européenne](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
 6. Cliquez sur **Payer avec la carte de crédit** pour initier le paiement.
 
-Une fois le règlement initié, celui-ci est traité en conséquence. En cas de problème au niveau du paiement, suivez les invites de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} ou de PayPal jusqu'à résolution du problème. Le paiement est traité, le montant est appliqué et le solde en cours est mis à jour.
+Une fois le règlement initié, il est traité. En cas de problème au niveau du paiement, suivez les invites de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} ou de PayPal jusqu'à résolution du problème. Le règlement est traité. Le montant est appliqué et le solde en cours est mis à jour.
