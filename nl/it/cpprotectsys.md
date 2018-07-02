@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -30,29 +30,29 @@ Per ulteriori informazioni sull'utilizzo di una connessione VPN, vedi [Informazi
 ### Non lasciare le porte RDP, SSH o di controllo sulla rete pubblica
 {: #cp_bpnordpsshcponpubnet}
 
-La rete pubblica è ottima per molte cose, ma ci sono alcuni aspetti che, se lasciati disponibili sulla rete pubblica attraverso delle porte aperte, possono rendere il tuo sistema vulnerabile. Proteggiti disabilitando RDP o limitando SSH sulla rete pubblica. Se questi servizi devono essere disponibili sulla rete pubblica, valuta lo spostamento di RDP o SSH a un numero di porta personalizzato.
+La rete pubblica è ottima per molte cose, ma alcuni aspetti, se lasciati disponibili sulla rete pubblica attraverso le porte aperte, possono rendere il tuo sistema vulnerabile. Proteggiti disabilitando RDP o limitando SSH sulla rete pubblica. Se questi servizi devono essere disponibili sulla rete pubblica, valuta lo spostamento di RDP o SSH a un numero di porta personalizzato.
 
 ## Proteggi i tuoi dati attraverso backup regolari
 {: #cp_bpsafedataregback}
 
-Pianifica i backup per garantire che i tuoi dati siano memorizzati in modo sicuro al di fuori del tuo dispositivo e riuscire a ricaricarli se vengono persi.
+Pianifica i backup per garantire che i tuoi dati siano memorizzati in modo sicuro al di fuori del tuo dispositivo e per poterli ricaricare in caso di perdita. 
 
-L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} offre più soluzioni di backup per garantirti di poter recuperare i dati in caso di errore dell'unità o di errore dell'utente. Le soluzioni di backup attualmente includono NAS, EVault Backup e R1Soft CDP, che sono tutti disponibili in una varietà di opzioni di archiviazione.
+L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} offre più soluzioni di backup per garantirti di poter recuperare i dati in caso di guasto dell'unità o se l'utente commette un errore. Le soluzioni di backup attualmente includono NAS, EVault Backup e R1Soft CDP, che sono tutti disponibili in varie opzioni di archiviazione.
 Ad esempio, puoi scegliere uno dei seguenti servizi di backup per memorizzare i dati in un luogo sicuro:
-  * EVault Backup è un sistema di backup automatizzato basato sull'agent. Questa è una comune soluzione “set-and-forget” (imposta e dimentica) per la gestione del tuo dispositivo. È compatibile con i software Microsoft tra cui Exchange e SQL tramite plug-in aggiuntivi. Gli utenti EVault interagiscono con questo servizio tramite l'applicazione basata sul web WebCC di EVault.
-  * R1Soft Continuous Data Protection (CDP) può essere installato sul tuo server o sulla macchina virtuale autogestita. È consigliabile se desideri una singola interfaccia per gestire tutti i backup. Interagisci con R1Soft CDP tramite il tuo sistema di gestione proprietario, che consente di installare gli agent su macchine virtuali e offre plug-in di database per funzionalità aggiuntive.
+  * EVault Backup è un sistema di backup automatizzato basato sull'agent e una soluzione “set-and-forget” (imposta e dimentica) per la gestione del tuo dispositivo. È compatibile con il software Microsoft che include Exchange e SQL tramite plug-in. Gli utenti EVault interagiscono con questo servizio tramite l'applicazione basata sul web WebCC di EVault.
+  * R1Soft Continuous Data Protection (CDP) può essere installato sul tuo server o sulla macchina virtuale autogestita. Puoi utilizzarlo se stai cercando una singola interfaccia per gestire tutti i tuoi backup. Interagisci con R1Soft CDP tramite il tuo sistema di gestione proprietario, che consente di installare gli agent su macchine virtuali e offre plug-in di database per altre funzioni.
 
  Consulta la pagina [Storage ![Icona link esterno](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} per ulteriori informazioni su ciascuna soluzione di backup e vedi [Introduzione ai servizi di backup](/docs/infrastructure/Backup/index.html) per ulteriori informazioni sul backup dei tuoi dati.
 
-### Non supporre di avere ridondanza, sai di averla
+### Assicurati di avere ridondanza
 {: #cp_bpknowredundant}
 
-L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} offre molteplici ridondanze aggiuntive, inclusi alimentatori ridondanti a doppio percorso e configurazioni RAID. Verifica di aver eseguito il provisioning di una o più di queste funzioni per assicurarti di lavorare in un ambiente ridondante e di essere protetto in caso di errore.
+L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} offre molteplici ridondanze aggiuntive, che includono alimentatori ridondanti a doppio percorso e configurazioni RAID. Verifica di aver eseguito il provisioning di una o più di queste funzioni per assicurarti di lavorare in un ambiente ridondante e di essere protetto in caso di errore.
 
-### Conferma di aver eseguito il backup delle tue informazioni prima di effettuare un ricaricamento SO
+### Conferma di aver eseguito il backup delle tue informazioni prima di ricaricare il tuo sistema operativo
 {: #cp_bpnoperfOSwobackupconf}
 
-Il ricaricamento del sistema operativo rimuove tutti i dati dal disco rigido del dispositivo. Prima di avviare il ricaricamento SO, esegui il backup delle informazioni e verifica l'esito positivo di tale backup in modo che nessuna informazione venga persa. Una volta completato il ricaricamento SO, le informazioni perse non possono essere recuperate.
+Il ricaricamento del sistema operativo rimuove tutti i dati dal disco fisso del dispositivo. Prima di avviare il ricaricamento del sistema operativo, esegui il backup delle tue informazioni e verifica che tale backup abbia esito positivo in modo che nessuna informazione venga persa. Una volta completato il ricaricamento del sistema operativo, le informazioni perse non possono essere recuperate.
 
 ## Non rimuovere ASM (Adaptec Storage Manager)
 {: #cp_bpsupdontremovasm}
