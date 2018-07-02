@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# Gerenciando senhas
+# Gerenciando o rastreamento de senha
 {: #customerportal_manpws}
 
 Se você for um usuário principal ou o proprietário de uma conta, será possível ativar o rastreamento de senha e você também poderá configurar uma senha para acesso único à conta. O rastreamento de senha permite que os usuários armazenem dados de senha de software para dispositivos e seu software associado.

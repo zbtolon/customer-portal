@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-08"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -41,14 +41,14 @@ O aplicativo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
   * Monitorar o status do dispositivo, incluindo a largura da banda e os alarmes
   * Encerrar e reiniciar Bare Metal Servers e servidores virtuais
   * Visualizar faturas de contas e fazer pagamentos únicos
-  * Acessar e examinar o conteúdo armazenado no Object Storage
+  * Acesse e examine o conteúdo armazenado no Object Storage
 
 O aplicativo móvel de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} está disponível em várias plataformas populares de dispositivo móvel e está disponível de graça nas lojas de aplicativos relacionadas para cada plataforma.
 
 ## Monitorando servidores
 {: #customerportal_monservers}
 
-Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar monitoramento Nimsoft ou avançado do portal do cliente ou em uma das três camadas: básica, avançada e premium.  Veja [Introdução a servidores bare metal](/docs/bare-metal/about.html) para obter mais informações sobre servidores bare metal, especificamente.
+Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar Nimsoft, ou avançado, monitorando pelo portal do cliente ou em 1 de 3 camadas: básica, avançada e premium. Para obter mais informações sobre Bare Metal Servers, especificamente, consulte [Introdução a Bare Metal Servers](/docs/bare-metal/about.html).
 
 ## Monitorando eventos do sistema
 {: #customerportal_monevent}
@@ -58,20 +58,26 @@ Configure o monitoramento para verificar o status de seu servidor e saber quando
 ### Visualizando um log de auditoria para uma conta
 {: #cp_viewacctauditlog}
 
-Cada conta do portal do cliente vem com um log de auditoria que rastreia as interações de cada usuário dentro do portal do cliente. Interações rastreadas incluem tentativas de login (sucesso e falhas), atualizações de velocidade da porta, ligar ou desligar e reinicializar, além daquelas interações feitas pela equipe de suporte de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Use as etapas a seguir para visualizar um log de auditoria para uma conta do usuário.
+Cada conta do portal do cliente vem com um log de auditoria que rastreia as interações de cada usuário dentro do portal do cliente. As interações a seguir, por exemplo, são rastreadas:
+  * Tentativas de login (sucesso e falhas)
+  * Atualizações de velocidade de porta
+  * Ligar ou desligar e reinicializações
+  * Interações feitas pela equipe de suporte da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}.
 
-1. Acesse o [Portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando as suas credenciais exclusivas.
+Use as etapas a seguir para visualizar um log de auditoria para uma conta do usuário.
+
+1. Acesse o [Portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando as credenciais exclusivas.
 2. Selecione **Conta** > **Gerenciar** > **Log de auditoria** na barra de navegação para acessar o log de auditoria.
 
-O log de auditoria inicialmente exibe as últimas 25 interações tomadas por usuários na conta. É possível visualizar até 200 interações a qualquer momento. Atualize o número de resultados mostrados na lista suspensa **Exibir**. Se as configurações mudaram, a coluna **Ação** para a interação conterá um link. Clique em qualquer link para visualizar a configuração impactada pela ação e detalhes sobre a mudança. Clicar no nome de dispositivo ou nome do usuário para qualquer interação redireciona você para a tela de detalhes do dispositivo ou a tela de perfil do usuário, respectivamente.
+O log de auditoria exibe inicialmente as últimas 25 interações que foram tomadas pelos usuários na conta. É possível visualizar até 200 interações a qualquer momento. Atualize o número de resultados mostrados pela lista suspensa **Exibição**. Se as configurações foram mudadas, a coluna **Ação** para a interação conterá um link. Clique em qualquer link para visualizar a configuração que seja impactada pela ação e detalhes sobre a mudança. Clicar no nome do dispositivo ou nome do usuário para qualquer interação redireciona você para a tela de detalhes do dispositivo ou para a tela de perfil do usuário.
 
 ### Visualizando logs de acesso de um usuário
 {: #cp_viewuserlogs}
 
-Logs de acesso exibem dados para cada tentativa de acesso feita por um usuário do portal do cliente específico. Os logs exibem um registro de data e hora e o endereço IP para cada tentativa de acesso. Use as etapas a seguir para visualizar Logs de acesso de um usuário.
+Acesse os dados de exibição de logs para cada tentativa de acesso que é feita por um usuário do portal do cliente específico. Os logs exibem um registro de data e hora e o endereço IP para cada tentativa de acesso. Use as etapas a seguir para visualizar Logs de acesso de um usuário.
 
-1. Acesse o [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando as suas credenciais exclusivas.
+1. Acesse o [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando as credenciais exclusivas.
 2. Selecione **Conta** > **Usuários** na barra de menus para acessar a janela Usuários.
 3. Na lista suspensa **Ações**, selecione **Visualizar log de auditoria** para visualizar o log de acesso do usuário.
 
-O log de acesso para cada usuário exibe as tentativas de acesso feitas por esse usuário por data, juntamente com o endereço IP do qual a tentativa de acesso foi feita. Informações dentro do log de acesso são somente leitura; portanto, as edições para o conteúdo não podem ser feitas a qualquer momento. É possível visualizar os logs de acesso novamente a qualquer momento repetindo as etapas anteriores. Para sair dos logs e retornar à tela Usuários, clique no link **Visualizar todos os usuários**.
+O log de acesso para cada usuário exibe as tentativas de acesso que foram feitas por esse usuário por data, junto com o endereço IP do qual a tentativa de acesso foi feita. Informações dentro do log de acesso são somente leitura; portanto, as edições para o conteúdo não podem ser feitas a qualquer momento. É possível visualizar os logs de acesso novamente a qualquer momento repetindo as etapas anteriores. Para sair dos logs e retornar à tela Usuários, clique no link **Visualizar todos os usuários**.
