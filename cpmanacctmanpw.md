@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# Managing password tracking
+# Managing passwords
 {: #customerportal_manpws}
 
 If you are a master user or the owner of an account, you can enable password tracking and you can also set up a password for one-time access to the account. Password tracking enables users to store software password data for devices and their associated software.
@@ -28,7 +28,7 @@ The customer portal contains an optional [password tracking ![External link icon
 
 Support teams also use password tracking if remote access to a system is required. User names and passwords are used by Support only when necessary and authorized for ticket resolution.
 
-Tracking passwords within the customer portal is optional. Any user with appropriate permissions can view all passwords that are stored by this tool. User and password information are manually tracked so they are not automatically synced with a device or its software. Therefore, be sure to update the password tracking tool at the same time you update users and passwords on devices and software. Use the following steps to add a user to the password tracking tool.
+Tracking passwords within the customer portal is optional. Any user with appropriate permissions has the ability to view all passwords that are stored by this tool. User and password information are manually tracked so they are not automatically synced with a device or its software. Therefore, be sure to update the password tracking tool at the same time you update users and passwords on devices and software. Use the following steps to add a user to the password tracking tool.
 
 1. Access the customer portal by using your unique credentials.
 2. Select **Devices** > **Manage** > **Passwords** from the menu.
@@ -93,3 +93,28 @@ Then, complete the following steps:
 11. Open the Verisign Identity Protection application on your preferred device and provide the code that is displayed to log in.
 
 Save your original Verisign Identity Protection credential ID in a safe location for future reference. Without it, you can't access the portal.
+
+## Resetting your password
+{: #cp_reset-your-password}
+
+How you reset your password is based on whether you use an IBMid for authentication to log in to your account.  
+
+### Resetting an IBMid account password
+{: #cp_reset-IBMid-password}
+
+If you use IBMid for authentication, to reset or recover your password go to your IBMid profile and follow the instructions under the **Sign In** section.
+
+### Resetting an account password
+{: #cp_reset-password}
+
+If you don't use an IBMid for account authentication, complete the following steps:
+
+1. Click the lost password link on the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} login page.
+2. When you are prompted, enter your current username.
+3. Check your email for a note containing a link to reset your password. This link is valid for twenty-four hours.
+4. Select and answer three security questions.
+
+You have 5 attempts to answer the security questions. If you make more than 5 attempts, the reset password form is locked for 15 minutes before you can try again.
+
+For information on working with VPN passwords, see [Update a User's VPN Password](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
+{: tip}
