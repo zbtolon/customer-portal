@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# 管理密碼追蹤
+# 管理密碼
 {: #customerportal_manpws}
 
 如果您是主要使用者或帳戶擁有者，則可以啟用密碼追蹤，也可以設定密碼以用來對帳戶進行一次性存取。密碼追蹤可讓使用者儲存裝置及其關聯軟體的軟體密碼資料。
@@ -93,3 +93,28 @@ lastupdated: "2018-05-22"
 11. 在偏好的裝置上開啟「Verisign 身分保護」應用程式，並提供顯示的代碼進行登入。
 
 在安全位置中儲存原始「Verisign 身分保護」認證 ID，以供未來參照。沒有此認證 ID，就無法存取入口網站。
+
+## 重設密碼
+{: #cp_reset-your-password}
+
+重設密碼的方式是根據是否使用 IBM ID 進行鑑別來登入您的帳戶。  
+
+### 重設 IBM ID 帳戶密碼
+{: #cp_reset-IBMid-password}
+
+如果您使用 IBM ID 進行鑑別，則若要重設或回復密碼，請移至您的 IBM ID 設定檔，並遵循**登入**區段下的指示。
+
+### 重設帳戶密碼
+{: #cp_reset-password}
+
+如果您未使用 IBM ID 進行帳戶鑑別，則請完成下列步驟：
+
+1. 按一下[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 登入頁面上的遺失密碼鏈結。
+2. 當系統提示您時，請輸入您的現行使用者名稱。
+3. 檢查電子郵件中是否有包含重設密碼鏈結的附註。此鏈結的有效時間是 24 小時。
+4. 選取並回答三個安全問題。
+
+您有 5 次嘗試回答安全問題的機會。如果您嘗試超過 5 次，則會先鎖定重設密碼表單 15 分鐘，才能重試。
+
+如需使用 VPN 密碼的相關資訊，請參閱[更新使用者的 VPN 密碼](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password)。
+{: tip}
