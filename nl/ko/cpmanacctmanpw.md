@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# 비밀번호 추적 관리
+# 비밀번호 관리
 {: #customerportal_manpws}
 
 마스터 사용자 또는 계정의 소유자인 경우 비밀번호 추적을 사용하고 계정에 대한 일회성 액세스의 비밀번호를 설정할 수도 있습니다. 비밀번호 추적을 통해 사용자는 디바이스 및 연관된 소프트웨어의 소프트웨어 비밀번호 데이터를 저장할 수 있습니다.
@@ -93,3 +93,28 @@ lastupdated: "2018-05-22"
 11. 원하는 디바이스에서 Verisign Identity Protection 애플리케이션을 열고 로그인에 표시되는 코드를 제공하십시오.
 
 이후에 참조할 수 있도록 안전한 위치에 원래의 Verisign Identity Protection 신임 정보 ID를 저장하십시오. 이 신임 정보 ID가 없으면 포털에 액세스할 수 없습니다.
+
+## 비밀번호 재설정
+{: #cp_reset-your-password}
+
+비밀번호를 재설정하는 방법은 사용자 계정에 로그인하기 위해 인증에 IBM ID를 사용하는지 여부에 따라 다릅니다.  
+
+### IBM ID 계정 비밀번호 재설정
+{: #cp_reset-IBMid-password}
+
+인증에 IBM ID를 사용하는 경우 비밀번호를 재설정하고 복구하려면 IBM ID 프로파일로 이동하여 **로그인** 섹션의 지시사항을 따르십시오.
+
+### 계정 비밀번호 재설정
+{: #cp_reset-password}
+
+계정 인증에 IBM ID를 사용하지 않는 경우에는 다음 단계를 완료하십시오.
+
+1. [고객 포털 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 로그인 페이지에서 비밀번호 분실 링크를 클릭하십시오.
+2. 프롬프트가 표시되면 현재 사용자 이름을 입력하십시오.
+3. 비밀번호를 재설정하려면 링크가 포함된 노트가 있는지 이메일을 확인하십시오. 이 링크는 24시간 동안 유효합니다.
+4. 세 개의 보안 질문을 선택하고 답변하십시오.
+
+보안 질문에 대한 답변은 5번 시도할 수 있습니다. 5회 넘게 시도하면 비밀번호 재설정 양식이 15분 동안 잠기고 이후에 다시 시도할 수 있습니다.
+
+VPN 비밀번호 작업에 대한 정보는 [사용자의 VPN 비밀번호 업데이트](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password)를 참조하십시오.
+{: tip}
