@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# Gerenciando o rastreamento de senha
+# Gerenciando senhas
 {: #customerportal_manpws}
 
 Se você for um usuário principal ou o proprietário de uma conta, será possível ativar o rastreamento de senha e você também poderá configurar uma senha para acesso único à conta. O rastreamento de senha permite que os usuários armazenem dados de senha de software para dispositivos e seu software associado.
@@ -28,7 +28,7 @@ O portal do cliente contém uma ferramenta de [rastreamento de senha opcional ![
 
 As equipes de suporte também usam rastreamento de senha se o acesso remoto a um sistema é necessário. Os nomes de usuário e senhas são usados pelo Suporte somente quando necessário e autorizado para resolução de chamado.
 
-O rastreamento de senhas no portal do cliente é opcional. Qualquer usuário com permissões apropriadas pode visualizar todas as senhas armazenadas por essa ferramenta. As informações do usuário e da senha são controladas manualmente para que não sejam sincronizadas automaticamente com um dispositivo ou seu software. Portanto, certifique-se de atualizar a ferramenta de rastreamento de senha ao mesmo tempo que atualizar usuários e senhas em dispositivos e software. Use as etapas a seguir para incluir um usuário na ferramenta de rastreamento de senha.
+O rastreamento de senhas no portal do cliente é opcional. Qualquer usuário com permissões apropriadas tem a capacidade de visualizar todas as senhas que são armazenadas por essa ferramenta. As informações do usuário e da senha são controladas manualmente para que não sejam sincronizadas automaticamente com um dispositivo ou seu software. Portanto, certifique-se de atualizar a ferramenta de rastreamento de senha ao mesmo tempo que atualizar usuários e senhas em dispositivos e software. Use as etapas a seguir para incluir um usuário na ferramenta de rastreamento de senha.
 
 1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Selecione **Dispositivos** > **Gerenciar** > **Senhas** no menu.
@@ -93,3 +93,28 @@ Em seguida, conclua as etapas a seguir:
 11. Abra o aplicativo Verisign Identity Protection em seu dispositivo preferencial e forneça o código que é exibido para efetuar login.
 
 Guarde seu ID de credencial original do Verisign Identity Protection em um local seguro para referência futura. Sem ele, não será possível acessar o portal.
+
+## Reconfigurando sua senha
+{: #cp_reset-your-password}
+
+O modo como sua senha é reconfigurada baseia-se em se você usa um IBMid para autenticação para efetuar login em sua conta.  
+
+### Reconfigurando uma senha de conta do IBMid
+{: #cp_reset-IBMid-password}
+
+Se você usa o IBMid para autenticação, para reconfigurar ou recuperar sua senha, acesse seu perfil do IBMid e siga as instruções sob a seção **Conectar**.
+
+### Reconfigurando uma senha de conta
+{: #cp_reset-password}
+
+Se você não usa um IBMid para autenticação de conta, conclua as etapas a seguir:
+
+1. Clique no link de senhas perdidas na página de login do [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.
+2. Quando for solicitado, insira seu nome do usuário atual.
+3. Verifique em seu e-mail por uma nota contendo um link para reconfigurar sua senha. Esse link é válido por vinte e quatro horas.
+4. Selecione e responda três perguntas de segurança.
+
+Você tem 5 tentativas para responder às perguntas de segurança. Se você fizer mais de 5 tentativas, o formulário de reconfiguração de senha será bloqueado por 15 minutos antes de poder tentar novamente.
+
+Para obter informações sobre como trabalhar com senhas de VPN, veja [Atualizar a senha de VPN de um usuário](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
+{: tip}
