@@ -35,7 +35,7 @@ Pueden asignarse varios usuarios a un solo rol. Además, si existe un rol en el 
 
 En este modelo, ocurrirá lo siguiente:
 * Los usuarios se crean tanto en el proveedor de identidad como en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
-* Los permisos de usuario se asignan en IMS de la infraestructura de {{site.data.keyword.BluSoftlayer}} utilizando las API o el portal del cliente de la infraestructura de {{site.data.keyword.BluSoftlayer}}.
+* Los permisos de usuario se asignan en IMS de la infraestructura de {{site.data.keyword.BluSoftlayer}} utilizando las API o el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer}}.
 * Los usuarios se autentican con el proveedor de identidad y federan sus credenciales.
 * La infraestructura de {{site.data.keyword.BluSoftlayer}} consume las credenciales y el control de acceso se basa en los permisos definidos para el usuario en IMS de infraestructura de {{site.data.keyword.BluSoftlayer}}.
 
@@ -59,7 +59,7 @@ El siguiente flujo de ejemplo muestra cómo podría funcionar la autenticación 
 3. El proveedor de identidad devuelve respuestas de SAML 2.0.
 4. El proveedor de identidad envía una respuesta SAML 2.0 al proveedor de servicios, en este caso la infraestructura de {{site.data.keyword.BluSoftlayer}}, para autenticar el ID de usuario.
 5. La infraestructura de {{site.data.keyword.BluSoftlayer}} valida la respuesta de SAML 2.0.
-6. El usuario inicia sesión en el portal del cliente de infraestructura de {{site.data.keyword.BluSoftlayer}} en función de la configuración de confianza entre el proveedor de identidad y la infraestructura de {{site.data.keyword.BluSoftlayer}}.
+6. El usuario inicia sesión en el portal de clientes de infraestructura de {{site.data.keyword.BluSoftlayer}} en función de la configuración de confianza entre el proveedor de identidad y la infraestructura de {{site.data.keyword.BluSoftlayer}}.
 
 
 ## Creación de usuarios en el proveedor de identidad
@@ -100,7 +100,7 @@ El siguiente flujo de ejemplo muestra cómo podría funcionar la autenticación 
 3. El proveedor de identidad devuelve respuestas de SAML 2.0.
 4. El proveedor de identidad envía una respuesta SAML 2.0 al proveedor de servicios, en este caso la infraestructura de {{site.data.keyword.BluSoftlayer}}, para autenticar el rol de usuario.
 5. La infraestructura de {{site.data.keyword.BluSoftlayer}} valida la respuesta de SAML 2.0.
-6. La infraestructura de {{site.data.keyword.BluSoftlayer}} redirige al usuario al portal de cliente.
-7. El usuario se registra en el portal de cliente de infraestructura de {{site.data.keyword.BluSoftlayer}}.
+6. La infraestructura de {{site.data.keyword.BluSoftlayer}} redirige al usuario al portal de clientes.
+7. El usuario se registra en el portal de clientes de infraestructura de {{site.data.keyword.BluSoftlayer}}.
 
 Revise los procedimientos del proveedor de identidad para establecer nuevos roles y asociarlos con la infraestructura de {{site.data.keyword.BluSoftlayer}}.

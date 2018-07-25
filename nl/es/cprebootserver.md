@@ -21,7 +21,7 @@ A veces, los sucesos se producen en la infraestructura de {{site.data.keyword.Bl
 {:shortdesc}
 
 Efectúe los pasos siguientes para rearrancar el servidor:
-1. Desde el portal del cliente, pulse el separador **Soporte**.
+1. Desde el portal de clientes, pulse el separador **Soporte**.
 2. Pulse **Rearrancar**.
 3. Seleccione el servidor que se rearrancará y pulse **Rearrancar**.
 4. Seleccione uno de los métodos siguientes para rearrancar el servidor:

@@ -18,17 +18,17 @@ lastupdated: "2018-02-09"
 # API de SoftLayer
 {: #customerportal_api}
 
-Puede utilizar la API para interactuar con su cuenta, productos y servicios mediante llamadas de API directas en un entorno de desarrollo en lugar de utilizar el portal del cliente.
+Puede utilizar la API para interactuar con su cuenta, productos y servicios mediante llamadas de API directas en un entorno de desarrollo en lugar de utilizar el portal de clientes.
 {:shortdesc}
 
-El objetivo de la API es proporcionar un entorno donde puede completar cualquier tarea del portal del cliente en la API. El entorno de API se mantiene con adiciones y actualizaciones frecuentes para asegurarse de que tiene las mejores opciones disponibles, incluyendo la capacidad de programar en una variedad de idiomas y opciones para utilizar SOAP, XML-RPC y API basadas en REST. De forma similar a trabajar en el portal del cliente, si se hacen principalmente interacciones de cuenta en la API, necesita una fuente viable para el soporte también.
+El objetivo de la API es proporcionar un entorno donde puede completar cualquier tarea del portal de clientes en la API. El entorno de API se mantiene con adiciones y actualizaciones frecuentes para asegurarse de que tiene las mejores opciones disponibles, incluyendo la capacidad de programar en una variedad de idiomas y opciones para utilizar SOAP, XML-RPC y API basadas en REST. De forma similar a trabajar en el portal de clientes, si se hacen principalmente interacciones de cuenta en la API, necesita una fuente viable para el soporte también.
 
 ## ¿Cómo accedo a la API?
 {: #cp_getapikey}
 
 Puede acceder a la API con una clave de API específica de usuario. Las claves de API son identificadores alfanuméricos exclusivos que permiten acceder de forma segura a la API. La clave de API está enlazada específicamente el ID de usuario y proporciona los mismos permisos en la API que los que se tienen en el Portal de clientes. La clave de API solo se genera una vez y se puede recuperar y seguir utilizando. Efectúe los pasos siguientes para generar la clave de API:
 
-1. Acceda al portal del cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Usuarios** en la barra de navegación.
 3. Bajo la columna **CLAVE DE API** de la fila con las credenciales de usuario, pulse el enlace **Generar**.
 

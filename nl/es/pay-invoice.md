@@ -18,7 +18,7 @@ lastupdated: "2018-05-30"
 # Efectuar un pago
 {: #customerportal_makepayment}
 
-Todos los detalles de facturación de la infraestructura de {{site.data.keyword.Bluemix}}, desde facturas a información de pago, están almacenados de forma segura en el portal del cliente. Si cambia su método de pago, o si se cancela o caduca su tarjeta de crédito, actualice la información de pago para evitar cargos por retraso.
+Todos los detalles de facturación de la infraestructura de {{site.data.keyword.Bluemix}}, desde facturas a información de pago, están almacenados de forma segura en el portal de clientes. Si cambia su método de pago, o si se cancela o caduca su tarjeta de crédito, actualice la información de pago para evitar cargos por retraso.
 {:shortdesc}
 
 ## Visualización de la factura
@@ -45,14 +45,14 @@ También puede ver un resumen de facturación de la cuenta, incluida la informac
   * Fechas de las últimas y de las próximas facturas recurrentes
 
 1. Pulse **Cuenta** > **Facturación** > **Facturas** en el menú.
-2. Puede ver la factura en el portal del cliente o descargarla.
+2. Puede ver la factura en el portal de clientes o descargarla.
 
-Si está viendo la factura en el portal del cliente, se mostrará una lista detallada de elementos de facturación para la factura seleccionada. Pulse en cualquier lugar de la línea para un elemento de facturación para ver más detalles sobre el cargo. Si ha descargado la factura, podrá verla en función de los valores del navegador. Las facturas descargadas proporcionan una factura de resumen desglosada y una factura detallada desglosada para cada elemento de facturación.
+Si está viendo la factura en el portal de clientes, se mostrará una lista detallada de elementos de facturación para la factura seleccionada. Pulse en cualquier lugar de la línea para un elemento de facturación para ver más detalles sobre el cargo. Si ha descargado la factura, podrá verla en función de los valores del navegador. Las facturas descargadas proporcionan una factura de resumen desglosada y una factura detallada desglosada para cada elemento de facturación.
 
 ## Adición de un método de pago
 {: #cp_cpmanacctbillpay}
 
-Es obligatorio que cada cuenta de SoftLayer tenga una tarjeta de crédito registrada a la que se le cargue automáticamente la cantidad de la factura cada mes. Esta información debe estar siempre actualizada para evitar pagos atrasados; puede actualizarla en cualquier momento para garantizar que la información de pago sea siempre precisa. Si la información de la tarjeta de crédito registrada es correcta pero se debe aplicar una forma de pago alternativa al saldo actual, consulte [Realizar un pago único](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment). Utilice los pasos siguientes para añadir un método de pago para una cuenta en el portal del cliente.
+Es obligatorio que cada cuenta de SoftLayer tenga una tarjeta de crédito registrada a la que se le cargue automáticamente la cantidad de la factura cada mes. Esta información debe estar siempre actualizada para evitar pagos atrasados; puede actualizarla en cualquier momento para garantizar que la información de pago sea siempre precisa. Si la información de la tarjeta de crédito registrada es correcta pero se debe aplicar una forma de pago alternativa al saldo actual, consulte [Realizar un pago único](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment). Utilice los pasos siguientes para añadir un método de pago para una cuenta en el portal de clientes.
 
 1. Pulse **Cuenta** > **Facturación** > **Método de pago** en el menú.
 2. Especifique los detalles de facturación necesarios para la tarjeta en cada campo de la sección **Dirección de facturación**.
@@ -68,7 +68,7 @@ Después de añadir el método de pago, la solicitud será procesada por los rep
 
 Puede realizar pagos únicos utilizando una cuenta de PayPal o una tarjeta de crédito principal y puede realizar pagos para un saldo completo o parcial. Los detalles de los pagos puntuales no se registran para su uso futuro y no modifican los métodos de pago mensuales actuales para la cuenta.
 
-1. Vaya a la página Realizar un pago único en el portal del cliente.
+1. Vaya a la página Realizar un pago único en el portal de clientes.
  * Desde el menú: Vaya a **Cuenta** > **Realizar un pago**.
  * Desde la página Facturas: Pulse **Pagar saldo**.
 2. Especifique el importe de pago en el campo **Importe de pago**.

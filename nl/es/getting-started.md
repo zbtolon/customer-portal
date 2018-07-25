@@ -24,7 +24,7 @@ En esta guía de aprendizaje, le guiaremos por el proceso de ejecución y uso de
 ## Antes de empezar
 {: #prereqs}
 
-Necesitará una [cuenta de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.bluemix.net/){:new_window}. Inicie sesión en el portal del cliente con sus credenciales de IBMid. La mayoría de los usuarios nuevos utilizan [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) para su autenticación.
+Necesitará una [cuenta de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.bluemix.net/){:new_window}. Inicie sesión en el portal de clientes con sus credenciales de IBMid. La mayoría de los usuarios nuevos utilizan [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) para su autenticación.
 
 Si no utiliza un IBMid para la autenticación para iniciar sesión en la cuenta, inicie sesión en el portal de clientes con sus credenciales exclusivas de infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
@@ -55,7 +55,7 @@ La red privada de la infraestructura de {{site.data.keyword.Bluemix_notm}} se of
   * Accesibilidad del sistema frontal a los servidores de base de datos
   * Acceso y gestión seguros a sus sistemas
 
-Para habilitar el acceso de usuario a la red privada, edite el acceso VPN en el portal del cliente:
+Para habilitar el acceso de usuario a la red privada, edite el acceso VPN en el portal de clientes:
   1. Seleccione **Cuenta** > **Acceso VPN** desde la barra de menús.  
   2. Pulse el enlace en la columna Acceso a VPN.
   3. Seleccione una opción desde el menú **Tipo de VPN** y pulse **Guardar**.  
@@ -70,7 +70,7 @@ Para obtener más información sobre cómo utilizar una conexión VPN, consulte 
 
 Para obtener una notificación sobre los problemas del sistema que pueden producirse y sobre los sucesos de mantenimiento planificados, puede suscribirse a notificaciones mediante el Event Management System. Al crear una cuenta o si se le ha añadido a una, se cancelará su suscripción a las notificaciones de forma predeterminada.
 
-Acceda al Event Management System en el portal del cliente para elegir a qué notificaciones desea suscribirse:
+Acceda al Event Management System en el portal de clientes para elegir a qué notificaciones desea suscribirse:
   1. Seleccione **Cuenta** > **Gestionar** > **Suscripciones** en la barra de menús.
   2. Pulse una suscripción específica de la lista.
   3. Marque el recuadro de selección **Sí** en la columna Suscrito.

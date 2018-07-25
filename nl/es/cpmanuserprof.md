@@ -18,7 +18,7 @@ lastupdated: "2018-05-22"
 # Gestión de un perfil de usuario
 {: #customerportal_accuserprof}
 
-En el portal del cliente, un perfil de usuario contiene una serie de datos sobre el usuario, incluida la información de contacto y la clave de API. También es la ubicación en la que se almacenan las contraseñas. Si tiene acceso administrativo, puede cambiar los permisos y el acceso de dispositivo del perfil.
+En el portal de clientes, un perfil de usuario contiene una serie de datos sobre el usuario, incluida la información de contacto y la clave de API. También es la ubicación en la que se almacenan las contraseñas. Si tiene acceso administrativo, puede cambiar los permisos y el acceso de dispositivo del perfil.
 {:shortdesc}
 
 En el perfil de usuario, puede gestionar la información de contacto y las contraseñas, ver claves de API y actualizar permisos y acceso de dispositivo en función de sus permisos.
@@ -26,9 +26,9 @@ En el perfil de usuario, puede gestionar la información de contacto y las contr
 ## Edición de un perfil de usuario
 {: #cp_edituserprofile}
 
-Después de crear un perfil de usuario en el portal de cliente, puede editarlo en cualquier momento. Los detalles asociados con el perfil de usuario incluyen información personal, valores de inicio de sesión, detalles de acceso a la API, suscripciones de notificación de usuario y preguntas de seguridad. Utilice los pasos siguientes para editar un perfil de usuario.
+Después de crear un perfil de usuario en el portal de clientes, puede editarlo en cualquier momento. Los detalles asociados con el perfil de usuario incluyen información personal, valores de inicio de sesión, detalles de acceso a la API, suscripciones de notificación de usuario y preguntas de seguridad. Utilice los pasos siguientes para editar un perfil de usuario.
 
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta > Usuarios** en la barra de navegación.
 3. Pulse el nombre de usuario para acceder al perfil de usuario asociado para dicho usuario.
 4. Edite los detalles del **Perfil de usuario** como sea necesario. Para los usuarios de las cuentas que utilizan IBMid para la autenticación, actualice su correo electrónico y contraseña en su perfil de IBMid. Consulte la Tabla 1 para obtener más información.
@@ -46,11 +46,11 @@ Después de crear un perfil de usuario en el portal de cliente, puede editarlo e
 
 |Campo|Definición|
 |-----|----------|
-| Restringir acceso a IP | Dirección IP para restringir el acceso al intentar utilizar el portal del cliente en el perfil de usuario asociado. |
+| Restringir acceso a IP | Dirección IP para restringir el acceso al intentar utilizar el portal de clientes en el perfil de usuario asociado. |
 | Caducidad de la contraseña en (solo para los usuarios de cuentas que NO utilicen IBMid para la autenticación) | Cantidad de tiempo que una contraseña debe estar asociada con el perfil de usuario antes de que se deba seleccionar una nueva contraseña. |
 | Usuario padre | Cuenta de usuario que se considera el usuario padre del perfil de usuario. El usuario padre predeterminado es el ID de cuenta primario. |
 | ¿Necesita preguntas de seguridad? | Seleccione este recuadro de selección cuando deban ser necesarias preguntas de seguridad durante el inicio de sesión. Si se marca este recuadro, serán necesarias preguntas de seguridad para el perfil de usuario. |
-| Contraseña de VPN | Contraseña que se utilizará para acceder a VPN. Pulse el recuadro de selección **Utilizar contraseña del portal para VPN** para utilizar la contraseña del portal del cliente para acceder a la red de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} mediante VPN. |
+| Contraseña de VPN | Contraseña que se utilizará para acceder a VPN. Pulse el recuadro de selección **Utilizar contraseña del portal para VPN** para utilizar la contraseña del portal de clientes para acceder a la red de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} mediante VPN. |
 {: caption="Tabla 2. Iniciar sesión con valores de configuración para editar un perfil de usuario" caption-side="top"}
 
 |Sección|Campo|Definición|
@@ -64,14 +64,14 @@ Después de enviar las ediciones a un perfil de usuario, los cambios se aplicar�
 
 Consulte [Conmutar a IBMid](/docs/account/softlayerlink.html#switching-to-ibmid) para obtener más información sobre la configuración de una cuenta de IBMid.
 
-## Edición de los permisos de portal de cliente del usuario
+## Edición de los permisos de portal de clientes del usuario
 {: #cp_editusercpperm}
 
-Los permisos de usuario en el portal de cliente los configura el administrador de la cuenta cuando se añade el usuario y un usuario autorizado los puede editar en cualquier momento. Puede ver su propio perfil de usuario y, si es un usuario administrativo, algunos campos de los perfiles de usuario para los usuarios que añada. Los permisos se dividen en cinco separadores: soporte, dispositivos, red, servicios y cuenta. Puede actualizar los permisos para un usuario a la vez y debe guardar los cambios para que pasen a estar activos.
+Los permisos de usuario en el portal de clientes los configura el administrador de la cuenta cuando se añade el usuario y un usuario autorizado los puede editar en cualquier momento. Puede ver su propio perfil de usuario y, si es un usuario administrativo, algunos campos de los perfiles de usuario para los usuarios que añada. Los permisos se dividen en cinco separadores: soporte, dispositivos, red, servicios y cuenta. Puede actualizar los permisos para un usuario a la vez y debe guardar los cambios para que pasen a estar activos.
 
-Efectúe los pasos siguientes para editar los permisos de portal de cliente de un usuario.
+Efectúe los pasos siguientes para editar los permisos de portal de clientes de un usuario.
 
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta > Usuarios** en la barra de navegación.
 3. Pulse el nombre de usuario del usuario para acceder al perfil de usuario.
 4. Pulse el icono **Permisos** para acceder a la ventana Permisos.
@@ -90,18 +90,18 @@ Los permisos de usuario se actualizan inmediatamente después de enviar los camb
 ## Adición de autenticación externa para un usuario
 {: #cp_addextauthuser}
 
-Desde el portal del cliente, puede activar la autenticación externa de dos factores (2FA) para añadir protección al iniciar sesión en el portal. Esta capa extra de seguridad protege la cuenta de acceso no verificado, garantizando que los dispositivos, los datos y la información de cuenta estén protegidos. Consulte [Configuración de la autenticación de dos factores](/docs/customer-portal/cpenable2fa.html#customerportal_2fa) para obtener más información.
+Desde el portal de clientes, puede activar la autenticación externa de dos factores (2FA) para añadir protección al iniciar sesión en el portal. Esta capa extra de seguridad protege la cuenta de acceso no verificado, garantizando que los dispositivos, los datos y la información de cuenta estén protegidos. Consulte [Configuración de la autenticación de dos factores](/docs/customer-portal/cpenable2fa.html#customerportal_2fa) para obtener más información.
 
 
 ## Cambio del estado de un usuario
 {: #cp_changeuserstat}
 
-Su estado en el portal de cliente determinará su accesibilidad al portal del cliente. Entre las categorías de estado que puede actualizar en la cuenta se encuentran Activo, Inhabilitado y Solo VPN. El estado puede ser modificado por diversas razones y el estado se puede actualizar en cualquier momento. Entre las categorías de estado del cliente se incluyen aquellas que los usuarios pueden actualizar y aquellas actualizadas automáticamente. Incluyen lo siguiente:
+Su estado en el portal de clientes determinará su accesibilidad al portal de clientes. Entre las categorías de estado que puede actualizar en la cuenta se encuentran Activo, Inhabilitado y Solo VPN. El estado puede ser modificado por diversas razones y el estado se puede actualizar en cualquier momento. Entre las categorías de estado del cliente se incluyen aquellas que los usuarios pueden actualizar y aquellas actualizadas automáticamente. Incluyen lo siguiente:
 <dl>
 <dt>Activo</dt>
-<dd>El usuario tiene acceso completo al portal del cliente y a VPN basado en permisos establecidos por el administrador de la cuenta. Este estado se puede seleccionar o modificar manualmente en cualquier momento.</dd>
+<dd>El usuario tiene acceso completo al portal de clientes y a VPN basado en permisos establecidos por el administrador de la cuenta. Este estado se puede seleccionar o modificar manualmente en cualquier momento.</dd>
 <dt>Inhabilitado</dt>
-<dd>El usuario no tiene acceso a ningún permiso ni suscripción en la cuenta, incluido el portal del cliente y VPN. Si otro usuario de la cuenta establece la categoría de estado en inhabilitado, este estado puede ser seleccionado manualmente o cambiado en cualquier momento.</dd>
+<dd>El usuario no tiene acceso a ningún permiso ni suscripción en la cuenta, incluido el portal de clientes y VPN. Si otro usuario de la cuenta establece la categoría de estado en inhabilitado, este estado puede ser seleccionado manualmente o cambiado en cualquier momento.</dd>
 <dt>Solo VPN</dt>
 <dd>El usuario tiene acceso completo a la conectividad de VPN, en función de su conjunto de permisos, pero no puede acceder al portal de clientes. Este estado se puede seleccionar o modificar manualmente en cualquier momento.</dd>
 <dt>Inactivo</dt>
@@ -110,9 +110,9 @@ Su estado en el portal de cliente determinará su accesibilidad al portal del cl
 <dd>Un administrador de la cuenta ha cancelado a este usuario y la cancelación se está procesando en este momento. Este es un estado generado por el sistema.</dd>
 </dl>
 
-Efectúe los pasos siguientes para cambiar el estado de un usuario en el portal del cliente.
+Efectúe los pasos siguientes para cambiar el estado de un usuario en el portal de clientes.
 
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Usuarios** en la barra de navegación.
 3. Seleccione **Cambiar estado de usuario** en la lista **Acciones**.
 4. En la lista **Estado**, seleccione el estado adecuado según las definiciones de la lista anterior.
@@ -126,7 +126,7 @@ Después de actualizar el estado de un usuario, los cambios en la accesibilidad 
 
 Cuando [se añade un usuario nuevo](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct) a una cuenta de portal de clientes, se selecciona el acceso VPN desde diversos métodos de conexión, incluidos SSL, PPTP, o una combinación de ambos. Con el acceso VPN, se puede acceder a la red privada en su totalidad o el acceso a la red se puede limitar a una o varias subredes específicas. Puede gestionar y actualizar el acceso a VPN en cualquier momento desde la ventana Usuarios. Efectúe los pasos siguientes para editar el acceso VPN de un usuario.
 
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Acceso VPN** en la barra de navegación.
 3. En la columna **Acceso VPN** para el usuario, pulse el enlace del tipo de acceso VPN actual para visualizar la ventana Acceso VPN.
 4. En la lista **Tipo de VPN**, seleccione un método VPN (SSL, PPTP, SSL y PPTP, o ninguno) para asignar el usuario.
@@ -144,7 +144,7 @@ Puede activar PPTP VPN para formar un túnel seguro en la red privada de la infr
 
 Se le asignará una conexión PPTP con conexiones extra disponibles. Puede solicitar soporte para permitir acceso ilimitado a PPTP, que está disponible sin coste extra. Utilice los pasos siguientes para activar o desactivar el acceso PPTP VPN:
 
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Acceso VPN** desde la barra de menús.
 3. En la columna **Acceso VPN** para el usuario, pulse el enlace del tipo de acceso VPN actual para visualizar la ventana Acceso VPN.
 4. En la lista **Tipo de VPN**, seleccione un método VPN (SSL, PPTP, SSL y PPTP, o ninguno) para asignar el usuario.
@@ -154,7 +154,7 @@ Se le asignará una conexión PPTP con conexiones extra disponibles. Puede solic
 {: #cp_select-email-notifications}
 
 Puede seleccionar las notificaciones de correo electrónico que desea recibir de la infraestructura {{site.data.keyword.BluSoftlayer_notm}} y las que no. De forma predeterminada, recibirá todas las notificaciones de correo electrónico pero no podrá cambiarlas siempre que lo desee. Para cambiar los valores de las notificaciones de correo electrónico, siga los pasos siguientes:
-1. Acceda al portal de cliente utilizando las credenciales exclusivas de la cuenta asociada con la dirección de correo electrónico que recibe notificaciones.
+1. Acceda al portal de clientes utilizando las credenciales exclusivas de la cuenta asociada con la dirección de correo electrónico que recibe notificaciones.
 2. Pulse **Cuenta** > **Usuarios** > **Preferencias de correo electrónico** en la barra de menús.
 3. En la lista de tipos de notificaciones, desmarque las notificaciones que ya no desea recibir.
 
@@ -165,7 +165,7 @@ Los cambios se han guardado de forma automática. Estos valores afectan a los co
 {: #cp_seteusupported}
 
 Puede indicar que desea soporte exclusivamente de un equipo de soporte ubicado físicamente en la Unión Europea (UE). Puede seleccionar esta opción al configurar su cuenta o al actualizar la cuenta existente. Para establecer la opción **Soporte en la UE**, siga estos pasos:
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Pulse **Cuenta** > **Gestionar** > **Perfil de la empresa** desde la barra de menús.
 3. Marque el recuadro de selección **Soporte en la UE**.
 4. Pulse **Solicitar actualización del perfil**.

@@ -18,19 +18,19 @@ lastupdated: "2018-05-17"
 # Obtención de soporte para la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}
 {: #customerportal_support}
 
-Si tiene problemas con la infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta enlazada, puede obtener ayuda para determinar la causa del problema y encontrar una solución utilizando el portal del cliente.
+Si tiene problemas con la infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta enlazada, puede obtener ayuda para determinar la causa del problema y encontrar una solución utilizando el portal de clientes.
 {:shortdesc}
 
 Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix_notm}}. Consulte [Obtención de soporte al cliente](/docs/get-support/howtogetsupport.html) para obtener más información.
 
-Si no tiene una cuenta enlazada, puede abrir incidencias de soporte en el portal del cliente de infraestructura de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos o para obtener ayuda con problemas relacionados con su cuenta.
+Si no tiene una cuenta enlazada, puede abrir incidencias de soporte en el portal de clientes de infraestructura de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos o para obtener ayuda con problemas relacionados con su cuenta.
 
 ## Creación de una incidencia de soporte técnico genérico
 {: #cp_creatsuptickwsp}
 
-Siga los siguientes pasos para abrir incidencias de soporte de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos en el portal del cliente:
+Siga los siguientes pasos para abrir incidencias de soporte de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos en el portal de clientes:
 
-1. Inicie sesión en el [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
+1. Inicie sesión en el [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Soporte** > **Añadir incidencia** en el menú.
 3. Seleccione la categoría que mejor se ajuste al motivo por el que abrir una incidencia de la lista **Asunto**.
 4. Seleccione el nombre de usuario en la lista **Asignar a**.<br/>
@@ -71,9 +71,9 @@ Después de añadir una incidencia, se direccionará al miembro apropiado del eq
 ## Creación de una incidencia para problemas con las cuentas
 {: #cp_creatacctsuptickwsp}
 
-Puede abrir incidencias de infraestructura de {{site.data.keyword.BluSoftlayer_full}} para obtener ayuda con problemas relacionados con su cuenta en el portal del cliente de forma parecida en la que abre una incidencia para problemas de soporte técnico genéricos, pero con una diferencia importante.  
+Puede abrir incidencias de infraestructura de {{site.data.keyword.BluSoftlayer_full}} para obtener ayuda con problemas relacionados con su cuenta en el portal de clientes de forma parecida en la que abre una incidencia para problemas de soporte técnico genéricos, pero con una diferencia importante.  
 
-Después de iniciar una sesión en el [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} y seleccionar **Soporte** > **Añadir incidencia**, debe asegurarse de que la incidencia se dirige al equipo de soporte adecuado y que se resuelva con rapidez. Para dirigir la incidencia correctamente para manejar los problemas de cuenta, en la lista de **Asunto**, seleccione **Solicitud de cuenta**.
+Después de iniciar una sesión en el [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} y seleccionar **Soporte** > **Añadir incidencia**, debe asegurarse de que la incidencia se dirige al equipo de soporte adecuado y que se resuelva con rapidez. Para dirigir la incidencia correctamente para manejar los problemas de cuenta, en la lista de **Asunto**, seleccione **Solicitud de cuenta**.
 
 Complete el resto de la información de la incidencia tal como lo haría al crear una incidencia para un problema de soporte técnico genérico y envíe dicha incidencia. Con el **Asunto** establecido en **Solicitud de cuenta**, la incidencia se asigna el equipo de soporte adecuado para que le ayuda a resolver el problema con rapidez.
 
@@ -82,7 +82,7 @@ Complete el resto de la información de la incidencia tal como lo haría al crea
 
 Después de añadir una incidencia, podrá verla en cualquier momento desde la ventana **Incidencias**. Puede ver todos los detalles en relación con la incidencia y su historial. Efectúe los pasos siguientes para ver una incidencia existente.
 
-1. Acceda al [Portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
+1. Acceda al [Portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Soporte** > **Incidencias** en el menú.
 3. Seleccione el estado de la incidencia en el menú desplegable para filtrar la vista.
 4. Pulse el número de incidencia para ver los detalles de la incidencia.
@@ -92,7 +92,7 @@ Después de añadir una incidencia, podrá verla en cualquier momento desde la v
 
 Puede actualizar una incidencia de soporte existente en cualquier momento para que incluya comentarios o archivos adjuntos adicionales y también puede asignarla a otro usuario de la cuenta. Puede que necesite añadir comentarios o archivos adjuntos para ayudar al equipo de soporte con la resolución del problema. Efectúe los pasos siguientes para actualizar una incidencia existente.
 
-1. Acceda al [Portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
+1. Acceda al [Portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Soporte** > **Incidencias** en el menú.
 3. Seleccione el estado de la incidencia en el menú desplegable para filtrar la vista.
 4. Pulse el número de incidencia para ver los detalles de la incidencia.

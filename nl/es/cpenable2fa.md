@@ -18,10 +18,10 @@ lastupdated: "2018-05-22"
 # Configuración de la autenticación de dos factores
 {: #customerportal_2fa}
 
-En el portal del cliente, se puede activar la autenticación externa de dos factores (2FA) para añadir protección extra al iniciar sesión en el portal. Esta capa extra de seguridad protege la cuenta de acceso no verificado, garantizando que los dispositivos, los datos y la información de cuenta estén protegidos.
+En el portal de clientes, se puede activar la autenticación externa de dos factores (2FA) para añadir protección extra al iniciar sesión en el portal. Esta capa extra de seguridad protege la cuenta de acceso no verificado, garantizando que los dispositivos, los datos y la información de cuenta estén protegidos.
 {:shortdesc}
 
-Si habilita la 2FA en el portal de cliente para su cuenta existente de SoftLayer, se le pedirá que especifique el código de seguridad cuando inicie sesión en la consola de {{site.data.keyword.Bluemix_notm}}. Sin embargo, la 2FA se aplica solo a los recursos de infraestructura en su cuenta de {{site.data.keyword.Bluemix_notm}}. Por lo tanto, puede realizar varias acciones en los recursos de su cuenta de {{site.data.keyword.Bluemix_notm}} sin llevar a cabo la 2FA.
+Si habilita la 2FA en el portal de clientes para su cuenta existente de SoftLayer, se le pedirá que especifique el código de seguridad cuando inicie sesión en la consola de {{site.data.keyword.Bluemix_notm}}. Sin embargo, la 2FA se aplica solo a los recursos de infraestructura en su cuenta de {{site.data.keyword.Bluemix_notm}}. Por lo tanto, puede realizar varias acciones en los recursos de su cuenta de {{site.data.keyword.Bluemix_notm}} sin llevar a cabo la 2FA.
 
 2FA de la cuenta de SoftLayer no es por IBMid. Sigue siendo por cuenta. Cuando un IBMid está asociado con varias cuentas, y cambia entre ellas, debe confirmar su identidad cada vez que cambie a una cuenta distinta. Debe confirmar su identidad al cambiar entre cuentas, incluso si la cuenta anterior y la cuenta nueva están configuradas con el mismo mecanismo de 2FA.
 
@@ -29,15 +29,15 @@ Si habilita la 2FA en el portal de cliente para su cuenta existente de SoftLayer
 
 La autenticación 2FA está disponible de dos formas. Es posible añadir ambos métodos de la autenticación externa por usuario por una pequeña tarifa mensual:
 
-* Symantec Identify Protection es la herramienta de autenticación externa más comúnmente utilizada, que proporciona un código de seguridad dinámico que se utiliza además del nombre de usuario y de la contraseña al acceder al Portal del cliente.
-* La autenticación de proporciona autenticación fuera de banda con una llamada telefónica, un SMS o una app para móvil.
+* Symantec Identify Protection es la herramienta de autenticación externa más comúnmente utilizada, que proporciona un código de seguridad dinámico que se utiliza además del nombre de usuario y de la contraseña al acceder al Portal de clientes.
+* La autenticación de proporciona autenticación fuera de banda con una llamada telefónica, un SMS o una app móvil.
 
  Si dispone de una cuenta enlazada, puede aprovechar la configuración de la autenticación de multifactores (MFA) [habilitando la autenticación de multifactores](/docs/iam/mfa.html) para su cuenta de {{site.data.keyword.Bluemix_notm}}.
  {: tip}
 
 Para configura la autenticación 2FA, complete los pasos siguientes:
 
-1. Acceda a la pantalla **Usuarios** en el portal de cliente.
+1. Acceda a la pantalla **Usuarios** en el portal de clientes.
 2. Seleccione **Añadir autenticación externa** desde el menú **Acciones** para el usuario.
 3. Complete los pasos siguientes en función del tipo de autenticación externa que se solicite:
     * Si elige Symantec Identity Protection, seleccione **Symantec Identity Protection** y especifique el ID de credencial de usuario.
@@ -56,9 +56,9 @@ Después de añadir la autenticación externa para un usuario, los pasos siguien
 ### Activación de la autenticación de PhoneFactor
 {: #cp_actphonefacauth}
 
-Después de añadir PhoneFactor, debe activar manualmente la autenticación externa con PhoneFactor a través del portal del cliente. Puesto que PhoneFactor utiliza contacto manual, es importante asegurarse de que todos los números de teléfono que están asociados con la cuenta estén siempre actualizados. No mantener actualizada la información de contacto puede provocar que no se pueda acceder al portal de cliente ni a VPN cuando PhoneFactor esté activo. Cuando PhoneFactor se haya añadido correctamente, recibirá un correo electrónico para confirmar que se ha añadido PhoneFactor. Tras recibir el correo electrónico, efectúe los pasos siguientes para activar la autenticación de PhoneFactor.
+Después de añadir PhoneFactor, debe activar manualmente la autenticación externa con PhoneFactor a través del portal de clientes. Puesto que PhoneFactor utiliza contacto manual, es importante asegurarse de que todos los números de teléfono que están asociados con la cuenta estén siempre actualizados. No mantener actualizada la información de contacto puede provocar que no se pueda acceder al portal de clientes ni a VPN cuando PhoneFactor esté activo. Cuando PhoneFactor se haya añadido correctamente, recibirá un correo electrónico para confirmar que se ha añadido PhoneFactor. Tras recibir el correo electrónico, efectúe los pasos siguientes para activar la autenticación de PhoneFactor.
 
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta > Usuarios** en la barra de navegación.
 3. Pulse el nombre de usuario para acceder al perfil de usuario asociado para dicho usuario.
 4. Desplácese a la sección **Valores de PhoneFactor**.
@@ -81,9 +81,9 @@ Después de añadir PhoneFactor, debe activar manualmente la autenticación exte
 9. Si selecciona **Una vez** > **Valor de PIN**, escriba el PIN en el campo **Valor de PIN**.
 10. Pulse **Actualizar** para actualizar los cambios y activar la autenticación de PhoneFactor.
 
-Después de activar PhoneFactor, el portal de cliente o VPN necesita la autenticación a través de PhoneFactor. Después de autenticarse con las credenciales de usuario, un mensaje le indicará que se ha intentado dicha autenticación de PhoneFactor. Usted, o el usuario que está añadiendo, debe estar cerca del teléfono que está listado con PhoneFactor para completar la autenticación. PhoneFactor intentará autenticarse cinco veces. Tras cinco intentos de autenticación infructuosos, se le bloqueará durante aproximadamente una hora. Usted, o un usuario con acceso administrativo a la cuenta, puede cambiar los valores de autenticación de PhoneFactor en cualquier momento.  Usted, o un administrador de la cuenta, puede desactivar PhoneFactor en cualquier momento.
+Después de activar PhoneFactor, el portal de clientes o VPN necesita la autenticación a través de PhoneFactor. Después de autenticarse con las credenciales de usuario, un mensaje le indicará que se ha intentado dicha autenticación de PhoneFactor. Usted, o el usuario que está añadiendo, debe estar cerca del teléfono que está listado con PhoneFactor para completar la autenticación. PhoneFactor intentará autenticarse cinco veces. Tras cinco intentos de autenticación infructuosos, se le bloqueará durante aproximadamente una hora. Usted, o un usuario con acceso administrativo a la cuenta, puede cambiar los valores de autenticación de PhoneFactor en cualquier momento.  Usted, o un administrador de la cuenta, puede desactivar PhoneFactor en cualquier momento.
 
- Si elige configurar PhoneFactor para el portal de cliente y el inicio de sesión de la VPN, el resultado es dos procesos de inicio de sesión de 2FA independientes, uno para el portal de clientes y otro para VPN.
+ Si elige configurar PhoneFactor para el portal de clientes y el inicio de sesión de la VPN, el resultado es dos procesos de inicio de sesión de 2FA independientes, uno para el portal de clientes y otro para VPN.
  {: tip}
 
 #### Métodos de autenticación de PhoneFactor
@@ -95,7 +95,7 @@ Si configura PhoneFactor como el tipo de autenticación, podrá elegir una de la
 <dt>Llamada de teléfono y estándar (sin pin)</dt>
 <dd>Con esta opción habilitada, cuando inicie la sesión en el portal, recibirá una llamada de teléfono en el número principal habilitado. Cuando responda a la llamada, se le indicará que pulse la tecla # para completar la autenticación.</dd>
 <dt>Llamada de teléfono con pin</dt>
-<dd>Con esta opción seleccionada, escriba un valor de pin en el portal de cliente. El pin debe tener entre 4 y 8 números. Cuando intente iniciar sesión en el portal, recibirá una llamada en el número principal listado en el portal. Cuando conteste, se le indicará que escriba su número de pin seguido de # para completar la autenticación.</dd>
+<dd>Con esta opción seleccionada, escriba un valor de pin en el portal de clientes. El pin debe tener entre 4 y 8 números. Cuando intente iniciar sesión en el portal, recibirá una llamada en el número principal listado en el portal. Cuando conteste, se le indicará que escriba su número de pin seguido de # para completar la autenticación.</dd>
 <dt>SMS y pin puntual</dt>
 <dd>Con esta opción seleccionada, recibirá un mensaje de texto con un pin que utilizará para responder al mensaje. Cuando escriba el pin proporcionado, se completará el proceso de autenticación y le registrará en el portal.</dd>
 <dt>Texto SMS con valor puntual y pin</dt>

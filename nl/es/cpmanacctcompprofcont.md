@@ -24,11 +24,11 @@ Cada cuenta de SoftLayer tiene un perfil de empresa asociado que contiene la inf
 ## Actualización del perfil de la empresa
 {: #cp_updcompprof}
 
-La infraestructura de {{site.data.keyword.BluSoftlayer_full}} utiliza la información del perfil de la empresa para ponerse en contacto con usted. Si cambia el número de teléfono o el correo electrónico de contacto principal, asegúrese de actualizarlos. La información del perfil de la empresa se especifica en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} en el momento de creación de la cuenta y se puede encontrar en varios lugares del portal de cliente.
+La infraestructura de {{site.data.keyword.BluSoftlayer_full}} utiliza la información del perfil de la empresa para ponerse en contacto con usted. Si cambia el número de teléfono o el correo electrónico de contacto principal, asegúrese de actualizarlos. La información del perfil de la empresa se especifica en la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} en el momento de creación de la cuenta y se puede encontrar en varios lugares del portal de clientes.
 
 Puede cambiar el perfil de la empresa en cualquier momento enviando una solicitud de cambio. Los detalles asociados se verificarán y los cambios se actualizarán una vez que se validen. Efectúe los pasos siguientes para solicitar una actualización en el perfil de la empresa.
 
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Gestionar** > **Perfil de la empresa** desde el menú para acceder a la ventana Perfil de cuenta.
 3. Actualice los detalles en la sección **Información de la empresa** o **Titular de la cuenta principal**, o ambas.
 > **Nota:** La información del perfil de la cuenta se utiliza solo para fines internos y administrativos.
@@ -42,7 +42,7 @@ Después de solicitar una actualización del perfil de la empresa, un miembro de
 
 Mantenga la información sobre los contactos para su cuenta completos y actualizados en caso de que se necesite una consulta. Asegúrese de que los contactos de la cuenta sean las personas apropiadas con las que contactar para cada tipo de solicitud. Podría tener varias entradas de contacto para cada cuenta, pero solo un contacto para cada tipo de servicio. La información de contacto específica de la cuenta *no* incluye el perfil de cuenta, que es la información de contacto principal asociada con una cuenta. Utilice los pasos siguientes para añadir o editar un contacto de cuenta.
 
-1. Acceda al portal de cliente utilizando sus credenciales exclusivas.
+1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Gestionar** > **Contactos de la empresa** en el menú.
 3. Escriba o actualice la información de contacto para el **Tipo de contacto**.<br/>**Nota:** Asegúrese de proporcionar la información de contacto para la persona que debería recibir consultas sobre el tipo específico de contacto por el tipo de contacto. Verifique la información antes de realizar la actualización.
 4. Pulse **Guardar**.

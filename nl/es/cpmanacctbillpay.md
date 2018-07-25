@@ -18,13 +18,13 @@ lastupdated: "2018-05-25"
 # Gestión de los elementos de facturación
 {: #manage-billing}
 
-Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de cliente. Para gestionar la facturación y los pagos de la plataforma de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de facturación y uso](/docs/account/index.html).  
+Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de facturación y uso](/docs/account/index.html).  
 {:shortdesc}
 
 ## Acceso a los elementos de facturación
 {: #cp_accbillitems}
 
-Puede utilizar la ventana Gestionar elementos de facturación en el [portal de cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} para asociar elementos de facturación a dispositivos específicos y cancelar dichos elementos, cuando sea necesario.
+Puede utilizar la ventana Gestionar elementos de facturación en el [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} para asociar elementos de facturación a dispositivos específicos y cancelar dichos elementos, cuando sea necesario.
 
 La ventana Gestionar elementos de facturación muestra elementos de facturación asociados. Puede cambiar la vista seleccionando otra opción desde la lista desplegable **Visualizar**. Cuando esté viendo elementos de facturación, podrá cambiar los elementos de facturación no asociados a asociados, y elementos asociados a no asociados. Puede cambiar los elementos asociados y no asociados de forma individual, o para más de un elemento a la vez, utilizando la característica de Acciones masivas. Puede cancelar elementos de facturación individuales en cualquier momento desde la ventana Gestionar elementos de facturación.
 
@@ -39,7 +39,7 @@ Puede cancelar elementos de facturación directamente desde la ventana Gestionar
 Efectúe los pasos siguientes para cancelar un elemento de facturación.
 
 1. Realice una copia de seguridad de todos los datos que desee guardar para el servicio o solución que desee cancelar.
-2. Acceda al [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
+2. Acceda al [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 3. Seleccione **Cuenta** > **Facturación** > **Elementos de facturación** para acceder a la ventana Gestionar elementos de facturación.
 4. Seleccione **Cancelar elementos de facturación** desde la lista desplegable **Acciones** para cancelar el elemento de facturación.
 5. Seleccione la opción de cancelación para especificar la fecha de cancelación.
@@ -49,15 +49,15 @@ Efectúe los pasos siguientes para cancelar un elemento de facturación.
 8. Revise los **Términos de servicio** proporcionados en el aviso de cancelación y pulse el recuadro de selección **Reconocimiento**.
 9. Pulse **Cancelar servicio**.
 
-Después de confirmar la cancelación, comenzará el proceso de cancelación del elemento de facturación. Si ha solicitado una cancelación inmediata, el elemento de facturación se cancelará inmediatamente. Si ha solicitado una cancelación de aniversario de facturación, el elemento de facturación permanecerá activo hasta el siguiente aniversario de facturación. Tras su cancelación, el elemento de facturación ya no estará activo en el portal del cliente. Los elementos de facturación también se eliminarán de las facturas cuando todos los saldos pendientes, si los hay, se han pagado en el servicio o solución. No se realizan devoluciones por cancelaciones inmediatas.
+Después de confirmar la cancelación, comenzará el proceso de cancelación del elemento de facturación. Si ha solicitado una cancelación inmediata, el elemento de facturación se cancelará inmediatamente. Si ha solicitado una cancelación de aniversario de facturación, el elemento de facturación permanecerá activo hasta el siguiente aniversario de facturación. Tras su cancelación, el elemento de facturación ya no estará activo en el portal de clientes. Los elementos de facturación también se eliminarán de las facturas cuando todos los saldos pendientes, si los hay, se han pagado en el servicio o solución. No se realizan devoluciones por cancelaciones inmediatas.
 
 
 ## Asociación de elementos de facturación a un dispositivo
 {: #cp_assbillitem2device}
 
-Puede asociar elementos de facturación para cada cuenta a un dispositivo en la ventana Gestionar elementos de facturación del [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Puede asociar elementos únicos utilizando la lista desplegable **Acciones** para el elemento de facturación, o puede asociar varios elementos utilizando la lista desplegable **Acciones masivas**. Efectúe los pasos siguientes para asociar elementos de facturación a un dispositivo.
+Puede asociar elementos de facturación para cada cuenta a un dispositivo en la ventana Gestionar elementos de facturación del [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}. Puede asociar elementos únicos utilizando la lista desplegable **Acciones** para el elemento de facturación, o puede asociar varios elementos utilizando la lista desplegable **Acciones masivas**. Efectúe los pasos siguientes para asociar elementos de facturación a un dispositivo.
 
-1. Acceda al [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
+1. Acceda al [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Facturación** > **Elementos de facturación** para acceder a la ventana Gestionar elementos de facturación.
 3. Asocie un elemento de facturación único a un dispositivo o asocie varios elementos de facturación a un dispositivo:
   * Para asociar un único elemento de facturación, desde la lista **Acciones**, seleccione **Asociar dispositivo**.
@@ -70,9 +70,9 @@ Cuando finalice la solicitud, se producirá inmediatamente una asociación de el
 ## Eliminación de la asociación de dispositivos para elementos de facturación
 {: #cp_rembillitemdevice}
 
-Una vez que se hayan asociado los elementos de facturación para una cuenta a un dispositivo, puede eliminar la asociación en la ventana Gestionar elementos de facturación del portal de cliente. Puede eliminar la asociación para elementos únicos utilizando la lista desplegable **Acciones** para el elemento de facturación. Puede eliminar varias asociaciones de elementos utilizando la lista desplegable **Acciones masivas**. Efectúe los pasos siguientes para eliminar la asociación de dispositivos para elementos de facturación.
+Una vez que se hayan asociado los elementos de facturación para una cuenta a un dispositivo, puede eliminar la asociación en la ventana Gestionar elementos de facturación del portal de clientes. Puede eliminar la asociación para elementos únicos utilizando la lista desplegable **Acciones** para el elemento de facturación. Puede eliminar varias asociaciones de elementos utilizando la lista desplegable **Acciones masivas**. Efectúe los pasos siguientes para eliminar la asociación de dispositivos para elementos de facturación.
 
-1. Acceda al [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
+1. Acceda al [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Facturación** > **Elementos de facturación** para acceder a la ventana Gestionar elementos de facturación.
 3. Elimine una asociación para un elemento de facturación único o para varios elementos de facturación:
   * Para eliminar una asociación para un elemento de facturación único, desde la lista **Acciones**, seleccione **Eliminar asociación**.

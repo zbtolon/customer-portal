@@ -25,7 +25,7 @@ Al alojar una aplicación, dos de los aspectos más críticos a tener en cuenta 
 
 Utilice los cortafuegos de hardware disponibles para asegurarse de que el dispositivo esté siempre protegido. Puede suministrar cortafuegos de hardware a petición sin tiempo de inactividad, si las reglas están establecidas correctamente, para proteger el servidor ante actividad no deseada.
 
-Los cortafuegos son servicios complementarios para cualquier dispositivo que deba configurar y habilitar manualmente para asegurarse de que son efectivos. Puede bloquear los puertos superfluos e inhabilitar los puertos públicos para los sistemas basados en red privada para gestionar más la accesibilidad exterior a sus sistemas. Las exploraciones de vulnerabilidad regulares en el portal de cliente identifican cualquier riesgo de seguridad destacado o desconocido para poder mitigar los riesgos rápidamente.
+Los cortafuegos son servicios complementarios para cualquier dispositivo que deba configurar y habilitar manualmente para asegurarse de que son efectivos. Puede bloquear los puertos superfluos e inhabilitar los puertos públicos para los sistemas basados en red privada para gestionar más la accesibilidad exterior a sus sistemas. Las exploraciones de vulnerabilidad regulares en el portal de clientes identifican cualquier riesgo de seguridad destacado o desconocido para poder mitigar los riesgos rápidamente.
 
 Una vez que solicite el cortafuegos, debe habilitarlo y definir reglas.
 

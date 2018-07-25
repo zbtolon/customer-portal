@@ -26,7 +26,7 @@ Puede optimizar el uso de ancho de banda "agrupando" todo el ancho de banda junt
 
 Una vez que se cree una agrupación de ancho de banda, si es un usuario autorizado, puede acceder a la agrupación en cualquier momento. Acceda a la agrupación de ancho de banda para ver los dispositivos asociados con la agrupación, para añadir dispositivos a la agrupación, o para eliminar los dispositivos de la agrupación. Utilice los pasos siguientes para acceder a una agrupación:
 
-1. Inicie sesión en el portal del cliente con sus credenciales exclusivas.
+1. Inicie sesión en el portal de clientes con sus credenciales exclusivas.
 2. Seleccione **Red** > **Ancho de banda** > **Agrupaciones** desde el menú para acceder a la ventana Agrupaciones de ancho de banda.
 3. Pulse el **Nombre de agrupación** para acceder a la agrupación. Se mostrará cada dispositivo asociado con la agrupación.
 4. Desde el separador **Modificar**, puede renombrar la agrupación, añadir un servicio, o eliminar un dispositivo de la agrupación:
