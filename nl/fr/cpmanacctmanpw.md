@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 
 
-# Gestion du suivi des mots de passe
+# Gestion des mots de passe
 {: #customerportal_manpws}
 
 Si vous êtes utilisateur principal ou propriétaire d'un compte, vous pouvez activer le suivi des mots de passe, ainsi que configurer un mot de passe à usage unique pour le compte. Le suivi des mots de passe permet aux utilisateurs de stocker les données de mot de passe logiciel pour des appareils et leur logiciel associé.
@@ -28,7 +28,7 @@ Le portail client comporte un outil facultatif de [suivi des mots de passe ![Ic�
 
 Les équipes de support utilisent également le suivi des mots de passe si l'accès distant à un système est requis. Les noms d'utilisateur et mots de passe sont utilisés par le support uniquement si nécessaire et autorisé pour la résolution de ticket.
 
-Le suivi des mots de passe dans le portail client est facultatif. N'importe quel utilisateur disposant des droits appropriés peut voir tous les mots de passe stockés par cet outil. Les informations d'utilisateur et de mot de passe sont suivies manuellement de façon à ne pas être automatiquement synchronisées avec un appareil ou son logiciel. C'est pourquoi vous devez veiller à mettre à jour l'outil de suivi des mots de passe en même temps que vous mettez à jour les utilisateurs et les mots de passe sur l'appareil et le logiciel. Utilisez la procédure suivante pour ajouter un utilisateur à l'outil de suivi des mots de passe.
+Le suivi des mots de passe dans le portail client est facultatif. Tout utilisateur disposant des droits appropriés peut voir tous les mots de passe stockés par cet outil. Les informations d'utilisateur et de mot de passe sont suivies manuellement de façon à ne pas être automatiquement synchronisées avec un appareil ou son logiciel. C'est pourquoi vous devez veiller à mettre à jour l'outil de suivi des mots de passe en même temps que vous mettez à jour les utilisateurs et les mots de passe sur l'appareil et le logiciel. Utilisez la procédure suivante pour ajouter un utilisateur à l'outil de suivi des mots de passe.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Cliquez sur **Equipements** > **Gérer** > **Mots de passe** depuis le menu.
@@ -93,3 +93,28 @@ Procédez ensuite comme suit :
 11. Ouvrez l'application Verisign Identity Protection sur votre appareil préféré et indiquez le code affiché pour vous connecter.
 
 Sauvegardez vos données d'identification Verisign Identity Protection d'origine dans un emplacement sécurisé pour un usage futur. Sans ces données, vous ne pourrez pas accéder au portail.
+
+## Redéfinition de votre mot de passe
+{: #cp_reset-your-password}
+
+Le fait d'utiliser un IBMid pour la connexion à votre compte a des conséquences sur le mode de redéfinition de votre mot de passe.  
+
+### Redéfinition d'un mot de passe de compte IBMid
+{: #cp_reset-IBMid-password}
+
+Si vous utilisez IBMid pour l'authentification, pour redéfinir ou récupérer votre mot de passe, accédez à votre profil IBMid et suivez les instructions sous la section d'**ouverture de connexion**.
+
+### Redéfinition d'un mot de passe de compte
+{: #cp_reset-password}
+
+Si vous n'utilisez pas d'IBMid pour l'authentification de compte, procédez comme suit :
+
+1. Cliquez sur le lien de mot de passe perdu sur la page de connexion du [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.
+2. Lorsque vous y êtes invité, entrez votre nom d'utilisateur.
+3. Vérifiez dans votre messagerie si vous avez reçu un message incluant un lien de redéfinition de mot de passe. Ce lien est valide pendant 24 heures.
+4. Sélectionnez et répondez à trois questions de sécurité.
+
+Vous disposez de cinq tentatives pour répondre aux questions de sécurité. Si vous faites plus de cinq tentatives, le formulaire de redéfinition de mot de passe est verrouillé pendant 15 minutes avant que vous ne puissiez faire une nouvelle tentative.
+
+Pour plus d'informations sur l'utilisation des mots de passe VPN, voir [Mise à jour du mot de passe VPN d'un utilisateur ](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
+{: tip}
