@@ -106,7 +106,7 @@ Si ha seguido el asistente para cambiar a IBMid y no ha recibido el correo elect
 ## ¿Tendré acceso completo y acceso como usuario root a mi cuenta?
 {: #bicp_fullrootaccaccess}
 
-Los usuarios maestros, y aquellos con permisos de administrador, tienen acceso completo como usuario root a las cuentas del portal y de la API del cliente. Los usuarios sin permisos de administrador tienen la accesibilidad controlada por aquellos con roles de administración. Estos permisos los pueden actualizar administradores desde el portal de clientes [editando un perfil de usuario](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Sin permisos de administrador, puede editar el perfil de usuario en el portal de clientes pulsando su nombre de usuario en el panel superior.
+Los usuarios maestros, y aquellos con permisos de administrador, tienen acceso completo como usuario root a las cuentas del portal de clientes y de la API. Los usuarios sin permisos de administrador tienen la accesibilidad controlada por aquellos con roles de administración. Estos permisos los pueden actualizar administradores desde el portal de clientes [editando un perfil de usuario](/docs/customer-portal/cpmanuserprof.html#cp_edituserprofile). Sin permisos de administrador, puede editar el perfil de usuario en el portal de clientes pulsando su nombre de usuario en el panel superior.
 
 
 ## ¿Puedo enlazar una cuenta de suscripción de {{site.data.keyword.Bluemix_notm}}?
