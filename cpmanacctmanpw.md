@@ -18,13 +18,13 @@ lastupdated: "2018-08-13"
 # Managing passwords
 {: #customerportal_manpws}
 
-If you're a master user or the owner of an account, you can enable password tracking and set up a password for one-time access to the account. With  password tracking, users can store software password data for devices and their associated software.
+If you're a master user or the owner of an account, you can enable password tracking and set up a password for one-time access to the account. With password tracking, users can store software password data for devices and their associated software.
 {:shortdesc}
 
 ## Enabling password tracking
 {: #customerportal_enabpwtrak}
 
-The customer portal contains an optional password tracking tool for every account. Users can retrieve their user names and passwords by using the tool if the information is lost or forgotten.
+The customer portal contains an optional password tracking tool for every account. You can use the tool to retrieve your user name and password if you lose or forget this information.
 
 Support teams also use password tracking if remote access to a system is required. User names and passwords are used by Support only when necessary.
 
