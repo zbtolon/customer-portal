@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-02-09"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -18,12 +18,12 @@ lastupdated: "2017-02-09"
 # What is the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal?
 {: #customerportal_whatisCP}
 
-You can use the {{site.data.keyword.Bluemix}} console to manage much of your infrastructure.  However, the {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal does provide some additional function to manage infrastructure products and services and SoftLayer accounts.
+You can use the {{site.data.keyword.Bluemix}} console to manage much of your infrastructure. However, the {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal does provide some additional function to manage infrastructure products and services and SoftLayer accounts.
 {:shortdesc}
 
-You would use the {{site.data.keyword.BluSoftlayer_notm}} infrastructure customer portal, instead of the {{site.data.keyword.Bluemix_notm}} console, for the following reasons:
-  * If you are using only {{site.data.keyword.Bluemix_notm}} infrastructure services (and not the platform services) and you do not have a [linked account](/docs/account/softlayerlink.html#link_user_accounts).
-  * If you do not have an [IBMid](/docs/account/softlayerlink.html#switchtoIBMid).
+You would use the customer portal, instead of the console, for the following reasons:
+  * If you're using only {{site.data.keyword.Bluemix_notm}} infrastructure services and you don't have a [linked account](/docs/account/softlayerlink.html#link_user_accounts).
+  * If you don't have an [IBMid](/docs/account/softlayerlink.html#switchtoIBMid).
   * If you need access to a federal environment, for example, a United States government agency might require a more securely locked down data center with limited external access. Only {{site.data.keyword.Bluemix_notm}} infrastructure services are available in this environment; {{site.data.keyword.Bluemix_notm}} platform access is not available in a federal data center.
 
 You would then use the {{site.data.keyword.BluSoftlayer_full}} infrastructure customer portal for the following tasks:
