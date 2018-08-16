@@ -70,7 +70,7 @@ Your account billing is linked and you can easily move between your SoftLayer an
 
 After you switch to an IBMid, if you log in to the customer portal with your {{site.data.keyword.BluSoftlayer_notm}} infrastructure user name, the   "Invalid login credentials provided" error is displayed. After you switch to an IBMid, you can no longer log in to the customer portal with your {{site.data.keyword.BluSoftlayer_notm}} infrastructure user name. You must click **Login with IBMid** in the Account Login dialog.
 
-## Why do I get an error when I try to lgo in with my IBMid?
+## Why do I get an error when I try to log in with my IBMid?
 {: #bicp_IBMidloginerror}
 
 When you log in with your IBMid, the "We didn't recognize this IBMid or email" error is displayed. Make sure that you enter a fully qualified email address. Also make sure that you are not using your {{site.data.keyword.BluSoftlayer_notm}} infrastructure user name.
