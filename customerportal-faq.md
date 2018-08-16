@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-08-16"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2018-08-13"
 
 If you use IBMid for authentication, when you place your first order or when you are added as a user to an account, you receive an email that has a link to get you started with your IBMid. If you lose or forget your user name or password, go to your [IBMid profile ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/account/profile){:new_window} and reset or recover the password by using the instructions that follow the sign in process. You are prompted to enter specific information, which might include providing answers to your security questions.
 
-If you do not use IBMid for authentication, when you place your first order or you are added as a user to a [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} account, you receive an email that contains your user name and initial password to get started in the customer portal. Be sure to change your password after you log in for the first time by editing your user profile. To change your password, log in with the information in the email and click your user name to edit your profile.
+If you do not use IBMid for authentication, when you place your first order or you are added as a user to a [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} account, you receive an email that contains your user name and initial password to get started in the customer portal. Be sure to change your password after you log in for the first time by editing your user profile. 
 
 If you forget your password after you log in, use the **Forgot Password** feature that is available on the login screen of the customer portal. You are prompted to enter specific information, including a set of security questions you specified when you set up yur user profile.
 
