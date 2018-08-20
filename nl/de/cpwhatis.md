@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-02-09"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -18,13 +18,13 @@ lastupdated: "2017-02-09"
 # Was ist das Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur?
 {: #customerportal_whatisCP}
 
-Mit der {{site.data.keyword.Bluemix}}-Konsole können Sie einen Großteil Ihrer Infrastruktur verwalten.  Das Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur bietet jedoch einige zusätzliche Funktionen für die Verwaltung von Infrastrukturprodukten und -services sowie SoftLayer-Konten.
+Mit der {{site.data.keyword.Bluemix}}-Konsole können Sie einen Großteil Ihrer Infrastruktur verwalten. Das Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur bietet jedoch einige zusätzliche Funktionen für die Verwaltung von Infrastrukturprodukten und -services sowie SoftLayer-Konten.
 {:shortdesc}
 
-Die Verwendung des Kundenportals der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anstelle der {{site.data.keyword.Bluemix_notm}}-Konsole könnte in den folgenden Situationen praktisch sein:
-  * Sie verwenden lediglich die {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices (und nicht die Plattformservices) und besitzen kein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts).
-  * Sie verfügen nicht über eine [IBMid](/docs/account/softlayerlink.html#switchtoIBMid).
-  * Wenn Sie Zugriff auf eine US-Bundesumgebung, zum Beispiel eine Regierungsbehörde der Vereinigten Staaten, benötigen, ist möglicherweise ein sicherer gesperrtes Rechenzentrum mit begrenztem externem Zugriff erforderlich. In dieser Umgebung sind nur {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices verfügbar; Zugriff auf {{site.data.keyword.Bluemix_notm}}-Plattformen ist in einem US-Bundesrechenzentrum nicht verfügbar.
+Die Verwendung des Kundenportals anstelle der Konsole könnte in den folgenden Situationen praktisch sein:
+  * Sie verwenden nur die {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices und verfügen nicht über ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts). 
+  * Sie verfügen nicht über eine [IBMid](/docs/account/softlayerlink.html#switchtoIBMid). 
+  * Sie benötigen Zugriff auf die Umgebung einer wichtigen Behörde. Für eine Regierungsbehörde der Vereinigten Staaten ist z. B. möglicherweise ein sicherer gesperrtes Rechenzentrum mit begrenztem externem Zugriff erforderlich. In dieser Umgebung sind nur {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices verfügbar; Zugriff auf {{site.data.keyword.Bluemix_notm}}-Plattformen ist in einem US-Bundesrechenzentrum nicht verfügbar.
 
 In diesen Fällen können Sie im Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur die folgenden Tasks ausführen:
   * Zugriff der Ressourcen verwalten, Ressourcen überwachen und Zugriffsprotokolle anzeigen

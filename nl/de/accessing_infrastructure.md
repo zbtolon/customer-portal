@@ -27,7 +27,7 @@ Um auf Infrastrukturressourcen zugreifen zu können, müssen Sie über ein Konto
 
 |{{site.data.keyword.Bluemix_notm}}-Kontotyp |	Infrastrukturzugriff? |	Was sind meine Optionen? |
 |------------------|-----------------------|---------------|
-|Kostenloses Konto (Lite oder 30-tägiger Test) |	Kein Zugriff |	Führen Sie ein Upgrade Ihres kostenlosen Kontos auf ein nutzungsabhängiges Konto durch. |
+|Kostenfreies Konto (Lite oder 30-tägiger Test) |	Kein Zugriff |	Führen Sie ein Upgrade Ihres kostenfreien Kontos auf ein nutzungsabhängiges Konto durch. |
 |Nutzungsabhängiges Konto | Ja, wenn Ihr Konto nach dem 24. Oktober 2016 erstellt wurde | Nichts anderes ist erforderlich. |
 | | Kein Zugriff, wenn Ihr Konto vor dem 24. Oktober 2016 erstellt wurde | Fügen Sie Ihre Kreditkarteninformationen erneut hinzu. |
 |Abonnementkonto |	Kein Zugriff |	Erstellen Sie ein separates nutzungsabhängiges Konto mit einer anderen E-Mail-Adresse als der E-Mail-Adresse, die Ihrem Abonnement zugeordnet ist. |
@@ -36,4 +36,4 @@ Um auf Infrastrukturressourcen zugreifen zu können, müssen Sie über ein Konto
 Wenn Sie ein Konto-Upgrade anfordern, werden die Informationen, die Sie eingeben, überprüft und müssen genehmigt werden, bevor Sie auf Infrastrukturressource zugreifen können. Stellen Sie sicher, dass die Ansprechpartnerinformationen korrekt sind, da das {{site.data.keyword.Bluemix_notm}}-Support-Team Sie möglicherweise bittet, bestimmte Angaben zu bestätigen.
 {: tip}
 
-Wenn Sie Fragen haben oder Probleme auftreten, auf die Sie keine Antworten finden, hilft Ihnen das {{site.data.keyword.Bluemix_notm}}-Support-Team gerne. Wenn Sie bei Ihrem Konto angemeldet sind, klicken Sie auf **Support** > **Ticket hinzufügen** und geben Sie die entsprechenden Details ein. Sie können auch Unterstützung über den Link, der auf der Seite [{{site.data.keyword.Bluemix_notm}}-Support ![Symbol für externen Link](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} aufgelistet ist, erhalten.
+Wenn Sie Fragen haben oder Probleme auftreten, für die Sie keine Antworten oder Lösungen finden, hilft Ihnen das {{site.data.keyword.Bluemix_notm}}-Support-Team gerne. Wenn Sie bei Ihrem Konto angemeldet sind, klicken Sie auf **Support** > **Ticket hinzufügen** und geben Sie die entsprechenden Details ein. Sie können auch Unterstützung über den Link, der auf der Seite [{{site.data.keyword.Bluemix_notm}}-Support ![Symbol für externen Link](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} aufgelistet ist, erhalten.
