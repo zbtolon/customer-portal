@@ -18,10 +18,10 @@ lastupdated: "2018-05-22"
 # 设置双因子认证
 {: #customerportal_2fa}
 
-在客户门户网站中，可以激活外部双因子认证 (2FA)，为门户网站登录增加额外的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。
+在客户门户网站中，可以激活外部双因子认证 (2FA)，以在登录到门户网站时提供额外的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。
 {:shortdesc}
 
-如果在客户门户网站中为现有 SoftLayer 帐户启用了 2FA，那么会要求您在登录到 {{site.data.keyword.Bluemix_notm}} 控制台时输入安全代码。不过，2FA 仅适用于 {{site.data.keyword.Bluemix_notm}} 帐户中的基础架构资源。因此，无需完成 2FA，也能够对 {{site.data.keyword.Bluemix_notm}} 帐户中的资源执行各种操作。
+如果为现有 SoftLayer 帐户启用了 2FA，那么会要求您在登录到 {{site.data.keyword.Bluemix_notm}} 控制台时输入安全代码。不过，2FA 仅适用于 {{site.data.keyword.Bluemix_notm}} 帐户中的基础架构资源。因此，无需完成 2FA，也能够对 {{site.data.keyword.Bluemix_notm}} 帐户中的资源执行各种操作。
 
 SoftLayer 帐户的 2FA 不是按 IBM 标识启用的。而仍然是按帐户启用的。如果一个 IBM 标识与多个帐户相关联，而您会切换不同的帐户，那么每次切换到不同帐户时，都必须确认身份。在帐户之间切换时，您必须确认身份，即使旧帐户和新帐户都配置了相同的 2FA 机制，也是如此。
 

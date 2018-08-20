@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-02-09"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -18,11 +18,11 @@ lastupdated: "2017-02-09"
 # {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルとは
 {: #customerportal_whatisCP}
 
-{{site.data.keyword.Bluemix}} コンソールを使用して、インフラストラクチャーの多くを管理することができます。  しかし、{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー・カスタマー・ポータルでは、インフラストラクチャーの製品およびサービスと、SoftLayer アカウントを管理する追加機能がいくつか提供されます。
+{{site.data.keyword.Bluemix}} コンソールを使用して、インフラストラクチャーの多くを管理することができます。 しかし、{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャー・カスタマー・ポータルでは、インフラストラクチャーの製品およびサービスと、SoftLayer アカウントを管理する追加機能がいくつか提供されます。
 {:shortdesc}
 
-以下の理由で、{{site.data.keyword.Bluemix_notm}} コンソールではなく、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルを使用します。
-  * {{site.data.keyword.Bluemix_notm}} インフラストラクチャー・サービスのみを使用し (プラットフォーム・サービスは使用しない)、[リンクされたアカウント](/docs/account/softlayerlink.html#link_user_accounts)を持っていない場合。
+以下の理由により、コンソールではなく、カスタマー・ポータルを使用することになります。
+  * {{site.data.keyword.Bluemix_notm}} インフラストラクチャー・サービスのみを使用していて、[リンクされたアカウント](/docs/account/softlayerlink.html#link_user_accounts)がない場合。
   * [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid) を持っていない場合。
   * 連邦政府環境にアクセスする必要がある場合。例えば、アメリカ合衆国政府機関には、外部アクセスが制限された、より安全にロックダウンされたデータ・センターが必要な可能性があります。 この環境では、{{site.data.keyword.Bluemix_notm}} インフラストラクチャー・サービス・サービスのみが使用可能になります。{{site.data.keyword.Bluemix_notm}} プラットフォーム・アクセスは、連邦政府のデータ・センターでは使用できません。
 

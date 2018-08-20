@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-24"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -46,12 +46,8 @@ lastupdated: "2018-05-24"
 <dd>身份提供者用于 SSO 的端点。</dd>
 <dt>证书</dt>
 <dd>身份提供者用于对请求签名的证书。</dd>
-</dl>
-
-以下字段是可选的：
-<dl>
 <dt>证书指纹</dt>
-<dd>证书的指纹。可以使用此字段，而不使用整个证书。</dd>
+<dd>证书的指纹。可以使用此字段，而不使用整个证书。（可选）</dd>
 </dl>
 
 使用以下步骤设置 {{site.data.keyword.BluSoftlayer_notm}} 基础架构以接收来自身份提供者的认证请求：

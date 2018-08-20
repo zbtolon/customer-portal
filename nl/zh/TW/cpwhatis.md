@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-02-09"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -21,8 +21,8 @@ lastupdated: "2017-02-09"
 您可以使用 {{site.data.keyword.Bluemix}} 主控台來管理大部分的基礎架構。不過，{{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶入口網站確實提供某個額外功能來管理基礎架構產品和服務以及 SoftLayer 帳戶。
 {:shortdesc}
 
-基於下列原因，您將使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站，而非 {{site.data.keyword.Bluemix_notm}} 主控台：
-  * 如果您只要使用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務（而不使用平台服務），而且沒有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)。
+基於下列原因，您將使用客戶入口網站，而非主控台：
+  * 如果您只使用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務，而沒有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)。
   * 如果您沒有 [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)。
   * 如果您需要存取聯邦環境，例如，美國政府機關可能需要能限制外部存取且更安全的封鎖資料中心。這個環境中僅可用 {{site.data.keyword.Bluemix_notm}} 基礎架構服務；聯邦資料中心不提供 {{site.data.keyword.Bluemix_notm}} 平台存取。
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-02-09"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -21,8 +21,8 @@ lastupdated: "2017-02-09"
 您可以使用 {{site.data.keyword.Bluemix}} 控制台来管理基础架构的大部分功能。不过，{{site.data.keyword.BluSoftlayer_full}} 基础架构客户门户网站确实提供了一些额外的功能，可管理基础架构产品和服务以及 SoftLayer 帐户。
 {:shortdesc}
 
-出于以下原因，您将使用 {{site.data.keyword.BluSoftlayer_notm}} 基础架构客户门户网站，而不使用 {{site.data.keyword.Bluemix_notm}} 控制台：
-  * 要仅使用 {{site.data.keyword.Bluemix_notm}} 基础架构服务（而不使用平台服务）并且您没有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)。
+出于以下原因，您将使用客户门户网站，而不使用控制台：
+  * 如果仅使用 {{site.data.keyword.Bluemix_notm}} 基础结构服务并且无[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)。
   * 您没有 [IBM 标识](/docs/account/softlayerlink.html#switchtoIBMid)。
   * 您需要访问联邦环境，例如，美国政府机构可能要求更加安全地锁定数据中心且提供有限的外部访问。此环境中仅可使用 {{site.data.keyword.Bluemix_notm}} 基础架构服务；联邦数据中心内不提供 {{site.data.keyword.Bluemix_notm}} 平台访问。
 

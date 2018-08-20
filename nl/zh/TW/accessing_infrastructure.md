@@ -36,4 +36,4 @@ lastupdated: "2018-05-22"
 當您要求升級帳戶時，會檢查您所輸入的資訊，並且必須先進行核准，才能存取基礎架構資源。請確定聯絡資訊正確無誤，因為「{{site.data.keyword.Bluemix_notm}} 支援中心」團隊可能會聯絡您，以確認特定的詳細資料。
 {: tip}
 
-如果您有疑問或發生任何找不到答案的問題，「{{site.data.keyword.Bluemix_notm}} 支援中心」團隊會很樂意提供協助。當您登入帳戶時，請按一下**支援** > **新增問題單**，並完成相關詳細資料。您也可以使用 [{{site.data.keyword.Bluemix_notm}} 支援中心 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} 頁面上列出的鏈結，來取得支援。
+如果您有疑問或遇到任何找不到答案的問題，「{{site.data.keyword.Bluemix_notm}} 支援中心」團隊會很樂意提供協助。當您登入帳戶時，請按一下**支援** > **新增問題單**，並完成相關詳細資料。您也可以使用 [{{site.data.keyword.Bluemix_notm}} 支援中心 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} 頁面上列出的鏈結，來取得支援。
