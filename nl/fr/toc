@@ -11,12 +11,12 @@ Utilisation du portail client
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    Gestion des comptes utilisateur
+    Gestion des comptes utilisateurs
         cpmanacctadduser.md
         cpmanibmid.md
         cpmanuserprof.md
-        cpmanacctmanpw.md
         cpmanacctcompprofcont.md
+        cpmanacctmanpw.md
         cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md

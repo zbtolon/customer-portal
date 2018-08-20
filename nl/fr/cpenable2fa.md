@@ -18,9 +18,10 @@ lastupdated: "2018-05-22"
 # Configuration de l'authentification à deux facteurs
 {: #customerportal_2fa}
 
-Dans le portail client, l'authentification externe à deux facteurs (2FA) peut être activée dans le but d'ajouter une protection supplémentaire lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés. {:shortdesc}
+Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour protection supplémentaire lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés.
+{:shortdesc}
 
-Si vous activez l'authentification à deux facteurs dans le portail client pour votre compte SoftLayer existant, vous devez entrer votre code de sécurité lorsque vous vous connectez à la console {{site.data.keyword.Bluemix_notm}}. Toutefois, l'authentification à deux facteurs ne s'applique qu'aux ressources d'infrastructure de votre compte {{site.data.keyword.Bluemix_notm}}. Par conséquent, vous êtes susceptible de pouvoir effectuer différentes actions sur les ressources de votre compte {{site.data.keyword.Bluemix_notm}} sans vous soumettre à l'authentification à deux facteurs.
+Si vous activez l'authentification à deux facteurs (2FA) pour votre compte SoftLayer existant, vous devez entrer votre code de sécurité lorsque vous vous connectez à la console {{site.data.keyword.Bluemix_notm}}. Toutefois, l'authentification à deux facteurs ne s'applique qu'aux ressources d'infrastructure de votre compte {{site.data.keyword.Bluemix_notm}}. Par conséquent, vous êtes susceptible de pouvoir effectuer différentes actions sur les ressources de votre compte {{site.data.keyword.Bluemix_notm}} sans vous soumettre à l'authentification à deux facteurs.
 
 L'authentification à deux facteurs pour votre compte SoftLayer ne s'effectue pas par IBMid, mais toujours par compte. Lorsqu'un IBMid est associé à plusieurs comptes et que vous passez d'un compte à l'autre, vous devez confirmer votre identité chaque fois que vous utilisez un compte différent. Vous devez confirmer votre identité lorsque vous basculez entre des comptes même si le précédent et le nouveau ont tous deux été configurés avec le même mécanisme 2FA.
 
@@ -55,14 +56,14 @@ Après que vous avez ajouté l'authentification externe pour un utilisateur, les
 ### Activation de l'authentification PhoneFactor
 {: #cp_actphonefacauth}
 
-Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'authentification externe avec PhoneFactor via le portail client. Vu que PhoneFactor utilise le contact manuel, il est important de s'assurer que tous les numéros de téléphone associés au compte restent toujours à jour. Si les informations de contact ne sont pas à jour, vous risquez de ne pas pouvoir accéder au portail client et au VPN quand PhoneFactor est actif. Une fois que PhoneFactor a été ajouté, vous recevez un e-mail confirmant son ajout. Une fois l'e-mail reçu, utilisez la procédure suivante pour activer l'authentification PhoneFactor.
+Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'authentification externe avec PhoneFactor via le portail client. Vu que PhoneFactor utilise le contact manuel, il est important de s'assurer que tous les numéros de téléphone associés au compte restent toujours à jour. Si les informations de contact ne sont pas à jour, vous risquez de ne pas pouvoir accéder au portail client et au VPN quand PhoneFactor est actif. Une fois que PhoneFactor a été ajouté, vous recevrez un e-mail confirmant son ajout. Une fois l'e-mail reçu, utilisez la procédure suivante pour activer l'authentification PhoneFactor.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte > Utilisateurs** dans la barre de navigation.
 3. Cliquez sur le nom d'utilisateur pour accéder au profil utilisateur associé pour cet utilisateur.
 4. Faites défiler jusqu'à la section **Paramètres PhoneFactor**.
 
-  Si la section Paramètres PhoneFactor n'est pas disponible, commencez par vérifier que vous avez bien reçu l'e-mail indiquant la mise à disposition de PhoneFactor. Si PhoneFactor a été mis à disposition mais que la section n'est pas disponible, créez un ticket de demande de service. Si PhoneFactor n'a pas encore été mis à disposition, attendez de recevoir l'e-mail, puis réessayez.
+  Si la section Paramètres PhoneFactor n'est pas disponible, commencez par vérifier que vous avez bien reçu l'e-mail confirmant la mise à disposition de PhoneFactor. Si PhoneFactor a été mis à disposition mais que la section n'est pas disponible, créez un ticket de demande de service. Si PhoneFactor n'a pas encore été mis à disposition, attendez de recevoir l'e-mail, puis réessayez.
   {: tip}
 
 5. Sélectionnez **Actif** dans la liste **Statut**.

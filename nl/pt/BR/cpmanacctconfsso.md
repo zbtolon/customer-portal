@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-24"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -18,20 +18,20 @@ lastupdated: "2018-05-24"
 # Configurando a conexão única
 {: #customerportal_confssoserv}
 
-Se você for o usuário principal de uma conta ou tiver acesso administrativo a ela, será possível configurar a conexão única. A configuração da conexão única para a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} é um processo de duas etapas.  Primeiro, você seleciona e configura seu provedor de identidade. Em seguida, você configura a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para receber a solicitação de autenticação de seu provedor de identidade.
+Se você for o usuário principal de uma conta ou tiver acesso administrativo a ela, será possível configurar a conexão única. A configuração da conexão única para a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} é um processo de duas etapas. Primeiro, você seleciona e configura seu provedor de identidade. Em seguida, você configura a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para receber a solicitação de autenticação de seu provedor de identidade.
 {:shortdesc}
 
 ## Selecionando e configurando o provedor de identidade
 {: #cp_setupidprov}
 
-Se você ainda não tiver um provedor de identidade, primeiro selecione um e configure-o. É possível usar os provedores de identidade a seguir com o {{site.data.keyword.BluSoftlayer_notm}}:
-* Ping Identity&reg;,
-* OneLogin&trade;,
-* IBM&reg; Cloud Security Enforcer,
-* IBM Cloud Identity Services.
-Entre em contato com seu Representante de Vendas de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para obter mais informações.
+Se você não tiver um provedor de identidade, primeiro selecione um e configure-o. É possível usar os provedores de identidade a seguir com o {{site.data.keyword.BluSoftlayer_notm}}:
+* Ping Identity &reg;
+* OneLogin &trade;
+* IBM &reg; Cloud Security Enforcer
+* IBM Cloud Identity Services
+Entre em contato com o Representante de vendas de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para obter mais informações.
 
-Se você ainda não tiver um provedor de identidade configurado, será possível entrar em contato com o suporte do provedor de identidade para obter etapas específicas. Também é possível usar as etapas de alto nível a seguir para configurar seu provedor de identidade:
+Se o seu provedor de identidade ainda não estiver configurado, será possível entrar em contato com o suporte do provedor de identidade para obter etapas específicas. Também é possível usar as etapas de alto nível a seguir para configurar seu provedor de identidade:
 1. Prepare o ambiente de seu provedor de identidade fazendo download e instalando o arquivo executável.
 2. Configure seu provedor de identidade para funcionar com a autenticação do {{site.data.keyword.BluSoftlayer_notm}}.
 
@@ -46,12 +46,8 @@ Deve-se extrair os campos obrigatórios a seguir das informações de metadados 
 <dd>O terminal do provedor de identidade para SSO.</dd>
 <dt>Certificado</dt>
 <dd>O certificado do provedor de identidade usado para assinar solicitações.</dd>
-</dl>
-
-O campo a seguir é opcional:
-<dl>
 <dt>Impressão digital do certificado</dt>
-<dd>A impressão digital do certificado. Esse campo pode ser usado no lugar do certificado inteiro.</dd>
+<dd>A impressão digital do certificado. Esse campo pode ser usado no lugar do certificado inteiro. (Opcional)</dd>
 </dl>
 
 Use as etapas a seguir para configurar a infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para receber a solicitação de autenticação de seu provedor de identidade:

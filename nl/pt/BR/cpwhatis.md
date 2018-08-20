@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-02-09"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -18,12 +18,12 @@ lastupdated: "2017-02-09"
 # O que é o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}?
 {: #customerportal_whatisCP}
 
-É possível usar o console do {{site.data.keyword.Bluemix}} para gerenciar a sua infraestrutura.  No entanto, o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_full}} fornece alguma função adicional para gerenciar produtos e serviços de infraestrutura e contas do SoftLayer.
+É possível usar o console do {{site.data.keyword.Bluemix}} para gerenciar a sua infraestrutura. No entanto, o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_full}} fornece alguma função adicional para gerenciar produtos e serviços de infraestrutura e contas do SoftLayer.
 {:shortdesc}
 
-Você usará o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}, em vez do console do {{site.data.keyword.Bluemix_notm}}, pelas razões a seguir:
-  * Se você estiver usando apenas serviços de infraestrutura do {{site.data.keyword.Bluemix_notm}} (e não os serviços da plataforma) e não tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts).
-  * Se você não tiver um [IBMid](/docs/account/softlayerlink.html#switchtoIBMid).
+Você usaria o portal do cliente, em vez do console, pelos motivos a seguir:
+  * Se estiver usando apenas os serviços de infraestrutura do {{site.data.keyword.Bluemix_notm}} e não tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts).
+  * Se você não tiver um  [ IBMid ](/docs/account/softlayerlink.html#switchtoIBMid).
   * Se você precisar de acesso a um ambiente federal, por exemplo, uma agência do governo dos Estados Unidos pode requerer um data center mais protegido com acesso externo limitado. Somente serviços de infraestrutura do {{site.data.keyword.Bluemix_notm}} estão disponíveis nesse ambiente; o acesso à plataforma do {{site.data.keyword.Bluemix_notm}} não está disponível em um data center federal.
 
 Você poderia, então, usar o portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para as tarefas a seguir:

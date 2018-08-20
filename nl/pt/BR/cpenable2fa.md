@@ -18,10 +18,10 @@ lastupdated: "2018-05-22"
 # Configurando a autenticação de dois fatores
 {: #customerportal_2fa}
 
-No portal do cliente, a autenticação externa de dois fatores (2FA) poderá ser ativada para incluir proteção extra quando você efetuar login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos.
+No portal do cliente, é possível ativar a autenticação de dois fatores (2FA) externa para incluir proteção extra quando você efetua login no portal. Essa camada extra de segurança protege a conta contra acesso não verificado, assegurando que dispositivos, dados e informações de conta sejam protegidos.
 {:shortdesc}
 
-Se você ativar a 2FA no portal do cliente para sua conta existente do SoftLayer, será necessário inserir seu código de segurança ao efetuar login no console do {{site.data.keyword.Bluemix_notm}}. No entanto, a 2FA se aplica somente aos recursos de infraestrutura em sua conta do {{site.data.keyword.Bluemix_notm}}. Portanto, você pode ser capaz de executar várias ações para os recursos em sua conta do {{site.data.keyword.Bluemix_notm}} sem concluir a 2FA.
+Se você ativar a 2FA para sua conta existente do SoftLayer, será necessário inserir seu código de segurança ao efetuar login no console do {{site.data.keyword.Bluemix_notm}}. No entanto, a 2FA se aplica somente aos recursos de infraestrutura em sua conta do {{site.data.keyword.Bluemix_notm}}. Portanto, você pode ser capaz de executar várias ações para os recursos em sua conta do {{site.data.keyword.Bluemix_notm}} sem concluir a 2FA.
 
 A 2FA para sua conta do SoftLayer não é por IBMid. Ela ainda é por conta. Quando um IBMid está associado a múltiplas contas e você alterna entre as contas, deve-se confirmar sua identidade toda vez que alterna para uma conta diferente. Deve-se confirmar sua identidade quando você alterna entre contas mesmo se a conta anterior e a nova conta são configuradas com o mesmo mecanismo 2FA.
 
@@ -29,7 +29,7 @@ A 2FA para sua conta do SoftLayer não é por IBMid. Ela ainda é por conta. Qua
 
 A autenticação 2FA está disponível em duas formas. É possível incluir ambos os métodos de autenticação externa, por usuário, por uma pequena taxa mensal:
 
-* O Symantec Identify Protection é a ferramenta de autenticação externa mais comumente usada, que fornece um código de segurança dinâmico usado além do nome de usuário e da senha ao acessar o Portal do cliente.
+* O Symantec Identify Protection é a ferramenta de autenticação externa mais comumente usada, que fornece um código de segurança dinâmico usado além do nome do usuário e da senha ao acessar o portal do cliente.
 * A autenticação PhoneFactor fornece autenticação fora da banda com um telefonema, SMS ou aplicativo móvel.
 
  Se você tiver uma conta vinculada, será possível aproveitar a configuração da autenticação de diversos fatores (MFA) [ativando a autenticação de diversos fatores](/docs/iam/mfa.html) para toda a sua conta do {{site.data.keyword.Bluemix_notm}}.
@@ -39,7 +39,7 @@ Para configurar a 2FA, conclua as etapas a seguir:
 
 1. Acesse a tela **Usuários** no portal do cliente.
 2. Selecione **Incluir autenticação externa** no menu **Ações** para o usuário.
-3. Com base no tipo de autenticação externa que está sendo solicitada, conclua as etapas a seguir:
+3. Com base no tipo de autenticação externa pedida, conclua as etapas a seguir:
     * Se você escolher Symantec Identity Protection, selecione **Symantec Identity Protection** e, em seguida, insira o ID da credencial do usuário.
     * Se você escolher PhoneFactor, selecione **PhoneFactor**.
 4. Clique em **Continuar**.
@@ -56,14 +56,14 @@ Depois de incluir a autenticação externa para um usuário, as próximas etapas
 ### Ativando a autenticação do PhoneFactor
 {: #cp_actphonefacauth}
 
-Depois de incluir o PhoneFactor, deve-se ativar manualmente a autenticação externa com o PhoneFactor por meio do portal do cliente. Como o PhoneFactor usa contato manual, é importante assegurar-se de que todos os números de telefone associados à conta estejam sempre atualizados. A falha em manter as informações de contato atualizadas poderá resultar na impossibilidade de acessar o portal do cliente e a VPN quando o PhoneFactor estiver ativo. Quando o PhoneFactor é incluído com êxito, você recebe um e-mail confirmando a inclusão. Depois de receber o e-mail, use as etapas a seguir para ativar a autenticação do PhoneFactor.
+Depois de incluir o PhoneFactor, deve-se ativar manualmente a autenticação externa com o PhoneFactor por meio do portal do cliente. Como o PhoneFactor usa contato manual, é importante assegurar-se de que todos os números de telefone associados à conta estejam sempre atualizados. A falha em manter as informações de contato atualizadas poderá resultar na impossibilidade de acessar o portal do cliente e a VPN quando o PhoneFactor estiver ativo. Quando o PhoneFactor for incluído com êxito, você receberá um e-mail para confirmar que o PhoneFactor foi incluído. Depois de receber o e-mail, use as etapas a seguir para ativar a autenticação do PhoneFactor.
 
 1. Acesse o portal do cliente usando as suas credenciais exclusivas.
 2. Selecione **Conta > Usuários** na barra de navegação.
 3. Clique no nome do usuário para acessar o perfil do usuário associado para ele.
 4. Role para a seção **Configurações do PhoneFactor**.
 
-  Se a seção Configurações do PhoneFactor não estiver disponível, verifique primeiramente se você recebeu o e-mail de fornecimento do PhoneFactor indicando sobre sua provisão. Se o PhoneFactor tiver sido provisionado e a seção não estiver disponível, crie um chamado de suporte. Se o PhoneFactor ainda não tiver sido provisionado, aguarde o e-mail e tente novamente.
+  Se a seção Configurações do PhoneFactor não estiver disponível, verifique primeiro se você recebeu o e-mail de fornecimento do PhoneFactor, o que indica que o PhoneFactor foi provisionado. Se o PhoneFactor tiver sido provisionado e a seção não estiver disponível, crie um chamado de suporte. Se o PhoneFactor ainda não tiver sido provisionado, aguarde o e-mail e tente novamente.
   {: tip}
 
 5. Selecione **Ativo** na lista **Status**.
