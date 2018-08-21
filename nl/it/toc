@@ -11,12 +11,12 @@ Lavorare nel portale clienti
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    Gestione di account utente
+    Gestione degli account utente
         cpmanacctadduser.md
         cpmanibmid.md
         cpmanuserprof.md
-        cpmanacctmanpw.md
         cpmanacctcompprofcont.md
+        cpmanacctmanpw.md
         cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md

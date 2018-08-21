@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-02-09"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -18,11 +18,11 @@ lastupdated: "2017-02-09"
 # Cos'è il portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}?
 {: #customerportal_whatisCP}
 
-Puoi utilizzare la console {{site.data.keyword.Bluemix}} per gestire gran parte della tua infrastruttura.  Tuttavia, il portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} fornisce alcune funzioni aggiuntive per gestire prodotti e servizi di infrastruttura e gli account SoftLayer.
+Puoi utilizzare la console {{site.data.keyword.Bluemix}} per gestire gran parte della tua infrastruttura. Tuttavia, il portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_full}} fornisce alcune funzioni aggiuntive per gestire prodotti e servizi di infrastruttura e gli account SoftLayer.
 {:shortdesc}
 
-Potresti utilizzare il portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}, invece della console {{site.data.keyword.Bluemix_notm}}, per i seguenti motivi:
-  * Se utilizzi solo i servizi dell'infrastruttura {{site.data.keyword.Bluemix_notm}} (e non i servizi della piattaforma) e non disponi di un [account collegato](/docs/account/softlayerlink.html#link_user_accounts).
+Potresti utilizzare il portale clienti invece della console per i seguenti motivi:
+  * Se stai utilizzando solo i servizi dell'infrastruttura {{site.data.keyword.Bluemix_notm}} e non hai un account collegato [](/docs/account/softlayerlink.html#link_user_accounts).
   * Se non hai un [ID IBM](/docs/account/softlayerlink.html#switchtoIBMid).
   * Se devi accedere a un ambiente federale, ad esempio un'agenzia governativa degli Stati Uniti, potresti richiedere un data center bloccato in modo più sicuro con accesso esterno limitato. Solo i servizi dell'infrastruttura {{site.data.keyword.Bluemix_notm}} sono disponibili in questo ambiente; l'accesso alla piattaforma {{site.data.keyword.Bluemix_notm}} non è disponibile in un data center federale.
 
