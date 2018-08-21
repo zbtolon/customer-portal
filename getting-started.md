@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-08-21"
 
 ---
 
@@ -29,7 +29,7 @@ You need an [{{site.data.keyword.Bluemix}} account ![External link icon](../icon
 If you don't use IBMid for authentication to log in to your account, log in to the customer portal with your unique {{site.data.keyword.BluSoftlayer_notm}} infrastructure credentials.
 {: tip}
 
-## Step 1: Set up your account
+## Step 1. Set up your account
 {: #account-setup}
 
 Setting up your account includes verifying your account contact information and billing details:
@@ -37,7 +37,7 @@ Setting up your account includes verifying your account contact information and 
  * To verify your company profile details, go to **Account** > **Manage** > **Company Profile**. The company profile information includes details about the primary account holder.
  * To verify your billing details, go to **Account** > **Billing** > **Payment Method**. The monthly payment method is the credit card that is billed on a recurring basis for payments that are associated with your account.
 
-## Step 2: Add users and assign permissions
+## Step 2. Add users and assign permissions
 {: #users-permissions}
 
 To add users to your account and set initial permissions, go to **Account** > **Users**.
@@ -47,7 +47,7 @@ To add users to your account and set initial permissions, go to **Account** > **
 When you set infrastructure permissions in the initial invitation, you choose from one of three permission sets: View Only, Basic User, Super User. After users accept the invitation, you can customize their access by editing their portal permissions. For more information, see [Infrastructure permissions](/docs/iam/infrastructureaccess.html).
 {: tip}
 
-## Step 3: Enable access to the {{site.data.keyword.Bluemix_notm}} infrastructure private network
+## Step 3. Enable access to the {{site.data.keyword.Bluemix_notm}} infrastructure private network
 {: #enable-private-network}
 
 The {{site.data.keyword.Bluemix_notm}} infrastructure private network is offered to users and devices free of charge. All bandwidth on the private network is unmetered and complimentary. The private network offers the following benefits:
@@ -65,7 +65,7 @@ For users in accounts that use IBMid authentication, the SoftLayer VPN user name
 
 For more information about using a VPN connection, see [About VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
-## Step 4: Subscribe to notifications
+## Step 4. Subscribe to notifications
 {: #get-notified}
 
 To get notified about system issues that might occur and planned maintenance events, you can subscribe to notifications through the Event Management System. By default, you're unsubscribed to notifications when you create an account or you're added to an account.
@@ -73,7 +73,7 @@ To get notified about system issues that might occur and planned maintenance eve
 Access the Event Management System in the customer portal to specify which notifications you want to subscribe to:
   1. Select **Account** > **Manage** > **Subscriptions** from the menu bar.
   2. Click a specific subscription from the list.
-  3. Select the **Yes** check box in the Subscribed column.
+  3. Select **Yes** in the Subscribed column.
   4. Click **View All Subscriptions** to return to the list of available subscriptions and subscribe to other types if necessary.
 
 ## Next steps
