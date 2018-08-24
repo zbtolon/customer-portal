@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-02-09"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -18,11 +18,11 @@ lastupdated: "2017-02-09"
 # ¿Qué es el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}?
 {: #customerportal_whatisCP}
 
-Puede utilizar la consola de {{site.data.keyword.Bluemix}} para gestionar gran parte de su infraestructura.  Sin embargo, el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer_full}} proporciona algunas funciones adicionales para gestionar productos y servicios de la infraestructura y cuentas de SoftLayer.
+Puede utilizar la consola de {{site.data.keyword.Bluemix}} para gestionar gran parte de su infraestructura. Sin embargo, el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer_full}} proporciona algunas funciones adicionales para gestionar productos y servicios de la infraestructura y cuentas de SoftLayer.
 {:shortdesc}
 
-Utilizará el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, en lugar de la consola de {{site.data.keyword.Bluemix_notm}}, por los motivos siguientes:
-  * Si está utilizando sólo los servicios de la infraestructura de {{site.data.keyword.Bluemix_notm}} (y no los servicios de la plataforma) y no tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts).
+Utilizará el portal de clientes, en lugar de la consola, por los motivos siguientes:
+  * Si está utilizando solo servicios de infraestructura de {{site.data.keyword.Bluemix_notm}} y no tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts).
   * Si no tiene un [IBMid](/docs/account/softlayerlink.html#switchtoIBMid).
   * Si necesita acceder a un entorno federal; por ejemplo, una agencia del gobierno de los Estados Unidos puede necesitar un centro de datos con un bloqueo más seguro con acceso externo limitado. En este entorno, solo están disponibles los servicios de infraestructura de {{site.data.keyword.Bluemix_notm}}, el acceso a la plataforma de {{site.data.keyword.Bluemix_notm}} no está disponible en un centro de datos federal.
 

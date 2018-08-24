@@ -18,10 +18,10 @@ lastupdated: "2018-05-22"
 # Configuración de la autenticación de dos factores
 {: #customerportal_2fa}
 
-En el portal de clientes, se puede activar la autenticación externa de dos factores (2FA) para añadir protección extra al iniciar sesión en el portal. Esta capa extra de seguridad protege la cuenta de acceso no verificado, garantizando que los dispositivos, los datos y la información de cuenta estén protegidos.
+En el portal de clientes, puede activar la autenticación externa de dos factores (2FA) para añadir protección extra al iniciar sesión en el portal. Esta capa extra de seguridad protege la cuenta de acceso no verificado, garantizando que los dispositivos, los datos y la información de cuenta estén protegidos.
 {:shortdesc}
 
-Si habilita la 2FA en el portal de clientes para su cuenta existente de SoftLayer, se le pedirá que especifique el código de seguridad cuando inicie sesión en la consola de {{site.data.keyword.Bluemix_notm}}. Sin embargo, la 2FA se aplica solo a los recursos de infraestructura en su cuenta de {{site.data.keyword.Bluemix_notm}}. Por lo tanto, puede realizar varias acciones en los recursos de su cuenta de {{site.data.keyword.Bluemix_notm}} sin llevar a cabo la 2FA.
+Si habilita la 2FA para la cuenta existente de SoftLayer, se le pedirá que especifique el código de seguridad cuando inicie sesión en la consola de {{site.data.keyword.Bluemix_notm}}. Sin embargo, la 2FA se aplica solo a los recursos de infraestructura en su cuenta de {{site.data.keyword.Bluemix_notm}}. Por lo tanto, puede realizar varias acciones en los recursos de su cuenta de {{site.data.keyword.Bluemix_notm}} sin llevar a cabo la 2FA.
 
 2FA de la cuenta de SoftLayer no es por IBMid. Sigue siendo por cuenta. Cuando un IBMid está asociado con varias cuentas, y cambia entre ellas, debe confirmar su identidad cada vez que cambie a una cuenta distinta. Debe confirmar su identidad al cambiar entre cuentas, incluso si la cuenta anterior y la cuenta nueva están configuradas con el mismo mecanismo de 2FA.
 
@@ -29,7 +29,7 @@ Si habilita la 2FA en el portal de clientes para su cuenta existente de SoftLaye
 
 La autenticación 2FA está disponible de dos formas. Es posible añadir ambos métodos de la autenticación externa por usuario por una pequeña tarifa mensual:
 
-* Symantec Identify Protection es la herramienta de autenticación externa más comúnmente utilizada, que proporciona un código de seguridad dinámico que se utiliza además del nombre de usuario y de la contraseña al acceder al Portal de clientes.
+* Symantec Identify Protection es la herramienta de autenticación externa más comúnmente utilizada, que proporciona un código de seguridad dinámico que se utiliza además del nombre de usuario y de la contraseña al acceder al portal de clientes.
 * La autenticación de proporciona autenticación fuera de banda con una llamada telefónica, un SMS o una app móvil.
 
  Si dispone de una cuenta enlazada, puede aprovechar la configuración de la autenticación de multifactores (MFA) [habilitando la autenticación de multifactores](/docs/iam/mfa.html) para su cuenta de {{site.data.keyword.Bluemix_notm}}.
@@ -63,7 +63,7 @@ Después de añadir PhoneFactor, debe activar manualmente la autenticación exte
 3. Pulse el nombre de usuario para acceder al perfil de usuario asociado para dicho usuario.
 4. Desplácese a la sección **Valores de PhoneFactor**.
 
-  Si la sección Valores de PhoneFactor no está disponible, compruebe en primer lugar que haya recibido el correo electrónico de suministro de PhoneFactor que indica que PhoneFactor se ha suministrado. Si se ha suministrado PhoneFactor y la sección no está disponible, cree una incidencia de soporte. Si PhoneFactor no se ha suministrado aún, espere el correo electrónico e inténtelo de nuevo.
+  Si la sección Valores de PhoneFactor no está disponible, compruebe en primer lugar que haya recibido el correo electrónico de suministro de PhoneFactor, que indica que PhoneFactor se ha suministrado. Si se ha suministrado PhoneFactor y la sección no está disponible, cree una incidencia de soporte. Si PhoneFactor no se ha suministrado aún, espere el correo electrónico e inténtelo de nuevo.
   {: tip}
 
 5. Seleccione **Activo** en la lista **Estado**.
