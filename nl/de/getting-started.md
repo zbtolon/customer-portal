@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-08-21"
 
 ---
 
@@ -29,7 +29,7 @@ Sie benötigen ein [{{site.data.keyword.Bluemix}}-Konto ![Symbol für externen L
 Wenn Sie zum Anmelden an Ihrem Konto nicht die IBMid zur Authentifizierung verwenden, melden Sie sich beim Kundenportal mit Ihren eindeutigen Berechtigungsnachweisen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur an.
 {: tip}
 
-## Schritt 1: Konto einrichten
+## Schritt 1. Konto einrichten
 {: #account-setup}
 
 Zur Einrichtung Ihres Kontos müssen Sie die Kontaktinformationen und Abrechnungsdetails für das Konto prüfen:
@@ -37,7 +37,7 @@ Zur Einrichtung Ihres Kontos müssen Sie die Kontaktinformationen und Abrechnung
  * Um die Details für das Unternehmensprofil zu prüfen, navigieren Sie zu **Konto** > **Verwalten** > **Unternehmensprofil**. Die Informationen zum Unternehmensprofil enthalten Details zum primären Kontoeigner.
  * Um die Details für die Abrechnung zu prüfen, navigieren Sie zu **Konto** > **Abrechnung** > **Zahlungsmethode**. Die monatliche Zahlungsmethode ist die Kreditkarte, die regelmäßig mit Zahlungen für Ihr Konto belastet wird.
 
-## Schritt 2: Benutzer hinzufügen und Berechtigungen zuordnen
+## Schritt 2. Benutzer hinzufügen und Berechtigungen zuordnen
 {: #users-permissions}
 
 Um Benutzer zu Ihrem Konto hinzuzufügen und deren Anfangsberechtigungen festzulegen, navigieren Sie zu **Konto** > **Benutzer**.
@@ -47,10 +47,10 @@ Um Benutzer zu Ihrem Konto hinzuzufügen und deren Anfangsberechtigungen festzul
 Wenn Sie in der erstmaligen Einladung Infrastrukturberechtigungen festlegen, wählen Sie eines der drei Berechtigungssets 'Nur anzeigen', 'Basisbenutzer' oder 'Superuser' aus. Nachdem Benutzer die Einladung angenommen haben, können Sie deren Zugriff anpassen, indem Sie die Portalberechtigungen bearbeiten. Weitere Informationen finden Sie in [Infrastructure-Berechtigungen](/docs/iam/infrastructureaccess.html).
 {: tip}
 
-## Schritt 3: Zugriff auf das private Netz der {{site.data.keyword.Bluemix_notm}}-Infrastruktur ermöglichen
+## Schritt 3. Zugriff auf das private Netz der {{site.data.keyword.Bluemix_notm}}-Infrastruktur ermöglichen
 {: #enable-private-network}
 
-Das private Netz der {{site.data.keyword.Bluemix_notm}}-Infrastruktur wird kostenfrei für Benutzer und Geräte angeboten. Die gesamte im privaten Netz genutzte Bandbreite wird nicht gemessen und ist als Ergänzung zu verstehen. Das private Netz bietet folgende Vorteile: 
+Das private Netz der {{site.data.keyword.Bluemix_notm}}-Infrastruktur wird kostenfrei für Benutzer und Geräte angeboten. Die gesamte im privaten Netz genutzte Bandbreite wird nicht gemessen und ist als Ergänzung zu verstehen. Das private Netz bietet folgende Vorteile:
   * Replizieren von Geräteumgebungen auf andere Rechenzentren zwecks Failover
   * Front-End-Systemzugriff auf Datenbankserver
   * Sicherer Zugriff auf Ihre Systeme und sichere Verwaltung
@@ -65,15 +65,15 @@ Für Benutzer in Konten, die die IBMid-Authentifizierung verwenden, wird der Sof
 
 Weitere Informationen zur Verwendung von VPN-Verbindungen finden Sie in [Informationen zu VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
-## Schritt 4: Benachrichtigungen abonnieren
+## Schritt 4. Benachrichtigungen abonnieren
 {: #get-notified}
 
-Damit Sie über potenzielle Systemprobleme und planmäßige Wartungsereignisse informiert werden, können Sie über das Ereignismanagementsystem (Event Management System, EMS) Benachrichtigungen abonnieren. Standardmäßig sind keine Benachrichtigungen abonniert, wenn Sie ein Konto erstellen oder zu einem Konto hinzugefügt werden 
+Damit Sie über potenzielle Systemprobleme und planmäßige Wartungsereignisse informiert werden, können Sie über das Ereignismanagementsystem (Event Management System, EMS) Benachrichtigungen abonnieren. Standardmäßig sind keine Benachrichtigungen abonniert, wenn Sie ein Konto erstellen oder zu einem Konto hinzugefügt werden
 
 Greifen Sie auf das Ereignismanagementsystem im Kundenportal zu, um die Benachrichtigungen anzugeben, die Sie abonnieren wollen:
   1. Wählen Sie in der Menüleiste die Optionen **Konto** > **Verwalten** > **Abonnements** aus.
   2. Klicken Sie in der Liste auf ein bestimmtes Abonnement.
-  3. Wählen Sie in der Spalte 'Abonniert' das Kontrollkästchen **Ja** aus.
+  3. Wählen Sie in der Spalte 'Abonniert' **Ja** aus.
   4. Klicken Sie auf **Alle Abonnements anzeigen**, um zur Liste der verfügbaren Abonnements zurückzukehren und bei Bedarf weitere Typen zu abonnieren.
 
 ## Nächste Schritte

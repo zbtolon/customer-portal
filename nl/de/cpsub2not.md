@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-02"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -66,7 +66,7 @@ Die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur bemüht sich um länge
 Immer mehr IBM Kunden nutzen die Services der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur (IaaS), entweder durch vertragliche Vereinbarungen mit IBM über Services für verwaltete Infrastrukturen, durch vertragliche Vereinbarungen über Cloud-Services, die in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur ausgeführt werden, oder durch Direktverträge für Services der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. Wenn Cloud-Services Infrastruktur einbeziehen, sind nur Benutzer mit einem SoftLayer-Konto zum Empfang von Benachrichtigungen berechtigt (siehe oben). In manchen Fällen möchten Sie jedoch nicht, dass die IBM Teams für Konten oder verwaltete Services, die am Betrieb oder am Support von Infrastrukturservices beteiligt sind, auf Ihre SoftLayer-Konten zugreifen können. Das Kundenportal der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur wurde mit einer neuen Funktion ausgestattet, mit der Sie eine Liste von Abonnenten angeben können (z. B. IBM Mitarbeiter), die Benachrichtigungen empfangen, ohne Berechtigungen für Ihre Konten zu besitzen.
 
 Um eine Liste von Abonnenten anzugeben, können sich Masterbenutzer bei ihrem Kundenportalkonto anmelden und anschließend die folgenden Schritte ausführen:
-1. Klicken Sie im Menü **Konto** > **Verwalten** > **Abonnements**.
+1. Klicken Sie im Menü auf **Support** > **Ereignisse**.
 2. Wählen Sie den Ereignistyp aus, zu dem Sie Abonnenten hinzufügen wollen.
 2. Fügen Sie im Popup-Fenster die E-Mail-Adresse(n) hinzu. E-Mail-Adressen können Adressen von IBM oder nicht von IBM sein.
 3. Klicken Sie auf **Erstellen**.

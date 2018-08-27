@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-02"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -66,7 +66,7 @@ lastupdated: "2018-02-02"
 IBM 客戶逐漸地依賴 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構服務 (IaaS)，不論是與 IBM 簽約以使用受管理基礎架構服務、簽約以使用在 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構上執行的雲端服務，或是直接簽約使用 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構服務。雲端服務涉及基礎架構時，只有 SoftLayer 帳戶使用者才有權接收通知（如上節所述）。在部分情況下，您可能不想要涉入基礎架構服務運作或支援的 IBM 帳戶或受管理服務團隊存取 SoftLayer 帳戶。{{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站中已新增特性，容許您指定不需要有您帳戶的任何專用權即可接收通知的訂閱者清單（例如 IBM 人員）。
 
 若要指定訂閱者清單，主要使用者可以登入其客戶入口網站帳戶，以及使用下列步驟：
-1. 從功能表中，按一下**帳戶** > **管理** > **訂閱**。
+1. 從功能表中，按一下**支援** > **事件**。
 2. 選擇要新增訂閱者的事件類型。
 2. 從蹦現視窗中，新增一個以上的電子郵件位址。電子郵件位址可以是 IBM 或非 IBM 的電子郵件位址。
 3. 按一下**建立**。
