@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-02"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -66,7 +66,7 @@ L'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} si sforza di dare un pr
 Sempre più spesso, i clienti IBM si affidano ai servizi dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} (IaaS), contrattando con IBM per i servizi di infrastruttura gestita, contrattando per servizi cloud eseguiti sull'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} o contrattando direttamente con i servizi dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Quando i servizi cloud coinvolgono l'infrastruttura, solo gli utenti dell'account SoftLayer sono autorizzati a ricevere notifiche, come descritto nella sezione precedente. In alcuni casi, potresti non volere che i team degli account o dei servizi gestiti IBM siano coinvolti nelle operazioni o che il supporto dei servizi di infrastruttura accedano ai tuoi account SoftLayer. Nel portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} è stata aggiunta una nuova funzione che ti consente di designare un elenco di sottoscrittori, ad esempio il personale IBM, per ricevere notifiche senza privilegi sui tuoi account.
 
 Per designare un elenco di sottoscrittori, gli utenti master possono accedere al proprio account del portale clienti e utilizzare la seguente procedura:
-1. Fai clic su su **Account** > **Gestisci** > **Sottoscrizioni** dal menu.
+1. Fai clic su **Supporto** > **Eventi** dal menu.
 2. Scegli il tipo di evento a cui aggiungere i sottoscrittori.
 2. Dalla finestra a comparsa, aggiungi uno o più indirizzi e-mail. Gli indirizzi e-mail possono essere IBM o non IBM.
 3. Fai clic su **Crea**.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-08-21"
 
 ---
 
@@ -29,7 +29,7 @@ Hai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](.
 Se non utilizzi l'ID IBM per l'autenticazione per accedere al tuo account, esegui l'accesso al portale clienti con le tue credenziali univoche dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
 
-## Passo 1: configura il tuo account
+## Passo 1. Configura il tuo account
 {: #account-setup}
 
 La configurazione del tuo account include la verifica delle informazioni di contatto e dei dettagli di fatturazione:
@@ -37,7 +37,7 @@ La configurazione del tuo account include la verifica delle informazioni di cont
  * Per verificare i dettagli del profilo dell'azienda, vai a **Account** > **Gestisci** > **Profilo azienda**. Le informazioni del profilo azienda includono dettagli relativi al titolare dell'account principale.
  * Per verificare i dettagli di fatturazione, vai a **Account** > **Fatturazione** > **Metodo di pagamento**. Il metodo di pagamento mensile è la carta di credito che viene fatturata su base ricorrente per i pagamenti associati al tuo account.
 
-## Passo 2: aggiungi utenti e assegna le autorizzazioni
+## Passo 2. Aggiungi utenti e assegna le autorizzazioni
 {: #users-permissions}
 
 Per aggiungere utenti al tuo account e impostare le autorizzazioni iniziali, vai a **Account** > **Utenti**.
@@ -47,7 +47,7 @@ Per aggiungere utenti al tuo account e impostare le autorizzazioni iniziali, vai
 Quando imposti le autorizzazioni dell'infrastruttura nell'invito iniziale, puoi scegliere una di tre seri di autorizzazioni: Solo visualizzazione, Utente di base e Super utente. Dopo che gli utenti accettano l'invito, puoi personalizzare il loro accesso modificando le autorizzazioni del portale. Per ulteriori informazioni, vedi [Autorizzazioni dell'infrastruttura](/docs/iam/infrastructureaccess.html).
 {: tip}
 
-## Passo 3: abilita l'accesso alla rete privata dell'infrastruttura {{site.data.keyword.Bluemix_notm}}
+## Passo 3. Abilita l'accesso alla rete privata dell'infrastruttura {{site.data.keyword.Bluemix_notm}}
 {: #enable-private-network}
 
 La rete privata dell'infrastruttura {{site.data.keyword.Bluemix_notm}} viene offerta gratuitamente a utenti e dispositivi. Tutta la larghezza di banda sulla rete privata è illimitata e gratuita. La rete privata offre i seguenti vantaggi:
@@ -65,7 +65,7 @@ Per gli utenti negli account che utilizzano l'autenticazione con l'ID IBM, viene
 
 Per ulteriori informazioni sull'utilizzo di una connessione VPN, vedi [Informazioni sulla VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
-## Passo 4: sottoscrivi alle notifiche
+## Passo 4. Sottoscrivi alle notifiche
 {: #get-notified}
 
 Per ricevere notifiche sui problemi di sistema che potrebbero verificarsi e sugli eventi di manutenzione pianificata, puoi sottoscrivere alle notifiche tramite l'Event Management System. Per impostazione predefinita, ti viene annullata la sottoscrizione alle notifiche quando crei un account o vieni aggiunto a un account.
@@ -73,7 +73,7 @@ Per ricevere notifiche sui problemi di sistema che potrebbero verificarsi e sugl
 Accedi a Event Management System nel portale clienti per specificare quali notifiche vuoi sottoscrivere:
   1. Seleziona **Account** > **Gestisci** > **Sottoscrizioni** dalla barra dei menu.
   2. Fai clic su una specifica sottoscrizione dall'elenco.
-  3. Seleziona la casella di spunta **Sì** nella colonna Sottoscritto.
+  3. Seleziona **Sì** nella colonna Sottoscritto.
   4. Fai clic su **Visualizza tutte le sottoscrizioni** per tornare all'elenco di sottoscrizioni disponibili e sottoscrivere ad altri tipi secondo necessità.
 
 ## Passi successivi
