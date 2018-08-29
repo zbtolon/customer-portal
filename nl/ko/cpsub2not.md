@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-02"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -66,7 +66,7 @@ lastupdated: "2018-02-02"
 IBM 고객은 관리형 인프라 서비스에 대해 IBM과 계약을 체결하고 {{site.data.keyword.BluSoftlayer_notm}} 인프라에 실행되는 클라우드 서비스 관련 계약을 맺거나 {{site.data.keyword.BluSoftlayer_notm}} 인프라 서비스와의 직접적인 계약을 체결함으로써 점점 더 {{site.data.keyword.BluSoftlayer_notm}} IaaS(Infrastructure as a Service)에 의존합니다. 클라우드 서비스에 인프라가 포함되면 앞의 절에서 설명된 대로 SoftLayer 계정 사용자가 알림을 받도록 권한이 부여됩니다. 일부 경우에는 인프라 서비스의 운영이나 지원에 참여하는 IBM 계정 또는 관리 서비스 팀이 자신의 SoftLayer 계정에 액세스하는 것을 원하지 않을 수도 있습니다. 계정에 대한 권한 없이 알림을 받을 수 있도록 사용자가 구독자(예: IBM 직원)의 목록을 지정할 수 있는 새 기능이 {{site.data.keyword.BluSoftlayer_notm}} 인프라 고객 지원에 추가되었습니다.
 
 구독자의 목록을 지정하려면 마스터 사용자는 고객 포털 계정에 로그인하고 다음 단계를 수행할 수 있습니다.
-1. 메뉴에서 **계정** > **관리** > **구독**을 클릭하십시오.
+1. 메뉴에서 **지원** > **이벤트**를 클릭하십시오.
 2. 이벤트 유형을 선택하여 구독자를 추가하십시오.
 2. 팝업 창에서 이메일 주소를 추가하십시오. 이메일 주소는 IBM이거나 비IBM일 수 있습니다.
 3. **작성**을 클릭하십시오.
