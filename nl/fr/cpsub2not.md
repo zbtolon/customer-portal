@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-02"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -66,7 +66,7 @@ L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} s'efforce de fournir un
 Les clients IBM comptent de plus en plus sur les services de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} (IaaS), que ce soient par des contrats avec IBM pour des services d'infrastructure gérés qui s'exécutent sur l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} ou par des contrats passés directement avec des services de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Lorsque des services cloud impliquent l'infrastructure, seuls les utilisateurs de compte SoftLayer sont autorisés à recevoir des notifications, comme décrit à la section précédente. Dans certains cas, il se peut que vous n'ayez pas besoin des équipes de service géré ou de compte IBM impliquées dans les opérations de support des services d'infrastructure pour accéder à vos comptes SoftLayer. Une nouvelle fonction a été ajoutée au portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour vous permettre de désigner une liste d'abonnés, comme du personnel IBM, pour recevoir les notifications sans disposer de droits sur vos comptes.
 
 Pour désigner une liste d'abonnés, les utilisateurs principaux peuvent se connecter à leur compte de portail client  et utiliser la procédure suivante :
-1. Cliquez sur **Compte** > **Gérer** > **Abonnements** depuis le menu.
+1. Cliquez sur **Support** > **Evénements** dans le menu.
 2. Choisissez le type d'événement auquel ajouter des abonnés.
 2. Depuis la fenêtre contextuelle, ajoutez la ou les adresses e-mail. Il peut s'agir d'adresses IBM ou non.
 3. Cliquez sur **Créer**.

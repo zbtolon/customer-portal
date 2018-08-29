@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-08-21"
 
 ---
 
@@ -29,7 +29,7 @@ Nesse tutorial, passaremos pelo processo de introdução e execução com sua co
 Se você não usa o IBMid para autenticação para efetuar login em sua conta, efetue login no portal do cliente com suas credenciais de infraestrutura exclusivas do {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
 
-## Etapa 1: configurar sua conta
+## Etapa 1. Configurar sua conta
 {: #account-setup}
 
 A configuração de sua conta inclui a verificação das informações de contato e dos detalhes de faturamento de sua conta:
@@ -37,7 +37,7 @@ A configuração de sua conta inclui a verificação das informações de contat
  * Para verificar os detalhes de perfil de sua empresa, acesse **Conta** > **Gerenciar** > **Perfil da empresa**. As informações de perfil da empresa incluem detalhes sobre o portador da conta principal.
  * Para verificar seus detalhes de faturamento, acesse **Conta** > **Faturamento** > **Método de pagamento**. O método de pagamento mensal é o cartão de crédito faturado em uma base recorrente para os pagamentos associados à sua conta.
 
-## Etapa 2: incluir usuários e designar permissões
+## Etapa 2. Incluir os usuários e designar as permissões
 {: #users-permissions}
 
 Para incluir usuários em sua conta e configurar permissões iniciais, acesse **Conta** > **Usuários**.
@@ -47,7 +47,7 @@ Para incluir usuários em sua conta e configurar permissões iniciais, acesse **
 Ao configurar permissões de infraestrutura no convite inicial, você escolhe um de três conjuntos de permissões: Apenas visualização, Usuário básico, Superusuário. Após os usuários aceitarem o convite, é possível customizar seus acessos editando suas permissões do portal. Para obter mais informações, consulte [Infraestrutura Permissões](/docs/iam/infrastructureaccess.html).
 {: tip}
 
-## Etapa 3: ativar o acesso à rede privada da infraestrutura do {{site.data.keyword.Bluemix_notm}}
+## Etapa 3. Ativar o acesso à rede privada da infraestrutura do {{site.data.keyword.Bluemix_notm}}
 {: #enable-private-network}
 
 A rede privada de infraestrutura do {{site.data.keyword.Bluemix_notm}} é oferecida para usuários e dispositivos gratuitamente. Toda a largura de banda na rede privada é ilimitada e gratuita. A rede privada oferece os benefícios a seguir:
@@ -65,7 +65,7 @@ Para usuários em contas que usam a autenticação do IBMid, usa-se o nome do us
 
 Para obter mais informações sobre como usar uma conexão de VPN, veja [Sobre a VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
-## Etapa 4: assinar notificações
+## Etapa 4. Assinar notificações
 {: #get-notified}
 
 Para ser notificado sobre problemas do sistema que possam ocorrer e eventos de manutenção planejados, é possível assinar notificações por meio do Sistema de Gerenciamento de Eventos. Por padrão, sua assinatura para notificações é cancelada quando você cria uma conta ou é incluído em uma conta.
@@ -73,7 +73,7 @@ Para ser notificado sobre problemas do sistema que possam ocorrer e eventos de m
 Acesse o Sistema de gerenciamento de eventos no portal do cliente para especificar quais notificações você deseja assinar:
   1. Selecione **Conta** > **Gerenciar** > **Assinaturas** na barra de menus.
   2. Clique em uma assinatura específica na lista.
-  3. Selecione a caixa de seleção **Sim** na coluna Inscrito.
+  3. Selecione  ** Sim **  na coluna Assinado.
   4. Clique em **Visualizar todas as assinaturas** para retornar à lista de assinaturas disponíveis e assinar outros tipos, se necessário.
 
 ## Próximas Etapas

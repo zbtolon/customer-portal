@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-02-02"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -66,7 +66,7 @@ A infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} se esforça para dar
 Cada vez mais, os clientes IBM dependem dos serviços de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} (IaaS), seja contratando a IBM para serviços de infraestrutura gerenciados, contratando para serviços de nuvem que são executados na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} ou contratando diretamente com os serviços de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Quando os serviços de nuvem envolvem infraestrutura, apenas usuários da conta do SoftLayer estão autorizados a receber notificações, conforme descrito na seção anterior. Em alguns casos, é possível que você não deseje que as equipes da Conta IBM ou do Serviço Gerenciado envolvidas nas operações ou no suporte de serviços de infraestrutura acessem suas contas do SoftLayer. Um novo recurso foi incluído no portal do cliente de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} que permite designar uma lista de assinantes, por exemplo a equipe da IBM, para receber notificações sem ter quaisquer privilégios em suas contas.
 
 Para designar uma lista de assinantes, os usuários principais podem efetuar login em suas contas do portal do cliente e usar as etapas a seguir:
-1. Clique em **Conta** > **Gerenciar** > **Assinaturas** no menu.
+1. Clique em  ** Suporte **  >  ** Eventos **  a partir do menu.
 2. Escolha o tipo de evento para incluir assinantes.
 2. Na janela pop-up, inclua o endereço ou endereços de e-mail. Os endereços de e-mail podem ser IBM ou não IBM.
 3. Clique em **Criar**.

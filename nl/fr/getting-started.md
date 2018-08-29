@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-15"
+lastupdated: "2018-08-21"
 
 ---
 
@@ -29,7 +29,7 @@ Vous aurez besoin d'un compte [{{site.data.keyword.Bluemix}} ![External link ico
 Si vous n'utilisez pas un IBMid pour authentification lorsque vous vous connectez à votre compte, connectez-vous au portail client à l'aide de vos données d'identification uniques de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
 
-## Etape 1 : Configurer votre compte
+## Etape 1. Configurer votre compte
 {: #account-setup}
 
 La configuration de votre compte inclut la vérification de vos informations de contact et des détails de facturation :
@@ -37,7 +37,7 @@ La configuration de votre compte inclut la vérification de vos informations de 
  * Pour vérifier les détails de votre profil de société, accédez à **Compte** > **Gérer** > **Profil de la Société**. Les informations du profil de société contiennent des détails relatifs au titulaire de compte principal.
  * Pour vérifier vos détails de facturation, accédez à **Compte** > **Facturation** > **Mode de Règlement**. Le mode de règlement mensuel repose sur la carte de crédit facturée sur une base récurrente pour les paiements associés à votre compte.
 
-## Etape 2 : Ajouter des utilisateurs et affecter des droits
+## Etape 2. Ajouter des utilisateurs et affecter des droits
 {: #users-permissions}
 
 Pour ajouter des utilisateurs à votre compte et définir les droits initiaux, accédez à **Compte** > **Utilisateurs**.
@@ -47,7 +47,7 @@ Pour ajouter des utilisateurs à votre compte et définir les droits initiaux, a
 Lorsque vous définissez des droits d'accès à l'infrastructure dans l'invitation initiale, vous choisissez parmi l'un des trois ensembles de droits : Affichage uniquement, Utilisateur de base, Superutilisateur. Une fois que l'utilisateur a accepté l'invitation, vous pouvez personnaliser son accès en éditant les droits d'accès au portail. Pour plus d'informations, voir [Droits relatifs à l'infrastructure](/docs/iam/infrastructureaccess.html).
 {: tip}
 
-## Etape 3 : Activer l'accès au réseau privé de l'infrastructure {{site.data.keyword.Bluemix_notm}}
+## Etape 3. Activer l'accès au réseau privé de l'infrastructure {{site.data.keyword.Bluemix_notm}}
 {: #enable-private-network}
 
 Le réseau privé de l'infrastructure {{site.data.keyword.Bluemix_notm}} est proposée gratuitement aux utilisateurs et appareils. Toute la bande passante utilisée sur le réseau privé est illimitée et gratuite. Le réseau privé offre les avantages suivants :
@@ -65,7 +65,7 @@ Pour les utilisateurs de comptes utilisant l'authentification IBMid, le nom d'ut
 
 Pour plus d'informations sur l'utilisation d'une connexion VPN, voir [A propos de la connexion VPN](/docs/infrastructure/iaas-vpn/about-vpn.html).
 
-## Etape 4 : S'abonner aux notifications
+## Etape 4. S'abonner aux notifications
 {: #get-notified}
 
 Pour être notifié des problèmes système pouvant survenir ainsi que des événements de maintenance planifiée, vous pouvez vous abonner aux notifications via le système de gestion d'événements. Par défaut, lorsque vous créez un compte ou êtes ajouté à un compte,  vous êtes désabonné des notifications.
@@ -73,7 +73,7 @@ Pour être notifié des problèmes système pouvant survenir ainsi que des évé
 Accédez au système de gestion d'événement sur le portail client pour spécifier les notifications auxquelles vous désirez vous abonner :
   1. Sélectionnez **Compte** > **Gérer** > **Abonnements** dans la barre de menus.
   2. Cliquez sur un abonnement spécifique dans la liste.
-  3. Cochez la case **Oui** dans la colonne Abonné.
+  3. Sélectionnez **Oui** dans la colonne Abonné.
   4. Cliquez sur **Afficher Tous les Abonnements** pour revenir à la liste des abonnements disponibles et abonnez-vous à d'autres types si nécessaire.
 
 ## Etapes suivantes
