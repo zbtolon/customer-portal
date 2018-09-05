@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ Because you should be in control of your cloud experience, you need timely infor
 
 For the notification system to be fully effective, subscribe to the process. If you have a critical environment that requires it, also establish 24 hour coverage.
 
-For an overview of how {{site.data.keyword.BluSoftlayer_notm}} infrastructure notifications are provided, see [Improving communications for customer-affecting planned events ![External link icon](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window}.
 
 ## Notification timing policy
 {: #cp_bpgsnotiftimpol}
