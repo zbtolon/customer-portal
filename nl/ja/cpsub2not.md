@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ lastupdated: "2018-08-23"
 
 通知システムが完全に実効性があるようにするには、プロセスにサブスクライブします。 重要な環境を使用していて必要であれば、24 時間の適応範囲も設定します。
 
-{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー通知がどのように提供されるのかの概要は [Improving communications for customer-affecting planned events ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window} にあります。
 
 ## 通知のタイミング・ポリシー
 {: #cp_bpgsnotiftimpol}
