@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ Les notifications de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} on
 
 Pour que le système de notification soit pleinement efficace, abonnez-vous au processus. Si vous possédez un environnement critique qui le nécessite, établissez également une couverture 24/24.
 
-Pour une présentation de la façon dont les notifications de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} sont fournies, voir [Improving communications for customer-affecting planned events ![Icône de lien externe](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window}.
 
 ## Principes de diffusion des notifications
 {: #cp_bpgsnotiftimpol}

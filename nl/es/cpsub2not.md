@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ Las notificaciones de la infraestructura de {{site.data.keyword.BluSoftlayer_not
 
 Para que el sistema de notificación sea totalmente efectivo, suscríbase al proceso. Si tiene un entorno crítico que lo requiera, establezca también la cobertura de 24 horas.
 
-Para obtener una visión general de cómo se proporcionan las notificaciones de infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, consulte [Mejora de comunicaciones para los sucesos planificados que afectan a los clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window}.
 
 ## Política de tiempo de notificación
 {: #cp_bpgsnotiftimpol}
