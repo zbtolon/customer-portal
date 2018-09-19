@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ Die Benachrichtigungen der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur
 
 Damit das Benachrichtigungssystem seine volle Wirksamkeit erzielen kann, müssen Sie den Prozess abonnieren. Falls Sie eine kritische Umgebung nutzen, richten Sie außerdem eine 24-Stunden-Abdeckung ein, wenn dies für Ihre Umgebung erforderlich ist.
 
-Eine Übersicht über die Art der Bereitstellung von Benachrichtigungen in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur enthält der Beitrag [Improving communications for customer-affecting planned events ![Symbol für externen Link](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window}.
 
 ## Ablaufsteuerungsrichtlinie für Benachrichtigungen
 {: #cp_bpgsnotiftimpol}
