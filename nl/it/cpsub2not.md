@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ Le notifiche dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} sono st
 
 Affinché il sistema di notifica sia pienamente efficace, sottoscrivi il processo. Se hai un ambiente critico che lo richiede, stabilisci anche una copertura di 24 ore.
 
-Per una panoramica di come vengono fornite le notifiche dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}, vedi [Improving communications for customer-affecting planned events ![Icona link esterno](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window}.
 
 ## Politica dell'intervallo di notifica
 {: #cp_bpgsnotiftimpol}
