@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ lastupdated: "2018-08-23"
 
 알림 시스템을 완전히 작동시키려면 프로세스를 구독하십시오. 알림 시스템이 필요한 중요 환경을 보유하고 있는 경우 24시간의 적용 범위도 설정하십시오.
 
-{{site.data.keyword.BluSoftlayer_notm}} 인프라 알림이 제공되는 방법에 대한 개요는 [Improving communications for customer-affecting planned events ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window}를 참조하십시오.
 
 ## 알림 시간 제어 정책
 {: #cp_bpgsnotiftimpol}
