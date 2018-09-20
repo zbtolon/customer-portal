@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ As notificações de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} f
 
 Para que o sistema de notificação seja totalmente eficaz, assine o processo. Se você tiver um ambiente crítico que a requeira, estabeleça também uma cobertura de 24 horas.
 
-Para obter uma visão geral de como as notificações de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} são fornecidas, consulte [Melhorando as comunicações para eventos planejados que afetam o cliente ![Ícone de link externo](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window}.
 
 ## Política de sincronização de notificação
 {: #cp_bpgsnotiftimpol}
