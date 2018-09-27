@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -33,7 +33,6 @@ lastupdated: "2018-08-23"
 
 若要讓通知系統完全生效，請訂閱此處理程序。如果您有需要它的重要環境，也請建立 24 小時涵蓋範圍。
 
-如需如何提供 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構通知的概觀，請參閱 [Improving communications for customer-affecting planned events ![外部鏈結圖示](../icons/launch-glyph.svg)](http://blog.softlayer.com/2014/improving-communications-customer-affecting-planned-events){:new_window}。
 
 ## 通知計時原則
 {: #cp_bpgsnotiftimpol}
