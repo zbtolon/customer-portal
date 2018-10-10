@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-21"
+lastupdated: "2018-10-10"
 
 ---
 
@@ -24,7 +24,7 @@ In this tutorial, we walk through the process of getting you up and running with
 ## Before you begin
 {: #prereqs}
 
-You need an [{{site.data.keyword.Bluemix}} account ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){:new_window}. Log in to the customer portal with your IBMid credentials. Most new users use [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) for authentication.
+You need an [{{site.data.keyword.Bluemix}} account ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/){:new_window}. Log in to the customer portal with your IBMid credentials. Most new users use [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) for authentication.
 
 If you don't use IBMid for authentication to log in to your account, log in to the customer portal with your unique {{site.data.keyword.BluSoftlayer_notm}} infrastructure credentials.
 {: tip}
