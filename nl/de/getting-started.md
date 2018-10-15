@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-21"
+lastupdated: "2018-10-10"
 
 ---
 
@@ -24,7 +24,7 @@ In diesem Lernprogramm werden Sie durch den Prozess geführt, mit dem Sie Ihr So
 ## Vorbereitende Schritte
 {: #prereqs}
 
-Sie benötigen ein [{{site.data.keyword.Bluemix}}-Konto ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.bluemix.net/){:new_window}. Melden Sie sich mit den Berechtigungsnachweisen Ihrer IBMid beim Kundenportal an. Die meisten Benutzer verwenden die [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) für die Authentifizierung.
+Sie benötigen ein [{{site.data.keyword.Bluemix}}-Konto ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/){:new_window}. Melden Sie sich mit den Berechtigungsnachweisen Ihrer IBMid beim Kundenportal an. Die meisten Benutzer verwenden die [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) für die Authentifizierung.
 
 Wenn Sie zum Anmelden an Ihrem Konto nicht die IBMid zur Authentifizierung verwenden, melden Sie sich beim Kundenportal mit Ihren eindeutigen Berechtigungsnachweisen für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur an.
 {: tip}
