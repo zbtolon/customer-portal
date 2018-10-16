@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-21"
+lastupdated: "2018-10-10"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2018-08-21"
 ## 始める前に
 {: #prereqs}
 
-[{{site.data.keyword.Bluemix}} アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.bluemix.net/){:new_window} が必要です。 IBM ID の資格情報でカスタマー・ポータルにログインしてください。 ほとんどの新規ユーザーは、認証に [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid) を使用します。
+[{{site.data.keyword.Bluemix}} アカウント ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.bluemix.net/){:new_window} が必要です。 IBM ID の資格情報でカスタマー・ポータルにログインしてください。 ほとんどの新規ユーザーは、認証に [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid) を使用します。
 
 アカウントへのログインの認証に IBM ID を使用しない場合は、固有の {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー資格情報を使用してカスタマー・ポータルにログインしてください。
 {: tip}

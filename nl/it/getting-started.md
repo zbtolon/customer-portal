@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-21"
+lastupdated: "2018-10-10"
 
 ---
 
@@ -24,7 +24,7 @@ In questa esercitazione, illustreremo il processo per rendere operativo il tuo a
 ## Prima di iniziare
 {: #prereqs}
 
-Hai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.bluemix.net/){:new_window}. Accedi al portale clienti con le tue credenziali dell'ID IBM. La maggior parte dei nuovi utenti utilizza l'[ID IBM ](/docs/account/softlayerlink.html#switchtoIBMid) per l'autenticazione.
+Hai bisogno di un [account {{site.data.keyword.Bluemix}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/){:new_window}. Accedi al portale clienti con le tue credenziali dell'ID IBM. La maggior parte dei nuovi utenti utilizza l'[ID IBM ](/docs/account/softlayerlink.html#switchtoIBMid) per l'autenticazione.
 
 Se non utilizzi l'ID IBM per l'autenticazione per accedere al tuo account, esegui l'accesso al portale clienti con le tue credenziali univoche dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}

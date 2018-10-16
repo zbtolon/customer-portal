@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-21"
+lastupdated: "2018-10-10"
 
 ---
 
@@ -24,9 +24,9 @@ lastupdated: "2018-08-21"
 ## 시작하기 전에
 {: #prereqs}
 
-[{{site.data.keyword.Bluemix}} 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.bluemix.net/){:new_window}이 필요합니다. IBM ID 신임 정보를 사용하여 고객 포털에 로그인하십시오. 대부분의 신규 사용자는 인증에 [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)를 사용합니다.
+[{{site.data.keyword.Bluemix}} 계정 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.bluemix.net/){:new_window}이 필요합니다. IBM ID 인증 정보를 사용하여 고객 포털에 로그인하십시오. 대부분의 신규 사용자는 인증에 [IBM ID](/docs/account/softlayerlink.html#switchtoIBMid)를 사용합니다.
 
-인증용 IBM ID를 사용하여 계정에 로그인하지 않는 경우에는 고유 {{site.data.keyword.BluSoftlayer_notm}} 인프라 신임 정보를 사용하여 고객 포털에 로그인하십시오.
+인증용 IBM ID를 사용하여 계정에 로그인하지 않는 경우에는 고유 {{site.data.keyword.BluSoftlayer_notm}} 인프라 인증 정보를 사용하여 고객 포털에 로그인하십시오.
 {: tip}
 
 ## 1단계. 계정 설정

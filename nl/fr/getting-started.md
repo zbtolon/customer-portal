@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-21"
+lastupdated: "2018-10-10"
 
 ---
 
@@ -24,7 +24,7 @@ Ce tutoriel détaille la procédure de mise en route de votre compte SoftLayer a
 ## Avant de commencer
 {: #prereqs}
 
-Vous aurez besoin d'un compte [{{site.data.keyword.Bluemix}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){:new_window}. Connectez-vous au portail client à l'aide de vos données d'identification IBMid. La plupart des nouveaux utilisateurs se servent de l'[IBMid](/docs/account/softlayerlink.html#switchtoIBMid) pour l'authentification.
+Vous aurez besoin d'un compte [{{site.data.keyword.Bluemix}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/){:new_window}. Connectez-vous au portail client à l'aide de vos données d'identification IBMid. La plupart des nouveaux utilisateurs se servent de l'[IBMid](/docs/account/softlayerlink.html#switchtoIBMid) pour l'authentification.
 
 Si vous n'utilisez pas un IBMid pour authentification lorsque vous vous connectez à votre compte, connectez-vous au portail client à l'aide de vos données d'identification uniques de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
