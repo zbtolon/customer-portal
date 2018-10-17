@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-21"
+lastupdated: "2018-10-10"
 
 ---
 
@@ -24,7 +24,7 @@ En esta guía de aprendizaje, le guiaremos por el proceso de ejecución y uso de
 ## Antes de empezar
 {: #prereqs}
 
-Necesitará una cuenta de [{{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.bluemix.net/){:new_window}. Inicie sesión en el portal de clientes con sus credenciales de IBMid. La mayoría de los usuarios nuevos utilizan [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) para su autenticación.
+Necesita una [cuenta de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/){:new_window}. Inicie sesión en el portal de clientes con sus credenciales de IBMid. La mayoría de los usuarios nuevos utilizan [IBMid](/docs/account/softlayerlink.html#switchtoIBMid) para su autenticación.
 
 Si no utiliza un IBMid para la autenticación para iniciar sesión en la cuenta, inicie sesión en el portal de clientes con sus credenciales exclusivas de infraestructura de {{site.data.keyword.BluSoftlayer_notm}}.
 {: tip}
