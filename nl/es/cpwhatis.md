@@ -36,5 +36,5 @@ Utilizará luego el portal de clientes de la infraestructura de {{site.data.keyw
 Para todo lo demás, utilice la consola de [{{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
 
 Puede acceder al portal de clientes de las siguientes maneras:
-* Desde la consola de [{{site.data.keyword.Bluemix}} menú de ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} seleccionando **Infraestructura** desde la barra de menús ![Icono Menú](../icons/icon_hamburger.svg). Para obtener más información, consulte [Cómo funciona la consola de {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
+* Desde el menú de la [consola de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} seleccionando **Infraestructura** en la barra de menús ![Icono Menú](../icons/icon_hamburger.svg). Para obtener más información, consulte [Cómo funciona la consola de {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
 * Desde el [portal de clientes de SoftLayer ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} directamente.
