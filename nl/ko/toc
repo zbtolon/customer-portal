@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html"}
+{: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html" path="customer-portal"}
 고객 포털에서 작업
 
     {: .navgroup id="learn"}
