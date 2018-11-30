@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-25"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-05-25"
 # Managing your billing items
 {: #manage-billing}
 
-If you are managing {{site.data.keyword.Bluemix}} infrastructure billing for a SoftLayer account, you can manage your billing and payments in the customer portal. To manage {{site.data.keyword.Bluemix_notm}} platform billing and payments, see [Managing billing and usage](/docs/account/index.html).  
+If you're managing {{site.data.keyword.Bluemix}} infrastructure billing for a SoftLayer account, you can manage your billing and payments in the customer portal. To manage {{site.data.keyword.Bluemix_notm}} platform billing and payments, see [Managing payments](/docs/billing-usage/manage_billing.html#linkedusage).  
 {:shortdesc}
 
 ## Accessing your billing items
@@ -26,15 +26,15 @@ If you are managing {{site.data.keyword.Bluemix}} infrastructure billing for a S
 
 You can use the Manage Billing Items window in the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} to associate billing items to specific devices and cancel those items, when necessary.
 
-The Manage Billing Items window shows associated billing items. You can change the view by selecting another option from the **Display** drop down list. When you are viewing billing items, you can change unassociated billing items to be associated, and associated items to be dissociated. You can change associated and dissociated items individually, or for more than one item at a time, by using the Bulk Actions feature. You can cancel individual billing items at any time from the Manage Billing Items window.
+The Manage Billing Items window shows associated billing items. You can change the view by selecting another option from the **Display** drop down list. When you're viewing billing items, you can change unassociated billing items to be associated, and associated items to be dissociated. You can change associated and dissociated items individually, or for more than one item at a time, by using the Bulk Actions feature. You can cancel individual billing items at any time from the Manage Billing Items window.
 
 
 ## Canceling a billing item
 {: #cp_cancelbillitems}
 
-You can cancel billing items directly from the Manage Billing Items window at any time. You can initiate cancellations for most services and solutions immediately. Cancellations are either immediate or they are processed on the billing anniversary.
+You can cancel billing items directly from the Manage Billing Items window at any time. You can initiate cancellations for most services and solutions immediately. Cancellations are either immediate or they're processed on the billing anniversary.
 
-> **Note:** Data that is stored on any device, service, or solution that is canceled cannot be retrieved after cancellation. Back up all data that you want to save before you complete the cancellation request.
+> **Note:** Data that is stored on any device, service, or solution that is canceled can't be retrieved after cancellation. Back up all data that you want to save before you complete the cancellation request.
 
 Use the following steps to cancel a billing item.
 
@@ -46,10 +46,10 @@ Use the following steps to cancel a billing item.
 >**Note**: Immediate cancellations are processed when the request is submitted and no refunds are issued. Anniversary date cancellations are initiated immediately. However, the billing item remains active until the next anniversary date, which is provided when you make the selection.
 6. Enter the **reason for cancellation** in the **Notes** text box.
 7. Click **Continue** to proceed to the next window in the cancellation process.
-8. Review the **Terms of Service** provided in the cancellation warning and click the **Acknowledgement** check box.
+8. Review the **Terms of Service** that is provided in the cancellation warning and click the **Acknowledgement** check box.
 9. Click **Cancel Service**.
 
-After you confirm the cancellation, the billing item cancellation process begins. If you requested an immediate cancellation, the billing item is canceled immediately. If you requested a billing anniversary cancellation, the billing item remains active until the next billing anniversary. Upon its cancellation, the billing item is no longer active within the customer portal. Billing items are also removed from invoices when all outstanding balances, if any exist, are paid on the service or solution. Refunds cannot be given for immediate cancellations.
+After you confirm the cancellation, the billing item cancellation process begins. If you requested an immediate cancellation, the billing item is canceled immediately. If you requested a billing anniversary cancellation, the billing item remains active until the next billing anniversary. Upon its cancellation, the billing item is no longer active within the customer portal. Billing items are also removed from invoices when all outstanding balances, if any exist, are paid on the service or solution. Refunds can't be given for immediate cancellations.
 
 
 ## Associating billing items to a device
@@ -60,11 +60,11 @@ You can associate billing items for each account to a device on the Manage Billi
 1. Access the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} by using your unique credentials.
 2. Select **Account** > **Billing** > **Billing Items** to access the Manage Billing Items window.
 3. Associate either a single billing item to a device or associate multiple billing items to a device:
-  * To associate a single billing item, from the **Actions** list, select **Associate Device** .
+  * To associate a single billing item, from the **Actions** list, select **Associate Device**.
   * To associate multiple billing items, click the check box for each billing item to be associated to the device. Then, from the **Bulk Actions** menu, select **Associate Selected Items to Device**.
 4. Click **Yes**.
 
-When you complete the request, billing item association occurs immediately within backend systems. After you associate a billing item to a device, it is shown within the Associated Billing Items list and the device name is shown in the Associated With column for each billing item.
+When you complete the request, billing item association occurs immediately within backend systems. After you associate a billing item to a device, it's shown within the Associated Billing Items list and the device name is shown in the Associated With column for each billing item.
 
 
 ## Removing device association for billing items
@@ -75,8 +75,8 @@ After billing items for an account are associated to a device, you can remove th
 1. Access the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} by using your unique credentials.
 2. Select **Account** > **Billing** > **Billing Items** to access the Manage Billing Items window.
 3. Remove an association for either a single billing item or for multiple billing items:
-  * To remove an association for a single billing item, from the **Actions** list, select **Remove Association** .
+  * To remove an association for a single billing item, from the **Actions** list, select **Remove Association**.
   * To remove an association for multiple billing items, click the check box for each billing item to be removed from the device. Then, from the **Bulk Actions** list, select **Remove Association from Selected Items**.
 4. Click **Yes**.
 
-When you complete the request, the billing item association removal occurs immediately within backend systems. After you remove the association for a billing item, it is shown within the **Unassociated Billing Items** list. The device name is no longer shown in the **Associated With** column for each billing item. You can [associate billing items to another device](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device) at any time by using either the single or bulk association method.
+When you complete the request, the billing item association removal occurs immediately within backend systems. After you remove the association for a billing item, it's shown within the **Unassociated Billing Items** list. The device name is no longer shown in the **Associated With** column for each billing item. You can [associate billing items to another device](/docs/customer-portal/cpmanacctbillpay.html#cp_assbillitem2device) at any time by using either the single or bulk association method.

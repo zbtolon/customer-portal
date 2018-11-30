@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -18,20 +18,20 @@ lastupdated: "2018-08-13"
 # Configuring single sign-on
 {: #customerportal_confssoserv}
 
-If you're the master user of an account or have administrative access to it, you can configure single sign-on. Configuring single sign-on for {{site.data.keyword.BluSoftlayer_full}} infrastructure is a two-step process. First, you select and set up your identity provider. Then, you set up {{site.data.keyword.BluSoftlayer_notm}} infrastructure to receive the authentication request from your identity provider.
+If you're the master user of an account or have administrative access to it, you can configure single sign-on. Configuring single sign-on for {{site.data.keyword.BluSoftlayer_full}} infrastructure is a two step process. First, you select and set up your identity provider. Then, you set up {{site.data.keyword.BluSoftlayer_notm}} infrastructure to receive the authentication request from your identity provider.
 {:shortdesc}
 
 ## Selecting and setting up your identity provider
 {: #cp_setupidprov}
 
-If you don't have an identity provider, first select one and set it up. You can use the following identity providers with {{site.data.keyword.BluSoftlayer_notm}}:
-* Ping Identity&reg;
-* OneLogin&trade;
-* IBM&reg; Cloud Security Enforcer
-* IBM Cloud Identity Services
+If you don't already have an identity provider, first select one and set it up. You can use the following identity providers with {{site.data.keyword.BluSoftlayer_notm}}:
+* Ping Identity&reg;,
+* OneLogin&trade;,
+* IBM&reg; Cloud Security Enforcer,
+* IBM Cloud Identity Services.
 Contact your {{site.data.keyword.BluSoftlayer_notm}} infrastructure Sales Representative for more information.
 
-If your identity provider isn't set up already, you can contact your identity provider support for specific steps. You can also use the following high-level steps to configure your identity provider:
+If you don't already have an identity provider set up, you can contact your identity provider support for specific steps. You can also use the following high-level steps to configure your identity provider:
 1. Prepare your identity provider environment by downloading and installing the executable file.
 2. Configure your identity provider to work with {{site.data.keyword.BluSoftlayer_notm}} authentication.
 
@@ -46,12 +46,16 @@ You must extract the following required fields of Security Assertion Markup Lang
 <dd>The endpoint of the identity provider for SSO.</dd>
 <dt>Certificate</dt>
 <dd>The identity provider's certificate that is used to sign requests.</dd>
+</dl>
+
+The following field is optional:
+<dl>
 <dt>Certificate Fingerprint</dt>
-<dd>The fingerprint of the certificate. This field can be used instead of the entire certificate. (Optional)</dd>
+<dd>The fingerprint of the certificate. This field can be used instead of the entire certificate.</dd>
 </dl>
 
 Use the following steps to set up {{site.data.keyword.BluSoftlayer_notm}} infrastructure to receive the authentication request from your identity provider:
-1. Log in to your identity provider, if you are not already logged in, and locate the **SAML configuration** page. Note the following information:
+1. Log in to your identity provider, if you aren't already logged in, and locate the **SAML configuration** page. Note the following information:
   * Entity ID
   * Single sign-on URL
   * Certificate (Certificate requirements vary based on your identity provider.)

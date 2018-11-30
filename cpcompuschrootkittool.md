@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-10-11"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-12-06"
 You can use the Chrootkit tool to scan, create, and email system reports.
 {:shortdesc}
 
-To use the Chrootkit tool, first SSH as the admin to your server. Do not use telnet, which should already be disabled. Then, use the following steps:
+To use the Chrootkit tool, first SSH as the admin to your server. Don't use telnet, which should already be disabled. Then, use the following steps:
 
 1. Change to the root directory:  
 
@@ -45,7 +45,7 @@ To use the Chrootkit tool, first SSH as the admin to your server. Do not use tel
   ```
   {: pre}
 
-4. Unpack the tarball using the following command:<br/>
+4. Unpack the tarball by using the following command:<br/>
 
   ```
   tar xvzf chkrootkit.tar.gz
@@ -75,7 +75,7 @@ To use the Chrootkit tool, first SSH as the admin to your server. Do not use tel
 
 Everything the chkrootkit tool outputs should be `not found` or `not infected`.
 
-If you see *Checking `bindshell`... INFECTED (PORTS: 465)* and you are running PortSentry, klaxon, or another program that binds itself to unused ports, chkrootkit is likely to give you a false positive on the bindshell test (ports 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp).
+If you see *Checking `bindshell`... INFECTED (PORTS: 465)* and you're running PortSentry, klaxon, or another program that binds itself to unused ports, chkrootkit is likely to give you a false positive on the bindshell test (ports 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp).
 {: tip}
 
 8. Change the directory (`cd ..`) and remove the .gz file:  

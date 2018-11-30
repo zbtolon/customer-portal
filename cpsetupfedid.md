@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-05-22"
 # Setting up identity federation
 {: #cp_setupidfed}
 
-You can set up identity federation to enable a service provider, such as {{site.data.keyword.BluSoftlayer_full}} Infrastructure Management System (IMS), to consume security tokens generated from a trusted identity system for authentication and authorization purposes.
+You can set up identity federation to enable a service provider, such as {{site.data.keyword.BluSoftlayer_full}} Infrastructure Management System (IMS), to consume security tokens that are generated from a trusted identity system for authentication and authorization purposes.
 {:shortdesc}
 
 You can set up identity federation in {{site.data.keyword.BluSoftlayer_notm}} infrastructure SSO in one of the following ways:
@@ -26,7 +26,7 @@ You can set up identity federation in {{site.data.keyword.BluSoftlayer_notm}} in
 
 A role defines, for the service provider, what the user is authorized to do (through permissions) in their system after the user has been authenticated. For example, the *User* role might be permitted to only view different screens, but not update or add.
 
-Multiple users can be assigned to a single role. Also, if a role exists in the identity provider but not in {{site.data.keyword.BluSoftlayer}} infrastructure, the user can still log in to {{site.data.keyword.BluSoftlayer}} infrastructure but the user does not have any permissions assigned to a role.
+Multiple users can be assigned to a single role. Also, if a role exists in the identity provider but not in {{site.data.keyword.BluSoftlayer}} infrastructure, the user can still log in to {{site.data.keyword.BluSoftlayer}} infrastructure but the user doesn't have any permissions that are assigned to a role.
 {: tip}
 
 
@@ -39,12 +39,12 @@ In this model, the following process occurs:
 * Users authenticate with the identity provider and federate their credentials.
 * {{site.data.keyword.BluSoftlayer}} infrastructure consumes the credentials and access control is based on the permissions that are defined for the user in {{site.data.keyword.BluSoftlayer}} infrastructure IMS.
 
-Accounts for users that need access to {{site.data.keyword.BluSoftlayer}} infrastructure are first created in {{site.data.keyword.BluSoftlayer}} infrastructure with random passwords. All permissions must be configured in {{site.data.keyword.BluSoftlayer}} infrastructure before the user is able to use SSO through the identity provider. Currently, permissions are set up based on the individual user.
+Accounts for users that need access to {{site.data.keyword.BluSoftlayer}} infrastructure are first created in {{site.data.keyword.BluSoftlayer}} infrastructure with random passwords. All permissions must be configured in {{site.data.keyword.BluSoftlayer}} infrastructure before the user can use SSO through the identity provider. Currently, permissions are set up based on the individual user.
 
 ### Setting up a user
 Use the following steps to set up a user:
 
-1. [Create users in {{site.data.keyword.BluSoftlayer}} infrastructure](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Adding users to a SoftLayer account](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
 2. Assign permissions in {{site.data.keyword.BluSoftlayer}} infrastructure.
 3. Create users in the identity provider.
 
@@ -70,7 +70,7 @@ In this model, the following things happen:
 * Role and permission assignments are set up in {{site.data.keyword.BluSoftlayer}} infrastructure IMS by using {{site.data.keyword.BluSoftlayer}} infrastructure APIs.
 * Users authenticate with the identity provider and federate their credentials and role attributes.
 * {{site.data.keyword.BluSoftlayer}} infrastructure verifies the user credentials and role attributes. If the roles that are assigned to users by their identity provider match the roles in {{site.data.keyword.BluSoftlayer}} infrastructure, users are granted permissions for those roles when they log in to {{site.data.keyword.BluSoftlayer}} infrastructure.
-* When the identity provider creates users, they are considered federated because they, and their roles, are authenticated through SAML 2.0.
+* When the identity provider creates users, they're considered federated because they, and their roles, are authenticated through SAML 2.0.
 
 ### Setting up a role for a user
 {: #cp_set-up-user-role}
@@ -89,7 +89,7 @@ Use the following steps to set up a user:
 1. Set up users in the identity provider.
 2. Assign roles to users in the identity provider.
 
-In this scenario, you do not need to manually create users in {{site.data.keyword.BluSoftlayer}} infrastructure.
+In this scenario, you don't need to manually create users in {{site.data.keyword.BluSoftlayer}} infrastructure.
 
 ### Example flow for user login authentication
 {: #exlogauthflowidprov}
