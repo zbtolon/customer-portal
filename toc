@@ -20,7 +20,6 @@ Managing SoftLayer resources
         cpmanacctcompprofcont.md
         cpenable2fa.md
         cpmanacctconfsso.md
-        ccpmanacccancreq.md
         cpsetupfedid.md
         accessing_infrastructure.md
 
