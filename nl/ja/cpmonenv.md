@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -48,7 +48,7 @@ lastupdated: "2018-05-30"
 ## モニター・サーバー
 {: #customerportal_monservers}
 
-サーバーの状況を確認し、拡大のタイミングを知るためのモニタリングをセットアップします。 標準のモニタリング・サービスまたは Nimsoft モニタリング・サービスのいずれかを使用できます。 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルから slow ping または service ping を使用して、ping 応答の方法で標準 (すなわち基本の) モニタリングを使用できます。 また、カスタマー・ポータルから、または 3 つの層 (基本、拡張、およびプレミアム) のいずれかで Nimsoft (すなわち拡張) モニタリングを使用することもできます。 ベア・メタル・サーバーの具体的な情報については、『[Bare Metal Servers 入門](/docs/bare-metal/about.html)』を参照してください。
+サーバーの状況を確認し、拡大のタイミングを知るためのモニタリングをセットアップします。 標準のモニタリング・サービスまたは Nimsoft モニタリング・サービスのいずれかを使用できます。 {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・カスタマー・ポータルから slow ping または service ping を使用して、ping 応答の方法で標準 (すなわち基本の) モニタリングを使用できます。 また、カスタマー・ポータルから、または 3 つの層 (基本、拡張、およびプレミアム) のいずれかで Nimsoft (すなわち拡張) モニタリングを使用することもできます。 ベア・メタル・サーバーの具体的な情報については、『[Bare Metal Servers 入門](/docs/bare-metal/index.html#getting-started)』を参照してください。
 
 ## システム・イベントのモニタリング
 {: #customerportal_monevent}

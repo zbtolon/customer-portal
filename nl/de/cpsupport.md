@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-17"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-05-17"
 Falls Sie Probleme mit der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur feststellen und kein verknüpftes Konto haben, können Sie Hilfe beim Bestimmen der Ursache des Problems und beim Finden einer Lösung über das Kundenportal abrufen.
 {:shortdesc}
 
-Wenn Sie ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix_notm}}-Konsole abrufen. Weitere Informationen finden Sie unter [Kundenunterstützung abrufen](/docs/get-support/howtogetsupport.html).
+Wenn Sie ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts) haben, können Sie den Support über die {{site.data.keyword.Bluemix_notm}}-Konsole abrufen. Weitere Informationen finden Sie unter [Unterstützung abrufen](/docs/get-support/howtogetsupport.html).
 
 Wenn Sie kein verknüpftes Konto haben, können Sie bei allgemeinen technischen Problemen oder bei Problemen mit Ihrem Konto Support-Tickets im Kundenportal für die {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur öffnen.
 
@@ -49,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um im Kundenportal in der {{site.data.ke
 
 8. Geben Sie im Feld **Details** alle Informationen bezüglich des Tickets ein.
 
-  Beziehen Sie bei der Meldung eines Problems so viele Informationen wie möglich ein. Hierzu gehören auch die vorgenommenen Aktionen, der Zeitpunkt, an dem das Problem auftrat, sowie gegebenenfalls verfügbare Screenshots.
+  Beziehen Sie bei der Meldung eines Problems so viele Informationen wie möglich ein. Hierzu gehören die vorgenommenen Aktionen, der Zeitpunkt, an dem das Problem auftrat, sowie gegebenenfalls verfügbare Screenshots.
   {:tip}
 
 9. Falls Sie Dateien an das Ticket anhängen möchten, klicken Sie auf **Dateien anhängen** und wählen Sie die Dateien aus, die an das Ticket angehängt werden sollen.
@@ -59,7 +59,7 @@ Führen Sie die folgenden Schritte aus, um im Kundenportal in der {{site.data.ke
 
 10. Wählen Sie in der Liste **Unterstützung in der EU** ein Rechenzentrum aus, wenn Sie ein Kunde mit Sitz in Europa sind und Sie möchten, dass Ihre Tickets von einem Support-Team behandelt werden, das ebenfalls in Europa ansässig ist.
 
-  Wählen Sie **Keine** aus, falls es nicht erforderlich, dass sich Ihr Support-Team physisch in Europa befindet.
+  Wählen Sie **Keine** aus, falls es nicht erforderlich ist, dass sich Ihr Support-Team physisch in Europa befindet.
   {: tip}
 
   Informationen zur Initialisierung dieser Funktion für Ihr Konto finden Sie im Abschnitt [Option 'Unterstützung in der EU' festlegen](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).

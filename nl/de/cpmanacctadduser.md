@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-05-22"
 # Benutzer zu einem SoftLayer-Konto hinzufügen
 {: #customerportal_addusertocpacct}
 
-Mit den Produkten und Services, die einem Konto zugeordnet sind, können ein oder mehrere Benutzer interagieren. Als Masterbenutzer können Sie jederzeit Benutzer hinzufügen.
+Mit den Produkten und Services, die einem Konto zugeordnet sind, können ein oder mehrere Benutzer interagieren. Wenn Sie der Masterbenutzer sind oder wenn Sie Verwaltungszugriff haben, können Sie Benutzer hinzufügen.
 {:shortdesc}
 
 Wenn Sie {{site.data.keyword.BluSoftlayer_full}}-Infrastrukturbenutzer verwalten, ist es von dem Zugriff, der Ihrem Benutzerkonto zugewiesen ist, abhängig, welche SoftLayer-Konten Sie verwalten können. Welche Konten Sie verwalten können, richtet sich auch danach, wie Ihr Konto eingerichtet ist. Falls Sie der Masterbenutzer sind oder als Kontoeigner Verwaltungszugriff besitzen, können Sie andere Kundenportalbenutzer verwalten. Falls Ihr Konto nicht als Masterbenutzer konfiguriert ist, können Sie Ihr Benutzerprofil verwalten.
@@ -26,22 +26,21 @@ Wenn Sie {{site.data.keyword.BluSoftlayer_full}}-Infrastrukturbenutzer verwalten
 Abhängig von Ihrem Zugriff können Sie entweder Ihr eigenes SoftLayer-Konto oder die Konten der anderen Benutzer im Fenster 'Benutzer' verwalten. Im Fenster 'Benutzer' im [Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} werden Benutzer angezeigt, denen ein Konto zugeordnet ist. Die im Fenster 'Benutzer' verfügbaren Interaktionen variieren abhängig davon, wie Ihre eindeutige Kontoberechtigung festgelegt ist.
   * Als Masterbenutzer des Kontos können Sie alle Benutzer anzeigen, die dem Konto zugeordnet sind.
 
-  Falls Sie die Masteranmeldeberechtigungsnachweise für Ihr Konto gemeinsam nutzen müssen, gehen Sie hierbei umsichtig vor. Über ihre Masteranmeldung werden alle Aspekte Ihres Kontos gesteuert. Daher sollten Sie sie sorgfältig schützen. Um anderen Benutzern die Verwendung des Kundenportals zu ermöglichen, konfigurieren Sie einzelne oder berechtigungsbasierte Benutzer. Durch Erstellen berechtigungsbasierter Benutzer stellen Sie sicher, dass Sie über die größtmögliche Kontrolle darüber verfügen, wer mit bestimmten Aspekten Ihres Kontos interagieren kann.
+  Falls Sie die Masteranmeldeberechtigungsnachweise für Ihr Konto gemeinsam nutzen müssen, gehen Sie hierbei umsichtig vor. Über Ihre Masteranmeldung werden alle Aspekte Ihres Kontos gesteuert. Daher sollten Sie sie sorgfältig schützen. Um anderen Benutzern die Verwendung des Kundenportals zu ermöglichen, konfigurieren Sie einzelne oder berechtigungsbasierte Benutzer. Durch Erstellen berechtigungsbasierter Benutzer stellen Sie sicher, dass Sie über die größtmögliche Kontrolle darüber verfügen, wer mit bestimmten Aspekten Ihres Kontos interagieren kann.
 {:tip}
 
-  * Falls Sie Verwaltungszugriff besitzen, können Sie alle von Ihnen hinzugefügten Benutzer anzeigen. Wenn Sie diesen Benutzern die Berechtigung zum Verwalten anderer Benutzer erteilt haben, können Sie außerdem alle von diesen Benutzern hinzugefügten Benutzer anzeigen. Außerdem können Sie jeden Benutzer verwalten, der dem Konto zugeordnet ist, was das Bearbeiten des Zugriffs auf das Kundenportal, das Ändern des Benutzerstatus und das Entfernen von Benutzern einschließt.
-  * Falls Sie nicht der Masterbenutzer des Kontos sind und keinen Verwaltungszugriff besitzen, wird lediglich Ihr Profil angezeigt. Sie können mit Ihrem eigenen Konto interagieren, beispielsweise den API-Schlüssel anzeigen, den VPN-Zugriff bearbeiten und eine externe Authentifizierung hinzufügen.
+  * Falls Sie Verwaltungszugriff besitzen, können Sie alle von Ihnen hinzugefügten Benutzer anzeigen. Wenn Sie diesen Benutzern die Berechtigung zum Verwalten anderer Benutzer erteilt haben, können Sie außerdem alle von diesen Benutzern hinzugefügten Benutzer anzeigen. Außerdem können Sie jeden Benutzer verwalten, der dem Konto zugeordnet ist. Dies schließt das Bearbeiten des Zugriffs auf das Kundenportal, das Ändern des Benutzerstatus und das Entfernen von Benutzern ein. 
 
-Informationen zur Verwaltung von Benutzern über die {{site.data.keyword.Bluemix_notm}}-Konsole enthalten die Abschnitte [Kontoeinrichtung](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) und [Identität und Zugriff verwalten](/docs/iam/quickstart.html#getstarted). Weitere Informationen zur {{site.data.keyword.Bluemix_notm}}-Konsole enthält [Funktionsweise der {{site.data.keyword.Bluemix_notm}}-Konsole](/docs/overview/ui.html#ui).
+Informationen zur Verwaltung von Benutzern über die {{site.data.keyword.Bluemix_notm}}-Konsole enthalten die Abschnitte [Kontoeinrichtung](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) und [Identität und Zugriff verwalten](/docs/iam/quickstart.html#getstarted). Weitere Informationen zur {{site.data.keyword.Bluemix_notm}}-Konsole enthält [In der {{site.data.keyword.Bluemix_notm}}-Konsole navigieren](/docs/overview/ui.html#ui).
 
-Unterschiedliche Personen in einer Organisation besitzen verschiedene Rollen und Zuständigkeiten; Benutzerberechtigungen können somit nicht universell für jeden Benutzer passend festgelegt werden. Daher können Sie zum Kundenportal Benutzer mit Rollen hinzufügen, damit sichergestellt ist, dass Zugriff auf genau den Funktionsumfang erteilt wird, der für die jeweilige Rolle erforderlich ist. Falls irrtümlicherweise Änderungen durchgeführt oder Änderungen ohne die entsprechenden Berechtigungen vorgenommen wurden, können Sie diese bis zum Benutzer oder zur Gruppe zurückverfolgen. Zur Minimierung des Risikos können Sie so eine passende Schulung anbieten oder die Benutzerberechtigungen aktualisieren. Ihre Benutzer können sich dann ganz auf ihre angegebene Rolle im Kundenportal konzentrieren.
+Unterschiedliche Personen in einer Organisation besitzen verschiedene Rollen und Zuständigkeiten; Benutzerberechtigungen können somit nicht universell für jeden Benutzer passend festgelegt werden. Sie können zum Kundenportal Benutzer mit Rollen hinzufügen, damit sichergestellt ist, dass Zugriff auf genau den Funktionsumfang erteilt wird, der für die jeweilige Rolle erforderlich ist. Falls irrtümlicherweise Änderungen durchgeführt oder Änderungen ohne die entsprechenden Berechtigungen vorgenommen wurden, können Sie diese bis zum Benutzer oder zur Gruppe zurückverfolgen. Zur Minimierung des Risikos können Sie so eine passende Schulung anbieten oder die Benutzerberechtigungen aktualisieren. Ihre Benutzer können sich dann ganz auf ihre angegebene Rolle im Kundenportal konzentrieren.
 
 Führen Sie zum Hinzufügen eines Benutzers zu einem Konto die folgenden Schritte aus.
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie in der Navigationsleiste die Optionen **Konto > Benutzer** aus.
 3. Klicken Sie auf **Benutzer hinzufügen**.
-4. Füllen Sie im Abschnitt **Persönliche Informationen** die als erforderlich gekennzeichneten Felder aus. Geben Sie den Status, einen Benutzernamen und die E-Mail-Adresse für die Kommunikation mit und Benachrichtigungen vom Kundenportal an, was auch die anfängliche Benachrichtigung über das Festlegen eines Kennworts für das Konto einschließt.
+4. Füllen Sie im Abschnitt **Personenbezogene Daten** die als erforderlich gekennzeichneten Felder aus. Geben Sie den Status, einen Benutzernamen und die E-Mail-Adresse für die Kommunikation mit und Benachrichtigungen vom Kundenportal an, was auch die anfängliche Benachrichtigung über das Festlegen eines Kennworts für das Konto einschließt.
 
   Optional können Sie auch auf das Kontrollkästchen **Standardunternehmensinformationen verwenden** klicken, um die Firmenadresse auszufüllen, statt die Adresse für den Benutzer einzugeben.
   {: tip}
@@ -69,9 +68,9 @@ Führen Sie zum Festlegen der Berechtigungen für einen gerade hinzugefügten Be
 > **Hinweis:** Wählen Sie eine Option in der Liste **Schnellberechtigungen** aus, um Berechtigungssets für drei Benutzertypen anzuzeigen. Klicken Sie auf **Berechtigung festlegen**, um das Berechtigungsset auszuwählen, oder passen Sie die Zugriffsmöglichkeit des Benutzers durch Auswahl einzelner Optionen auf jeder verfügbaren Registerkarte an.
 3. Klicken Sie auf **Portalberechtigungen hinzufügen**, um die Berechtigungen hinzuzufügen, oder klicken Sie auf **Berechtigungen zurücksetzen**, um die Berechtigungen für den Benutzer zurückzusetzen.
 4. Klicken Sie auf das Symbol **Gerätezugriff**, auf dem drei Server dargestellt sind.
-5. Klicken Sie auf das Kontrollkästchen für jedes Gerät, auf das der Benutzer zugreifen können soll.
+5. Klicken Sie auf das Kontrollkästchen für jedes Gerät, auf das der Benutzer zugreifen soll.
 6. Klicken Sie nach Auswahl der Geräte auf **Gerätezugriff aktualisieren**.
 
 Sie erhalten daraufhin eine E-Mail mit Links und Informationen, die Sie durch die Einrichtung einer IBMid für die Authentifizierung bei diesem Konto führen. Diese Schritte können die Erstellung einer neuen IBMid umfassen, falls das Konto eine IBMid für die Authentifizierung verwendet. Die Einladung läuft nach 7 Tagen ab. Sie können jedoch Ihren Administrator bitten, die Einladung erneut zu senden.
 
-Bei allen anderen Authentifizierungsfällen kann sich der Benutzer jederzeit beim Kundenportal anmelden, nachdem er hinzugefügt wurde. Benutzer können dann mit den verschiedenen Produkten und Services arbeiten, die dem Konto zugeordnet sind. Sie können einen Benutzer jederzeit inaktivieren.
+Bei allen anderen Authentifizierungsfällen kann sich der Benutzer jederzeit beim Kundenportal anmelden, nachdem er hinzugefügt wurde. Benutzer können mit den verschiedenen Produkten und Services arbeiten, die dem Konto zugeordnet sind. Sie können einen Benutzer jederzeit inaktivieren.

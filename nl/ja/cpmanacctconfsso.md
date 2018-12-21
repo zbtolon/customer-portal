@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -18,20 +18,20 @@ lastupdated: "2018-08-13"
 # シングル・サインオンの構成
 {: #customerportal_confssoserv}
 
-アカウントのマスター・ユーザーであるか、アカウントへの管理アクセス権限を持っている場合、シングル・サインオンを構成できます。{{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーのシングル・サインオンの構成は、2 つのステップからなるプロセスです。最初に、ID プロバイダーを選択してセットアップします。 次に、ID プロバイダーから認証要求を受け取るように {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーをセットアップします。
+アカウントのマスター・ユーザーであるか、アカウントへの管理アクセス権限を持っている場合、シングル・サインオンを構成できます。 {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーのシングル・サインオンの構成は、2 つのステップからなるプロセスです。 最初に、ID プロバイダーを選択してセットアップします。 次に、ID プロバイダーから認証要求を受け取るように {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーをセットアップします。
 {:shortdesc}
 
 ## ID プロバイダーの選択とセットアップ
 {: #cp_setupidprov}
 
-ID プロバイダーを持っていない場合、まず ID プロバイダーを選択してセットアップします。{{site.data.keyword.BluSoftlayer_notm}} と共に使用できる ID プロバイダーは次のとおりです。
-* Ping Identity&reg;
-* OneLogin&trade;
-* IBM&reg; Cloud Security Enforcer
-* IBM Cloud Identity Services
+ID プロバイダーをまだ持っていない場合、まず ID プロバイダーを選択してセットアップします。 {{site.data.keyword.BluSoftlayer_notm}} と共に使用できる ID プロバイダーは次のとおりです。
+* Ping Identity&reg;、
+* OneLogin&trade;、
+* IBM&reg; Cloud Security Enforcer、
+* IBM クラウド ID サービス。
 詳しくは、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーの営業担当員にお問い合わせください。
 
-まだ ID プロバイダーがセットアップされていない場合は、ID プロバイダーのサポートに連絡して具体的な手順を確認できます。、または、以下の手順概要を使用して ID プロバイダーを構成します。
+まだ ID プロバイダーをセットアップしていない場合、ID プロバイダーのサポートに連絡して具体的な手順を確認します。 または、以下の手順概要を使用して ID プロバイダーを構成します。
 1. ID プロバイダー環境を、実行可能ファイルをダウンロードおよびインストールすることによって作成します。
 2. {{site.data.keyword.BluSoftlayer_notm}} 認証と連携して機能するよう ID プロバイダーを構成します。
 
@@ -46,8 +46,12 @@ ID プロバイダーを持っていない場合、まず ID プロバイダー�
 <dd>SSO のための ID プロバイダーのエンドポイント。</dd>
 <dt>証明書</dt>
 <dd>要求に署名するために使用される、ID プロバイダーの証明書。</dd>
+</dl>
+
+以下のフィールドはオプションです。
+<dl>
 <dt>証明書指紋</dt>
-<dd>証明書の指紋。 証明書全体の代わりにこのフィールドを使用できます。(オプション)</dd>
+<dd>証明書の指紋。 証明書全体の代わりにこのフィールドを使用できます。</dd>
 </dl>
 
 以下の手順を使用して、ID プロバイダーから認証要求を受け取るように {{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーをセットアップします。

@@ -2,11 +2,12 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html" path="customer-portal"}
-고객 포털에서 작업
+SoftLayer 리소스 관리
 
     {: .navgroup id="learn"}
     getting-started.md
     cpwhatis.md
+    linking_accounts.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -15,8 +16,8 @@
         cpmanacctadduser.md
         cpmanibmid.md
         cpmanuserprof.md
-        cpmanacctcompprofcont.md
         cpmanacctmanpw.md
+        cpmanacctcompprofcont.md
         cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md
@@ -29,8 +30,9 @@
         pay-invoice.md
 
     {: .topicgroup}
-    환경 관리
+    사용자 환경 관리
         cpmonenv.md
+        cpsub2not.md
         cpprotectsys.md
         cpcompsegapptiers.md
         cpcompmanlic.md
@@ -41,7 +43,6 @@
 
     {: .navgroup id="help"}
     cpsupport.md
-    cpsub2not.md
     customerportal-faq.md
     {: .navgroup-end}
 

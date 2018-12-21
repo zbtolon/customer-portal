@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-10-11"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-12-06"
 Chrootkit 도구를 사용하여 시스템 보고서를 스캔하고 작성하고 이메일을 발송할 수 있습니다.
 {:shortdesc}
 
-Chrootkit 도구를 사용하려면 서버에 관리자로 먼저 SSH를 설정하십시오. 이미 사용 안함으로 설정되어야 하는 telnet을 사용하지 마십시오. 그런 다음, 다음 단계를 완료하십시오.
+Chrootkit 도구를 사용하려면 서버에 관리자로 먼저 SSH를 설정하십시오. telnet을 사용하지 마십시오. 이미 사용 안함으로 설정되어 있어야 합니다. 그런 다음, 다음 단계를 완료하십시오.
 
 1. 루트 디렉토리로 변경하십시오.  
 
@@ -75,7 +75,7 @@ Chrootkit 도구를 사용하려면 서버에 관리자로 먼저 SSH를 설정�
 
 전체 chkrootkit 도구 출력은 `not found` 또는 `not infected`여야 합니다.
 
-*`bindshell`... INFECTED (PORTS: 465) 확인 중*이 표시되고 PortSentry, klaxon 또는 사용되지 않는 포트로 자체 바인드하는 다른 프로그램을 실행하는 경우 chkrootkit는 bindshell 테스트(포트 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp)에 거짓 긍정(false positive)을 제공할 가능성이 있습니다.
+*`bindshell`... INFECTED (PORTS: 465) 확인 중*이 표시되고 PortSentry, klaxon 또는 사용하지 않은 포트에 자체 바인드하는 다른 프로그램을 실행하는 경우, chkrootkit가 bindshell 테스트(포트 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp)에서 거짓 긍정(false positive)을 제공할 가능성이 있습니다.
 {: tip}
 
 8. 디렉토리(`cd ..`)를 변경하고 .gz 파일을 제거하십시오.  

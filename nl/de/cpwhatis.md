@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2017-10-11"
 
 ---
 
@@ -21,9 +21,9 @@ lastupdated: "2018-08-13"
 Mit der {{site.data.keyword.Bluemix}}-Konsole können Sie einen Großteil Ihrer Infrastruktur verwalten. Das Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur bietet jedoch einige zusätzliche Funktionen für die Verwaltung von Infrastrukturprodukten und -services sowie SoftLayer-Konten.
 {:shortdesc}
 
-Die Verwendung des Kundenportals anstelle der Konsole könnte in den folgenden Situationen praktisch sein:
-  * Sie verwenden nur die {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices und verfügen nicht über ein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts). 
-  * Sie verfügen nicht über eine [IBMid](/docs/account/softlayerlink.html#switchtoIBMid). 
+Die Verwendung des Kundenportals der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur anstelle der {{site.data.keyword.Bluemix_notm}}-Konsole könnte in den folgenden Situationen praktisch sein:
+  * Sie verwenden nur die {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices (und nicht die Plattformservices) und haben kein [verknüpftes Konto](/docs/account/softlayerlink.html#link_user_accounts). 
+  * Sie verfügen nicht über eine [IBMid](/docs/account/softlayerlink.html#switchtoIBMid).
   * Sie benötigen Zugriff auf die Umgebung einer wichtigen Behörde. Für eine Regierungsbehörde der Vereinigten Staaten ist z. B. möglicherweise ein sicherer gesperrtes Rechenzentrum mit begrenztem externem Zugriff erforderlich. In dieser Umgebung sind nur {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices verfügbar; Zugriff auf {{site.data.keyword.Bluemix_notm}}-Plattformen ist in einem US-Bundesrechenzentrum nicht verfügbar.
 
 In diesen Fällen können Sie im Kundenportal der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur die folgenden Tasks ausführen:
@@ -33,8 +33,8 @@ In diesen Fällen können Sie im Kundenportal der {{site.data.keyword.BluSoftlay
   * Monatliche Rechnungen für Infrastrukturressourcen anzeigen und bezahlen
   * Tickets für ein Produkt oder einen Service der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur öffnen, anzeigen und aktualisieren
 
-Für alle anderen Task verwenden Sie die [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}.
+Für alle anderen Task verwenden Sie die [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://cloud.ibm.com){: new_window}.
 
 Der Zugriff auf das Kundenportal ist auf den folgenden Wegen möglich:
-* Ausgehend vom Menü der [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} durch Auswahl von **Infrastruktur** in der Menüleiste ![Menüsymbol](../icons/icon_hamburger.svg). Weitere Informationen finden Sie unter [Funktionsweise der {{site.data.keyword.cloud_notm}}-Konsole](/docs/overview/ui.html#ui).
+* Ausgehend vom Menü der [{{site.data.keyword.Bluemix}}-Konsole ![Symbol für externen Link](../icons/launch-glyph.svg)](https://cloud.ibm.com){: new_window} durch Auswahl von **Infrastruktur** in der Menüleiste ![Menüsymbol](../icons/icon_hamburger.svg). Weitere Informationen finden Sie in [In der {{site.data.keyword.cloud_notm}}-Konsole navigieren](/docs/overview/ui.html#ui).
 * Direkt aus dem SoftLayer-[Kundenportal ![Symbol für externen Link](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.

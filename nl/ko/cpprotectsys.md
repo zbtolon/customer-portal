@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -36,7 +36,7 @@ VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructur
 ## 정기 백업을 통한 데이터 보호
 {: #cp_bpsafedataregback}
 
-데이터가 디바이스 외부에 안전하게 저장되도록 보장하고 유실된 경우에 이를 재로드할 수 있도록 백업을 스케줄하십시오.
+데이터가 디바이스 외부에 안전하게 저장되도록 보장하고 유실된 경우에 이를 다시 로드할 수 있도록 백업을 스케줄할 수 있습니다.
 
 {{site.data.keyword.BluSoftlayer_notm}} 인프라는 드라이브가 실패하거나 사용자로 인해 오류가 발생하는 경우 데이터를 검색할 수 있도록 다중 백업 솔루션을 제공합니다. 백업 솔루션에는 현재 NAS, EVault Backup 및 R1Soft CDP가 포함되며, 모두 다양한 스토리지 옵션에서 사용할 수 있습니다.
 예를 들어, 다음 백업 서비스 중 1개를 선택하여 데이터를 안전한 위치에 저장할 수 있습니다.
@@ -58,4 +58,4 @@ VPN 연결 사용에 대한 자세한 정보는 [VPN 정보](/docs/infrastructur
 ## ASM(Aaptec Storage Manager) 제거 안 함
 {: #cp_bpsupdontremovasm}
 
- {{site.data.keyword.BluSoftlayer_notm}} 인프라는 ASM을 사용하여 RAID 배열 상태를 모니터합니다. 이 소프트웨어를 삭제하는 경우 지원 팀에서 디바이스를 모니터할 수 업습니다. 디바이스에서 ASM을 제거하면 디바이스에 대한 RAID 장애 알림을 사용할 수 없고 자동 알림 시스템을 통한 장애 알림을 받을 수 없게 됩니다.
+ {{site.data.keyword.BluSoftlayer_notm}} 인프라는 ASM을 사용하여 RAID 배열 상태를 모니터합니다. 이 소프트웨어를 삭제하는 경우 지원 팀에서 디바이스를 모니터할 수 없습니다. 디바이스에서 ASM을 제거하면 디바이스에 대한 RAID 장애 알림을 사용할 수 없고 자동 알림 시스템을 통한 장애 알림을 받을 수 없게 됩니다.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-29"
 
 ---
 
@@ -40,7 +40,7 @@ Nachdem Sie eine Aktualisierung für das Unternehmensprofil angefordert haben, w
 ## Ansprechpartner eines Kontos hinzufügen oder bearbeiten
 {: #cp_addoreditacctcont}
 
-Stellen Sie für den Fall, dass Rückfragen notwendig sind, sicher, dass die Informationen zu den Ansprechpartnern für Ihr Konto vollständig und aktuell sind. Achten Sie darauf, dass die Ansprechpartner für das Konto für jeden Typ Anforderung geeignet sind. Für jedes Konto können mehrere Kontakteinträge vorhanden sein, doch kann es immer nur einen Ansprechpartner für jeden Servicetyp geben. Zu den kontospezifischen Kontaktinformationen gehört *nicht* das Kontoprofil, bei dem es sich um den Hauptansprechpartner handelt, der einem Konto zugeordnet ist. Führen Sie zum Hinzufügen oder Bearbeiten eines Ansprechpartners für ein Konto die folgenden Schritte aus.
+Stellen Sie für den Fall, dass Rückfragen notwendig sind, sicher, dass die Informationen zu den Ansprechpartnern für Ihr Konto vollständig und aktuell sind. Achten Sie darauf, dass die Ansprechpartner für das Konto für jeden Typ Anforderung geeignet sind. Für jedes Konto können mehrere Kontakteinträge vorhanden sein, doch kann es immer nur einen Ansprechpartner für jeden Servicetyp geben. Zu den kontospezifischen Kontaktinformationen gehört nicht das Kontoprofil, bei dem es sich um den Hauptansprechpartner handelt, der einem Konto zugeordnet ist. Führen Sie zum Hinzufügen oder Bearbeiten eines Ansprechpartners für ein Konto die folgenden Schritte aus.
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie im Menü die Optionen **Konto** > **Verwalten** > **Ansprechpartner im Unternehmen** aus.

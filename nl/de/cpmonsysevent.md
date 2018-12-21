@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-01-11"
 # Systemereignisse in der {{site.data.keyword.Bluemix_notm}}-Infrastruktur überwachen
 {: #customerportal_monevent}
 
-Durch die Überwachung von Systemereignissen können Sie für einen reibungslosen Betrieb Ihrer Systeme sorgen.  Informationen zum Konfigurieren und Verwalten von virtuellen Servern in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur finden Sie unter [Einführung in virtuelle Server](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
+Durch die Überwachung von Systemereignissen können Sie für einen reibungslosen Betrieb Ihrer Systeme sorgen. Informationen zum Konfigurieren und Verwalten von virtuellen Servern in der {{site.data.keyword.BluSoftlayer_full}}-Infrastruktur finden Sie unter [Einführung in virtuelle Server](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
 {:shortdesc}
 
 ## Prüfprotokoll für ein Konto anzeigen
@@ -41,4 +41,4 @@ Zugriffsprotokolle zeigen Daten für jeden Zugriffsversuch an, der durch einen b
 2. Wählen Sie in der Menüleiste die Optionen **Konto** > **Benutzer** aus, um auf das Fenster 'Benutzer' zuzugreifen.
 3. Wählen Sie in der Dropdown-Liste **Aktionen** den Eintrag **Prüfprotokoll anzeigen** aus, um das Zugriffsprotokoll des Benutzers anzuzeigen.
 
-Im Zugriffsprotokoll werden für jeden Benutzer die von ihm unternommenen Zugriffsversuche nach Datum sortiert zusammen mit der IP-Adresse angezeigt, über die der Zugriffsversuch erfolgte. Die Informationen im Zugriffsprotokoll sind schreibgeschützt, so dass zu keinem Zeitpunkt Änderungen am Inhalt vorgenommen werden können. Sie können das Zugriffsprotokoll jederzeit erneut anzeigen, indem Sie die obigen Schritte wiederholen. Um die Protokolle zu verlassen und zur Anzeige 'Benutzer' zurückzukehren, klicken Sie auf den Link **Alle Benutzer anzeigen**.
+Im Zugriffsprotokoll werden für jeden Benutzer die von ihm unternommenen Zugriffsversuche nach Datum sortiert zusammen mit der IP-Adresse angezeigt, über die der Zugriffsversuch erfolgte. Die Informationen im Zugriffsprotokoll sind schreibgeschützt, sodass zu keinem Zeitpunkt Änderungen am Inhalt vorgenommen werden können. Sie können das Zugriffsprotokoll jederzeit erneut anzeigen, indem Sie die obigen Schritte wiederholen. Um die Protokolle zu verlassen und zur Anzeige 'Benutzer' zurückzukehren, klicken Sie auf den Link **Alle Benutzer anzeigen**.

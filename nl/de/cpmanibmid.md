@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-10"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -26,10 +26,10 @@ Falls Sie ein bestehendes SoftLayer-Konto besitzen, können Sie auf eine IBMid u
 ## Mehrere SoftLayer-Konten einer einzigen IBMid zuordnen
 {: #cp_mapmultclinfrto1ibmid}
 
-Sie können einer IBMid mehrere SoftLayer-Konten zuordnen, indem Sie bei der Einrichtung des Kontos eine bestehende E-Mail-Adresse für IBMid verwenden. Einer IBMid kann jeweils nur ein einziger {{site.data.keyword.BluSoftlayer_notm}}-Infrastrukturbenutzer für jedes Konto zugeordnet werden. Die IBMid muss innerhalb jedes SoftLayer-Kontos eindeutig sein. Ein Benutzer mit Zugriff auf mehrere SoftLayer-Konten kann jedoch eine einzige IBMid für den Zugriff auf die Konten nutzen. 
+Sie können einer IBMid mehrere SoftLayer-Konten zuordnen, indem Sie bei der Einrichtung des Kontos eine bestehende E-Mail-Adresse für IBMid verwenden. Einer IBMid kann jeweils nur ein einziger {{site.data.keyword.BluSoftlayer_notm}}-Infrastrukturbenutzer für jedes Konto zugeordnet werden. Die IBMid muss innerhalb jedes SoftLayer-Kontos eindeutig sein. Ein Benutzer mit Zugriff auf mehrere SoftLayer-Konten kann jedoch eine einzige IBMid für den Zugriff auf mehrere SoftLayer-Konten nutzen. 
 
-Eine IBMid kann beispielsweise dem Masterbenutzer in den Konten A und B sowie einem weiteren Benutzer in den Konten C und D zugeordnet sein. Eines der dieser IBMid zugeordneten Konten ist das Standardkonto. Normalerweise handelt es sich hierbei um das Konto, das der IBMid zuerst zugeordnet wurde. Sie können jedoch mithilfe einer Funktion im Kundenportal für den Kontowechsel ein anderes Konto als Standardkonto festlegen.
+Eine IBMid kann beispielsweise dem Masterbenutzer in den Konten A und B sowie einem weiteren Benutzer in den Konten C und D zugeordnet sein. Eines der dieser IBMid zugeordneten Konten ist das Standardkonto. Normalerweise handelt es sich hierbei um das Konto, das der IBMid zuerst zugeordnet wurde. Sie können mithilfe einer Funktion im Kundenportal für den Kontowechsel ein anderes Konto als Standardkonto festlegen.
 
-![SoftLayer-Konten zu einer einzigen IBMid zuordnen](images/ibmid-image.png)
+![Mehrere SoftLayer-Konten mit einer IBMid](images/ibmid-image.png)
 
-Für einen Benutzer mit IBMid-Zugriff auf mehrere Konten und aktivierter Zwei-Faktor-Authentifizierung wird ein Überprüfungscode für die Zwei-Faktor-Authentifizierung benötigt. Dieser Überprüfungscode ist für jedes Konto bei der Kontoanmeldung sowie bei einem Wechsel des Standardkontos erforderlich.
+Für einen Benutzer mit IBMid-Zugriff auf mehrere Konten und aktivierter Zwei-Faktor-Authentifizierung (2FA) wird ein Überprüfungscode für die Zwei-Faktor-Authentifizierung benötigt. Dieser Überprüfungscode ist für jedes Konto bei der Kontoanmeldung sowie bei einem Wechsel des Standardkontos erforderlich.

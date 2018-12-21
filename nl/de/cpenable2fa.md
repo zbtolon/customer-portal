@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,10 +18,10 @@ lastupdated: "2018-05-22"
 # Zwei-Faktor-Authentifizierung einrichten
 {: #customerportal_2fa}
 
-Im Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal einen zusätzlichen Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor nicht verifiziertem Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen.
+Im Kundenportal kann die externe Zwei-Faktor-Authentifizierung (2FA) aktiviert werden, um für die Anmeldung beim Portal besonderen Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor nicht verifiziertem Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen.
 {:shortdesc}
 
-Wenn Sie für Ihr vorhandenes SoftLayer-Konto die Zwei-Faktor-Authentifizierung (2FA) aktivieren, müssen Sie bei der Anmeldung an der {{site.data.keyword.Bluemix_notm}}-Konsole Ihren Sicherheitscode eingeben. Allerdings gilt die 2FA nur für die Infrastrukturressourcen in Ihrem {{site.data.keyword.Bluemix_notm}}-Konto. Es kann folglich sein, dass Sie diverse Aktionen für die Ressourcen in Ihrem {{site.data.keyword.Bluemix_notm}}-Konto ausführen können, ohne die 2FA abzuschließen.
+Wenn Sie im Kundenportal für Ihr vorhandenes SoftLayer-Konto die Zwei-Faktor-Authentifizierung (2FA) aktivieren, müssen Sie bei der Anmeldung an der {{site.data.keyword.Bluemix_notm}}-Konsole Ihren Sicherheitscode eingeben. Die 2FA gilt nur für die Infrastrukturressourcen in Ihrem {{site.data.keyword.Bluemix_notm}}-Konto. Sie können diverse Aktionen für die Ressourcen in Ihrem {{site.data.keyword.Bluemix_notm}}-Konto ausführen, ohne die 2FA abzuschließen.
 
 Die Zwei-Faktor-Authentifizierung für Ihr SoftLayer-Konto erfolgt nicht pro IBMid. Sie erfolgt weiterhin pro Konto. Wenn eine IBMid mehreren Konten zugeordnet ist und Sie zwischen den Konten wechseln, müssen Sie Ihre Identität bei jedem Wechsel zu einem anderen Konto bestätigen. Sie müssen Ihre Identität auch dann bestätigen, wenn das vorherige Konto sowie das neue Konto jeweils mit demselben 2FA-Mechanismus konfiguriert sind.
 
@@ -81,7 +81,7 @@ Nachdem Sie PhoneFactor hinzugefügt haben, müssen Sie die externe Authentifizi
 9. Falls Sie **Einmalig** > **PIN-Wert** auswählen, geben Sie die PIN im Feld **PIN-Wert** ein.
 10. Klicken Sie auf **Aktualisieren**, um die Änderungen zu aktualisieren und die PhoneFactor-Authentifizierung zu aktivieren.
 
-Nach der Aktivierung von PhoneFactor ist für das Kundenportal oder das VPN die Authentifizierung über PhoneFactor erforderlich. Nachdem Sie sich mit den Benutzerberechtigungsnachweisen authentifiziert haben, wird Ihnen in einer Nachricht mitgeteilt, dass ein Versuch der PhoneFactor-Authentifizierung vorgenommen wird. Sie selbst oder der Benutzer, den Sie hinzufügen, muss sich in der Nähe des für PhoneFactor angegebenen Telefons befinden, um die Authentifizierung abschließen zu können. PhoneFactor unternimmt fünf Authentifizierungsversuche. Nach fünf erfolglosen Authentifizierungsversuchen werden Sie für ca. eine Stunde gesperrt. Sie können die Einstellungen für die PhoneFactor-Authentifizierung jederzeit ändern; dies kann auch durch einen Benutzer mit Verwaltungszugriff auf das Konto vorgenommen werden.  Eine Inaktivierung von PhoneFactor kann jederzeit durch Sie selbst oder einen Administrator des Kontos erfolgen.
+Nach der Aktivierung von PhoneFactor ist für das Kundenportal oder das VPN die Authentifizierung über PhoneFactor erforderlich. Nachdem Sie sich mit den Benutzerberechtigungsnachweisen authentifiziert haben, wird Ihnen in einer Nachricht mitgeteilt, dass ein Versuch der PhoneFactor-Authentifizierung vorgenommen wird. Sie selbst oder der Benutzer, den Sie hinzufügen, muss sich in der Nähe des für PhoneFactor angegebenen Telefons befinden, um die Authentifizierung abschließen zu können. PhoneFactor unternimmt fünf Authentifizierungsversuche. Nach fünf erfolglosen Authentifizierungsversuchen werden Sie für ca. eine Stunde gesperrt. Sie können die Einstellungen für die PhoneFactor-Authentifizierung jederzeit ändern; dies kann auch durch einen Benutzer mit Verwaltungszugriff auf das Konto vorgenommen werden. Eine Inaktivierung von PhoneFactor kann jederzeit durch Sie selbst oder einen Administrator des Kontos erfolgen.
 
  Wenn Sie PhoneFactor für das Kundenportal und Ihre VPN-Anmeldung einrichten, ergeben sich daraus zwei getrennte Anmeldeprozesse mit Zwei-Faktor-Authentifizierung - einer für das Kundenportal und einer für das VPN.
  {: tip}

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -44,7 +44,7 @@ Konten für Benutzer, die auf die {{site.data.keyword.BluSoftlayer}}-Infrastrukt
 ### Benutzer einrichten
 Führen Sie zum Einrichten eines Benutzers die folgenden Schritte aus:
 
-1. [Erstellen Sie Benutzer in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Benutzer zu einem SoftLayer-Konto hinzufügen](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
 2. Ordnen Sie Berechtigungen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur zu.
 3. Erstellen Sie Benutzer im Identitätsprovider.
 
@@ -68,7 +68,7 @@ Der folgende Beispielablauf veranschaulicht, wie die Authentifizierung bei der B
 Bei diesem Modell findet Folgendes statt:
 * Im Identitätsprovider werden Rollen erstellt und dem Benutzer zugeordnet.
 * Im IMS der {{site.data.keyword.BluSoftlayer}}-Infrastruktur werden mithilfe der APIs für die {{site.data.keyword.BluSoftlayer}}-Infrastruktur Rollen- und Berechtigungszuordnungen konfiguriert.
-* Benutzer authentifizieren sich beim Identitätsprovider und binden ihre Berechtigungsnachweis und Rollenattribute ein.
+* Benutzer authentifizieren sich beim Identitätsprovider und binden ihre Berechtigungsnachweise und Rollenattribute ein.
 * Die {{site.data.keyword.BluSoftlayer}}-Infrastruktur überprüft die Benutzerberechtigungsnachweise und die Rollenattribute. Wenn die Rollen, die den Benutzern von ihrem Identitätsprovider zugewiesen sind, mit den Rollen in der {{site.data.keyword.BluSoftlayer}}-Infrastruktur übereinstimmen, erhalten diese Benutzer Berechtigungen für diese Rollen, wenn sie sich bei der {{site.data.keyword.BluSoftlayer}}-Infrastruktur anmelden.
 * Die vom Identitätsprovider erstellten Benutzer gelten als eingebunden (föderiert), da die Authentifizierung für sie und ihre Rollen über SAML 2.0 erfolgt.
 

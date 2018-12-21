@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -24,14 +24,14 @@ Wenn Sie Masterbenutzer eines Kontos sind oder einen Verwaltungszugriff auf das 
 ## Identitätsprovider auswählen und konfigurieren
 {: #cp_setupidprov}
 
-Falls Sie keinen Identitätsprovider verwenden, wählen Sie zunächst einen Provider aus und konfigurieren Sie ihn. Bei {{site.data.keyword.BluSoftlayer_notm}} können Sie die folgenden Identitätsprovider verwenden:
-* Ping Identity&reg;
-* OneLogin&trade;
-* IBM&reg; Cloud Security Enforcer
-* IBM Cloud Identity Services
-Weitere Informationen erhalten Sie bei Ihrem Vertriebsbeauftragten für die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. 
+Falls Sie noch keinen Identitätsprovider verwenden, wählen Sie zunächst einen Provider aus und konfigurieren Sie ihn. Bei {{site.data.keyword.BluSoftlayer_notm}} können Sie die folgenden Identitätsprovider verwenden:
+* Ping Identity&reg;,
+* OneLogin&trade;,
+* IBM&reg; Cloud Security Enforcer,
+* IBM Cloud Identity Services.
+Weitere Informationen erhalten Sie vom zuständigen Vertriebsbeauftragten für {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. 
 
-Falls Sie Ihr Identitätsprovider noch nicht konfiguriert ist, können Sie sich bei Fragen oder Problemen an den Support Ihres Identitätsproviders wenden. Außerdem können Sie auch die folgenden allgemeinen Schritte zur Konfiguration Ihres Identitätsproviders ausführen:
+Falls Ihr Identitätsprovider noch nicht konfiguriert ist, können Sie sich bei Fragen oder Problemen an den Support Ihres Identitätsproviders wenden. Außerdem können Sie auch die folgenden allgemeinen Schritte zur Konfiguration Ihres Identitätsproviders ausführen:
 1. Bereiten Sie die Umgebung für Ihren Identitätsprovider vor, indem Sie die ausführbare Datei herunterladen und installieren.
 2. Konfigurieren Sie Ihren Identitätsprovider für die Verwendung bei der {{site.data.keyword.BluSoftlayer_notm}}-Authentifizierung.
 
@@ -46,8 +46,12 @@ Sie müssen die folgenden erforderlichen Felder der Metadaten gemäß Security A
 <dd>Der Endpunkt des Identitätsproviders für das Single Sign-on (SSO).</dd>
 <dt>Zertifikat</dt>
 <dd>Das Zertifikat des Identitätsproviders, das zum Signieren von Anforderungen verwendet wird.</dd>
+</dl>
+
+Das folgende Feld ist optional:
+<dl>
 <dt>Zertifikatsfingerabdruck</dt>
-<dd>Der Fingerabdruck des Zertifikats. Dieses Feld kann anstelle des vollständigen Zertifikats verwendet werden. (Optional)</dd>
+<dd>Der Fingerabdruck des Zertifikats. Dieses Feld kann anstelle des vollständigen Zertifikats verwendet werden.</dd>
 </dl>
 
 Führen Sie die folgenden Schritte aus, um die {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur für den Empfang der Authentifizierungsanforderung von Ihrem Identitätsprovider zu konfigurieren:

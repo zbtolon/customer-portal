@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-08-13"
 # Benutzerprofil verwalten
 {: #customerportal_accuserprof}
 
-Im Kundenportal enthält Ihr Benutzerprofil zahlreiche Daten, z. B. Kontaktinformationen und den API-Schlüssel. An dieser Stelle werden auch Kennwörter gespeichert. Falls Sie Verwaltungszugriff besitzen, können Sie über das Profil die Berechtigungen und den Gerätezugriff ändern.
+Im Kundenportal enthält ein Benutzerprofil zahlreiche Daten über den Benutzer, z. B. Kontaktinformationen und den API-Schlüssel. An dieser Stelle werden auch Kennwörter gespeichert. Falls Sie Verwaltungszugriff besitzen, können Sie über das Profil die Berechtigungen und den Gerätezugriff ändern.
 {:shortdesc}
 
 Innerhalb des Benutzerprofils können Sie Kontaktinformationen und Kennwörter verwalten, API-Schlüssel anzeigen sowie Berechtigungen und den Gerätezugriff auf der Grundlage Ihrer Berechtigungen aktualisieren.
@@ -31,43 +31,43 @@ Ein im Kundenportal erstelltes Benutzerprofil kann jederzeit bearbeitet werden. 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie in der Navigationsleiste die Optionen **Konto > Benutzer** aus.
 3. Klicken Sie auf den Benutzernamen, um auf das zugehörige Benutzerprofil für diesen Benutzer zuzugreifen.
-4. Bearbeiten Sie die Details für das **Benutzerprofil** wie gewünscht. Für Benutzer in Konten, die die IBMid für die Authentifizierung verwenden, aktualisieren Sie Ihre E-Mail-Adresse und Ihr Kennwort im IBMid-Profil. Weitere Informationen finden Sie in Tabelle 1. 
-5. Falls Sie Ihr Kennwort nach der Anmeldung zurücksetzen wollen, klicken Sie auf **Kennwort zurücksetzen**, um eine E-Mail mit der Anleitung zum Ändern des Kennworts zu generieren. 
+4. Bearbeiten Sie die Details für das **Benutzerprofil** wie gewünscht. Für Benutzer in Konten, die die IBMid für die Authentifizierung verwenden, aktualisieren Sie Ihre E-Mail-Adresse und Ihr Kennwort im IBMid-Profil. Weitere Informationen enthält Tabelle 1. 
+5. Falls Sie Ihr Kennwort nach der Anmeldung zurücksetzen wollen, klicken Sie auf **Kennwort zurücksetzen**, um eine E-Mail zum Ändern des Kennworts zu generieren. 
 6. Klicken Sie auf **Benutzer bearbeiten**, um die Änderungen zu übergeben.
 
 | Feld | Definition |
 |-----|----------|
 | Vorname, Nachname | Vorname und Nachname des Benutzers, der dem Benutzerprofil zugeordnet ist. |
-| E-Mail-Adresse | Die bevorzugte E-Mail-Adresse für den Empfang von Benachrichtigungen aus der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. Eine Änderung der E-Mail-Adresse ändert den Datensatz in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. Auf die Verknüpfung mit den IBMid-Authentifizierungsnachweisen hat diese Änderung keinen Einfluss. Die E-Mail-Adresse für die IBMid müssen Sie im IBMid-Profil ändern.|
+| E-Mail-Adresse | Die bevorzugte E-Mail-Adresse für den Empfang von Benachrichtigungen aus der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur zum Konto. Eine Änderung der E-Mail-Adresse ändert den Datensatz in der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur. Auf die Verknüpfung mit den IBMid-Authentifizierungsnachweisen hat diese Änderung keinen Einfluss. Die E-Mail-Adresse für die IBMid müssen Sie im IBMid-Profil ändern.|
 | Zeitzone | Die bevorzugte Zeitzone bei der Anzeige von Daten mit Zeitmarken. |
-| Telefon, Telefon (alternativ) | Die bevorzugten Telefonnummern für Ansprechpartner, die von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwendet werden sollen.|
+| Telefon, Telefon (alternativ)| Die bevorzugten Telefonnummern für Ansprechpartner, die von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwendet werden sollen.|
 | Straße, Stadt, Land, Bundesland/Kanton, Postleitzahl | Die vollständige Adresse für Ansprechpartner, die von der {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktur verwendet werden soll.|
 {: caption="Tabelle 1. Konfigurationseinstellungen für personenbezogene Angaben bei der Bearbeitung eines Benutzerprofils" caption-side="top"}
 
 |Feld|Definition|
 |-----|----------|
-| Zugriff auf IP beschränken |Beschränkt den Zugriff auf eine IP-Adresse, wenn versucht wird, das Kundenportal unter dem zugeordneten Benutzerprofil zu verwenden. |
-| Kennwortablauf in (nur für Benutzer in Konten, die zur Authentifizierung NICHT die IBMid verwenden) | Der Zeitraum, in dem ein Kennwort dem Benutzerprofil zugeordnet ist, bevor ein neues Kennwort ausgewählt werden muss. |
+| Zugriff auf IP beschränken | IP-Adresse, um den Zugriff zu beschränken, wenn versucht wird, das Kundenportal unter dem zugeordneten Benutzerprofil zu verwenden. |
+| Kennwortablauf in (nur für Benutzer in Konten, die zur Authentifizierung NICHT die IBMid verwenden) | Der Zeitraum, in dem ein Kennwort dem Benutzerprofil zugeordnet werden sollte, bevor ein neues Kennwort ausgewählt werden muss. |
 | Übergeordneter Benutzer | Das Benutzerkonto, das als übergeordneter Benutzer des Benutzerprofils gilt. Der Standardwert für den übergeordneten Benutzer ist die primäre Konto-ID. |
-| Sicherheitsfragen erforderlich? | Wählen Sie dieses Kontrollkästchen aus, wenn bei der Anmeldung Sicherheitsfragen erforderlich sind. Falls dieses Kästchen ausgewählt ist, sind Sicherheitsfragen für das Benutzerprofil erforderlich. |
+| Sicherheitsfragen erforderlich? | Wählen Sie dieses Kontrollkästchen aus, wenn bei der Anmeldung Sicherheitsfragen erforderlich sein sollen. Falls dieses Kästchen ausgewählt ist, sind Sicherheitsfragen für das Benutzerprofil erforderlich. |
 | VPN-Kennwort | Das Kennwort, das für den VPN-Zugriff verwendet werden soll. Klicken Sie auf das Kontrollkästchen **Portalkennwort für VPN verwenden**, um das Kundenportalkennwort für den Zugriff auf das {{site.data.keyword.BluSoftlayer_notm}}-Infrastrukturnetz über VPN zu verwenden. |
 {: caption="Tabelle 2. Konfigurationseinstellungen für Anmeldeeinstellungen beim Bearbeiten eines Benutzerprofils" caption-side="top"}
 
 |Abschnitt|Feld|Definition|
 |-------|-----|----------|
-| API-Zugriffsinformationen | Zulässiger IBM Prerequisite Scanner | IP-Adressen, die für die Authentifizierung bei der API unter Verwendung des eindeutigen API-Schlüssels, der dem Benutzerprofil zugeordnet ist, geeignet sind. |
-| Abonnements von Benutzerbenachrichtigungen | Abrechnung | Wählen Sie **Abrechnung** aus, um eine Rechnung per E-Mail zu erhalten, nachdem sie erstellt wurde. |
-| Sicherheitsfragen | Sicherheitsfrage |Die beim Bearbeiten des Benutzerprofils festgelegte Sicherheitsfrage, die bei der Anmeldung beantwortet werden muss.
+| API-Zugriffsinformationen | Zulässige IPs | IP-Adressen, die für die Authentifizierung bei der API unter Verwendung des eindeutigen API-Schlüssels, der dem Benutzerprofil zugeordnet ist, zulässig sind. |
+| Abonnements von Benutzerbenachrichtigungen | Abrechnung | Wählen Sie das Kontrollkästchen **Abrechnung** aus, um eine Rechnung per E-Mail zu erhalten, nachdem sie erstellt wurde. |
+| Sicherheitsfragen | Sicherheitsfrage | Beim Bearbeiten Ihres Profils ist dies die Frage, die Sie beantworten müssen, um sich anzumelden, wenn Sicherheitsfragen für Ihr Profil aktiviert wurden.
 | Sicherheitsantworten | Antwort | Die Antwort auf die jeweilige Sicherheitsfrage. Die Groß-/Kleinschreibung muss beachtet werden. |
 {: caption="Tabelle 3. Weitere Konfigurationseinstellungen beim Bearbeiten eines Benutzerprofils" caption-side="top"}
 Nachdem Sie Bearbeitungen eines Benutzerprofils übergeben haben, werden die Änderungen sofort angewendet. Sie können das Benutzerprofil jederzeit erneut ändern, indem Sie die obigen Schritte wiederholen.
 
-Weitere Informationen zum Einrichten eines IBMid-Kontos finden Sie unter [Zur IBMid wechseln](/docs/account/softlayerlink.html#switching-to-ibmid). 
+Weitere Informationen zur Einstellung eines IBMid-Kontos finden Sie unter [Zur IBMid wechseln](/docs/account/softlayerlink.html#switching-to-ibmid). 
 
 ## Berechtigungen eines Benutzers für das Kundenportal bearbeiten
 {: #cp_editusercpperm}
 
-Der Kontoadministrator legt die Benutzerberechtigungen beim Hinzufügen des jeweiligen Benutzers fest. Die Benutzerberechtigungen können jederzeit von Benutzern mit den entsprechenden Berechtigungen bearbeitet werden. Sie können Ihr eigenes Benutzerprofil und - als Benutzer mit Verwaltungsaufgaben - einige Felder der Benutzerprofile von Benutzern bearbeiten, die Sie hinzugefügt haben. Die Berechtigungen sind auf fünf Registerkarten (Support, Geräte, Netz, Services, Konto) verteilt. Sie können die Berechtigungen jeweils für einen einzigen Benutzer zur Zeit aktualisieren und müssen die Änderungen speichern, damit sie wirksam werden.
+Benutzerberechtigungen im Kundenportal werden vom Kontoadministrator beim Hinzufügen des Benutzers festgelegt und können jederzeit von Benutzern mit den entsprechenden Berechtigungen bearbeitet werden. Sie können Ihr eigenes Benutzerprofil und - als Benutzer mit Verwaltungsaufgaben - einige Felder der Benutzerprofile von Benutzern bearbeiten, die Sie hinzugefügt haben. Die Berechtigungen sind auf fünf Registerkarten (Support, Geräte, Netz, Services, Konto) verteilt. Sie können die Berechtigungen jeweils für einen einzigen Benutzer zur Zeit aktualisieren und müssen die Änderungen speichern, damit sie wirksam werden.
 
 Führen Sie zum Bearbeiten der Berechtigungen eines Benutzers für das Kundenportal die folgenden Schritte aus.
 
@@ -80,34 +80,34 @@ Führen Sie zum Bearbeiten der Berechtigungen eines Benutzers für das Kundenpor
   {: tip}
 
 5. Wählen Sie die Berechtigungen aus:
-  * Um Schnellberechtigungen festzulegen, wählen Sie das Berechtigungsset in der Liste **Schnellberechtigungen** aus. Nachdem Sie ein Berechtigungsset ausgewählt haben, werden alle Berechtigungen die dem Set zugeordnet sind, in orangefarbigem Text mit einem orangefarbigen Pfeil angezeigt, der auf das Kontrollkästchen zeigt. Klicken Sie dann für jede Registerkarte auf **Berechtigungen festlegen**. 
+  * Um Schnellberechtigungen festzulegen, wählen Sie das Berechtigungsset in der Liste **Schnellberechtigungen** aus. Nachdem Sie ein Berechtigungsset ausgewählt haben, werden alle Berechtigungen, die dem Set zugeordnet sind, in orangefarbigem Text mit einem orangefarbigen Pfeil angezeigt, der auf das Kontrollkästchen zeigt. Klicken Sie dann für jede Registerkarte auf **Berechtigungen festlegen**.
   * Um einzelne Berechtigungen festzulegen, wählen Sie jedes Kontrollkästchen auf den Registerkarten aus bzw. ab, damit die Berechtigungen des Benutzers aktualisiert werden. Klicken Sie auf einer Registerkarte auf **Alle Berechtigungen auswählen** oder **Alle Berechtigungen abwählen**, um alle Berechtigungen auf einmal aus- oder abzuwählen.
 6. Klicken Sie auf **Portalberechtigungen bearbeiten**, um Änderungen zu übergeben und die Berechtigungen des Benutzers zu aktualisieren.
 7. Wenn Sie die Berechtigungen des Benutzers auf die ursprünglichen Einstellungen zurücksetzen wollen, statt sie zu speichern, klicken Sie auf **Berechtigungen zurücksetzen**. Klicken Sie auf **Abbrechen**, um die Änderungen zu stornieren und zum Fenster 'Benutzer' zurückzukehren.
 
-Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen übergeben haben. Falls Berechtigungen erteilt wurden, kann der Benutzer die ausgewählten Funktionen anzeigen bzw. mit ihnen interagieren. Werden Berechtigungen entfernt, kann der Benutzer die ausgewählten Funktionen nicht mehr anzeigen oder verwenden. Sie können die Berechtigungen jederzeit durch Wiederholen der obigen Schritte erneut aktualisieren. 
+Benutzerberechtigungen werden sofort aktualisiert, nachdem Sie die Änderungen übergeben haben. Falls Berechtigungen erteilt wurden, kann der Benutzer die ausgewählten Funktionen anzeigen bzw. mit ihnen interagieren. Falls Berechtigungen entfernt wurden, kann der Benutzer die ausgewählten Funktionen nicht anzeigen bzw. nicht mit ihnen interagieren. Sie können die Berechtigungen jederzeit durch Wiederholen der obigen Schritte erneut aktualisieren. 
 
 ## Externe Authentifizierung für einen Benutzer hinzufügen
 {: #cp_addextauthuser}
 
-Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie in [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
+Ausgehend vom Kundenportal können Sie die externe Zwei-Faktor-Authentifizierung (2FA) aktivieren, um für die Anmeldung beim Portal Schutz bereitzustellen. Diese Sicherheitsebene schützt das Konto vor einem nicht verifizierten Zugriff und gewährleistet somit den Schutz von Geräten, Daten und Kontoinformationen. Weitere Informationen finden Sie unter [Zwei-Faktor-Authentifizierung einrichten](/docs/customer-portal/cpenable2fa.html#customerportal_2fa). 
 
 
 ## Status eines Benutzers ändern
 {: #cp_changeuserstat}
 
-Ihr Status bestimmt Ihre Zugriffsmöglichkeit auf das Kundenportal. Statuskategorien, die Sie für das Konto aktualisieren können, sind 'Aktiv', 'Inaktiviert' und 'Nur VPN'. Ihr Status kann sich aus verschiedenen Gründen ändern und jederzeit aktualisiert werden. Die Statuskategorien für Kunden können von den Benutzern aktualisiert, aber auch automatisch aktualisiert werden. Hierzu gehören die folgenden Kategorien:
+Ihr Status im Kundenportal bestimmt Ihre Zugriffsmöglichkeit auf das Kundenportal. Statuskategorien, die Sie für das Konto aktualisieren können, sind 'Aktiv', 'Inaktiviert' und 'Nur VPN'. Ihr Status kann sich aus verschiedenen Gründen ändern und jederzeit aktualisiert werden. Die Statuskategorien für Kunden können von den Benutzern aktualisiert, aber auch automatisch aktualisiert werden. Hierzu gehören die folgenden Kategorien:
 <dl>
 <dt>Aktiv</dt>
 <dd>Der Benutzer besitzt uneingeschränkten Zugriff auf das Kundenportal und das VPN gemäß den Berechtigungen, die durch den Kontoadministrator festgelegt wurden. Dieser Status kann jederzeit manuell ausgewählt oder geändert werden.</dd>
 <dt>Inaktiviert</dt>
 <dd>Der Benutzer besitzt keinen Zugriff auf Berechtigungen oder Abonnements für das Konto (inklusive Kundenportal und VPN). Falls die Statuskategorie durch einen anderen Benutzer im Konto auf 'Inaktiviert' gesetzt wird, kann dieser Status jederzeit manuell ausgewählt oder geändert werden.</dd>
 <dt>Nur VPN</dt>
-<dd>Der Benutzer besitzt uneingeschränkten Zugriff auf die VPN-Konnektivität gemäß der festgelegten Benutzerberechtigung, kann jedoch nicht auf das Kundenportal zugreifen. Dieser Status kann jederzeit manuell ausgewählt oder geändert werden.</dd>
+<dd>Der Benutzer besitzt gemäß der für ihn festgelegten Benutzerberechtigung uneingeschränkten Zugriff auf die VPN-Konnektivität, kann jedoch nicht auf das Kundenportal zugreifen. Dieser Status kann jederzeit manuell ausgewählt oder geändert werden.</dd>
 <dt>Inaktiv</dt>
-<dd>Der Benutzer hat in den vergangenen 60 Tagen nicht auf das Kundenportal oder das VPN zugegriffen. Dieser Status wird vom System generiert. </dd>
+<dd>Der Benutzer hat in den vergangenen 60 Tagen nicht auf das Kundenportal oder das VPN zugegriffen. Dies ist ein systemgenerierter Status. </dd>
 <dt>Stornierung anstehend</dt>
-<dd>Ein Administrator für das Konto hat diesen Benutzer storniert und die Stornierung wird gegenwärtig verarbeitet. Dieser Status wird vom System generiert. </dd>
+<dd>Ein Administrator für das Konto hat diesen Benutzer storniert und die Stornierung wird gerade verarbeitet. Dies ist ein systemgenerierter Status. </dd>
 </dl>
 
 Führen Sie die folgenden Schritte aus, um den Status eines Benutzers im Kundenportal zu ändern.
@@ -124,7 +124,7 @@ Nachdem Sie den Status eines Benutzers aktualisiert haben, werden Änderungen an
 ## VPN-Zugriff eines Benutzers bearbeiten
 {: #cp_edituservpnaccess}
 
-Wird ein neuer Benutzer zum Kundenportal hinzugefügt, wird für den VPN-Zugriff eine Methode zum Verbindungsaufbau (z. B. SSL, PPTP oder eine Kombination aus beiden) ausgewählt. Beim VPN-Zugriff kann auf das gesamte private Netz zugegriffen werden oder der Netzzugriff auf eines oder mehrere bestimmte Teilnetz beschränkt werden. Sie können den VPN-Zugriff jederzeit im Fenster 'Benutzer' verwalten und aktualisieren. Führen Sie zum Bearbeiten des VPN-Zugriffs für einen Benutzer die folgenden Schritte aus.
+Wird ein [neuer Benutzer zum Kundenportal hinzugefügt](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct), wird für den VPN-Zugriff eine Methode zum Verbindungsaufbau (z. B. SSL, PPTP oder eine Kombination aus beiden) ausgewählt. Beim VPN-Zugriff kann auf das gesamte private Netz zugegriffen werden oder der Netzzugriff auf eines oder mehrere bestimmte Teilnetz beschränkt werden. Sie können den VPN-Zugriff jederzeit im Fenster 'Benutzer' verwalten und aktualisieren. Führen Sie zum Bearbeiten des VPN-Zugriffs für einen Benutzer die folgenden Schritte aus.
 
 1. Greifen Sie unter Verwendung Ihrer eindeutigen Berechtigungsnachweise auf das Kundenportal zu.
 2. Wählen Sie in der Navigationsleiste die Optionen **Konto** > **VPN-Zugriff** aus.

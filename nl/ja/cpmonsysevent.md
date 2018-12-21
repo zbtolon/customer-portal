@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -19,13 +19,13 @@ lastupdated: "2018-01-11"
 # {{site.data.keyword.Bluemix_notm}} インフラストラクチャーのシステム・イベントのモニタリング
 {: #customerportal_monevent}
 
-システムが円滑に稼働している状態を保つためにシステム・イベントをモニターできます。  {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーでの仮想サーバーのセットアップと管理について詳しくは、[仮想サーバーの概要](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)を参照してください。
+システムが円滑に稼働している状態を保つためにシステム・イベントをモニターできます。 {{site.data.keyword.BluSoftlayer_full}} インフラストラクチャーでの仮想サーバーのセットアップと管理について詳しくは、[仮想サーバーの概要](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers)を参照してください。
 {:shortdesc}
 
 ## アカウントの監査ログを表示する
 {: #cp_viewacctauditlog}
 
-各カスタマー・ポータル・アカウントには、カスタマー・ポータル内の各ユーザーの対話をトラッキングする監査ログが付属しています。 トラッキングされる対話には、ログイン試行 (成功および失敗)、ポート速度の更新、電源オン/オフおよびリブート、および、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・サポート担当員によって行われる対話が含まれます。 ユーザー・アカウントの監査ログを表示するには、以下の手順を使用します。
+各カスタマー・ポータル・アカウントには、カスタマー・ポータル内の各ユーザーの対話をトラッキングする監査ログが付属しています。 トラッキングされる対話には、ログイン試行 (成功および失敗)、ポート速度の更新、電源オン/オフおよび再始動、および、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャー・サポート担当員によって行われる対話が含まれます。 ユーザー・アカウントの監査ログを表示するには、以下の手順を使用します。
 
 1. 固有の資格情報を使用して[カスタマー・ポータル ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} にアクセスします。
 2. ナビゲーション・バーから**「アカウント」** > **「管理」** > **「監査ログ (Audit Log)」**を選択して、監査ログにアクセスします。

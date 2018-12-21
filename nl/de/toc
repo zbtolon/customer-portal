@@ -2,11 +2,12 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html" path="customer-portal"}
-Im Kundenportal arbeiten
+SoftLayer-Ressourcen verwalten
 
     {: .navgroup id="learn"}
     getting-started.md
     cpwhatis.md
+    linking_accounts.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -15,8 +16,8 @@ Im Kundenportal arbeiten
         cpmanacctadduser.md
         cpmanibmid.md
         cpmanuserprof.md
-        cpmanacctcompprofcont.md
         cpmanacctmanpw.md
+        cpmanacctcompprofcont.md
         cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md
@@ -29,8 +30,9 @@ Im Kundenportal arbeiten
         pay-invoice.md
 
     {: .topicgroup}
-    Umgebung verwalten
+    Ihre Umgebung verwalten
         cpmonenv.md
+        cpsub2not.md
         cpprotectsys.md
         cpcompsegapptiers.md
         cpcompmanlic.md
@@ -41,7 +43,6 @@ Im Kundenportal arbeiten
 
     {: .navgroup id="help"}
     cpsupport.md
-    cpsub2not.md
     customerportal-faq.md
     {: .navgroup-end}
 

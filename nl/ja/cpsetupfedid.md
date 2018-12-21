@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -44,11 +44,11 @@ lastupdated: "2018-05-22"
 ### ユーザーのセットアップ
 ユーザーをセットアップするには、以下の手順を使用します。
 
-1. [{{site.data.keyword.BluSoftlayer}} インフラストラクチャー内でユーザーを作成します](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)。
+1. [SoftLayer アカウントにユーザーを追加します。](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)
 2. {{site.data.keyword.BluSoftlayer}} インフラストラクチャー内で許可を割り当てます。
 3. ID プロバイダー内でユーザーを作成します。
 
-個々のユーザー・プロファイル内の **E メール**または**ユーザ名**フィールドが、Security Assertion Markup Language&trade; (SAML&trade;) 2.0 トークン用に使用されます。このトークンは、ID プロバイダーと {{site.data.keyword.BluSoftlayer}} インフラストラクチャーとの間でユーザーをマップします。
+個々のユーザー・プロファイル内の **E メール**または**ユーザ名**フィールドが、Security Assertion Markup Language&trade; (SAML&trade;) 2.0 トークン用に使用されます。 このトークンは、ID プロバイダーと {{site.data.keyword.BluSoftlayer}} インフラストラクチャーとの間でユーザーをマップします。
 
 ### ログイン認証のフローの例
 {: #exlogauthflowidprovicloud}
@@ -69,7 +69,7 @@ lastupdated: "2018-05-22"
 * ID プロバイダー内で役割が作成され、ユーザーに割り当てられます。
 * {{site.data.keyword.BluSoftlayer}} インフラストラクチャー API を使用して {{site.data.keyword.BluSoftlayer}} インフラストラクチャー IMS 内で役割および許可の割り当てがセットアップされます。
 * ユーザーは ID プロバイダーを使用して認証され、資格情報および役割属性が統合されます。
-* {{site.data.keyword.BluSoftlayer}} インフラストラクチャーは、ユーザー資格情報および役割属性を検証します。ID プロバイダーによってユーザーに割り当てられた役割が、{{site.data.keyword.BluSoftlayer}} インフラストラクチャーにおける役割と一致している場合、ユーザーには、{{site.data.keyword.BluSoftlayer}} インフラストラクチャーにログインするときに、それらの役割の許可が付与されます。
+* {{site.data.keyword.BluSoftlayer}} インフラストラクチャーは、ユーザー資格情報および役割属性を検証します。 ID プロバイダーによってユーザーに割り当てられた役割が、{{site.data.keyword.BluSoftlayer}} インフラストラクチャーにおける役割と一致している場合、ユーザーには、{{site.data.keyword.BluSoftlayer}} インフラストラクチャーにログインするときに、それらの役割の許可が付与されます。
 * ID プロバイダーがユーザーを作成する場合、それらのユーザーは統合していると見なされます。これは、それらのユーザーおよびユーザーの役割が SAML 2.0 を介して認証されるためです。
 
 ### ユーザーの役割のセットアップ

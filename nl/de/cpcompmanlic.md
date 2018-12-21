@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-11-19"
 
 ---
 
@@ -36,7 +36,7 @@ Nachdem Sie die Lizenzdatei auf das Gerät heruntergeladen haben, werden die Det
 ## Steuerkonsolenlizenz stornieren
 {: #cp_compcanlisc}
 
-Steuerkonsolenlizenzen werden auf monatlicher Basis abgerechnet, wobei die zum Zeitpunkt des Lizenzerwerbs vereinbarten Bedingungen zugrunde gelegt werden. Sie können Lizenzen jederzeit stornieren; die Stornierung erfolgt dann mit Wirkung zum nächsten Rechnungsstichtag. Um sicherzustellen, dass eine Stornierung auf den aktuellen Rechnungsstellungszyklus angewendet wird, dürfen Stornierungen nicht später als 24 Stunden vor dem Rechnungsstichtag vorgenommen werden. Während des Stornierungsprozesses werden spezielle Informationen zum Rechnungsstichtag für das Konto angezeigt. Führen Sie zum Stornieren einer Steuerkonsolenlizenz die folgenden Schritte aus.
+Steuerkonsolenlizenzen werden monatlich abgerechnet, wobei die zum Zeitpunkt des Lizenzerwerbs vereinbarten Bedingungen zugrunde gelegt werden. Sie können Lizenzen jederzeit stornieren; die Stornierung erfolgt dann mit Wirkung zum nächsten Rechnungsstichtag. Um sicherzustellen, dass eine Stornierung auf den aktuellen Rechnungsstellungszyklus angewendet wird, dürfen Stornierungen nicht später als 24 Stunden vor dem Rechnungsstichtag vorgenommen werden. Während des Stornierungsprozesses werden spezielle Informationen zum Rechnungsstichtag für das Konto angezeigt. Führen Sie zum Stornieren einer Steuerkonsolenlizenz die folgenden Schritte aus.
 
 1. Sichern oder übertragen Sie alle Daten, die der Steuerkonsolenlizenz zugeordnet sind.
 2. Melden Sie sich beim Kundenportal mit Ihren eindeutigen Berechtigungsnachweisen an.
@@ -51,9 +51,9 @@ Steuerkonsolenlizenzen werden auf monatlicher Basis abgerechnet, wobei die zum Z
 
 8. Klicken Sie auf **Lizenz stornieren**.
 
-Nachdem Sie den Storierungsprozess eingeleitet haben, wird die Stornierung der Steuerkonsolenlizenz für den nächsten Rechnungsstichtag geplant. Falls die Stornierung irrtümlicherweise vorgenommen wurde, können Sie die Stornierung in der Anzeige 'Stornierungen' des Kundenportals nichtig machen.
+Nachdem Sie den Stornierungsprozess gestartet haben, wird die Stornierung der Steuerkonsolenlizenz für den nächsten Rechnungsstichtag geplant. Falls die Stornierung irrtümlicherweise vorgenommen wurde, können Sie die Stornierung in der Anzeige 'Stornierungen' des Kundenportals nichtig machen.
 
 ## Softwarekennwörter auf Geräten verwalten
 {: #cp_bpmanacctresp}
 
-Jeder Softwarekomponente, die auf einem Gerät bereitgestellt wird, ist ein Kennwort zugeordnet, das durch {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktursysteme automatisch generiert wird. Softwarekennwörter für jedes Gerät werden auf der Registerkarte **Kennwörter** in der Anzeige 'Gerätedetails' im Kundenportal gespeichert.  Ändern Sie Ihre Kennwörter, nachdem Sie zum ersten Mal auf die Software zugegriffen haben. Optional können Sie Softwareberechtigungsnachweise für jedes Gerät auf der Registerkarte **Kennwörter** speichern. Wenn Sie Kennwörter im Kundenportal speichern, kann jedoch jede Person, die Zugriff auf das Konto und entsprechende Berechtigungen besitzt, diese Kennwörter anzeigen.
+Jeder Softwarekomponente, die auf einem Gerät erstellt wird, ist ein Kennwort zugeordnet, das durch {{site.data.keyword.BluSoftlayer_notm}}-Infrastruktursysteme automatisch generiert wird. Softwarekennwörter für jedes Gerät werden auf der Registerkarte **Kennwörter** in der Anzeige 'Gerätedetails' im Kundenportal gespeichert. Ändern Sie Ihre Kennwörter, nachdem Sie zum ersten Mal auf die Software zugegriffen haben. Optional können Sie Softwareberechtigungsnachweise für jedes Gerät auf der Registerkarte **Kennwörter** speichern. Wenn Sie Kennwörter im Kundenportal speichern, kann jedoch jede Person, die Zugriff auf das Konto und entsprechende Berechtigungen besitzt, diese Kennwörter anzeigen.
