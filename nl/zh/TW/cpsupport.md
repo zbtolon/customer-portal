@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-17"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,8 +21,7 @@ lastupdated: "2018-05-17"
 如果您在使用 {{site.data.keyword.BluSoftlayer_full}} 基礎架構時遇到問題，且沒有已鏈結帳戶，則可以利用客戶入口網站來取得判斷問題原因及尋找解決方案的協助。
 {:shortdesc}
 
-如果您具有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)，則可以透過 {{site.data.keyword.Bluemix_notm}} 主控台取得支援。如需相關資訊，請參閱[取得客戶支援](/docs/get-support/howtogetsupport.html)。
-
+如果您具有[已鏈結帳戶](/docs/account/softlayerlink.html#link_user_accounts)，則可以透過 {{site.data.keyword.Bluemix_notm}} 主控台取得支援。如需相關資訊，請參閱[取得支援](/docs/get-support/howtogetsupport.html)。
 
 如果您沒有已鏈結帳戶，則可以 {{site.data.keyword.BluSoftlayer_full}} 基礎架構客戶入口網站中開立一般技術問題的支援問題單，或是取得與帳戶相關問題的協助。
 
@@ -50,7 +49,7 @@ lastupdated: "2018-05-17"
 
 8. 在**詳細資料**欄位中，輸入任何有關問題單的資訊。
 
-  報告問題時，請盡可能包括最多資訊（包括問題發生期間或發生問題時所採取的動作及擷取畫面，如果有的話）。
+  報告問題時，請盡可能包括最多資訊（包括問題發生期間或發生問題時所採取的動作及畫面擷取，如果有的話）。
   {:tip}
 
 9. 如果要將檔案附加至問題單，請按一下**附加檔案**，然後選取要附加至問題單的檔案。

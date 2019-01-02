@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-05"
+lastupdated: "2017-11-20"
 
 ---
 
@@ -20,14 +20,14 @@ lastupdated: "2017-12-05"
 Às vezes, ocorrem eventos na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} que requerem a reinicialização do servidor.
 {:shortdesc}
 
-Use as etapas a seguir para reinicializar o servidor:
+Use as etapas a seguir para reiniciar o servidor:
 1. No portal do cliente, clique na guia **Suporte**.
 2. Clique em **Reinicializar**.
 3. Selecione o servidor a ser reinicializado e clique em **Reinicializar**.
-4. Selecione um dos métodos a seguir para reinicializar o servidor:
-  * Padrão (tentar a reinicialização com IPMI e, em seguida, com o cabo de alimentação)
+4. Selecione um dos métodos a seguir para reiniciar o servidor:
+  * Padrão (tente a reinicialização com IPMI e, em seguida, com a faixa de energia)
   * IPMI
   * Cabo de alimentação
-5. Clique em reinicializar.
+5. Clique em **Reinicializar**.
 
-Essa página também oferece a capacidade de inicialização no kernel de resgate, que é muito útil se você está tendo um problema no qual o servidor não pode inicializar no S.O. devido a um problema de configuração. Após a inicialização no kernel de resgate, é possível montar a unidade, ou unidades, de seu servidor e, em seguida, corrigir o problema de configuração. Depois que o problema tiver sido corrigido, será possível reinicializar o servidor da linha de comandos e o servidor será reinicializado no kernel padrão para seu servidor. Depois de ter emitido o comando de reinicialização, você verá um tempo estimado de conclusão.
+Esta página também oferece a capacidade de inicializar no kernel de resgate, o que será muito útil se você estiver tendo um problema em que o servidor não pode ser inicializado no S.O. devido a um problema de configuração. Após a inicialização no kernel de resgate, é possível montar a unidade, ou unidades, de seu servidor e, em seguida, corrigir o problema de configuração. Depois que o problema tiver sido corrigido, será possível reiniciar o servidor por meio da linha de comandos e o servidor será reiniciado no kernel padrão de seu servidor. Depois de ter emitido o comando de reinicialização, você verá um tempo estimado de conclusão.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-01"
+lastupdated: "2017-10-11"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-12-01"
 # Gerenciando solicitações de cancelamento
 {: #customerportal_acccancreq}
 
-Se você for o usuário principal de uma conta ou tiver acesso administrativo a ela, será possível visualizar cancelamentos e chamados de cancelamento e também será possível anular cancelamentos pendentes.
+Se você for o usuário principal de uma conta ou tiver acesso administrativo a ela, será possível visualizar cancelamentos e chamados de cancelamento, além de também anular cancelamentos pendentes.
 {:shortdesc}
 
 
@@ -27,4 +27,4 @@ Você gerencia cancelamentos a qualquer momento na janela Solicitações de canc
 1. Acesse o [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando as suas credenciais exclusivas.
 2. Selecione **Conta > Vendas > Cancelamentos** no menu para acessar a janela Solicitações de cancelamento.
 
-Se um serviço ou uma solução já tiver sido cancelada, a opção "anular cancelamento" não será mostrada.
+Se um serviço ou uma solução já tiver sido cancelado, a opção "cancelamento nulo" não será mostrada.

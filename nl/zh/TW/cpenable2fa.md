@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,10 +18,10 @@ lastupdated: "2018-05-22"
 # 設定雙因子鑑別
 {: #customerportal_2fa}
 
-在客戶入口網站內，可以啟動外部雙因子鑑別 (2FA)，為登入入口網站時增加額外的保護。這個額外安全層可保護帳戶不受未驗證地存取，確保裝置、資料及帳戶資訊受到保護。
+在客戶入口網站中，可以啟動外部雙因子鑑別 (2FA)，為您登入入口網站時增加額外的保護。這個額外安全層可保護帳戶不受未驗證地存取，確保裝置、資料及帳戶資訊受到保護。
 {:shortdesc}
 
-如果您為 SoftLayer 帳戶啟用 2FA，在您登入 {{site.data.keyword.Bluemix_notm}} 主控台時，需要輸入安全碼。不過，2FA 只適用於 {{site.data.keyword.Bluemix_notm}} 帳戶中的基礎架構資源。因此，您不需完成 2FA，便可能可以對 {{site.data.keyword.Bluemix_notm}} 帳戶中的資源執行各種動作。
+如果您在客戶入口網站中為 SoftLayer 帳戶啟用 2FA，在您登入 {{site.data.keyword.Bluemix_notm}} 主控台時，需要輸入安全碼。2FA 只適用於 {{site.data.keyword.Bluemix_notm}} 帳戶中的基礎架構資源。您可以對 {{site.data.keyword.Bluemix_notm}} 帳戶中的資源執行各種動作，而不必完成 2FA。
 
 SoftLayer 帳戶的 2FA 不是根據 IBM ID。它仍是根據帳戶。當 IBM ID 與多個帳戶相關聯，且您在帳戶之間切換時，每次切換到不同帳戶時都必須確認身分。即使前一個帳戶及新的帳戶都已配置相同的雙因子鑑別機制，您也必須在切換帳戶時確認您的身分。
 
@@ -39,7 +39,7 @@ SoftLayer 帳戶的 2FA 不是根據 IBM ID。它仍是根據帳戶。當 IBM ID
 
 1. 存取客戶入口網站中的**使用者**畫面。
 2. 從使用者的**動作**功能表，選取**新增外部鑑別**。
-3. 根據訂購的外部鑑別類型，完成下列步驟：
+3. 根據要訂購的外部鑑別類型，完成下列步驟：
     * 如果您選擇 Symantec Identity Protection，請選取 **Symantec Identity Protection**，然後輸入使用者的認證 ID。
     * 如果您選擇 PhoneFactor，請選取 **PhoneFactor**。
 4. 按一下**繼續**。

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-05-22"
 # 设置身份联合
 {: #cp_setupidfed}
 
-您可以设置身份联合，以支持服务提供者（例如，{{site.data.keyword.BluSoftlayer_full}} 基础架构管理层系统 (IMS)）使用从可信身份系统生成的安全令牌进行认证和授权。
+您可以设置身份联合，以支持服务提供者（例如，{{site.data.keyword.BluSoftlayer_full}} 基础架构管理系统 (IMS)）使用从可信身份系统生成的安全令牌进行认证和授权。
 {:shortdesc}
 
 可以通过以下其中一种方式在 {{site.data.keyword.BluSoftlayer_notm}} 基础架构 SSO 中设置身份联合：
@@ -44,7 +44,7 @@ lastupdated: "2018-05-22"
 ### 设置用户
 使用以下步骤设置用户：
 
-1. [在 {{site.data.keyword.BluSoftlayer}} 基础架构中创建用户](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)。
+1. [向 SoftLayer 帐户添加用户](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)。
 2. 在 {{site.data.keyword.BluSoftlayer}} 基础架构中分配许可权。
 3. 在身份提供者中创建用户。
 
@@ -70,7 +70,7 @@ lastupdated: "2018-05-22"
 * 使用 {{site.data.keyword.BluSoftlayer}} 基础架构 API 在 {{site.data.keyword.BluSoftlayer}} 基础架构 IMS 中设置角色和许可权分配。
 * 用户向身份提供者进行认证并联合自己的凭证和角色属性。
 * {{site.data.keyword.BluSoftlayer}} 基础架构验证用户凭证和角色属性。如果通过用户的身份提供者为用户分配的角色与 {{site.data.keyword.BluSoftlayer}} 基础架构中的角色相匹配，那么当用户登录到 {{site.data.keyword.BluSoftlayer}} 基础架构时，会为用户授予这些角色的许可权。
-* 身份提供者创建用户时，会将这些用户视为联合用户，因为这些用户及其角色通过 SAML 2.0 进行认证。
+* 身份提供者创建用户时，会将这些用户视为联合用户，因为这些用户及其角色将通过 SAML 2.0 进行认证。
 
 ### 设置用户的角色
 {: #cp_set-up-user-role}

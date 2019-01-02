@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-05-22"
 # Configurando a federação de identidade
 {: #cp_setupidfed}
 
-É possível configurar a federação de identidade para ativar um provedor de serviços, como o {{site.data.keyword.BluSoftlayer_full}} Infrastructure Management System (IMS), para consumir tokens de segurança gerados em um sistema de identidade confiável para propósitos de autenticação e autorização.
+É possível configurar a federação de identidade para ativar um provedor de serviços, como o {{site.data.keyword.BluSoftlayer_full}} Infrastructure Management System (IMS), para consumir tokens de segurança que são gerados por meio de um sistema de identidade confiável para propósitos de autenticação e autorização.
 {:shortdesc}
 
 É possível configurar a federação de identidade na SSO da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} de uma das maneiras a seguir:
@@ -26,7 +26,7 @@ lastupdated: "2018-05-22"
 
 Uma função define, para o provedor de serviços, o que o usuário está autorizado a fazer (por meio de permissões) em seu sistema depois que o usuário foi autenticado. Por exemplo, a função *Usuário* pode ter permissão apenas para visualizar telas diferentes, mas não para atualizar ou incluir.
 
-Múltiplos usuários podem ser designados a uma única função. Além disso, se uma função existir no provedor de identidade, mas não na infraestrutura do {{site.data.keyword.BluSoftlayer}}, o usuário ainda poderá efetuar login na infraestrutura do {{site.data.keyword.BluSoftlayer}}, mas o usuário não terá nenhuma permissão designada a uma função.
+Múltiplos usuários podem ser designados a uma única função. Além disso, se existir uma função no provedor de identidade, mas não na infraestrutura do {{site.data.keyword.BluSoftlayer}}, o usuário ainda poderá efetuar login na infraestrutura do {{site.data.keyword.BluSoftlayer}}, mas não terá nenhuma permissão designada a uma função.
 {: tip}
 
 
@@ -39,12 +39,12 @@ Nesse modelo, o processo a seguir ocorre:
 * Os usuários se autenticam no provedor de identidade e federam suas credenciais.
 * A infraestrutura do {{site.data.keyword.BluSoftlayer}} consome as credenciais e o controle de acesso baseia-se nas permissões definidas para o usuário no IMS da infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 
-Contas para usuários que precisam de acesso à infraestrutura do {{site.data.keyword.BluSoftlayer}} são criadas primeiro na infraestrutura do {{site.data.keyword.BluSoftlayer}} com senhas aleatórias. Todas as permissões devem ser configuradas na infraestrutura do {{site.data.keyword.BluSoftlayer}} antes de o usuário ser capaz de usar a SSO por meio do provedor de identidade. Atualmente, as permissões são configuradas com base no usuário individual.
+Contas para usuários que precisam de acesso à infraestrutura do {{site.data.keyword.BluSoftlayer}} são criadas primeiro na infraestrutura do {{site.data.keyword.BluSoftlayer}} com senhas aleatórias. Todas as permissões devem ser configuradas na infraestrutura do {{site.data.keyword.BluSoftlayer}} antes que o usuário possa usar a SSO por meio do provedor de identidade. Atualmente, as permissões são configuradas com base no usuário individual.
 
 ### Configurando um usuário
 Use as etapas a seguir para configurar um usuário:
 
-1. [Crie usuários na infraestrutura do {{site.data.keyword.BluSoftlayer}}](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Incluindo usuários em uma conta do SoftLayer](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
 2. Designe permissões na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 3. Crie usuários no provedor de identidade.
 
@@ -89,7 +89,7 @@ Use as etapas a seguir para configurar um usuário:
 1. Configure os usuários no provedor de identidade.
 2. Designe funções aos usuários no provedor de identidade.
 
-Neste cenário, não é necessário criar manualmente usuários na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
+Nesse cenário, não é necessário criar usuários manualmente na infraestrutura do {{site.data.keyword.BluSoftlayer}}.
 
 ### Exemplo de fluxo para autenticação de login do usuário
 {: #exlogauthflowidprov}

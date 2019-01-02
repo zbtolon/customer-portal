@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -44,7 +44,7 @@ lastupdated: "2018-05-22"
 ### 設定使用者
 請使用下列步驟，以設定使用者：
 
-1. [在 {{site.data.keyword.BluSoftlayer}} 基礎架構中建立使用者](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)。
+1. [將使用者新增至 SoftLayer 帳戶](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct)。
 2. 在 {{site.data.keyword.BluSoftlayer}} 基礎架構中指派許可權。
 3. 在身分提供者中建立使用者。
 

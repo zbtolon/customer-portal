@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -24,14 +24,14 @@ Se sei l'utente master di un account o hai accesso amministrativo ad esso, puoi 
 ## Selezione e configurazione del tuo provider di identità
 {: #cp_setupidprov}
 
-Se non hai un provider di identità, devi selezionarne uno e configurarlo. Con {{site.data.keyword.BluSoftlayer_notm}} puoi utilizzare i seguenti provider di identità:
-* Ping Identity&reg;
-* OneLogin&trade;
-* IBM&reg; Cloud Security Enforcer
-* IBM Cloud Identity Services
-Per ulteriori informazioni, contatta il tuo rappresentante delle vendite dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
+Se non disponi già di un provider di identità, devi selezionarne uno e configurarlo. Con {{site.data.keyword.BluSoftlayer_notm}} puoi utilizzare i seguenti provider di identità:
+* Ping Identity&reg;,
+* OneLogin&trade;,
+* IBM&reg; Cloud Security Enforcer,
+* IBM Cloud Identity Services.
+Per ulteriori informazioni, contatta il rappresentante delle vendite della tua infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.
 
-Se il tuo provider di identità non è già configurato, puoi contattare il supporto del tuo provider di identità per la specifica procedura. Per configurare il tuo provider di identità, puoi anche utilizzare la seguente procedura di livello superiore:
+Se non hai già configurato un provider di identità, puoi contattare il supporto del tuo provider per la procedura specifica. Per configurare il tuo provider di identità, puoi anche utilizzare la seguente procedura di livello superiore:
 1. Prepara l'ambiente del provider di identità scaricando e installando il file eseguibile.
 2. Configura il tuo provider di identità in modo che funzioni con l'autenticazione {{site.data.keyword.BluSoftlayer_notm}}.
 
@@ -46,8 +46,12 @@ Dal tuo provider di identità, devi estrarre i seguenti campi obbligatori di inf
 <dd>L'endpoint del provider di identità per SSO.</dd>
 <dt>Certificato</dt>
 <dd>Il certificato del provider di identità utilizzato per firmare le richieste.</dd>
+</dl>
+
+Il seguente campo è facoltativo:
+<dl>
 <dt>Impronta digitale certificato</dt>
-<dd>L'impronta digitale del certificato. Questo campo può essere utilizzato al posto dell'intero certificato. (Facoltativo)</dd>
+<dd>L'impronta digitale del certificato. Questo campo può essere utilizzato al posto dell'intero certificato.</dd>
 </dl>
 
 Utilizza la seguente procedura per configurare l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} in modo da ricevere la richiesta di autenticazione dal tuo provider di identità:

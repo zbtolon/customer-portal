@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-25"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -18,8 +18,7 @@ lastupdated: "2018-05-25"
 # 管理計費項目
 {: #manage-billing}
 
-如果您要管理 SoftLayer 帳戶的 {{site.data.keyword.Bluemix}} 基礎架構計費，則可以管理客戶入口網站中的計費及付款。若要管理 {{site.data.keyword.Bluemix_notm}} 平台計費及付款，請參閱[管理計費及用量](/docs/account/index.html)。
-  
+如果您要管理 SoftLayer 帳戶的 {{site.data.keyword.Bluemix}} 基礎架構計費，則可以管理客戶入口網站中的計費及付款。若要管理 {{site.data.keyword.Bluemix_notm}} 平台計費及付款，請參閱[管理付款](/docs/billing-usage/manage_billing.html#linkedusage)。  
 {:shortdesc}
 
 ## 存取計費項目
@@ -33,7 +32,7 @@ lastupdated: "2018-05-25"
 ## 取消計費項目
 {: #cp_cancelbillitems}
 
-您隨時可以直接從「管理計費項目」視窗中取消計費項目。您可以立即起始取消大部分服務及解決方案。取消會立即執行或是在計費週年日執行。
+您隨時可以直接從「管理計費項目」視窗中取消計費項目。您可以立即起始取消大部分服務及解決方案。取消會立即處理或是在計費週年日處理。
 
 > **附註：**取消之後，就無法擷取任何已取消裝置、服務或解決方案上所儲存的資料。在完成取消要求之前，備份所有您想要儲存的資料。
 

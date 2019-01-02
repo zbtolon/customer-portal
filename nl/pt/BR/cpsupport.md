@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-17"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,14 +21,14 @@ lastupdated: "2018-05-17"
 Se você tiver problemas com a infraestrutura do {{site.data.keyword.BluSoftlayer_full}} e não tiver uma conta vinculada, será possível obter ajuda para determinar a causa do problema e localizar uma solução usando o portal do cliente.
 {:shortdesc}
 
-Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix_notm}}. Veja [Obtendo suporte ao cliente](/docs/get-support/howtogetsupport.html) para obter mais informações.
+Se você tiver uma [conta vinculada](/docs/account/softlayerlink.html#link_user_accounts), será possível obter suporte por meio do console do {{site.data.keyword.Bluemix_notm}}. Consulte [Obtendo suporte](/docs/get-support/howtogetsupport.html) para obter mais informações.
 
-Se você não tiver uma conta vinculada, será possível abrir chamados de suporte no portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para questões técnicas gerais ou para ajudar com problemas relacionados à sua conta.
+Se você não tiver uma conta vinculada, será possível abrir chamados de suporte no portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para problemas técnicos gerais ou para ajudar com problemas relacionados à sua conta.
 
 ## Criando um chamado de suporte técnico geral
 {: #cp_creatsuptickwsp}
 
-É possível abrir os chamados da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para questões técnicas gerais no portal do cliente usando as etapas a seguir:
+É possível abrir chamados de infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para problemas técnicos gerais no portal do cliente usando as etapas a seguir:
 
 1. Efetue login no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} usando suas credenciais exclusivas.
 2. Selecione **Suporte** > **Incluir chamado** no menu.
@@ -40,16 +40,16 @@ Se você não tiver uma conta vinculada, será possível abrir chamados de supor
 
 5. Insira uma breve descrição da dúvida ou problema no campo **Título**.
 6. Se atualizações de e-mail deverão ser enviadas quando o chamado for atualizado, indique para quem:
-  * Se as atualizações precisarem ser enviadas para o designado, selecione a caixa de seleção **Enviar e-mails de atualizações para mim?**. Se você não for o designado, selecionar a caixa de seleção **Enviar e-mails de atualizações para mim?** resultará no envio de atualizações ao designado, pois ele está vinculado à lista **Designar para**.
+  * Se as atualizações precisarem ser enviadas para o designado, selecione a caixa de seleção **Enviar e-mails de atualizações para mim?**. Se você não for o designado, marcar a caixa de seleção **Enviar e-mail de atualizações para mim?** resultará no envio de atualizações ao designado, pois ele está vinculado à lista **Designar a**.
   * Se as atualizações de e-mail precisarem ser enviadas para outros, no campo **Enviar e-mail para outros**, insira o endereço de e-mail do usuário para receber atualizações ou selecione o endereço de e-mail na lista. Em seguida, clique em **Incluir destinatário**. Repita essas etapas até que todos os destinatários tenham sido incluídos. É possível incluir até cinco destinatários por chamado, além do designado.
 7. Se os dispositivos estiverem associados a um chamado existente, insira o nome do dispositivo no campo **Dispositivos associados** ou selecione o dispositivo na lista, em seguida, clique em **Incluir dispositivo**. Repita essas etapas até que todos os dispositivos tenham sido incluídos.
 
-  É possível associar até cinco dispositivos a um chamado. Em vez de criar vários chamados para cada dispositivo que está tendo o mesmo problema ou indisponibilidade, associe até cinco dispositivos em seu chamado e todos eles poderão ser manipulados ao mesmo tempo. Isso também garante que a equipe de suporte esteja ciente de um problema generalizado em sua conta e possa resolver o problema em todos os locais.
+  É possível associar até cinco dispositivos a um chamado. Em vez de criar mais de um chamado para cada dispositivo que está tendo o mesmo problema ou indisponibilidade, associe até cinco dispositivos em seu chamado e todos poderão ser manipulados de uma só vez. Isso também garante que a equipe de suporte esteja ciente de um problema generalizado em sua conta e possa resolver o problema em todos os locais.
   {:tip}
 
-8. Insira quaisquer informações relacionadas ao chamado no campo **Detalhes**.
+8. Insira quaisquer informações sobre o chamado no campo **Detalhes**.
 
-  Ao relatar um problema, inclua tantas informações quanto possível, incluindo quais ações foram realizadas durante ou quando o problema ocorreu e capturas de tela, se disponíveis.
+  Ao relatar um problema, inclua o máximo de informações possível, incluindo quais ações ocorreram durante ou quando o problema ocorreu e as capturas de tela, se disponíveis.
   {:tip}
 
 9. Se arquivos precisarem ser anexados ao chamado, clique em **Anexar arquivos** e selecione os arquivos a serem anexados ao chamado.
@@ -57,21 +57,21 @@ Se você não tiver uma conta vinculada, será possível abrir chamados de supor
   É possível anexar até dois arquivos em um chamado.
   {:tip}
 
-10. Selecione um data center na lista **Suportado pela União Europeia** se você for um cliente na Europa e requer que a equipe de suporte que trata de seus chamados também esteja na Europa.
+10. Selecione um data center na lista **Suportado pela União Europeia** se você for um cliente na Europa e requerer que a equipe de suporte que manipula seus chamados também esteja na Europa.
 
-  Selecione **Nenhum** se você não requer que sua equipe de suporte esteja localizada fisicamente na Europa.
+  Selecione **Nenhum** se não for necessário que sua equipe de suporte esteja localizada fisicamente na Europa.
   {: tip}
 
-  Consulte [Configurando a opção de suporte da União Europeia](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported) para obter informações sobre como inicializar essa função para sua conta.
+  Consulte [Configurando a opção Suportado pela União Europeia](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported) para obter informações sobre como inicializar essa função para sua conta.
 
 11. Clique em **Incluir chamado**.
 
-Depois de incluir um chamado, ele será roteado para o membro apropriado da equipe de suporte para resolução. Os chamados são tratados com base no grau de severidade, o que significa que os problemas mais graves, como indisponibilidades, são tratados primeiro, seguidos pelos problemas que comprometem os serviços e, em seguida, as dúvidas. Um membro da equipe de suporte entrará em contato com os designados sobre informações adicionais para resolver o chamado.
+Depois de incluir um chamado, ele é roteado para o membro apropriado da equipe de suporte para resolução. Os chamados são tratados com base no grau de severidade, o que significa que os problemas mais graves, como indisponibilidades, são tratados primeiro, seguidos pelos problemas que comprometem os serviços e, em seguida, as dúvidas. Um membro da equipe de suporte entrará em contato com os responsáveis sobre informações adicionais para resolver o chamado.
 
 ## Criando um chamado para problemas de conta
 {: #cp_creatacctsuptickwsp}
 
-É possível abrir os chamados da infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para ajudar com problemas relacionados à sua conta no portal do cliente de forma semelhante à maneira que você abre um chamado para problemas de suporte técnico geral, mas com uma diferença importante.  
+É possível abrir chamados de infraestrutura do {{site.data.keyword.BluSoftlayer_full}} para ajudar com problemas relacionados à sua conta no portal do cliente de forma semelhante à maneira com que você abre um chamado para problemas gerais de suporte técnico, mas com uma diferença importante.  
 
 Depois de efetuar login no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} e selecionar **Suporte** > **Incluir chamado**, deve-se assegurar que o chamado seja roteado para a equipe de suporte correta e possa ser resolvidos rapidamente. Para rotear o chamado corretamente para manipular problemas de conta, na lista **Assunto**, selecione a **Solicitação de contabilidade**.
 
@@ -105,7 +105,7 @@ Depois de incluir um chamado, é possível visualizá-lo a qualquer momento na j
   A qualquer momento durante o processo de atualização, é possível abrir uma sessão de bate-papo com um membro da equipe de suporte para obter assistência. Clique em **Iniciar bate-papo** para abrir a sessão de bate-papo.
   {:tip}
 
-Se você redesignar o chamado, o novo designado se tornará o ponto principal de contato para resolução do problema. Se você incluir um comentário ou um anexo, o membro da equipe de suporte que trabalha no chamado revisará as novas informações para ajudar na resolução do problema.
+Se você redesignar o chamado, o novo designado se tornará o ponto principal de contato para resolução do problema. Se você incluir um comentário ou um anexo, o membro da equipe de suporte que estiver trabalhando no chamado revisará as novas informações para ajudar na resolução do problema.
 
 ## Escalando um chamado de suporte
 {: #cp_bpsupescalflow}

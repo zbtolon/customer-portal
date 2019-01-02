@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-25"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-05-25"
 # Gestione dei tuoi elementi di fatturazione
 {: #manage-billing}
 
-Se stai gestendo la fatturazione dell'infrastruttura {{site.data.keyword.Bluemix}} per un account SoftLayer, puoi gestire la fatturazione e i pagamenti nel portale clienti. Per gestire la fatturazione e i pagamenti della piattaforma {{site.data.keyword.Bluemix_notm}}, vedi [Gestione della fatturazione e dell'utilizzo](/docs/account/index.html).  
+Se stai gestendo la fatturazione dell'infrastruttura {{site.data.keyword.Bluemix}} per un account SoftLayer, puoi gestire la fatturazione e i pagamenti nel portale clienti. Per gestire la fatturazione e i pagamenti della piattaforma {{site.data.keyword.Bluemix_notm}}, vedi [Gestione dei pagamenti](/docs/billing-usage/manage_billing.html#linkedusage).  
 {:shortdesc}
 
 ## Accesso ai tuoi elementi di fatturazione
@@ -46,10 +46,10 @@ Utilizza la seguente procedura per annullare un elemento di fatturazione.
 >**Nota**: gli annullamenti immediati vengono elaborati quando viene inoltrata la richiesta e non vengono emessi rimborsi. Gli annullamenti alla data di anniversario vengono avviati immediatamente. Tuttavia, l'elemento di fatturazione rimane attivo fino alla data di anniversario successiva, che viene fornita quando effettui la selezione.
 6. Immettere il **motivo dell'annullamento** nella casella di testo **Note**.
 7. Fai clic su **Continua** per passare alla finestra successiva nel processo di annullamento.
-8. Rivedi i **Termini di servizio** forniti nell'avviso di annullamento e fai clic sulla casella di spunta **Riconoscimento**.
+8. Rivedi i **Termini del servizio** forniti nell'avviso di annullamento e fai clic sulla casella di spunta **Riconoscimento**.
 9. Fai clic su **Annulla servizio**.
 
-Dopo aver confermato l'annullamento, inizia il processo di annullamento dell'elemento di fatturazione. Se hai richiesto un annullamento immediato, l'elemento di fatturazione viene annullato immediatamente. Se hai richiesto un annullamento  della ricorrenza di fatturazione, l'elemento di fatturazione rimane attivo fino alla successiva ricorrenza di fatturazione. Al momento dell'annullamento, l'elemento di fatturazione non è più attivo all'interno del portale clienti. Gli elementi di fatturazione vengono inoltre rimossi dalle fatture quando tutti i saldi in sospeso, se presenti, vengono pagati sul servizio o sulla soluzione. Non è possibile fornire rimborsi per annullamenti immediati.
+Dopo aver confermato l'annullamento, inizia il processo di annullamento dell'elemento di fatturazione. Se hai richiesto un annullamento immediato, l'elemento di fatturazione viene annullato immediatamente. Se hai richiesto un annullamento della ricorrenza di fatturazione, l'elemento di fatturazione rimane attivo fino alla successiva ricorrenza di fatturazione. Al momento dell'annullamento, l'elemento di fatturazione non è più attivo all'interno del portale clienti. Gli elementi di fatturazione vengono inoltre rimossi dalle fatture quando tutti i saldi in sospeso, se presenti, vengono pagati sul servizio o sulla soluzione. Non è possibile fornire rimborsi per annullamenti immediati.
 
 
 ## Associazione degli elementi di fatturazione a un dispositivo

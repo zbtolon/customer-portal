@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -35,12 +35,12 @@ lastupdated: "2018-05-30"
 ## 通过定期备份保护数据
 {: #cp_bpsafedataregback}
 
-安排备份，以确保数据安全存储于设备外部，并在数据丢失时可重新装入。
+您可以安排备份，以确保数据安全存储于设备外部，并可在数据丢失时重新装入。
 
 {{site.data.keyword.BluSoftlayer_notm}} 基础架构提供了多种备份解决方案，以确保您可以在驱动器发生故障或用户出错时取回数据。目前，备份解决方案包括 NAS、EVault Backup 和 R1Soft CDP，它们全都可用于各种存储选项。
 例如，您可以选择以下其中一个备份服务，以将数据存储于安全位置：
   * EVault Backup 是一种基于代理程序的自动备份系统，也是十分受欢迎的“一劳永逸”设备管理解决方案。它通过插件兼容 Microsoft 软件，包括 Exchange 和 SQL。EVault 用户通过 EVault 的基于 Web 的 WebCC 应用程序与此服务进行交互。
-  * R1Soft Continuous Data Protection (CDP) 可安装在服务器或自我管理的虚拟机上。如果您希望在单个界面上管理所有备份，那么建议使用此软件。您可以通过专有管理系统与 R1Soft CDP 进行交互，该系统允许在虚拟机上安装代理程序并提供数据库插件以获得更多功能。
+  * R1Soft Continuous Data Protection (CDP) 可安装在服务器或自我管理的虚拟机上。如果您希望在单个界面上管理所有备份，那么可以使用此软件。您可以通过专有管理系统与 R1Soft CDP 进行交互，该系统允许在虚拟机上安装代理程序并提供数据库插件以获得更多功能。
 
  有关每种备份解决方案的更多信息，请查看[存储器 ![外部链接图标](../icons/launch-glyph.svg)](http://www.softlayer.com/services/storagelayer/){:new_window} 页面；有关备份数据的更多信息，请查看[备份服务入门](/docs/infrastructure/Backup/index.html)。
 

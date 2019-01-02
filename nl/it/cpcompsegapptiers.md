@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -49,6 +49,6 @@ Configurando il tuo ambiente in questo modo, impedendo l'accesso a SSH o RDP da 
 
 Un ambiente multilivello offre anche facilità di scalabilità rispetto alle architetture verticali o ad host singolo. Puoi configurare un ambiente multilivello per semplificare il ridimensionamento incrementale della tua applicazione, consentendo il ridimensionamento per i servizi che richiedono più risorse. Ad esempio, nello scenario precedente, se il tuo server web è sottoposto a tassazione eccessiva, puoi distribuire un altro server web. Puoi quindi replicare i dati del sito o dell'applicazione e bilanciare il carico o configurare il DNS round robin per consentire ai tuoi due server web di suddividere il carico web. Il DNS round robin o il bilanciamento del carico forniscono un'elevata disponibilità al tuo ambiente, consentendo a più server web di rispondere alle richieste in entrata. Se un singolo server si interrompe, è disponibile un altro nodo per gestire le richieste dell'utente.
 
-Puoi anche eseguire il ridimensionamento incrementale del tuo database. Ad esempio, con un database {{site.data.keyword.mysql}}, un'opzione è quella di configurare un altro server fisico e utilizzarlo come subordinato in una configurazione di replica {{site.data.keyword.mysql}}.  Puoi segmentare tutte le scritture del database sul master e tutte le letture su uno o più subordinati per ridimensionare il database in modo da supportare più carico. Questo tipo di configurazione aggiunge anche un livello di alta disponibilità in quanto puoi modificare lo stato di un subordinato in master. Puoi quindi instradare sia il traffico di lettura che quello di scrittura al subordinato se il tuo nodo master {{site.data.keyword.mysql}} viene interrotto. 
+Puoi anche eseguire il ridimensionamento incrementale del tuo database. Ad esempio, con un database {{site.data.keyword.mysql}}, un'opzione è quella di configurare un altro server fisico e utilizzarlo come subordinato in una configurazione di replica {{site.data.keyword.mysql}}. Puoi segmentare tutte le scritture del database sul master e tutte le letture su uno o più subordinati per ridimensionare il database in modo da supportare più carico. Questo tipo di configurazione aggiunge anche un livello di alta disponibilità in quanto puoi modificare lo stato di un subordinato in master. Puoi quindi instradare sia il traffico di lettura che quello di scrittura al subordinato se il tuo nodo master {{site.data.keyword.mysql}} viene interrotto.
 
 Queste idee sono solo alcuni dei molti modi per proteggere e ridimensionare il tuo ambiente. Se hai domande o dubbi relativi al modo migliore di progettare il tuo ambiente da un punto di vista della sicurezza o della scalabilità, l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} ha un team Sales Engineering che può aiutarti.

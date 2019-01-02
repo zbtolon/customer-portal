@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -32,7 +32,7 @@ Nella finestra Fatture, ogni singola fattura viene riepilogata in base a numero 
 <dt>Ricorrente</dt>
 <dd>Una fattura per gli addebiti ricorrenti che sono stati attivi sull'account per più di un mese.</dd>
 <dt>Addebito una tantum</dt>
-<dd>Un addebito una tantum per le varie spese, che potrebbero includere dei costi aggiuntivi.</dd>
+<dd>Un addebito una tantum per le varie spese, che potrebbero includere eccedenze.</dd>
 <dt>Credito</dt>
 <dd>Un credito dall'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} al saldo dell'account.</dd>
 <dt>Rimborso</dt>
@@ -47,19 +47,19 @@ Puoi anche visualizzare un riepilogo di fatturazione per l'account, che include 
 1. Fai clic su **Account** > **Fatturazione** > **Fatture** dal menu.
 2. Puoi anche visualizzare la fattura nel portale clienti o scaricare la fattura.
 
-Se visualizzi la fattura nel portale clienti, viene mostrato un elenco dettagliato di voci di fatturazione per la fattura selezionata. Fai clic in qualsiasi punto della riga di una voce di fatturazione per visualizzare ulteriori dettagli sull'addebito. Se hai scaricato la fattura, puoi visualizzarla in base alle impostazioni del tuo browser. Le fatture scaricate forniscono sia un riepilogo dettagliato che una fatturazione dettagliata per ciascuna voce di fatturazione.
+Se visualizzi la fattura nel portale clienti, viene mostrato un elenco dettagliato di elementi di fatturazione per la fattura selezionata. Fai clic in qualsiasi punto della riga di una voce di fatturazione per visualizzare ulteriori dettagli sull'addebito. Se hai scaricato la fattura, puoi visualizzarla in base alle impostazioni del tuo browser. Le fatture scaricate forniscono sia un riepilogo dettagliato che una fatturazione dettagliata per ciascuna voce di fatturazione.
 
 ## Aggiunta di un metodo di pagamento
 {: #cp_cpmanacctbillpay}
 
-Ogni account SoftLayer è tenuto ad avere una carta di credito registrata in archivio su cui viene automaticamente addebitato l'importo della fattura ogni mese. Queste informazioni devono essere sempre aggiornate per evitare ritardi nei pagamenti; puoi aggiornarle in qualsiasi momento per garantire che le informazioni di pagamento siano sempre accurate. Se le informazioni della carta di credito registrate in archivio sono corrette ma vuoi applicare una forma alternativa di pagamento al saldo corrente, vedi [Effettuazione di un pagamento una tantum](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment). Utilizza la seguente procedura per aggiungere un metodo di pagamento per un account nel portale clienti.
+Ogni account SoftLayer è tenuto ad avere una carta di credito registrata in archivio su cui viene automaticamente addebitato l'importo della fattura ogni mese. Queste informazioni devono essere sempre aggiornate per evitare ritardi nei pagamenti; puoi aggiornarle in qualsiasi momento per garantire che le informazioni di pagamento siano sempre accurate. Se le informazioni della carta di credito registrate in archivio sono corrette ma vuoi applicare una forma alternativa di pagamento al saldo corrente, vedi [Gestione dei tuoi elementi di fatturazione](/docs/customer-portal/cpmanacctbillpay.html#cp_makeonetimepayment). Utilizza la seguente procedura per aggiungere un metodo di pagamento per un account nel portale clienti.
 
 1. Fai clic su **Account** > **Fatturazione** > **Metodo di pagamento** dal menu.
 2. Immetti i dettagli di fatturazione richiesti per la carta in ogni campo della sezione **Indirizzo di fatturazione**.
 > **Nota:** fai clic sulla casella di spunta **Utilizza informazioni azienda** per completare automaticamente i campi con le informazioni sulla società che l'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} ha in archivio per l'account.
 3. Immetti le informazioni della carta di credito in ogni campo della sezione **Informazioni di pagamento**.
 4. Fai clic su **Aggiungi carta di credito** per aggiungere la carta di credito come metodo di pagamento mensile.
-5. Facoltativamente, seleziona **Supportato UE** per assicurarti che il team di supporto in Europa gestisca i tuoi problemi di manutenzione e supporto.  Per ulteriori informazioni su questa opzione, vedi [Impostazione dell'opzione esclusiva del team di supporto europeo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
+5. Facoltativamente, seleziona **Supportato UE** per assicurarti che il team di supporto in Europa gestisca i tuoi problemi di manutenzione e supporto.  Per ulteriori informazioni su questa opzione, vedi [Impostazione dell'opzione Supportato UE](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
 
 Dopo aver aggiunto il metodo di pagamento, la richiesta viene elaborata dai rappresentanti dell'account SoftLayer per garantire la validità della carta. Le carte convalidate sono disponibili per l'uso sull'account entro 24 ore. La modifica dello stato per il metodo di pagamento viene inviata via e-mail al contatto che è stato fornito quando è stato aggiunto il metodo di pagamento.
 
@@ -74,7 +74,7 @@ Puoi effettuare pagamenti una tantum utilizzando un account PayPal o una carta d
 2. Immetti l'importo di pagamento nel campo **Importo del pagamento**.
 3. Se effettui il pagamento con PayPal, fai clic su **PayPal** e segui le istruzioni in PayPal per completare il pagamento. Non sono richieste ulteriori azioni. Se effettui il pagamento con una carta di credito, immetti il **Numero della carta, la Data di scadenza e il Codice di sicurezza** nei campi appropriati.
 4. Immetti le informazioni di fatturazione nei campi appropriati nella sezione **Indirizzo di fatturazione della carta di credito**.
-5. Facoltativamente, seleziona **Supportato UE** per assicurarti che il team di supporto in Europa gestisca i tuoi problemi di manutenzione e supporto.  Per ulteriori informazioni su questa opzione, vedi [Impostazione dell'opzione esclusiva del team di supporto europeo](/docs/customer-portal/pay-invoice.html#cp_seteusupported).
+5. Facoltativamente, seleziona **Supportato UE** per assicurarti che il team di supporto in Europa gestisca i tuoi problemi di manutenzione e supporto.  Per ulteriori informazioni su questa opzione, vedi [Impostazione dell'opzione Supportato UE](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
 6. Fai clic su **Paga con carta di credito** per avviare il pagamento.
 
 Dopo aver avviato il pagamento, questo viene elaborato. Se si verificano problemi con il pagamento, segui le istruzioni indicate dall'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} o da PayPal finché il problema non viene risolto. Il pagamento viene elaborato, l'importo viene applicato e il saldo corrente viene aggiornato.

@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -25,14 +25,14 @@ Ao hospedar um aplicativo, dois dos aspectos mais críticos a serem considerados
 
 Use os firewalls de hardware disponíveis para assegurar que seu dispositivo esteja sempre seguro. É possível provisionar firewalls de hardware sob demanda sem tempo de inatividade, se as regras estiverem estabelecidas corretamente, para proteger seu servidor contra atividade indesejada.
 
-Os firewalls são serviços complementares a quaisquer dispositivos que devem ser configurados manualmente e ativados para assegurar que sejam efetivos. É possível bloquear portas supérfluas e desativar portas públicas para sistemas baseados na rede privada para gerenciar ainda mais a acessibilidade externa aos seus sistemas. Varreduras de vulnerabilidade regulares no portal do cliente identificam quaisquer riscos pendentes ou desconhecidos para que seja possível reduzir os riscos rapidamente.
+Firewalls são serviços complementares para quaisquer dispositivos que devem ser configurados e ativados manualmente para assegurar que sejam efetivos. É possível bloquear portas supérfluas e desativar portas públicas para sistemas baseados na rede privada para gerenciar ainda mais a acessibilidade externa aos seus sistemas. Varreduras de vulnerabilidade regulares no portal do cliente identificam quaisquer riscos pendentes ou desconhecidos para que seja possível reduzir os riscos rapidamente.
 
 Depois de pedir o firewall, ele deve ser ativado e as regras devem ser configuradas.
 
 ### Ativando seu firewall
 {: #cp_bpnofirewalbypass}
 
-Comprar um firewall é o começo para proteger seus sistemas, mas apenas comprar um firewall não protege você. Após ser provisionado, seu firewall está no **Modo Bypass** e não tem regras configuradas. Para que seu firewall funcione, deve-se criar regras e ativar o firewall para que ele possa começar a bloquear atividades indesejadas.
+A compra de um firewall é um começo para proteger seus sistemas, mas a simples compra de um firewall não protege você. Depois de ser provisionado, seu firewall está no **Modo bypass** e não tem regras configuradas. Para que seu firewall funcione, deve-se criar regras e ativar o firewall para que ele possa começar a bloquear atividades indesejadas.
 
 
 ## Protegendo seu ambiente segmentando suas camadas do aplicativo

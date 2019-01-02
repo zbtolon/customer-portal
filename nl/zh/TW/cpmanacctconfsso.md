@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -24,14 +24,14 @@ lastupdated: "2018-08-13"
 ## 選取並設定身分提供者
 {: #cp_setupidprov}
 
-如果您沒有身分提供者，請先選取一個身分提供者，並進行設定。您可以搭配使用下列身分提供者與 {{site.data.keyword.BluSoftlayer_notm}}：
-* Ping Identity&reg;
-* OneLogin&trade;
-* IBM&reg; Cloud Security Enforcer
-* IBM Cloud Identity Services
-如需相關資訊，請與 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構業務代表聯絡。
+如果您還沒有身分提供者，請先選取一個身分提供者，並進行設定。您可以搭配使用下列身分提供者與 {{site.data.keyword.BluSoftlayer_notm}}：
+* Ping Identity&reg;、
+* OneLogin&trade;、
+* IBM&reg; Cloud Security Enforcer、
+* IBM Cloud Identity Services。
+如需相關資訊，請聯絡 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構業務代表。
 
-如果尚未設定身分提供者，則可以聯絡身分提供者支援人員來瞭解特定步驟。您也可以使用下列高階步驟來配置身分提供者：
+如果您尚未設定身分提供者，則可以聯絡身分提供者支援人員來瞭解特定步驟。您也可以使用下列高階步驟來配置身分提供者：
 1. 下載並安裝執行檔，以準備身分提供者環境。
 2. 配置身分提供者，以使用 {{site.data.keyword.BluSoftlayer_notm}} 鑑別。
 
@@ -46,8 +46,12 @@ lastupdated: "2018-08-13"
 <dd>進行 SSO 的身分提供者端點。</dd>
 <dt>憑證</dt>
 <dd>用來簽署要求的身分提供者憑證。</dd>
+</dl>
+
+以下是選用欄位：
+<dl>
 <dt>憑證指紋</dt>
-<dd>憑證的指紋。您可以使用此欄位，而非整個憑證。（選用）</dd>
+<dd>憑證的指紋。您可以使用此欄位，而非整個憑證。</dd>
 </dl>
 
 請使用下列步驟，以設定 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構接收來自身分提供者的鑑別要求：

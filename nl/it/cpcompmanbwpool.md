@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-11-19"
 
 ---
 
@@ -32,6 +32,6 @@ Una volta creato un pool di larghezza di banda, se sei un utente autorizzato, pu
 4. Dalla scheda **Modifica**, puoi rinominare il pool, aggiungere un dispositivo o rimuovere un dispositivo dal pool.
   * Per rinominare il pool, immetti il nuovo nome nel campo che contiene il nome pool corrente.
   * Per aggiungere un dispositivo al pool, dall'elenco **Aggiungi server**, seleziona il nome del dispositivo e fai clic su **Seleziona**.
-  * Per rimuovere un dispositivo da un pool, dall'elenco **Rimuovi server**, seleziona il dispositivo e fai quindi clic su **Seleziona**.
+  * Per rimuovere un dispositivo da un pool, dall'elenco **Rimuovi server**, seleziona il dispositivo e fai clic su **Seleziona**.
 5. Fai clic su **Modifica rack**.
 6. Fai clic sul link **Visualizza tutti i pool di larghezza di banda** per tornare alla finestra Pool di larghezza di banda.

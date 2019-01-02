@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-08-13"
 # Gestione di un profilo utente
 {: #customerportal_accuserprof}
 
-Nel portale clienti, il tuo profilo utente include diversi dati, comprese le informazioni di contatto e la chiave API. È anche l'ubicazione in cui vengono archiviate le password. Se disponi dell'accesso amministrativo, dal profilo puoi modificare le autorizzazioni e l'accesso al dispositivo.
+Nel portale clienti, un profilo utente ha vari dati sull'utente, incluse le informazioni di contatto e la chiave API. È anche l'ubicazione in cui vengono archiviate le password. Se disponi dell'accesso amministrativo, dal profilo puoi modificare le autorizzazioni e l'accesso al dispositivo.
 {:shortdesc}
 
 All'interno del profilo utente, puoi gestire le informazioni di contatto e le password, visualizzare le chiavi API e aggiornare le autorizzazioni e l'accesso al dispositivo in base alle tue autorizzazioni.
@@ -32,42 +32,42 @@ Una volta creato un profilo utente nel portale clienti, puoi modificarlo in qual
 2. Seleziona **Account > Utenti** dalla barra di navigazione.
 3. Fai clic sul nome utente per accedere al profilo associato a tale utente.
 4. Modifica i dettagli del **Profilo utente** secondo necessità. Per gli utenti negli account che utilizzano l'ID IBM per l'autenticazione, aggiorna l'e-mail e la password nel tuo profilo dell'ID IBM. Per ulteriori informazioni, vedi la Tabella 1.
-5. Se vuoi reimpostare la tua password dopo l'accesso, fai clic su **Reimposta password** per generare un'e-mail che contiene i dettagli su come modificare la password.
+5. Se vuoi reimpostare la tua password dopo l'accesso, fai clic su **Reimposta password** per generare un'email che ti consente di modificare la password.
 6. Fai clic su **Modifica utente** per inviare le modifiche.
 
 | Campo | Definizione |
 |-----|----------|
 | Nome, Cognome | Nome e cognome dell'utente associato al profilo utente.|
-| Indirizzo e-mail | Indirizzo e-mail preferito per ricevere notifiche dall'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. La modifica dell'indirizzo e-mail modifica il record nell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Questa modifica non influisce sul collegamento alle credenziali di autenticazione con ID IBM. Devi modificare l'indirizzo e-mail per l'ID IBM dal profilo dell'ID IBM.|
-| Fuso orario | Fuso orario preferito da utilizzare quando si visualizzano dati con data/ora .|
+| Indirizzo e-mail | Indirizzo email preferito per ricevere notifiche dall'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} relative all'account. La modifica dell'indirizzo e-mail modifica il record nell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Questa modifica non influisce sul collegamento alle credenziali di autenticazione con ID IBM. Devi modificare l'indirizzo e-mail per l'ID IBM dal profilo dell'ID IBM.|
+| Fuso orario | Fuso orario preferito da utilizzare durante la visualizzazione dei dati con data/ora .|
 | Telefono, Telefono alternativo| Numeri di telefono di contatto preferiti che verranno utilizzati dall'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.|
 | Indirizzo, Città, Paese, Stato/provincia, CAP/codice postale | Indirizzo completo di contatto che verrà utilizzato dall'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}.|
 {: caption="Tabella 1. Impostazioni di configurazione delle informazioni personali per la modifica di un profilo utente" caption-side="top"}
 
 |Campo|Definizione|
 |-----|----------|
-| Limita accesso all'IP | Limita l'accesso a un indirizzo IP quando si tenta di utilizzare il portale clienti sotto il profilo utente associato. |
-| Validità password (solo per gli utenti negli account che NON utilizzano l'ID IBM per l'autenticazione) | Quantità di tempo in cui una password è associata al profilo utente prima che debba essere selezionata una nuova password. |
+| Limita accesso all'IP | Indirizzo IP a cui limitare l'accesso quando si tenta di utilizzare il portale clienti sotto il profilo utente associato. |
+| Validità password (solo per gli utenti negli account che NON utilizzano l'ID IBM per l'autenticazione) | Quantità di tempo in cui una password deve essere associata al profilo utente prima di dover selezionare una nuova password. |
 | Utente principale | Account utente considerato utente principale del profilo utente. L'impostazione predefinita per l'utente principale è l'ID account primario. |
-| Richiedere domande di sicurezza? | Seleziona questa casella di spunta quando sono richieste le domande di sicurezza durante l'accesso. Se questa casella è selezionata, vengono richieste domande di sicurezza per il profilo utente. |
+| Richiedere domande di sicurezza? | Seleziona questa casella di spunta quando devono essere richieste domande di sicurezza durante l'accesso. Se questa casella è selezionata, vengono richieste domande di sicurezza per il profilo utente. |
 | Password VPN | Password da utilizzare per l'accesso VPN. Fai clic sulla casella di spunta **Utilizza password del portale per VPN** per utilizzare la password del portale clienti per accedere alla rete dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}} attraverso VPN. |
 {: caption="Tabella 2. Impostazioni di configurazione delle impostazioni di accesso per la modifica di un profilo utente" caption-side="top"}
 
 |Sezione|Campo|Definizione|
 |-------|-----|----------|
-| Informazioni di accesso API | IBM Prerequisite Scanner consentito |Indirizzi IP che possono eseguire l'autenticazione presso l'API con la chiave API univoca associata al profilo utente |
-| Sottoscrizioni delle notifiche utente | Fatturazione | Seleziona **Fatturazione** per ricevere una fattura e-mail dopo che è stata creata. |
-| Domande di sicurezza | Domanda di sicurezza | Quando modifichi il tuo profilo, la domanda di sicurezza a cui devi rispondere per eseguire l'accesso.
+| Informazioni di accesso API | IP consentiti | Indirizzi IP consentiti per l'autenticazione nell'API con la chiave API univoca associata al profilo utente |
+| Sottoscrizioni delle notifiche utente | Fatturazione | Seleziona la casella di spunta **Fatturazione** per ricevere una fattura via email dopo che viene creata. |
+| Domande di sicurezza | Domanda di sicurezza | Quando modifichi il tuo profilo, questa è la domanda a cui è devi rispondere per accedere se per il tuo profilo vengono attivate le domande di sicurezza.
 | Risposte di sicurezza | Risposta | Risposta sensibile a maiuscole/minuscole alla domanda di sicurezza applicabile. |
 {: caption="Tabella 3. Altre impostazioni di configurazione per la modifica di un profilo utente" caption-side="top"}
 Dopo aver inviato le modifiche per un profilo utente, tali modifiche vengono applicate immediatamente. Puoi modificare nuovamente il profilo utente in qualsiasi momento ripetendo i passi precedenti.
 
-Per ulteriori informazioni sulla configurazione di un account ID IBM, vedi [Passaggio all'ID IBM](/docs/account/softlayerlink.html#switching-to-ibmid).
+Vedi [Passaggio all'ID IBM](/docs/account/softlayerlink.html#switching-to-ibmid) per ulteriori informazioni sulla configurazione di un account ID IBM.
 
 ## Modifica delle autorizzazioni del portale clienti di un utente
 {: #cp_editusercpperm}
 
-L'amministratore dell'account imposta le autorizzazioni utente quando l'utente viene aggiunto. Le autorizzazioni utente possono essere modificate in qualsiasi momento da un utente autorizzato. Puoi modificare il tuo profilo utente e, se sei un utente amministrativo, alcuni campi dei profili utente per gli utenti che hai aggiunto. Le autorizzazioni sono suddivise in cinque schede: supporto, dispositivi, rete, servizi e account. Puoi aggiornare le autorizzazioni per un utente alla volta e devi salvare le modifiche affinché diventino attive.
+Le autorizzazioni utente nel portale clienti vengono impostate dall'amministratore dell'account quando l'utente viene aggiunto e possono essere modificate in qualsiasi momento da un utente autorizzato. Puoi modificare il tuo profilo utente e, se sei un utente amministrativo, alcuni campi dei profili utente per gli utenti che hai aggiunto. Le autorizzazioni sono suddivise in cinque schede: supporto, dispositivi, rete, servizi e account. Puoi aggiornare le autorizzazioni per un utente alla volta e devi salvare le modifiche affinché diventino attive.
 
 Utilizza la seguente procedura per modificare le autorizzazioni del portale clienti di un utente.
 
@@ -76,27 +76,27 @@ Utilizza la seguente procedura per modificare le autorizzazioni del portale clie
 3. Fare clic sul nome dell'utente per accedere al profilo utente.
 4. Fai clic sull'icona **Autorizzazioni** per accedere alla finestra Autorizzazioni.
 
-  Potresti ottenere un messaggio che indica che le modifiche non sono al profilo utente. Se al profilo non viene apportata alcuna modifica, fai clic per ignorare le modifiche e accedere alla finestra Autorizzazioni.
+  Potresti ricevere un messaggio che indica che le modifiche non sono state salvate nel profilo utente. Se al profilo non è stata apportata alcuna modifica, fai clic per ignorare le modifiche e accedere alla finestra Autorizzazioni.
   {: tip}
 
 5. Seleziona le autorizzazioni:
-  * Per impostare autorizzazioni rapide, seleziona la serie di autorizzazioni dall'elenco **Autorizzazioni rapide**. Dopo che hai selezionato una serie di autorizzazioni, ogni autorizzazione associata alla serie viene visualizzata in testo arancione con una freccia arancione che punta alla casella di spunta. Fai quindi clic su **Imposta autorizzazioni** per ciascuna scheda.
+  * Per impostare autorizzazioni rapide, seleziona la serie di autorizzazioni dall'elenco **Autorizzazioni rapide**. Dopo aver selezionato una serie di autorizzazioni, ogni autorizzazione associata alla serie viene visualizzata in testo arancione con una freccia arancione che punta alla casella di spunta. Fai quindi clic su **Imposta autorizzazioni** per ciascuna scheda.
   * Per impostare singole autorizzazioni, seleziona o deseleziona ciascuna casella di spunta sulle schede per aggiornare le autorizzazioni dell'utente. Fai clic su **Seleziona tutte le autorizzazioni** o **Deseleziona tutte le autorizzazioni** su ciascuna scheda per selezionare o deselezionare tutte le autorizzazioni contemporaneamente.
 6. Fai clic su **Modifica autorizzazioni del portale** per inviare le modifiche e aggiornare le autorizzazioni dell'utente.
 7. Per reimpostare le autorizzazioni dell'utente alle impostazioni originali invece di salvarle, fai clic su **Reimposta autorizzazioni**. Fai clic su **Annulla** per annullare le modifiche e tornare alla finestra Utenti.
 
-Le autorizzazioni utente vengono aggiornate immediatamente dopo l'invio delle modifiche. Se vengono concesse le autorizzazioni, l'utente può visualizzare o interagire con le funzioni selezionate. Se le autorizzazioni vengono rimosse, l'utente non può più visualizzare o interagire con le funzioni selezionate. Aggiorna nuovamente le autorizzazioni in qualsiasi momento ripetendo i passi precedenti.
+Le autorizzazioni utente vengono aggiornate immediatamente dopo l'invio delle modifiche. Se sono state concesse le autorizzazioni, l'utente può visualizzare o interagire con le funzioni selezionate. Se le autorizzazioni sono state rimosse, l'utente non può visualizzare o interagire con le funzioni selezionate. Le autorizzazioni possono essere aggiornate di nuovo in qualsiasi momento ripetendo i passi precedenti.
 
 ## Aggiunta dell'autenticazione esterna per un utente
 {: #cp_addextauthuser}
 
-Dal portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti. Per ulteriori informazioni, vedi [Configurazione dell'autenticazione a due fattori](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
+Dal portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti. Per ulteriori informazioni, consulta [Impostazione dell'autenticazione a due fattori](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
 
 
 ## Modifica dello stato di un utente
 {: #cp_changeuserstat}
 
-Il tuo stato determina la tua accessibilità al portale clienti. Le categorie di stato che puoi aggiornare sull'account includono Attivo, Disabilitato e Solo VPN. Il tuo stato potrebbe essere modificato per diversi motivi e può essere aggiornato in qualsiasi momento. Le categorie di stato del cliente includono quelle che gli utenti possono aggiornare e quelle che vengono aggiornate automaticamente. Queste sono:
+Il tuo stato nel portale del clienti determina la tua accessibilità al tale portale. Le categorie di stato che puoi aggiornare sull'account includono Attivo, Disabilitato e Solo VPN. Il tuo stato potrebbe essere modificato per diversi motivi e può essere aggiornato in qualsiasi momento. Le categorie di stato del cliente includono quelle che gli utenti possono aggiornare e quelle che vengono aggiornate automaticamente. Queste sono:
 <dl>
 <dt>Attivo</dt>
 <dd>L'utente ha accesso completo al portale clienti e alla VPN in base alle autorizzazioni impostate dall'amministratore dell'account. Questo stato può essere selezionato manualmente o modificato in qualsiasi momento.</dd>
@@ -105,9 +105,9 @@ Il tuo stato determina la tua accessibilità al portale clienti. Le categorie di
 <dt>Solo VPN</dt>
 <dd>L'utente ha accesso completo alla connettività VPN, in base alla propria serie di autorizzazioni, ma non può accedere al portale clienti. Questo stato può essere selezionato manualmente o modificato in qualsiasi momento.</dd>
 <dt>Inattivo</dt>
-<dd>L'utente non ha effettuato l'accesso al portale clienti o alla VPN negli ultimi 60 giorni. Lo stato viene generato dal sistema.</dd>
+<dd>L'utente non ha effettuato l'accesso al portale clienti o alla VPN negli ultimi 60 giorni. Questo è uno stato generato dal sistema.</dd>
 <dt>cancel_pending</dt>
-<dd>Un amministratore dell'account ha annullato questo utente e l'annullamento è attualmente in fase di elaborazione. Lo stato viene generato dal sistema.</dd>
+<dd>Un amministratore dell'account ha annullato questo utente e l'annullamento è in fase di elaborazione. Questo è uno stato generato dal sistema.</dd>
 </dl>
 
 Utilizza la seguente procedura per modificare lo stato dell'utente nel portale clienti.
@@ -115,7 +115,7 @@ Utilizza la seguente procedura per modificare lo stato dell'utente nel portale c
 1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Utenti** dalla barra di navigazione.
 3. Seleziona **Modifica stato utente** dall'elenco **Azioni**.
-4. Dall'elenco **Stato**, seleziona  lo stato appropriato in base alle definizioni nell'elenco precedente.
+4. Dall'elenco **Stato**, seleziona lo stato appropriato in base alle definizioni nell'elenco precedente.
 5. Fai clic su **Salva**.
 
 Dopo aver aggiornato lo stato di un utente, le modifiche all'accessibilità del portale clienti si allineano con il nuovo stato.
@@ -124,7 +124,7 @@ Dopo aver aggiornato lo stato di un utente, le modifiche all'accessibilità del 
 ## Modifica dell'accesso VPN di un utente
 {: #cp_edituservpnaccess}
 
-Quando un nuovo utente viene aggiunto a un account del portale clienti, l'accesso VPN viene selezionato tra diversi metodi di connessione, tra cui SSL, PPTP o una combinazione dei due. Con l'accesso VPN, è possibile accedere alla rete privata nella sua interezza o l'accesso alla rete può essere limitato a una o più sottoreti specifiche. Puoi gestire e aggiornare l'accesso VPN in qualsiasi momento dalla finestra Utenti. Utilizza la seguente procedura per modificare l'accesso VPN di un utente.
+Quando un [nuovo utente viene aggiunto](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct) a un account del portale clienti, l'accesso VPN viene selezionato tra vari metodi di connessione, tra cui SSL, PPTP o una combinazione dei due. Con l'accesso VPN, è possibile accedere alla rete privata nella sua interezza o l'accesso alla rete può essere limitato a una o più sottoreti specifiche. Puoi gestire e aggiornare l'accesso VPN in qualsiasi momento dalla finestra Utenti. Utilizza la seguente procedura per modificare l'accesso VPN di un utente.
 
 1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Accesso VPN** dalla barra di navigazione.
@@ -158,7 +158,7 @@ Puoi selezionare le notifiche email che vuoi ricevere dall'infrastruttura {{site
 2. Fai clic su **Account** > **Utenti** > **Preferenze email** dalla barra dei menu.
 3. Dall'elenco dei tipi di notifica, cancella tutte le notifiche che non desideri più ricevere.
 
-Le tue modifiche vengono salvate automaticamente. Queste impostazioni influenzano le email che ti vengono inviate, tuttavia, non influenzano le notifiche email di altri utenti nel tuo account.
+Le tue modifiche vengono salvate automaticamente. Queste impostazioni influiscono sulle email che ti vengono inviate, tuttavia, non influiscono sulle notifiche email di altri utenti nel tuo account.
 
 
 ## Impostazione dell'opzione Supportato UE
@@ -170,6 +170,6 @@ Puoi indicare che desideri ricevere assistenza esclusivamente da un team di supp
 3. Seleziona la casella di spunta **Supportato UE**.
 4. Fai clic su **Richiedi aggiornamento profilo**.
 
-Se l'opzione **Supportato UE** non è disponibile, è possibile che ci siano utenti nel tuo account con l'accesso VPN PPTP abilitato. Disabilita prima l'accesso VPN PPTP per tutti gli utenti nel tuo account per abilitare l'opzione **Supportato UE**. Per ulteriori informazioni, vedi [Attivazione o disattivazione dell'accesso VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
+Se l'opzione **Supportato UE** non è disponibile, è possibile che ci siano utenti nel tuo account con l'accesso VPN PPTP abilitato. Disabilita l'accesso VPN PPTP per tutti gli utenti nel tuo account per abilitare l'opzione **Supportato UE**. Per ulteriori informazioni, vedi [Attivazione o disattivazione dell'accesso VPN PPTP](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn).
 
 Per ulteriori informazioni sull'implementazione dell'opzione **Supportato UE** quando apri un ticket di supporto, vedi [Richiesta di supporto per le risorse nell'Unione Europea](/docs/get-support/howtogetsupport.html#eusupported).

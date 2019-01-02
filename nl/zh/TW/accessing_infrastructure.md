@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-05-22"
 當您在 {{site.data.keyword.Bluemix_notm}} 公用環境中建置應用程式時，可以使用基礎架構資源。
 {: shortdesc}
 
-請使用基礎架構資源來建置虛擬環境、提供儲存空間、建立網路，以及保護環境。如需相關資訊，請參閱[平台概觀](/docs/overview/ibm-cloud.html)。
+請使用基礎架構資源來建置虛擬環境、提供儲存空間、建立網路，以及保護環境。如需相關資訊，請參閱[何謂 {{site.data.keyword.Bluemix_notm}} 平台](/docs/overview/ibm-cloud-platform.html)。
 
 若要存取基礎架構資源，您必須有「隨收隨付制」帳戶。下表列出不同的帳戶以及您用來存取基礎架構資源的選項。
 
@@ -36,4 +36,4 @@ lastupdated: "2018-05-22"
 當您要求升級帳戶時，會檢查您所輸入的資訊，並且必須先進行核准，才能存取基礎架構資源。請確定聯絡資訊正確無誤，因為「{{site.data.keyword.Bluemix_notm}} 支援中心」團隊可能會聯絡您，以確認特定的詳細資料。
 {: tip}
 
-如果您有疑問或遇到任何找不到答案的問題，「{{site.data.keyword.Bluemix_notm}} 支援中心」團隊會很樂意提供協助。當您登入帳戶時，請按一下**支援** > **新增問題單**，並完成相關詳細資料。您也可以使用 [{{site.data.keyword.Bluemix_notm}} 支援中心 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} 頁面上列出的鏈結，來取得支援。
+如果您有疑問或發生任何找不到答案的問題，「{{site.data.keyword.Bluemix_notm}} 支援中心」團隊會很樂意提供協助。當您登入帳戶時，請按一下主控台功能表列中的**支援**。然後，按一下**建立新的案例**，並完成相關詳細資料。您也可以使用 [{{site.data.keyword.Bluemix_notm}} 支援中心 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window} 頁面上列出的鏈結，來取得支援。

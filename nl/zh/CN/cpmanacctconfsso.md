@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-08-13"
 * IBM Cloud Identity Services
 有关更多信息，请联系 {{site.data.keyword.BluSoftlayer_notm}} 基础架构销售代表。
 
-如果尚未设置身份提供者，那么可以联系身份提供者支持来获取特定步骤。还可以使用以下高级步骤来配置身份提供者：
+如果您未设置身份提供者，那么可以联系身份提供者支持以获取特定步骤。还可以使用以下高级别步骤来配置身份提供者：
 1. 通过下载并安装可执行文件来准备身份提供者环境。
 2. 配置身份提供者以使用 {{site.data.keyword.BluSoftlayer_notm}} 认证。
 
@@ -45,9 +45,13 @@ lastupdated: "2018-08-13"
 <dt>单点登录 URL</dt>
 <dd>身份提供者用于 SSO 的端点。</dd>
 <dt>证书</dt>
-<dd>身份提供者用于对请求签名的证书。</dd>
+<dd>身份提供者用于签署请求的证书。</dd>
+</dl>
+
+以下字段是可选的：
+<dl>
 <dt>证书指纹</dt>
-<dd>证书的指纹。可以使用此字段，而不使用整个证书。（可选）</dd>
+<dd>证书的指纹。可以使用此字段，而不使用整个证书。</dd>
 </dl>
 
 使用以下步骤设置 {{site.data.keyword.BluSoftlayer_notm}} 基础架构以接收来自身份提供者的认证请求：
@@ -63,4 +67,4 @@ lastupdated: "2018-08-13"
 7. 单击**下载 XML 配置**以下载服务提供者元数据或记下信息。
 8. 使用**服务提供者**元数据以基于身份提供者的指示信息来配置身份提供者。  
 
-您可以使用联合标识登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。有关联合标识的更多信息，请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 和 [IBMid Enterprise Federation Adoption Guide ![外部链接图标](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。
+您现在可以使用联合标识登录到 {{site.data.keyword.BluSoftlayer_notm}} 基础架构。有关联合标识的更多信息，请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account/adminpublic.html) 和 [IBMid Enterprise Federation Adoption Guide ![外部链接图标](../icons/launch-glyph.svg)](https://ibm.box.com/v/IBMid-Federation-Guide){: new_window}。

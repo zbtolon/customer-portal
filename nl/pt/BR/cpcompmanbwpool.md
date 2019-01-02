@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-11-19"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2017-12-06"
 ## Modificando um conjunto de largura da banda
 {: #cp_modbdwpool}
 
-Após um conjunto de largura da banda ser criado, se você for um usuário autorizado, será possível acessar o conjunto a qualquer momento. É possível acessar o conjunto de largura da banda para visualizar dispositivos associados ao conjunto, incluir dispositivos no conjunto ou remover dispositivos do conjunto. Use as etapas a seguir para acessar um conjunto:
+Depois que um conjunto de largura de banda for criado, se você for um usuário autorizado, será possível acessar o conjunto a qualquer momento. É possível acessar o conjunto de largura da banda para visualizar dispositivos associados ao conjunto, incluir dispositivos no conjunto ou remover dispositivos do conjunto. Use as etapas a seguir para acessar um conjunto:
 
 1. Efetue login no portal do cliente com as suas credenciais exclusivas.
 2. Selecione **Rede** > **Largura da banda** > **Conjuntos** no menu para acessar a janela Conjuntos de largura da banda.

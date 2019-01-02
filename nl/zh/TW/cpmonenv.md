@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -48,7 +48,7 @@ lastupdated: "2018-05-30"
 ## 監視伺服器
 {: #customerportal_monservers}
 
-設定監視來檢查伺服器的狀態，以瞭解何時需要擴充。您可以使用標準監視或 Nimsoft 監視服務。您可以透過在 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站中使用慢速或服務連線測試，以連線測試及回應 (ping-and-respond) 方法進行標準（或基本）監視。您也可以使用客戶入口網站中的 Nimsoft（或進階）監視，或是在下列三層其中之一進行監視：基本、進階及超值。明確地說，如需裸機伺服器的相關資訊，請參閱[開始使用裸機伺服器](/docs/bare-metal/about.html)。
+設定監視來檢查伺服器的狀態，以瞭解何時需要擴充。您可以使用標準監視或 Nimsoft 監視服務。您可以透過在 {{site.data.keyword.BluSoftlayer_notm}} 基礎架構客戶入口網站中使用慢速或服務連線測試，以連線測試及回應 (ping-and-respond) 方法進行標準（或基本）監視。您也可以使用客戶入口網站中的 Nimsoft（或進階）監視，或是在下列三層其中之一進行監視：基本、進階及超值。明確地說，如需裸機伺服器的相關資訊，請參閱[開始使用裸機伺服器](/docs/bare-metal/index.html#getting-started)。
 
 ## 監視系統事件
 {: #customerportal_monevent}

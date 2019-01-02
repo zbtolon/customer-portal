@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-17"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,15 +21,15 @@ lastupdated: "2018-05-17"
 如果遇到 {{site.data.keyword.BluSoftlayer_full}} 基础架构问题，并且没有链接的帐户，那么可以使用客户门户网站来获取有关确定问题原因并查找相应解决方案的帮助。
 {:shortdesc}
 
-如果您有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)，那么可以通过 {{site.data.keyword.Bluemix_notm}} 控制台来获得支持。有关更多信息，请参阅[获取客户支持](/docs/get-support/howtogetsupport.html)。
+如果您有[链接的帐户](/docs/account/softlayerlink.html#link_user_accounts)，那么可以通过 {{site.data.keyword.Bluemix_notm}} 控制台来获得支持。有关更多信息，请参阅[获取支持](/docs/get-support/howtogetsupport.html)。
 
 
-如果您没有链接的帐户，那么可以在 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户门户网站中开具支持凭单，以解决常规技术问题或者帮助解决与帐户相关的问题。
+如果您没有链接的帐户，可以在 {{site.data.keyword.BluSoftlayer_full}} 基础架构客户门户网站中开具支持凭单，以用于一般技术问题或帮助解决与您帐户相关的问题。
 
-## 创建常规技术支持凭单
+## 创建一般技术支持凭单
 {: #cp_creatsuptickwsp}
 
-您可以在客户门户网站中使用以下步骤针对常规技术问题开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构凭单：
+您可以在客户门户网站中使用以下步骤针对一般技术问题开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构凭单：
 
 1. 使用您的唯一凭证登录到[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}。
 2. 从菜单中选择**支持** > **添加凭单**。
@@ -41,7 +41,7 @@ lastupdated: "2018-05-17"
 
 5. 在**标题**字段中，输入问题的简要描述。
 6. 如果应该在凭单更新时发送电子邮件更新，请指示收件人：
-  * 如果应该将更新发送给受让人，请选中**通过电子邮件通知我更新？**复选框。如果您不是受让人，选中**通过电子邮件通知我更新？**复选框会导致向受让人发送更新，因为它与**分配给**列表相链接。
+  * 如果应该将更新发送给受让人，请选中**通过电子邮件通知我更新？**复选框。如果您不是受让人，选中**通过电子邮件向我发送更新？**复选框会导致向受让人发送更新，因为受让人与**分配给**列表相链接。
   * 如果应该将电子邮件更新发送给其他人，请在**向其他人发送电子邮件**字段中，输入要接收更新的用户的电子邮件地址，或者从列表中选择电子邮件地址。然后，单击**添加收件人**。重复这些步骤，直到添加了所有收件人。除了受让人外，您还可以为每个凭单最多添加五个收件人。
 7. 如果设备与现有凭单相关联，请在**关联的设备**字段中输入设备名称，或从列表中选择设备，然后单击**添加设备**。重复这些步骤，直到添加了所有设备。
 
@@ -72,7 +72,7 @@ lastupdated: "2018-05-17"
 ## 针对帐户问题创建凭单
 {: #cp_creatacctsuptickwsp}
 
-您可以在客户门户网站中开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构凭单，以帮助解决与帐户相关的问题，方法类似于针对常规技术支持问题开具凭单，但有一个重要差异。  
+您可以在客户门户网站中开具 {{site.data.keyword.BluSoftlayer_full}} 基础架构凭单，以帮助解决与帐户相关的问题，方法类似于针对一般技术支持问题开具凭单，但有一个重要差异。  
 
 登录到[客户门户网站 ![外部链接图标](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}，并选择**支持** > **添加凭单**后，必须确保将该凭单发送给正确的支持团队，从而可以快速加以解决。要正确传递凭单以处理帐户问题，请从**主题**列表中选择**帐户请求**。
 

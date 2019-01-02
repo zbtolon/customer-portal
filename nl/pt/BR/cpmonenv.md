@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-05-30"
 # Monitorando seu ambiente e eventos do sistema
 {: #customerportal_cpmonenvsysevent}
 
-Monitorar seu ambiente significa que você tem a capacidade de verificar dispositivos a qualquer momento e você é automaticamente notificado se um de seus dispositivos fica inativo. Também é possível monitorar eventos do sistema para manter seus sistemas em execução sem problemas.  
+Monitorar seu ambiente significa que você tem a capacidade de verificar dispositivos a qualquer momento e que será notificado automaticamente se um deles ficar inativo. Também é possível monitorar eventos do sistema para manter seus sistemas em execução sem problemas.  
 {: shortdesc}
 
 ## Monitorando seu ambiente
@@ -29,12 +29,12 @@ No mínimo, use monitoramento de ping básico, mas você pode customizar suas op
 ### Ficando informado sobre manutenção de rede e eventos não planejados
 {: #cp_stayinfomaintevent}
 
-De vez em quando, a manutenção de rede planejada e emergencial é inevitável. A infraestrutura do {{site.data.keyword.BluSoftlayer_full}} mantém vários canais para deixá-lo informado sobre todos os eventos de manutenção planejados e emergenciais. Além disso, é possível [assinar notificações por e-mail](/docs/customer-portal/cpsub2not.html) do Sistema de Gerenciamento de Eventos. Esse serviço complementar envia e-mails automaticamente aos usuários inscritos sobre eventos não planejados que possam impactar os serviços.
+De vez em quando, a manutenção de rede planejada e emergencial é inevitável. A infraestrutura do {{site.data.keyword.BluSoftlayer_full}} mantém vários canais para deixá-lo informado sobre todos os eventos de manutenção planejados e emergenciais. Além disso, é possível [assinar notificações por e-mail](/docs/customer-portal/cpsub2not.html) do Sistema de Gerenciamento de Eventos. Esse serviço de cortesia envia e-mails automaticamente aos usuários inscritos em relação a eventos não planejados que podem afetar os serviços.
 
 ### Usando a infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}
 
-Use a infraestrutura móvel do {{site.data.keyword.BluSoftlayer_notm}} para gerenciar seus dispositivos de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} em movimento usando seu dispositivo móvel iOS ou Android. A funcionalidade dentro do dispositivo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} inclui suporte de chamado, controle de dispositivo básico e monitoramento de largura da banda.
+Use o dispositivo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} para gerenciar seus dispositivos de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} em movimento usando seu dispositivo móvel iOS ou Android. A funcionalidade dentro do dispositivo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} inclui suporte de chamado, controle de dispositivo básico e monitoramento de largura da banda.
 
 O aplicativo móvel da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}} complementa a funcionalidade do portal do cliente porque você pode monitorar informações críticas sobre sua infraestrutura de qualquer lugar usando seu dispositivo móvel conectado à rede. O aplicativo evolui rapidamente e a nova funcionalidade é incluída regularmente, mas é possível usar o aplicativo móvel para executar tarefas como as seguintes:
   * Visualizar, criar e atualizar chamados de suporte
@@ -48,7 +48,7 @@ O aplicativo móvel de infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}
 ## Monitorando servidores
 {: #customerportal_monservers}
 
-Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar Nimsoft, ou avançado, monitorando pelo portal do cliente ou em 1 de 3 camadas: básica, avançada e premium. Para obter mais informações sobre Bare Metal Servers, especificamente, consulte [Introdução a Bare Metal Servers](/docs/bare-metal/about.html).
+Configure o monitoramento para verificar o status de seu servidor e saber quando escalar. É possível usar o monitoramento padrão ou serviços de monitoramento Nimsoft. É possível usar o monitoramento padrão ou básico no método executar ping e responder, usando um ping lento ou de serviço do portal do cliente da infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Também é possível usar Nimsoft, ou avançado, monitorando pelo portal do cliente ou em 1 de 3 camadas: básica, avançada e premium. Para obter mais informações sobre os servidores Bare Metal, especificamente, consulte [Introdução aos servidores Bare Metal](/docs/bare-metal/index.html#getting-started).
 
 ## Monitorando eventos do sistema
 {: #customerportal_monevent}
@@ -80,4 +80,4 @@ Acesse os dados de exibição de logs para cada tentativa de acesso que é feita
 2. Selecione **Conta** > **Usuários** na barra de menus para acessar a janela Usuários.
 3. Na lista suspensa **Ações**, selecione **Visualizar log de auditoria** para visualizar o log de acesso do usuário.
 
-O log de acesso para cada usuário exibe as tentativas de acesso que foram feitas por esse usuário por data, junto com o endereço IP do qual a tentativa de acesso foi feita. Informações dentro do log de acesso são somente leitura; portanto, as edições para o conteúdo não podem ser feitas a qualquer momento. É possível visualizar os logs de acesso novamente a qualquer momento repetindo as etapas anteriores. Para sair dos logs e retornar à tela Usuários, clique no link **Visualizar todos os usuários**.
+O log de acesso para cada usuário exibe as tentativas de acesso que foram feitas por esse usuário por data, junto com o endereço IP do qual a tentativa de acesso foi feita. As informações dentro do log de acesso são somente leitura, portanto, as edições no conteúdo não podem ser feitas a qualquer momento. É possível visualizar os logs de acesso novamente a qualquer momento repetindo as etapas anteriores. Para sair dos logs e retornar à tela Usuários, clique no link **Visualizar todos os usuários**.

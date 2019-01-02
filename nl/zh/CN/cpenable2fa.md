@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,15 +21,15 @@ lastupdated: "2018-05-22"
 在客户门户网站中，可以激活外部双因子认证 (2FA)，以在登录到门户网站时提供额外的保护。这个额外的安全层可保护帐户免受未经验证的访问，确保设备、数据和帐户信息安全可靠。
 {:shortdesc}
 
-如果为现有 SoftLayer 帐户启用了 2FA，那么会要求您在登录到 {{site.data.keyword.Bluemix_notm}} 控制台时输入安全代码。不过，2FA 仅适用于 {{site.data.keyword.Bluemix_notm}} 帐户中的基础架构资源。因此，无需完成 2FA，也能够对 {{site.data.keyword.Bluemix_notm}} 帐户中的资源执行各种操作。
+如果在客户门户网站为现有 SoftLayer 帐户启用了 2FA，那么会要求您在登录到 {{site.data.keyword.Bluemix_notm}} 控制台时输入安全代码。2FA 仅适用于 {{site.data.keyword.Bluemix_notm}} 帐户中的基础架构资源。无需完成 2FA，就可以对 {{site.data.keyword.Bluemix_notm}} 帐户中的资源执行各种操作。
 
-SoftLayer 帐户的 2FA 不是按 IBM 标识启用的。而仍然是按帐户启用的。如果一个 IBM 标识与多个帐户相关联，而您会切换不同的帐户，那么每次切换到不同帐户时，都必须确认身份。在帐户之间切换时，您必须确认身份，即使旧帐户和新帐户都配置了相同的 2FA 机制，也是如此。
+SoftLayer 帐户的 2FA 不是按 IBM 标识启用的。而是仍按帐户启用。如果一个 IBM 标识与多个帐户相关联，而您会切换不同的帐户，那么每次切换到不同帐户时，都必须确认身份。在帐户之间切换时，您必须确认身份，即使旧帐户和新帐户都配置了相同的 2FA 机制，也是如此。
 
 ## 启用 2FA
 
 2FA 认证有两种形式。可以为每个用户同时添加这两种外部认证方法，每月只需支付少量费用：
 
-* Symantec Identify Protection 是最常用的外部认证工具，其会要求您在访问客户门户网站时，除了提供用户名和密码外，还使用一个动态的安全代码。
+* Symantec Identify Protection 是最常用的外部认证工具，会要求您在访问客户门户网站时，除了提供用户名和密码外，还使用它提供的动态安全代码。
 * PhoneFactor 认证是通过电话呼叫、短信或移动应用程序提供带外认证。
 
  如果您拥有链接的帐户，那么可以对整个 {{site.data.keyword.Bluemix_notm}} 帐户[启用多因子认证](/docs/iam/mfa.html)，从而利用多因子认证 (MFA) 设置。

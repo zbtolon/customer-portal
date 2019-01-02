@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-10-11"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-12-06"
 É possível usar a ferramenta Chrootkit para varrer, criar e enviar e-mail de relatórios do sistema.
 {:shortdesc}
 
-Para usar a ferramenta Chrootkit, primeiro execute o SSH como o administrador para seu servidor. Não use telnet, que já deverá estar desativado. Em seguida, use as etapas a seguir:
+Para usar a ferramenta Chrootkit, primeiro execute o SSH como o administrador para seu servidor. Não use telnet, que já deve estar desativado. Em seguida, use as etapas a seguir:
 
 1. Mude para o diretório raiz:  
 
@@ -75,7 +75,7 @@ Para usar a ferramenta Chrootkit, primeiro execute o SSH como o administrador pa
 
 Tudo o que a ferramenta chkrootkit emite como saída deve ser `not found` ou `not infected`.
 
-Se você vir *Checking `bindshell`... INFECTED (PORTS: 465)* e estiver executando o PortSentry, o klaxon ou outro programa que se conecta a portas não utilizadas, o chkrootkit provavelmente te dará um falso positivo no teste de bindshell (portas 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp).
+Se você vir *Verificando `bindshell`... INFECTADAS (PORTAS: 465)* e estiver executando o PortSentry, o klaxon ou outro programa que se ligue a portas não usadas, o chkrootkit provavelmente lhe dará um falso positivo no teste de bindshell (portas 114/tcp, 465/tcp, 511/tcp, 1008/tcp, 1524/tcp, 1999/tcp, 3879/tcp, 4369/tcp, 5665/tcp, 10008/tcp, 12321/tcp, 23132/tcp, 27374/tcp, 29364/tcp, 31336/tcp, 31337/tcp, 45454/tcp, 47017/tcp, 47889/tcp, 60001/tcp).
 {: tip}
 
 8. Mude o diretório (`cd ..`) e remova o arquivo .gz:  

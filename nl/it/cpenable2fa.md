@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,16 +18,16 @@ lastupdated: "2018-05-22"
 # Configurazione dell'autenticazione a due fattori
 {: #customerportal_2fa}
 
-Nel portale clienti, puoi attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere ulteriore protezione quando esegui l'accesso al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti.
+Nel portale clienti, è possibile attivare l'autenticazione a due fattori (2FA, two-factor authentication) esterna per aggiungere ulteriore protezione quando accedi al portale. Questo ulteriore livello di sicurezza protegge l'account da accessi non verificati, garantendo che i dispositivi, i dati e le informazioni sull'account siano protetti.
 {:shortdesc}
 
-Se abiliti la 2FA per il tuo account SoftLayer esistente, devi immettere il tuo codice di sicurezza quando esegui l'accesso alla console {{site.data.keyword.Bluemix_notm}}. Tuttavia, la 2FA si applica solo alle risorse dell'infrastruttura nel tuo account {{site.data.keyword.Bluemix_notm}}. Pertanto, potresti essere in grado di eseguire diverse azioni per le risorse nel tuo account {{site.data.keyword.Bluemix_notm}} senza completare la 2FA.
+Se abiliti la 2FA nel portale clienti per il tuo account SoftLayer esistente, devi immettere il tuo codice di sicurezza quando esegui l'accesso alla console {{site.data.keyword.Bluemix_notm}}. La 2FA si applica solo alle risorse dell'infrastruttura nel tuo account {{site.data.keyword.Bluemix_notm}}. Puoi eseguire varie azioni sulle risorse nel tuo account {{site.data.keyword.Bluemix_notm}} senza completare la 2FA.
 
 La 2FA per il tuo account SoftLayer non è per ogni ID IBM, ma è tuttora per ogni account. Quando un ID IBM è associato a più account e tu passi da un account all'altro, devi confermare la tua identità ogni volta che passi a un account diverso. Devi confermare la tua identità quando passi da un account all'altro anche se l'account precedente e il nuovo account sono entrambi configurati con lo stesso meccanismo 2FA.
 
 ## Abilitazione della 2FA
 
-L'autenticazione 2FA è disponibile in due formati. Entrambi i metodi di autenticazione esterna possono essere aggiunti per ogni utente per un piccolo addebito mensile:
+L'autenticazione 2FA è disponibile in due formati. Entrambi i metodi di autenticazione esterna possono essere aggiunti per ogni utente con un piccolo addebito mensile:
 
 * Symantec Identify Protection è lo strumento di autenticazione esterna più utilizzato, che fornisce un codice di sicurezza dinamico che viene usato in aggiunta al nome utente e alla password durante l'accesso al portale clienti.
 * L'autenticazione PhoneFactor fornisce l'autenticazione fuori banda con una chiamata telefonica, un SMS o un'applicazione mobile.
@@ -38,12 +38,12 @@ L'autenticazione 2FA è disponibile in due formati. Entrambi i metodi di autenti
 Per configurare la 2FA, completa la seguente procedura:
 
 1. Accedi alla schermata **Utenti** nel portale clienti.
-2. Seleziona **Aggiungi autenticazione esterna** dal menu **Azioni** per l'utente.
+2. Seleziona **Add External Authentication** dal menu **Actions** per l'utente.
 3. In base al tipo di autenticazione esterna ordinato, completa la seguente procedura:
     * Se scegli Symantec Identity Protection, seleziona **Symantec Identity Protection** e immetti quindi l'ID credenziale dell'utente.
     * Se scegli PhoneFactor, seleziona **PhoneFactor**.
 4. Fai clic su **Continua**.
-5. Completa le richieste visualizzate sullo schermo per **Codice promozionale** e **Riconoscimento MSA**.
+5. Completa le richieste visualizzate sullo schermo per **Promo Code** e **MSA Acknowledgement**.
 6. Fai clic su **Ordina autenticazione esterna** per completare l'ordine. Fai clic su **Annulla** per annullare l'azione.
 
 ## Passi successivi
@@ -61,9 +61,9 @@ Dopo aver aggiunto PhoneFactor, devi attivare manualmente l'autenticazione ester
 1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account > Utenti** dalla barra di navigazione.
 3. Fai clic sul nome utente per accedere al profilo associato a tale utente.
-4. Scorri fino alla sezione **Impostazioni PhoneFactor**.
+4. Scorri fino alla sezione **PhoneFactor Settings**.
 
-  Se la sezione Impostazioni PhoneFactor non è disponibile, verifica innanzitutto di aver ricevuto l'e-mail di provisioning di PhoneFactor che indica che PhoneFactor è stato fornito. Se il provisioning di PhoneFactor è stato eseguito ma la sezione non è disponibile, crea un ticket di supporto. Se il provisioning di PhoneFactor non è stato ancora eseguito, attendi l'e-mail e prova di nuovo.
+  Se la sezione PhoneFactor Settings non è disponibile, verifica innanzitutto di aver ricevuto l'email di provisioning di PhoneFactor, che indica che PhoneFactor è stato fornito. Se il provisioning di PhoneFactor è stato eseguito ma la sezione non è disponibile, crea un ticket di supporto. Se il provisioning di PhoneFactor non è stato ancora eseguito, attendi l'email e prova di nuovo.
   {: tip}
 
 5. Seleziona **Attivo** dall'elenco **Stato**.
@@ -81,7 +81,7 @@ Dopo aver aggiunto PhoneFactor, devi attivare manualmente l'autenticazione ester
 9. Se selezioni **Monouso** > **Valore PIN**, immetti il PIN nel campo **Valore PIN**.
 10. Fai clic su **Aggiorna** per aggiornare le modifiche e attivare l'autenticazione PhoneFactor.
 
-Dopo aver attivato PhoneFactor, l'autenticazione tramite PhoneFactor è richiesta dal portale clienti o dalla VPN. Dopo esserti autenticato con le credenziali utente, un messaggio ti informa che si sta tentando l'autenticazione PhoneFactor. Per completare l'autenticazione , è necessario che tu, o l'utente che stai aggiungendo, sia vicino al telefono elencato con PhoneFactor. PhoneFactor tenta l'autenticazione cinque volte. Dopo cinque tentativi di autenticazione non riusciti, verrai bloccato per circa un'ora. Tu o un utente con accesso amministrativo all'account potete modificare le impostazioni di autenticazione PhoneFactor in qualsiasi momento.  Tu o un amministratore dell'account potete disattivare PhoneFactor in qualsiasi momento.
+Dopo aver attivato PhoneFactor, l'autenticazione tramite PhoneFactor è richiesta dal portale clienti o dalla VPN. Dopo esserti autenticato con le credenziali utente, un messaggio ti informa che si sta tentando l'autenticazione PhoneFactor. Per completare l'autenticazione, è necessario che tu, o l'utente che stai aggiungendo, sia vicino al telefono elencato con PhoneFactor. PhoneFactor tenta l'autenticazione cinque volte. Dopo cinque tentativi di autenticazione non riusciti, verrai bloccato per circa un'ora. Tu o un utente con accesso amministrativo all'account potete modificare le impostazioni di autenticazione PhoneFactor in qualsiasi momento. Tu o un amministratore dell'account potete disattivare PhoneFactor in qualsiasi momento.
 
  Se scegli di configurare PhoneFactor per il portale clienti e il tuo accesso VPN, si avranno due processi di accesso 2FA separati, uno per il portale clienti e l'altro per la VPN.
  {: tip}

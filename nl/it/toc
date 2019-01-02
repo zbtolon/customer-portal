@@ -2,21 +2,22 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html" path="customer-portal"}
-Lavorare nel portale clienti
+Gestione delle risorse SoftLayer
 
     {: .navgroup id="learn"}
     getting-started.md
     cpwhatis.md
+    linking_accounts.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    Gestione degli account utente
+    Gestione di account utente
         cpmanacctadduser.md
         cpmanibmid.md
         cpmanuserprof.md
-        cpmanacctcompprofcont.md
         cpmanacctmanpw.md
+        cpmanacctcompprofcont.md
         cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md
@@ -31,6 +32,7 @@ Lavorare nel portale clienti
     {: .topicgroup}
     Gestione del tuo ambiente
         cpmonenv.md
+        cpsub2not.md
         cpprotectsys.md
         cpcompsegapptiers.md
         cpcompmanlic.md
@@ -41,7 +43,6 @@ Lavorare nel portale clienti
 
     {: .navgroup id="help"}
     cpsupport.md
-    cpsub2not.md
     customerportal-faq.md
     {: .navgroup-end}
 

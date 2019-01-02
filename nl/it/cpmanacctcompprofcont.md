@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-29"
 
 ---
 
@@ -28,7 +28,7 @@ L'infrastruttura {{site.data.keyword.BluSoftlayer_full}} utilizza le informazion
 
 Puoi modificare il profilo azienda in qualsiasi momento inviando una richiesta di modifica. I dettagli associati vengono verificati e le modifiche vengono aggiornate dopo la loro convalida. Utilizza la seguente procedura per richiedere un aggiornamento del profilo azienda.
 
-1. Accedi al portale del cliente utilizzando le tue credenziali univoche.
+1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Gestisci** > **Profilo azienda** dal menu per accedere alla finestra Profilo account.
 3. Aggiorna i dettagli nella sezione **Informazioni azienda** o **Titolare account principale** o in entrambe.
 > **Nota:** le informazioni nel profilo dell'account vengono utilizzate solo per scopi amministrativi interni.
@@ -40,9 +40,9 @@ Dopo aver richiesto un aggiornamento del profilo azienda, un membro del team del
 ## Aggiunta o modifica di un contatto dell'account
 {: #cp_addoreditacctcont}
 
-Mantieni le informazioni sui contatti per il tuo account complete e aggiornate nel caso sia richiesta un'indagine. Assicurati che i contatti dell'account siano le persone appropriate da contattare per ogni tipo di richiesta. Potresti avere più voci di contatto per ogni account, ma un solo contatto per ogni tipo di servizio. Le informazioni dei contatti specifici dell'account *non* includono il profilo account, che è l'informazione di contatto principale associata a un account. Utilizza la seguente procedura per aggiungere o modificare un contatto dell'account.
+Mantieni le informazioni sui contatti per il tuo account complete e aggiornate nel caso sia richiesta un'indagine. Assicurati che i contatti dell'account siano le persone appropriate da contattare per ogni tipo di richiesta. Potresti avere più di una voce di contatto per ogni account, ma un solo contatto per ogni tipo di servizio. Le informazioni di contatto specifiche per l'account non includono il profilo dell'account, che rappresenta le informazioni del contatto primario associate a un account. Utilizza la seguente procedura per aggiungere o modificare un contatto dell'account.
 
-1. Accedi al portale del cliente utilizzando le tue credenziali univoche.
+1. Accedi al portale clienti utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Gestisci** > **Contatti azienda** dal menu.
 3. Immetti o aggiorna le informazioni di contatto per il **Tipo di contatto**.<br/>**Nota:** assicurati di fornire le informazioni di contatto per la persona che dovrebbe ricevere domande sullo specifico tipo di contatto per il tipo di contatto. Verifica le informazioni prima di eseguire l'aggiornamento.
 4. Fai clic su **Salva**.

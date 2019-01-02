@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-05-22"
 É possível usar os recursos de infraestrutura quando você constrói os seus apps no ambiente público do {{site.data.keyword.Bluemix_notm}}.
 {: shortdesc}
 
-Use recursos de infraestrutura para construir ambientes virtuais, fornecer armazenamento, estabelecer uma rede e assegurar o seu ambiente. Para obter mais informações, veja [Visão geral da plataforma](/docs/overview/ibm-cloud.html).
+Use recursos de infraestrutura para construir ambientes virtuais, fornecer armazenamento, estabelecer uma rede e assegurar o seu ambiente. Para obter mais informações, consulte [O que é a plataforma {{site.data.keyword.Bluemix_notm}}](/docs/overview/ibm-cloud-platform.html).
 
 Para acessar recursos de infraestrutura, deve-se ter uma conta pré-paga. A tabela a seguir lista as diferentes contas e as suas opções para acessar recursos de infraestrutura.
 
@@ -37,4 +37,4 @@ Ao solicitar fazer upgrade em sua conta, as informações que você inserir ser�
 porque a equipe de Suporte do {{site.data.keyword.Bluemix_notm}} pode entre em contato com você para confirmar certos detalhes.
 {: tip}
 
-Se você tiver perguntas ou problemas para os quais não é possível encontrar respostas, a equipe de Suporte do {{site.data.keyword.Bluemix_notm}} ficará feliz em ajudar. Quando você estiver conectado à sua conta, clique em **Suporte** > **Incluir chamado** e conclua os detalhes relevantes. Também é possível obter suporte usando o link listado na página [Suporte do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window}.
+Se você tiver perguntas ou tiver quaisquer problemas para os quais não consiga localizar respostas, a equipe de Suporte do {{site.data.keyword.Bluemix_notm}} ficará feliz em ajudá-lo. Quando você estiver conectado à sua conta, clique em **Suporte** na barra de menus do console. Em seguida, clique em **Criar novo caso** e conclua os detalhes relevantes. Também é possível obter suporte usando o link listado na página [Suporte do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window}.

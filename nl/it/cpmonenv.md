@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-05-30"
 # Monitoraggio dell'ambiente e degli eventi di sistema
 {: #customerportal_cpmonenvsysevent}
 
-Monitoraggio dell'ambiente significa che hai la possibilità di controllare i dispositivi in qualsiasi momento e che riceverai automaticamente una notifica in caso di interruzione di uno dei dispositivi. Puoi anche monitorare gli eventi di sistema per la corretta esecuzione dei tuoi sistemi.  
+Monitoraggio dell'ambiente significa che hai la possibilità di controllare i dispositivi in qualsiasi momento e che ricevi automaticamente una notifica in caso di interruzione di uno dei tuoi dispositivi. Puoi anche monitorare gli eventi di sistema per la corretta esecuzione dei tuoi sistemi.  
 {: shortdesc}
 
 ## Monitoraggio dell'ambiente
@@ -29,7 +29,7 @@ Come minimo, utilizza il monitoraggio ping di base, ma puoi personalizzare le op
 ### Resta informato sugli eventi di manutenzione della rete e sugli eventi non pianificati
 {: #cp_stayinfomaintevent}
 
-Di tanto in tanto, la manutenzione pianificata e di emergenza della rete è inevitabile. L'infrastruttura {{site.data.keyword.BluSoftlayer_full}} mantiene molti canali per tenerti informato su tutti gli eventi di manutenzione pianificata e di emergenza. Inoltre, puoi [sottoscrivere alle notifiche e-mail](/docs/customer-portal/cpsub2not.html) dal sistema di gestione eventi (EMS o Event Management System). Questo servizio gratuito invia automaticamente e-mail agli utenti sottoscritti riguardanti gli eventi non pianificati che potrebbero avere un impatto sui servizi.
+Di tanto in tanto, la manutenzione pianificata e di emergenza della rete è inevitabile. L'infrastruttura {{site.data.keyword.BluSoftlayer_full}} mantiene molti canali per tenerti informato su tutti gli eventi di manutenzione pianificata e di emergenza. Inoltre, puoi [sottoscrivere alle notifiche e-mail](/docs/customer-portal/cpsub2not.html) dal sistema di gestione eventi (EMS o Event Management System). Questo servizio gratuito invia automaticamente agli utenti sottoscritti email riguardanti gli eventi non pianificati, che potrebbero influire sui servizi.
 
 ### Utilizzo dell'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}
 {: #cp_bmxinframobile}
@@ -48,7 +48,7 @@ L'applicazione mobile dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}
 ## Monitoraggio dei server
 {: #customerportal_monservers}
 
-Configura il monitoraggio per controllare lo stato del tuo server e sapere quando ridimensionare. Puoi utilizzare il monitoraggio standard o i servizi di monitoraggio Nimsoft. Puoi utilizzare il monitoraggio standard, o di base, nel metodo ping-and-respond (effettua ping e rispondi) utilizzando un ping lento o di servizio dal portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Puoi anche utilizzare il monitoraggio Nimsoft, o avanzato, dal portale clienti o in 1 di 3 livelli: base, avanzato e premium. Per ulteriori informazioni sui server Bare Metal, in particolare, vedi [Introduzione ai server Bare Metal](/docs/bare-metal/about.html).
+Configura il monitoraggio per controllare lo stato del tuo server e sapere quando ridimensionare. Puoi utilizzare il monitoraggio standard o i servizi di monitoraggio Nimsoft. Puoi utilizzare il monitoraggio standard, o di base, nel metodo ping-and-respond (effettua ping e rispondi) utilizzando un ping lento o di servizio dal portale clienti dell'infrastruttura {{site.data.keyword.BluSoftlayer_notm}}. Puoi anche utilizzare il monitoraggio Nimsoft, o avanzato, dal portale clienti o in 1 di 3 livelli: base, avanzato e premium. Per ulteriori informazioni specifiche per i server bare metal, vedi [Introduzione ai server bare metal](/docs/bare-metal/index.html#getting-started).
 
 ## Monitoraggio degli eventi di sistema
 {: #customerportal_monevent}
@@ -78,6 +78,6 @@ I log di accesso visualizzano i dati per ciascun tentativo di accesso effettuato
 
 1. Accedi al [portale clienti ![Icona link esterno](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
 2. Seleziona **Account** > **Utenti** dalla barra dei menu per accedere alla finestra Utenti.
-3. Dall'elenco a discesa **Azioni**, seleziona **Visualizza log di controllo** per visualizzare il log di accesso dell'utente. 
+3. Dall'elenco a discesa **Azioni**, seleziona **Visualizza log di controllo** per visualizzare il log di accesso dell'utente.
 
-Il log di accesso per ciascun utente visualizza i tentativi di accesso effettuati da tale utente per data, insieme all'indirizzo IP da cui è stato effettuato il tentativo. Le informazioni contenute nel log di accesso sono di sola lettura, pertanto non è possibile apportare modifiche al contenuto. Puoi visualizzare nuovamente i log di accesso in qualsiasi momento ripetendo i passi precedenti. Per uscire dai log e tornare alla schermata Utenti, fai clic sul link **Visualizza tutti gli utenti**.
+Il log di accesso per ciascun utente visualizza i tentativi di accesso effettuati da tale utente per data, insieme all'indirizzo IP da cui è stato effettuato il tentativo. Le informazioni nel log di accesso sono di sola lettura, pertanto non è possibile in alcun momento apportare modifiche al contenuto. Puoi visualizzare nuovamente i log di accesso in qualsiasi momento ripetendo i passi precedenti. Per uscire dai log e tornare alla schermata Utenti, fai clic sul link **Visualizza tutti gli utenti**.
