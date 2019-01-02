@@ -57,7 +57,7 @@ lastupdated: "2018-11-28"
 1. ユーザーは、ブラウザー・セッションから ID プロバイダー URL にアクセスします。
 2. ID プロバイダーは、例えば LDAP を介して、ユーザーを認証します。
 3. ID プロバイダーは、SAML 2.0 応答を返します。
-4. ID プロバイダーは、ユーザー ID を認証するために、サービス・プロバイダー (このケースでは {{site.data.keyword.BluSoftlayer}} インフラストラクチャー) に SAML 2.0 トークンを送信します。
+4. ID プロバイダーは、ユーザー ID を認証するために、サービス・プロバイダー (この場合は {{site.data.keyword.BluSoftlayer}} インフラストラクチャー) に SAML 2.0 トークンを送信します。
 5. {{site.data.keyword.BluSoftlayer}} インフラストラクチャーは、SAML 2.0 応答を検証します。
 6. ID プロバイダーと {{site.data.keyword.BluSoftlayer}} インフラストラクチャーとの間の信頼できるセットアップに基づいて、ユーザーは {{site.data.keyword.BluSoftlayer}} インフラストラクチャーのカスタマー・ポータルにログインされます。
 
@@ -98,7 +98,7 @@ lastupdated: "2018-11-28"
 1. ユーザーは、ブラウザー・セッションから ID プロバイダー URL にアクセスします。
 2. ID プロバイダーは、例えば LDAP を介して、ユーザーを認証します。
 3. ID プロバイダーは、SAML 2.0 応答を返します。
-4. ID プロバイダーは、ユーザー役割を認証するために、サービス・プロバイダー (このケースでは {{site.data.keyword.BluSoftlayer}} インフラストラクチャー) に SAML 2.0 トークンを送信します。
+4. ID プロバイダーは、ユーザー役割を認証するために、サービス・プロバイダー (この場合は {{site.data.keyword.BluSoftlayer}} インフラストラクチャー) に SAML 2.0 トークンを送信します。
 5. {{site.data.keyword.BluSoftlayer}} インフラストラクチャーは、SAML 2.0 応答を検証します。
 6. {{site.data.keyword.BluSoftlayer}} インフラストラクチャーは、ユーザーをカスタマー・ポータルにリダイレクトします。
 7. ユーザーは {{site.data.keyword.BluSoftlayer}} インフラストラクチャーのカスタマー・ポータルにログインされます。
