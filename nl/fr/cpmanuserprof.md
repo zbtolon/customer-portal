@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-08-13"
 # Gestion d'un profil utilisateur
 {: #customerportal_accuserprof}
 
-Sur le portail client, votre profil utilisateur inclut différentes données, notamment les informations de contact et la clé d'API. C'est également là que sont stockés les mots de passe. Si vous disposez d'un accès administrateur, vous pouvez changer les droits et l'accès à l'unité depuis le profil.
+Sur le portail client, un profil utilisateur inclut différentes données sur l'utilisateur, notamment les informations de contact et la clé d'API. C'est également là que sont stockés les mots de passe. Si vous disposez d'un accès administrateur, vous pouvez changer les droits et l'accès à l'unité depuis le profil.
 {:shortdesc}
 
 Dans le profil utilisateur, vous pouvez gérer les informations de contact et les mots de passe, afficher les clés d'API et mettre à jour les droits et l'accès à l'unité en fonction de vos droits.
@@ -31,14 +31,14 @@ Après qu'un profil utilisateur ait été créé sur le portail client, vous pou
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte > Utilisateurs** dans la barre de navigation.
 3. Cliquez sur le nom d'utilisateur pour accéder au profil utilisateur associé pour cet utilisateur.
-4. Editez les détails du **Profil utilisateur** selon les besoins. Pour les utilisateurs de comptes utilisant IBMid pour l'authentification, mettez à jour vos adresse e-mail et mot de passe dans votre profil IBMid. Pour plus d'informations, reportez-vous au tableau 1.
-5. Si vous désirez réinitialiser votre mot de passe après vous être connecté, cliquez sur **Réinitialiser le mot de passe** afin de générer un courrier électronique avec des instructions pour changer votre mot de passe.
+4. Editez les détails du **Profil utilisateur** selon les besoins. Pour les utilisateurs de comptes utilisant IBMid pour l'authentification, mettez à jour vos adresse e-mail et mot de passe dans votre profil IBMid. Voir le tableau 1 pour plus d'informations. 
+5. Si vous désirez réinitialiser votre mot de passe après vous être connecté, cliquez sur **Réinitialiser le mot de passe** afin de générer un courrier électronique qui vous permet de changer votre mot de passe.
 6. Cliquez sur **Editer l'utilisateur** pour soumettre les modifications.
 
 | Zone | Définition |
 |-----|----------|
 | Prénom, Nom | Prénom et nom de l'utilisateur associé au profil utilisateur.|
-| Adresse e-mail | Adresse e-mail préférée pour réception de notifications de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. La modification de l'adresse e-mail change l'enregistrement dans l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Ce changement n'affecte pas le lien vers les données d'authentification IBMid. Vous devez modifier l'adresse e-mail pour l'IBMid depuis le profil IBMid.|
+| Adresse e-mail | Adresse e-mail préférée pour réception de notifications de l'infrastructure  {{site.data.keyword.BluSoftlayer_notm}} sur le compte. La modification de l'adresse e-mail change l'enregistrement dans l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Ce changement n'affecte pas la liaison vers les données d'authentification IBMid. Vous devez modifier l'adresse e-mail pour l'IBMid depuis le profil IBMid.|
 | Fuseau horaire | Fuseau horaire à utiliser de préférence lors de l'affichage des données horodatées.|
 | Téléphone, Autre téléphone| Numéros de téléphone préférés à utiliser par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.|
 | Rue, Ville, Pays, Etat/Province, Code postal | Adresse complète du contact, à utiliser par l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}.|
@@ -46,28 +46,27 @@ Après qu'un profil utilisateur ait été créé sur le portail client, vous pou
 
 |Zone|Définition|
 |-----|----------|
-| Limiter l'accès à l'adresse IP | Restreint l'accès à une adresse IP lors d'une tentative d'utilisation du portail client sous le profil utilisateur associé. |
-| Faire expirer le mot de passe dans (uniquement pour les utilisateurs de comptes qui n'utilisent PAS d'IBMid pour l'authentification) | Délai pendant lequel un mot de passe reste associé avec le profil utilisateur avant qu'un nouveau mot de passe ne doive être sélectionné. |
+| Limiter l'accès à l'adresse IP | Adresse IP à laquelle restreindre l'accès lorsque vous tentez d'utiliser le portail client sous le profil d'utilisateur associé. |
+| Faire expirer le mot de passe dans (uniquement pour les utilisateurs de comptes qui n'utilisent PAS d'IBMid pour l'authentification) | Délai pendant lequel un mot de passe doit être associé au profil utilisateur avant qu'un nouveau mot de passe ne doive être sélectionné. |
 | Utilisateur parent | Compte utilisateur considéré comme utilisateur parent du profil utilisateur. Par défaut, l'utilisateur parent est l'ID de compte principal. |
-| Poser des questions de sécurité | Cochez cette case si des questions de sécurité sont exigées lors de la connexion. Si cette option est sélectionnée, les questions de sécurité sont requises pour le profil utilisateur. |
+| Poser des questions de sécurité | Cochez cette case si des questions de sécurité doivent être exigées lors de la connexion. Si cette option est sélectionnée, les questions de sécurité sont requises pour le profil utilisateur. |
 | Mot de passe VPN | Mot de passe à utiliser pour l'accès au réseau privé virtuel. Cochez la case **Utiliser le mot de passe du portail pour le VPN** pour utiliser le mot de passe du portail client pour accéder au réseau de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} via le VPN. |
 {: caption="Tableau 2. Paramètres de configuration des paramètres de connexion pour l'édition d'un profil utilisateur" caption-side="top"}
 
 |Section|Zone|Définition|
 |-------|-----|----------|
-| Informations d'accès à l'API | IBM Prerequisite Scanner autorisé | Adresses IP pouvant s'authentifier auprès de l'API avec la clé d'API unique associée au profil utilisateur|
-| Abonnements notification utilisateur | Facturation | Sélectionnez **Facturation** pour recevoir une facturation par courrier électronique après sa création. |
-| Questions de sécurité | Question de sécurité | Lorsque vous modifiez votre profil, question de sécurité à laquelle vous devez répondre pour vous connecter.
-| Réponses de sécurité | Réponse | Réponse à la question de sécurité applicable (sensible à la casse). |
+| Informations d'accès à l'API | Adresses IP autorisées | Adresses IP autorisées à s'authentifier auprès de l'API avec la clé d'API unique associée au profil utilisateur|
+| Abonnements notification utilisateur | Facturation | Cochez la case **Facturation** pour recevoir une facturation par courrier électronique après sa création. |
+| Questions de sécurité | Question de sécurité |Lorsque vous modifiez votre profil, vous devez répondre à cette question pour vous connecter lorsque des questions de sécurité sont activées pour votre profil. | Réponses de sécurité | Réponse | Réponse à la question de sécurité applicable (sensible à la casse). |
 {: caption="Tableau 3. Autres paramètres de configuration pour l'édition d'un profil utilisateur" caption-side="top"}
 Une fois que les modifications apportées à un profil utilisateur sont soumises, les changements sont immédiatement appliqués. Vous pouvez modifier à nouveau le profil utilisateur quand vous le souhaitez en répétant les étapes précédentes.
 
-Pour plus d'informations sur la configuration d'un compte IBMid, voir [Passage à l'IBMid](/docs/account/softlayerlink.html#switching-to-ibmid).
+Voir [Passage à l'IBMid](/docs/account/softlayerlink.html#switching-to-ibmid) pour plus d'informations sur la configuration d'un compte IBMid.
 
 ## Edition des droits du portail client pour un utilisateur
 {: #cp_editusercpperm}
 
-L'administrateur du compte définit les droits de l'utilisateur lorsque celui-ci est ajouté. Les droits de l'utilisateur peuvent être modifiés à n'importe quel moment par un utilisateur autorisé. Vous pouvez éditer votre propre profil utilisateur et, si vous êtes administrateur, certaines zones des profils utilisateur d'utilisateurs que vous avez ajoutés. Les droits sont classés selon cinq onglets : support, unités, réseau, services et compte. Vous pouvez à tout moment mettre à jour les droits d'un utilisateur mais vous devez sauvegarder vos modifications pour qu'elles deviennent actives.
+Les droits d'utilisateur dans le portail client sont définis par l'administrateur du compte lors de l'ajout de l'utilisateur et peuvent être modifiés à tout moment par un utilisateur autorisé. Vous pouvez éditer votre propre profil utilisateur et, si vous êtes administrateur, certaines zones des profils utilisateur d'utilisateurs que vous avez ajoutés. Les droits sont classés selon cinq onglets : support, unités, réseau, services et compte. Vous pouvez à tout moment mettre à jour les droits d'un utilisateur mais vous devez sauvegarder vos modifications pour qu'elles deviennent actives.
 
 Utilisez la procédure suivante pour éditer les droits d'accès au portail client d'un utilisateur.
 
@@ -84,18 +83,18 @@ Utilisez la procédure suivante pour éditer les droits d'accès au portail clie
 6. Cliquez sur **Modifier droits pour le portail** pour soumettre des modifications et mettre à jour les droits de l'utilisateur.
 7. Pour restaurer les paramètres initiaux des droits de l'utilisateur, cliquez sur **Réinitialiser droits**. Cliquez sur **Annuler** pour annuler les changements et revenir à la fenêtre Utilisateurs.
 
-Les droits utilisateur sont mis à jour immédiatement après que vous avez soumis les changements. Si des droits ont été octroyés, l'utilisateur peut afficher les fonctions sélectionnées ou interagir avec celles-ci. Si ses droits ont été retirés, l'utilisateur ne peut plus afficher les fonctions sélectionnées ou interagir avec ces dernières. Vous pouvez mettre à nouveau à jour les droits n'importe quand en répétant la procédure précédente.
+Les droits utilisateur sont mis à jour immédiatement après que vous avez soumis les changements. Si des droits ont été octroyés, l'utilisateur peut afficher les fonctions sélectionnées ou interagir avec celles-ci. Si des droits ont été retirés, l'utilisateur ne peut pas afficher les fonctions sélectionnées ni interagir avec celles-ci. Les droits peuvent être mis à jour à tout moment en répétant les étapes précédentes. 
 
 ## Ajout d'authentification externe pour un utilisateur
 {: #cp_addextauthuser}
 
-Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour ajouter une protection lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés. Pour plus d'informations, voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal/cpenable2fa.html#customerportal_2fa).
+Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour ajouter une protection lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés. Voir [Configuration de l'authentification à deux facteurs](/docs/customer-portal/cpenable2fa.html#customerportal_2fa) pour plus d'informations.
 
 
 ## Changement du statut d'un utilisateur
 {: #cp_changeuserstat}
 
-Votre statut détermine votre accessibilité au portail client. Les catégories de statut que vous pouvez mettre à jour sur le compte incluent actif, désactivé et VPN uniquement. Votre statut peut être changé pour différentes raisons et être mis à jour à tout moment. Les catégories de statut client incluent celles que les utilisateurs peuvent mettre à jour et celles qui sont automatiquement mises à jour. Elles incluent :
+Votre statut dans le portail client détermine votre accessibilité au portail client. Les catégories de statut que vous pouvez mettre à jour sur le compte incluent actif, désactivé et VPN uniquement. Votre statut peut être changé pour différentes raisons et être mis à jour à tout moment. Les catégories de statut client incluent celles que les utilisateurs peuvent mettre à jour et celles qui sont automatiquement mises à jour. Elles incluent :
 <dl>
 <dt>Actif</dt>
 <dd>L'utilisateur dispose d'un accès complet au portail client et au VPN en fonction des droits définis par l'administrateur de compte. Ce statut peut être sélectionné manuellement ou changé à tout moment.</dd>
@@ -104,9 +103,9 @@ Votre statut détermine votre accessibilité au portail client. Les catégories 
 <dt>VPN uniquement</dt>
 <dd>L'utilisateur dispose d'un accès complet à la connectivité du réseau privé virtuel (compte tenu de son ensemble de droits), mais ne peut pas accéder au portail client. Ce statut peut être sélectionné manuellement ou changé à tout moment.</dd>
 <dt>Inactive</dt>
-<dd>L'utilisateur n'a pas accédé au portail client ou au réseau privé virtuel au cours des 60 derniers jours. Ce statut est généré par le système.</dd>
+<dd>L'utilisateur n'a pas accédé au portail client ou au réseau privé virtuel au cours des 60 derniers jours. Il s'agit d'un statut généré par le système. </dd>
 <dt>cancel_pending (annulation en attente)</dt>
-<dd>Un administrateur du compte a annulé cet utilisateur et l'annulation est en cours de traitement. Ce statut est généré par le système.</dd>
+<dd>Un administrateur du compte a annulé cet utilisateur et l'annulation est en cours de traitement. Il s'agit d'un statut généré par le système. </dd>
 </dl>
 
 Utilisez la procédure suivante pour changer le statut d'un utilisateur dans le portail client.
@@ -123,7 +122,7 @@ Après que vous avez mis à jour le statut d'un utilisateur, les modifications a
 ## Edition de l'accès VPN d'un utilisateur
 {: #cp_edituservpnaccess}
 
-Lorsqu'un nouvel utilisateur est ajouté, l'accès au réseau privé virtuel est sélectionné d'après diverses méthodes de connexion, notamment SSL, PPTP, ou une combinaison des deux. Avec l'accès VPN, le réseau privé est accessible dans sa totalité ou bien peut être limité à un ou plusieurs sous-réseaux spécifiques. Vous pouvez gérer et mettre à jour l'accès VPN à tout moment depuis la fenêtre Utilisateurs. Utilisez la procédure suivante pour éditer l'accès VPN d'un utilisateur.
+Lorsqu'un [nouvel utilisateur est ajouté](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct), l'accès au réseau privé virtuel est sélectionné d'après diverses méthodes de connexion, notamment SSL, PPTP, ou une combinaison des deux. Avec l'accès VPN, le réseau privé est accessible dans sa totalité ou bien peut être limité à un ou plusieurs sous-réseaux spécifiques. Vous pouvez gérer et mettre à jour l'accès VPN à tout moment depuis la fenêtre Utilisateurs. Utilisez la procédure suivante pour éditer l'accès VPN d'un utilisateur.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Accès VPN** dans la barre de navigation.

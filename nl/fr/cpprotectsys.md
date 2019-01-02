@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -35,9 +35,10 @@ Le réseau public est parfait pour de nombreuses raisons, mais certains élémen
 ## Protégez vos données via des sauvegardes régulières
 {: #cp_bpsafedataregback}
 
-Planifiez des sauvegardes pour vous assurer que vos données sont stockées en toute sécurité en dehors de votre appareil afin de pouvoir les recharger en cas de perte.
+Vous pouvez planifier des sauvegardes pour vous assurer que vos données sont stockées en toute sécurité en dehors de votre appareil afin de pouvoir les recharger en cas de perte.
 
-L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} offre de nombreuses solutions de sauvegarde afin de garantir que vous pourrez récupérer vos données en cas de défaillance d'unité ou d'erreur d'un utilisateur. Les solutions de sauvegarde incluent NAS, EVault Backup et R1Soft CDP, éléments tous disponibles dans différentes options de stockage. Par exemple, vous pouvez choisir l'un des services de sauvegarde suivants pour stocker vos données dans un emplacement sécurisé :
+L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} offre de nombreuses solutions de sauvegarde afin de garantir que vous pourrez récupérer vos données en cas de défaillance d'unité ou d'erreur d'un utilisateur. Les solutions de sauvegarde incluent NAS, EVault Backup et R1Soft CDP, éléments tous disponibles dans différentes options de stockage.
+Par exemple, vous pouvez choisir l'un des services de sauvegarde suivants pour stocker vos données dans un emplacement sécurisé :
   * EVault Backup est un système de sauvegarde automatique basé sur un agent. Il s'agit d'une solution simple et transparente de gestion de votre appareil. Il est compatible avec les logiciels Microsoft, y compris Exchange et SQL via des plug-in. Les utilisateurs d'EVault interagissent avec ce service via l'application Web WebCC d'EVault.
   * R1Soft Continuous Data Protection (CDP) peut être installé sur votre serveur ou sur une machine virtuelle auto-gérée. Vous pouvez l'utiliser si vous souhaitez disposer d'une seule interface pour gérer toutes vos sauvegardes. Vous interagissez avec R1Soft CDP via votre système de gestion propriétaire qui permet d'installer des agents sur des machines virtuelles et offre des plug-in de base de données pour plus de fonctions.
 

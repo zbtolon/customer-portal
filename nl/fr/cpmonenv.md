@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -48,7 +48,7 @@ L'application mobile de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}
 ## Surveillance des serveurs
 {: #customerportal_monservers}
 
-Configurez la surveillance pour vérifier le statut de votre serveur et savoir quand vous devez le faire évoluer. Vous pouvez utiliser des services de surveillance standard ou Nimsoft. Vous pouvez employer la surveillance standard (de base) dans la méthode ping-avec-réponse en utilisant un ping avec réponse lente ou un ping de service à partir du portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Vous pouvez également faire appel à la surveillance Nimsoft (avancée) à partir du portail client ou dans l'un des trois niveaux suivants : de base, avancé et premium. Pour plus d'informations sur les serveurs Bare Metal, voir [Initiation aux serveurs Bare Metal](/docs/bare-metal/about.html).
+Configurez la surveillance pour vérifier le statut de votre serveur et savoir quand vous devez le faire évoluer. Vous pouvez utiliser des services de surveillance standard ou Nimsoft. Vous pouvez employer la surveillance standard (de base) dans la méthode ping-avec-réponse en utilisant un ping avec réponse lente ou un ping de service à partir du portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Vous pouvez également faire appel à la surveillance Nimsoft (avancée) à partir du portail client ou dans l'un des trois niveaux suivants : de base, avancé et premium. Pour plus d'informations sur les serveurs Bare Metal, voir [Initiation aux serveurs Bare Metal](/docs/bare-metal/index.html#getting-started).
 
 ## Surveillance des événements système
 {: #customerportal_monevent}

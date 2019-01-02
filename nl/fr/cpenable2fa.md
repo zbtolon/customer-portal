@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,16 +18,16 @@ lastupdated: "2018-05-22"
 # Configuration de l'authentification à deux facteurs
 {: #customerportal_2fa}
 
-Depuis le portail client, vous pouvez activer l'authentification externe à deux facteurs (2FA)  pour protection supplémentaire lors de la connexion au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés.
+Dans le portail client, une authentification à deux facteurs externe (2FA) peut être activée pour ajouter une protection supplémentaire lorsque vous vous connectez au portail. Cette couche supplémentaire de sécurité protège le compte contre des accès non vérifiés en garantissant que les appareils, les données et les informations de compte soient protégés.
 {:shortdesc}
 
-Si vous activez l'authentification à deux facteurs (2FA) pour votre compte SoftLayer existant, vous devez entrer votre code de sécurité lorsque vous vous connectez à la console {{site.data.keyword.Bluemix_notm}}. Toutefois, l'authentification à deux facteurs ne s'applique qu'aux ressources d'infrastructure de votre compte {{site.data.keyword.Bluemix_notm}}. Par conséquent, vous êtes susceptible de pouvoir effectuer différentes actions sur les ressources de votre compte {{site.data.keyword.Bluemix_notm}} sans vous soumettre à l'authentification à deux facteurs.
+Si vous activez l'authentification à deux facteurs (2FA) dans le portail client pour votre compte SoftLayer existant, vous devez entrer votre code de sécurité lorsque vous vous connectez à la console {{site.data.keyword.Bluemix_notm}}. L'authentification à deux facteurs ne s'applique qu'aux ressources d'infrastructure de votre compte {{site.data.keyword.Bluemix_notm}}. Vous pouvez effectuer différentes actions sur les ressources de votre compte {{site.data.keyword.Bluemix_notm}} sans vous soumettre à l'authentification à deux facteurs.
 
 L'authentification à deux facteurs pour votre compte SoftLayer ne s'effectue pas par IBMid, mais toujours par compte. Lorsqu'un IBMid est associé à plusieurs comptes et que vous passez d'un compte à l'autre, vous devez confirmer votre identité chaque fois que vous utilisez un compte différent. Vous devez confirmer votre identité lorsque vous basculez entre des comptes même si le précédent et le nouveau ont tous deux été configurés avec le même mécanisme 2FA.
 
 ## Activation de l'authentification à deux facteurs
 
-L'authentification à deux facteurs est disponible sous deux formes. Les deux méthodes d'authentification externe peuvent être ajoutées par utilisateur, pour un faible coût mensuel :
+L'authentification à deux facteurs est disponible sous deux formes. Les deux méthodes d'authentification externe peuvent être ajoutées pour chaque utilisateur, pour un faible coût mensuel :
 
 * Symantec Identity Protection est l'outil d'authentification externe le plus couramment utilisé et offre un code de sécurité dynamique utilisé en plus du nom d'utilisateur et du mot de passe lors de l'accès au portail client.
 * L'authentification PhoneFactor offre une authentification externe avec un appel téléphonique, un SMS ou une application mobile.
@@ -56,7 +56,7 @@ Après que vous avez ajouté l'authentification externe pour un utilisateur, les
 ### Activation de l'authentification PhoneFactor
 {: #cp_actphonefacauth}
 
-Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'authentification externe avec PhoneFactor via le portail client. Vu que PhoneFactor utilise le contact manuel, il est important de s'assurer que tous les numéros de téléphone associés au compte restent toujours à jour. Si les informations de contact ne sont pas à jour, vous risquez de ne pas pouvoir accéder au portail client et au VPN quand PhoneFactor est actif. Une fois que PhoneFactor a été ajouté, vous recevrez un e-mail confirmant son ajout. Une fois l'e-mail reçu, utilisez la procédure suivante pour activer l'authentification PhoneFactor.
+Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'authentification externe avec PhoneFactor via le portail client. Dans la mesure où PhoneFactor utilise le contact manuel, il est important de s'assurer que tous les numéros de téléphone associés au compte restent toujours à jour. Si les informations de contact ne sont pas à jour, vous risquez de ne pas pouvoir accéder au portail client et au VPN quand PhoneFactor est actif. Une fois que PhoneFactor a été ajouté, vous recevrez un e-mail confirmant son ajout. Une fois l'e-mail reçu, utilisez la procédure suivante pour activer l'authentification PhoneFactor.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte > Utilisateurs** dans la barre de navigation.
@@ -81,7 +81,7 @@ Après que vous avez ajouté PhoneFactor, vous devez activer manuellement l'auth
 9. Si vous sélectionnez **Unique** > **Valeur de code confidentiel**, entrez le code confidentiel dans la zone **Valeur de code confidentiel**.
 10. Cliquez sur **Mettre à jour** pour mettre à jour les changements et activer l'authentification PhoneFactor.
 
-Une fois que PhoneFactor est activé, l'authentification via PhoneFactor est obligatoire pour le portail client ou le VPN. Après l'authentification avec les données d'identification de l'utilisateur, un message vous indique qu'une tentative d'authentification par PhoneFactor est en cours. Vous, ou l'utilisateur que vous ajoutez, devez être à proximité du téléphone indiqué pour PhoneFactor afin de compléter l'authentification. PhoneFactor tente de vous authentifier cinq fois. Au bout de cinq tentatives infructueuses, vous êtes verrouillé pendant environ une heure. Vous, ou un utilisateur dotés d'un accès administrateur au compte, pouvez à tout moment changer les paramètres d'authentification PhoneFactor.  Vous, ou un administrateur du compte, pouvez à tout moment désactiver PhoneFactor.
+Une fois que PhoneFactor est activé, l'authentification via PhoneFactor est obligatoire pour le portail client ou le VPN. Après l'authentification avec les données d'identification de l'utilisateur, un message vous indique qu'une tentative d'authentification par PhoneFactor est en cours. Vous, ou l'utilisateur que vous ajoutez, devez être à proximité du téléphone indiqué pour PhoneFactor afin de compléter l'authentification. PhoneFactor tente de vous authentifier cinq fois. Au bout de cinq tentatives infructueuses, vous êtes verrouillé pendant environ une heure. Vous, ou un utilisateur dotés d'un accès administrateur au compte, pouvez à tout moment changer les paramètres d'authentification PhoneFactor. Vous, ou un administrateur du compte, pouvez à tout moment désactiver PhoneFactor.
 
  Si vous choisissez de configurer PhoneFactor pour le portail client et votre connexion VPN, il en découle deux processus de connexion 2FA distincts, l'un pour le portail client et l'autre pour le VPN.
  {: tip}
@@ -95,7 +95,7 @@ Si vous configurez PhoneFactor comme type d'authentification, vous pouvez choisi
 <dt>Appel téléphonique et standard (pas de code confidentiel)</dt>
 <dd>Avec cette option, lorsque vous vous connectez au portail, vous recevez un appel téléphonique sur le numéro principal activé. Lorsque vous répondez à l'appel, il vous est demandé d'appuyer sur la touche dièse (#) pour terminer l'authentification.</dd>
 <dt>Appel téléphonique avec code confidentiel</dt>
-<dd>Avec cette option, vous entrez une valeur de code confidentiel sur le portail client. Le code confidentiel doit comporter entre 4 et 8 chiffres. Lorsque vous essayez de vous connecter au portail, vous recevez un appel sur le numéro de téléphone principal figurant sur le portail. Quand vous répondez, il vous est demandé d'appuyer sur la touche dièse (#) pour terminer l'authentification.</dd>
+<dd>Avec cette option, vous entrez une valeur de code confidentiel sur le portail client. Le code confidentiel doit comporter entre 4 et 8 chiffres. Lorsque vous essayez de vous connecter au portail, vous recevez un appel sur le numéro de téléphone principal figurant sur le portail. Lorsque vous répondez, vous êtes invité à entrer votre numéro d'identification personnel suivi du signe # pour terminer l'authentification. </dd>
 <dt>SMS et code confidentiel unique</dt>
 <dd>Avec cette option, vous recevez un message texte avec un code confidentiel à utiliser pour répondre au message. Lorsque vous entrez le code confidentiel fourni, le processus d'authentification aboutit et vous connecte au portail.</dd>
 <dt>SMS avec valeur de code confidentiel unique</dt>

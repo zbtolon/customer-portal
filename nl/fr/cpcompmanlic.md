@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-11-19"
 
 ---
 
@@ -36,7 +36,7 @@ Après que vous avez téléchargé le fichier de licence sur l'appareil, les dé
 ## Annulation d'une licence de panneau de configuration
 {: #cp_compcanlisc}
 
-Les licences de panneau de configuration sont facturées sur une base mensuelle, en fonction des dispositions acceptées au moment de l'achat de la licence. Vous pouvez annuler des licences à tout moment, et elles seront annulées à la prochaine date anniversaire de facturation suivante. Pour s'assurer qu'une annulation est correctement appliquée au cycle de facturation en cours, elle doit être faite au moins 24 heures avant la date anniversaire de facturation. Des informations spécifiques sur la date anniversaire de facturation pour le compte seront affichées durant le processus d'annulation. Utilisez la procédure suivante pour annuler une licence de panneau de configuration.
+Les licences de panneau de configuration sont facturées sur une base mensuelle, en fonction des dispositions acceptées au moment de l'achat de la licence. Vous pouvez annuler des licences à tout moment, et elles seront annulées à la prochaine date anniversaire de facturation suivante. Pour s'assurer qu'une annulation est appliquée au cycle de facturation en cours, elle doit être faite au moins 24 heures avant la date anniversaire de facturation. Des informations spécifiques sur la date anniversaire de facturation pour le compte sont affichées durant le processus d'annulation. Utilisez la procédure suivante pour annuler une licence de panneau de configuration.
 
 1. Effectuez une sauvegarde ou transférez les données associées à la licence.
 2. Connectez-vous au portail client à l'aide de vos données d'identification uniques.
@@ -46,14 +46,13 @@ Les licences de panneau de configuration sont facturées sur une base mensuelle,
 6. Cliquez sur **Continuer** pour passer à l'écran de confirmation.
 7. Sélectionnez la case à cocher d'**accusé de réception de perte de données**.
 
-  Si vous n'avez pas sauvegardé des données importantes, revenez à la première étape et sauvegardez toutes les données avant d'annuler la licence.
-  {: tip}
+  Si vous n'avez pas sauvegardé des données importantes, revenez à la première étape et sauvegardez toutes les données avant d'annuler la licence.  {: tip}
 
 8. Cliquez sur **Annuler la licence**.
 
-Après que vous avez initié le processus d'annulation, la licence de panneau de configuration est planifiée pour être annulée à la date anniversaire de facturation à venir. Si l'annulation a été faite par erreur, vous pouvez l'annuler depuis l'écran Annulation du portail client.
+Après que vous avez commencé le processus d'annulation, la licence de panneau de configuration est planifiée pour être annulée à la date anniversaire de facturation à venir. Si l'annulation a été faite par erreur, vous pouvez l'annuler depuis l'écran Annulation du portail client.
 
 ## Gestion des mots de passe logiciels sur des appareils
 {: #cp_bpmanacctresp}
 
-A chaque composant logiciel mis à disposition sur un appareil est affecté un mot de passe généré automatiquement par les systèmes de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Les mots de passe logiciels pour chaque appareil sont stockés dans l'onglet **Mots de passe** de l'écran Détails de l'unité du portail client.  Lorsque vous accédez au logiciel pour la première fois, changez vos mots de passe. Vous avez également la possibilité de stocker des données d'identification logicielles dans l'onglet **Mots de passe** de chaque appareil. Cependant, lorsque vous stockez des mots de passe sur le portail client, toute personne disposant d'un accès au compte et des droits appropriés peut consulter ces mots de passe.
+Chaque logiciel créé sur un appareil se voit attribuer un mot de passe, généré automatiquement par les systèmes d'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Les mots de passe logiciels pour chaque appareil sont stockés dans l'onglet **Mots de passe** de l'écran Détails de l'unité du portail client. Lorsque vous accédez au logiciel pour la première fois, changez vos mots de passe. Vous avez également la possibilité de stocker des données d'identification logicielles dans l'onglet **Mots de passe** de chaque appareil. Cependant, lorsque vous stockez des mots de passe sur le portail client, toute personne disposant d'un accès au compte et des droits appropriés peut consulter ces mots de passe.

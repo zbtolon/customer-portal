@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -19,18 +19,18 @@ lastupdated: "2018-01-11"
 # Surveillance des événements système de l'infrastructure {{site.data.keyword.Bluemix_notm}}
 {: #customerportal_monevent}
 
-Vous pouvez surveiller les événements système pour que vos systèmes continuent à fonctionner de façon harmonieuse.  Pour des informations sur la configuration et la gestion de serveurs virtuels dans l'infrastructure {{site.data.keyword.BluSoftlayer_full}}, voir [Initiation aux serveurs virtuels](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
+Vous pouvez surveiller les événements système pour que vos systèmes continuent à fonctionner de façon harmonieuse. Pour des informations sur la configuration et la gestion de serveurs virtuels dans l'infrastructure {{site.data.keyword.BluSoftlayer_full}}, voir [Initiation aux serveurs virtuels](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
 {:shortdesc}
 
 ## Affichage d'un journal d'audit pour un compte
 {: #cp_viewacctauditlog}
 
-Chaque compte de portail client est fourni avec un journal d'audit qui assure le suivi des interactions de chaque utilisateur au sein du portail client. Les interactions suivies incluent les tentatives de connexion (qu'elles aboutissent ou échouent), les mises à jour de vitesse de port, les mises sous ou hors tension et les réamorçages, ainsi que les interactions effectuées par l'équipe de support de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Procédez comme suit pour afficher un journal d'audit pour un compte utilisateur.
+Chaque compte de portail client est fourni avec un journal d'audit qui assure le suivi des interactions de chaque utilisateur au sein du portail client. Les interactions suivies incluent les tentatives de connexion (qu'elles aboutissent ou échouent), les mises à jour de vitesse de port, les mises sous ou hors tension et les redémarrages, ainsi que les interactions effectuées par l'équipe de support de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Procédez comme suit pour afficher un journal d'audit pour un compte utilisateur.
 
 1. Accédez au [portail client ![Icône de lien externe](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Gérer** > **Journal d'audit** depuis la barre de navigation afin d'accéder au journal d'audit.
 
-Le journal d'audit affiche à l'origine les 25 dernières interactions effectuées sur le compte par des utilisateurs. Vous pouvez afficher jusqu'à 200 interactions à tout moment. Mettez à jour le nombre de résultats affichés depuis la liste déroulante **Affichage**. Si des paramètres ont été modifiés, la colonne **Action** de l'interaction comportera un lien. Cliquez sur un lien pour afficher le paramètre impacté par l'action et les détails du changement. Le fait de cliquer sur le nom de l'appareil ou le nom d'utilisateur pour une interaction vous redirige respectivement vers l'écran des détails de l'unité ou l'écran du profil utilisateur.
+Le journal d'audit affiche à l'origine les 25 dernières interactions effectuées sur le compte par des utilisateurs. Vous pouvez afficher jusqu'à 200 interactions à tout moment. Mettez à jour le nombre de résultats affichés depuis la liste déroulante **Affichage**. Si des paramètres ont été modifiés, la colonne **Action** de l'interaction comporte un lien. Cliquez sur un lien pour afficher le paramètre impacté par l'action et les détails du changement. Le fait de cliquer sur le nom de l'appareil ou le nom d'utilisateur pour une interaction vous redirige respectivement vers l'écran des détails de l'unité ou l'écran du profil utilisateur.
 
 ## Affichage des journaux d'accès d'un utilisateur
 {: #cp_viewuserlogs}

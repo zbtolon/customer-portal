@@ -2,21 +2,22 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="customer-portal" audience="platform" href="/docs/customer-portal/getting-started.html" path="customer-portal"}
-Utilisation du portail client
+Gestion des ressources SoftLayer 
 
     {: .navgroup id="learn"}
     getting-started.md
     cpwhatis.md
+    linking_accounts.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    Gestion des comptes utilisateurs
+    Gestion des comptes utilisateur
         cpmanacctadduser.md
         cpmanibmid.md
         cpmanuserprof.md
-        cpmanacctcompprofcont.md
         cpmanacctmanpw.md
+        cpmanacctcompprofcont.md
         cpenable2fa.md
         cpmanacctconfsso.md
         ccpmanacccancreq.md
@@ -31,6 +32,7 @@ Utilisation du portail client
     {: .topicgroup}
     Gestion de votre environnement
         cpmonenv.md
+        cpsub2not.md
         cpprotectsys.md
         cpcompsegapptiers.md
         cpcompmanlic.md
@@ -41,7 +43,6 @@ Utilisation du portail client
 
     {: .navgroup id="help"}
     cpsupport.md
-    cpsub2not.md
     customerportal-faq.md
     {: .navgroup-end}
 

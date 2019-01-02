@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-29"
 
 ---
 
@@ -40,7 +40,7 @@ Une fois la demande de mise à jour du profil de la société effectuée, un mem
 ## Ajout ou édition d'un contact de compte
 {: #cp_addoreditacctcont}
 
-Les informations sur les contacts de votre compte doivent être renseignées et maintenues à jour au cas où une demande de renseignement serait nécessaire. Vérifiez que les contacts du compte correspondent bien aux personnes à contacter pour chaque type de demande. Vous pouvez avoir plusieurs entrées de contact pour chaque compte, mais un seul contact pour chaque type de service. Les informations de contact spécifiques au compte n'incluent *pas* le profil de compte, qui correspond aux informations de contact principal associées à un compte. Utilisez la procédure suivante pour ajouter ou éditer un contact de compte.
+Les informations sur les contacts de votre compte doivent être renseignées et maintenues à jour au cas où une demande de renseignement serait nécessaire. Vérifiez que les contacts du compte correspondent bien aux personnes à contacter pour chaque type de demande. Vous pouvez avoir plusieurs entrées de contact pour chaque compte, mais un seul contact pour chaque type de service. Les informations de contact spécifiques au compte n'incluent pas le profil de compte, qui correspond aux informations de contact principal associées à un compte. Utilisez la procédure suivante pour ajouter ou éditer un contact de compte.
 
 1. Accédez au portail client à l'aide de vos données d'identification uniques.
 2. Sélectionnez **Compte** > **Gérer** > **Contacts de la société** dans le menu.

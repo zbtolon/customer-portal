@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,8 +18,7 @@ lastupdated: "2018-09-05"
 # Abonnement aux notifications
 {: #cp_bpnotifications}
 
-Parfois, des événements se produisent dans l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} qui nécessitent une action ; certains sont inattendus et d'autres correspondent à des activités de maintenance planifiée requises pour conserver l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} à ses conditions optimales de fonctionnement. Les clients sont isolés au maximum de ces événements, mais il est parfois nécessaire de déconnecter l'équipement. Quel que soit l'impact au niveau des clients, il faut toujours être transparent, respecter les délais et fournir les informations.
-{:shortdesc}
+Des événements surviennent parfois au niveau de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} qui nécessitent une action. Certains sont inattendus et d'autres correspondent à des activités de maintenance planifiée requises pour conserver l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} à ses conditions optimales de fonctionnement. Les clients sont isolés au maximum de ces événements, mais il est parfois nécessaire de déconnecter l'équipement. Il est toujours nécessaire d'être transparent, opportun et informatif pour le client. {:shortdesc}
 
 Parce que vous devez rester maître de votre expérience cloud, vous avez besoin d'informations en temps utile sur les activités de maintenance. Pour obtenir ces informations, vous pouvez vous abonner aux notifications du portail client. L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} utilise le processus de notification EMS (système de gestion d'événements) pour les types suivants d'événements opérationnels importants :
 * Problèmes d'infrastructure imprévus : Problèmes pouvant causer une indisponibilité sous certaines conditions pour des clients spécifiques
@@ -42,7 +41,7 @@ L'avance avec laquelle l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} 
 ### Présentation des règles
 {: #cp_bpgsnotifpolover}
 
-Vous êtes notifiés des types d'indisponibilité ou de problème suivants comme décrit à chaque section.
+Vous êtes notifié des types d'indisponibilité ou de problème suivants comme décrit à chaque section.
 
 #### Indisponibilités ou problèmes imprévus
 L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} communique avec les clients concernés aussi rapidement que possible en fournissant des informations relatives à la portée de l'infrastructure, aux solutions palliatives ou aux estimations de résolution dès que ces informations sont connues. Une communication dans les plus brefs délais vous donne les informations nécessaires pour prévoir les contingences et offre l'assurance que l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} traite le problème.
@@ -53,7 +52,7 @@ L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} fournit à l'avance une
 #### Vulnérabilités en matière de sécurité
 L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} isole la zone concernée, crée un correctif pour traiter cette vulnérabilité et teste le correctif afin de s'assurer qu'aucune fonction collatérale n'est impactée. Souvent, ce travail est effectué par un autre fournisseur qui peut fournir des composants de la technologie affectée. Il existe généralement un embargo sur les notifications publiques, qui ne sont envoyées que peu de temps avant pour des raisons de protection, mais ce mode de fonctionnement implique une période de notification plus courte. L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} implémente les correctifs sur l'infrastructure concernée avant que le public n'aie connaissance du problème, afin d'éviter d'augmenter les risques. Plus la vulnérabilité est traitée rapidement, plus vite le risque disparaît, ce qui signifie que les problèmes de sécurité requièrent une fenêtre de notification brève.
 
-L'une des cibles les plus fréquentes des violations de sécurité est le logiciel d'infrastructure virtuelle. L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} utilise une technologie en partenariat et open source répandue afin de distribuer son offre de serveur virtuel. Pour implémenter un correctif de sécurité, il se peut que les serveurs client exécutant le logiciel d'infrastructure virtuelle doivent être mis hors ligne pour appliquer le correctif et réamorcer l'environnement, ce qui provoque une interruption. Afin de minimiser l'impact chez les clients, l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} a récemment mis en oeuvre une amélioration du processus de notification pour l'infrastructure virtuelle : les communications améliorées. Les clients sont notifiés d'une heure de début spécifique et d'une fenêtre de 90 minutes pour chaque pod, ce qui se traduit par un temps d'interruption plus court et un timing plus précis pour vous aider à mieux vous préparer. Le système de notification isole la maintenance sur chaque compte, ce qui permet à l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} de notifier les clients dès que leurs hôtes spécifiques passent en maintenance, ce qui se produit souvent bien avant la fenêtre de 90 minutes.
+L'une des cibles les plus fréquentes des violations de sécurité est le logiciel d'infrastructure virtuelle. L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} utilise une technologie en partenariat et open source répandue afin de distribuer son offre de serveur virtuel. Pour implémenter un correctif de sécurité, il se peut que les serveurs client exécutant le logiciel d'infrastructure virtuelle doivent être mis hors ligne pour appliquer le correctif et redémarrer l'environnement, ce qui provoque une interruption. Afin de minimiser l'impact chez les clients, l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} a récemment mis en oeuvre une amélioration du processus de notification pour l'infrastructure virtuelle : les communications améliorées. Les clients sont notifiés d'une heure de début spécifique et d'une fenêtre de 90 minutes pour chaque pod, ce qui se traduit par un temps d'interruption plus court et un timing plus précis pour vous aider à mieux vous préparer. Le système de notification isole la maintenance sur chaque compte, ce qui permet à l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} de notifier les clients dès que leurs hôtes spécifiques passent en maintenance, ce qui se produit souvent bien avant la fenêtre de 90 minutes.
 
 #### Plusieurs POD ou centres de données affectés
 L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} s'efforce de fournir un préavis plus important, hormis en cas d'extrême urgence nécessitant d'implémenter le correctif afin d'éviter un impact secondaire encore plus grand.
@@ -64,7 +63,7 @@ L'infrastructure {{site.data.keyword.BluSoftlayer_notm}} s'efforce de fournir un
 
 Les clients IBM comptent de plus en plus sur les services de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} (IaaS), que ce soient par des contrats avec IBM pour des services d'infrastructure gérés qui s'exécutent sur l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} ou par des contrats passés directement avec des services de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}}. Lorsque des services cloud impliquent l'infrastructure, seuls les utilisateurs de compte SoftLayer sont autorisés à recevoir des notifications, comme décrit à la section précédente. Dans certains cas, il se peut que vous n'ayez pas besoin des équipes de service géré ou de compte IBM impliquées dans les opérations de support des services d'infrastructure pour accéder à vos comptes SoftLayer. Une nouvelle fonction a été ajoutée au portail client de l'infrastructure {{site.data.keyword.BluSoftlayer_notm}} pour vous permettre de désigner une liste d'abonnés, comme du personnel IBM, pour recevoir les notifications sans disposer de droits sur vos comptes.
 
-Pour désigner une liste d'abonnés, les utilisateurs principaux peuvent se connecter à leur compte de portail client  et utiliser la procédure suivante :
+Pour affecter une liste d'abonnés, les utilisateurs principaux peuvent se connecter à leur compte de portail client  et utiliser la procédure suivante :
 1. Cliquez sur **Support** > **Evénements** dans le menu.
 2. Choisissez le type d'événement auquel ajouter des abonnés.
 2. Depuis la fenêtre contextuelle, ajoutez la ou les adresses e-mail. Il peut s'agir d'adresses IBM ou non.

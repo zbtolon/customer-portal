@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -21,7 +21,8 @@ lastupdated: "2018-05-22"
 Vous pouvez utiliser des ressources d'infrastructure lorsque vous générez vos applications dans l'environnement public {{site.data.keyword.Bluemix_notm}}.
 {: shortdesc}
 
-Utilisez des ressources d'infrastructure pour générer des environnements virtuels, fournir du stockage, établir un réseau et sécuriser votre environnement. Pour plus d'informations, voir [Présentation de la plateforme](/docs/overview/ibm-cloud.html).
+Utilisez des ressources d'infrastructure pour générer des environnements virtuels, fournir du stockage, établir un réseau et sécuriser votre environnement. Pour plus d'informations, voir [Qu'est-ce qu'une plateforme {{site.data.keyword.Bluemix_notm}} ?](/docs/overview/ibm-cloud-platform.html).
+
 
 Pour accéder aux ressources d'infrastructure, vous devez disposer d'un compte de type Paiement à la carte. Le tableau suivant répertorie les différents types de comptes ainsi que les options correspondantes d'accès aux ressources d'infrastructure.
 
@@ -36,4 +37,4 @@ Pour accéder aux ressources d'infrastructure, vous devez disposer d'un compte d
 Lors de votre demande de mise à niveau de votre compte, les informations que vous indiquez sont vérifiées et doivent être approuvées avant que l'accès aux ressources d'infrastructure ne vous soit accordé. Vérifiez que les informations de contact sont correctes vu que l'équipe de support {{site.data.keyword.Bluemix_notm}} pourrait vous contacter pour confirmer certains détails.
 {: tip}
 
-Si vous avez des questions ou rencontrez des problèmes auxquels vous ne trouvez pas de réponse, l'équipe de support {{site.data.keyword.Bluemix_notm}} est prête à vous aider. Lorsque vous êtes connecté à votre compte, cliquez sur **Support** > **Ajouter un ticket** et fournissez les informations pertinentes. Vous pouvez également obtenir de l'aide en cliquant sur le lien figurant sur la page Support [{{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window}.
+Si vous avez des questions ou rencontrez des problèmes auxquels vous ne trouvez pas de réponse, l'équipe de support {{site.data.keyword.Bluemix_notm}} est prête à vous aider. Lorsque vous êtes connecté à votre compte, cliquez sur **Support** dans la barre de menus de la console. Cliquez ensuite sur **Créer un cas** et indiquez les détails pertinents. Vous pouvez également obtenir de l'aide en cliquant sur le lien figurant sur la page Support [{{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../icons/launch-glyph.svg)](http://ibm.biz/bluemixsupport){: new_window}.

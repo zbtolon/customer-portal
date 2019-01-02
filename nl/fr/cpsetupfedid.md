@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -44,7 +44,7 @@ Les comptes des utilisateurs ayant besoin d'accéder à l'infrastructure {{site.
 ### Configuration d'un utilisateur
 Utilisez la procédure suivante pour configurer un utilisateur :
 
-1. [Créez des utilisateurs dans l'infrastructure {{site.data.keyword.BluSoftlayer}}](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
+1. [Ajout d'utilisateurs à un compte SoftLayer](/docs/customer-portal/cpmanacctadduser.html#customerportal_addusertocpacct).
 2. Affectez des droits dans l'infrastructure {{site.data.keyword.BluSoftlayer}}.
 3. Créez des utilisateurs dans le fournisseur d'identité.
 

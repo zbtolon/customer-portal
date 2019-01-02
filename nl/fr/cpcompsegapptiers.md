@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -38,7 +38,7 @@ L'achat d'un pare-feu constitue une première étape dans la protection de vos s
 ## Sécurisation de votre environnement par segmentation de vos groupes de serveurs d'application
 {: #cp_copmsecenv}
 
-En segmentant vos groupes de serveurs d'application logiques en niveaux d'infrastructure physique, vous pouvez fournir un plus grand niveau de sécurité via l'utilisation de listes de contrôle d'accès (ACL). Lorsque vous segmentez vos groupes de serveurs d'application, l'un des composants les plus critiques à prendre en compte est le trafic que vous autorisez à chaque niveau et depuis quelle origine. Pour déterminer ce point, réfléchissez à la façon dont votre application fonctionne à la base, et déterminez les services qui sont basés les uns sur les autres afin de fournir aux utilisateurs le contenu demandé.
+En segmentant vos groupes de serveurs d'application logiques en niveaux d'infrastructure physique, vous pouvez fournir un plus grand niveau de sécurité via l'utilisation de listes de contrôle d'accès (ACL). Lorsque vous segmentez vos groupes de serveurs d'applications, l'un des composants les plus critiques à prendre en compte est le trafic que vous autorisez à chaque niveau et depuis quelle origine. Pour déterminer ce point, réfléchissez à la façon dont votre application fonctionne à la base, et déterminez les services qui sont basés les uns sur les autres afin de fournir aux utilisateurs le contenu demandé.
 
 Par exemple, avec une application à deux niveaux reposant sur un front end Web et un back end de base de données, vous aurez besoin de vous assurer que les ports 80 et 443 (si vous utilisez SSL) sont ouverts à Internet sur vos serveurs Web. Vous pouvez également verrouiller tous les ports Internet et gérer votre serveur par réseau privé virtuel (VPN) en utilisant le réseau privé de l'infrastructure {{site.data.keyword.BluSoftlayer_full}}, déconnecter l'adresse IP publique sur votre serveur de base de données et faire passer tout le trafic vers ce serveur via le port 1433 (pour MSSQL) ou le port 3306 (pour {{site.data.keyword.mysql}}) depuis votre serveur Web et gérer votre serveur de base de données via le réseau privé tout comme votre serveur Web. Pour finir, vous pouvez configurer un pare-feu logiciel sur le serveur de base de données afin de verrouiller tout le trafic depuis le serveur Web sur des ports de base de données spécifiques.
 
