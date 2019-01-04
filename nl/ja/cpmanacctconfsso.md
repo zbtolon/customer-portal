@@ -28,7 +28,7 @@ ID プロバイダーをまだ持っていない場合、まず ID プロバイ�
 * Ping Identity&reg;、
 * OneLogin&trade;、
 * IBM&reg; Cloud Security Enforcer、
-* IBM クラウド ID サービス。
+* IBM Cloud ID サービス。
 詳しくは、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーの営業担当員にお問い合わせください。
 
 まだ ID プロバイダーをセットアップしていない場合、ID プロバイダーのサポートに連絡して具体的な手順を確認します。 または、以下の手順概要を使用して ID プロバイダーを構成します。
