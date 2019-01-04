@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -34,7 +34,7 @@ De vez en cuando, es inevitable tener que llevar a cabo mantenimiento de red de 
 ### Utilización de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil
 {: #cp_bmxinframobile}
 
-Utilice la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil para gestionar los dispositivos de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} sobre la marcha utilizando su dispositivo móvil iOS o Android. La funcionalidad dentro de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil incluye soporte de incidencias, control básico de dispositivos y supervisión del ancho de banda.
+Utilice la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil para gestionar los dispositivos de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} sobre la marcha mediante su dispositivo móvil iOS o Android. La funcionalidad dentro de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} móvil incluye soporte de incidencias, control básico de dispositivos y supervisión del ancho de banda.
 
 La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} complementa la funcionalidad del portal de clientes, ya que permite supervisar la información crítica sobre la infraestructura desde cualquier sitio mediante el dispositivo móvil conectado a la red. La aplicación evoluciona rápidamente y se añaden nuevas funciones con regularidad, pero puede utilizar la aplicación móvil para efectuar las tareas siguiente, entre otras:
   * Ver, crear y actualizar incidencias de soporte
@@ -48,7 +48,7 @@ La aplicación móvil de infraestructura de {{site.data.keyword.BluSoftlayer_not
 ## Supervisión de servidores
 {: #customerportal_monservers}
 
-Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium. Para obtener más información sobre los servidores nativos, específicamente, consulte [Guía de iniciación con servidores nativos](/docs/bare-metal/about.html).
+Defina una supervisión para comprobar el estado del servidor y saber así cuándo escalar. Puede utilizar servicios de supervisión estándar o Nimsoft. Puede utilizar la supervisión estándar, o básica, con el método de ping y respuesta mediante el uso de un ping lento o de servicio desde el portal de clientes de {{site.data.keyword.BluSoftlayer_notm}}. También puede utilizar supervisión Nimsoft, o avanzada, desde el portal de clientes o en uno de estos tres niveles: básico, avanzado y premium. Para obtener más información sobre los servidores nativos, específicamente, consulte [Guía de iniciación con servidores nativos](/docs/bare-metal/index.html#getting-started).
 
 ## Supervisión de sucesos del sistema
 {: #customerportal_monevent}

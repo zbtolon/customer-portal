@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -24,14 +24,14 @@ Si usted es el usuario maestro de una cuenta o tiene acceso administrativo a la 
 ## Selección y configuración del proveedor de identidad
 {: #cp_setupidprov}
 
-Si no tiene un proveedor de identidad, seleccione uno en primer lugar y configúrelo. Puede utilizar los siguientes proveedores de identidad con {{site.data.keyword.BluSoftlayer_notm}}:
-* Ping Identity&reg;
-* OneLogin&trade;
-* IBM&reg; Cloud Security Enforcer
-* IBM Cloud Identity Services
+Si aún no tiene un proveedor de identidad, seleccione uno en primer lugar y configúrelo. Puede utilizar los siguientes proveedores de identidad con {{site.data.keyword.BluSoftlayer_notm}}:
+* Ping Identity&reg;,
+* OneLogin&trade;,
+* IBM&reg; Cloud Security Enforcer,
+* IBM Cloud Identity Services.
 Póngase en contacto con el representante de ventas de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para obtener más información.
 
-Si el proveedor de identidad aún no está configurado, puede ponerse en contacto con el soporte de proveedor de identidad para ver los pasos específicos. También puede utilizar los siguientes pasos de nivel superior para configurar el proveedor de identidad:
+Si aún no tiene un proveedor de identidad configurado, puede ponerse en contacto con el soporte de proveedor de identidad para ver los pasos específicos. También puede utilizar los siguientes pasos de nivel superior para configurar el proveedor de identidad:
 1. Prepare el entorno del proveedor de identidad descargando e instalando el archivo ejecutable.
 2. Configure el proveedor de identidad para trabajar con la autenticación de {{site.data.keyword.BluSoftlayer_notm}}.
 
@@ -46,8 +46,12 @@ Debe extraer los siguientes campos necesarios de la información de metadatos de
 <dd>El punto final del proveedor de identidad para SSO.</dd>
 <dt>Certificado</dt>
 <dd>El certificado de proveedor de identidad que se ha utilizado para firmar solicitudes.</dd>
+</dl>
+
+El siguiente campo es opcional:
+<dl>
 <dt>Huella dactilar de certificado</dt>
-<dd>La huella dactilar del certificado. Este campo se puede utilizar en lugar del certificado completo. (Opcional)</dd>
+<dd>La huella dactilar del certificado. Este campo se puede utilizar en lugar del certificado completo.</dd>
 </dl>
 
 Efectúe los pasos siguientes para configurar la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para recibir la solicitud de autenticación del proveedor de identidad:

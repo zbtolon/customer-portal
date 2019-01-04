@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -35,7 +35,7 @@ La red pública es idónea para muchas cosas pero ciertos aspectos, cuando se de
 ## Proteja los datos con copias de seguridad regulares
 {: #cp_bpsafedataregback}
 
-Planifique copias de seguridad para asegurarse de que los datos se almacenen de forma segura fuera del dispositivo y pueda cargarlos de nuevo si el dispositivo se pierde.
+Puede planificar copias de seguridad para asegurarse de que los datos se almacenen de forma segura fuera del dispositivo y pueda cargarlos de nuevo si el dispositivo se pierde.
 
 La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ofrece varias soluciones de copia de seguridad para garantizar que pueda recuperar sus datos si la unidad falla o si el usuario realiza un error. Las soluciones de copia de seguridad actualmente incluyen NAS, copia de seguridad de EVault y CDP de R1Soft, que están disponibles en varias opciones de almacenamiento.
 Por ejemplo, puede elegir uno de los siguientes servicios de copia de seguridad para almacenar los datos en una ubicación segura:
@@ -47,7 +47,7 @@ Por ejemplo, puede elegir uno de los siguientes servicios de copia de seguridad 
 ### No suponga que tenga redundancia; sabe que no
 {: #cp_bpknowredundant}
 
-La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ofrece varias redundancias complementarias, que incluyen la vía de acceso dual, las fuentes de alimentación redundantes y las configuraciones RAID. Verifique que ha suministrado una o varias de estas características para garantizar que está trabajando en un entorno redundante y que está protegido si se produce un error.
+La infraestructura de {{site.data.keyword.BluSoftlayer_notm}} ofrece varias redundancias complementarias que incluyen la vía de acceso dual, las fuentes de alimentación redundantes y las configuraciones RAID. Verifique que ha suministrado una o varias de estas características para garantizar que está trabajando en un entorno redundante y que está protegido si se produce un error.
 
 ### Confirme que la información está respaldada antes de recargar el sistema operativo
 {: #cp_bpnoperfOSwobackupconf}

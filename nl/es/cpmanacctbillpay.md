@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-25"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-05-25"
 # Gestión de los elementos de facturación
 {: #manage-billing}
 
-Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de facturación y uso](/docs/account/index.html).  
+Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de pagos](/docs/billing-usage/manage_billing.html#linkedusage).  
 {:shortdesc}
 
 ## Acceso a los elementos de facturación
@@ -46,7 +46,7 @@ Efectúe los pasos siguientes para cancelar un elemento de facturación.
 >**Nota**: Las cancelaciones inmediatas se procesan al enviar la solicitud y no se envían reembolsos. Las cancelaciones en la fecha de aniversario se inician de forma inmediata. Sin embargo, el elemento de facturación seguirá activo hasta la siguiente fecha de aniversario, que se proporciona al realizar la selección.
 6. Escriba el **motivo de cancelación** en el recuadro de texto **Notas**.
 7. Pulse **Continuar** para continuar con la ventana siguiente del proceso de cancelación.
-8. Revise los **Términos de servicio** proporcionados en el aviso de cancelación y pulse el recuadro de selección **Reconocimiento**.
+8. Revise los **Términos de servicio** que se proporcionan en el aviso de cancelación y pulse el recuadro de selección **Reconocimiento**.
 9. Pulse **Cancelar servicio**.
 
 Después de confirmar la cancelación, comenzará el proceso de cancelación del elemento de facturación. Si ha solicitado una cancelación inmediata, el elemento de facturación se cancelará inmediatamente. Si ha solicitado una cancelación de aniversario de facturación, el elemento de facturación permanecerá activo hasta el siguiente aniversario de facturación. Tras su cancelación, el elemento de facturación ya no estará activo en el portal de clientes. Los elementos de facturación también se eliminarán de las facturas cuando todos los saldos pendientes, si los hay, se han pagado en el servicio o solución. No se realizan devoluciones por cancelaciones inmediatas.

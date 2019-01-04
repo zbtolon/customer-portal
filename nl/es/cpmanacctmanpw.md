@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,23 +18,23 @@ lastupdated: "2018-08-13"
 # Gestión de contraseñas
 {: #customerportal_manpws}
 
-Si es un usuario maestro o el propietario de una cuenta, puede habilitar el seguimiento de contraseñas y configurar una contraseña para un acceso puntual a la cuenta. Con el seguimiento de contraseñas, los usuarios pueden almacenar datos de contraseñas de software para dispositivos y su software asociado.
+Si es un usuario maestro o el propietario de una cuenta, puede habilitar el seguimiento de contraseñas y configurar una contraseña para un acceso puntual a la cuenta. El seguimiento de contraseñas permite a los usuarios almacenar datos de contraseñas de software para dispositivos y su software asociado.
 {:shortdesc}
 
 ## Habilitación del seguimiento de contraseñas
 {: #customerportal_enabpwtrak}
 
-El portal de clientes contiene una herramienta de seguimiento de contraseñas opcional para cada cuenta. Puede utilizar la herramienta para recuperar su nombre de usuario y contraseña si pierde u olvida esta información.
+El portal de clientes tiene una herramienta opcional de [seguimiento de contraseñas ![Icono de enlace externo](../icons/launch-glyph.svg) ](https://control.softlayer.com/devices/passwords){:new_window} para cada cuenta. Los usuarios pueden recuperar sus nombres de usuario y contraseñas con la herramienta si se pierde o se olvida la información.
 
-Los equipos de soporte también utilizan el seguimiento de contraseñas si el acceso remoto a un sistema es obligatorio. El soporte utiliza los nombres de usuario y contraseñas solo cuando sea necesario.
+Los equipos de soporte también utilizan el seguimiento de contraseñas si el acceso remoto a un sistema es obligatorio. El servicio de soporte utiliza los nombres de usuario y contraseñas solo cuando sea necesario y tiene autorización de la resolución de incidencias.
 
-El seguimiento de contraseñas dentro del portal de clientes es opcional. Cualquier usuario con los permisos adecuados puede ver todas las contraseñas que almacena esta herramienta. La información de usuarios y de contraseñas se sigue manualmente, por lo que no se sincroniza automáticamente con un dispositivo ni con su software. Por lo tanto, asegúrese de actualizar la herramienta de seguimiento de contraseñas al actualizar los usuarios y las contraseñas en los dispositivos y el software. Efectúe los pasos siguientes para añadir un usuario a la herramienta de seguimiento de contraseñas.
+El seguimiento de contraseñas dentro del portal de clientes es opcional. Cualquier usuario con los permisos adecuados puede ver todas las contraseñas que almacena esta herramienta. La información de usuarios y de contraseñas se sigue manualmente, por lo que no se sincroniza automáticamente con un dispositivo ni con su software. Por lo tanto, asegúrese de actualizar la herramienta de seguimiento de contraseñas a la vez que actualiza los usuarios y las contraseñas en los dispositivos y el software. Efectúe los pasos siguientes para añadir un usuario a la herramienta de seguimiento de contraseñas.
 
 1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
-2. Pulse **Dispositivos** > **Gestionar** > **Contraseñas** desde el menú.
+2. Seleccione **Dispositivos** > **Gestionar** > **Contraseñas** en el menú.
 3. Pulse el separador **Añadir credenciales**.
-4. Seleccione el **Nombre de dispositivo** con el que está asociado el usuario desde la lista **Nombre de dispositivo**.
-5. Seleccione el **Software** con el que está asociado el usuario desde la lista **Software**.
+4. Seleccione el **Nombre de dispositivo** con el que está asociado el usuario en la lista desplegable **Nombre de dispositivo**.
+5. Seleccione el **Software** con el que está asociado el usuario en la lista **Software**.
 
   El software que se lista se proporciona mediante la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} mediante suscripciones de pago o gratuitas. Ningún software de terceros que se instalara manualmente en el dispositivo está disponible para su seguimiento a través del portal de clientes.
   {: tip}
@@ -43,15 +43,15 @@ El seguimiento de contraseñas dentro del portal de clientes es opcional. Cualqu
 8. Opcionalmente, puede escribir cualquier comentario aplicable en el campo **Notas**.
 9. Pulse **Añadir credenciales**.
 
-Tras añadir el usuario, la información se almacenará dentro de la herramienta hasta que se suprima manualmente. Todas las combinaciones de nombre de usuario y contraseña se almacenan en función del nombre de dispositivo de forma predeterminada. Las entradas se visualizan alfabéticamente por nombre de dispositivo, y luego por nombre de usuario.
+Después de añadir el usuario a la herramienta de seguimiento de contraseñas, la información se almacena en la herramienta hasta que se suprime manualmente. Todas las combinaciones de nombre de usuario y contraseña se almacenan en función del nombre de dispositivo de forma predeterminada. Las entradas se visualizan alfabéticamente por nombre de dispositivo, y luego por nombre de usuario.
 
 ### Filtrado de información en la herramienta de seguimiento de contraseñas
 {: #cp_filterusinfopwtracktool}
 
-Para ver, editar o suprimir la información de usuario, puede filtrar para localizar rápidamente un usuario. Filtrar para encontrar un usuario es útil cuando la lista de usuarios abarque varias filas o páginas. Utilice los pasos siguientes para filtrar por dispositivo, software o usuario en la herramienta de rastreo de contraseñas.
+Para ver, editar o suprimir la información de usuario de la herramienta de seguimiento de contraseñas, puede filtrar para localizar rápidamente un usuario. Filtrar para encontrar un usuario es útil cuando la lista de usuarios abarque varias filas o páginas. Utilice los pasos siguientes para filtrar por dispositivo, software o usuario en la herramienta de rastreo de contraseñas.
 
 1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
-2. Pulse **Dispositivos** > **Gestionar** > **Contraseñas** desde el menú.
+2. Seleccione **Dispositivos** > **Gestionar** > **Contraseñas** en el menú.
 3. Pulse el separador **Filtro**.
 4. Seleccione o especifique el nombre de dispositivo, software, o el nombre de usuario en los campos correspondientes.
 5. Pulse **Filtro**.
@@ -61,7 +61,7 @@ Puede seleccionar la información de usuario para ver, editar o eliminar.
 ### Edición de la información de usuario en la herramienta de seguimiento de contraseñas
 {: #cp_editusinfopwtracktool}
 
-Tras añadir un usuario, puede editar los detalles asociados con el usuario o la contraseña. Efectúe los pasos siguientes para editar información para un usuario en la herramienta de seguimiento de contraseñas.
+Tras añadir un usuario a la herramienta de seguimiento de contraseñas, puede editar los detalles asociados con el usuario o la contraseña. Efectúe los pasos siguientes para editar información para un usuario en la herramienta de seguimiento de contraseñas.
 
 1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Dispositivos** > **Gestionar** > **Contraseñas** en el menú.
@@ -75,7 +75,7 @@ Después de editar un usuario o una contraseña en la herramienta de seguimiento
 ## Configuración de una cuenta para el acceso mediante contraseña única
 {: #cp_confportacc1timpwacc}
 
-Antes de poder configurar la cuenta, primero debe configurar la aplicación "Acceso VIP" de Verisign. Si Acceso VIP no está configurado, descargue en primer lugar la app para uno de los dispositivos siguientes:
+Antes de poder configurar la cuenta, primero debe configurar la aplicación "Acceso VIP" de Verisign. Si Acceso VIP no está configurado, descargue en primer lugar la aplicación para uno de los dispositivos siguientes:
 * Para su teléfono: [https://m.vip.symantec.com/home.v ![Icono de enlace externo](../icons/launch-glyph.svg)](https://m.vip.symantec.com/home.v){:new_window}
 * Para su escritorio: [https://idprotect.verisign.com/desktop/download.v ![Icono de enlace externo](../icons/launch-glyph.svg)](https://idprotect.verisign.com/desktop/download.v){:new_window}
 
@@ -83,7 +83,7 @@ A continuación, realice los pasos siguientes:
 1. Abra la aplicación. Busque el ID de credenciales y su contraseña única actual. Puede ignorar la contraseña inicialmente, pero necesita el ID de credenciales para el portal, por lo que mantenga la aplicación abierta.
 2. Inicie sesión en el portal de clientes como el usuario para el que desea configurar la contraseña única.
 3. Pulse **Cuenta** > **Usuarios** > **Acciones** > **Añadir autenticación externa**.
-4. Seleccione el tipo de autenticación para añadir. Si está utilizando la aplicación Verisign, elija **Symantec Identity Protection**.
+4. Seleccione el tipo de autenticación para añadir. Si está utilizando la aplicación Verisign, elija **Symantect Identity Protection**.
 5. Escriba el ID de credencial desde el paso 1 y pulse **Continuar**.
 6. Complete el proceso de pedido y su opción de seguridad adicional se aplicará automáticamente en pocos minutos.
 7. Tras varios minutos, seleccione **Cuenta** > **Usuarios** desde la barra de navegación y seleccione el usuario para el que ha configurado la contraseña única.
@@ -104,17 +104,17 @@ La forma de restablecer la contraseña depende de si utiliza un IBMid para auten
 
 Si utiliza IBMid para la autenticación, para restablecer o recuperar la contraseña, vaya a su perfil de IBMid y siga las instrucciones de la sección **Iniciar sesión**.
 
-### Restablecimiento de la contraseña de una cuenta
+### Restablecimiento de la contraseña de una cuenta de SoftLayer
 {: #cp_reset-password}
 
 Si no utiliza un IBMid para la autenticación de cuenta, siga estos pasos:
 
 1. Pulse el enlace de contraseña perdida en la página de inicio de sesión del [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.
-2. Especifique su nombre de usuario actual.
-3. Consulte su correo electrónico para ver un enlace para restablecer la contraseña. Este enlace es válido durante 24 horas.
+2. Cuando se le solicite, introduzca su nombre de usuario actual.
+3. Consulte su correo electrónico para ver si hay una nota con un enlace para restablecer la contraseña. Este enlace es válido durante veinticuatro horas.
 4. Seleccione y responda tres preguntas de seguridad.
 
-Tiene cinco intentos para responder a las preguntas de seguridad. Si realiza más de cinco intentos, el formulario de restablecimiento de contraseña se bloquea durante 15 minutos antes de que pueda intentarlo de nuevo.
+Tiene 5 intentos para responder a las preguntas de seguridad. Si realiza más de 5 intentos, el formulario de restablecimiento de contraseña se bloquea durante 15 minutos antes de que pueda intentarlo de nuevo.
 
 Para obtener información sobre cómo trabajar con contraseñas de VPN, consulte [Actualizar la contraseña de VPN de un usuario](/docs/infrastructure/iaas-vpn/update-password.html#update-a-user-s-vpn-password).
 {: tip}

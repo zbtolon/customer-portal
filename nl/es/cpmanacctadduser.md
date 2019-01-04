@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -18,23 +18,22 @@ lastupdated: "2018-05-22"
 # Adición de usuarios a una cuenta de SoftLayer
 {: #customerportal_addusertocpacct}
 
-Uno o varios usuarios pueden interactuar con los productos y servicios asociados con una cuenta. Si usted es el usuario maestro, puede añadir usuarios en cualquier momento.
+Uno o varios usuarios pueden interactuar con los productos y servicios asociados con una cuenta. Si es el usuario maestro o si tiene acceso administrativo, puede añadir usuarios.
 {:shortdesc}
 
-Si está gestionando los usuarios de la infraestructura de {{site.data.keyword.BluSoftlayer_full}}, las cuentas de SoftLayer que pueda gestionar dependerán del acceso asignado a su cuenta de usuario. Las cuentas que pueda gestionar también dependerán de cómo esté configurada su cuenta. Si usted es el usuario maestro, o si tiene acceso administrativo como propietario de una cuenta, puede gestionar el resto de los usuarios del portal de clientes. Si la cuenta no está configurada como un usuario maestro, puede gestionar el perfil de usuario.
+Si está gestionando los usuarios de la infraestructura de {{site.data.keyword.BluSoftlayer_full}}, las cuentas de SoftLayer que puede gestionar dependerán del acceso asignado a su cuenta de usuario. Las cuentas que pueda gestionar también dependerán de cómo esté configurada su cuenta. Si es el usuario maestro, o si tiene acceso administrativo como propietario de una cuenta, puede gestionar el resto de los usuarios del portal de clientes. Si la cuenta no está configurada como un usuario maestro, puede gestionar el perfil de usuario.
 
 En función de su acceso, puede gestionar su cuenta de SoftLayer o las cuentas de otros usuarios desde la ventana Usuarios. La ventana Usuarios del [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} muestra los usuarios que están asociados con una cuenta. Las interacciones que están disponibles en la ventana Usuarios varían en función del permiso de cuenta exclusivo establecido.
-  * Si usted es el usuario maestro de la cuenta, puede ver todos los usuarios que están asociados con la cuenta.
+  * Si es el usuario maestro de la cuenta, puede ver todos los usuarios que están asociados con la cuenta.
 
-  Si debe compartir las credenciales de inicio de maestro para su cuenta, comparta las credenciales cuidadosamente. El inicio de sesión maestro permite controlar todos los aspectos de la cuenta; protéjalo con cuidado. Para permitir que otros usuarios utilicen el portal de clientes, puede configurar usuarios individuales o basados en permisos. La creación de usuarios basados en permisos garantiza que usted tiene el mayor control sobre quién puede interactuar con determinados aspectos de la cuenta.
+  Si debe compartir las credenciales de inicio de maestro para su cuenta, comparta las credenciales cuidadosamente. El inicio de sesión maestro permite controlar todos los aspectos de la cuenta, de modo que protéjalo con cuidado. Para permitir que otros usuarios utilicen el portal de clientes, puede configurar usuarios individuales o basados en permisos. La creación de usuarios basados en permisos garantiza que usted tiene el mayor control sobre quién puede interactuar con determinados aspectos de la cuenta.
 {:tip}
 
-  * Si tiene acceso administrativo, puede ver todos los usuarios que ha añadido. Si le dio permiso a dichos usuarios para administrar otros usuarios, también puede ver los usuarios que han añadido. También puede gestionar cualquier usuario asociado con la cuenta, incluida la edición de acceso al portal de clientes, cambiar el estado de usuario y eliminar usuarios.
-  * Si usted no es el usuario maestro de la cuenta y no tiene acceso administrativo, solo se mostrará el perfil. Puede interactuar con su propia cuenta, incluida la visualización de la clave de API, la edición del acceso VPN, y la adición de la autenticación externa.
+  * Si tiene acceso administrativo, puede ver todos los usuarios que ha añadido. Si le dio permiso a dichos usuarios para administrar otros usuarios, también puede ver los usuarios que han añadido. También puede gestionar cualquier usuario asociado con la cuenta. Esto incluye editar el acceso al portal de clientes, cambiar el estado de usuario y eliminar usuarios.
 
-Para gestionar usuarios desde la consola de {{site.data.keyword.Bluemix_notm}}, consulte la sección [Configuración de la cuenta](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) y [Gestión de identidad y acceso](/docs/iam/quickstart.html#getstarted). Para obtener más información sobre la consola de {{site.data.keyword.Bluemix_notm}}, consulte [Cómo funciona la consola de {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui).
+Para gestionar usuarios desde la consola de {{site.data.keyword.Bluemix_notm}}, consulte la sección [Configuración de la cuenta](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) y [Gestión de identidad y acceso](/docs/iam/quickstart.html#getstarted). Para obtener más información sobre la consola de {{site.data.keyword.Bluemix_notm}}, consulte [Navegación por la consola de {{site.data.keyword.Bluemix_notm}}](/docs/overview/ui.html#ui).
 
-Diferentes personas dentro de una organización tienen diferentes roles y responsabilidades, y los conjuntos de permisos de usuarios no son únicos. Por lo tanto, puede añadir usuarios al portal de clientes con roles para proporcionar acceso a exactamente lo que necesiten para su rol específico. Si los cambios se realizan en error o no están autorizados, puede rastrearlos de nuevo al usuario o al grupo. Por lo tanto, puede proporcionar formación adecuada o actualizar el permiso de usuario para minimizar riesgos. Los usuarios pueden entonces centrarse en su rol especificado en el portal de clientes.
+Diferentes personas dentro de una organización tienen diferentes roles y responsabilidades, y los conjuntos de permisos de usuarios no son únicos. Puede añadir usuarios al portal de clientes con roles para proporcionar acceso a exactamente lo que necesiten para su rol específico. Si los cambios se realizan en error o no están autorizados, puede rastrearlos de nuevo al usuario o al grupo. Por lo tanto, puede proporcionar formación adecuada o actualizar el permiso de usuario para minimizar riesgos. Los usuarios pueden entonces centrarse en su rol especificado en el portal de clientes.
 
 Efectúe los pasos siguientes para añadir un usuario a una cuenta.
 
@@ -74,4 +73,4 @@ Efectúe los pasos siguientes para establecer los permisos para el usuario que a
 
 Recibirá un correo electrónico con enlaces e información para guiarle a través de la creación de un IBMid para la autenticación en esta cuenta. Los pasos pueden incluir la creación de un nuevo IBMid si la cuenta está utilizando IBMid para la autenticación. La invitación caduca dentro de 7 días, pero puede ponerse en contacto con el administrador para reenviar la invitación.
 
-Para todos los demás casos de autenticación, después de añadir el nuevo usuario, el usuario puede entonces iniciar sesión en el portal de clientes en cualquier momento. Los usuarios podrán entonces trabajar con diversos productos y servicios asociados con la cuenta. Puede desactivar el usuario en cualquier momento.
+Para todos los demás casos de autenticación, después de añadir el nuevo usuario, el usuario puede entonces iniciar sesión en el portal de clientes en cualquier momento. Los usuarios podrán trabajar con diversos productos y servicios asociados con la cuenta. Puede desactivar el usuario en cualquier momento.

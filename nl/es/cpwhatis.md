@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-08-13"
+lastupdated: "2017-10-11"
 
 ---
 
@@ -21,8 +21,8 @@ lastupdated: "2018-08-13"
 Puede utilizar la consola de {{site.data.keyword.Bluemix}} para gestionar gran parte de su infraestructura. Sin embargo, el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer_full}} proporciona algunas funciones adicionales para gestionar productos y servicios de la infraestructura y cuentas de SoftLayer.
 {:shortdesc}
 
-Utilizará el portal de clientes, en lugar de la consola, por los motivos siguientes:
-  * Si está utilizando solo servicios de infraestructura de {{site.data.keyword.Bluemix_notm}} y no tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts).
+Utilizaría el portal de clientes de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}, en lugar de la consola de {{site.data.keyword.Bluemix_notm}}, por los siguientes motivos:
+  * Si está utilizando solo servicios de infraestructura de {{site.data.keyword.Bluemix_notm}} (no los servicios de la plataforma) y no tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts).
   * Si no tiene un [IBMid](/docs/account/softlayerlink.html#switchtoIBMid).
   * Si necesita acceder a un entorno federal; por ejemplo, una agencia del gobierno de los Estados Unidos puede necesitar un centro de datos con un bloqueo más seguro con acceso externo limitado. En este entorno, solo están disponibles los servicios de infraestructura de {{site.data.keyword.Bluemix_notm}}, el acceso a la plataforma de {{site.data.keyword.Bluemix_notm}} no está disponible en un centro de datos federal.
 
@@ -33,8 +33,8 @@ Utilizará luego el portal de clientes de la infraestructura de {{site.data.keyw
   * Ver y pagar facturas de recursos de infraestructura mensuales
   * Abrir, ver y actualizar incidencias asociadas con cualquier producto o servicio de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}
 
-Para todo lo demás, utilice la consola de [{{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window}
+Para todo lo demás, utilice la [consola de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://cloud.ibm.com){: new_window}
 
 Puede acceder al portal de clientes de las siguientes maneras:
-* Desde el menú de la [consola de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://console.bluemix.net){: new_window} seleccionando **Infraestructura** en la barra de menús ![Icono Menú](../icons/icon_hamburger.svg). Para obtener más información, consulte [Cómo funciona la consola de {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
+* Desde el menú de la [consola de {{site.data.keyword.Bluemix}} ![Icono de enlace externo](../icons/launch-glyph.svg)](https://cloud.ibm.com){: new_window}, seleccionando **Infraestructura** en la barra de menús ![Icono Menú](../icons/icon_hamburger.svg). Para obtener más información, consulte [Navegación por la consola de {{site.data.keyword.cloud_notm}}](/docs/overview/ui.html#ui).
 * Desde el [portal de clientes de SoftLayer ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} directamente.

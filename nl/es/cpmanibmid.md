@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-10"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -26,10 +26,10 @@ Si tiene una cuenta existente de SoftLayer, puede cambiar a un IBMid. Un asisten
 ## Correlación de varias cuentas de SoftLayer con un IBMid
 {: #cp_mapmultclinfrto1ibmid}
 
-Puede asociar un IBMid con varias cuentas de SoftLayer utilizando una dirección de correo electrónico de IBMid existente al configurar la cuenta. Solo se puede correlacionar un usuario de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para cada cuenta en el IBMid único. El IBMid debe ser exclusivo dentro de cada cuenta de SoftLayer. Sin embargo, un usuario con acceso a varias cuentas de SoftLayer puede utilizar un IBMid para acceder a las cuentas.
+Puede asociar un IBMid con varias cuentas de SoftLayer utilizando una dirección de correo electrónico de IBMid existente al configurar la cuenta. Solo se puede correlacionar un usuario de infraestructura de {{site.data.keyword.BluSoftlayer_notm}} para cada cuenta en el IBMid único. El IBMid debe ser exclusivo dentro de cada cuenta de SoftLayer. Sin embargo, un usuario con acceso a varias cuentas de SoftLayer puede utilizar un IBMid para acceder a las cuentas de SoftLayer.
 
-Un IBMid puede correlacionar al usuario maestro en las cuentas A y B, por ejemplo, y a otro usuario en las cuentas C y D. Una de las cuentas correlacionadas con dicho IBMid es la cuenta predeterminada. Normalmente, la cuenta predeterminada es la cuenta que se correlacionó por primera vez en el IBMid. Sin embargo, puede cambiar qué cuenta es la predeterminada utilizando una característica en el portal de clientes para cambiar cuentas.
+Por ejemplo, un IBMid puede correlacionar al usuario maestro en las cuentas A y B y a otro usuario en las cuentas C y D. Una de las cuentas correlacionadas con dicho IBMid es la cuenta predeterminada. Normalmente, la cuenta predeterminada es la cuenta que se correlacionó por primera vez en el IBMid. Puede cambiar la cuenta predeterminada utilizando una característica en el portal de clientes para cambiar cuentas.
 
-![Correlación de cuentas de SoftLayer en un IBMid](images/ibmid-image.png)
+![Varias cuentas de SoftLayer con un IBMid](images/ibmid-image.png)
 
-Para un usuario con acceso de IBMid a varias cuentas con la autenticación de dos factores (2FA) habilitada, se requerirá un código de verificación 2FA. El código de verificación es necesario, por cuenta, durante el inicio de sesión de la cuenta y cuando se cambia la cuenta predeterminada.
+Para un usuario con acceso de IBMid a varias cuentas con la autenticación de dos factores habilitada, se requerirá un código de verificación. El código de verificación es necesario, por cuenta, durante el inicio de sesión de la cuenta y cuando se cambia la cuenta predeterminada.

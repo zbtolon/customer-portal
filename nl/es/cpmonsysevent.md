@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-01-11"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -19,13 +19,13 @@ lastupdated: "2018-01-11"
 # Supervisión de sucesos del sistema de la infraestructura de {{site.data.keyword.Bluemix_notm}}
 {: #customerportal_monevent}
 
-Puede supervisar sucesos del sistema para que sus sistemas se sigan ejecutando sin contratiempos.  Para obtener información sobre la configuración y la gestión de servidores virtuales en la infraestructura de {{site.data.keyword.BluSoftlayer_full}}, consulte [Iniciación a los servidores virtuales](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
+Puede supervisar sucesos del sistema para que sus sistemas se sigan ejecutando sin contratiempos. Para obtener información sobre la configuración y la gestión de servidores virtuales en la infraestructura de {{site.data.keyword.BluSoftlayer_full}}, consulte [Iniciación a los servidores virtuales](/docs/vsi/vsi_index.html#getting-started-with-virtual-servers).
 {:shortdesc}
 
 ## Visualización de un registro de auditoría para una cuenta
 {: #cp_viewacctauditlog}
 
-Cada cuenta del portal de clientes viene con un registro de auditoría que realiza el seguimiento de las interacciones de cada usuario en el portal de clientes. Entre las interacciones rastreadas se incluyen intentos de inicio de sesión (correctas e incorrectas), actualizaciones de la velocidad de puerto, encendido o apagado y rearranques, y las interacciones realizadas por el personal de soporte de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Efectúe los pasos siguientes para ver un registro de auditoría para una cuenta de usuario.
+Cada cuenta del portal de clientes viene con un registro de auditoría que realiza el seguimiento de las interacciones de cada usuario en el portal de clientes. Entre las interacciones rastreadas se incluyen intentos de inicio de sesión (correctas e incorrectas), actualizaciones de la velocidad de puerto, encendido o apagado y reinicios, y las interacciones realizadas por el personal de soporte de la infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Efectúe los pasos siguientes para ver un registro de auditoría para una cuenta de usuario.
 
 1. Acceda al [Portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Gestionar** > **Registro de auditoría** desde la barra de navegación para acceder al registro de auditoría.

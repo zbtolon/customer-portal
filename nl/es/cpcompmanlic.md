@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-11-19"
 
 ---
 
@@ -36,13 +36,13 @@ Después de descargar el archivo de licencia en el dispositivo, se actualizarán
 ## Cancelación de una licencia de panel de control
 {: #cp_compcanlisc}
 
-Las licencias de panel de control se facturarán mensualmente, basándose en los términos acordados en el momento de adquirir la licencia. Puede cancelar licencias en cualquier momento y se cancelarán en la fecha del próximo aniversario de facturación. Para asegurarse de que una cancelación se haya aplicado de forma apropiada al ciclo de facturación actual, las cancelaciones deben realizarse no menos de 24 horas antes de la fecha de aniversario de facturación. La información específica sobre el aniversario de facturación de la cuenta se mostrará durante el proceso de cancelación. Utilice los pasos siguientes para cancelar una licencia de panel de control.
+Las licencias de panel de control se facturarán mensualmente, basándose en los términos acordados en el momento de adquirir la licencia. Puede cancelar licencias en cualquier momento y se cancelarán en la fecha del próximo aniversario de facturación. Para asegurarse de que una cancelación se ha aplicado al ciclo de facturación actual, las cancelaciones deben realizarse no menos de 24 horas antes de la fecha de aniversario de facturación. La información específica sobre el aniversario de facturación de la cuenta se muestra durante el proceso de cancelación. Utilice los pasos siguientes para cancelar una licencia de panel de control.
 
 1. Realice una copia de seguridad o transfiera los datos asociados con la licencia del panel de control.
 2. Inicie sesión en el portal de clientes con sus credenciales exclusivas.
 3. Seleccione **Dispositivos** > **Gestionar** > **Licencias del panel de control** desde el menú para acceder a la ventana Licencias de panel de control.
 4. Seleccione **Acciones** > **Cancelar** para la licencia del panel de control que desee cancelar.
-5. Escriba las notas relativas a la cancelación en el recuadro de texto **Notas**.
+5. Escriba las notas acerca de la cancelación en el recuadro de texto **Notas**.
 6. Pulse **Continuar** para avanzar a la pantalla de confirmación.
 7. Marque el recuadro de selección **Reconocimiento de pérdida de datos**.
 
@@ -56,4 +56,4 @@ Después de iniciar el proceso de cancelación, la licencia del panel de control
 ## Gestión de las contraseñas de software en dispositivos
 {: #cp_bpmanacctresp}
 
-Se asigna una contraseña a cada parte de software que se suministra en un dispositivo, la cual se genera automáticamente mediante los sistemas de infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Las contraseñas de software para cada dispositivo se almacenan en el separador **Contraseñas** de la pantalla Detalles de dispositivo en el portal de clientes.  Después de acceder al software por primera vez, cambie las contraseñas. Opcionalmente, puede almacenar credenciales de software en el separador **Contraseñas** para cada dispositivo. Sin embargo, cuando almacena contraseñas en el portal de clientes, cualquier persona con acceso a la cuenta y con permisos apropiados podrá ver estas contraseñas.
+Se asigna una contraseña a cada parte de software que se crea en un dispositivo, la cual se genera automáticamente mediante los sistemas de infraestructura de {{site.data.keyword.BluSoftlayer_notm}}. Las contraseñas de software para cada dispositivo se almacenan en el separador **Contraseñas** de la pantalla Detalles de dispositivo en el portal de clientes. Después de acceder al software por primera vez, cambie las contraseñas. Opcionalmente, puede almacenar credenciales de software en el separador **Contraseñas** para cada dispositivo. Sin embargo, cuando almacena contraseñas en el portal de clientes, cualquier persona con acceso a la cuenta y con permisos apropiados podrá ver estas contraseñas.

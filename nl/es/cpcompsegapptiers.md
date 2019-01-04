@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -49,6 +49,6 @@ Al configurar el entorno de esta forma, impidiendo el acceso a SSH o RDP desde I
 
 Un entorno de varias capas también proporciona facilidad de escalabilidad en comparación con las arquitecturas de host verticales o únicas. Puede configurar un entorno de varias capas para facilitar el escalado de la aplicación permitiendo el escalado para los servicios que necesitan más recursos. Por ejemplo, en el caso de ejemplo anterior, si el servidor web se ve desbordado, puede desplegar otro servidor web. A continuación, puede replicar los datos del sitio o de la aplicación y equilibrar la carga o configurar el DNS round robin para permitir que sus dos servidores web dividan la carga web. El DNS round robin o el equilibrio de carga proporciona una alta disponibilidad para su entorno permitiendo que varios servidores web respondan a las solicitudes entrantes. Si un único servidor cae, habrá otro nodo disponible para manejar las solicitudes de usuario.
 
-También puede escalar la base de datos. Por ejemplo, con una base de datos {{site.data.keyword.mysql}}, una opción es configurar otro servidor físico y utilizarlo como un subordinado en una configuración de réplica {{site.data.keyword.mysql}}.  Puede segmentar todas las grabaciones de base de datos en el maestro y todas las lecturas en uno o varios subordinados para escalar la base de datos para dar soporte a más carga. Este tipo de configuración también añade un nivel de alta disponibilidad porque puede cambiar el estado de un subordinado a maestro. A continuación, puede direccionar el tráfico de lectura y de grabación en el subordinado si el nodo maestro de {{site.data.keyword.mysql}} cae.
+También puede escalar la base de datos. Por ejemplo, con una base de datos {{site.data.keyword.mysql}}, una opción es configurar otro servidor físico y utilizarlo como un subordinado en una configuración de réplica {{site.data.keyword.mysql}}. Puede segmentar todas las escrituras de base de datos en el maestro y todas las lecturas en uno o varios subordinados para escalar la base de datos para dar soporte a más carga. Este tipo de configuración también añade un nivel de alta disponibilidad porque puede cambiar el estado de un subordinado a maestro. A continuación, puede direccionar el tráfico de lectura y de escritura en el subordinado si el nodo maestro de {{site.data.keyword.mysql}} cae.
 
 Estas ideas son solo algunas de las muchas formas para proteger y escalar el entorno. Si tiene alguna pregunta o inquietud relacionadas con la mejor manera de diseñar su entorno desde una perspectiva de seguridad o de escalabilidad, la infraestructura de {{site.data.keyword.BluSoftlayer_notm}} tiene un equipo de Ingeniería de ventas que puede ayudarle.

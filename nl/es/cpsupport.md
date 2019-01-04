@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-17"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-05-17"
 Si tiene problemas con la infraestructura de {{site.data.keyword.BluSoftlayer_full}} y no tiene una cuenta enlazada, puede obtener ayuda para determinar la causa del problema y encontrar una solución utilizando el portal de clientes.
 {:shortdesc}
 
-Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix_notm}}. Consulte [Obtención de soporte al cliente](/docs/get-support/howtogetsupport.html) para obtener más información.
+Si tiene una [cuenta enlazada](/docs/account/softlayerlink.html#link_user_accounts), puede obtener ayuda de soporte a través de la consola de {{site.data.keyword.Bluemix_notm}}. Consulte [Obtención de soporte](/docs/get-support/howtogetsupport.html) para obtener más información.
 
 Si no tiene una cuenta enlazada, puede abrir incidencias de soporte en el portal de clientes de infraestructura de {{site.data.keyword.BluSoftlayer_full}} con relación a problemas técnicos genéricos o para obtener ayuda con problemas relacionados con su cuenta.
 
@@ -40,11 +40,11 @@ Siga los siguientes pasos para abrir incidencias de soporte de {{site.data.keywo
 
 5. Escriba una descripción breve de la pregunta o del problema en el campo **Título**.
 6. Si deben enviarse actualizaciones de correo electrónico al actualizar la incidencia, indique a quién:
-  * Si las actualizaciones deben enviarse al cesionario, marque el recuadro de selección **¿Desea recibir notificaciones por correo electrónico de las actualizaciones?**. Si no es usted el destinatario de asignación, marcar el recuadro de selección **¿Desea recibir notificaciones por correo electrónico de las actualizaciones?** da como resultado que se envíen actualizaciones al destinatario de asignación, ya que está enlazado con la lista **Asignar a**.
+  * Si las actualizaciones deben enviarse al cesionario, marque el recuadro de selección **¿Desea recibir notificaciones por correo electrónico de las actualizaciones?**. Si no es el cesionario y marca el recuadro de selección **¿Desea recibir notificaciones por correo electrónico de las actualizaciones?**, se enviarán actualizaciones al cesionario, ya que está enlazado con la lista **Asignar a**.
   * Si las actualizaciones de correo electrónico deben enviarse a terceros, especifique en el campo **Enviar correo electrónico a otros** la dirección de correo electrónico del usuario en la que recibir actualizaciones, o seleccione la dirección de correo electrónico de la lista. A continuación, pulse **Añadir destinatario**. Repita estos pasos hasta que se hayan añadido todos los destinatarios. Puede añadir hasta cinco destinatarios por incidencia, además del responsable.
 7. Si los dispositivos están asociados con una incidencia existente, especifique el nombre de dispositivo en el campo **Dispositivos asociados** o seleccione el dispositivo de la lista y, a continuación, pulse **Añadir dispositivo**. Repita estos pasos hasta que se hayan añadido todos los dispositivos.
 
-  Puede asociar hasta cinco dispositivos con una incidencia. En lugar de crear varias incidencias para cada dispositivo que tenga el mismo problema o interrupción, asocie hasta cinco dispositivos con la incidencia y se podrán manejar todos a la vez. Esto también garantiza que el equipo de soporte sea consciente de un problema generalizado en su cuenta y que pueda resolver el problema en todas las ubicaciones.
+  Puede asociar hasta cinco dispositivos con una incidencia. En lugar de crear más de una incidencia para cada dispositivo que tenga el mismo problema o interrupción, asocie hasta cinco dispositivos con la incidencia y se podrán manejar todos a la vez. Esto también garantiza que el equipo de soporte sea consciente de un problema generalizado en su cuenta y que pueda resolver el problema en todas las ubicaciones.
   {:tip}
 
 8. Escriba cualquier información sobre la incidencia en el campo **Detalles**.
@@ -80,7 +80,7 @@ Complete el resto de la información de la incidencia tal como lo haría al crea
 ## Visualización de una incidencia existente
 {: #cp_viewsuptickwsp}
 
-Después de añadir una incidencia, podrá verla en cualquier momento desde la ventana **Incidencias**. Puede ver todos los detalles en relación con la incidencia y su historial. Efectúe los pasos siguientes para ver una incidencia existente.
+Después de añadir una incidencia, podrá verla en cualquier momento desde la ventana **Incidencias**. Puede ver todos los detalles sobre la incidencia y su historial. Efectúe los pasos siguientes para ver una incidencia existente.
 
 1. Acceda al [Portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Soporte** > **Incidencias** en el menú.

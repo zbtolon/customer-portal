@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-29"
 
 ---
 
@@ -40,7 +40,7 @@ Después de solicitar una actualización del perfil de la empresa, un miembro de
 ## Adición o edición de un contacto de cuenta
 {: #cp_addoreditacctcont}
 
-Mantenga la información sobre los contactos para su cuenta completos y actualizados en caso de que se necesite una consulta. Asegúrese de que los contactos de la cuenta sean las personas apropiadas con las que contactar para cada tipo de solicitud. Podría tener varias entradas de contacto para cada cuenta, pero solo un contacto para cada tipo de servicio. La información de contacto específica de la cuenta *no* incluye el perfil de cuenta, que es la información de contacto principal asociada con una cuenta. Utilice los pasos siguientes para añadir o editar un contacto de cuenta.
+Mantenga la información sobre los contactos para su cuenta completos y actualizados en caso de que se necesite una consulta. Asegúrese de que los contactos de la cuenta sean las personas apropiadas con las que contactar para cada tipo de solicitud. Podría tener más de una entrada de contacto para cada cuenta, pero solo un contacto para cada tipo de servicio. La información de contacto específica de la cuenta no incluye el perfil de cuenta, que es la información de contacto principal asociada con una cuenta. Utilice los pasos siguientes para añadir o editar un contacto de cuenta.
 
 1. Acceda al portal de clientes utilizando sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Gestionar** > **Contactos de la empresa** en el menú.
