@@ -37,7 +37,7 @@ The pool definitions are listed in the following table:
 | South Korea | SEO01 | 
 | Mexico | MEX01 | 
 | Norway | OSL01 | 
-| Singapore, Hong Kong, and Tokyo | HKG02<br/><br/>SNG01<br/><br/>TOK02<br/><br/>TOK04<br/><br/>TOK05 |
+| Singapore, Hong Kong & Tokyo | HKG02<br/><br/>SNG01<br/><br/>TOK02<br/><br/>TOK04<br/><br/>TOK05 |
 {:caption="Table 1. Pooling definitions" caption-side="top"}
 
 
