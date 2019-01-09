@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2018, 2019 
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,12 +18,11 @@ lastupdated: "2018-11-28"
 # Managing your billing items
 {: #manage-billing}
 
-If you're managing {{site.data.keyword.Bluemix}} infrastructure billing for a SoftLayer account, you can manage your billing and payments in the customer portal. To manage {{site.data.keyword.Bluemix_notm}} platform billing and payments, see [Managing payments](/docs/billing-usage/manage_billing.html#linkedusage).  
+If you're managing {{site.data.keyword.Bluemix}} infrastructure billing for a SoftLayer account, you can manage your billing and payments in the customer portal. To manage {{site.data.keyword.Bluemix_notm}} platform billing and payments, use the Manage Billing Items window in the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Accessing your billing items
 {: #cp_accbillitems}
-
 You can use the Manage Billing Items window in the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} to associate billing items to specific devices and cancel those items, when necessary.
 
 The Manage Billing Items window shows associated billing items. You can change the view by selecting another option from the **Display** drop down list. When you're viewing billing items, you can change unassociated billing items to be associated, and associated items to be dissociated. You can change associated and dissociated items individually, or for more than one item at a time, by using the Bulk Actions feature. You can cancel individual billing items at any time from the Manage Billing Items window.
