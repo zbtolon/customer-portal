@@ -24,7 +24,7 @@ Si es un usuario maestro o el propietario de una cuenta, puede habilitar el segu
 ## Habilitación del seguimiento de contraseñas
 {: #customerportal_enabpwtrak}
 
-El portal de clientes tiene una herramienta opcional de [seguimiento de contraseñas ![Icono de enlace externo](../icons/launch-glyph.svg) ](https://control.softlayer.com/devices/passwords){:new_window} para cada cuenta. Los usuarios pueden recuperar sus nombres de usuario y contraseñas con la herramienta si se pierde o se olvida la información.
+El portal de clientes tiene una herramienta opcional de [seguimiento de contraseñas ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/devices/passwords){:new_window} para cada cuenta. Los usuarios pueden recuperar sus nombres de usuario y contraseñas con la herramienta si se pierde o se olvida la información.
 
 Los equipos de soporte también utilizan el seguimiento de contraseñas si el acceso remoto a un sistema es obligatorio. El servicio de soporte utiliza los nombres de usuario y contraseñas solo cuando sea necesario y tiene autorización de la resolución de incidencias.
 
