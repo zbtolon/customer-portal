@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2018, 2019 
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,12 +18,11 @@ lastupdated: "2018-11-28"
 # Gerenciando seus itens de faturamento
 {: #manage-billing}
 
-Se você estiver gerenciando o faturamento de infraestrutura do {{site.data.keyword.Bluemix}} para uma conta do SoftLayer, será possível gerenciar o faturamento e os pagamentos no portal do cliente. Para gerenciar o faturamento e os pagamentos da plataforma do {{site.data.keyword.Bluemix_notm}}, consulte [Gerenciando pagamentos](/docs/billing-usage/manage_billing.html#linkedusage).  
+Se você estiver gerenciando o faturamento de infraestrutura do {{site.data.keyword.Bluemix}} para uma conta do SoftLayer, será possível gerenciar o faturamento e os pagamentos no portal do cliente. Para gerenciar o faturamento e os pagamentos da plataforma {{site.data.keyword.Bluemix_notm}}, use a janela Gerenciar itens de faturamento no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Acessando seus itens de faturamento
 {: #cp_accbillitems}
-
 É possível usar a janela Gerenciar itens de faturamento no [portal do cliente ![Ícone de link externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} para associar itens de faturamento a dispositivos específicos e cancelar esses itens, quando necessário.
 
 A janela Gerenciar itens de faturamento mostra itens de faturamento associados. É possível mudar a visualização selecionando outra opção na lista suspensa **Exibir**. Quando você estiver visualizando os itens de faturamento, será possível mudar itens de faturamento não associados para associados e itens associados para dissociados. É possível mudar itens associados e dissociados individualmente ou, para mais de um item por vez, usando o recurso Ações em massa. É possível cancelar itens de faturamento individuais a qualquer momento na janela Gerenciar itens de faturamento.
