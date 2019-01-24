@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2018, 2019 
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,12 +18,11 @@ lastupdated: "2018-11-28"
 # 請求アイテムの管理
 {: #manage-billing}
 
-SoftLayer アカウントの {{site.data.keyword.Bluemix}} インフラストラクチャー請求を管理している場合、請求および支払いをカスタマー・ポータルで管理することができます。 {{site.data.keyword.Bluemix_notm}} プラットフォームの請求および支払いを管理するには、[支払いの管理 (Managing payments)](/docs/billing-usage/manage_billing.html#linkedusage)を参照してください。  
+SoftLayer アカウントの {{site.data.keyword.Bluemix}} インフラストラクチャー請求を管理している場合、請求および支払いをカスタマー・ポータルで管理することができます。 {{site.data.keyword.Bluemix_notm}} プラットフォームの請求および支払いを管理するには、[カスタマー・ポータル ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} の「請求アイテムの管理 (Manage Billing Items)」ウィンドウを使用します。   
 {:shortdesc}
 
 ## 請求アイテムへのアクセス
 {: #cp_accbillitems}
-
 [カスタマー・ポータル ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} の「請求アイテムの管理 (Manage Billing Items)」ウィンドウを使用して、請求アイテムを特定のデバイスに関連付けることができ、必要な場合はそれらのアイテムを取り消すことができます。
 
 「請求アイテムの管理 (Manage Billing Items)」ウィンドウには、関連付けられた請求アイテムが表示されます。 **「表示 (Display)」**ドロップダウン・リストから別のオプションを選択することによって、表示内容を変更できます。 請求アイテムを表示しているときに、関連付けられていない請求アイテムを関連付けたり、関連付けられているアイテムの関連付けを解除したりといった変更を行うことができます。 関連付けられたアイテムおよび関連付けが解除されたアイテムは個々に変更するか、「一括アクション」機能を使用して一度に複数のアイテムを変更することができます。 「請求アイテムの管理 (Manage Billing Items)」ウィンドウから、いつでも個々の請求アイテムを取り消すことができます。

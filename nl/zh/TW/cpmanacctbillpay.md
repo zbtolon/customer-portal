@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2018, 2019 
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,12 +18,11 @@ lastupdated: "2018-11-28"
 # 管理計費項目
 {: #manage-billing}
 
-如果您要管理 SoftLayer 帳戶的 {{site.data.keyword.Bluemix}} 基礎架構計費，則可以管理客戶入口網站中的計費及付款。若要管理 {{site.data.keyword.Bluemix_notm}} 平台計費及付款，請參閱[管理付款](/docs/billing-usage/manage_billing.html#linkedusage)。  
+如果您要管理 SoftLayer 帳戶的 {{site.data.keyword.Bluemix}} 基礎架構計費，則可以管理客戶入口網站中的計費及付款。若要管理 {{site.data.keyword.Bluemix_notm}} 平台計費及付款，請使用[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 中的「管理計費項目」視窗。   
 {:shortdesc}
 
 ## 存取計費項目
 {: #cp_accbillitems}
-
 您可以使用[客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} 中的「管理計費項目」視窗來建立計費項目與特定裝置的關聯，以及取消這些項目（必要時）。
 
 「管理計費項目」視窗會顯示相關聯的計費項目。從**顯示**下拉清單中選取另一個選項，即可變更視圖。當您正在檢視計費項目時，可以將不相關的計費項目變更為相關聯，以及將相關聯的項目變更為不相關。您可以個別變更相關聯及不相關的項目，或使用「大量動作」特性一次變更多個項目。您隨時可以從「管理計費項目」視窗中取消個別計費項目。

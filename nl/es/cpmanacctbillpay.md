@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2018
+  years: 1994, 2018, 2019 
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-09"
 
 ---
 
@@ -18,12 +18,11 @@ lastupdated: "2018-11-28"
 # Gestión de los elementos de facturación
 {: #manage-billing}
 
-Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma de {{site.data.keyword.Bluemix_notm}}, consulte [Gestión de pagos](/docs/billing-usage/manage_billing.html#linkedusage).  
+Si está gestionando la facturación de infraestructura de {{site.data.keyword.Bluemix}} para una cuenta de SoftLayer, podrá gestionar su facturación y pagos en el portal de clientes. Para gestionar la facturación y los pagos de la plataforma {{site.data.keyword.Bluemix_notm}}, utilice la ventana Gestionar elementos de facturación en el [portal del cliente ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window}.   
 {:shortdesc}
 
 ## Acceso a los elementos de facturación
 {: #cp_accbillitems}
-
 Puede utilizar la ventana Gestionar elementos de facturación en el [portal de clientes ![Icono de enlace externo](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} para asociar elementos de facturación a dispositivos específicos y cancelar dichos elementos, cuando sea necesario.
 
 La ventana Gestionar elementos de facturación muestra elementos de facturación asociados. Puede cambiar la vista seleccionando otra opción desde la lista desplegable **Visualizar**. Cuando esté viendo elementos de facturación, podrá cambiar los elementos de facturación no asociados a asociados, y elementos asociados a no asociados. Puede cambiar los elementos asociados y no asociados de forma individual, o para más de un elemento a la vez, utilizando la característica de Acciones masivas. Puede cancelar elementos de facturación individuales en cualquier momento desde la ventana Gestionar elementos de facturación.
