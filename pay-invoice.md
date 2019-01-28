@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2019
 
-lastupdated: "2019-01-25"
+lastupdated: "2019-01-28"
 
 ---
 
@@ -49,8 +49,7 @@ You can also view a billing summary for the account, including the following inf
 
 If you're viewing the invoice in the customer portal, an itemized list of billing items is shown for the selected invoice. Click anywhere on the line for a billing item to view more itemized details about the charge. If you downloaded the invoice, you can view it based on your browser settings. Downloaded invoices provide both an itemized summary and itemized detailed billing for each billing item.
 
-**Note for those outside of the US:** If you are located outside the United States, you will be using a separate tool called Invoices which is located at http://www.ibm.com/support/customer/invoices. The specific steps you will need for each country are listed at [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). If you have any issues, contact us at 1-866-325-0045 and ask for access to your invoice.
-
+If you are located outside the United States, you use a tool called [Invoices](http://www.ibm.com/support/customer/invoices){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") to view your invoices. The specific steps for each country are listed at [https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang_invoices.html){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). If you have any issues, contact us at 1-866-325-0045 and ask for access to your invoice.
 {: note}
 
 ## Adding a payment method
